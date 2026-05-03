@@ -1,0 +1,256 @@
+{
+  "source": {
+    "file_name": "Математика Акпаева А.Б.  4 класс 2 часть.pdf",
+    "parsed_at": "2026-05-01",
+    "version": "v2",
+    "extraction_method": {
+      "pdf_text_layer": true,
+      "ocr_applied": true,
+      "ocr_languages": [
+        "ru",
+        "kk",
+        "eng"
+      ],
+      "page_render_tool": "pdftoppm",
+      "ocr_engine": "tesseract"
+    },
+    "quality_report": {
+      "high_confidence_blocks": [
+        "Титульные данные и выходные сведения (стр. 1-2, 144)",
+        "Содержание (стр. 143, OCR)",
+        "Глоссарий и формулы (стр. 142)"
+      ],
+      "medium_confidence_blocks": [
+        "Заголовки уроков 41-80 по OCR страницам",
+        "Тексты отдельных заданий (OCR, локальные шумы)"
+      ],
+      "low_confidence_blocks": [
+        "Часть номеров страниц в содержании с OCR-искажениями (оценены по последовательности)",
+        "Отдельные символы в формулах (латиница/кириллица смешаны)"
+      ],
+      "note": "Первичный text layer оказался неполным и зашумленным watermark-строками; выполнен полный OCR по 144 страницам. Для строк с сильными искажениями применена оценка page_end_estimated по следующему уроку.",
+      "source_logs": [
+        "pdf_text_layer_read: partial/noisy",
+        "pdftoppm_rendered_pages: 144",
+        "tesseract_ocr_text_files: 144",
+        "toc_source_page: 143",
+        "glossary_source_page: 142"
+      ]
+    }
+  },
+  "metadata": {
+    "title": "Математика. Учебник для учащихся 4 класса общеобразовательной школы",
+    "subject": "Математика",
+    "grade": 4,
+    "part": 2,
+    "authors": [
+      "Акпаева А. Б.",
+      "Лебедева Л. А.",
+      "Мынжасарова М. Ж.",
+      "Лихобабенко Т. В."
+    ],
+    "publisher": "АЛМАТЫКІТАП БАСПАСЫ",
+    "publication_year": 2023,
+    "isbn": {
+      "part_2": "978-601-01-3862-9",
+      "overall": "978-602-02-1178-7"
+    },
+    "languages": [
+      "ru",
+      "kk"
+    ]
+  },
+  "topics_with_pages": [
+    { "lesson_no": 41, "section": "2A", "section_title": "Умножение и деление", "topic_title": "Умножение и деление числа на произведение", "page_start": 7, "page_end_estimated": 10 },
+    { "lesson_no": 42, "section": "2A", "section_title": "Умножение и деление", "topic_title": "Устные приемы умножения и деления чисел, оканчивающихся нолями", "page_start": 11, "page_end_estimated": 14 },
+    { "lesson_no": 43, "section": "2A", "section_title": "Умножение и деление", "topic_title": "Письменное умножение многозначных чисел, оканчивающихся нолями", "page_start": 15, "page_end_estimated": 18 },
+    { "lesson_no": 44, "section": "2A", "section_title": "Умножение и деление", "topic_title": "Письменное деление многозначных чисел, оканчивающихся нолями", "page_start": 19, "page_end_estimated": 22 },
+    { "lesson_no": 45, "section": "2A", "section_title": "Умножение и деление", "topic_title": "Закрепление", "page_start": 23, "page_end_estimated": 24 },
+    { "lesson_no": 46, "section": "2A", "section_title": "Умножение и деление", "topic_title": "Письменное умножение на двузначное число", "page_start": 25, "page_end_estimated": 28 },
+    { "lesson_no": 47, "section": "2A", "section_title": "Умножение и деление", "topic_title": "Письменное деление многозначных чисел на двузначное число", "page_start": 29, "page_end_estimated": 32 },
+    { "lesson_no": 48, "section": "2A", "section_title": "Умножение и деление", "topic_title": "Письменное деление многозначных чисел на двузначное число с остатком", "page_start": 33, "page_end_estimated": 35 },
+    { "lesson_no": 49, "section": "2A", "section_title": "Умножение и деление", "topic_title": "Письменное деление многозначных чисел на двузначное число", "page_start": 36, "page_end_estimated": 38 },
+    { "lesson_no": 50, "section": "2A", "section_title": "Умножение и деление", "topic_title": "Письменное деление многозначных чисел на двузначное число с нулем в частном", "page_start": 39, "page_end_estimated": 41 },
+    { "lesson_no": 51, "section": "2A", "section_title": "Умножение и деление", "topic_title": "Письменное деление многозначных чисел на двузначное число", "page_start": 42, "page_end_estimated": 44 },
+    { "lesson_no": 52, "section": "2A", "section_title": "Умножение и деление", "topic_title": "Письменное деление многозначных чисел", "page_start": 45, "page_end_estimated": 48 },
+    { "lesson_no": 53, "section": "2A", "section_title": "Умножение и деление", "topic_title": "Алгоритм умножения на трехзначное число", "page_start": 49, "page_end_estimated": 51 },
+    { "lesson_no": 54, "section": "2A", "section_title": "Умножение и деление", "topic_title": "Алгоритм умножения на трехзначное число", "page_start": 52, "page_end_estimated": 55 },
+    { "lesson_no": 55, "section": "2A", "section_title": "Умножение и деление", "topic_title": "Алгоритм деления на трехзначное число", "page_start": 56, "page_end_estimated": 58 },
+    { "lesson_no": 56, "section": "2A", "section_title": "Умножение и деление", "topic_title": "Алгоритм деления на трехзначное число", "page_start": 59, "page_end_estimated": 61 },
+    { "lesson_no": 57, "section": "2A", "section_title": "Умножение и деление", "topic_title": "Алгоритм умножения и деления на трехзначное число", "page_start": 62, "page_end_estimated": 64 },
+    { "lesson_no": 58, "section": "2A", "section_title": "Умножение и деление", "topic_title": "Алгоритм умножения и деления на трехзначное число", "page_start": 65, "page_end_estimated": 68 },
+    { "lesson_no": 59, "section": "2A", "section_title": "Умножение и деление", "topic_title": "Алгоритм умножения и деления на трехзначное число", "page_start": 69, "page_end_estimated": 72 },
+    { "lesson_no": 60, "section": "2A", "section_title": "Умножение и деление", "topic_title": "Обобщение изученного", "page_start": 73, "page_end_estimated": 73 },
+    { "lesson_no": 61, "section": "2A", "section_title": "Умножение и деление", "topic_title": "Проверь себя", "page_start": 74, "page_end_estimated": 77 },
+    { "lesson_no": 62, "section": "2B", "section_title": "Производительность и задачи на движение", "topic_title": "Производительность", "page_start": 78, "page_end_estimated": 80 },
+    { "lesson_no": 63, "section": "2B", "section_title": "Производительность и задачи на движение", "topic_title": "Производительность", "page_start": 81, "page_end_estimated": 84 },
+    { "lesson_no": 64, "section": "2B", "section_title": "Производительность и задачи на движение", "topic_title": "Производительность. Совместная работа", "page_start": 85, "page_end_estimated": 87 },
+    { "lesson_no": 65, "section": "2B", "section_title": "Производительность и задачи на движение", "topic_title": "Совместная работа", "page_start": 88, "page_end_estimated": 90 },
+    { "lesson_no": 66, "section": "2B", "section_title": "Производительность и задачи на движение", "topic_title": "Задачи на пропорциональное деление", "page_start": 91, "page_end_estimated": 94 },
+    { "lesson_no": 67, "section": "2B", "section_title": "Производительность и задачи на движение", "topic_title": "Пропорциональное деление", "page_start": 95, "page_end_estimated": 97 },
+    { "lesson_no": 68, "section": "2B", "section_title": "Производительность и задачи на движение", "topic_title": "Задачи на нахождение неизвестного по двум разностям", "page_start": 98, "page_end_estimated": 101 },
+    { "lesson_no": 69, "section": "2B", "section_title": "Производительность и задачи на движение", "topic_title": "Задачи на нахождение неизвестного по двум разностям", "page_start": 102, "page_end_estimated": 105 },
+    { "lesson_no": 70, "section": "2B", "section_title": "Производительность и задачи на движение", "topic_title": "Задачи на нахождение неизвестного по двум разностям", "page_start": 106, "page_end_estimated": 109 },
+    { "lesson_no": 71, "section": "2B", "section_title": "Производительность и задачи на движение", "topic_title": "Задачи на встречное движение", "page_start": 110, "page_end_estimated": 113 },
+    { "lesson_no": 72, "section": "2B", "section_title": "Производительность и задачи на движение", "topic_title": "Задачи на встречное движение", "page_start": 114, "page_end_estimated": 117 },
+    { "lesson_no": 73, "section": "2B", "section_title": "Производительность и задачи на движение", "topic_title": "Задачи на встречное движение", "page_start": 118, "page_end_estimated": 120 },
+    { "lesson_no": 74, "section": "2B", "section_title": "Производительность и задачи на движение", "topic_title": "Задачи на движение в противоположных направлениях", "page_start": 121, "page_end_estimated": 124 },
+    { "lesson_no": 75, "section": "2B", "section_title": "Производительность и задачи на движение", "topic_title": "Задачи на движение в противоположных направлениях", "page_start": 125, "page_end_estimated": 127 },
+    { "lesson_no": 76, "section": "2B", "section_title": "Производительность и задачи на движение", "topic_title": "Задачи на движение в противоположных направлениях", "page_start": 128, "page_end_estimated": 131 },
+    { "lesson_no": 77, "section": "2B", "section_title": "Производительность и задачи на движение", "topic_title": "Задачи на движение", "page_start": 132, "page_end_estimated": 135 },
+    { "lesson_no": 78, "section": "2B", "section_title": "Производительность и задачи на движение", "topic_title": "Проверь себя", "page_start": 136, "page_end_estimated": 137 },
+    { "lesson_no": 79, "section": "2B", "section_title": "Производительность и задачи на движение", "topic_title": "Обобщение", "page_start": 138, "page_end_estimated": 139 },
+    { "lesson_no": 80, "section": "2B", "section_title": "Производительность и задачи на движение", "topic_title": "Обобщение", "page_start": 140, "page_end_estimated": 141 }
+  ],
+  "rules": [
+    {
+      "rule_id": "R001",
+      "name": "Производительность",
+      "statement": "Производительность - работа, выполненная за единицу времени.",
+      "formula": "v = A : t; A = v * t",
+      "source_page": 142,
+      "confidence": "high"
+    },
+    {
+      "rule_id": "R002",
+      "name": "Совместная работа",
+      "statement": "Совместная производительность равна сумме производительностей; совместная работа равна произведению совместной производительности на время.",
+      "formula": "v_совм = v1 + v2; A_совм = v_совм * t",
+      "source_page": 142,
+      "confidence": "high"
+    },
+    {
+      "rule_id": "R003",
+      "name": "Формула проверки деления с остатком",
+      "statement": "Для деления с остатком делимое равно произведению делителя на частное плюс остаток, при этом остаток меньше делителя.",
+      "formula": "a = b * c + r, r < b",
+      "source_page": 142,
+      "confidence": "high"
+    },
+    {
+      "rule_id": "R004",
+      "name": "Скорость сближения",
+      "statement": "При движении навстречу расстояние уменьшается со скоростью, равной сумме скоростей объектов.",
+      "formula": "v_сбл = v1 + v2; S = v_сбл * t",
+      "source_page": 111,
+      "confidence": "medium"
+    },
+    {
+      "rule_id": "R005",
+      "name": "Скорость удаления",
+      "statement": "При движении в противоположных направлениях скорость удаления равна сумме скоростей.",
+      "formula": "v_уд = v1 + v2; S = v_уд * t; t = S : v_уд",
+      "source_page": 122,
+      "confidence": "high"
+    }
+  ],
+  "example_tasks_v2": {
+    "verbatim_examples": [
+      {
+        "lesson_no": 48,
+        "topic_title": "Письменное деление многозначных чисел на двузначное число с остатком",
+        "exact_page": 33,
+        "raw_text": "1 Выполни деление с остатком. Найди сумму всех остатков. Увеличь полученное число на 1 972, и ты узнаешь, в каком году университету, расположенному в столице Казахстана, присвоено имя Л. Гумилёва.",
+        "normalized_text": "Выполни деление с остатком, найди сумму остатков, затем увеличь результат на 1 972.",
+        "task_type": "word_problem",
+        "confidence": "medium"
+      },
+      {
+        "lesson_no": 60,
+        "topic_title": "Обобщение изученного",
+        "exact_page": 74,
+        "raw_text": "Запиши формулу зависимости между делимым а, делителем b, частным c и остатком r при делении с остатком. Выполни деление с остатком и проверь.",
+        "normalized_text": "Запиши формулу деления с остатком и выполни проверку на примере.",
+        "task_type": "calculation",
+        "confidence": "high"
+      },
+      {
+        "lesson_no": 71,
+        "topic_title": "Задачи на встречное движение",
+        "exact_page": 111,
+        "raw_text": "Из двух поселков навстречу друг другу выехали два велосипедиста. Арман ехал со скоростью 14 км/ч, Света - 12 км/ч. Встретились они через 2 ч. Каково расстояние между поселками?",
+        "normalized_text": "Найди расстояние между пунктами при встречном движении по данным скоростям и времени.",
+        "task_type": "word_problem",
+        "confidence": "high"
+      },
+      {
+        "lesson_no": 74,
+        "topic_title": "Задачи на движение в противоположных направлениях",
+        "exact_page": 122,
+        "raw_text": "При движении в противоположных направлениях скорость удаления равна сумме скоростей. Чтобы узнать, через сколько часов расстояние между автомобилями будет равно 500 км, надо поделить это расстояние на скорость удаления.",
+        "normalized_text": "Используй скорость удаления (сумму скоростей), чтобы найти время или расстояние.",
+        "task_type": "word_problem",
+        "confidence": "high"
+      },
+      {
+        "lesson_no": 74,
+        "topic_title": "Задачи на движение в противоположных направлениях",
+        "exact_page": 122,
+        "raw_text": "Найди значения выражений: 738 920 - (17 728 + 4 319); 29 251 - 12 729 + 3 018; 211 729 + 73 704 - 5 817; 255 427 - (20 735 + 9 999).",
+        "normalized_text": "Вычисли значения выражений со скобками и проверкой порядка действий.",
+        "task_type": "calculation",
+        "confidence": "high"
+      }
+    ],
+    "verbatim_examples_status": {
+      "available": true,
+      "reason": "После OCR удалось извлечь фрагменты заданий и формулировок с привязкой к страницам.",
+      "next_step": "Сделать ручную верификацию 10-15 выборочных заданий для исправления OCR-опечаток в числах и знаках."
+    },
+    "structural_examples_for_generation": [
+      {
+        "topic": "Деление с остатком",
+        "task_type": "calculation",
+        "template": "Выполни деление с остатком: {a} : {b}. Проверь по формуле a = b * c + r, r < b."
+      },
+      {
+        "topic": "Производительность и совместная работа",
+        "task_type": "word_problem",
+        "template": "Первый ученик выполняет {x} заданий за {t1} мин, второй - {y} заданий за {t2} мин. Найди их совместную производительность и объем работы за {t} мин."
+      },
+      {
+        "topic": "Встречное движение",
+        "task_type": "word_problem",
+        "template": "Из пунктов A и B одновременно навстречу друг другу выехали два объекта со скоростями {v1} и {v2}. Через {t} часов они встретились. Найди расстояние между A и B."
+      },
+      {
+        "topic": "Движение в противоположных направлениях",
+        "task_type": "word_problem",
+        "template": "Из одного пункта в противоположных направлениях выехали два объекта со скоростями {v1} и {v2}. Найди расстояние между ними через {t} часов."
+      },
+      {
+        "topic": "Письменные вычисления с многозначными числами",
+        "task_type": "calculation",
+        "template": "Вычисли письменно: {expr1}; {expr2}; {expr3}. Выполни проверку для одного выражения обратным действием."
+      }
+    ]
+  },
+  "generator_profile_kz_moem": {
+    "audience": "Учащиеся 4 класса РК (общеобразовательная школа), подготовка в стиле программы МОН РК.",
+    "language_policy": {
+      "supported_languages": ["ru", "kk"],
+      "default_content_language": "ru",
+      "recommendation": "Генерировать параллельные варианты ru/kk с одинаковой математической структурой и локализованной терминологией."
+    },
+    "task_mix_recommended": {
+      "calculation": 0.4,
+      "word_problem": 0.4,
+      "measurement": 0.1,
+      "geometry": 0.05,
+      "sets_logic": 0.05
+    },
+    "format_rules": [
+      "Формулировки короткие, учебникового типа: 'Выполни', 'Найди', 'Объясни', 'Проверь'.",
+      "В задачах использовать контексты, знакомые школьнику РК: школа, семья, транспорт, культурные объекты.",
+      "Для задач на движение явно задавать величины v, t, S и требуемую величину.",
+      "Для вычислительных заданий чередовать устные и письменные приемы и добавлять 1-2 задания на проверку.",
+      "Включать элементы рассуждения: сравнение способов решения, выбор удобного способа вычисления."
+    ],
+    "safety_and_scope": [
+      "Только безопасный нейтральный детский контент без взрослых/травмирующих сюжетов.",
+      "Без медицинских и психиатрических трактовок.",
+      "Не выходить за рамки математики 4 класса (многозначные числа, деление с остатком, движение, производительность).",
+      "Избегать оценочных и дискриминационных формулировок; контент должен быть инклюзивным."
+    ]
+  }
+}

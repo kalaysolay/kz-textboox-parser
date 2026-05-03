@@ -1,0 +1,6 @@
+# Local OCR outputs (large / regenerated)
+/ocr/
+
+# OS
+Thumbs.db
+.DS_Store
