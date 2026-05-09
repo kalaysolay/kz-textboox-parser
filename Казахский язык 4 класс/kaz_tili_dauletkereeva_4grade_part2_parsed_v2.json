@@ -1,0 +1,1044 @@
+{
+  "source": {
+    "file_name": "Қазақ тілі Даулеткереева Н. учебник для 4 класса 2 бөлім.pdf",
+    "parsed_at": "2026-05-09",
+    "version": "v2",
+    "extraction_method": {
+      "pdf_text_layer": true,
+      "pdf_text_layer_usable_for_content": false,
+      "ocr_applied": true,
+      "ocr_languages": [
+        "kaz",
+        "rus"
+      ],
+      "ocr_engine": "tesseract.js",
+      "render": "@napi-rs/canvas + pdfjs-dist",
+      "ocr_scale": 2,
+      "ocr_text_dir": "ocr/ocr_pages_kaz_tili_4_dauletkereeva_part2",
+      "ocr_pdf_page_range": "1-168"
+    },
+    "quality_report": {
+      "high_confidence_blocks": [
+        "Бөлім тақырыптары: Мамандықтар әлемі (бет 4–48), Табиғат құбылыстары (51–109), Қоршаған ортаны қорғау (112–165) — сабақ бастары OCR мәтінінен белгіленді.",
+        "Метадеректер: авторлар, баспа, жыл 2019 — бет 2 OCR.",
+        "Сабақ тақырыптарының page_start басым бөлігі сабақ бетінің 1–3 жолындағы тақырыптық жолға сүйенеді."
+      ],
+      "medium_confidence_blocks": [
+        "МАЗМҰНЫ (бет 167 OCR): жолдар мен бет нөмірлері күшті бүлінген; тақырып тізімін нақты нөмірлеу үшін қолданба.",
+        "Кейбір сабақ атаулары (мыс. «Ауа» орнына OCR «Кун») нормализацияланған.",
+        "verbatim үзінділер: 1-тапсырма бір бетте болмаған жағдайда «1.» нұсқаулары қолданылды."
+      ],
+      "low_confidence_blocks": [
+        "ISBN: титул/қысқа дерек бетінде OCR бойынша жоқ — metadata.isbn null.",
+        "Баспа бетінде 172 б. көрсетілген, PDF 168 бет — санағы әртүрлі болуы мүмкін.",
+        "Сөздік-бастауыш кесте 2-бөліктің соңында бөлшектелмеді (2 сынып үлгісіндегідей бөлек сөздік беті жоқ)."
+      ],
+      "note": "Мазмұн беті (167) тек қосалқы растр ретінде: негізгі карта — сабақ беттерінің OCR тақырыптары. Тест жасамас бұрын 2–3 сабақты баспа нұсқамен сәйкестендіру ұсынылады."
+    }
+  },
+  "metadata": {
+    "title": "Қазақ тілі. Оқулық 4-сынып үшін (РМО сыныбы, 2-бөлік)",
+    "title_kk": "Қазақ тілі. Оқулық 4-сынып үшін (русше оқыту сыныбы, 2-бөлік)",
+    "title_ru": "Казахский язык. Учебник для 4 класса (обучение на русском, часть 2)",
+    "subject": "Қазақ тілі",
+    "grade": 4,
+    "part": 2,
+    "authors": [
+      "Даулеткереева Н.Ж.",
+      "Мухангалиева Г.Б."
+    ],
+    "publisher": "ТОО «Алматыкітап баспасы»",
+    "city": "Алматы",
+    "publication_year": 2019,
+    "page_count": 168,
+    "page_count_printed_colophon_note": 172,
+    "isbn": {
+      "part_2": null,
+      "overall": null,
+      "note_ru": "ISBN OCR титул мәтінінен оқылмады; қажет болғанда қағаз кітаппен толтыру."
+    },
+    "languages": [
+      "kk",
+      "ru"
+    ]
+  },
+  "topics_with_pages": [
+    {
+      "id": "d4p2_u1l01",
+      "unit_no": 1,
+      "unit_title_kk": "Мамандықтар әлемі",
+      "lesson_no": 1,
+      "topic_title_kk": "Байқауға қатысамын",
+      "page_start": 4,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 6
+    },
+    {
+      "id": "d4p2_u1l02",
+      "unit_no": 1,
+      "unit_title_kk": "Мамандықтар әлемі",
+      "lesson_no": 2,
+      "topic_title_kk": "Сахна қызықтары",
+      "page_start": 7,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 8
+    },
+    {
+      "id": "d4p2_u1l03",
+      "unit_no": 1,
+      "unit_title_kk": "Мамандықтар әлемі",
+      "lesson_no": 3,
+      "topic_title_kk": "Дизайнер",
+      "page_start": 9,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 11
+    },
+    {
+      "id": "d4p2_u1l04",
+      "unit_no": 1,
+      "unit_title_kk": "Мамандықтар әлемі",
+      "lesson_no": 4,
+      "topic_title_kk": "Кішкентай тігінші",
+      "page_start": 12,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 13
+    },
+    {
+      "id": "d4p2_u1l05",
+      "unit_no": 1,
+      "unit_title_kk": "Мамандықтар әлемі",
+      "lesson_no": 5,
+      "topic_title_kk": "Кондитерлік зауытта",
+      "page_start": 14,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 16
+    },
+    {
+      "id": "d4p2_u1l06",
+      "unit_no": 1,
+      "unit_title_kk": "Мамандықтар әлемі",
+      "lesson_no": 6,
+      "topic_title_kk": "Ас мәзірі",
+      "page_start": 17,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 19
+    },
+    {
+      "id": "d4p2_u1l07",
+      "unit_no": 1,
+      "unit_title_kk": "Мамандықтар әлемі",
+      "lesson_no": 7,
+      "topic_title_kk": "Еңбек адамдары",
+      "page_start": 20,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 25
+    },
+    {
+      "id": "d4p2_u1l08",
+      "unit_no": 1,
+      "unit_title_kk": "Мамандықтар әлемі",
+      "lesson_no": 8,
+      "topic_title_kk": "Сәулетшінің өнері",
+      "page_start": 26,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 28
+    },
+    {
+      "id": "d4p2_u1l09",
+      "unit_no": 1,
+      "unit_title_kk": "Мамандықтар әлемі",
+      "lesson_no": 9,
+      "topic_title_kk": "Шаштаразда",
+      "page_start": 29,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 31
+    },
+    {
+      "id": "d4p2_u1l10",
+      "unit_no": 1,
+      "unit_title_kk": "Мамандықтар әлемі",
+      "lesson_no": 10,
+      "topic_title_kk": "Шаш үлгісін таңдаймыз",
+      "page_start": 32,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 34
+    },
+    {
+      "id": "d4p2_u1l11",
+      "unit_no": 1,
+      "unit_title_kk": "Мамандықтар әлемі",
+      "lesson_no": 11,
+      "topic_title_kk": "Киім дүкенінде",
+      "page_start": 35,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 37
+    },
+    {
+      "id": "d4p2_u1l12",
+      "unit_no": 1,
+      "unit_title_kk": "Мамандықтар әлемі",
+      "lesson_no": 12,
+      "topic_title_kk": "Сауданы қайдан жасадың?",
+      "page_start": 38,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 41
+    },
+    {
+      "id": "d4p2_u1l13",
+      "unit_no": 1,
+      "unit_title_kk": "Мамандықтар әлемі",
+      "lesson_no": 13,
+      "topic_title_kk": "Мен дәрігер боламын",
+      "page_start": 42,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 44
+    },
+    {
+      "id": "d4p2_u1l14",
+      "unit_no": 1,
+      "unit_title_kk": "Мамандықтар әлемі",
+      "lesson_no": 14,
+      "topic_title_kk": "Спортшы",
+      "page_start": 45,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 47
+    },
+    {
+      "id": "d4p2_u1l15",
+      "unit_no": 1,
+      "unit_title_kk": "Мамандықтар әлемі",
+      "lesson_no": 15,
+      "topic_title_kk": "Қайталау",
+      "page_start": 48,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 50
+    },
+    {
+      "id": "d4p2_u2l01",
+      "unit_no": 2,
+      "unit_title_kk": "Табиғат құбылыстары",
+      "lesson_no": 1,
+      "topic_title_kk": "Ауа райы болжамы",
+      "page_start": 51,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 53
+    },
+    {
+      "id": "d4p2_u2l02",
+      "unit_no": 2,
+      "unit_title_kk": "Табиғат құбылыстары",
+      "lesson_no": 2,
+      "topic_title_kk": "Ұнамды және ұнамсыз жайттар",
+      "page_start": 54,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 57
+    },
+    {
+      "id": "d4p2_u2l03",
+      "unit_no": 2,
+      "unit_title_kk": "Табиғат құбылыстары",
+      "lesson_no": 3,
+      "topic_title_kk": "Аймақтар табиғаты",
+      "page_start": 58,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 61
+    },
+    {
+      "id": "d4p2_u2l04",
+      "unit_no": 2,
+      "unit_title_kk": "Табиғат құбылыстары",
+      "lesson_no": 4,
+      "topic_title_kk": "Қысқы ойын",
+      "page_start": 62,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 63
+    },
+    {
+      "id": "d4p2_u2l05",
+      "unit_no": 2,
+      "unit_title_kk": "Табиғат құбылыстары",
+      "lesson_no": 5,
+      "topic_title_kk": "Күн райын бақылайық",
+      "page_start": 64,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 66
+    },
+    {
+      "id": "d4p2_u2l06",
+      "unit_no": 2,
+      "unit_title_kk": "Табиғат құбылыстары",
+      "lesson_no": 6,
+      "topic_title_kk": "Ғажайып қыс",
+      "page_start": 67,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 69
+    },
+    {
+      "id": "d4p2_u2l07",
+      "unit_no": 2,
+      "unit_title_kk": "Табиғат құбылыстары",
+      "lesson_no": 7,
+      "topic_title_kk": "Қыстағы аңшылық",
+      "page_start": 70,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 72
+    },
+    {
+      "id": "d4p2_u2l08",
+      "unit_no": 2,
+      "unit_title_kk": "Табиғат құбылыстары",
+      "lesson_no": 8,
+      "topic_title_kk": "Айналаны салыстыру",
+      "page_start": 73,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 75
+    },
+    {
+      "id": "d4p2_u2l09",
+      "unit_no": 2,
+      "unit_title_kk": "Табиғат құбылыстары",
+      "lesson_no": 9,
+      "topic_title_kk": "Алматы мен Астана",
+      "page_start": 76,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 78
+    },
+    {
+      "id": "d4p2_u2l10",
+      "unit_no": 2,
+      "unit_title_kk": "Табиғат құбылыстары",
+      "lesson_no": 10,
+      "topic_title_kk": "Қайталау",
+      "page_start": 79,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 81
+    },
+    {
+      "id": "d4p2_u2l11",
+      "unit_no": 2,
+      "unit_title_kk": "Табиғат құбылыстары",
+      "lesson_no": 11,
+      "topic_title_kk": "Менің білуімше…",
+      "page_start": 82,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 84
+    },
+    {
+      "id": "d4p2_u2l12",
+      "unit_no": 2,
+      "unit_title_kk": "Табиғат құбылыстары",
+      "lesson_no": 12,
+      "topic_title_kk": "Халықтық болжам",
+      "page_start": 85,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 87
+    },
+    {
+      "id": "d4p2_u2l13",
+      "unit_no": 2,
+      "unit_title_kk": "Табиғат құбылыстары",
+      "lesson_no": 13,
+      "topic_title_kk": "Көктемгі құбылыстар",
+      "page_start": 88,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 91
+    },
+    {
+      "id": "d4p2_u2l14",
+      "unit_no": 2,
+      "unit_title_kk": "Табиғат құбылыстары",
+      "lesson_no": 14,
+      "topic_title_kk": "Жау-жау, жаңбыр",
+      "page_start": 92,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 94
+    },
+    {
+      "id": "d4p2_u2l15",
+      "unit_no": 2,
+      "unit_title_kk": "Табиғат құбылыстары",
+      "lesson_no": 15,
+      "topic_title_kk": "Дауылдан қорықтым",
+      "page_start": 95,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 97
+    },
+    {
+      "id": "d4p2_u2l16",
+      "unit_no": 2,
+      "unit_title_kk": "Табиғат құбылыстары",
+      "lesson_no": 16,
+      "topic_title_kk": "Қауіпті мекен",
+      "page_start": 98,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 99
+    },
+    {
+      "id": "d4p2_u2l17",
+      "unit_no": 2,
+      "unit_title_kk": "Табиғат құбылыстары",
+      "lesson_no": 17,
+      "topic_title_kk": "Жасанды мұхит",
+      "page_start": 100,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 103
+    },
+    {
+      "id": "d4p2_u2l18",
+      "unit_no": 2,
+      "unit_title_kk": "Табиғат құбылыстары",
+      "lesson_no": 18,
+      "topic_title_kk": "Табиғат құбылыстары мен мекендерді салыстыру",
+      "page_start": 104,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 105
+    },
+    {
+      "id": "d4p2_u2l19",
+      "unit_no": 2,
+      "unit_title_kk": "Табиғат құбылыстары",
+      "lesson_no": 19,
+      "topic_title_kk": "Орманды аймақ",
+      "page_start": 106,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 108
+    },
+    {
+      "id": "d4p2_u2l20",
+      "unit_no": 2,
+      "unit_title_kk": "Табиғат құбылыстары",
+      "lesson_no": 20,
+      "topic_title_kk": "Қайталау",
+      "page_start": 109,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 111
+    },
+    {
+      "id": "d4p2_u3l01",
+      "unit_no": 3,
+      "unit_title_kk": "Қоршаған ортаны қорғау",
+      "lesson_no": 1,
+      "topic_title_kk": "Табиғат — ортақ үйіміз",
+      "page_start": 112,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 113
+    },
+    {
+      "id": "d4p2_u3l02",
+      "unit_no": 3,
+      "unit_title_kk": "Қоршаған ортаны қорғау",
+      "lesson_no": 2,
+      "topic_title_kk": "Қорықта",
+      "page_start": 114,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 116
+    },
+    {
+      "id": "d4p2_u3l03",
+      "unit_no": 3,
+      "unit_title_kk": "Қоршаған ортаны қорғау",
+      "lesson_no": 3,
+      "topic_title_kk": "Сұлулықты сақтайық",
+      "page_start": 117,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 119
+    },
+    {
+      "id": "d4p2_u3l04",
+      "unit_no": 3,
+      "unit_title_kk": "Қоршаған ортаны қорғау",
+      "lesson_no": 4,
+      "topic_title_kk": "Дала жануарларын қорғау",
+      "page_start": 120,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 122
+    },
+    {
+      "id": "d4p2_u3l05",
+      "unit_no": 3,
+      "unit_title_kk": "Қоршаған ортаны қорғау",
+      "lesson_no": 5,
+      "topic_title_kk": "Ақылды аң (қасқыр)",
+      "page_start": 123,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 125
+    },
+    {
+      "id": "d4p2_u3l06",
+      "unit_no": 3,
+      "unit_title_kk": "Қоршаған ортаны қорғау",
+      "lesson_no": 6,
+      "topic_title_kk": "Ағаш отырғызу",
+      "page_start": 126,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 128
+    },
+    {
+      "id": "d4p2_u3l07",
+      "unit_no": 3,
+      "unit_title_kk": "Қоршаған ортаны қорғау",
+      "lesson_no": 7,
+      "topic_title_kk": "Емен мен долана",
+      "page_start": 129,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 131
+    },
+    {
+      "id": "d4p2_u3l08",
+      "unit_no": 3,
+      "unit_title_kk": "Қоршаған ортаны қорғау",
+      "lesson_no": 8,
+      "topic_title_kk": "Пайдалы өсімдіктер",
+      "page_start": 132,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 133
+    },
+    {
+      "id": "d4p2_u3l09",
+      "unit_no": 3,
+      "unit_title_kk": "Қоршаған ортаны қорғау",
+      "lesson_no": 9,
+      "topic_title_kk": "Қызыл кітапқа енген гүлдер",
+      "page_start": 134,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 135
+    },
+    {
+      "id": "d4p2_u3l10",
+      "unit_no": 3,
+      "unit_title_kk": "Қоршаған ортаны қорғау",
+      "lesson_no": 10,
+      "topic_title_kk": "Қайталау",
+      "page_start": 136,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 138
+    },
+    {
+      "id": "d4p2_u3l11",
+      "unit_no": 3,
+      "unit_title_kk": "Қоршаған ортаны қорғау",
+      "lesson_no": 11,
+      "topic_title_kk": "Жәндіктердің айтысы",
+      "page_start": 139,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 142
+    },
+    {
+      "id": "d4p2_u3l12",
+      "unit_no": 3,
+      "unit_title_kk": "Қоршаған ортаны қорғау",
+      "lesson_no": 12,
+      "topic_title_kk": "Құмырсқаның илеуі",
+      "page_start": 143,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 144
+    },
+    {
+      "id": "d4p2_u3l13",
+      "unit_no": 3,
+      "unit_title_kk": "Қоршаған ортаны қорғау",
+      "lesson_no": 13,
+      "topic_title_kk": "Каспий теңізі",
+      "page_start": 145,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 147
+    },
+    {
+      "id": "d4p2_u3l14",
+      "unit_no": 3,
+      "unit_title_kk": "Қоршаған ортаны қорғау",
+      "lesson_no": 14,
+      "topic_title_kk": "Құстар мен жәндіктер",
+      "page_start": 148,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 150
+    },
+    {
+      "id": "d4p2_u3l15",
+      "unit_no": 3,
+      "unit_title_kk": "Қоршаған ортаны қорғау",
+      "lesson_no": 15,
+      "topic_title_kk": "Табиғат қорғаушылары",
+      "page_start": 151,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 152
+    },
+    {
+      "id": "d4p2_u3l16",
+      "unit_no": 3,
+      "unit_title_kk": "Қоршаған ортаны қорғау",
+      "lesson_no": 16,
+      "topic_title_kk": "Қоқыс тастамайық",
+      "page_start": 153,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 155
+    },
+    {
+      "id": "d4p2_u3l17",
+      "unit_no": 3,
+      "unit_title_kk": "Қоршаған ортаны қорғау",
+      "lesson_no": 17,
+      "topic_title_kk": "Қайта өңдеу",
+      "page_start": 156,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 158
+    },
+    {
+      "id": "d4p2_u3l18",
+      "unit_no": 3,
+      "unit_title_kk": "Қоршаған ортаны қорғау",
+      "lesson_no": 18,
+      "topic_title_kk": "Қалдықсыз өмір сүру",
+      "page_start": 159,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 161
+    },
+    {
+      "id": "d4p2_u3l19",
+      "unit_no": 3,
+      "unit_title_kk": "Қоршаған ортаны қорғау",
+      "lesson_no": 19,
+      "topic_title_kk": "Суды үнемдеу",
+      "page_start": 162,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 163
+    },
+    {
+      "id": "d4p2_u3l20",
+      "unit_no": 3,
+      "unit_title_kk": "Қоршаған ортаны қорғау",
+      "lesson_no": 20,
+      "topic_title_kk": "Қайталау",
+      "page_start": 164,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 166
+    }
+  ],
+  "rules": [
+    {
+      "id": "r_compound_sentence_grade4",
+      "title_kk": "Құрмалас сөйлемдермен жұмыс",
+      "title_ru": "Работа с предложениями повышенной сложности",
+      "source_pdf_pages": [
+        111
+      ],
+      "summary_ru": "На стр. 111 (OCR) идёт работа с расширенными структурами предложения и лексикой сравнения в контексте природы.",
+      "summary_kk": "Табиғат тақырыбындағы салыстыру және күрделі сөйлем құрылымы (бет 111 OCR).",
+      "formula": null,
+      "extraction_note_ru": "Отдельного справочника «грамматика» в хвосте части 2 по OCR не выделен; правило привязано к типу упражнения.",
+      "confidence": "medium_ocr"
+    },
+    {
+      "id": "r_negative_pronouns_context",
+      "title_kk": "Болымсыз мағыналы сөздер (еш-, -ма/-ме)",
+      "title_ru": "Слова с отрицательным значением в контексте",
+      "source_pdf_pages": [
+        164
+      ],
+      "summary_ru": "Урок қайталау: подстановка ештеңе, ешқашан и т.п. (стр. 164 OCR).",
+      "formula": null,
+      "confidence": "medium_ocr"
+    },
+    {
+      "id": "r_percentage_lexis",
+      "title_kk": "Пайыз және сандар",
+      "title_ru": "Лексика процентов и задачи на числа",
+      "source_pdf_pages": [
+        165
+      ],
+      "summary_ru": "Фрагменты с процентами и толкованием долей (стр. 165 OCR, зашумлено).",
+      "formula": null,
+      "confidence": "low_ocr"
+    },
+    {
+      "id": "r_geography_compare_cities",
+      "title_kk": "Екі аймақты салыстыру",
+      "title_ru": "Сравнение двух регионов / городов",
+      "source_pdf_pages": [
+        76
+      ],
+      "summary_ru": "Сабақ «Алматы мен Астана»: сравнение климата и признаков (стр. 76 OCR).",
+      "formula": null,
+      "confidence": "high"
+    },
+    {
+      "id": "r_ecology_waste",
+      "title_kk": "Қалдықтар және қайта өңдеу",
+      "title_ru": "Отходы и переработка (экологический контекст)",
+      "source_pdf_pages": [
+        156,
+        159
+      ],
+      "summary_ru": "Темы устойчивого потребления и переработки в разделе «Қоршаған ортаны қорғау».",
+      "formula": null,
+      "confidence": "medium_ocr"
+    }
+  ],
+  "topic_rule_links": [
+    {
+      "topic_id": "d4p2_u1l01",
+      "rule_ids": [
+        "r_compound_sentence_grade4"
+      ],
+      "relation": "related",
+      "note_ru": "Байқау, сахна лексикасы."
+    },
+    {
+      "topic_id": "d4p2_u2l01",
+      "rule_ids": [
+        "r_geography_compare_cities"
+      ],
+      "relation": "related",
+      "note_ru": "Күн райы, болжам."
+    },
+    {
+      "topic_id": "d4p2_u2l09",
+      "rule_ids": [
+        "r_geography_compare_cities"
+      ],
+      "relation": "primary",
+      "note_ru": "Алматы / Астана."
+    },
+    {
+      "topic_id": "d4p2_u2l10",
+      "rule_ids": [
+        "r_compound_sentence_grade4"
+      ],
+      "relation": "review",
+      "note_ru": "Қайталау бөлімі."
+    },
+    {
+      "topic_id": "d4p2_u2l20",
+      "rule_ids": [
+        "r_compound_sentence_grade4"
+      ],
+      "relation": "review",
+      "note_ru": "Қайталау бөлімі."
+    },
+    {
+      "topic_id": "d4p2_u3l17",
+      "rule_ids": [
+        "r_ecology_waste"
+      ],
+      "relation": "primary",
+      "note_ru": "Қайта өңдеу."
+    },
+    {
+      "topic_id": "d4p2_u3l18",
+      "rule_ids": [
+        "r_ecology_waste",
+        "r_negative_pronouns_context"
+      ],
+      "relation": "primary",
+      "note_ru": "Қалдықсыз өмір сүру."
+    },
+    {
+      "topic_id": "d4p2_u3l20",
+      "rule_ids": [
+        "r_negative_pronouns_context",
+        "r_percentage_lexis"
+      ],
+      "relation": "review",
+      "note_ru": "Соңғы қайталау: болымсыз лексика + пайыз (бет 165)."
+    }
+  ],
+  "glossary_kk_ru": {
+    "source": "Жаңа сөздер блоктары по страницам учебника (правый столбец рядом с темой, OCR + нормализация).",
+    "entries_by_page": [
+      {
+        "page": 4,
+        "topic_ref": "d4p2_u1l01",
+        "entries": [
+          { "kk": "мамандық", "ru": "профессия" },
+          { "kk": "таңдау", "ru": "выбирать, выбор" },
+          { "kk": "әнші", "ru": "певец, певица" },
+          { "kk": "биші", "ru": "танцор, танцовщица" },
+          { "kk": "сахна", "ru": "сцена" },
+          { "kk": "жеңімпаз", "ru": "победитель" }
+        ]
+      },
+      {
+        "page": 7,
+        "topic_ref": "d4p2_u1l02",
+        "entries": [
+          { "kk": "сазгер", "ru": "композитор" },
+          { "kk": "көрермен", "ru": "зритель" },
+          { "kk": "қазылар алқасы", "ru": "жюри" },
+          { "kk": "тілші", "ru": "журналист, корреспондент" },
+          { "kk": "болашақ", "ru": "будущее" }
+        ]
+      },
+      {
+        "page": 9,
+        "topic_ref": "d4p2_u1l03",
+        "entries": [
+          { "kk": "алтын ине", "ru": "золотая игла" },
+          { "kk": "сән үйі", "ru": "дом моды" },
+          { "kk": "тапсырыс беруші", "ru": "заказчик" },
+          { "kk": "мата", "ru": "ткань" },
+          { "kk": "сән үлгісі", "ru": "модель, фасон" }
+        ]
+      },
+      {
+        "page": 14,
+        "topic_ref": "d4p2_u1l05",
+        "entries": [
+          { "kk": "кондитер", "ru": "кондитер" },
+          { "kk": "суыту", "ru": "охлаждать" },
+          { "kk": "еріту", "ru": "растапливать, растворять" },
+          { "kk": "безендіру", "ru": "украшать" },
+          { "kk": "араластыру", "ru": "смешивать" }
+        ]
+      },
+      {
+        "page": 35,
+        "topic_ref": "d4p2_u1l11",
+        "entries": [
+          { "kk": "малақай", "ru": "малахай (меховая шапка)" },
+          { "kk": "бөкебай", "ru": "пуховый платок" },
+          { "kk": "бәтеңке", "ru": "ботинки, туфли" },
+          { "kk": "белдік", "ru": "ремень" },
+          { "kk": "қамзол", "ru": "камзол" }
+        ]
+      },
+      {
+        "page": 38,
+        "topic_ref": "d4p2_u1l12",
+        "entries": [
+          { "kk": "тауар", "ru": "товар" },
+          { "kk": "бұйым", "ru": "изделие, вещь" },
+          { "kk": "дүкен", "ru": "магазин" },
+          { "kk": "зергерлік бұйымдар", "ru": "ювелирные изделия" },
+          { "kk": "кеңсе тауарлары", "ru": "канцелярские товары" }
+        ]
+      },
+      {
+        "page": 42,
+        "topic_ref": "d4p2_u1l13",
+        "entries": [
+          { "kk": "тамағым ауырады", "ru": "у меня болит горло" },
+          { "kk": "құлағым шулайды", "ru": "у меня шумит в ушах" },
+          { "kk": "қабылдау", "ru": "прием (у врача)" },
+          { "kk": "дәрігер", "ru": "врач" }
+        ]
+      },
+      {
+        "page": 51,
+        "topic_ref": "d4p2_u2l01",
+        "entries": [
+          { "kk": "ашық күн", "ru": "ясная погода" },
+          { "kk": "жаңбыр", "ru": "дождь" },
+          { "kk": "жылы", "ru": "теплый" },
+          { "kk": "күн райы болжамы", "ru": "прогноз погоды" },
+          { "kk": "ауа температурасы", "ru": "температура воздуха" }
+        ]
+      },
+      {
+        "page": 58,
+        "topic_ref": "d4p2_u2l03",
+        "entries": [
+          { "kk": "боран", "ru": "буран" },
+          { "kk": "үсік", "ru": "заморозки" },
+          { "kk": "шық", "ru": "роса" },
+          { "kk": "бұршақ", "ru": "град" },
+          { "kk": "аймақ", "ru": "регион, местность" }
+        ]
+      },
+      {
+        "page": 76,
+        "topic_ref": "d4p2_u2l09",
+        "entries": [
+          { "kk": "салыстыру", "ru": "сравнение" },
+          { "kk": "күн райы", "ru": "погода" },
+          { "kk": "аймақ", "ru": "регион" },
+          { "kk": "Алматы", "ru": "Алматы" },
+          { "kk": "Астана", "ru": "Астана" }
+        ]
+      },
+      {
+        "page": 112,
+        "topic_ref": "d4p2_u3l01",
+        "entries": [
+          { "kk": "киік", "ru": "сайгак" },
+          { "kk": "марал", "ru": "марал, благородный олень" },
+          { "kk": "табиғат", "ru": "природа" },
+          { "kk": "қорғау", "ru": "защищать, охранять" }
+        ]
+      },
+      {
+        "page": 114,
+        "topic_ref": "d4p2_u3l02",
+        "entries": [
+          { "kk": "қорық", "ru": "заповедник" },
+          { "kk": "еркін жүру", "ru": "свободно передвигаться" },
+          { "kk": "жайылу", "ru": "пастись, расселяться" },
+          { "kk": "қоршау", "ru": "ограждать, ограда" }
+        ]
+      },
+      {
+        "page": 132,
+        "topic_ref": "d4p2_u3l08",
+        "entries": [
+          { "kk": "пайдалы өсімдіктер", "ru": "полезные растения" },
+          { "kk": "дәрілік өсімдік", "ru": "лекарственное растение" },
+          { "kk": "пайдасы", "ru": "польза" }
+        ]
+      },
+      {
+        "page": 143,
+        "topic_ref": "d4p2_u3l12",
+        "entries": [
+          { "kk": "илеу", "ru": "муравейник" },
+          { "kk": "дернәсіл", "ru": "личинка" },
+          { "kk": "аналық", "ru": "матка (самка)" },
+          { "kk": "жұмысшы құмырсқа", "ru": "рабочий муравей" }
+        ]
+      },
+      {
+        "page": 156,
+        "topic_ref": "d4p2_u3l17",
+        "entries": [
+          { "kk": "қайта өңдеу", "ru": "переработка" },
+          { "kk": "бүлдіру", "ru": "портить" },
+          { "kk": "өңдеу", "ru": "обрабатывать" },
+          { "kk": "өнім шығару", "ru": "производить продукцию" },
+          { "kk": "артық пайдалану", "ru": "чрезмерное использование" }
+        ]
+      },
+      {
+        "page": 159,
+        "topic_ref": "d4p2_u3l18",
+        "entries": [
+          { "kk": "өндірістік қалдық", "ru": "промышленные отходы" },
+          { "kk": "улы зат", "ru": "ядовитое вещество" },
+          { "kk": "шірімеу", "ru": "не разлагаться" },
+          { "kk": "қалдық", "ru": "отходы" }
+        ]
+      },
+      {
+        "page": 162,
+        "topic_ref": "d4p2_u3l19",
+        "entries": [
+          { "kk": "суды үнемдеу", "ru": "экономия воды" },
+          { "kk": "үнемдеу", "ru": "экономить, беречь" },
+          { "kk": "таза су", "ru": "чистая вода" }
+        ]
+      }
+    ],
+    "note": "Собрано из правого столбца «жаңа сөздер» рядом с темами; часть форм нормализована из OCR (confidence: medium_ocr)."
+  },
+  "example_tasks_v2": {
+    "verbatim_examples": [
+      {
+        "lesson_id": "d4p2_u1l01",
+        "lesson_no": 1,
+        "unit_no": 1,
+        "topic_title": "Байқауға қатысамын",
+        "exact_page": 4,
+        "raw_text": "1. Сұрақтардыоқы. Жауабын тыңдалым мәтінінен тап. Байқау қашан өтеді? Байқауға кімдерді шақырады? Қандай өнер көрсету керек? Жеңімпазға не береді? “Ойланайық | 2. Мәтінді оқы. Сұрақтарға жауап тап. Балалар қандай өнер көрсетеді? Болашақта олар қандай мамандықты таңдайды? 4",
+        "normalized_text": "1. Сұрақтардыоқы. Жауабын тыңдалым мәтінінен тап. Байқау қашан өтеді? Байқауға кімдерді шақырады? Қандай өнер көрсету керек? Жеңімпазға не береді? “Ойланайық | 2. Мәтінді оқы. Сұрақтарға жауап тап. Балалар қандай өнер көрсетеді? Болашақта олар қандай мамандықты таңдайды? 4",
+        "task_type": "reading_comprehension",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_id": "d4p2_u2l01",
+        "lesson_no": 1,
+        "unit_no": 2,
+        "topic_title": "Ауа райы болжамы",
+        "exact_page": 51,
+        "raw_text": "1. Мәтінді тыңда. Кестені толтыр. қ Ф ‘ун райы болжамы БАТА р кун ; Мао ое жд == “Ге. сь = “2? ж. 5; 5. ке, 5 |52 ЖЯНДЫ ІІІ БЕС = «-. сұраққа жауап бер. йы болжамын кім айтады? Күн райы болжамын қайдан білуге болады? уа температурасын көрсететін құрал қалай аталады? Сынап бағанасы 0-ден жоғары болса, нені білдіреді? Сынап бағанасы 0-ден төмен болса, нені білдіреді? Сынап бағанасы +18 градус болса, күн қандай болады? ",
+        "normalized_text": "1. Мәтінді тыңда. Кестені толтыр. қ Ф ‘ун райы болжамы БАТА р кун ; Мао ое жд == “Ге. сь = “2? ж. 5; 5. ке, 5 |52 ЖЯНДЫ ІІІ БЕС = «-. сұраққа жауап бер. йы болжамын кім айтады? Күн райы болжамын қайдан білуге болады? уа температурасын көрсететін құрал қалай аталады? Сынап бағанасы 0-ден жоғары болса, нені білдіреді? Сынап бағанасы 0-ден төмен болса, нені білдіреді? Сынап бағанасы +18 градус болса, күн қандай болады? ",
+        "task_type": "listening_table",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_id": "d4p2_u3l01",
+        "lesson_no": 1,
+        "unit_no": 3,
+        "topic_title": "Табиғат — ортақ үйіміз",
+        "exact_page": 112,
+        "raw_text": "1. Бос орындарға тиісті сөздерді кой : 1....-ірі жануар. Оның бой 549 / қарағанда ұзындау. 2. Менің әкем ... болып жұмыс жасайды. 8.... - өтеәдемі жануар. ! Киіктің лағынқ деп атайды. 2.Сурел еқарА0 рет бойынша әңгіме құрастыр ажетті сё! дер: мал дәрігері, марал, киік. ШТ “А ТТТ В б ші 1 я | №. Те ар, Шісіліг- 1 Раны | т ОД к ди и Е) ЛО | ч Жанын ой | ия 1 2 112",
+        "normalized_text": "1. Бос орындарға тиісті сөздерді кой : 1....-ірі жануар. Оның бой 549 / қарағанда ұзындау. 2. Менің әкем ... болып жұмыс жасайды. 8.... - өтеәдемі жануар. ! Киіктің лағынқ деп атайды. 2.Сурел еқарА0 рет бойынша әңгіме құрастыр ажетті сё! дер: мал дәрігері, марал, киік. ШТ “А ТТТ В б ші 1 я | №. Те ар, Шісіліг- 1 Раны | т ОД к ди и Е) ЛО | ч Жанын ой | ия 1 2 112",
+        "task_type": "prediction_reading",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_id": "d4p2_u3l06",
+        "lesson_no": 6,
+        "unit_no": 3,
+        "topic_title": "Ағаш отырғызу",
+        "exact_page": 126,
+        "raw_text": "1. Сұрақтарды көршіңмен, кейін сыныппен бірге т: Газет оқисың ба? + Керек мәліметті қайдан іздейсің? Ағаш егу туралы қайдан білуге бо. % ке. Те а || д ғ емен терек 126",
+        "normalized_text": "1. Сұрақтарды көршіңмен, кейін сыныппен бірге т: Газет оқисың ба? + Керек мәліметті қайдан іздейсің? Ағаш егу туралы қайдан білуге бо. % ке. Те а || д ғ емен терек 126",
+        "task_type": "project_short",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_id": "d4p2_u3l12",
+        "lesson_no": 12,
+        "unit_no": 3,
+        "topic_title": "Құмырсқаның илеуі",
+        "exact_page": 143,
+        "raw_text": "1. Сұрақтарды көршіңмен талқыла. ғ “ И ЕУ Ф Құмырсқаны көрдің бе? 2 | * Ол қандай жәндік? Ж Кл Дене турпаты кандай? % м ы “; = Құмырсқаның қанша көзі, аяғы Е Ъ % Құмырсқаның илеуін көрдің бе? ә % ъ Құмырсқаның пайдасы қандай деп ойлайсың? ъ “ А ы- = Сы 5% вине = ж-- 2. Құмырсқаның суретін сал, Дене тұрпатын сипаттап айт. Үлгі: Құмырсқаның ІР «7,4 “ Жана сөз үйренейін” ” ь * . ых Жа- а ағы ея илеу „ дернәсіл аналық жұ",
+        "normalized_text": "1. Сұрақтарды көршіңмен талқыла. ғ “ И ЕУ Ф Құмырсқаны көрдің бе? 2 | * Ол қандай жәндік? Ж Кл Дене турпаты кандай? % м ы “; = Құмырсқаның қанша көзі, аяғы Е Ъ % Құмырсқаның илеуін көрдің бе? ә % ъ Құмырсқаның пайдасы қандай деп ойлайсың? ъ “ А ы- = Сы 5% вине = ж-- 2. Құмырсқаның суретін сал, Дене тұрпатын сипаттап айт. Үлгі: Құмырсқаның ІР «7,4 “ Жана сөз үйренейін” ” ь * . ых Жа- а ағы ея илеу „ дернәсіл аналық жұ",
+        "task_type": "reading_science",
+        "confidence": "medium_ocr"
+      }
+    ],
+    "verbatim_examples_status": {
+      "available": true,
+      "reason": "Таңдалған беттердегі бірінші нұсқау/тапсырма үзінділері (OCR).",
+      "next_step": "Керек болса scale=3 қайта OCR немесе нақты «1-тапсырма» бар беттерді кеңейтіңіз."
+    },
+    "structural_examples_for_generation": [
+      {
+        "task_type": "mcq_vocab_profession",
+        "stem_template_kk": "Мәтін бойынша: {topic} мамандығы қай сұраққа жауап береді?",
+        "distractor_style_ru": "Төрт мәтіндік нұсқа, бір дұрыс."
+      },
+      {
+        "task_type": "compare_two_regions",
+        "stem_template_kk": "Алматы мен Астананың күн райын екі сөйлеммен салыстыр.",
+        "rule_hint": "r_geography_compare_cities"
+      },
+      {
+        "task_type": "ecology_order_steps",
+        "stem_template_kk": "Пластик қалдықтарын азайту жолдарын ретімен орналастыр (1–4).",
+        "rule_hint": "r_ecology_waste"
+      },
+      {
+        "task_type": "grammar_negative_fill",
+        "stem_template_kk": "Бос орынға тиісті «еш-» сөзін қой: ____ қорқамын.",
+        "rule_hint": "r_negative_pronouns_context"
+      }
+    ]
+  },
+  "generator_profile_kz_moem": {
+    "audience": "4-сынып, 2-бөлік: мамандықтар, табиғат құбылыстары, экология.",
+    "language_policy": {
+      "ui": [
+        "kk",
+        "ru"
+      ],
+      "explanations": "kk_primary_ru_gloss"
+    },
+    "task_mix_recommended": {
+      "reading_listening": 0.28,
+      "speaking_writing_short": 0.22,
+      "grammar_morphology": 0.2,
+      "geography_nature_context": 0.2,
+      "ecology_values": 0.1
+    },
+    "format_rules": [
+      "Таңдау",
+      "Қысқа жауап",
+      "Сәйкестендіру",
+      "Реттеу"
+    ],
+    "safety_and_scope": [
+      "Балаларға арналған бейтара мазмұн",
+      "Медициналық диагноз жоқ; «дәрігер» сабақтары оқу мәтіні аясында",
+      "Саяси мəтін жоқ; табиғат пен аймақтар мектеп бағдарламасы шеңберінде"
+    ]
+  }
+}

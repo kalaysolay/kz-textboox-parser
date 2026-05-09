@@ -1,0 +1,409 @@
+{
+  "source": {
+    "file_name": "Қазақ тілі мен әдебиеті. Бәйшешек Оразбаева Ф.Ш. учебник для 5 класса 2 бөлім.pdf",
+    "parsed_at": "2026-05-09",
+    "version": "v2",
+    "extraction_method": {
+      "pdf_text_layer": true,
+      "ocr_applied": true,
+      "ocr_languages": [
+        "kaz",
+        "rus"
+      ],
+      "ocr_engine": "tesseract.js",
+      "ocr_text_dir": "ocr/ocr_text_kaz_tili_orazbaeva_5grade_part2",
+      "ocr_pages_dir": "ocr/ocr_pages_kaz_tili_orazbaeva_5grade_part2",
+      "ocr_page_range": "1-8,24-131,132-140"
+    },
+    "quality_report": {
+      "high_confidence_blocks": [
+        "Библиографические данные и авторы (OCR стр. 2, 140)",
+        "Структура разделов 7-13 и большинство названий уроков (OCR стр. 138)",
+        "Ключевые формулировки заданий и рубрик АЙТЫЛЫМ/ОҚЫЛЫМ/ЖАЗЫЛЫМ (text layer и OCR стр. 4-137)",
+        "Полный OCR-охват учебных страниц с уроками (24-131)"
+      ],
+      "medium_confidence_blocks": [
+        "Некоторые номера страниц в оглавлении повреждены OCR и восстановлены по последовательности",
+        "Часть формулировок правил извлечена из зашумленного text layer (нормализация орфографии частичная)"
+      ],
+      "low_confidence_blocks": [
+        "Отдельные подзаголовки 8-10 тем с искажениями символов; требуют ручной сверки по оригинальному PDF"
+      ],
+      "note": "Text layer присутствует, но содержит артефакты кодировки. Выполнен дополнительный полный OCR диапазона 24-131; это повысило надежность извлечения тем и заданий. Факты не выдумывались."
+    }
+  },
+  "source_logs": [
+    {
+      "step": "pdf_text_layer_extract",
+      "tool": "extract-pdfjs.mjs",
+      "output_dir": "ocr/ocr_text_kaz_tili_orazbaeva_5grade_part2",
+      "status": "done",
+      "details": "Извлечено 140 страниц text layer; обнаружены артефакты кодировки."
+    },
+    {
+      "step": "ocr_pass_metadata_and_toc",
+      "tool": "ocr-pdfjs.mjs",
+      "output_dir": "ocr/ocr_pages_kaz_tili_orazbaeva_5grade_part2",
+      "pages": "1-8,132-140",
+      "status": "done_with_runtime_crash",
+      "details": "Страницы и txt сохранены; crash произошел после завершения OCR при выходе Node."
+    },
+    {
+      "step": "ocr_pass_main_lessons",
+      "tool": "ocr-pdfjs.mjs",
+      "output_dir": "ocr/ocr_pages_kaz_tili_orazbaeva_5grade_part2",
+      "pages": "24-131",
+      "status": "done_with_runtime_crash",
+      "details": "Обработаны все страницы диапазона; данные сохранены, финальный crash аналогичен предыдущему."
+    }
+  ],
+  "metadata": {
+    "title": "Қазақ тілі мен әдебиеті: Бәйшешек",
+    "subject": "Қазақ тілі мен әдебиеті",
+    "grade": 5,
+    "part": 2,
+    "authors": [
+      "Ф. Ш. Оразбаева",
+      "Ж. Т. Дәулетбекова",
+      "А. Қ. Рауандина",
+      "Р. С. Рахметова",
+      "Қ. С. Жайлаубаева"
+    ],
+    "publisher": "Көкжиек-Горизонт",
+    "publication_year": 2017,
+    "isbn": {
+      "overall": "978-601-7832-34-6",
+      "part_2": "978-601-7832-36-0"
+    },
+    "languages": [
+      "kk",
+      "ru"
+    ],
+    "page_count": 140
+  },
+  "topics_with_pages": [
+    { "id": "t7_l1_2", "section_no": 7, "section_title_kk": "Денсаулық - зор байлық", "lesson_range": "1-2", "topic_title_kk": "Дәрігердің қабылдауында", "page_start": 4, "page_end_estimated": 7 },
+    { "id": "t7_l3_4", "section_no": 7, "section_title_kk": "Денсаулық - зор байлық", "lesson_range": "3-4", "topic_title_kk": "Дәрумен - денсаулық кепілі", "page_start": 8, "page_end_estimated": 10 },
+    { "id": "t7_l5_6", "section_no": 7, "section_title_kk": "Денсаулық - зор байлық", "lesson_range": "5-6", "topic_title_kk": "Ең үлкен байлық", "page_start": 11, "page_end_estimated": 15 },
+    { "id": "t7_l7_8", "section_no": 7, "section_title_kk": "Денсаулық - зор байлық", "lesson_range": "7-8", "topic_title_kk": "Ас - адамның арқауы", "page_start": 16, "page_end_estimated": 18 },
+    { "id": "t7_l9_10", "section_no": 7, "section_title_kk": "Денсаулық - зор байлық", "lesson_range": "9-10", "topic_title_kk": "Фастфудтың зияны", "page_start": 19, "page_end_estimated": 22 },
+    { "id": "t7_result", "section_no": 7, "section_title_kk": "Денсаулық - зор байлық", "lesson_range": "11-12", "topic_title_kk": "Нәтиже сабақ. Мен не үйрендім?", "page_start": 23, "page_end_estimated": 23 },
+
+    { "id": "t8_l1_2", "section_no": 8, "section_title_kk": "Менің Тәуелсіз Қазақстаным", "lesson_range": "1-2", "topic_title_kk": "Менің Тәуелсіз Қазақстаным", "page_start": 24, "page_end_estimated": 25 },
+    { "id": "t8_l3_4", "section_no": 8, "section_title_kk": "Менің Тәуелсіз Қазақстаным", "lesson_range": "3-4", "topic_title_kk": "Тәуелсіздік нышандары", "page_start": 26, "page_end_estimated": 29 },
+    { "id": "t8_l5_6", "section_no": 8, "section_title_kk": "Менің Тәуелсіз Қазақстаным", "lesson_range": "5-6", "topic_title_kk": "Тәуелсіздіктің символы - теңге", "page_start": 30, "page_end_estimated": 32 },
+    { "id": "t8_l7_8", "section_no": 8, "section_title_kk": "Менің Тәуелсіз Қазақстаным", "lesson_range": "7-8", "topic_title_kk": "Тәуелсіз елдің Астанасы", "page_start": 33, "page_end_estimated": 35 },
+    { "id": "t8_l9_10", "section_no": 8, "section_title_kk": "Менің Тәуелсіз Қазақстаным", "lesson_range": "9-10", "topic_title_kk": "«Алтын қалам» әдеби сыйлығының жеңімпазы", "page_start": 36, "page_end_estimated": 39 },
+    { "id": "t8_l11_12", "section_no": 8, "section_title_kk": "Менің Тәуелсіз Қазақстаным", "lesson_range": "11-12", "topic_title_kk": "Уа, еркіндік! Сенсің менің ең ғажайып өлеңім", "page_start": 40, "page_end_estimated": 43 },
+    { "id": "t8_result", "section_no": 8, "section_title_kk": "Менің Тәуелсіз Қазақстаным", "lesson_range": "13-14", "topic_title_kk": "Нәтиже сабақ. Мен не үйрендім?", "page_start": 44, "page_end_estimated": 47 },
+
+    { "id": "t9_l1_2", "section_no": 9, "section_title_kk": "Аспан әлемінің құпиясы", "lesson_range": "1-2", "topic_title_kk": "Аспан денелері", "page_start": 48, "page_end_estimated": 51 },
+    { "id": "t9_l3_4", "section_no": 9, "section_title_kk": "Аспан әлемінің құпиясы", "lesson_range": "3-4", "topic_title_kk": "Аспан әлемін зерттеген ұлы көшпенділер", "page_start": 52, "page_end_estimated": 55 },
+    { "id": "t9_l5_6", "section_no": 9, "section_title_kk": "Аспан әлемінің құпиясы", "lesson_range": "5-6", "topic_title_kk": "Шоқжұлдыздар", "page_start": 56, "page_end_estimated": 58 },
+    { "id": "t9_l7_8", "section_no": 9, "section_title_kk": "Аспан әлемінің құпиясы", "lesson_range": "7-8", "topic_title_kk": "Жұлдызды аспанның құпиясы", "page_start": 59, "page_end_estimated": 62 },
+    { "id": "t9_result", "section_no": 9, "section_title_kk": "Аспан әлемінің құпиясы", "lesson_range": "9-10", "topic_title_kk": "Нәтиже сабақ. Мен не үйрендім?", "page_start": 63, "page_end_estimated": 63, "note": "page_start estimated from sequence" },
+
+    { "id": "t10_l1_2", "section_no": 10, "section_title_kk": "Компьютердің тілін табу - өнер", "lesson_range": "1-2", "topic_title_kk": "Компьютер қалай пайда болды?", "page_start": 64, "page_end_estimated": 65, "note": "page_start estimated from sequence" },
+    { "id": "t10_l3_4", "section_no": 10, "section_title_kk": "Компьютердің тілін табу - өнер", "lesson_range": "3-4", "topic_title_kk": "«Өнер-білім бар жұрттар...»", "page_start": 66, "page_end_estimated": 69 },
+    { "id": "t10_l5_6", "section_no": 10, "section_title_kk": "Компьютердің тілін табу - өнер", "lesson_range": "5-6", "topic_title_kk": "Менің электронды поштам", "page_start": 70, "page_end_estimated": 72 },
+    { "id": "t10_l7_8", "section_no": 10, "section_title_kk": "Компьютердің тілін табу - өнер", "lesson_range": "7-8", "topic_title_kk": "Көзіңді қорға!", "page_start": 73, "page_end_estimated": 77 },
+    { "id": "t10_l9_10", "section_no": 10, "section_title_kk": "Компьютердің тілін табу - өнер", "lesson_range": "9-10", "topic_title_kk": "Компьютердің пайдасы мен зияны", "page_start": 78, "page_end_estimated": 81 },
+    { "id": "t10_result", "section_no": 10, "section_title_kk": "Компьютердің тілін табу - өнер", "lesson_range": "11", "topic_title_kk": "Нәтиже сабақ. Мен не үйрендім?", "page_start": 82, "page_end_estimated": 82 },
+
+    { "id": "t11_l1_2", "section_no": 11, "section_title_kk": "Қазақстандағы ұлттар достастығы", "lesson_range": "1-2", "topic_title_kk": "Бірлігі жарасқан ел", "page_start": 83, "page_end_estimated": 86 },
+    { "id": "t11_l3_4", "section_no": 11, "section_title_kk": "Қазақстандағы ұлттар достастығы", "lesson_range": "3-4", "topic_title_kk": "Маған қазақ әндері ұнайды", "page_start": 87, "page_end_estimated": 89 },
+    { "id": "t11_l5_6", "section_no": 11, "section_title_kk": "Қазақстандағы ұлттар достастығы", "lesson_range": "5-6", "topic_title_kk": "Халықтар достығы туралы шығарма", "page_start": 90, "page_end_estimated": 92 },
+    { "id": "t11_l7_8", "section_no": 11, "section_title_kk": "Қазақстандағы ұлттар достастығы", "lesson_range": "7-8", "topic_title_kk": "Бір атаның балалары", "page_start": 93, "page_end_estimated": 96 },
+    { "id": "t11_l9_10", "section_no": 11, "section_title_kk": "Қазақстандағы ұлттар достастығы", "lesson_range": "9-10", "topic_title_kk": "Адамзаттың бәрін сүй, бауырым деп", "page_start": 97, "page_end_estimated": 100, "note": "page_start estimated from sequence and next known point" },
+    { "id": "t11_result", "section_no": 11, "section_title_kk": "Қазақстандағы ұлттар достастығы", "lesson_range": "11", "topic_title_kk": "Нәтиже сабақ. Мен не үйрендім?", "page_start": 101, "page_end_estimated": 102 },
+
+    { "id": "t12_l1_2", "section_no": 12, "section_title_kk": "Ұлы дала табиғаты", "lesson_range": "1-2", "topic_title_kk": "Ұлттық саябақта", "page_start": 103, "page_end_estimated": 106 },
+    { "id": "t12_l3_4", "section_no": 12, "section_title_kk": "Ұлы дала табиғаты", "lesson_range": "3-4", "topic_title_kk": "«Әнші құм»", "page_start": 107, "page_end_estimated": 111 },
+    { "id": "t12_l5_6", "section_no": 12, "section_title_kk": "Ұлы дала табиғаты", "lesson_range": "5-6", "topic_title_kk": "Шайтанкөл - ғажайып құбылыс", "page_start": 112, "page_end_estimated": 115 },
+    { "id": "t12_l7_8", "section_no": 12, "section_title_kk": "Ұлы дала табиғаты", "lesson_range": "7-8", "topic_title_kk": "Ақсу-Жабағылы қорығы", "page_start": 116, "page_end_estimated": 118 },
+    { "id": "t12_l9_10", "section_no": 12, "section_title_kk": "Ұлы дала табиғаты", "lesson_range": "9-10", "topic_title_kk": "Табиғат - жаратылыс пернесі", "page_start": 119, "page_end_estimated": 120 },
+    { "id": "t12_result", "section_no": 12, "section_title_kk": "Ұлы дала табиғаты", "lesson_range": "11", "topic_title_kk": "Нәтиже сабақ. Мен не үйрендім?", "page_start": 121, "page_end_estimated": 121 },
+
+    { "id": "t13_l1_2", "section_no": 13, "section_title_kk": "Ер есімі - ел есінде", "lesson_range": "1-2", "topic_title_kk": "Ер есімі ел есінде!", "page_start": 122, "page_end_estimated": 125 },
+    { "id": "t13_l3_4", "section_no": 13, "section_title_kk": "Ер есімі - ел есінде", "lesson_range": "3-4", "topic_title_kk": "«Қазақ солдаты» - соғыс туралы көркем шығарма", "page_start": 126, "page_end_estimated": 128 },
+    { "id": "t13_l5_6", "section_no": 13, "section_title_kk": "Ер есімі - ел есінде", "lesson_range": "5-6", "topic_title_kk": "Бала Қайроштың қалаға кетуі", "page_start": 129, "page_end_estimated": 131 },
+    { "id": "t13_l7_8", "section_no": 13, "section_title_kk": "Ер есімі - ел есінде", "lesson_range": "7-8", "topic_title_kk": "Батырдың балалық шағы", "page_start": 132, "page_end_estimated": 134 },
+    { "id": "t13_result", "section_no": 13, "section_title_kk": "Ер есімі - ел есінде", "lesson_range": "9-10", "topic_title_kk": "Нәтиже сабақ. Мен не үйрендім?", "page_start": 135, "page_end_estimated": 140, "note": "final pages include publishing info" }
+  ],
+  "rules": [
+    { "id": "r_adverb_definition", "rule_text": "Үстеу - қимыл мен іс-әрекеттің мезгілін, мекенін, сынын, себебін, амалын білдіретін сөз табы.", "formula": null, "source_page": 4 },
+    { "id": "r_adverb_place_questions", "rule_text": "Мекен үстеуі: қайда? қайдан? қалай қарай? сұрақтарына жауап береді.", "formula": "қайда?/қайдан?/қалай қарай?", "source_page": 4 },
+    { "id": "r_adverb_time_questions", "rule_text": "Мезгіл үстеуі: қашан? қашаннан? сұрақтарына жауап береді.", "formula": "қашан?/қашаннан?", "source_page": 4 },
+    { "id": "r_fastfood_health_warning", "rule_text": "Фастфуд тағамдары денсаулыққа зиян, дұрыс тамақтану қажет.", "formula": null, "source_page": 20 },
+    { "id": "r_computer_safety", "rule_text": "Компьютерде шамадан тыс отыру зиян; көзді қорғау үшін үзіліс және қорғаныш көзілдірігі ұсынылады.", "formula": null, "source_page": 77 },
+    { "id": "r_pronouns_types", "rule_text": "Есімдіктердің түрлері: жіктеу, сілтеу, сұрау, өздік, жалпылау, белгісіздік, болымсыздық.", "formula": "7 түр", "source_page": 137 },
+    { "id": "r_unity_proverb", "rule_text": "Мағыналық тірек: «Күш бірлікте», «Береке көзі бірлікте».", "formula": null, "source_page": 102 }
+  ],
+  "glossary_kk_ru": {
+    "source": "Жаңа сөздер блоктары по страницам учебника (OCR)",
+    "entries_by_page": [
+      {
+        "page": 8,
+        "topic_ref": "t7_l3_4",
+        "entries": [
+          { "kk": "шикі", "ru": "сырой" },
+          { "kk": "шайнау", "ru": "жевать" },
+          { "kk": "жеңіл қорыту", "ru": "легко переваривать" }
+        ]
+      },
+      {
+        "page": 26,
+        "topic_ref": "t8_l3_4",
+        "entries": [
+          { "kk": "тәуелсіздік нышаны", "ru": "символ независимости" },
+          { "kk": "бейнеленген", "ru": "изображен(о)" },
+          { "kk": "қанатты тұлпар", "ru": "крылатый тулпар" },
+          { "kk": "қыран", "ru": "беркут, хищная птица" },
+          { "kk": "уық", "ru": "уык (элемент юрты)" },
+          { "kk": "ұлықтау", "ru": "прославлять, чествовать" }
+        ]
+      },
+      {
+        "page": 30,
+        "topic_ref": "t8_l5_6",
+        "entries": [
+          { "kk": "шыққан жылы", "ru": "год выпуска" },
+          { "kk": "төл теңге", "ru": "национальная валюта тенге" },
+          { "kk": "өңір", "ru": "регион, край" },
+          { "kk": "мерейтой", "ru": "юбилей" },
+          { "kk": "арнайы", "ru": "специальный" },
+          { "kk": "ерекше", "ru": "особый" }
+        ]
+      },
+      {
+        "page": 52,
+        "topic_ref": "t9_l3_4",
+        "entries": [
+          { "kk": "түркілер", "ru": "тюрки" },
+          { "kk": "кең дала", "ru": "широкая степь" },
+          { "kk": "жұлдызшы", "ru": "звездочет, астроном-наблюдатель" },
+          { "kk": "ежелден", "ru": "с древних времен" },
+          { "kk": "орта ғасыр", "ru": "средние века" },
+          { "kk": "құбылыс", "ru": "явление" },
+          { "kk": "зерттеген", "ru": "исследовал(и)" },
+          { "kk": "зират", "ru": "захоронение, могила" },
+          { "kk": "мүсін", "ru": "скульптура" }
+        ]
+      },
+      {
+        "page": 56,
+        "topic_ref": "t9_l5_6",
+        "entries": [
+          { "kk": "шоқжұлдыз", "ru": "созвездие" },
+          { "kk": "жорамалдаған", "ru": "предполагал, прогнозировал" },
+          { "kk": "мәңгілік өзгермейді", "ru": "вечно не меняется" },
+          { "kk": "ілім", "ru": "учение, знание" },
+          { "kk": "дәлелдеу", "ru": "доказывать" },
+          { "kk": "ғылымды дамыту", "ru": "развивать науку" }
+        ]
+      },
+      {
+        "page": 59,
+        "topic_ref": "t9_l7_8",
+        "entries": [
+          { "kk": "қараңғы", "ru": "темный" },
+          { "kk": "шашып тастаған", "ru": "рассыпал" },
+          { "kk": "жағып қойған", "ru": "как будто зажег" },
+          { "kk": "біресе", "ru": "то..., то..." },
+          { "kk": "ожау", "ru": "поварешка, черпак" },
+          { "kk": "Жетіқарақшы", "ru": "Большая Медведица (астеризм)" },
+          { "kk": "дүрбі", "ru": "бинокль, подзорная труба" },
+          { "kk": "таңғалу", "ru": "удивляться" },
+          { "kk": "күту", "ru": "ждать" }
+        ]
+      },
+      {
+        "page": 70,
+        "topic_ref": "t10_l5_6",
+        "entries": [
+          { "kk": "хабарлама", "ru": "сообщение" }
+        ]
+      },
+      {
+        "page": 73,
+        "topic_ref": "t10_l7_8",
+        "entries": [
+          { "kk": "қорғаушы көзілдірік", "ru": "защитные очки" },
+          { "kk": "көз жанары", "ru": "зрение, свет глаз" },
+          { "kk": "ғаламтор", "ru": "интернет" }
+        ]
+      },
+      {
+        "page": 78,
+        "topic_ref": "t10_l9_10",
+        "entries": [
+          { "kk": "ақпарат үдерісі", "ru": "информационный процесс" },
+          { "kk": "өңдеу", "ru": "обработка" },
+          { "kk": "жүйке", "ru": "нервная система, нервы" },
+          { "kk": "шаршау", "ru": "усталость, уставать" }
+        ]
+      },
+      {
+        "page": 90,
+        "topic_ref": "t11_l5_6",
+        "entries": [
+          { "kk": "заңғар", "ru": "высокий, величественный" },
+          { "kk": "зерттеуші", "ru": "исследователь" },
+          { "kk": "сыйлығының иегері", "ru": "обладатель премии" }
+        ]
+      },
+      {
+        "page": 97,
+        "topic_ref": "t11_l9_10",
+        "entries": [
+          { "kk": "ұлтаралық келісім", "ru": "межнациональное согласие" },
+          { "kk": "мәдени орталық", "ru": "культурный центр" },
+          { "kk": "жер аударылу", "ru": "депортация, высылка" }
+        ]
+      },
+      {
+        "page": 112,
+        "topic_ref": "t12_l5_6",
+        "entries": [
+          { "kk": "тау басы", "ru": "вершина горы" },
+          { "kk": "жартас", "ru": "скала" },
+          { "kk": "қарағай", "ru": "сосна" },
+          { "kk": "мөлдір", "ru": "прозрачный, чистый" },
+          { "kk": "биіктік", "ru": "высота" },
+          { "kk": "шайқасады", "ru": "сражаются" },
+          { "kk": "сыйынады", "ru": "молятся" },
+          { "kk": "көз жасы", "ru": "слезы" }
+        ]
+      },
+      {
+        "page": 119,
+        "topic_ref": "t12_l9_10",
+        "entries": [
+          { "kk": "байтақ", "ru": "обширный, необъятный" },
+          { "kk": "солған", "ru": "увядший" },
+          { "kk": "толған", "ru": "полный" }
+        ]
+      },
+      {
+        "page": 126,
+        "topic_ref": "t13_l3_4",
+        "entries": [
+          { "kk": "көрнекті", "ru": "выдающийся" },
+          { "kk": "ескіше", "ru": "по-старому" },
+          { "kk": "баспасөз", "ru": "печать, пресса" },
+          { "kk": "мекеме", "ru": "учреждение" }
+        ]
+      },
+      {
+        "page": 132,
+        "topic_ref": "t13_l7_8",
+        "entries": [
+          { "kk": "жара", "ru": "рана" },
+          { "kk": "жарық", "ru": "свет" },
+          { "kk": "бұрмалау", "ru": "искажать" },
+          { "kk": "қабыскан қарын", "ru": "впалый живот" }
+        ]
+      }
+    ],
+    "note": "Часть форм могла быть искажена OCR; сохранены нормализованные пары kk-ru для генерации заданий."
+  },
+  "example_tasks_v2": {
+    "verbatim_examples": [
+      {
+        "exact_page": 4,
+        "raw_text": "АЙТЫЛЫМ 1-тапсырма. Сұрақтарға жауап бер. 1. Үйіңнің жанында емхана бар ма? 2. Сен емханаға соңғы рет қашан бардың?",
+        "normalized_text": "Айтылым: емхана туралы сұрақтарға жауап беру (жеке тәжірибе).",
+        "task_type": "speaking_personal_experience",
+        "confidence": "high_text_layer"
+      },
+      {
+        "exact_page": 20,
+        "raw_text": "Тыңдалым, оқылым: «Фастфудтар» мәтінін оқы. Фастфуд тағамдарының қандай зияны бар?",
+        "normalized_text": "Мәтін бойынша денсаулыққа зиян тақырыбында түсіну және жауап беру.",
+        "task_type": "reading_comprehension_health",
+        "confidence": "high_text_layer"
+      },
+      {
+        "exact_page": 47,
+        "raw_text": "«Тәуелсіздік» сөзіне диаграмма құр. «Қазақстан — тәуелсіз мемлекет» тақырыбында фотоколлаж дайында.",
+        "normalized_text": "Тірек ұғым бойынша ассоциация диаграммасы және креативті таныстырылым.",
+        "task_type": "concept_mapping_and_presentation",
+        "confidence": "medium_text_noise"
+      },
+      {
+        "exact_page": 77,
+        "raw_text": "Компьютерде көп отырма. Компьютерде шамадан тыс отыру зиян. Қорғаушы көзілдірік ки.",
+        "normalized_text": "Есте сақтау ережесі: компьютерді қауіпсіз қолдану.",
+        "task_type": "rule_based_recall",
+        "confidence": "high_text_layer"
+      },
+      {
+        "exact_page": 102,
+        "raw_text": "Маңызды деректерді анықта. Осы мәліметтерді пайдаланып, диалог құрыңдар.",
+        "normalized_text": "Диаграмма деректеріне сүйеніп диалог құру.",
+        "task_type": "data_to_dialogue",
+        "confidence": "medium_text_noise"
+      },
+      {
+        "exact_page": 137,
+        "raw_text": "Мәтіндерден есімдіктерді тауып жаз. Жіктеу, сілтеу, сұрау, өздік, жалпылау, белгісіздік, болымсыздық.",
+        "normalized_text": "Есімдіктерді түрлеріне жіктеу тапсырмасы.",
+        "task_type": "grammar_classification",
+        "confidence": "high_text_layer"
+      }
+    ],
+    "verbatim_examples_status": {
+      "available": true,
+      "reason": "Text layer и полный OCR позволяют достать формулировки заданий по всем основным разделам.",
+      "next_step": "Точечная ручная вычитка 10-15 задач с наибольшим OCR-шумом перед массовой генерацией."
+    },
+    "structural_examples_for_generation": [
+      {
+        "task_type": "reading_comprehension_mcq",
+        "template": "Мәтінді оқы. Негізгі ойды анықта. 4 нұсқадан дұрыс жауапты таңда.",
+        "kz_moem_style_note": "Краткий школьный контекст, один правильный ответ, уровень 5-сынып."
+      },
+      {
+        "task_type": "grammar_identification",
+        "template": "Берілген сөйлемдерден {grammar_target} тауып, кестеге жікте.",
+        "kz_moem_style_note": "Опора на морфологические темы: үстеу, есімдік, сөз таптары."
+      },
+      {
+        "task_type": "speaking_prompt",
+        "template": "Тірек сөздерді пайдаланып, жұпта диалог құрастыр. Кейін сынып алдында айт.",
+        "kz_moem_style_note": "Коммуникативный формат, безопасные бытовые темы."
+      },
+      {
+        "task_type": "value_based_short_response",
+        "template": "Мақал-мәтелдің мағынасын түсіндіріп, өмірден 1 мысал келтір.",
+        "kz_moem_style_note": "Патриоттық және адамгершілік құндылықтармен байланыстыру."
+      }
+    ]
+  },
+  "generator_profile_kz_moem": {
+    "audience": "5-сынып, қазақ тілінен басқа тілде оқытылатын мектеп",
+    "language_policy": {
+      "primary_language": "kk",
+      "support_language": "ru",
+      "terminology": "school_kz_curriculum_aligned"
+    },
+    "task_mix_recommended": {
+      "reading_comprehension": 0.3,
+      "grammar_spelling": 0.25,
+      "speaking_dialogue": 0.2,
+      "writing_short_text": 0.15,
+      "culture_values_context": 0.1
+    },
+    "format_rules": [
+      "В каждом задании четкая инструкция и понятный глагол действия",
+      "Для тестовых задач использовать 4 варианта ответа",
+      "Нейтральные и безопасные для детей сюжеты",
+      "Связка с темами разделов 7-13 и школьной лексикой"
+    ],
+    "safety_and_scope": [
+      "Без медицинских диагнозов; только учебные тексты о ЗОЖ",
+      "Без политической агитации; только историко-культурный учебный контекст",
+      "Без токсичного/дискриминационного контента"
+    ]
+  }
+}

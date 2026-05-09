@@ -1,0 +1,1189 @@
+{
+  "source": {
+    "file_name": "Қазақ тілі Оразбаева Ф.Ш. учебник для 3 класса 2 бөлім.pdf",
+    "parsed_at": "2026-05-09",
+    "version": "v2",
+    "extraction_method": {
+      "pdf_text_layer": true,
+      "ocr_applied": true,
+      "ocr_engine": "tesseract_js_pdfjs_render",
+      "ocr_languages": [
+        "kaz",
+        "rus"
+      ],
+      "text_layer_dir": "ocr/ocr_text_kaz_tili_orazbaeva_3grade_part2",
+      "ocr_glyph_fix_dir": "ocr/ocr_pages_orazbaeva_3grade_part2_glyph_fix",
+      "ocr_glyph_fix_pages": [
+        107,
+        108,
+        109,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127
+      ],
+      "contents_anchor_pdf_page": 127,
+      "colophon_anchor_pdf_pages": [
+        1,
+        128
+      ]
+    },
+    "quality_report": {
+      "high_confidence_blocks": [
+        "Титулда «3-сынып 2-бөлім» (PDF page 1) және колофонд «Часть 2 / Оқулық 2-бөлім» (PDF page 128)",
+        "Мазмұнда бөлім номерлары 5–8 және санаулы page_start сандық түрде",
+        "Сөздік сыдырамалары 124–126 raw_normalized жолда"
+      ],
+      "medium_confidence_blocks": [
+        "107–109, 122–127 беттерде glyph_fix OCR (kaz+rus) қолданылды; толық мәтінде шум мен қате глифтер қалуы мүмкін",
+        "Кей verbatim фрагменттер қысқа болуы немесе '1-тапсырма' осы беттің қолжетімді бөлімінен тыс болуы мүмкін"
+      ],
+      "low_confidence_blocks": [],
+      "note": "Қате файл (2-бөлім атауымен 1-бөлім) ауыстырылды; қайта_extract жасалған. ISBN extract жүйесінде бет 002-ге толып заң жолы бар — ISBN null қалдыру."
+    }
+  },
+  "metadata": {
+    "title_kk": "Қазақ тілі. Балапан. Оқулық (2-бөлім)",
+    "title_ru": "Казахский язык. Балапан. Учебник. Часть 2",
+    "subject": "Қазақ тілі",
+    "grade": 3,
+    "part": 2,
+    "authors": [
+      "Ф. Ш. Оразбаева",
+      "Ж. Т. Дәулетбекова",
+      "Р. С. Рахметова",
+      "А. Қ. Рауандина",
+      "Л. С. Нұрмұханова"
+    ],
+    "publisher": "Көкжиек-Горизонт (Алматы)",
+    "publication_year_calendar": null,
+    "print_markup_observed_colophon_date": "Подписано в печать 12.10.20 (түпнұсқа колофоны)",
+    "page_count": 128,
+    "isbn": {
+      "part_2": null,
+      "overall": null,
+      "extraction_note_kk": "ISBN extract текст қабатын page_002 жоюдан кейін қолжетімсіз болған"
+    },
+    "languages": [
+      "kk",
+      "ru"
+    ]
+  },
+  "topics_with_pages": [
+    {
+      "id": "p2_u501",
+      "unit_no": 5,
+      "unit_title_kk": "Өнер",
+      "lesson_no": 1,
+      "topic_title_kk": "Отбасым өнерлі",
+      "page_start": 4,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 7
+    },
+    {
+      "id": "p2_u502",
+      "unit_no": 5,
+      "unit_title_kk": "Өнер",
+      "lesson_no": 2,
+      "topic_title_kk": "Қарындасым билейді",
+      "page_start": 8,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 10
+    },
+    {
+      "id": "p2_u503",
+      "unit_no": 5,
+      "unit_title_kk": "Өнер",
+      "lesson_no": 3,
+      "topic_title_kk": "Інім ән айтады",
+      "page_start": 11,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 12
+    },
+    {
+      "id": "p2_u504",
+      "unit_no": 5,
+      "unit_title_kk": "Өнер",
+      "lesson_no": 4,
+      "topic_title_kk": "Ағам домбыра тартады",
+      "page_start": 13,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 15
+    },
+    {
+      "id": "p2_u505",
+      "unit_no": 5,
+      "unit_title_kk": "Өнер",
+      "lesson_no": 5,
+      "topic_title_kk": "Менің досым — шебер",
+      "page_start": 16,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 18
+    },
+    {
+      "id": "p2_u506",
+      "unit_no": 5,
+      "unit_title_kk": "Өнер",
+      "lesson_no": 6,
+      "topic_title_kk": "Қағаздан ойыншық жасадым",
+      "page_start": 19,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 21
+    },
+    {
+      "id": "p2_u507",
+      "unit_no": 5,
+      "unit_title_kk": "Өнер",
+      "lesson_no": 7,
+      "topic_title_kk": "Домбыра шебері",
+      "page_start": 22,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 23
+    },
+    {
+      "id": "p2_u508",
+      "unit_no": 5,
+      "unit_title_kk": "Өнер",
+      "lesson_no": 8,
+      "topic_title_kk": "Музей қай көшеде?",
+      "page_start": 24,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 25
+    },
+    {
+      "id": "p2_u509",
+      "unit_no": 5,
+      "unit_title_kk": "Өнер",
+      "lesson_no": 9,
+      "topic_title_kk": "Музейдегі көне заттар",
+      "page_start": 26,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 28
+    },
+    {
+      "id": "p2_u510",
+      "unit_no": 5,
+      "unit_title_kk": "Өнер",
+      "lesson_no": 10,
+      "topic_title_kk": "Саған не ұнады?",
+      "page_start": 29,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 31
+    },
+    {
+      "id": "p2_u511",
+      "unit_no": 5,
+      "unit_title_kk": "Өнер",
+      "lesson_no": 11,
+      "topic_title_kk": "Мұхтар Әуезов музейі",
+      "page_start": 32,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 33
+    },
+    {
+      "id": "p2_u512",
+      "unit_no": 5,
+      "unit_title_kk": "Өнер",
+      "lesson_no": 12,
+      "topic_title_kk": "Бұл — Орталық музей",
+      "page_start": 34,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 35
+    },
+    {
+      "id": "p2_u513",
+      "unit_no": 5,
+      "unit_title_kk": "Өнер",
+      "lesson_no": "13-14",
+      "topic_title_kk": "Нәтиже сабақ. Мен не үйрендім?",
+      "page_start": 36,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 37
+    },
+    {
+      "id": "p2_u601",
+      "unit_no": 6,
+      "unit_title_kk": "Атақты тұлғалар",
+      "lesson_no": 1,
+      "topic_title_kk": "Дина күй шертеді",
+      "page_start": 38,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 40
+    },
+    {
+      "id": "p2_u602",
+      "unit_no": 6,
+      "unit_title_kk": "Атақты тұлғалар",
+      "lesson_no": 2,
+      "topic_title_kk": "Ұлы ғалым",
+      "page_start": 41,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 42
+    },
+    {
+      "id": "p2_u603",
+      "unit_no": 6,
+      "unit_title_kk": "Атақты тұлғалар",
+      "lesson_no": 3,
+      "topic_title_kk": "Шоқан мен мүсінші бала",
+      "page_start": 43,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 45
+    },
+    {
+      "id": "p2_u604",
+      "unit_no": 6,
+      "unit_title_kk": "Атақты тұлғалар",
+      "lesson_no": 4,
+      "topic_title_kk": "Бала Абай",
+      "page_start": 46,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 47
+    },
+    {
+      "id": "p2_u605",
+      "unit_no": 6,
+      "unit_title_kk": "Атақты тұлғалар",
+      "lesson_no": 5,
+      "topic_title_kk": "Абай — ұлы ақын",
+      "page_start": 48,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 49
+    },
+    {
+      "id": "p2_u606",
+      "unit_no": 6,
+      "unit_title_kk": "Атақты тұлғалар",
+      "lesson_no": 6,
+      "topic_title_kk": "Ұлы ұстаз",
+      "page_start": 50,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 51
+    },
+    {
+      "id": "p2_u607",
+      "unit_no": 6,
+      "unit_title_kk": "Атақты тұлғалар",
+      "lesson_no": 7,
+      "topic_title_kk": "«Кел, балалар, оқылың!»",
+      "page_start": 52,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 53
+    },
+    {
+      "id": "p2_u608",
+      "unit_no": 6,
+      "unit_title_kk": "Атақты тұлғалар",
+      "lesson_no": 8,
+      "topic_title_kk": "Бауыржан — батыр",
+      "page_start": 54,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 55
+    },
+    {
+      "id": "p2_u609",
+      "unit_no": 6,
+      "unit_title_kk": "Атақты тұлғалар",
+      "lesson_no": 9,
+      "topic_title_kk": "Қазақтың қаһарман ұлы",
+      "page_start": 56,
+      "page_start_ref": "contents_pdf127_plus_anchor_page_text",
+      "page_start_anchor_note_kk": "Тақырып атауы OCR «Мазмұны» (PDF 127, glyph_fix) бойынша «Қазақтың қаһарман ұлы» (~бет 56, Бауыржан Момышұлы сабақ мәтіні).",
+      "page_end_estimated": 58
+    },
+    {
+      "id": "p2_u610",
+      "unit_no": 6,
+      "unit_title_kk": "Атақты тұлғалар",
+      "lesson_no": 10,
+      "topic_title_kk": "Бұл кісі — суретші",
+      "page_start": 59,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 62
+    },
+    {
+      "id": "p2_u611",
+      "unit_no": 6,
+      "unit_title_kk": "Атақты тұлғалар",
+      "lesson_no": 11,
+      "topic_title_kk": "Тасқа сурет салған бала",
+      "page_start": 63,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 64
+    },
+    {
+      "id": "p2_u612",
+      "unit_no": 6,
+      "unit_title_kk": "Атақты тұлғалар",
+      "lesson_no": 12,
+      "topic_title_kk": "Нәтиже сабақ. Мен не үйрендім?",
+      "page_start": 65,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 66
+    },
+    {
+      "id": "p2_u701",
+      "unit_no": 7,
+      "unit_title_kk": "Су — тіршілік көзі",
+      "lesson_no": 1,
+      "topic_title_kk": "Судың пайдасы",
+      "page_start": 67,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 69
+    },
+    {
+      "id": "p2_u702",
+      "unit_no": 7,
+      "unit_title_kk": "Су — тіршілік көзі",
+      "lesson_no": 2,
+      "topic_title_kk": "Суды үнемде",
+      "page_start": 70,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 71
+    },
+    {
+      "id": "p2_u703",
+      "unit_no": 7,
+      "unit_title_kk": "Су — тіршілік көзі",
+      "lesson_no": 3,
+      "topic_title_kk": "Ағаш сумен өседі",
+      "page_start": 72,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 74
+    },
+    {
+      "id": "p2_u704",
+      "unit_no": 7,
+      "unit_title_kk": "Су — тіршілік көзі",
+      "lesson_no": 4,
+      "topic_title_kk": "Ыдыстың суы тәуір",
+      "page_start": 75,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 77
+    },
+    {
+      "id": "p2_u705",
+      "unit_no": 7,
+      "unit_title_kk": "Су — тіршілік көзі",
+      "lesson_no": 5,
+      "topic_title_kk": "Су денсаулыққа пайдалы",
+      "page_start": 78,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 80
+    },
+    {
+      "id": "p2_u706",
+      "unit_no": 7,
+      "unit_title_kk": "Су — тіршілік көзі",
+      "lesson_no": 6,
+      "topic_title_kk": "Адамдар мен Өзен (ертегі)",
+      "page_start": 81,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 83
+    },
+    {
+      "id": "p2_u707",
+      "unit_no": 7,
+      "unit_title_kk": "Су — тіршілік көзі",
+      "lesson_no": 7,
+      "topic_title_kk": "Мейірімді Өзен (ертегінің жалғасы)",
+      "page_start": 84,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 86
+    },
+    {
+      "id": "p2_u708",
+      "unit_no": 7,
+      "unit_title_kk": "Су — тіршілік көзі",
+      "lesson_no": 8,
+      "topic_title_kk": "Мақтаншақ көлшік",
+      "page_start": 87,
+      "page_start_ref": "contents_pdf127_plus_anchor_page_text",
+      "page_start_anchor_note_kk": "OCR оглавление (PDF 127, glyph_fix): «8. Мақтаншақ көлшік» ~бет 87.",
+      "page_end_estimated": 88
+    },
+    {
+      "id": "p2_u709",
+      "unit_no": 7,
+      "unit_title_kk": "Су — тіршілік көзі",
+      "lesson_no": 9,
+      "topic_title_kk": "Балық аулайды",
+      "page_start": 89,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 91
+    },
+    {
+      "id": "p2_u710",
+      "unit_no": 7,
+      "unit_title_kk": "Су — тіршілік көзі",
+      "lesson_no": 10,
+      "topic_title_kk": "Жағажайда",
+      "page_start": 92,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 93
+    },
+    {
+      "id": "p2_u711",
+      "unit_no": 7,
+      "unit_title_kk": "Су — тіршілік көзі",
+      "lesson_no": 11,
+      "topic_title_kk": "Нәтиже сабақ. Мен не үйрендім?",
+      "page_start": 94,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 95
+    },
+    {
+      "id": "p2_u801",
+      "unit_no": 8,
+      "unit_title_kk": "Демалыс мәдениеті. Мерекелер",
+      "lesson_no": 1,
+      "topic_title_kk": "Демалыс мәдениеті",
+      "page_start": 96,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 98
+    },
+    {
+      "id": "p2_u802",
+      "unit_no": 8,
+      "unit_title_kk": "Демалыс мәдениеті. Мерекелер",
+      "lesson_no": 2,
+      "topic_title_kk": "Абай музейінде",
+      "page_start": 99,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 101
+    },
+    {
+      "id": "p2_u803",
+      "unit_no": 8,
+      "unit_title_kk": "Демалыс мәдениеті. Мерекелер",
+      "lesson_no": 3,
+      "topic_title_kk": "Мерекең құтты болсын!",
+      "page_start": 102,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 104
+    },
+    {
+      "id": "p2_u804",
+      "unit_no": 8,
+      "unit_title_kk": "Демалыс мәдениеті. Мерекелер",
+      "lesson_no": 4,
+      "topic_title_kk": "Шеруге шығамыз",
+      "page_start": 105,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 106
+    },
+    {
+      "id": "p2_u805",
+      "unit_no": 8,
+      "unit_title_kk": "Демалыс мәдениеті. Мерекелер",
+      "lesson_no": 5,
+      "topic_title_kk": "Ұландар мерекесі (7 мамыр)",
+      "page_start": 107,
+      "page_start_ref": "contents_pdf127_plus_anchor_page_text",
+      "page_start_anchor_note_kk": "OCR page_127 сыдырамасында «Ұландар мерекесі» бет 107; сабақ мәтінде «7 мамыр — Ұландар күні» және «Отан қорғаушылар күні құтты болсын!» сызықтары (glyph_fix OCR, medium confidence).",
+      "page_end_estimated": 108
+    },
+    {
+      "id": "p2_u806",
+      "unit_no": 8,
+      "unit_title_kk": "Демалыс мәдениеті. Мерекелер",
+      "lesson_no": 6,
+      "topic_title_kk": "9 мамыр — Жеңіс күні",
+      "page_start": 109,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 111
+    },
+    {
+      "id": "p2_u807",
+      "unit_no": 8,
+      "unit_title_kk": "Демалыс мәдениеті. Мерекелер",
+      "lesson_no": 7,
+      "topic_title_kk": "Біздің мереке",
+      "page_start": 112,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 113
+    },
+    {
+      "id": "p2_u808",
+      "unit_no": 8,
+      "unit_title_kk": "Демалыс мәдениеті. Мерекелер",
+      "lesson_no": 8,
+      "topic_title_kk": "Жазғы демалыс — ең ұзақ мереке",
+      "page_start": 114,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 116
+    },
+    {
+      "id": "p2_u809",
+      "unit_no": 8,
+      "unit_title_kk": "Демалыс мәдениеті. Мерекелер",
+      "lesson_no": 9,
+      "topic_title_kk": "Кім қайда демалады?",
+      "page_start": 117,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 119
+    },
+    {
+      "id": "p2_u810",
+      "unit_no": 8,
+      "unit_title_kk": "Демалыс мәдениеті. Мерекелер",
+      "lesson_no": 10,
+      "topic_title_kk": "Жазғы ойындар",
+      "page_start": 120,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 122
+    },
+    {
+      "id": "p2_u811",
+      "unit_no": 8,
+      "unit_title_kk": "Демалыс мәдениеті. Мерекелер",
+      "lesson_no": 11,
+      "topic_title_kk": "Нәтиже сабақ. Мен не үйрендім?",
+      "page_start": 123,
+      "page_start_ref": "contents_pdf_page_127",
+      "page_end_estimated": 123
+    }
+  ],
+  "rules": [
+    {
+      "id": "r_predicate_onerli_patterns",
+      "title_kk": "«Мен өнерлікмин» сызықтары (жіктер)",
+      "short_formulation": "Өнер тақырыбында жеке жас шаққа байланысты сипат етістіктер үлгілері.",
+      "formula": "Мен өнерлікмин / Сіз өнерліксіз … (бет 4 жақын контекст).",
+      "source_pdf_pages": [
+        4
+      ],
+      "note_ru_for_editor": "В PDF часть символов в примере могут отличаться; сверять с распечаткой при необходимости.",
+      "source_page": 4
+    },
+    {
+      "id": "r_biley_present_tense_scheme",
+      "title_kk": "«Билеймін» жұрнақты үлгі",
+      "short_formulation": "Би туралы қимыл санын жұрнақты айту.",
+      "formula": "Мен билеймін → Сіз билесіз → Ол билейді (бет 8).",
+      "source_pdf_pages": [
+        8
+      ],
+      "source_page": 8
+    },
+    {
+      "id": "r_kui_keishi_vocabulary_scheme",
+      "title_kk": "Күйші / күй шерту үлгілері",
+      "short_formulation": "Атақты тұлға мәтіндері үшін кәсіптік сөз тіркесі.",
+      "formula": "Мен күй шертемін; Ол — күйші (бет 38).",
+      "source_pdf_pages": [
+        38
+      ],
+      "source_page": 38
+    },
+    {
+      "id": "r_water_dialog_story_model",
+      "title_kk": "Су мен адам диалог үлгісі",
+      "short_formulation": "Мәтінде су тұлға сияқты болып сұрақ-жауап қимылдары арқылы сөйлеу үлгілері көрсетіледі.",
+      "formula": "Адам суға өз тілегін айтады; су жауап береді («Рахмет саған, су!», бет 67).",
+      "source_pdf_pages": [
+        67
+      ],
+      "caveat_ru": "Без домыслау биологических выводов: только текст учебника.",
+      "source_page": 67
+    },
+    {
+      "id": "r_holidays_behavior_language",
+      "title_kk": "Мәдени сапар және сыпайылық сөздері",
+      "short_formulation": "Демалыс мәдениеті туралы үлгі бойынша сөздер қолданысын көру.",
+      "formula": "мәдени саяхат; сыпайылық атқару; құттықтау үлгілері (бет 96 арқылы).",
+      "source_pdf_pages": [
+        96
+      ],
+      "source_page": 96
+    },
+    {
+      "id": "r_defenders_day_text_pattern_pdf107",
+      "title_kk": "7-мамыр: Ұландар мен Отанды қорғау (мәтін фрагменті, OCR glyph_fix)",
+      "short_formulation": "7 мамырдағы Ұландар, шегара, құттықтау сызықтары — OCR арқылы (ортша сапа).",
+      "formula": "«7 мамыр — Ұландар күні. Ұландар Отанды қорғайды … Қазақстанның шегарасын …»; «Отан қорғаушылар күні құтты болсын!» (PDF 107, tesseract.js kaz+rus, орташа сенім).",
+      "source_pdf_pages": [
+        107
+      ],
+      "caveat_ru": "OCR даёт шум (заголовки/нумерация); сверять с печатным учебником.",
+      "source_page": 107
+    }
+  ],
+  "topic_rule_links": [
+    {
+      "topic_id": "p2_u501",
+      "rule_ids": [
+        "r_predicate_onerli_patterns",
+        "r_biley_present_tense_scheme"
+      ],
+      "relation": "primary",
+      "note_ru": "Өнер—жіктер мен би эталондары."
+    },
+    {
+      "topic_id": "p2_u502",
+      "rule_ids": [
+        "r_predicate_onerli_patterns",
+        "r_biley_present_tense_scheme"
+      ],
+      "relation": "primary",
+      "note_ru": "Өнер—жіктер мен би эталондары."
+    },
+    {
+      "topic_id": "p2_u503",
+      "rule_ids": [
+        "r_predicate_onerli_patterns",
+        "r_biley_present_tense_scheme"
+      ],
+      "relation": "primary",
+      "note_ru": "Өнер—жіктер мен би эталондары."
+    },
+    {
+      "topic_id": "p2_u504",
+      "rule_ids": [
+        "r_predicate_onerli_patterns",
+        "r_biley_present_tense_scheme"
+      ],
+      "relation": "primary",
+      "note_ru": "Өнер—жіктер мен би эталондары."
+    },
+    {
+      "topic_id": "p2_u505",
+      "rule_ids": [
+        "r_predicate_onerli_patterns",
+        "r_biley_present_tense_scheme"
+      ],
+      "relation": "primary",
+      "note_ru": "Өнер—жіктер мен би эталондары."
+    },
+    {
+      "topic_id": "p2_u506",
+      "rule_ids": [
+        "r_predicate_onerli_patterns",
+        "r_biley_present_tense_scheme"
+      ],
+      "relation": "primary",
+      "note_ru": "Өнер—жіктер мен би эталондары."
+    },
+    {
+      "topic_id": "p2_u507",
+      "rule_ids": [
+        "r_predicate_onerli_patterns",
+        "r_biley_present_tense_scheme"
+      ],
+      "relation": "primary",
+      "note_ru": "Өнер—жіктер мен би эталондары."
+    },
+    {
+      "topic_id": "p2_u508",
+      "rule_ids": [
+        "r_predicate_onerli_patterns",
+        "r_biley_present_tense_scheme"
+      ],
+      "relation": "primary",
+      "note_ru": "Өнер—жіктер мен би эталондары."
+    },
+    {
+      "topic_id": "p2_u509",
+      "rule_ids": [
+        "r_predicate_onerli_patterns",
+        "r_biley_present_tense_scheme"
+      ],
+      "relation": "primary",
+      "note_ru": "Өнер—жіктер мен би эталондары."
+    },
+    {
+      "topic_id": "p2_u510",
+      "rule_ids": [
+        "r_predicate_onerli_patterns",
+        "r_biley_present_tense_scheme"
+      ],
+      "relation": "primary",
+      "note_ru": "Өнер—жіктер мен би эталондары."
+    },
+    {
+      "topic_id": "p2_u511",
+      "rule_ids": [
+        "r_predicate_onerli_patterns",
+        "r_biley_present_tense_scheme"
+      ],
+      "relation": "primary",
+      "note_ru": "Өнер—жіктер мен би эталондары."
+    },
+    {
+      "topic_id": "p2_u512",
+      "rule_ids": [
+        "r_predicate_onerli_patterns",
+        "r_biley_present_tense_scheme"
+      ],
+      "relation": "primary",
+      "note_ru": "Өнер—жіктер мен би эталондары."
+    },
+    {
+      "topic_id": "p2_u513",
+      "rule_ids": [
+        "r_predicate_onerli_patterns",
+        "r_biley_present_tense_scheme"
+      ],
+      "relation": "primary",
+      "note_ru": "Өнер—жіктер мен би эталондары."
+    },
+    {
+      "topic_id": "p2_u601",
+      "rule_ids": [
+        "r_kui_keishi_vocabulary_scheme"
+      ],
+      "relation": "related",
+      "note_ru": "Тұлға мәтіндері, мәдени сөздік."
+    },
+    {
+      "topic_id": "p2_u602",
+      "rule_ids": [
+        "r_kui_keishi_vocabulary_scheme"
+      ],
+      "relation": "related",
+      "note_ru": "Тұлға мәтіндері, мәдени сөздік."
+    },
+    {
+      "topic_id": "p2_u603",
+      "rule_ids": [
+        "r_kui_keishi_vocabulary_scheme"
+      ],
+      "relation": "related",
+      "note_ru": "Тұлға мәтіндері, мәдени сөздік."
+    },
+    {
+      "topic_id": "p2_u604",
+      "rule_ids": [
+        "r_kui_keishi_vocabulary_scheme"
+      ],
+      "relation": "related",
+      "note_ru": "Тұлға мәтіндері, мәдени сөздік."
+    },
+    {
+      "topic_id": "p2_u605",
+      "rule_ids": [
+        "r_kui_keishi_vocabulary_scheme"
+      ],
+      "relation": "related",
+      "note_ru": "Тұлға мәтіндері, мәдени сөздік."
+    },
+    {
+      "topic_id": "p2_u606",
+      "rule_ids": [
+        "r_kui_keishi_vocabulary_scheme"
+      ],
+      "relation": "related",
+      "note_ru": "Тұлға мәтіндері, мәдени сөздік."
+    },
+    {
+      "topic_id": "p2_u607",
+      "rule_ids": [
+        "r_kui_keishi_vocabulary_scheme"
+      ],
+      "relation": "related",
+      "note_ru": "Тұлға мәтіндері, мәдени сөздік."
+    },
+    {
+      "topic_id": "p2_u608",
+      "rule_ids": [
+        "r_kui_keishi_vocabulary_scheme"
+      ],
+      "relation": "related",
+      "note_ru": "Тұлға мәтіндері, мәдени сөздік."
+    },
+    {
+      "topic_id": "p2_u609",
+      "rule_ids": [
+        "r_kui_keishi_vocabulary_scheme"
+      ],
+      "relation": "related",
+      "note_ru": "Тұлға мәтіндері, мәдени сөздік."
+    },
+    {
+      "topic_id": "p2_u610",
+      "rule_ids": [
+        "r_kui_keishi_vocabulary_scheme"
+      ],
+      "relation": "related",
+      "note_ru": "Тұлға мәтіндері, мәдени сөздік."
+    },
+    {
+      "topic_id": "p2_u611",
+      "rule_ids": [
+        "r_kui_keishi_vocabulary_scheme"
+      ],
+      "relation": "related",
+      "note_ru": "Тұлға мәтіндері, мәдени сөздік."
+    },
+    {
+      "topic_id": "p2_u612",
+      "rule_ids": [
+        "r_kui_keishi_vocabulary_scheme"
+      ],
+      "relation": "related",
+      "note_ru": "Тұлға мәтіндері, мәдени сөздік."
+    },
+    {
+      "topic_id": "p2_u701",
+      "rule_ids": [
+        "r_water_dialog_story_model"
+      ],
+      "relation": "primary",
+      "note_ru": "Табиғат, су, ертеңгі сюжет."
+    },
+    {
+      "topic_id": "p2_u702",
+      "rule_ids": [
+        "r_water_dialog_story_model"
+      ],
+      "relation": "primary",
+      "note_ru": "Табиғат, су, ертеңгі сюжет."
+    },
+    {
+      "topic_id": "p2_u703",
+      "rule_ids": [
+        "r_water_dialog_story_model"
+      ],
+      "relation": "primary",
+      "note_ru": "Табиғат, су, ертеңгі сюжет."
+    },
+    {
+      "topic_id": "p2_u704",
+      "rule_ids": [
+        "r_water_dialog_story_model"
+      ],
+      "relation": "primary",
+      "note_ru": "Табиғат, су, ертеңгі сюжет."
+    },
+    {
+      "topic_id": "p2_u705",
+      "rule_ids": [
+        "r_water_dialog_story_model"
+      ],
+      "relation": "primary",
+      "note_ru": "Табиғат, су, ертеңгі сюжет."
+    },
+    {
+      "topic_id": "p2_u706",
+      "rule_ids": [
+        "r_water_dialog_story_model"
+      ],
+      "relation": "primary",
+      "note_ru": "Табиғат, су, ертеңгі сюжет."
+    },
+    {
+      "topic_id": "p2_u707",
+      "rule_ids": [
+        "r_water_dialog_story_model"
+      ],
+      "relation": "primary",
+      "note_ru": "Табиғат, су, ертеңгі сюжет."
+    },
+    {
+      "topic_id": "p2_u708",
+      "rule_ids": [
+        "r_water_dialog_story_model"
+      ],
+      "relation": "primary",
+      "note_ru": "Табиғат, су, ертеңгі сюжет."
+    },
+    {
+      "topic_id": "p2_u709",
+      "rule_ids": [
+        "r_water_dialog_story_model"
+      ],
+      "relation": "primary",
+      "note_ru": "Табиғат, су, ертеңгі сюжет."
+    },
+    {
+      "topic_id": "p2_u710",
+      "rule_ids": [
+        "r_water_dialog_story_model"
+      ],
+      "relation": "primary",
+      "note_ru": "Табиғат, су, ертеңгі сюжет."
+    },
+    {
+      "topic_id": "p2_u711",
+      "rule_ids": [
+        "r_water_dialog_story_model"
+      ],
+      "relation": "primary",
+      "note_ru": "Табиғат, су, ертеңгі сюжет."
+    },
+    {
+      "topic_id": "p2_u801",
+      "rule_ids": [
+        "r_holidays_behavior_language",
+        "r_defenders_day_text_pattern_pdf107"
+      ],
+      "relation": "primary",
+      "note_ru": "Мәдени сабақ және мамырдағы мәнді мәтіндер."
+    },
+    {
+      "topic_id": "p2_u802",
+      "rule_ids": [
+        "r_holidays_behavior_language",
+        "r_defenders_day_text_pattern_pdf107"
+      ],
+      "relation": "primary",
+      "note_ru": "Мәдени сабақ және мамырдағы мәнді мәтіндер."
+    },
+    {
+      "topic_id": "p2_u803",
+      "rule_ids": [
+        "r_holidays_behavior_language",
+        "r_defenders_day_text_pattern_pdf107"
+      ],
+      "relation": "primary",
+      "note_ru": "Мәдени сабақ және мамырдағы мәнді мәтіндер."
+    },
+    {
+      "topic_id": "p2_u804",
+      "rule_ids": [
+        "r_holidays_behavior_language",
+        "r_defenders_day_text_pattern_pdf107"
+      ],
+      "relation": "primary",
+      "note_ru": "Мәдени сабақ және мамырдағы мәнді мәтіндер."
+    },
+    {
+      "topic_id": "p2_u805",
+      "rule_ids": [
+        "r_holidays_behavior_language",
+        "r_defenders_day_text_pattern_pdf107"
+      ],
+      "relation": "primary",
+      "note_ru": "Мәдени сабақ және мамырдағы мәнді мәтіндер."
+    },
+    {
+      "topic_id": "p2_u806",
+      "rule_ids": [
+        "r_holidays_behavior_language",
+        "r_defenders_day_text_pattern_pdf107"
+      ],
+      "relation": "primary",
+      "note_ru": "Мәдени сабақ және мамырдағы мәнді мәтіндер."
+    },
+    {
+      "topic_id": "p2_u807",
+      "rule_ids": [
+        "r_holidays_behavior_language",
+        "r_defenders_day_text_pattern_pdf107"
+      ],
+      "relation": "primary",
+      "note_ru": "Мәдени сабақ және мамырдағы мәнді мәтіндер."
+    },
+    {
+      "topic_id": "p2_u808",
+      "rule_ids": [
+        "r_holidays_behavior_language",
+        "r_defenders_day_text_pattern_pdf107"
+      ],
+      "relation": "primary",
+      "note_ru": "Мәдени сабақ және мамырдағы мәнді мәтіндер."
+    },
+    {
+      "topic_id": "p2_u809",
+      "rule_ids": [
+        "r_holidays_behavior_language",
+        "r_defenders_day_text_pattern_pdf107"
+      ],
+      "relation": "primary",
+      "note_ru": "Мәдени сабақ және мамырдағы мәнді мәтіндер."
+    },
+    {
+      "topic_id": "p2_u810",
+      "rule_ids": [
+        "r_holidays_behavior_language",
+        "r_defenders_day_text_pattern_pdf107"
+      ],
+      "relation": "primary",
+      "note_ru": "Мәдени сабақ және мамырдағы мәнді мәтіндер."
+    },
+    {
+      "topic_id": "p2_u811",
+      "rule_ids": [
+        "r_holidays_behavior_language",
+        "r_defenders_day_text_pattern_pdf107"
+      ],
+      "relation": "primary",
+      "note_ru": "Мәдени сабақ және мамырдағы мәнді мәтіндер."
+    }
+  ],
+  "glossary_kk_ru": {
+    "note_kk": "124–126: сызықтық сыдырамалық сөздік; JSON entry split қазір қолданбаймыз. Бұл беттерде glyph_fix OCR болса, raw_normalized содан алынады.",
+    "sections": [
+      {
+        "id": "g_oner_lexicon",
+        "title_kk": "Өнер сөздігі",
+        "pdf_page_start": 124,
+        "entries_parse_status": {
+          "structured_entries_parsed": false,
+          "note_kk": "Жақын жолдар тығыз; ақаусыз kk|ru entry тізбегін кейін OCR/hand-check арқылы толтыру ұсынымды."
+        },
+        "raw_normalized": "Данный экземпляр учебника выдан по запросу МОН РК (13-2/048 от 10.09.2019). Все права на учебник принадлежат издательству \"Көкжиен-Горизонт/зашцишены Законом об авторском праве. Печать и распространение учебника и его частей запрещены без письменного согласия правообладателя: (ст. 198 УК РК от 100 МРП до 7 лет лишения свободы). ф УАТАҚЫРЫПҚӨНЕРІ Н 8 өнер — искусство қайшы — ножницы в 3 белгілі/белгісіз — известный (-ая, -ое, желім — клей З 2. -ые) неизвестный (-ая, -ое, -ые) шеберхана — мастерская Н 8. зергер — ювелир ине — иголка КЕ у сырға-- сережна, серьги 8 3 күміс — серебро кию — резать Е ® — кілем — ковер кылкалам — кисть, кисточка В 3 й 5 2. көрме — выставка ілу — вешать Н 2. ою — орнамент, узор ернек — узор, орнамент Е 3 3 $ бояу — краска і 1 би--танец 1 %. моншақ — бусы алқа — кулон, ожерелье, подвеска Е і сахна -- сцена сандың — сундук 8 | кимыл — движение току — вязать, ткать, плести $ & буйым — вещь, изделие 8 $ — ен айту — спеть песню тер! — кожа, шкура 5 32 әртіс — артист түсіру — съёмка 8 3 куй ю 38 1: күй — кюй, мелодия көне заттар -- предметы древности ЕН 8 күйші — исполнитель кюев, мелодий на құмыра — кувшин, ваза 85 55 домбре, кобызе ыдыс — посуда ЕЗ Зе р жы 3 қобыз -- кобыз (музыкальный инстру- 1 2% мент) ғасыр — век 8 2 “ 82 85 үн-- звук, голос бұрын — раньше, прежний (-яя, -ее, -ие) 55 БЕЗ БЕЗ ЕР 55 әз - -- е® Ня коленер — рукоделье жиһаз — мебель 55 33 АУЛРАТАҚТЫҢТҰЛҒАЛАР 83 68 #5 3 НЫ ЕН атақты — знаменитый, известный (-ая, ғалым — учёный ЕН 12 -ое, -ые) зерттеу — изучать; исследовать 5% 8: ұлы -- великий, величавый (-ая, -ое, жұмыс — работа 4: 3 -ые) мүсінші — скульптор Н 5: дарынды — одарённый (-ая, -ое, -ые) аңын-- поэт 3% 3: күйші — кюйши (музыкант) өмір -- жизнь ӛз 22 куй шерту — играть кой шығарма -- произведение ЕН 22 тұңғыш — первый (-ая, -ое, -ые) әлем -- мир 32 Данный экземпляр учебника выдан по запросу МОН РК (13-2/048 от 10.09.2019). Все права на учебник принадлежат издательству \"Көкжиен-Горизонт”/ Зшщицены законом о авторском прове Печать распространение учебника и его частей запрещена Без письменного согласий правообладателя: (С. 98 УК РК от 100 МРП до 7 лет лишения свободы)."
+      },
+      {
+        "id": "g_famous_people_lexicon",
+        "title_kk": "Атақты тұлғалар сөздігі",
+        "pdf_page_start": 125,
+        "entries_parse_status": {
+          "structured_entries_parsed": false,
+          "note_kk": "Жақын жолдар тығыз; ақаусыз kk|ru entry тізбегін кейін OCR/hand-check арқылы толтыру ұсынымды."
+        },
+        "raw_normalized": "Данный экземпляр учебника выдан по запросу МОН РК (13-2/048 от 10.09.2019). Все права на учебник принадлежат издательству \"Көкжиен-Горизонт/: Законом об авторском праве. Печать и распространение учебника и его частей запрещены без письменного согласия правообладателя: (ст, 198 УК РК от 100 МРП до 7 лет лишения свободы). % аударды — переводил жазушы — писатель ы 5 % Е шығарма — сочинение, произведение > 3 ұстаз — педагог; учитель; наставник тану — признать, узнать к 2 әңгіме - рассказ % і шумақ — куплет, строфа дарын — талант к ё унем! — все время; постоянно & 2 балуан — борец тұлға -- личность г ® батыр — герой туынды — произведение % : п ©7 = \"ЮРИИ [2 5 3 көментесші — помоги, пожалуйста я ЕТ Рр 5 шөлдеді -- испытал жажду өзен — река ЕЯ ® суару — поливать дәмді — вкусный (-ая, -ое, -ые) 5 і асты -- снизу, под © : тұшы су — пресная вода көлшік -- небольшое озеро Е % үнемдеу — экономить, беречь айналады — превращается Е 5 ластау — пачкать; загрязнять; мараться; и 5 измазываться ағып кетеді — вытекает г ЕЕ ластама — не загрязняй бет! — поверхность ЕЕ 4 е 52 тек/текпе — разливай/не разливай катады — замерзает 4% 2% й ЕЗ 81 тамшы — капля мұз — лёд 5 5: теңіз — море $5 іс іс 8% мақтанды -- похвастался 33 25 айнала — вокруг мақтаншақ -- хвастун ЕЕ 35 отырғызу — сажать бу — пар 5 & құрғайды — высыхает ы 8% жер — земля; грунт өй 55 55 8: қопсыту — разрыхлять аулау — ловить ЕН 93 арамшөп — сорная трава, сорняк кармак — удочка, крючок 93 82 Иіс--запа///- жағажай — пляж 8% 2: терең — глубокий (-ая, -ое, -ие) ЕН 52 құдық — колодец Е 3% әрине — конечно Пп 55 сусын — напиток 2 33 қайнат -- кипяти Б. 55 емдеу — лечить Н 32 жазылу — вылечиться 32 Данный экземпляр учебника выдан по запросу МОН РК (13-2/048 от 10.09.2019). Все права на учебнин принадлежат издательству \"Кенжиен-Горизонт'/ защищены законом об авторском праве. Печать и распространение учебника и его частей запрещены без письменного согласия правообладателя” (ст. 198 УК. РК от 100 МРП до 7 лет лишения свободы)."
+      },
+      {
+        "id": "g_holidays_lexicon",
+        "title_kk": "Мереке және демалыс сөздігі",
+        "pdf_page_start": 126,
+        "entries_parse_status": {
+          "structured_entries_parsed": false,
+          "note_kk": "Жақын жолдар тығыз; ақаусыз kk|ru entry тізбегін кейін OCR/hand-check арқылы толтыру ұсынымды."
+        },
+        "raw_normalized": "Данный экземпляр учебника выдан по запросу МОН РК (13-2/048 от 10.09.2019). Все права на учебник принадлежат издательству \"Көкжиен-Горизонт/зашцишены Законом об авторском праве. Печать и распространение учебника и его частей запрещены без письменного согласия правообладателя: (ст. 198 УК РК от 100 МРП до 7 лет лишения свободы). $ Е 3 Н % — мәдени саяхат — культурное путешес- Отан — Родина 8 $ твие уландар — воины 5 ® — сыпайылық сақтау -- соблюдать Н 2. вежливость жауынгер — воин ё 2. көңілді — весёлый (-ая, -ое, -ые) умытпау — не забывать; не забыть 4 $ қатты сөйлеме — громко не разговари- жау — враг 8 % вай жеңіс — победа В 3 5 $ бір-бірімізге — друг другу жазғы — летний (-яя, -ее, -ие) Е $ куттыкта — поздравляй саяжай — дача і 2 ашыңхат-- открытка көшет — саженец 1 ® — ас--еда; блюдо күтім — уход ® $ бірлік — единство жоспар — план ® & — шеру — парад таныс — знакомый (-ая, -ое, -ые) ? 3 — алан — площадь арала — обходи; гуляй 8 2. өмір сүру — жить шипажай — санаторий 1 8 мерекелейд! — празднует 32 ЕН думан - праздник ЕЕ 8 қорғайды — защищает, охраняет топ — группа 85 5: шегара — граница жасырынбақ — детская игра в прятки 4: Еа Шы ЕЗ 5% ЕЗ 85 НЕ ы 2 зе 95 55 ЕЁ её ЕЕ ЕЗ ЕЗ ЕЗ 55 55 68 #5 ЕН ж с НЕ Е ЕН Н ЕЕ 45 НЫ ЕН ЕН ЕН 8% %: % 25 25 Данный экземпляр учебника выдан по запросу МОН РК (13-2/048 от 10.09.2019). Все права на учебнин принадлежат издательству \"Кенжиен-Горизонт'/ защищены законом об авторском праве. Печать и распространение учебника и его частей запрещены без письменного согласия правообладателя” (ст. 198 УК. РК от 100 МРП до 7 лет лишения свободы)."
+      }
+    ]
+  },
+  "example_tasks_v2": {
+    "verbatim_examples": [
+      {
+        "lesson_id": "p2_u501",
+        "lesson_no": 1,
+        "unit_no": 5,
+        "topic_title": "Отбасым өнерлі",
+        "exact_page": 4,
+        "source_layer": "pdf_text_layer_pdfjs",
+        "raw_text": "Данный экземпляр учебника выдан по запросу МОН РК (13-2/048 от 10.09.2019). Все права на учебник принадлежат издательству \"Көкжиек-Горизонт\"/ защищены законом об авторском праве. Печать и распространение учебника и его частей запрещены без письменного согласия правообладателя\" (ст. 198 УК РК от 100 МРП до 7 лет лишения свободы). Данный экземпляр учебника выдан по запросу МОН РК (13-2/048 от 10.09.2019). Все права на учебник принадлежат издательству \"Көкжиек-Горизонт\"/защищены законом об авторском праве. Печать и ра",
+        "normalized_text": "Данный экземпляр учебника выдан по запросу МОН РК (13-2/048 от 10.09.2019). Все права на учебник принадлежат издательству \"Көкжиек-Горизонт\"/ защищены законом об авторском праве. Печать и распространение учебника и его частей запрещены без письменного согласия правообладателя\" (ст. 198 УК РК от 100 МРП до 7 лет лишения свободы). Данный экземпляр учебника выдан по запросу МОН РК (13-2/048 от 10.09.2019). Все права на учебник принадлежат издательству \"Көкжиек-Горизонт\"/защищены законом об авторском праве. Печать и ра",
+        "task_type": "skills_module_oner",
+        "confidence": "medium_no_explicit_first_task_on_page_tail"
+      },
+      {
+        "lesson_id": "p2_u602",
+        "lesson_no": 2,
+        "unit_no": 6,
+        "topic_title": "Ұлы ғалым",
+        "exact_page": 41,
+        "source_layer": "pdf_text_layer_pdfjs",
+        "raw_text": "1-тапсырма. Мәтінді ты\u000fда. С\u0006ра\u0005тар\u0004а жауап бер. 1. Бала Шоан андай болды? 2. Ол айда оыды? 3. Шоан нені с¨йетін? 4. Кейін Шоан Уәлиханов андай адам болды? АЙТЫЛЫМ АЙТЫЛЫМ 2-тапсырма. Тірек с\u0017здерді пайдаланып, мазм\u0006нын \u0017з с\u0017зі\u000fмен айт. Тірек с\u0014здер: Шоан Уәлиханов, т¡¢ыш ¢алым, дарынды, білімді, Ресейде оу, әдепті, ¨йренді. Т \u0002\u0006ыш \u0006алым 2 -саба\u001c",
+        "normalized_text": "1-тапсырма. Мәтінді ты\u000fда. С\u0006ра\u0005тар\u0004а жауап бер. 1. Бала Шоан андай болды? 2. Ол айда оыды? 3. Шоан нені с¨йетін? 4. Кейін Шоан Уәлиханов андай адам болды? АЙТЫЛЫМ АЙТЫЛЫМ 2-тапсырма. Тірек с\u0017здерді пайдаланып, мазм\u0006нын \u0017з с\u0017зі\u000fмен айт. Тірек с\u0014здер: Шоан Уәлиханов, т¡¢ыш ¢алым, дарынды, білімді, Ресейде оу, әдепті, ¨йренді. Т \u0002\u0006ыш \u0006алым 2 -саба\u001c",
+        "task_type": "reading_about_scientist",
+        "confidence": "medium_pdf_glyph_substitution"
+      },
+      {
+        "lesson_id": "p2_u702",
+        "lesson_no": 2,
+        "unit_no": 7,
+        "topic_title": "Суды үнемде",
+        "exact_page": 70,
+        "source_layer": "pdf_text_layer_pdfjs",
+        "raw_text": "1-тапсырма. Мәтінді ты\u000fда. Тірек с\u0017здерді пайдаланып лиді\u000f не істегенін айт. Тірек с\u001bздер: тк, ткпе, ¨немде. Д\u001eрыс айт! тщы су [тщ су] ¨немдеу [¨нмду] ласта /ластама тк /ткп тамшы те¡із Суды ¨немде! Суды ластама! Суды ткпе! О\u001fЫЛЫМ 2-тапсырма. Мәтінді о\u0005ы. лемде ащы су кп, тщы су аз. Біз ащы суды ішпейміз. Тщы суды ішеміз, тамаа пайдаланамыз. Суды ластама! Суды ¨немде, ткпе! Тамшыдан те¡із ралады. Суды¡ да срауы бар. Сен суды алай ¨немдейсі¡? Суды немде 2 -саба\u001c",
+        "normalized_text": "1-тапсырма. Мәтінді ты\u000fда. Тірек с\u0017здерді пайдаланып лиді\u000f не істегенін айт. Тірек с\u001bздер: тк, ткпе, ¨немде. Д\u001eрыс айт! тщы су [тщ су] ¨немдеу [¨нмду] ласта /ластама тк /ткп тамшы те¡із Суды ¨немде! Суды ластама! Суды ткпе! О\u001fЫЛЫМ 2-тапсырма. Мәтінді о\u0005ы. лемде ащы су кп, тщы су аз. Біз ащы суды ішпейміз. Тщы суды ішеміз, тамаа пайдаланамыз. Суды ластама! Суды ¨немде, ткпе! Тамшыдан те¡із ралады. Суды¡ да срауы бар. Сен суды алай ¨немдейсі¡? Суды немде 2 -саба\u001c",
+        "task_type": "water_usage_and_save_listening_or_reading",
+        "confidence": "medium_pdf_glyph_substitution"
+      },
+      {
+        "lesson_id": "p2_u708",
+        "lesson_no": 8,
+        "unit_no": 7,
+        "topic_title": "Мақтаншақ көлшік",
+        "exact_page": 87,
+        "source_layer": "pdf_text_layer_pdfjs",
+        "raw_text": "1-тапсырма. Мәтінді ты\u000fдап, т\u0013сінгені\u000fді айт. бу¢а айналды клшік кеуіп алды О\u001fЫЛЫМ 2-тапсырма. Мәтінді т\u0013сініп о\u0005ы. Жазда жа¡быр жиі жауды. \u0005дыты¡ айналасына Клшік пайда болды. Ол: «Мен клмін!» — деп матанды. К¨зде Клшікті¡ суы азаяды. Оны¡ суы бу¢а айналады. Ол шлдейді. Матанша Клшік кеуіп алады. \u0005ды алады. Ма\u001cтанша\u001c Көлшік 8 -саба\u001c",
+        "normalized_text": "1-тапсырма. Мәтінді ты\u000fдап, т\u0013сінгені\u000fді айт. бу¢а айналды клшік кеуіп алды О\u001fЫЛЫМ 2-тапсырма. Мәтінді т\u0013сініп о\u0005ы. Жазда жа¡быр жиі жауды. \u0005дыты¡ айналасына Клшік пайда болды. Ол: «Мен клмін!» — деп матанды. К¨зде Клшікті¡ суы азаяды. Оны¡ суы бу¢а айналады. Ол шлдейді. Матанша Клшік кеуіп алады. \u0005ды алады. Ма\u001cтанша\u001c Көлшік 8 -саба\u001c",
+        "task_type": "kulshik_story_listening_fragment",
+        "confidence": "medium_pdf_glyph_substitution"
+      },
+      {
+        "lesson_id": "p2_u805",
+        "lesson_no": 5,
+        "unit_no": 8,
+        "topic_title": "Ұландар мерекесі (7 мамыр)",
+        "exact_page": 107,
+        "source_layer": "ocr_glyph_fix_tesseract_js_kaz_rus",
+        "raw_text": "1-тапсырма. Мәтінді тыңда. Түсінгеніңді айт. ұландар 4: же - Отан 53 сори оқылымайтылым қорғайды [коргайт] | == №: 2-тапсырма. Мәтінді оқы. Сұрақтарға жауап бер. шегара 5 8 7 мамыр — Ұландар күні. Ұландар Отанды қорғайды. Ұландар — батыр. 28 ЕЕ Ұландар Қазақстанның шегарасын қорғайды. Біз оларды мақтан тұтамыз. Бұл у і $ күні біз атамызды, әкемізді, ағамызды, бауырымызды құттықтаймыз. Олар Н 5: қашан да Отан қорғауға әзір. ЕЕ ет й ЕС 33 Отан қорғаушылар күні құтты болсын! 33 3 1. Ұландар не істейді? ЕН На 2. Ұланда",
+        "normalized_text": "1-тапсырма. Мәтінді тыңда. Түсінгеніңді айт. ұландар 4: же - Отан 53 сори оқылымайтылым қорғайды [коргайт] | == №: 2-тапсырма. Мәтінді оқы. Сұрақтарға жауап бер. шегара 5 8 7 мамыр — Ұландар күні. Ұландар Отанды қорғайды. Ұландар — батыр. 28 ЕЕ Ұландар Қазақстанның шегарасын қорғайды. Біз оларды мақтан тұтамыз. Бұл у і $ күні біз атамызды, әкемізді, ағамызды, бауырымызды құттықтаймыз. Олар Н 5: қашан да Отан қорғауға әзір. ЕЕ ет й ЕС 33 Отан қорғаушылар күні құтты болсын! 33 3 1. Ұландар не істейді? ЕН На 2. Ұланда",
+        "task_type": "defenders_day_ulandar_may7",
+        "confidence": "medium_ocr_tesseract_glyph_fix"
+      },
+      {
+        "lesson_id": "p2_u806",
+        "lesson_no": 6,
+        "unit_no": 8,
+        "topic_title": "9 мамыр — Жеңіс күні",
+        "exact_page": 109,
+        "source_layer": "ocr_glyph_fix_tesseract_js_kaz_rus",
+        "raw_text": "1-тапсырма. Мәтінді тыңда. Түсінгеніңді айт. 22 52 Ед 28 8% 35. 2-тапсырма. Мәтінді түсініп оқы. 55 ЕН 9 мамыр — Жеңіс күні. Жауынгерлер Отанды жаудан қорғады. Олар төрт жыл % %: соғысты. Бауыржан Момышұлы, Талғат Бигелдинов, Сергей Луганский, Мәншүк 24 3: Мәметова, Әлия Молдағұлова — жауынгер батырлар. Олар жеңіске жетті. Ұлы зі 2; меңісті адамдар ұмытпайды. 9 мамырда мәңгілік алауға гүл қоямыз. ЕН 8 8. Демалыс мәдениеті. Мерекелер 4 Данный экземпляр учебника выдан по запросу МОН РК (13-2/048 от 10.09.2019). Все п",
+        "normalized_text": "1-тапсырма. Мәтінді тыңда. Түсінгеніңді айт. 22 52 Ед 28 8% 35. 2-тапсырма. Мәтінді түсініп оқы. 55 ЕН 9 мамыр — Жеңіс күні. Жауынгерлер Отанды жаудан қорғады. Олар төрт жыл % %: соғысты. Бауыржан Момышұлы, Талғат Бигелдинов, Сергей Луганский, Мәншүк 24 3: Мәметова, Әлия Молдағұлова — жауынгер батырлар. Олар жеңіске жетті. Ұлы зі 2; меңісті адамдар ұмытпайды. 9 мамырда мәңгілік алауға гүл қоямыз. ЕН 8 8. Демалыс мәдениеті. Мерекелер 4 Данный экземпляр учебника выдан по запросу МОН РК (13-2/048 от 10.09.2019). Все п",
+        "task_type": "victory_day_may9",
+        "confidence": "medium_ocr_tesseract_glyph_fix"
+      },
+      {
+        "lesson_id": "p2_u811",
+        "lesson_no": 11,
+        "unit_no": 8,
+        "topic_title": "Нәтиже сабақ. Мен не үйрендім?",
+        "exact_page": 123,
+        "source_layer": "ocr_glyph_fix_tesseract_js_kaz_rus",
+        "raw_text": "1-тапсырма. Тірек сөздерді пайдаланып «Маған ұнайтын мерекелер» Б Е деген тақырыпта мәтін құраңдар. Б і Тірек сөздер: көктемде, мереке, құттықта, шеру, Жеңіс күні, думан, Бірлік г 8 күні, тойлау. Фе За І | О АЙТЫЛЫМ Е і 2-тапсырма. Сөйлемдерді толықтыр. Е Е Жаз айлары — маусым, ..., тамыз. ы Е ЕШ ғ Жазда кун ұзаң, түн ... болады. > 3 1% ЕЕ шін; 53 53 7 М ) 58 2: Жазда балалар ® (го .- барады. ЕЗ 85 ; Ж 83 Н Е ЖҒ /} 274 ЖЕ 3% УВ ЖОУЕА % 95 Қ КиК Еж х, 5 5% 2 - 53 Е Е 8% В 24 м ЗЕ 55 Жазғы демалыста Әлібек ЕТ аулайды",
+        "normalized_text": "1-тапсырма. Тірек сөздерді пайдаланып «Маған ұнайтын мерекелер» Б Е деген тақырыпта мәтін құраңдар. Б і Тірек сөздер: көктемде, мереке, құттықта, шеру, Жеңіс күні, думан, Бірлік г 8 күні, тойлау. Фе За І | О АЙТЫЛЫМ Е і 2-тапсырма. Сөйлемдерді толықтыр. Е Е Жаз айлары — маусым, ..., тамыз. ы Е ЕШ ғ Жазда кун ұзаң, түн ... болады. > 3 1% ЕЕ шін; 53 53 7 М ) 58 2: Жазда балалар ® (го .- барады. ЕЗ 85 ; Ж 83 Н Е ЖҒ /} 274 ЖЕ 3% УВ ЖОУЕА % 95 Қ КиК Еж х, 5 5% 2 - 53 Е Е 8% В 24 м ЗЕ 55 Жазғы демалыста Әлібек ЕТ аулайды",
+        "task_type": "writing_planning_about_summer_rest",
+        "confidence": "medium_ocr_tesseract_glyph_fix"
+      }
+    ],
+    "verbatim_examples_status": {
+      "available": true,
+      "reason": "",
+      "next_step": "107–127 OCR өтілді; қажет болса қосымша беттерді OCR + қолмен жөндеу."
+    },
+    "structural_examples_for_generation": [
+      {
+        "task_type": "glossary_matching_from_raw",
+        "stem_template_kk": "Келесі жолдан дұрыс аударманы табылады: ....",
+        "data_pointer": "glossary_kk_ru.sections[].raw_normalized"
+      },
+      {
+        "task_type": "figure_biography_fact_check",
+        "stem_template_kk": "«{person}» туралы мәлімет бойынша дұрыс сөйлемді таңда.",
+        "distractor_hints": [
+          "жақын синоним",
+          "мәнімен жанаспайтын фактілер шығармау"
+        ]
+      },
+      {
+        "task_type": "cloze_predicate_on_er",
+        "stem_template_kk": "Жолдағы бостықты толықтыр ... {cloze_predicate}",
+        "rule_hint": "r_predicate_onerli_patterns"
+      }
+    ]
+  },
+  "generator_profile_kz_moem": {
+    "audience": "3 сынып қазақ тілі, 2-бөлім: өнер тұлға табиғат мереке",
+    "language_policy": {
+      "ui": [
+        "kk",
+        "ru"
+      ],
+      "stem_default": "kk"
+    },
+    "task_mix_recommended": {
+      "reading_listening_response": 0.32,
+      "grammar_pattern_clozes": 0.26,
+      "cultural_holiday_facts": 0.22,
+      "glossary_linked_mc": 0.2
+    },
+    "format_rules": [
+      "Таңдау",
+      "Жазбаша қысқа",
+      "Жұбымен талқылау"
+    ],
+    "safety_and_scope": [
+      "Патриоттық мәтіндерді дәстүрлі мұғалім контексі шеңгерінде генерациялау",
+      "Медициналық немесе теріс психологиялық жалпылама жок"
+    ]
+  }
+}

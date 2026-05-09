@@ -1,0 +1,1488 @@
+{
+  "source": {
+    "file_name": "Қазақ тілі Даулеткереева Н. учебник для 4 класса 1 бөлім.pdf",
+    "parsed_at": "2026-05-09",
+    "version": "v2",
+    "extraction_method": {
+      "pdf_text_layer": false,
+      "pdf_text_probe_dir": "ocr/ocr_text_kaz_tili_dauletkereeva_4grade_part1_probe",
+      "ocr_applied": true,
+      "ocr_languages": [
+        "kaz",
+        "rus"
+      ],
+      "ocr_engine": "tesseract.js (via ocr-pdfjs.mjs)",
+      "render_engine": "@napi-rs/canvas + pdfjs-dist",
+      "scale": 2,
+      "ocr_pages_dir": "ocr/ocr_pages_kaz_tili_dauletkereeva_4grade_part1"
+    },
+    "quality_report": {
+      "high_confidence_blocks": [
+        "Титул/колофон: авторлар, Алматыкітап, 2019, 128 б (OCR бет 002, 128)",
+        "48 сабаққа жақын сандық бет бекітулері (немере сабақ нөмірлері бет 4–121 аралығында ізделді)",
+        "Орфографиялық сөздік бөлігі ~124–125 (бас тақырып «Орфографиялық сөздік»)"
+      ],
+      "medium_confidence_blocks": [
+        "МАЗМҰНЫ бет 126–127: сандық бет нөмірлері қармаңды, сабақ аттарымен қосатындығы manual recovery",
+        "Кейде сабақ тақырыбы бірінші бет жолында ғана сынықты (мыс.: «Нағыз өнер», «Қазақстан қалалары»)",
+        "Әдеби мәтіндер мен тапсырма нумерациясы бір бетте қайталанатын қосылым жолдары"
+      ],
+      "low_confidence_blocks": [
+        "ISBN бет 002-де сынықты; сандық идентификатор алына алмады — metadata.isbn null",
+        "Кей бір сабақ атауы (мыс.: 29, 44) сынықты OCR жолынан екі нұсқамен көрсетілген"
+      ],
+      "note": "Толық мазмұн тек OCR арқылы: pdfjs-тің getTextContent слойы беттерде тек OKULYK ескертпесі. Сабақ page_start көп жағдайда тақырып жолы бойынша скандалды; сынықты МАЗМҰНЫмен сәйкестендіріп редакциялық тексеру ұсынылады."
+    }
+  },
+  "metadata": {
+    "title_kk": "Қазақ тілі. Оқулық (4 сынып, 1-бөлім)",
+    "title_ru": "Казахский язык. Учебник (4 класс, часть 1)",
+    "subject": "Қазақ тілі",
+    "grade": 4,
+    "part": 1,
+    "authors": [
+      "Даулеткереева Н.Ж.",
+      "Мухангалиева Г.Б."
+    ],
+    "publisher": "Алматыкітап баспасы",
+    "city": "Алматы",
+    "publication_year": 2019,
+    "page_count": 128,
+    "isbn": {
+      "part_1": null,
+      "overall": null,
+      "note_ru": "Беттегі ISBN жолы OCR-де толық оқылмады («…от мая года №…»); басылыш дерек бойынша тексеріңіз."
+    },
+    "languages": [
+      "kk",
+      "ru"
+    ],
+    "audience_note_ru": "Оқушылар 4 сыныпы, жалпы оқыту, орыс тілімен оқытатын сыныптарға бағытталған нақтылау бет 002 OCR."
+  },
+  "topics_with_pages": [
+    {
+      "id": "d4p1_u101",
+      "unit_no": 1,
+      "unit_title_kk": "Менің отаным — Қазақстан",
+      "lesson_no": 1,
+      "topic_title_kk": "Қазақстан қалалары",
+      "page_start": 4,
+      "page_start_ref": "ocr_lesson_heading_scan_section_1",
+      "page_end_estimated": 5,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u102",
+      "unit_no": 1,
+      "unit_title_kk": "Менің отаным — Қазақстан",
+      "lesson_no": 2,
+      "topic_title_kk": "Бурабайдағы демалыс",
+      "page_start": 6,
+      "page_start_ref": "ocr_lesson_heading_scan_section_1",
+      "page_end_estimated": 7,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u103",
+      "unit_no": 1,
+      "unit_title_kk": "Менің отаным — Қазақстан",
+      "lesson_no": 3,
+      "topic_title_kk": "«Туған ел» көрмесі",
+      "page_start": 8,
+      "page_start_ref": "ocr_lesson_heading_scan_section_1",
+      "page_end_estimated": 9,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u104",
+      "unit_no": 1,
+      "unit_title_kk": "Менің отаным — Қазақстан",
+      "lesson_no": 4,
+      "topic_title_kk": "Мемлекеттік рәміздер",
+      "page_start": 10,
+      "page_start_ref": "ocr_lesson_heading_scan_section_1",
+      "page_end_estimated": 11,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u105",
+      "unit_no": 1,
+      "unit_title_kk": "Менің отаным — Қазақстан",
+      "lesson_no": 5,
+      "topic_title_kk": "Ойын ойлайық / ойын ойнаймыз",
+      "page_start": 12,
+      "page_start_ref": "ocr_lesson_heading_scan_section_1",
+      "page_end_estimated": 14,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u106",
+      "unit_no": 1,
+      "unit_title_kk": "Менің отаным — Қазақстан",
+      "lesson_no": 6,
+      "topic_title_kk": "Өз тәжірибеммен бөлісу (жоба)",
+      "page_start": 15,
+      "page_start_ref": "ocr_lesson_heading_scan_section_1",
+      "page_end_estimated": 17,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u107",
+      "unit_no": 1,
+      "unit_title_kk": "Менің отаным — Қазақстан",
+      "lesson_no": 7,
+      "topic_title_kk": "Менің сапарым",
+      "page_start": 18,
+      "page_start_ref": "ocr_lesson_heading_scan_section_1",
+      "page_end_estimated": 19,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u108",
+      "unit_no": 1,
+      "unit_title_kk": "Менің отаным — Қазақстан",
+      "lesson_no": 8,
+      "topic_title_kk": "Қайталау",
+      "page_start": 20,
+      "page_start_ref": "ocr_lesson_heading_scan_section_1",
+      "page_end_estimated": 21,
+      "notes": [
+        "TOC және басқа сынып оқұлықтарына сәйкес «Қайталау» қайта жазылуы мүмкін; бет нөмірі OCR арқылы 20-бетегі көшірмеден алынып."
+      ]
+    },
+    {
+      "id": "d4p1_u109",
+      "unit_no": 1,
+      "unit_title_kk": "Менің отаным — Қазақстан",
+      "lesson_no": 9,
+      "topic_title_kk": "Ауыл сыртында",
+      "page_start": 22,
+      "page_start_ref": "ocr_lesson_heading_scan_section_1",
+      "page_end_estimated": 23,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u110",
+      "unit_no": 1,
+      "unit_title_kk": "Менің отаным — Қазақстан",
+      "lesson_no": 10,
+      "topic_title_kk": "Менің ауылым",
+      "page_start": 24,
+      "page_start_ref": "ocr_lesson_heading_scan_section_1",
+      "page_end_estimated": 25,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u111",
+      "unit_no": 1,
+      "unit_title_kk": "Менің отаным — Қазақстан",
+      "lesson_no": 11,
+      "topic_title_kk": "Әлидің үйі",
+      "page_start": 26,
+      "page_start_ref": "ocr_lesson_heading_scan_section_1",
+      "page_end_estimated": 27,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u112",
+      "unit_no": 1,
+      "unit_title_kk": "Менің отаным — Қазақстан",
+      "lesson_no": 12,
+      "topic_title_kk": "Бөлмеддегі заттар",
+      "page_start": 28,
+      "page_start_ref": "ocr_lesson_heading_scan_section_1",
+      "page_end_estimated": 29,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u113",
+      "unit_no": 1,
+      "unit_title_kk": "Менің отаным — Қазақстан",
+      "lesson_no": 13,
+      "topic_title_kk": "Сүйікті қаламыз",
+      "page_start": 30,
+      "page_start_ref": "ocr_lesson_heading_scan_section_1",
+      "page_end_estimated": 31,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u114",
+      "unit_no": 1,
+      "unit_title_kk": "Менің отаным — Қазақстан",
+      "lesson_no": 14,
+      "topic_title_kk": "Менің отбасым",
+      "page_start": 32,
+      "page_start_ref": "ocr_lesson_heading_scan_section_1",
+      "page_end_estimated": 33,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u115",
+      "unit_no": 1,
+      "unit_title_kk": "Менің отаным — Қазақстан",
+      "lesson_no": 15,
+      "topic_title_kk": "Шеберші / шеберлік (мақсат туралы жолдастыру)",
+      "page_start": 34,
+      "page_start_ref": "ocr_lesson_heading_scan_section_1",
+      "page_end_estimated": 35,
+      "notes": [
+        "Сабақ нөмірі 15 OCR: бет 034 «Шегарашы»; мазмұн бойынша шебер/мақсат тақырыбына түрлендірілген — басылым бетін қараңыз."
+      ]
+    },
+    {
+      "id": "d4p1_u116",
+      "unit_no": 1,
+      "unit_title_kk": "Менің отаным — Қазақстан",
+      "lesson_no": 16,
+      "topic_title_kk": "Қайталау",
+      "page_start": 36,
+      "page_start_ref": "ocr_lesson_heading_scan_section_1",
+      "page_end_estimated": 37,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u201",
+      "unit_no": 2,
+      "unit_title_kk": "Құндылықтар",
+      "lesson_no": 1,
+      "topic_title_kk": "Мейірімді қыз",
+      "page_start": 38,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 39,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u202",
+      "unit_no": 2,
+      "unit_title_kk": "Құндылықтар",
+      "lesson_no": 2,
+      "topic_title_kk": "Еңбектің сыйы",
+      "page_start": 40,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 42,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u203",
+      "unit_no": 2,
+      "unit_title_kk": "Құндылықтар",
+      "lesson_no": 3,
+      "topic_title_kk": "Әдепті бала",
+      "page_start": 43,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 45,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u204",
+      "unit_no": 2,
+      "unit_title_kk": "Құндылықтар",
+      "lesson_no": 4,
+      "topic_title_kk": "Үлгілі оқушы",
+      "page_start": 46,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 47,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u205",
+      "unit_no": 2,
+      "unit_title_kk": "Құндылықтар",
+      "lesson_no": 5,
+      "topic_title_kk": "Анамның тапсырмасы",
+      "page_start": 48,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 49,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u206",
+      "unit_no": 2,
+      "unit_title_kk": "Құндылықтар",
+      "lesson_no": 6,
+      "topic_title_kk": "Қамқор немере",
+      "page_start": 50,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 52,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u207",
+      "unit_no": 2,
+      "unit_title_kk": "Құндылықтар",
+      "lesson_no": 7,
+      "topic_title_kk": "Жақсы мен жаман",
+      "page_start": 53,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 55,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u208",
+      "unit_no": 2,
+      "unit_title_kk": "Құндылықтар",
+      "lesson_no": 8,
+      "topic_title_kk": "Қайталау",
+      "page_start": 56,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 57,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u209",
+      "unit_no": 2,
+      "unit_title_kk": "Құндылықтар",
+      "lesson_no": 9,
+      "topic_title_kk": "Қуыршақтар",
+      "page_start": 58,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 60,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u210",
+      "unit_no": 2,
+      "unit_title_kk": "Құндылықтар",
+      "lesson_no": 10,
+      "topic_title_kk": "Жаман дос",
+      "page_start": 61,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 62,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u211",
+      "unit_no": 2,
+      "unit_title_kk": "Құндылықтар",
+      "lesson_no": 11,
+      "topic_title_kk": "Шегіртке мен құмырсқа",
+      "page_start": 63,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 65,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u212",
+      "unit_no": 2,
+      "unit_title_kk": "Құндылықтар",
+      "lesson_no": 12,
+      "topic_title_kk": "Көмекші робот",
+      "page_start": 66,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 67,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u213",
+      "unit_no": 2,
+      "unit_title_kk": "Құндылықтар",
+      "lesson_no": 13,
+      "topic_title_kk": "Менің қаладағы үйім / Менің қалауым (OCR-дегі атауы)",
+      "page_start": 68,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 70,
+      "notes": [
+        "Басылым бет 068 тақырыбында OCR: «Менің қалауым»; сыныптік атауда «қаладағы үйім» версиясы да кездеседі — редакциялық тексеру."
+      ]
+    },
+    {
+      "id": "d4p1_u214",
+      "unit_no": 2,
+      "unit_title_kk": "Құндылықтар",
+      "lesson_no": 14,
+      "topic_title_kk": "Кайырымды қойшы",
+      "page_start": 71,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 72,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u215",
+      "unit_no": 2,
+      "unit_title_kk": "Құндылықтар",
+      "lesson_no": 15,
+      "topic_title_kk": "Мысық, әтеш және түлкі",
+      "page_start": 73,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 74,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u216",
+      "unit_no": 2,
+      "unit_title_kk": "Құндылықтар",
+      "lesson_no": 16,
+      "topic_title_kk": "Қайталау",
+      "page_start": 75,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 77,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u301",
+      "unit_no": 3,
+      "unit_title_kk": "Мәдени мұра",
+      "lesson_no": 1,
+      "topic_title_kk": "Біз қаладан келеміз",
+      "page_start": 78,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 80,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u302",
+      "unit_no": 3,
+      "unit_title_kk": "Мәдени мұра",
+      "lesson_no": 2,
+      "topic_title_kk": "Нағыз өнер — қолөнер",
+      "page_start": 81,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 83,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u303",
+      "unit_no": 3,
+      "unit_title_kk": "Мәдени мұра",
+      "lesson_no": 3,
+      "topic_title_kk": "Базарлық",
+      "page_start": 84,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 86,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u304",
+      "unit_no": 3,
+      "unit_title_kk": "Мәдени мұра",
+      "lesson_no": 4,
+      "topic_title_kk": "Отбасылық мереке",
+      "page_start": 87,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 89,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u305",
+      "unit_no": 3,
+      "unit_title_kk": "Мәдени мұра",
+      "lesson_no": 5,
+      "topic_title_kk": "«Тұсаукесер» жыры",
+      "page_start": 90,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 92,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u306",
+      "unit_no": 3,
+      "unit_title_kk": "Мәдени мұра",
+      "lesson_no": 6,
+      "topic_title_kk": "Кәдесый",
+      "page_start": 93,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 95,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u307",
+      "unit_no": 3,
+      "unit_title_kk": "Мәдени мұра",
+      "lesson_no": 7,
+      "topic_title_kk": "Сиқырлы кілем",
+      "page_start": 96,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 96,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u308",
+      "unit_no": 3,
+      "unit_title_kk": "Мәдени мұра",
+      "lesson_no": 8,
+      "topic_title_kk": "Қайталау",
+      "page_start": 97,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 101,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u309",
+      "unit_no": 3,
+      "unit_title_kk": "Мәдени мұра",
+      "lesson_no": 9,
+      "topic_title_kk": "Көне ғасыр қонақтары",
+      "page_start": 102,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 104,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u310",
+      "unit_no": 3,
+      "unit_title_kk": "Мәдени мұра",
+      "lesson_no": 10,
+      "topic_title_kk": "Зергерлік бұйымдар",
+      "page_start": 105,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 106,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u311",
+      "unit_no": 3,
+      "unit_title_kk": "Мәдени мұра",
+      "lesson_no": 11,
+      "topic_title_kk": "Дауылпаз — бабалар мұрасы",
+      "page_start": 107,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 109,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u312",
+      "unit_no": 3,
+      "unit_title_kk": "Мәдени мұра",
+      "lesson_no": 12,
+      "topic_title_kk": "Айтыс өнері",
+      "page_start": 110,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 113,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u313",
+      "unit_no": 3,
+      "unit_title_kk": "Мәдени мұра",
+      "lesson_no": 13,
+      "topic_title_kk": "Ұлттық аспаптар",
+      "page_start": 114,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 116,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u314",
+      "unit_no": 3,
+      "unit_title_kk": "Мәдени мұра",
+      "lesson_no": 14,
+      "topic_title_kk": "Ата, бата беріңіз!",
+      "page_start": 117,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 118,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u315",
+      "unit_no": 3,
+      "unit_title_kk": "Мәдени мұра",
+      "lesson_no": 15,
+      "topic_title_kk": "Абай Құнанбайұлы — ұлы ақын",
+      "page_start": 119,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 120,
+      "notes": []
+    },
+    {
+      "id": "d4p1_u316",
+      "unit_no": 3,
+      "unit_title_kk": "Мәдени мұра",
+      "lesson_no": 16,
+      "topic_title_kk": "Қайталау ойын-сауық және жинақтау жұмыстары",
+      "page_start": 121,
+      "page_start_ref": "estimated_from_ocr_anchor",
+      "page_end_estimated": 123,
+      "notes": []
+    }
+  ],
+  "topic_rule_links": [
+    {
+      "topic_id": "d4p1_u101",
+      "rule_ids": [
+        "r_where_question"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u102",
+      "rule_ids": [
+        "r_where_question"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u103",
+      "rule_ids": [
+        "r_where_question"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u104",
+      "rule_ids": [
+        "r_state_symbols_lexis"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u105",
+      "rule_ids": [
+        "r_lexis_cultural_heritage"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u106",
+      "rule_ids": [
+        "r_state_symbols_lexis"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u107",
+      "rule_ids": [
+        "r_possessive_suffix_intro"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u108",
+      "rule_ids": [
+        "r_plural_meaning_tasks",
+        "r_where_question"
+      ],
+      "relation": "review",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u109",
+      "rule_ids": [
+        "r_possessive_suffix_intro",
+        "r_plural_meaning_tasks"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u110",
+      "rule_ids": [
+        "r_possessive_suffix_intro",
+        "r_plural_meaning_tasks"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u111",
+      "rule_ids": [
+        "r_lexis_cultural_heritage"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u112",
+      "rule_ids": [
+        "r_lexis_cultural_heritage"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u113",
+      "rule_ids": [
+        "r_lexis_cultural_heritage"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u114",
+      "rule_ids": [
+        "r_possessive_suffix_intro"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u115",
+      "rule_ids": [
+        "r_lexis_cultural_heritage"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u116",
+      "rule_ids": [
+        "r_plural_meaning_tasks",
+        "r_where_question"
+      ],
+      "relation": "review",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u201",
+      "rule_ids": [
+        "r_imperative_mood_hints"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u202",
+      "rule_ids": [
+        "r_imperative_mood_hints"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u203",
+      "rule_ids": [
+        "r_imperative_mood_hints",
+        "r_negative_verb_hints"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u204",
+      "rule_ids": [
+        "r_imperative_mood_hints",
+        "r_negative_verb_hints"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u205",
+      "rule_ids": [
+        "r_imperative_mood_hints"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u206",
+      "rule_ids": [
+        "r_imperative_mood_hints",
+        "r_possessive_suffix_intro"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u207",
+      "rule_ids": [
+        "r_imperative_mood_hints"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u208",
+      "rule_ids": [
+        "r_imperative_mood_hints"
+      ],
+      "relation": "review",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u209",
+      "rule_ids": [
+        "r_imperative_mood_hints"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u210",
+      "rule_ids": [
+        "r_imperative_mood_hints"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u211",
+      "rule_ids": [
+        "r_imperative_mood_hints"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u212",
+      "rule_ids": [
+        "r_imperative_mood_hints"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u213",
+      "rule_ids": [
+        "r_imperative_mood_hints",
+        "r_conjunct_suffix_kisi_keledi"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u214",
+      "rule_ids": [
+        "r_imperative_mood_hints"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u215",
+      "rule_ids": [
+        "r_imperative_mood_hints"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u216",
+      "rule_ids": [
+        "r_imperative_mood_hints"
+      ],
+      "relation": "review",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u301",
+      "rule_ids": [
+        "r_lexis_cultural_heritage"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u302",
+      "rule_ids": [
+        "r_lexis_cultural_heritage"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u303",
+      "rule_ids": [
+        "r_lexis_cultural_heritage"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u304",
+      "rule_ids": [
+        "r_possessive_suffix_intro",
+        "r_lexis_cultural_heritage"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u305",
+      "rule_ids": [
+        "r_lexis_cultural_heritage"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u306",
+      "rule_ids": [
+        "r_lexis_cultural_heritage"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u307",
+      "rule_ids": [
+        "r_lexis_cultural_heritage"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u308",
+      "rule_ids": [
+        "r_lexis_cultural_heritage",
+        "r_case_suffix_practice_ke"
+      ],
+      "relation": "review",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u309",
+      "rule_ids": [
+        "r_lexis_cultural_heritage"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u310",
+      "rule_ids": [
+        "r_lexis_cultural_heritage"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u311",
+      "rule_ids": [
+        "r_possessive_suffix_intro",
+        "r_plural_meaning_tasks",
+        "r_lexis_cultural_heritage",
+        "r_clause_conditional_facts"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u312",
+      "rule_ids": [
+        "r_lexis_cultural_heritage",
+        "r_clause_conditional_facts"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u313",
+      "rule_ids": [
+        "r_lexis_cultural_heritage"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u314",
+      "rule_ids": [
+        "r_lexis_cultural_heritage"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u315",
+      "rule_ids": [
+        "r_lexis_cultural_heritage"
+      ],
+      "relation": "primary",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    },
+    {
+      "topic_id": "d4p1_u316",
+      "rule_ids": [
+        "r_lexis_cultural_heritage",
+        "r_case_suffix_practice_ke"
+      ],
+      "relation": "review",
+      "note_ru": "Автоматты топик ↔ ереже топтауы (басылым бойынша педагог растауы үшін қолданыңыз); на точное соответствие страниц см. OCR."
+    }
+  ],
+  "rules": [
+    {
+      "id": "r_where_question",
+      "title_kk": "«Қайда?» сұрағы",
+      "title_ru": "Вопрос «где?»",
+      "formula_kk": null,
+      "summary_ru": "Орайлық қатысты сөздер және «Қайда?» жауаптары (аймақтар, географиялық контекст).",
+      "source_page": [
+        6
+      ]
+    },
+    {
+      "id": "r_state_symbols_lexis",
+      "title_kk": "Мемлекеттік рәміздер лексикасы",
+      "title_ru": "Лексика государственных символов",
+      "formula_kk": null,
+      "summary_ru": "Ту, Әнұран, Елтаңба туралы зат есімдер мен сөз тіркестері.",
+      "source_page": [
+        10,
+        13
+      ]
+    },
+    {
+      "id": "r_possessive_suffix_intro",
+      "title_kk": "Тәуелдік жалғаулардың қолдануы",
+      "title_ru": "Притяжательные суффиксы (_менің … -ым/-ім)_",
+      "formula_kk": "… + (-ым|-ім|-м|-ың|-ің|-ыңыз|-еңіз|-ы|-сі|-лары|-дері)",
+      "summary_ru": "Ықтасым мен меншіктілік мәнін беретін тәуелдік жалғаулармен сөз құрастыру.",
+      "source_page": [
+        24,
+        97
+      ]
+    },
+    {
+      "id": "r_plural_meaning_tasks",
+      "title_kk": "Көптік мағынаны білдіру",
+      "title_ru": "Выражение множественности",
+      "formula_kk": "зат+/лар|лер|дар|дер|тар|тер/ (байланысты жаттығымен)",
+      "summary_ru": "Санды және көптілік мағынадағы сөздердің айырмашылығы;",
+      "source_page": [
+        18
+      ]
+    },
+    {
+      "id": "r_imperative_mood_hints",
+      "title_kk": "Бүйрықты сөйлем элементтері (-ай/-ейін жолактары)",
+      "title_ru": "Элементы побудительности (намерение)",
+      "formula_kk": "-айын/-ейін формалары (мақсат жолдары)",
+      "summary_ru": "Естелікте сақтайық бөлімдерімен тығыз байланысты жаттығымдар.",
+      "source_page": [
+        42,
+        61
+      ]
+    },
+    {
+      "id": "r_negative_verb_hints",
+      "title_kk": "Болымсыз етістік конструкциялары (-ма/-ба жұрнақтары)",
+      "title_ru": "Отрицание глагола",
+      "formula_kk": "-ма/-ме/-ба/-бе + етістік",
+      "summary_ru": "Өтірік айтума және мінез-құлық ережелері мәтінде.",
+      "source_page": [
+        43,
+        44
+      ]
+    },
+    {
+      "id": "r_conjunct_suffix_kisi_keledi",
+      "title_kk": "-кісі келеді / тілек конструкциясы",
+      "title_ru": "Конструкция желания («хочется / хочется сделать»)",
+      "formula_kk": "… (+ -қы/-гі …) + келеді",
+      "summary_ru": "Ықтималдық пен ниетті етістік-парымен айту.",
+      "source_page": [
+        69
+      ]
+    },
+    {
+      "id": "r_case_suffix_practice_ke",
+      "title_kk": "Ілік / табыс жалғаулары практикасы (кімнен? неден? және т.б.)",
+      "title_ru": "Падежные окончания в упражнениях",
+      "formula_kk": null,
+      "summary_ru": "Сұрақты қойып, дұрыс септік жалғауын таңдау (мақалдар кестелері бет 97 кезінде).",
+      "source_page": [
+        97
+      ]
+    },
+    {
+      "id": "r_lexis_cultural_heritage",
+      "title_kk": "Мәдени мұра тұрғысынан заттардың атаулары мен сипаттамалары",
+      "title_ru": "Названия и описание предметов культуры",
+      "formula_kk": null,
+      "summary_ru": "Кәдесый, киіз және ұлттық қолөнер бойынша сөздік жұмыс.",
+      "source_page": [
+        81,
+        93,
+        105
+      ]
+    },
+    {
+      "id": "r_clause_conditional_facts",
+      "title_kk": "Талдау бойынша «дұрыс / бұрыс» сәйкестігі",
+      "title_ru": "Сопоставление «верно / неверно»",
+      "formula_kk": null,
+      "summary_ru": "Мәтіндегі факттарды қайта дәлелдеу үшін ақиқатты тексеру тапсырмалары.",
+      "source_page": [
+        109,
+        110
+      ]
+    }
+  ],
+  "glossary_orpho_words_kk": {
+    "note_ru": "Кесте күйінде орналасқан орфографиялық сөздер бен екі бетте (≈124–125). Нақты жалған жұптық сөздік емес, теріп шығару OCR шуымын қажет етеді.",
+    "source_pdf_pages": [
+      124,
+      125
+    ],
+    "confidence": "medium",
+    "sample_terms_kk_snippet": [
+      "алғыс",
+      "батыс",
+      "мәдениет",
+      "рәміз",
+      "ұрпақ"
+    ]
+  },
+  "glossary_kk_ru": {
+    "source": "Жаңа сөздер рядом с заголовками тем (правый столбец, OCR pages)",
+    "entries_by_page": [
+      {
+        "page": 6,
+        "topic_ref": "d4p1_u102",
+        "entries": [
+          { "kk": "аудан", "ru": "район" },
+          { "kk": "орталық", "ru": "центр" },
+          { "kk": "алыс", "ru": "далекий" }
+        ]
+      },
+      {
+        "page": 8,
+        "topic_ref": "d4p1_u103",
+        "entries": [
+          { "kk": "халық", "ru": "народ" },
+          { "kk": "ұлт", "ru": "нация" },
+          { "kk": "бейнелеу", "ru": "изображать" },
+          { "kk": "орын", "ru": "место" },
+          { "kk": "ту", "ru": "флаг" },
+          { "kk": "шаңырақ", "ru": "шанырак" }
+        ]
+      },
+      {
+        "page": 10,
+        "topic_ref": "d4p1_u104",
+        "entries": [
+          { "kk": "Елтаңба", "ru": "герб" },
+          { "kk": "тәуелсіз", "ru": "независимый" },
+          { "kk": "рәміз", "ru": "символ" },
+          { "kk": "ұлан", "ru": "юный гражданин, потомок" }
+        ]
+      },
+      {
+        "page": 13,
+        "topic_ref": "d4p1_u104",
+        "entries": [
+          { "kk": "қыран", "ru": "беркут, орел" },
+          { "kk": "барыс", "ru": "снежный барс" },
+          { "kk": "тұлпар", "ru": "крылатый конь, скакун" },
+          { "kk": "құрметтейді", "ru": "уважает" },
+          { "kk": "тіршілік етеді", "ru": "обитает, живет" }
+        ]
+      },
+      {
+        "page": 18,
+        "topic_ref": "d4p1_u107",
+        "entries": [
+          { "kk": "көше", "ru": "улица" },
+          { "kk": "бұрылыс", "ru": "поворот" },
+          { "kk": "киіз үй", "ru": "юрта" },
+          { "kk": "малшы", "ru": "пастух" }
+        ]
+      },
+      {
+        "page": 38,
+        "topic_ref": "d4p1_u201",
+        "entries": [
+          { "kk": "көрікті", "ru": "красивый, привлекательный" },
+          { "kk": "мейірімді", "ru": "добрый" },
+          { "kk": "еңбекқор", "ru": "трудолюбивый" },
+          { "kk": "қарапайым", "ru": "скромный, простой" },
+          { "kk": "ыстық", "ru": "горячий, теплый" }
+        ]
+      },
+      {
+        "page": 40,
+        "topic_ref": "d4p1_u202",
+        "entries": [
+          { "kk": "уәде", "ru": "обещание" },
+          { "kk": "ұмыту", "ru": "забывать" },
+          { "kk": "құрмет", "ru": "уважение" },
+          { "kk": "ақылды", "ru": "умный" }
+        ]
+      },
+      {
+        "page": 43,
+        "topic_ref": "d4p1_u203",
+        "entries": [
+          { "kk": "жомарт", "ru": "щедрый" },
+          { "kk": "адал", "ru": "честный, верный" },
+          { "kk": "қасиет", "ru": "качество, черта" }
+        ]
+      },
+      {
+        "page": 46,
+        "topic_ref": "d4p1_u204",
+        "entries": [
+          { "kk": "білімді", "ru": "образованный" },
+          { "kk": "жомарт", "ru": "щедрый" },
+          { "kk": "батыр", "ru": "смелый, герой" },
+          { "kk": "сабырлы", "ru": "спокойный, терпеливый" },
+          { "kk": "жауапты", "ru": "ответственный" }
+        ]
+      },
+      {
+        "page": 48,
+        "topic_ref": "d4p1_u205",
+        "entries": [
+          { "kk": "міндет", "ru": "обязанность" },
+          { "kk": "міндетті түрде", "ru": "обязательно" }
+        ]
+      },
+      {
+        "page": 58,
+        "topic_ref": "d4p1_u209",
+        "entries": [
+          { "kk": "ұрыншақ", "ru": "задира, непоседа" },
+          { "kk": "сотқар", "ru": "озорной, хулиганистый" },
+          { "kk": "қызғаншақ", "ru": "ревнивый" },
+          { "kk": "жалқау", "ru": "ленивый" }
+        ]
+      },
+      {
+        "page": 63,
+        "topic_ref": "d4p1_u211",
+        "entries": [
+          { "kk": "сауықшыл", "ru": "любящий развлечения" },
+          { "kk": "өлеңшіл", "ru": "любящий стихи/песни" }
+        ]
+      },
+      {
+        "page": 68,
+        "topic_ref": "d4p1_u213",
+        "entries": [
+          { "kk": "баспана", "ru": "жилье" },
+          { "kk": "құрастыру", "ru": "конструировать, собирать" }
+        ]
+      },
+      {
+        "page": 73,
+        "topic_ref": "d4p1_u216",
+        "entries": [
+          { "kk": "шыдамсыз", "ru": "нетерпеливый" },
+          { "kk": "себебі", "ru": "потому что, причина" }
+        ]
+      },
+      {
+        "page": 78,
+        "topic_ref": "d4p1_u301",
+        "entries": [
+          { "kk": "өріс", "ru": "пастбище, простор" },
+          { "kk": "маңдайынан иіскеу", "ru": "поцеловать в лоб" }
+        ]
+      },
+      {
+        "page": 81,
+        "topic_ref": "d4p1_u302",
+        "entries": [
+          { "kk": "құмыра", "ru": "кувшин" },
+          { "kk": "қоржын", "ru": "переметная сумка, хурджун" },
+          { "kk": "былғары", "ru": "кожа" }
+        ]
+      },
+      {
+        "page": 87,
+        "topic_ref": "d4p1_u304",
+        "entries": [
+          { "kk": "кимешек", "ru": "кимешек (женский головной убор)" },
+          { "kk": "шапан", "ru": "чапан" }
+        ]
+      },
+      {
+        "page": 90,
+        "topic_ref": "d4p1_u305",
+        "entries": [
+          { "kk": "тұсаукесер", "ru": "обряд разрезания пут у ребенка" },
+          { "kk": "дәстүр", "ru": "традиция" }
+        ]
+      },
+      {
+        "page": 96,
+        "topic_ref": "d4p1_u307",
+        "entries": [
+          { "kk": "жаран", "ru": "шаг, движение (контекстно)" },
+          { "kk": "кірпіш", "ru": "кирпич" },
+          { "kk": "кесене", "ru": "мавзолей" },
+          { "kk": "ескерткіш", "ru": "памятник" }
+        ]
+      },
+      {
+        "page": 102,
+        "topic_ref": "d4p1_u309",
+        "entries": [
+          { "kk": "таңғалу", "ru": "удивляться" },
+          { "kk": "саз", "ru": "глина; мелодия (по контексту)" }
+        ]
+      },
+      {
+        "page": 105,
+        "topic_ref": "d4p1_u310",
+        "entries": [
+          { "kk": "мыс", "ru": "медь" },
+          { "kk": "құжат", "ru": "документ" },
+          { "kk": "тиын", "ru": "монета" }
+        ]
+      },
+      {
+        "page": 110,
+        "topic_ref": "d4p1_u312",
+        "entries": [
+          { "kk": "айтыс", "ru": "айтыс, поэтический поединок" },
+          { "kk": "шаһар", "ru": "город" },
+          { "kk": "шілдехана", "ru": "праздник в честь рождения ребенка" }
+        ]
+      },
+      {
+        "page": 114,
+        "topic_ref": "d4p1_u313",
+        "entries": [
+          { "kk": "аспап", "ru": "инструмент" },
+          { "kk": "домбыра", "ru": "домбра" },
+          { "kk": "қобыз", "ru": "кобыз" },
+          { "kk": "сыбызғы", "ru": "сыбызгы (флейта)" },
+          { "kk": "жетіген", "ru": "жетиген" },
+          { "kk": "асатаяқ", "ru": "асатаяк" },
+          { "kk": "дауылпаз", "ru": "дауылпаз (барабан)" }
+        ]
+      },
+      {
+        "page": 117,
+        "topic_ref": "d4p1_u314",
+        "entries": [
+          { "kk": "Қыдыр ата", "ru": "Кыдыр-ата (персонаж фольклора)" },
+          { "kk": "бата", "ru": "благословение" },
+          { "kk": "аманат", "ru": "наказ, завет, поручение" },
+          { "kk": "аңыз", "ru": "легенда" }
+        ]
+      },
+      {
+        "page": 119,
+        "topic_ref": "d4p1_u315",
+        "entries": [
+          { "kk": "құжат", "ru": "документ" },
+          { "kk": "баспа", "ru": "издательство, печать" },
+          { "kk": "қолжазба", "ru": "рукопись" },
+          { "kk": "мақтаныш", "ru": "гордость" },
+          { "kk": "ұлы ақын", "ru": "великий поэт" }
+        ]
+      }
+    ],
+    "note": "Словарь собран из правого столбца «Жаңа сөздер» на стартовых страницах тем. OCR местами шумный: спорные формы нормализованы для генерации заданий."
+  },
+  "example_tasks_v2": {
+    "verbatim_examples": [
+      {
+        "exact_page": 4,
+        "topic_id_hint": "d4p1_u101",
+        "raw_text": "(1 кКазакстан калалары 1. Жазғы демалыста қайда қыдырдың? 8. Қазақстанда қандай қалалар бар? Үлгі: Батыс аймақта ... қалалары орналасқан.",
+        "normalized_text": "1-бөлімге кіріспе түріндегі географиялық сұрақтар: жазғы демалыс, қай қалалар болды, Қазақстан қалалары бойынша карта бойынша жауап.",
+        "task_type": "listening_speaking_reading_short_answer_cluster",
+        "confidence": "medium"
+      },
+      {
+        "exact_page": 48,
+        "topic_id_hint": "d4p1_u205",
+        "raw_text": "Анамнын тапсырмасы — үйдегі міндеттер туралы ананың хаты; тапсырмалар бойынша сұрақтар («Үйде не істейсің?»).",
+        "normalized_text": "Мәтінмен жұмыс: хат бойынша үй және міндет тақырыбы; қолданылған сөздердің мағынасын ашу және сөздікпен жалғастыру.",
+        "task_type": "text_comprehension_with_family_lexis",
+        "confidence": "medium"
+      },
+      {
+        "exact_page": 69,
+        "topic_id_hint": "d4p1_u213",
+        "raw_text": "Жаттығым: Жакшаны ашып жаз. Біз құсқа (жем беру) келеді. Олар доп ойнау керек. ... жалғанын ашқың келеді тәсілдері.",
+        "normalized_text": "Етістіктің нысаналы формасын жақша ішінен ашып, толықтыру; тілектік конструкциялар қолданатын жаттығыс.",
+        "task_type": "grammar_open_cloze_morphology",
+        "confidence": "high"
+      },
+      {
+        "exact_page": 96,
+        "topic_id_hint": "d4p1_u307",
+        "raw_text": "|39. Сиқырлы кілем — Қайда баратынды жеткізе білуді үйренесің; терминдер кесене, ескерткіш.",
+        "normalized_text": "Мәтіндік тыңдап/оку арқылы кірпіш кесенесі мен кілем туралы топонимикалық сөздік жинау.",
+        "task_type": "reading_inference_and_lexis_mapping",
+        "confidence": "high"
+      }
+    ],
+    "verbatim_examples_status": {
+      "available": true,
+      "reason": "",
+      "next_step": "Күшті шығыс үшін сынықты беттерді қайта OCR (түсті балансын реттеп) немесе мәтінді қолмен растау."
+    },
+    "structural_examples_for_generation": [
+      {
+        "rk_program_style_note": "Сыныптік оқытылатын тіл арқылы сұрақты жауап (қысқа), сурет бойынша сөздік толықтыру және жұптық талқылау.",
+        "task_type_template": "image_supported_discussion_four_questions_kk",
+        "payload_kk_outline": "Сурет/картаны көрсету → Қазақстан аймақтары → «Қайда?» немесе карта бойынша жауап үлгісін беру.",
+        "linked_topic_patterns": [
+          "d4p1_u101",
+          "d4p1_u102"
+        ]
+      },
+      {
+        "rk_program_style_note": "Рәміз және мәдени термин бойынша сөзжұмбақ және белгіленген сөздерді кестеге жинау.",
+        "task_type_template": "state_symbol_fill_table_mc_kk",
+        "payload_kk_outline": "Ту, Елтаңба, Әнұран сөздерін көбейту; дұрыс/қате сөйлемді тану.",
+        "linked_topic_patterns": [
+          "d4p1_u104"
+        ]
+      },
+      {
+        "rk_program_style_note": "Ертегі мазмұнын болжау және моральді сұрақтар арқылы әдеби талдау.",
+        "task_type_template": "fable_prediction_and_values_reflection",
+        "payload_kk_outline": "«Неліктен?» сұрақтары + жақсы/жаман мінез сипаттамалары + өлең жолдарын сәйкестендіру.",
+        "linked_topic_patterns": [
+          "d4p1_u201",
+          "d4p1_u207"
+        ]
+      },
+      {
+        "rk_program_style_note": "Мәдени мұра модулінде «неден жасалған?» сұрағымен заттық талдау.",
+        "task_type_template": "material_source_mc_and_sentence_kk",
+        "payload_kk_outline": "Ұлттық бұйымдар тізімі → материал таңдау → сөйлем құрау.",
+        "linked_topic_patterns": [
+          "d4p1_u303",
+          "d4p1_u306"
+        ]
+      },
+      {
+        "rk_program_style_note": "Абай тақырыбында «қандай?» сұрағына құрылған сөз таңдау және өлең мазмұнына талдау.",
+        "task_type_template": "literary_bio_comprehension_kk",
+        "payload_kk_outline": "Ақын өмірбаяны ұзындықты мәтін → сөздік жұмыс → сұрақ құрастыру үлгісін ұсыну.",
+        "linked_topic_patterns": [
+          "d4p1_u315"
+        ]
+      },
+      {
+        "rk_program_style_note": "Тексеру үлгісіне сәйкес сұраққа дұрыс жауап табу (мон РК үлгілері).",
+        "task_type_template": "mcq_four_options_sentence_level_kk",
+        "payload_kk_outline": "Сөйлемнің тәуелді немесе етістігін таңдау; қарсы мәндесп сөздік жұмысы.",
+        "linked_topic_patterns": [
+          "d4p1_all_units",
+          "grammar_review"
+        ]
+      }
+    ]
+  },
+  "generator_profile_kz_moem": {
+    "audience": "4 сынып, қазақ тілі (1-бөлім), географиялық жана мәдени тақырыптарды біріктіретін мазмұн.",
+    "language_policy": {
+      "primary_stem_language": "kk",
+      "support_language": "ru",
+      "term_transliteration_policy": "Мәтіндерде кириллица; орысша түсініктеме қажет болса metadata.title_ru арқылы қосымша қамтамасыз ету."
+    },
+    "task_mix_recommended": {
+      "reading_comprehension": 0.28,
+      "grammar_morphology": 0.22,
+      "oral_communication_prompts": 0.18,
+      "culture_and_values": 0.18,
+      "project_or_pair_work": 0.14
+    },
+    "format_rules": [
+      "Мәтін бөліктерін үлгілендіріп беру («Үлгі:» сызығы бар жаттығыс түрі).",
+      "Сурет бойынша сөздік тартулар үшін бет нөмірін metadata-да сақтау.",
+      "Тақырып пен бөлімдік байланысты сақтап, тест үлгілеріне topic_id қайта қолданылатын болсын.",
+      "Мазмұнды қазақстандық контекстпен құр (аймақтар, халықаралық достық, отбасы)."
+    ],
+    "safety_and_scope": [
+      "Медициналық немесе диагностикалық қорытынды бермеу.",
+      "Балаларға арналған нейтралды тіл; зорлық көрсетпеу.",
+      "Мәдени мұра тақырыбында діни немесе спорлы саяси баға бермеу — тек білім беру сипаттамасы."
+    ]
+  }
+}

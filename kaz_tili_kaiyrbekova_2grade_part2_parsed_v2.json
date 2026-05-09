@@ -1,0 +1,1807 @@
+{
+  "source": {
+    "file_name": "Қазақ тілі Кайырбекова А.И. учебник для 2 класса Часть 2.pdf",
+    "parsed_at": "2026-05-03",
+    "version": "v2",
+    "extraction_method": {
+      "pdf_text_layer": true,
+      "ocr_applied": true,
+      "ocr_languages": [
+        "kaz",
+        "rus"
+      ],
+      "ocr_engine": "tesseract.js",
+      "render": "@napi-rs/canvas + pdfjs-dist",
+      "ocr_text_dir": "ocr/ocr_pages_kaz_tili_2_kaiyrbekova_part2",
+      "ocr_lesson_page_range": "4-103"
+    },
+    "quality_report": {
+      "high_confidence_blocks": [
+        "Метаданные (ISBN часть 2) со стр. 2 OCR",
+        "Сөздік 104–106 (OCR, ҚАЗАҚША-ОРЫСША СӨЗДІК)",
+        "Грамматика 107–110 (OCR)",
+        "OCR уроков PDF стр. 4–103 (тексты страниц для уточнения page_start и verbatim)"
+      ],
+      "medium_confidence_blocks": [
+        "МАЗМҰНЫ стр. 111 — фрагменты номеров страниц и номеров уроков зашумлены OCR",
+        "Названия уроков разделов 6–7 частично восстановлены по контексту (OCR colophon стр. 112)"
+      ],
+      "low_confidence_blocks": [
+        "Отдельные сабақтар: заголовок в OCR может отличаться от формулировки в JSON; см. page_start_ref"
+      ],
+      "note": "Часть 2: словарь 104–106; грамматика 107–110; МАЗМҰНЫ 111. OCR уроков 4–103; page_start уточнены поиском по тексту страницы (и фиксированными страницами для четырёх уроков «Сен не үйрендің?»)."
+    }
+  },
+  "metadata": {
+    "title": "Қазақ тілі. Оқулық 2-сынып үшін (2-бөлік)",
+    "title_ru": "Казахский язык. Учебник для 2 класса. Часть 2",
+    "subject": "Қазақ тілі",
+    "grade": 2,
+    "part": 2,
+    "authors": [
+      "Кайырбекова А. И.",
+      "Нукебаева Б. С.",
+      "Мухамеджанова А. К."
+    ],
+    "publisher": "Атамұра",
+    "city": "Алматы",
+    "publication_year": 2022,
+    "page_count": 112,
+    "isbn": {
+      "part_2": "978-601-10-0055-0",
+      "overall": "978-601-10-0034-5"
+    },
+    "languages": [
+      "kk",
+      "ru"
+    ]
+  },
+  "topics_with_pages": [
+    {
+      "id": "p2_u501",
+      "unit_no": 5,
+      "unit_title_kk": "Дені саудың — жаны сау",
+      "lesson_no": 1,
+      "topic_title_kk": "Денің сау болсын десең...",
+      "page_start": 4,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u502",
+      "unit_no": 5,
+      "unit_title_kk": "Дені саудың — жаны сау",
+      "lesson_no": 2,
+      "topic_title_kk": "Гигиена",
+      "page_start": 6,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u503",
+      "unit_no": 5,
+      "unit_title_kk": "Дені саудың — жаны сау",
+      "lesson_no": 3,
+      "topic_title_kk": "Дәрігерде",
+      "page_start": 8,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u504",
+      "unit_no": 5,
+      "unit_title_kk": "Дені саудың — жаны сау",
+      "lesson_no": 4,
+      "topic_title_kk": "Емханада",
+      "page_start": 10,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u505",
+      "unit_no": 5,
+      "unit_title_kk": "Дені саудың — жаны сау",
+      "lesson_no": 5,
+      "topic_title_kk": "Дәрігерлік кеңес",
+      "page_start": 12,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u506",
+      "unit_no": 5,
+      "unit_title_kk": "Дені саудың — жаны сау",
+      "lesson_no": 6,
+      "topic_title_kk": "Дәріменнің пайдасы",
+      "page_start": 14,
+      "page_start_ref": "grid_fallback"
+    },
+    {
+      "id": "p2_u507",
+      "unit_no": 5,
+      "unit_title_kk": "Дені саудың — жаны сау",
+      "lesson_no": 7,
+      "topic_title_kk": "Дұрыс тамақтану",
+      "page_start": 16,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u508",
+      "unit_no": 5,
+      "unit_title_kk": "Дені саудың — жаны сау",
+      "lesson_no": 8,
+      "topic_title_kk": "Спорт — денсаулық кепілі",
+      "page_start": 18,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u509",
+      "unit_no": 5,
+      "unit_title_kk": "Дені саудың — жаны сау",
+      "lesson_no": 9,
+      "topic_title_kk": "Жаттығу жасайық!",
+      "page_start": 20,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u510",
+      "unit_no": 5,
+      "unit_title_kk": "Дені саудың — жаны сау",
+      "lesson_no": 10,
+      "topic_title_kk": "Спортшы",
+      "page_start": 22,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u511",
+      "unit_no": 5,
+      "unit_title_kk": "Дені саудың — жаны сау",
+      "lesson_no": 11,
+      "topic_title_kk": "Шынықсаң, шымыр боласың",
+      "page_start": 24,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u512",
+      "unit_no": 5,
+      "unit_title_kk": "Дені саудың — жаны сау",
+      "lesson_no": 12,
+      "topic_title_kk": "Мектеп спорт алаңында",
+      "page_start": 26,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u513",
+      "unit_no": 5,
+      "unit_title_kk": "Дені саудың — жаны сау",
+      "lesson_no": 13,
+      "topic_title_kk": "Мен шыныққан баламын",
+      "page_start": 28,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u514",
+      "unit_no": 5,
+      "unit_title_kk": "Дені саудың — жаны сау",
+      "lesson_no": 14,
+      "topic_title_kk": "Пайдалы тағам",
+      "page_start": 30,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u515",
+      "unit_no": 5,
+      "unit_title_kk": "Дені саудың — жаны сау",
+      "lesson_no": 15,
+      "topic_title_kk": "Сен не үйрендің?",
+      "page_start": 32,
+      "page_start_ref": "ocr_review_lesson"
+    },
+    {
+      "id": "p2_u601",
+      "unit_no": 6,
+      "unit_title_kk": "Салт-дәстүр және ауыз әдебиеті",
+      "lesson_no": 1,
+      "topic_title_kk": "Киіз үй",
+      "page_start": 34,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u602",
+      "unit_no": 6,
+      "unit_title_kk": "Салт-дәстүр және ауыз әдебиеті",
+      "lesson_no": 2,
+      "topic_title_kk": "Қонақ күту",
+      "page_start": 37,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u603",
+      "unit_no": 6,
+      "unit_title_kk": "Салт-дәстүр және ауыз әдебиеті",
+      "lesson_no": 3,
+      "topic_title_kk": "Дастарқан ажары — бауырсақ",
+      "page_start": 38,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u604",
+      "unit_no": 6,
+      "unit_title_kk": "Салт-дәстүр және ауыз әдебиеті",
+      "lesson_no": 4,
+      "topic_title_kk": "Бата — жақсы тілек",
+      "page_start": 40,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u605",
+      "unit_no": 6,
+      "unit_title_kk": "Салт-дәстүр және ауыз әдебиеті",
+      "lesson_no": 5,
+      "topic_title_kk": "Ұлттық ойындар",
+      "page_start": 42,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u606",
+      "unit_no": 6,
+      "unit_title_kk": "Салт-дәстүр және ауыз әдебиеті",
+      "lesson_no": 6,
+      "topic_title_kk": "Ұлттық дәстүрлер",
+      "page_start": 44,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u607",
+      "unit_no": 6,
+      "unit_title_kk": "Салт-дәстүр және ауыз әдебиеті",
+      "lesson_no": 7,
+      "topic_title_kk": "Ұлттық бас киімдер",
+      "page_start": 46,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u608",
+      "unit_no": 6,
+      "unit_title_kk": "Салт-дәстүр және ауыз әдебиеті",
+      "lesson_no": 8,
+      "topic_title_kk": "Ұлттық бұйымдар",
+      "page_start": 48,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u609",
+      "unit_no": 6,
+      "unit_title_kk": "Салт-дәстүр және ауыз әдебиеті",
+      "lesson_no": 9,
+      "topic_title_kk": "Ұлт мұрасы — домбыра",
+      "page_start": 50,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u610",
+      "unit_no": 6,
+      "unit_title_kk": "Салт-дәстүр және ауыз әдебиеті",
+      "lesson_no": 10,
+      "topic_title_kk": "Ұлттық мұражайы",
+      "page_start": 52,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u611",
+      "unit_no": 6,
+      "unit_title_kk": "Салт-дәстүр және ауыз әдебиеті",
+      "lesson_no": 11,
+      "topic_title_kk": "Әже — тәрбие бастауы",
+      "page_start": 54,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u612",
+      "unit_no": 6,
+      "unit_title_kk": "Салт-дәстүр және ауыз әдебиеті",
+      "lesson_no": 12,
+      "topic_title_kk": "Ертегі — ұлттың мұрасы",
+      "page_start": 56,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u613",
+      "unit_no": 6,
+      "unit_title_kk": "Салт-дәстүр және ауыз әдебиеті",
+      "lesson_no": 13,
+      "topic_title_kk": "Балалар әлемінде",
+      "page_start": 58,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u614",
+      "unit_no": 6,
+      "unit_title_kk": "Салт-дәстүр және ауыз әдебиеті",
+      "lesson_no": 14,
+      "topic_title_kk": "Сен не үйрендің?",
+      "page_start": 60,
+      "page_start_ref": "ocr_review_lesson"
+    },
+    {
+      "id": "p2_u701",
+      "unit_no": 7,
+      "unit_title_kk": "Қоршаған орта",
+      "lesson_no": 1,
+      "topic_title_kk": "Құстар — біздің достарымыз",
+      "page_start": 62,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u702",
+      "unit_no": 7,
+      "unit_title_kk": "Қоршаған орта",
+      "lesson_no": 2,
+      "topic_title_kk": "Құс үясын бұзбайық!",
+      "page_start": 64,
+      "page_start_ref": "grid_fallback"
+    },
+    {
+      "id": "p2_u703",
+      "unit_no": 7,
+      "unit_title_kk": "Қоршаған орта",
+      "lesson_no": 3,
+      "topic_title_kk": "Табиғатты қорғайық!",
+      "page_start": 66,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u704",
+      "unit_no": 7,
+      "unit_title_kk": "Қоршаған орта",
+      "lesson_no": 4,
+      "topic_title_kk": "Таза аула",
+      "page_start": 68,
+      "page_start_ref": "grid_fallback"
+    },
+    {
+      "id": "p2_u705",
+      "unit_no": 7,
+      "unit_title_kk": "Қоршаған орта",
+      "lesson_no": 5,
+      "topic_title_kk": "Гүлдер",
+      "page_start": 70,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u706",
+      "unit_no": 7,
+      "unit_title_kk": "Қоршаған орта",
+      "lesson_no": 6,
+      "topic_title_kk": "Еңбекқор құмырсқа",
+      "page_start": 72,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u707",
+      "unit_no": 7,
+      "unit_title_kk": "Қоршаған орта",
+      "lesson_no": 7,
+      "topic_title_kk": "Төлдер",
+      "page_start": 74,
+      "page_start_ref": "grid_fallback"
+    },
+    {
+      "id": "p2_u708",
+      "unit_no": 7,
+      "unit_title_kk": "Қоршаған орта",
+      "lesson_no": 8,
+      "topic_title_kk": "Екі лақ",
+      "page_start": 76,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u709",
+      "unit_no": 7,
+      "unit_title_kk": "Қоршаған орта",
+      "lesson_no": 9,
+      "topic_title_kk": "Құстар мен балықтар",
+      "page_start": 78,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u710",
+      "unit_no": 7,
+      "unit_title_kk": "Қоршаған орта",
+      "lesson_no": 10,
+      "topic_title_kk": "Суды үнемдейік!",
+      "page_start": 80,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u711",
+      "unit_no": 7,
+      "unit_title_kk": "Қоршаған орта",
+      "lesson_no": 11,
+      "topic_title_kk": "Сен не үйрендің?",
+      "page_start": 82,
+      "page_start_ref": "ocr_review_lesson"
+    },
+    {
+      "id": "p2_u801",
+      "unit_no": 8,
+      "unit_title_kk": "Саяхат",
+      "lesson_no": 1,
+      "topic_title_kk": "Саяхатты жоспарлайық",
+      "page_start": 84,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u802",
+      "unit_no": 8,
+      "unit_title_kk": "Саяхат",
+      "lesson_no": 2,
+      "topic_title_kk": "Табиғаттағы демалыс",
+      "page_start": 86,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u803",
+      "unit_no": 8,
+      "unit_title_kk": "Саяхат",
+      "lesson_no": 3,
+      "topic_title_kk": "Ауылға саяхат",
+      "page_start": 88,
+      "page_start_ref": "grid_fallback"
+    },
+    {
+      "id": "p2_u804",
+      "unit_no": 8,
+      "unit_title_kk": "Саяхат",
+      "lesson_no": 4,
+      "topic_title_kk": "Саяжайда",
+      "page_start": 90,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u805",
+      "unit_no": 8,
+      "unit_title_kk": "Саяхат",
+      "lesson_no": 5,
+      "topic_title_kk": "Қазақстанның көрікті жерлері",
+      "page_start": 92,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u806",
+      "unit_no": 8,
+      "unit_title_kk": "Саяхат",
+      "lesson_no": 6,
+      "topic_title_kk": "«Бәйтерек» монументі",
+      "page_start": 94,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u807",
+      "unit_no": 8,
+      "unit_title_kk": "Саяхат",
+      "lesson_no": 7,
+      "topic_title_kk": "Алматы — әсем қала",
+      "page_start": 96,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u808",
+      "unit_no": 8,
+      "unit_title_kk": "Саяхат",
+      "lesson_no": 8,
+      "topic_title_kk": "«Медеу» мұз айдыны",
+      "page_start": 98,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u809",
+      "unit_no": 8,
+      "unit_title_kk": "Саяхат",
+      "lesson_no": 9,
+      "topic_title_kk": "Ертегіге айналған Түркістан",
+      "page_start": 100,
+      "page_start_ref": "ocr_title_scan"
+    },
+    {
+      "id": "p2_u810",
+      "unit_no": 8,
+      "unit_title_kk": "Саяхат",
+      "lesson_no": 10,
+      "topic_title_kk": "Сен не үйрендің?",
+      "page_start": 102,
+      "page_start_ref": "ocr_review_lesson"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r_parts_of_speech_overview",
+      "title_kk": "Сөз табы (қысқаша)",
+      "title_ru": "Части речи (обзор)",
+      "source_pdf_pages": [
+        107
+      ],
+      "summary_ru": "Зат есім, сын есім, сан есім, есімдік, етістік, үстеу: сұрақтар және мысалдар."
+    },
+    {
+      "id": "r_zat_esim",
+      "title_kk": "Зат есім",
+      "title_ru": "Существительное",
+      "source_pdf_pages": [
+        107
+      ],
+      "questions_kk": [
+        "кім?",
+        "кімдер?",
+        "не?",
+        "нелер?"
+      ]
+    },
+    {
+      "id": "r_syn_esim",
+      "title_kk": "Сын есім",
+      "title_ru": "Прилагательное",
+      "source_pdf_pages": [
+        107
+      ],
+      "questions_kk": [
+        "қандай?",
+        "қай?"
+      ]
+    },
+    {
+      "id": "r_san_esim",
+      "title_kk": "Сан есім",
+      "title_ru": "Числительное",
+      "source_pdf_pages": [
+        107
+      ],
+      "questions_kk": [
+        "неше?",
+        "нешінші?",
+        "қанша?",
+        "нешеден?",
+        "нешеу?"
+      ]
+    },
+    {
+      "id": "r_esimdik",
+      "title_kk": "Есімдік",
+      "title_ru": "Местоимение",
+      "source_pdf_pages": [
+        107
+      ],
+      "summary_ru": "Жіктеу, сілтеу, сұрау есімдіктері."
+    },
+    {
+      "id": "r_etistik",
+      "title_kk": "Етістік",
+      "title_ru": "Глагол",
+      "source_pdf_pages": [
+        107
+      ],
+      "questions_kk": [
+        "не істеді?",
+        "не қылды?",
+        "қайтті?"
+      ]
+    },
+    {
+      "id": "r_usteu",
+      "title_kk": "Үстеу",
+      "title_ru": "Наречие",
+      "source_pdf_pages": [
+        107
+      ],
+      "questions_kk": [
+        "қайда?",
+        "қашан?",
+        "қалай?",
+        "қанша?"
+      ]
+    },
+    {
+      "id": "r_bolymsyz_etistik",
+      "title_kk": "Болымсыз етістік",
+      "title_ru": "Отрицание глагола",
+      "source_pdf_pages": [
+        108
+      ],
+      "summary_ru": "Жұрнақтар -ма/-ме/-ба/-бе және «жоқ», «емес»."
+    },
+    {
+      "id": "r_taueldik_zhalgau",
+      "title_kk": "Тәуелдік жалғаулар",
+      "title_ru": "Притяжательные суффиксы",
+      "source_pdf_pages": [
+        108
+      ]
+    },
+    {
+      "id": "r_septik_zhalgau",
+      "title_kk": "Септік жалғаулары",
+      "title_ru": "Падежные суффиксы",
+      "source_pdf_pages": [
+        108,
+        109
+      ],
+      "summary_ru": "Атау, ілік, барыс, табыс, жатыс, шығыс, көмектес септіктері."
+    },
+    {
+      "id": "r_zhiiktik_zhalgau",
+      "title_kk": "Жіктік жалғаулар",
+      "title_ru": "Личные окончания глагола",
+      "source_pdf_pages": [
+        109
+      ]
+    },
+    {
+      "id": "r_koptik_zhalgau",
+      "title_kk": "Көптік жалғау",
+      "title_ru": "Множественное число (-лар/-лер, -дар/-дер, -тар/-тер)",
+      "source_pdf_pages": [
+        109
+      ]
+    },
+    {
+      "id": "r_soilem_turleri",
+      "title_kk": "Сөйлем түрлері",
+      "title_ru": "Типы предложений",
+      "source_pdf_pages": [
+        110
+      ],
+      "summary_ru": "Хабарлы, сұраулы, бұйрықты сөйлем."
+    },
+    {
+      "id": "r_menshindik_shaktyk",
+      "title_kk": "Меншіндік және шақтық мағына",
+      "title_ru": "Притяжательное значение и время",
+      "source_pdf_pages": [
+        110
+      ]
+    }
+  ],
+  "topic_rule_links": [
+    {
+      "topic_id": "p2_u501",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_syn_esim",
+        "r_etistik"
+      ],
+      "relation": "primary",
+      "note_ru": "Денсаулық, сын есімдер, кеңес."
+    },
+    {
+      "topic_id": "p2_u502",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_etistik",
+        "r_bolymsyz_etistik"
+      ],
+      "relation": "primary",
+      "note_ru": "Тазалық әдеттері, болымсыздық."
+    },
+    {
+      "topic_id": "p2_u503",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_septik_zhalgau"
+      ],
+      "relation": "related",
+      "note_ru": "Дәрігер, емхана атаулары."
+    },
+    {
+      "topic_id": "p2_u504",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_etistik"
+      ],
+      "relation": "related",
+      "note_ru": "Емделу, қимыл."
+    },
+    {
+      "topic_id": "p2_u505",
+      "rule_ids": [
+        "r_soilem_turleri",
+        "r_etistik"
+      ],
+      "relation": "related",
+      "note_ru": "Кеңес, хабарлау."
+    },
+    {
+      "topic_id": "p2_u506",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_syn_esim"
+      ],
+      "relation": "related",
+      "note_ru": "Дәрі, пайда."
+    },
+    {
+      "topic_id": "p2_u507",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_etistik"
+      ],
+      "relation": "primary",
+      "note_ru": "Тамақтану, заттар."
+    },
+    {
+      "topic_id": "p2_u508",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_syn_esim"
+      ],
+      "relation": "primary",
+      "note_ru": "Спорт, сын есім."
+    },
+    {
+      "topic_id": "p2_u509",
+      "rule_ids": [
+        "r_etistik",
+        "r_menshindik_shaktyk"
+      ],
+      "relation": "primary",
+      "note_ru": "Жаттығу — шақ."
+    },
+    {
+      "topic_id": "p2_u510",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_koptik_zhalgau"
+      ],
+      "relation": "related",
+      "note_ru": "Спортшылар."
+    },
+    {
+      "topic_id": "p2_u511",
+      "rule_ids": [
+        "r_etistik",
+        "r_syn_esim"
+      ],
+      "relation": "related",
+      "note_ru": "Шынығу."
+    },
+    {
+      "topic_id": "p2_u512",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_usteu"
+      ],
+      "relation": "related",
+      "note_ru": "Мектеп алаңы, мекен."
+    },
+    {
+      "topic_id": "p2_u513",
+      "rule_ids": [
+        "r_esimdik",
+        "r_etistik"
+      ],
+      "relation": "primary",
+      "note_ru": "Мен… — есімдік."
+    },
+    {
+      "topic_id": "p2_u514",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_syn_esim"
+      ],
+      "relation": "related",
+      "note_ru": "Тағам."
+    },
+    {
+      "topic_id": "p2_u515",
+      "rule_ids": [
+        "r_soilem_turleri"
+      ],
+      "relation": "review",
+      "note_ru": "Қорытынды сұрау."
+    },
+    {
+      "topic_id": "p2_u601",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_syn_esim"
+      ],
+      "relation": "primary",
+      "note_ru": "Киіз үй, сипаттау."
+    },
+    {
+      "topic_id": "p2_u602",
+      "rule_ids": [
+        "r_etistik",
+        "r_zat_esim"
+      ],
+      "relation": "related",
+      "note_ru": "Қонақ, әдет."
+    },
+    {
+      "topic_id": "p2_u603",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_etistik"
+      ],
+      "relation": "primary",
+      "note_ru": "Дастарқан, тағам."
+    },
+    {
+      "topic_id": "p2_u604",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_etistik"
+      ],
+      "relation": "related",
+      "note_ru": "Мереке, тілек."
+    },
+    {
+      "topic_id": "p2_u605",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_koptik_zhalgau"
+      ],
+      "relation": "primary",
+      "note_ru": "Ойын атаулары."
+    },
+    {
+      "topic_id": "p2_u606",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_syn_esim"
+      ],
+      "relation": "primary",
+      "note_ru": "Дәстүр."
+    },
+    {
+      "topic_id": "p2_u607",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_syn_esim"
+      ],
+      "relation": "related",
+      "note_ru": "Киім."
+    },
+    {
+      "topic_id": "p2_u608",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_koptik_zhalgau"
+      ],
+      "relation": "related",
+      "note_ru": "Бұйымдар."
+    },
+    {
+      "topic_id": "p2_u609",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_etistik"
+      ],
+      "relation": "primary",
+      "note_ru": "Домбыра, мұра."
+    },
+    {
+      "topic_id": "p2_u610",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_usteu"
+      ],
+      "relation": "related",
+      "note_ru": "Мұражай."
+    },
+    {
+      "topic_id": "p2_u611",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_taueldik_zhalgau"
+      ],
+      "relation": "related",
+      "note_ru": "Әже, туыстық."
+    },
+    {
+      "topic_id": "p2_u612",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_etistik"
+      ],
+      "relation": "primary",
+      "note_ru": "Ертегі."
+    },
+    {
+      "topic_id": "p2_u613",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_koptik_zhalgau"
+      ],
+      "relation": "related",
+      "note_ru": "Балалар әлемі."
+    },
+    {
+      "topic_id": "p2_u614",
+      "rule_ids": [
+        "r_soilem_turleri"
+      ],
+      "relation": "review",
+      "note_ru": "Қорытынды."
+    },
+    {
+      "topic_id": "p2_u701",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_koptik_zhalgau"
+      ],
+      "relation": "primary",
+      "note_ru": "Құстар, көпше."
+    },
+    {
+      "topic_id": "p2_u702",
+      "rule_ids": [
+        "r_bolymsyz_etistik",
+        "r_etistik"
+      ],
+      "relation": "related",
+      "note_ru": "Тыйым, болымсыз."
+    },
+    {
+      "topic_id": "p2_u703",
+      "rule_ids": [
+        "r_etistik",
+        "r_zat_esim"
+      ],
+      "relation": "primary",
+      "note_ru": "Табиғат, қорғау."
+    },
+    {
+      "topic_id": "p2_u704",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_syn_esim"
+      ],
+      "relation": "related",
+      "note_ru": "Аула, тазалық."
+    },
+    {
+      "topic_id": "p2_u705",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_syn_esim"
+      ],
+      "relation": "related",
+      "note_ru": "Гүл."
+    },
+    {
+      "topic_id": "p2_u706",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_syn_esim"
+      ],
+      "relation": "primary",
+      "note_ru": "Құмырсқа, еңбек."
+    },
+    {
+      "topic_id": "p2_u707",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_koptik_zhalgau"
+      ],
+      "relation": "related",
+      "note_ru": "Төлдер."
+    },
+    {
+      "topic_id": "p2_u708",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_esimdik"
+      ],
+      "relation": "related",
+      "note_ru": "Дос туралы."
+    },
+    {
+      "topic_id": "p2_u709",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_koptik_zhalgau"
+      ],
+      "relation": "primary",
+      "note_ru": "Жануарлар."
+    },
+    {
+      "topic_id": "p2_u710",
+      "rule_ids": [
+        "r_etistik",
+        "r_syn_esim"
+      ],
+      "relation": "related",
+      "note_ru": "Су, үнем."
+    },
+    {
+      "topic_id": "p2_u711",
+      "rule_ids": [
+        "r_soilem_turleri"
+      ],
+      "relation": "review",
+      "note_ru": "Қорытынды."
+    },
+    {
+      "topic_id": "p2_u801",
+      "rule_ids": [
+        "r_etistik",
+        "r_zat_esim"
+      ],
+      "relation": "primary",
+      "note_ru": "Жоспарлау."
+    },
+    {
+      "topic_id": "p2_u802",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_usteu"
+      ],
+      "relation": "primary",
+      "note_ru": "Демалыс, табиғат."
+    },
+    {
+      "topic_id": "p2_u803",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_usteu"
+      ],
+      "relation": "related",
+      "note_ru": "Ауыл, саяхат."
+    },
+    {
+      "topic_id": "p2_u804",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_etistik"
+      ],
+      "relation": "related",
+      "note_ru": "Саяжай."
+    },
+    {
+      "topic_id": "p2_u805",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_syn_esim"
+      ],
+      "relation": "primary",
+      "note_ru": "Ел, көрікті жер."
+    },
+    {
+      "topic_id": "p2_u806",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_syn_esim"
+      ],
+      "relation": "related",
+      "note_ru": "Монумент."
+    },
+    {
+      "topic_id": "p2_u807",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_syn_esim"
+      ],
+      "relation": "related",
+      "note_ru": "Қала."
+    },
+    {
+      "topic_id": "p2_u808",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_usteu"
+      ],
+      "relation": "related",
+      "note_ru": "Медеу."
+    },
+    {
+      "topic_id": "p2_u809",
+      "rule_ids": [
+        "r_zat_esim",
+        "r_etistik",
+        "r_soilem_turleri"
+      ],
+      "relation": "primary",
+      "note_ru": "Түркістан, мәтін."
+    },
+    {
+      "topic_id": "p2_u810",
+      "rule_ids": [
+        "r_soilem_turleri"
+      ],
+      "relation": "review",
+      "note_ru": "Қорытынды."
+    }
+  ],
+  "glossary_kk_ru": {
+    "note": "Қазақша-орысша сөздік (2-бөлік); парсинг OCR стр. 104–106.",
+    "sections": [
+      {
+        "id": "g_дені_саудың_жаны_сау",
+        "title_kk": "ДЕНІ САУДЫҢ–ЖАНЫ САУ",
+        "pdf_page_start": 104,
+        "entries": [
+          {
+            "kk": "медбике",
+            "ru": "модсестра"
+          },
+          {
+            "kk": "аға",
+            "ru": "организм мықты - сильный (ая, -ые)"
+          },
+          {
+            "kk": "айналысу",
+            "ru": "заниматься лы ы"
+          },
+          {
+            "kk": "асықпай",
+            "ru": "не торопясь наукае - больной (-ая. “өс, -ыс)"
+          },
+          {
+            "kk": "ауырады/ауырмайды",
+            "ru": "болит/не болит айдады - полезный (сал, -ое, -ме)"
+          },
+          {
+            "kk": "бауыр",
+            "ru": "печень секіру - прыгать"
+          },
+          {
+            "kk": "бел",
+            "ru": "поясница, талия тоқаштар"
+          },
+          {
+            "kk": "ботқа",
+            "ru": "каша суда жүз - плавай"
+          },
+          {
+            "kk": "бір орында",
+            "ru": "на одном месте сырғанау - кататься, скользить"
+          },
+          {
+            "kk": "перумен — витамин табиғи",
+            "ru": "природный (-ая, -оғ, -ыг)"
+          },
+          {
+            "kk": "дәрі",
+            "ru": "лекарство тағам - пища"
+          },
+          {
+            "kk": "дәрігер",
+            "ru": "врач тазалық - чистота"
+          },
+          {
+            "kk": "дәріхана",
+            "ru": "аптека тамақтану - питаться"
+          },
+          {
+            "kk": "дене қызуы",
+            "ru": "температура тарақ - расчбека"
+          },
+          {
+            "kk": "денешынықтыру",
+            "ru": "физкультура тексеру - проверить"
+          },
+          {
+            "kk": "денсаулық",
+            "ru": "здоровье тік ұста - держи прямо"
+          },
+          {
+            "kk": "емдейді/емдемейді — лечит/ше лечит тіс дәрігері",
+            "ru": "зубной врач, стоматолог"
+          },
+          {
+            "kk": "емхана",
+            "ru": "поликлиника тіс шіткасы - субная щётка"
+          },
+          {
+            "kk": "еріпбеу",
+            "ru": "не лениться үнемі - постоянно"
+          },
+          {
+            "kk": "есте сақтау",
+            "ru": "запоминать ширату - здесь: увеличить (накачать)"
+          },
+          {
+            "kk": "жазда",
+            "ru": "летом: шінші"
+          },
+          {
+            "kk": "жалқаулық",
+            "ru": "лень шұғылдану - заниматься"
+          },
+          {
+            "kk": "жанкүйер",
+            "ru": "болелыцик шымыр - крепкий (-ая, оғ, ие)"
+          },
+          {
+            "kk": "жаңғақ",
+            "ru": "орех шынық - закалийся"
+          },
+          {
+            "kk": "жарыс",
+            "ru": "соревнование шырын - сон"
+          },
+          {
+            "kk": "жаттығу",
+            "ru": "упражнение"
+          },
+          {
+            "kk": "жассықтырушаы",
+            "ru": "қанай"
+          },
+          {
+            "kk": "жетістік",
+            "ru": "достижение"
+          }
+        ]
+      },
+      {
+        "id": "g_салт_дәстүр_және_ауыз_әдебиеті",
+        "title_kk": "САЛТ-ДӘСТҮР ЖӘНЕ АУЫЗ ӘДЕБИЕТІ",
+        "pdf_page_start": 104,
+        "entries": [
+          {
+            "kk": "жөтел",
+            "ru": "кашель аңыл — ум"
+          },
+          {
+            "kk": "жүгіру",
+            "ru": "бегать алғыс - благодарность"
+          },
+          {
+            "kk": "жүзу",
+            "ru": "плавать арқан тарту - перетягивание каната"
+          },
+          {
+            "kk": "жүлде",
+            "ru": "приз аспап - инструмент"
+          },
+          {
+            "kk": "зиян",
+            "ru": "вред ат қою - давать имя"
+          },
+          {
+            "kk": "нық",
+            "ru": "плечо әртүрлі - разные"
+          },
+          {
+            "kk": "шіледі",
+            "ru": "нагибается бата - благословение"
+          },
+          {
+            "kk": "кәсіби",
+            "ru": "профессиональный (-ая, <оғ, бәйге - байга"
+          },
+          {
+            "kk": "гы) бесікке салу",
+            "ru": "обряд, когда младенца"
+          },
+          {
+            "kk": "кеңес беру",
+            "ru": "дать сонет впервые кладут в колыбель"
+          },
+          {
+            "kk": "көз дәрігері",
+            "ru": "окулист бұйым - вещь, предмет"
+          },
+          {
+            "kk": "көтер",
+            "ru": "поднимай білім - знание"
+          },
+          {
+            "kk": "құт",
+            "ru": "здесь: береги дана - мудрый (-ал, -0ё, -ые)"
+          },
+          {
+            "kk": "куш",
+            "ru": "сила дастарқан - скатерть, накрытый стол"
+          },
+          {
+            "kk": "қысқы",
+            "ru": "зимний (-яя, <ее, ие) дәстүр - традиция"
+          },
+          {
+            "kk": "қыста",
+            "ru": "зимой домалақ - круглый (-ая. -ое, -ые )"
+          },
+          {
+            "kk": "домалау",
+            "ru": "катиться уық - вогнутые жерди, составляющие"
+          },
+          {
+            "kk": "ертег!",
+            "ru": "сказка купол торты"
+          },
+          {
+            "kk": "жазғы",
+            "ru": "летний (сай, сие) фотокужат = фотодокумент"
+          },
+          {
+            "kk": "жаңылтпаш",
+            "ru": "скороговорка шаңырақ - шаныран, деревянный круг"
+          },
+          {
+            "kk": "жәдігер",
+            "ru": "экспонат на нерхней части юрты"
+          },
+          {
+            "kk": "жұмбақ",
+            "ru": "загадка шебер - мастер"
+          },
+          {
+            "kk": "кездесті",
+            "ru": "встретились ыстық бауырсақ - горячие баурсаки"
+          },
+          {
+            "kk": "кереге",
+            "ru": "канат, деревянная решётка,"
+          }
+        ]
+      },
+      {
+        "id": "g_қоршаған_орта",
+        "title_kk": "ҚОРШАҒАН ОРТА",
+        "pdf_page_start": 105,
+        "entries": [
+          {
+            "kk": "керек",
+            "ru": "нужен (-а,-ы) ағаш отырғызу - посадить дерево"
+          },
+          {
+            "kk": "кимешек",
+            "ru": "национальный головной алық жинау - собирать корм, запас"
+          },
+          {
+            "kk": "убор женщины аға",
+            "ru": "очень"
+          },
+          {
+            "kk": "жийз үй",
+            "ru": "юрта аспан - небо"
+          },
+          {
+            "kk": "көгереді",
+            "ru": "процветает аула - днор"
+          },
+          {
+            "kk": "коже",
+            "ru": "национальное блюдо ауланы тазалау - убраться по дворе"
+          },
+          {
+            "kk": "күй/күйші",
+            "ru": "кюй/исполнитель кюя бақа - лягушка"
+          },
+          {
+            "kk": "күрес",
+            "ru": "борьба балапан - птенец"
+          },
+          {
+            "kk": "қамыр илеу",
+            "ru": "замесить тесто балара - пчела"
+          },
+          {
+            "kk": "қарсы алу",
+            "ru": "встречать балшық - глина"
+          },
+          {
+            "kk": "ки — режь бота",
+            "ru": "верблюжонок"
+          },
+          {
+            "kk": "қияды",
+            "ru": "режет бұзау - телёнок"
+          },
+          {
+            "kk": "қонақ",
+            "ru": "гость бұтақ — ветка"
+          },
+          {
+            "kk": "майға пісіру",
+            "ru": "жарить гүлге қонды - сел на цветок"
+          },
+          {
+            "kk": "мақал",
+            "ru": "пословица далаға қара - посмотри на степь"
+          },
+          {
+            "kk": "мұражай",
+            "ru": "музей еңбекқар - трудолюбивый (ая, ыс)"
+          },
+          {
+            "kk": "ниет",
+            "ru": "намерение еркелейді - балуетея"
+          },
+          {
+            "kk": "ою",
+            "ru": "казахский орнамент жануарлар - животные"
+          },
+          {
+            "kk": "өлең",
+            "ru": "стихотворение жаңбыр жауды - пошёл дождь"
+          },
+          {
+            "kk": "өсиет",
+            "ru": "наставление жапырақ - лист"
+          },
+          {
+            "kk": "перне",
+            "ru": "лад (деталь на грифе домбры) жәндік - насекомое"
+          },
+          {
+            "kk": "тісіру",
+            "ru": "4десы; жарить жерді қазу - копать землю"
+          },
+          {
+            "kk": "санамақ",
+            "ru": "считалка жинау - убирать"
+          },
+          {
+            "kk": "сандық",
+            "ru": "сундук жұмыртқа - яйцо"
+          },
+          {
+            "kk": "сәукеле",
+            "ru": "головной убор невесты жүгіреді - бегает, бегают"
+          },
+          {
+            "kk": "сызады",
+            "ru": "чертит жүледі - плавает, плавают"
+          },
+          {
+            "kk": "таңия",
+            "ru": "национальный головной жүрмейді - не ходит"
+          },
+          {
+            "kk": "убар мужчины илеу",
+            "ru": "муравейник"
+          },
+          {
+            "kk": "тері",
+            "ru": "коже кие — святыня"
+          },
+          {
+            "kk": "тиек",
+            "ru": "подстанка под струны (деталь көбелек қонды - бабочка села"
+          },
+          {
+            "kk": "тоқу",
+            "ru": "ткать, вязать көлік - транспорт"
+          },
+          {
+            "kk": "торсық",
+            "ru": "бурдюк, посуда из кожи для қозы - ягнёнок"
+          },
+          {
+            "kk": "хранения и перевозки жидкости қоқыс",
+            "ru": "мусор"
+          },
+          {
+            "kk": "төр",
+            "ru": "почётное места қоқыс жәшігі - мусорный ящик"
+          },
+          {
+            "kk": "тұсау кесу",
+            "ru": "резать путы қор - запас"
+          },
+          {
+            "kk": "тымақ",
+            "ru": "национальный головной қоршаған орта - окружающая среда"
+          },
+          {
+            "kk": "убор мужчины құдық",
+            "ru": "колодец"
+          },
+          {
+            "kk": "тігемін — шью куй",
+            "ru": "наливай:"
+          },
+          {
+            "kk": "кумырека",
+            "ru": "муравей"
+          },
+          {
+            "kk": "құстар",
+            "ru": "птицы ескерткіш - памятник"
+          },
+          {
+            "kk": "дақ",
+            "ru": "козлёнок жағалау - берег"
+          },
+          {
+            "kk": "лактыру",
+            "ru": "кидать жарыс - соревнование"
+          },
+          {
+            "kk": "ноқта",
+            "ru": "недоуздок жеміс ағаштары - плодовые деревья"
+          },
+          {
+            "kk": "ойнайды",
+            "ru": "играет жоғары - верх"
+          },
+          {
+            "kk": "омарта",
+            "ru": "улей жолақы - оплата за проезд"
+          },
+          {
+            "kk": "өзен",
+            "ru": "река жоспарлау - планировать"
+          },
+          {
+            "kk": "өмір",
+            "ru": "жизнь жұлу - рвать"
+          },
+          {
+            "kk": "өсімдік",
+            "ru": "растение керік - жираф"
+          },
+          {
+            "kk": "секіреді",
+            "ru": "прыгает, прыгают кесене - мавзолей:"
+          },
+          {
+            "kk": "сенбілік",
+            "ru": "субботник көне - старый (-ая, ое, -ые)"
+          },
+          {
+            "kk": "күлісті",
+            "ru": "бодали друг друга корнем — красивый, изящный (-ая, өс, -ые)"
+          },
+          {
+            "kk": "сындырма",
+            "ru": "не ломай көшет - саженец"
+          },
+          {
+            "kk": "табиғат",
+            "ru": "природа Күн - солнце"
+          },
+          {
+            "kk": "тазала",
+            "ru": "почисти күнге қыздырыну, күнге кую - загорать"
+          },
+          {
+            "kk": "тоқта",
+            "ru": "стой қайық - лодка."
+          },
+          {
+            "kk": "торғай",
+            "ru": "норобей қайықпен серуендеу - кататься на лодке"
+          },
+          {
+            "kk": "төл",
+            "ru": "приплод қармақ салу - закидывать удочку"
+          },
+          {
+            "kk": "түймедақ",
+            "ru": "ромашка қолымнан ұста - держи за руку"
+          },
+          {
+            "kk": "ұшады",
+            "ru": "летает, летают құмнан үй жасау - из песка строить дом"
+          },
+          {
+            "kk": "ул",
+            "ru": "гнездо құнды -кәдігер - ценный экспонат, ре-"
+          },
+          {
+            "kk": "үнемдеу",
+            "ru": "экономить ликвия"
+          },
+          {
+            "kk": "шақыру",
+            "ru": "звать мұзайдын - каток"
+          },
+          {
+            "kk": "шашпа",
+            "ru": "не сори, пе бросай мұнара - башия"
+          },
+          {
+            "kk": "шегіртке",
+            "ru": "саранча, кузнечик нышан - символ"
+          },
+          {
+            "kk": "шипа болу",
+            "ru": "исцелить, исцеление оң/вол жағалау - правый/левый берег"
+          },
+          {
+            "kk": "шөп",
+            "ru": "трава өйткеші - потому что"
+          }
+        ]
+      },
+      {
+        "id": "g_саяхат",
+        "title_kk": "САЯХАТ",
+        "pdf_page_start": 106,
+        "entries": [
+          {
+            "kk": "сайрандау",
+            "ru": "веселиться; наслаждаться"
+          },
+          {
+            "kk": "ағаш үй",
+            "ru": "деревянный дом сапар - поездка"
+          },
+          {
+            "kk": "аң басты",
+            "ru": "здесь: покрытый снегом саяжай — дача"
+          },
+          {
+            "kk": "ақша теле",
+            "ru": "плати деньги саулет кешені - архитектурный комп-"
+          },
+          {
+            "kk": "алақай!",
+            "ru": "ура! леке"
+          },
+          {
+            "kk": "алтын шар",
+            "ru": "золотой шар суретке түсіремін - сфотографирую"
+          },
+          {
+            "kk": "арамшөп",
+            "ru": "сорняк: сүйемін — люблю"
+          },
+          {
+            "kk": "аспалы жол",
+            "ru": "канатная дорога Тайқазан - огромный котёл, историчес-"
+          },
+          {
+            "kk": "асқақ",
+            "ru": "гордый, горделизый кий экспонат"
+          },
+          {
+            "kk": "әлем",
+            "ru": "мир тамаша - прекрасно, прекрасный"
+          },
+          {
+            "kk": "балық",
+            "ru": "рыба таудың ортасы - середина горы"
+          },
+          {
+            "kk": "балық аулау",
+            "ru": "ловить рыбу тебемін - катаюсь"
+          },
+          {
+            "kk": "барамын",
+            "ru": "иду, пойду телемұнара - телсбашия"
+          },
+          {
+            "kk": "бойтерек",
+            "ru": "пирамидальный тополь, та- темір = железо"
+          },
+          {
+            "kk": "поль-исполин теңіз жағасында",
+            "ru": "на берегу моря"
+          },
+          {
+            "kk": "билетсіз",
+            "ru": "безбилетный ұнайды - нравится"
+          },
+          {
+            "kk": "ғимарат",
+            "ru": "здание шаңғы тебемін - катаюсь на лыжах"
+          },
+          {
+            "kk": "демалады",
+            "ru": "отдыхает шатыр құру - ставить палатку"
+          },
+          {
+            "kk": "демалыс",
+            "ru": "отдых шомылу - купаться"
+          },
+          {
+            "kk": "демалыс орны",
+            "ru": "место отдыха шығамын - выхожу"
+          }
+        ]
+      }
+    ]
+  },
+  "example_tasks_v2": {
+    "verbatim_examples": [
+      {
+        "lesson_id": "p2_u501",
+        "lesson_no": 1,
+        "unit_no": 5,
+        "topic_title": "Денің сау болсын десең...",
+        "exact_page": 4,
+        "raw_text": "1-тапсырма. Тыңда. Суретке қара. = Сұраққа жауап бер. Ж % й 4 Адам үшін денсаулықты сақ- тау аса маңызды. Денің сау бол- г сын десең, жеміс-жидекті көп же. % Спортпен шұғылдан. Суда жүзіп үйрен. Таза ауада серуенде. ен %“ Дене жаттығуларының денсаулыққа қандай пайда- сы бар? (сук ы-- 2-тапсырма. Жұмбақты оқы. Шешуін тап. Дәптерге жаз. Жұмбақ Оны күткен адамдар Ұзақ өмір сүреді. Қадірін білген адам",
+        "normalized_text": "1-тапсырма. Тыңда. Суретке қара. = Сұраққа жауап бер. Ж % й 4 Адам үшін денсаулықты сақ- тау аса маңызды. Денің сау бол- г сын десең, жеміс-жидекті көп же. % Спортпен шұғылдан. Суда жүзіп үйрен. Таза ауада серуенде. ен %“ Дене жаттығуларының денсаулыққа қандай пайда- сы бар? (сук ы-- 2-тапсырма. Жұмбақты оқы. Шешуін тап. Дәптерге жаз. Жұмбақ Оны күткен адамдар Ұзақ өмір сүреді. Қадірін білген адам",
+        "task_type": "listening_speaking",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_id": "p2_u505",
+        "lesson_no": 5,
+        "unit_no": 5,
+        "topic_title": "Дәрігерлік кеңес",
+        "exact_page": 12,
+        "raw_text": "1-тапсырма. Оқы. Сұраққа жауап бер. Мен бүгін емханаға келдім. Отбасы дәрігері бізді жыл сайын тексереді. Дәрігер менің жүре- тімді тыңдады. «Дәрумен іш», - деп кеңес берді. Тіс дәрігері менің тісімді тексерді. «Тісіңді таза ұста», - деді. Көз дәрігері көзімді тексерді. «Компьютер ал- дында ұзақ отырма», - деді. Менің тісім таза, көзім жақсы көреді. Дәрігер: «Сенің денсаулығың жақсы. Жарайсың!» - ",
+        "normalized_text": "1-тапсырма. Оқы. Сұраққа жауап бер. Мен бүгін емханаға келдім. Отбасы дәрігері бізді жыл сайын тексереді. Дәрігер менің жүре- тімді тыңдады. «Дәрумен іш», - деп кеңес берді. Тіс дәрігері менің тісімді тексерді. «Тісіңді таза ұста», - деді. Көз дәрігері көзімді тексерді. «Компьютер ал- дында ұзақ отырма», - деді. Менің тісім таза, көзім жақсы көреді. Дәрігер: «Сенің денсаулығың жақсы. Жарайсың!» - ",
+        "task_type": "reading_response",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_id": "p2_u601",
+        "lesson_no": 1,
+        "unit_no": 6,
+        "topic_title": "Киіз үй",
+        "exact_page": 34,
+        "raw_text": "1-тапсырма. Тыңда. Жұмбақтың шешуін тап. Сұраққа жауап бер. Ұқсайтын шеңберге, Қабырғасы жиылып, керіледі. Жаиһазы мол кең бөлме, Төбесінен жұлдыздар көрінеді. * Киіз үйді білесің бе? 9) Айтайық 2-тапсырма. Суретке қара. Сұрақтарға жауап бер. 247; --; Рр, қ я Трей Г ие ат 2. Іше = це ШЕ 2 ы ЫЙҒШ 2. қ Ч жағ = те - аш т жесе 4 84 Книга предоставлена исключительно в образовательных целях",
+        "normalized_text": "1-тапсырма. Тыңда. Жұмбақтың шешуін тап. Сұраққа жауап бер. Ұқсайтын шеңберге, Қабырғасы жиылып, керіледі. Жаиһазы мол кең бөлме, Төбесінен жұлдыздар көрінеді. * Киіз үйді білесің бе? 9) Айтайық 2-тапсырма. Суретке қара. Сұрақтарға жауап бер. 247; --; Рр, қ я Трей Г ие ат 2. Іше = це ШЕ 2 ы ЫЙҒШ 2. қ Ч жағ = те - аш т жесе 4 84 Книга предоставлена исключительно в образовательных целях",
+        "task_type": "reading_comprehension",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_id": "p2_u701",
+        "lesson_no": 1,
+        "unit_no": 7,
+        "topic_title": "Құстар — біздің достарымыз",
+        "exact_page": 62,
+        "raw_text": "1-тапсырма. Тыңда. Сұраққа жауап бер. Ұя жасап тақтайдан, Біліп ал! Талға апарып байладым. “Көптік мағына: Күтемін мен шаттанған Құстар әдемі. Жыл құсының сайрауын. Балапандар көп. Қастек Баянбай %“ Өлеңде қай жыл мезгілі туралы айтылған? гет ІШІ Оқнық 9-тапсырма. Оқы. Сұрақтарға жауап бер. ҚР” Балалар ойнап жүріп, құс- АЕ е тың ұясын көрді. Ұяда екі и? 5 ГУ в балапан бар екен. Балалар > Ж? № > ба",
+        "normalized_text": "1-тапсырма. Тыңда. Сұраққа жауап бер. Ұя жасап тақтайдан, Біліп ал! Талға апарып байладым. “Көптік мағына: Күтемін мен шаттанған Құстар әдемі. Жыл құсының сайрауын. Балапандар көп. Қастек Баянбай %“ Өлеңде қай жыл мезгілі туралы айтылған? гет ІШІ Оқнық 9-тапсырма. Оқы. Сұрақтарға жауап бер. ҚР” Балалар ойнап жүріп, құс- АЕ е тың ұясын көрді. Ұяда екі и? 5 ГУ в балапан бар екен. Балалар > Ж? № > ба",
+        "task_type": "reading_comprehension",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_id": "p2_u801",
+        "lesson_no": 1,
+        "unit_no": 8,
+        "topic_title": "Саяхатты жоспарлайық",
+        "exact_page": 84,
+        "raw_text": "1-тапсырма. Суретке қара. Әңгімелеп айт. ) - 7 ба е Табиғатқа 4 5» 47 4 ЕЕ 2” 27: Жо» шығайық! Ұ -, й 12 = о қ ‚© Демалысты ыс 7 тауда ЛЕ жақы өткіземіз. Ғұл/ 4-ке дене 3 а 4 3 Тамаша! Го Қы 3 Маған ұнайды. ағ. “ Олар демалыста қайда барды? * Сен өз демалысыңды қалай жоспарлайсын? \"Тыңдайық Б 9-тапсырма. Тыңда. Сұраққа жауап бер. Маржан отбасымен табиғатта демалды. Әкесі балық аулады. Анасы балық ",
+        "normalized_text": "1-тапсырма. Суретке қара. Әңгімелеп айт. ) - 7 ба е Табиғатқа 4 5» 47 4 ЕЕ 2” 27: Жо» шығайық! Ұ -, й 12 = о қ ‚© Демалысты ыс 7 тауда ЛЕ жақы өткіземіз. Ғұл/ 4-ке дене 3 а 4 3 Тамаша! Го Қы 3 Маған ұнайды. ағ. “ Олар демалыста қайда барды? * Сен өз демалысыңды қалай жоспарлайсын? \"Тыңдайық Б 9-тапсырма. Тыңда. Сұраққа жауап бер. Маржан отбасымен табиғатта демалды. Әкесі балық аулады. Анасы балық ",
+        "task_type": "planning_speaking",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_id": "p2_u809",
+        "lesson_no": 9,
+        "unit_no": 8,
+        "topic_title": "Ертегіге айналған Түркістан",
+        "exact_page": 100,
+        "raw_text": "1-тапсырма. Тыңда. Сұраққа жауап бер. Қазір Түркістан қаласы өте әдемі! Мен заманауи саябақта қыдырдым. Саябақтың ортасында шәй- нек үлгісіндегі субұрқақ орнатылған. «Керуен Са- рай» кешені ішінде «Судағы қайық шеруі» атты театрландырылған шоуды тамашаладық. Маған жаңа Түркістан ұнады. “ Ол қай жерлерде болды? АЕ\"... |Ы Окнык 9-тапсырма. Гүлмираның хатын оқы. Сұрақтарға жа- уап бер. Сәлеметсіңдер ",
+        "normalized_text": "1-тапсырма. Тыңда. Сұраққа жауап бер. Қазір Түркістан қаласы өте әдемі! Мен заманауи саябақта қыдырдым. Саябақтың ортасында шәй- нек үлгісіндегі субұрқақ орнатылған. «Керуен Са- рай» кешені ішінде «Судағы қайық шеруі» атты театрландырылған шоуды тамашаладық. Маған жаңа Түркістан ұнады. “ Ол қай жерлерде болды? АЕ\"... |Ы Окнык 9-тапсырма. Гүлмираның хатын оқы. Сұрақтарға жа- уап бер. Сәлеметсіңдер ",
+        "task_type": "reading_comprehension",
+        "confidence": "medium_ocr"
+      }
+    ],
+    "verbatim_examples_status": {
+      "available": true,
+      "reason": "Фрагменты с «1-тапсырма» на выбранных страницах после OCR 4–103.",
+      "next_step": "При необходимости расширить verbatim_meta или поднять scale OCR."
+    },
+    "structural_examples_for_generation": [
+      {
+        "task_type": "vocabulary_gloss",
+        "stem_template_kk": "«{kk}» сөзінің орысша мағынасын жаз.",
+        "answer_template_ru": "{ru}"
+      },
+      {
+        "task_type": "ecology_short",
+        "stem_template_kk": "Табиғатты қорғау үшін не істей аласың?",
+        "rule_hint": "r_etistik"
+      }
+    ]
+  },
+  "generator_profile_kz_moem": {
+    "audience": "2-сынып, 2-бөлік: денсаулық, салт, табиғат, саяхат",
+    "language_policy": {
+      "ui": [
+        "kk",
+        "ru"
+      ],
+      "explanations": "kk_primary_ru_gloss"
+    },
+    "task_mix_recommended": {
+      "vocabulary": 0.3,
+      "grammar": 0.3,
+      "reading_speaking": 0.25,
+      "culture_context": 0.15
+    },
+    "format_rules": [
+      "Қысқа жауап",
+      "Таңдау",
+      "Сәйкестендіру"
+    ],
+    "safety_and_scope": [
+      "Балаларға арналған",
+      "Медициналық диагноз жоқ, гигиена — оқу мәтіні шеңінде"
+    ]
+  }
+}

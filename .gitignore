@@ -1,6 +1,10 @@
 # Local OCR outputs (large / regenerated)
 /ocr/
 
+# Local PDF/OCR tooling (Node scripts + node_modules)
+/tools/
+/tool/
+
 # OS
 Thumbs.db
 .DS_Store

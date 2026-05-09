@@ -1,0 +1,360 @@
+{
+  "source": {
+    "file_name": "Қазақ тілі Оразбаева Ф.Ш. учебник для 3 класса 1 бөлім.pdf",
+    "parsed_at": "2026-05-09",
+    "version": "v2",
+    "extraction_method": {
+      "pdf_text_layer": true,
+      "ocr_applied": false,
+      "ocr_languages": [],
+      "text_layer_dir": "ocr/ocr_text_kaz_tili_orazbaeva_3grade_part1"
+    },
+    "quality_report": {
+      "high_confidence_blocks": [
+        "Метаданные и ISBN (pdf text layer, стр. 2 и 128)",
+        "Полное оглавление тем и страниц (стр. 127)",
+        "Словарь по разделам I-IV (стр. 124-126)"
+      ],
+      "medium_confidence_blocks": [
+        "Формулировки правил извлечены из блоков «Есте сақта!» по страницам модуля"
+      ],
+      "low_confidence_blocks": [
+        "Часть служебных/водяных символов в text layer зашумлена и отфильтрована при нормализации"
+      ],
+      "note": "Text layer у учебника полный, поэтому OCR не запускался. Для генерации заданий пригодны темы, словарь и паттерны заданий; при необходимости можно дополнительно сделать OCR-копию только для верификации отдельных страниц."
+    }
+  },
+  "metadata": {
+    "title": "Қазақ тілі. Балапан. Оқулық 3-сыныпқа арналған (1-бөлім)",
+    "title_ru": "Казахский язык. Балапан. Учебник для 3 класса (часть 1)",
+    "subject": "Қазақ тілі",
+    "grade": 3,
+    "part": 1,
+    "authors": [
+      "Оразбаева Ф. Ш.",
+      "Дәулетбекова Ж. Т.",
+      "Рахметова Р. С.",
+      "Рауандина А. Қ.",
+      "Нұрмұханова Л. С."
+    ],
+    "publisher": "Көкжиек-Горизонт",
+    "city": "Алматы",
+    "publication_year": 2018,
+    "page_count": 128,
+    "isbn": {
+      "part_1": "978-601-7832-70-4",
+      "overall": "978-601-7832-71-1"
+    },
+    "languages": [
+      "kk",
+      "ru"
+    ]
+  },
+  "topics_with_pages": [
+    { "id": "p1_u101", "unit_no": 1, "unit_title_kk": "Жанды табиғат", "lesson_no": 1, "topic_title_kk": "Күз келді", "page_start": 4, "page_end_estimated": 7 },
+    { "id": "p1_u102", "unit_no": 1, "unit_title_kk": "Жанды табиғат", "lesson_no": 2, "topic_title_kk": "Жанды және жансыз табиғат", "page_start": 8, "page_end_estimated": 10 },
+    { "id": "p1_u103", "unit_no": 1, "unit_title_kk": "Жанды табиғат", "lesson_no": 3, "topic_title_kk": "Үй жануарлары — жанды табиғат", "page_start": 11, "page_end_estimated": 13 },
+    { "id": "p1_u104", "unit_no": 1, "unit_title_kk": "Жанды табиғат", "lesson_no": 4, "topic_title_kk": "Бұл — малдың төлі", "page_start": 14, "page_end_estimated": 16 },
+    { "id": "p1_u105", "unit_no": 1, "unit_title_kk": "Жанды табиғат", "lesson_no": 5, "topic_title_kk": "Менің ақ лағым бар", "page_start": 17, "page_end_estimated": 19 },
+    { "id": "p1_u106", "unit_no": 1, "unit_title_kk": "Жанды табиғат", "lesson_no": 6, "topic_title_kk": "Жәндік жанды табиғатқа жата ма?", "page_start": 20, "page_end_estimated": 21 },
+    { "id": "p1_u107", "unit_no": 1, "unit_title_kk": "Жанды табиғат", "lesson_no": 7, "topic_title_kk": "Құстар — біздің досымыз", "page_start": 22, "page_end_estimated": 24 },
+    { "id": "p1_u108", "unit_no": 1, "unit_title_kk": "Жанды табиғат", "lesson_no": 8, "topic_title_kk": "Қандай әдемі балапан!", "page_start": 25, "page_end_estimated": 27 },
+    { "id": "p1_u109", "unit_no": 1, "unit_title_kk": "Жанды табиғат", "lesson_no": 9, "topic_title_kk": "Тырналар жылы жаққа ұшады", "page_start": 28, "page_end_estimated": 30 },
+    { "id": "p1_u110", "unit_no": 1, "unit_title_kk": "Жанды табиғат", "lesson_no": 10, "topic_title_kk": "Жем шашамыз", "page_start": 31, "page_end_estimated": 32 },
+    { "id": "p1_u111", "unit_no": 1, "unit_title_kk": "Жанды табиғат", "lesson_no": 11, "topic_title_kk": "Үй құстары", "page_start": 33, "page_end_estimated": 33 },
+    { "id": "p1_u112", "unit_no": 1, "unit_title_kk": "Жанды табиғат", "lesson_no": 12, "topic_title_kk": "Нәтиже сабақ. Мен не үйрендім?", "page_start": 34, "page_end_estimated": 36 },
+
+    { "id": "p1_u201", "unit_no": 2, "unit_title_kk": "Жақсыдан үйрен, жаманнан жирен", "lesson_no": 1, "topic_title_kk": "«Жақсы» деген немене?", "page_start": 37, "page_end_estimated": 39 },
+    { "id": "p1_u202", "unit_no": 2, "unit_title_kk": "Жақсыдан үйрен, жаманнан жирен", "lesson_no": 2, "topic_title_kk": "«Жаман» деген немене?", "page_start": 40, "page_end_estimated": 42 },
+    { "id": "p1_u203", "unit_no": 2, "unit_title_kk": "Жақсыдан үйрен, жаманнан жирен", "lesson_no": 3, "topic_title_kk": "Әлібек — әдепті бала", "page_start": 43, "page_end_estimated": 44 },
+    { "id": "p1_u204", "unit_no": 2, "unit_title_kk": "Жақсыдан үйрен, жаманнан жирен", "lesson_no": 4, "topic_title_kk": "Ол — ұқыпты оқушы", "page_start": 45, "page_end_estimated": 47 },
+    { "id": "p1_u205", "unit_no": 2, "unit_title_kk": "Жақсыдан үйрен, жаманнан жирен", "lesson_no": 5, "topic_title_kk": "Әнел ақылды", "page_start": 48, "page_end_estimated": 49 },
+    { "id": "p1_u206", "unit_no": 2, "unit_title_kk": "Жақсыдан үйрен, жаманнан жирен", "lesson_no": 6, "topic_title_kk": "Қайырымды бала", "page_start": 50, "page_end_estimated": 51 },
+    { "id": "p1_u207", "unit_no": 2, "unit_title_kk": "Жақсыдан үйрен, жаманнан жирен", "lesson_no": 7, "topic_title_kk": "Еріншектің ертеңі бітпес", "page_start": 52, "page_end_estimated": 54 },
+    { "id": "p1_u208", "unit_no": 2, "unit_title_kk": "Жақсыдан үйрен, жаманнан жирен", "lesson_no": 8, "topic_title_kk": "Азға қанағат ет", "page_start": 55, "page_end_estimated": 57 },
+    { "id": "p1_u209", "unit_no": 2, "unit_title_kk": "Жақсыдан үйрен, жаманнан жирен", "lesson_no": 9, "topic_title_kk": "Мейірімді Нұрай", "page_start": 58, "page_end_estimated": 59 },
+    { "id": "p1_u210", "unit_no": 2, "unit_title_kk": "Жақсыдан үйрен, жаманнан жирен", "lesson_no": 10, "topic_title_kk": "Шебер бала", "page_start": 60, "page_end_estimated": 62 },
+    { "id": "p1_u211", "unit_no": 2, "unit_title_kk": "Жақсыдан үйрен, жаманнан жирен", "lesson_no": 11, "topic_title_kk": "Нәтиже сабақ. Мен не үйрендім?", "page_start": 63, "page_end_estimated": 64 },
+
+    { "id": "p1_u301", "unit_no": 3, "unit_title_kk": "Уақыт", "lesson_no": 1, "topic_title_kk": "Сағат он екі болды", "page_start": 65, "page_end_estimated": 67 },
+    { "id": "p1_u302", "unit_no": 3, "unit_title_kk": "Уақыт", "lesson_no": 2, "topic_title_kk": "Сағат жетіде тұрамын", "page_start": 68, "page_end_estimated": 72 },
+    { "id": "p1_u303", "unit_no": 3, "unit_title_kk": "Уақыт", "lesson_no": 3, "topic_title_kk": "Ерте ұйықтаймын", "page_start": 73, "page_end_estimated": 75 },
+    { "id": "p1_u304", "unit_no": 3, "unit_title_kk": "Уақыт", "lesson_no": 4, "topic_title_kk": "Менің күн тәртібім", "page_start": 76, "page_end_estimated": 78 },
+    { "id": "p1_u305", "unit_no": 3, "unit_title_kk": "Уақыт", "lesson_no": 5, "topic_title_kk": "Бос уақыт", "page_start": 79, "page_end_estimated": 81 },
+    { "id": "p1_u306", "unit_no": 3, "unit_title_kk": "Уақыт", "lesson_no": 6, "topic_title_kk": "Жылдың төрт мезгілі", "page_start": 82, "page_end_estimated": 84 },
+    { "id": "p1_u307", "unit_no": 3, "unit_title_kk": "Уақыт", "lesson_no": 7, "topic_title_kk": "Қыс айлары", "page_start": 85, "page_end_estimated": 87 },
+    { "id": "p1_u308", "unit_no": 3, "unit_title_kk": "Уақыт", "lesson_no": 8, "topic_title_kk": "Көктем мезгілі", "page_start": 88, "page_end_estimated": 90 },
+    { "id": "p1_u309", "unit_no": 3, "unit_title_kk": "Уақыт", "lesson_no": 9, "topic_title_kk": "Жаз бен күз айлары", "page_start": 91, "page_end_estimated": 93 },
+    { "id": "p1_u310", "unit_no": 3, "unit_title_kk": "Уақыт", "lesson_no_start": 10, "lesson_no_end": 11, "topic_title_kk": "Нәтиже сабақ. Мен не үйрендім?", "page_start": 94, "page_end_estimated": 95 },
+
+    { "id": "p1_u401", "unit_no": 4, "unit_title_kk": "Сәулет", "lesson_no": 1, "topic_title_kk": "Әкем — сәулетші", "page_start": 96, "page_end_estimated": 99 },
+    { "id": "p1_u402", "unit_no": 4, "unit_title_kk": "Сәулет", "lesson_no": 2, "topic_title_kk": "Мен де сәулетші боламын", "page_start": 100, "page_end_estimated": 102 },
+    { "id": "p1_u403", "unit_no": 4, "unit_title_kk": "Сәулет", "lesson_no": 3, "topic_title_kk": "Жас сәулетшілер үйірмесінде", "page_start": 103, "page_end_estimated": 105 },
+    { "id": "p1_u404", "unit_no": 4, "unit_title_kk": "Сәулет", "lesson_no": 4, "topic_title_kk": "Ғажайып субұрқақ", "page_start": 106, "page_end_estimated": 107 },
+    { "id": "p1_u405", "unit_no": 4, "unit_title_kk": "Сәулет", "lesson_no": 5, "topic_title_kk": "Мынау — қандай жануардың мүсіні?", "page_start": 108, "page_end_estimated": 110 },
+    { "id": "p1_u406", "unit_no": 4, "unit_title_kk": "Сәулет", "lesson_no": 6, "topic_title_kk": "Көктөбеге шығамыз", "page_start": 111, "page_end_estimated": 113 },
+    { "id": "p1_u407", "unit_no": 4, "unit_title_kk": "Сәулет", "lesson_no": 7, "topic_title_kk": "«Бәйтерек» неге ұқсайды?", "page_start": 114, "page_end_estimated": 115 },
+    { "id": "p1_u408", "unit_no": 4, "unit_title_kk": "Сәулет", "lesson_no": 8, "topic_title_kk": "Қай ғимарат ұнайды?", "page_start": 116, "page_end_estimated": 117 },
+    { "id": "p1_u409", "unit_no": 4, "unit_title_kk": "Сәулет", "lesson_no": 9, "topic_title_kk": "«Ханшатыр» — ерекше ғимарат!", "page_start": 118, "page_end_estimated": 121 },
+    { "id": "p1_u410", "unit_no": 4, "unit_title_kk": "Сәулет", "lesson_no_start": 10, "lesson_no_end": 11, "topic_title_kk": "Нәтиже сабақ. Мен не үйрендім?", "page_start": 122, "page_end_estimated": 123 }
+  ],
+  "rules": [
+    {
+      "id": "r_living_nonliving",
+      "title_kk": "Жанды және жансыз табиғат",
+      "short_formulation": "Жанды табиғат өседі, өзгереді; жансыз табиғатқа су, тас, тау, Күн, Ай жатады.",
+      "formula": null,
+      "source_page": 10
+    },
+    {
+      "id": "r_character_good_bad",
+      "title_kk": "Жақсы және жаман қасиеттер",
+      "short_formulation": "Еңбекқор, ақылды, мейірімді сияқты мінез сипаттары этикалық бағалауда қолданылады.",
+      "formula": null,
+      "source_page": 37
+    },
+    {
+      "id": "r_clock_expression",
+      "title_kk": "Уақытты айту үлгісі",
+      "short_formulation": "«Сағат ... болды», «... минут қалды/кетті» үлгілері қолданылады.",
+      "formula": "Сағат X болды; X-ден Y минут кетті; X-ге Y минут қалды",
+      "source_page": 65
+    },
+    {
+      "id": "r_day_schedule",
+      "title_kk": "Күн тәртібі лексикасы",
+      "short_formulation": "Таңертең, түсте, кешке, түстен кейін тәрізді уақыт үстеулерімен әрекет сипатталады.",
+      "formula": null,
+      "source_page": 75
+    },
+    {
+      "id": "r_seasons_core",
+      "title_kk": "Жыл мезгілдері",
+      "short_formulation": "Жылдың төрт мезгілі: қыс, көктем, жаз, күз; бір жылда 12 ай, 365 тәулік, тәулікте 24 сағат.",
+      "formula": "1 жыл = 12 ай = 365 тәулік; 1 тәулік = 24 сағат",
+      "source_page": 84
+    },
+    {
+      "id": "r_winter_spring_features",
+      "title_kk": "Қыс/көктем сипаттау",
+      "short_formulation": "Маусымдық құбылыстарды нақты етістіктермен айту: қар жауады, қар ериді, күн жылынады.",
+      "formula": null,
+      "source_page": 87
+    },
+    {
+      "id": "r_architecture_professions",
+      "title_kk": "Сәулет және құрылыс лексикасы",
+      "short_formulation": "Сәулетші жоба жасайды, құрылысшы ғимарат салады.",
+      "formula": null,
+      "source_page": 96
+    },
+    {
+      "id": "r_local_landmarks_description",
+      "title_kk": "Нысанды сипаттау",
+      "short_formulation": "Ғимаратты биіктігі, материалы, орны арқылы сипаттау (мысалы: Бәйтерек, Ханшатыр).",
+      "formula": "Нысан + белгісі (биіктігі/материалы/орны)",
+      "source_page": 115
+    }
+  ],
+  "topic_rule_links": [
+    { "topic_id": "p1_u101", "rule_ids": ["r_living_nonliving"], "relation": "primary", "note_ru": "Ввод темы живой природы." },
+    { "topic_id": "p1_u102", "rule_ids": ["r_living_nonliving"], "relation": "primary", "note_ru": "Сопоставление живой/неживой природы." },
+    { "topic_id": "p1_u103", "rule_ids": ["r_living_nonliving"], "relation": "related", "note_ru": "Домашние животные как часть живой природы." },
+    { "topic_id": "p1_u104", "rule_ids": ["r_living_nonliving"], "relation": "related", "note_ru": "Лексика по детенышам животных." },
+    { "topic_id": "p1_u105", "rule_ids": ["r_living_nonliving"], "relation": "related", "note_ru": "Описание домашних животных." },
+    { "topic_id": "p1_u106", "rule_ids": ["r_living_nonliving"], "relation": "primary", "note_ru": "Классификация насекомых." },
+    { "topic_id": "p1_u107", "rule_ids": ["r_living_nonliving"], "relation": "related", "note_ru": "Птицы и охрана природы." },
+    { "topic_id": "p1_u108", "rule_ids": ["r_living_nonliving"], "relation": "related", "note_ru": "Описание птенцов, признаки." },
+    { "topic_id": "p1_u109", "rule_ids": ["r_living_nonliving"], "relation": "related", "note_ru": "Сезонные перемещения птиц." },
+    { "topic_id": "p1_u110", "rule_ids": ["r_living_nonliving"], "relation": "related", "note_ru": "Подкормка птиц и забота о природе." },
+    { "topic_id": "p1_u111", "rule_ids": ["r_living_nonliving"], "relation": "related", "note_ru": "Домашние птицы." },
+    { "topic_id": "p1_u112", "rule_ids": ["r_living_nonliving"], "relation": "review", "note_ru": "Итог по модулю 1." },
+
+    { "topic_id": "p1_u201", "rule_ids": ["r_character_good_bad"], "relation": "primary", "note_ru": "Понятия «хорошо/плохо»." },
+    { "topic_id": "p1_u202", "rule_ids": ["r_character_good_bad"], "relation": "primary", "note_ru": "Антонимы качеств и поведение." },
+    { "topic_id": "p1_u203", "rule_ids": ["r_character_good_bad"], "relation": "related", "note_ru": "Вежливость и этикет." },
+    { "topic_id": "p1_u204", "rule_ids": ["r_character_good_bad"], "relation": "related", "note_ru": "Аккуратность, дисциплина." },
+    { "topic_id": "p1_u205", "rule_ids": ["r_character_good_bad"], "relation": "related", "note_ru": "Характер и положительные качества." },
+    { "topic_id": "p1_u206", "rule_ids": ["r_character_good_bad"], "relation": "related", "note_ru": "Доброта, помощь." },
+    { "topic_id": "p1_u207", "rule_ids": ["r_character_good_bad"], "relation": "related", "note_ru": "Лень и последствия." },
+    { "topic_id": "p1_u208", "rule_ids": ["r_character_good_bad"], "relation": "related", "note_ru": "Умеренность, ценностные установки." },
+    { "topic_id": "p1_u209", "rule_ids": ["r_character_good_bad"], "relation": "related", "note_ru": "Милосердие и забота." },
+    { "topic_id": "p1_u210", "rule_ids": ["r_character_good_bad"], "relation": "related", "note_ru": "Трудолюбие и мастерство." },
+    { "topic_id": "p1_u211", "rule_ids": ["r_character_good_bad"], "relation": "review", "note_ru": "Итог по модулю 2." },
+
+    { "topic_id": "p1_u301", "rule_ids": ["r_clock_expression"], "relation": "primary", "note_ru": "Часы, минуты, модели времени." },
+    { "topic_id": "p1_u302", "rule_ids": ["r_clock_expression", "r_day_schedule"], "relation": "primary", "note_ru": "Время подъема и режим." },
+    { "topic_id": "p1_u303", "rule_ids": ["r_day_schedule"], "relation": "related", "note_ru": "Распорядок дня." },
+    { "topic_id": "p1_u304", "rule_ids": ["r_day_schedule"], "relation": "primary", "note_ru": "Собственный дневной режим." },
+    { "topic_id": "p1_u305", "rule_ids": ["r_day_schedule"], "relation": "related", "note_ru": "Свободное время и действия." },
+    { "topic_id": "p1_u306", "rule_ids": ["r_seasons_core"], "relation": "primary", "note_ru": "Общая система времен года." },
+    { "topic_id": "p1_u307", "rule_ids": ["r_seasons_core", "r_winter_spring_features"], "relation": "related", "note_ru": "Зимние признаки и лексика." },
+    { "topic_id": "p1_u308", "rule_ids": ["r_seasons_core", "r_winter_spring_features"], "relation": "related", "note_ru": "Весенние признаки." },
+    { "topic_id": "p1_u309", "rule_ids": ["r_seasons_core"], "relation": "related", "note_ru": "Лето и осень, сравнение." },
+    { "topic_id": "p1_u310", "rule_ids": ["r_clock_expression", "r_day_schedule", "r_seasons_core"], "relation": "review", "note_ru": "Итог по модулю 3." },
+
+    { "topic_id": "p1_u401", "rule_ids": ["r_architecture_professions"], "relation": "primary", "note_ru": "Профессии в строительстве." },
+    { "topic_id": "p1_u402", "rule_ids": ["r_architecture_professions"], "relation": "related", "note_ru": "Проектирование зданий." },
+    { "topic_id": "p1_u403", "rule_ids": ["r_architecture_professions"], "relation": "related", "note_ru": "Проектная работа в кружке." },
+    { "topic_id": "p1_u404", "rule_ids": ["r_local_landmarks_description"], "relation": "primary", "note_ru": "Описание фонтанов." },
+    { "topic_id": "p1_u405", "rule_ids": ["r_local_landmarks_description"], "relation": "related", "note_ru": "Описание архитектурных объектов/скульптур." },
+    { "topic_id": "p1_u406", "rule_ids": ["r_local_landmarks_description"], "relation": "related", "note_ru": "Локации города, достопримечательности." },
+    { "topic_id": "p1_u407", "rule_ids": ["r_local_landmarks_description"], "relation": "primary", "note_ru": "Описание Бәйтерек по признакам." },
+    { "topic_id": "p1_u408", "rule_ids": ["r_local_landmarks_description"], "relation": "related", "note_ru": "Сравнение/выбор любимого здания." },
+    { "topic_id": "p1_u409", "rule_ids": ["r_local_landmarks_description"], "relation": "primary", "note_ru": "Ханшатыр: материал, функция, особенности." },
+    { "topic_id": "p1_u410", "rule_ids": ["r_architecture_professions", "r_local_landmarks_description"], "relation": "review", "note_ru": "Итог по модулю 4." }
+  ],
+  "example_tasks_v2": {
+    "verbatim_examples": [
+      {
+        "exact_page": 22,
+        "raw_text": "ТЫҢДАЛЫМ АЙТЫЛЫМ 1-тапсырма. Мәтінді тыңда. Мәтін мазмұны бойынша тиісті сұрақтарды қойып, сөйлемдерді толықтырып жаз.",
+        "normalized_text": "1-тапсырма. Мәтінді тыңдап, тиісті сұрақтарды қойып, сөйлемдерді толықтыру.",
+        "task_type": "listening_question_building",
+        "confidence": "high_text_layer"
+      },
+      {
+        "exact_page": 45,
+        "raw_text": "ТЫҢДАЛЫМ АЙТЫЛЫМ 1-тапсырма. Мәтінді тыңда. Сұрақтарға жауап бер. 1. Әлібек — қандай оқушы? 2. Оның кітап, дәптерлері қандай?",
+        "normalized_text": "1-тапсырма. Мәтінді тыңдап, кейіпкер туралы сұрақтарға жауап беру.",
+        "task_type": "listening_comprehension",
+        "confidence": "high_text_layer"
+      },
+      {
+        "exact_page": 52,
+        "raw_text": "Жаңа сөздер: қоқыс, оңай, қиын, қарны ашу, ертеңге қалдыру.",
+        "normalized_text": "Тақырыптық жаңа сөздермен лексикалық бекіту тапсырмасы.",
+        "task_type": "vocabulary_activation",
+        "confidence": "high_text_layer"
+      },
+      {
+        "exact_page": 65,
+        "raw_text": "Сағат тоғыз болды. Сағат он екі болды. Сағат тура жеті болды. Тоғыздан он минут кетті. Бірге бес минут қалды.",
+        "normalized_text": "Уақытты айту үлгілерін қолдану: болды / минут кетті / минут қалды.",
+        "task_type": "time_expression_practice",
+        "confidence": "high_text_layer"
+      },
+      {
+        "exact_page": 75,
+        "raw_text": "ЖАЗЫЛЫМ 5-тапсырма. Тиісті қосымшаны жалғап жаз. 1. Бұл — менің інім. 2. Ол таңертең жеті...(-да, -де) тұрады.",
+        "normalized_text": "5-тапсырма. Тиісті қосымшаны жалғап жаз: таңертең жеті...(-да, -де) тұрады.",
+        "task_type": "grammar_suffix_choice",
+        "confidence": "high_text_layer"
+      },
+      {
+        "exact_page": 84,
+        "raw_text": "5-тапсырма. Сұраққа жауап беріңдер. Диалог құрыңдар. 1. Жылдың неше мезгілі бар? 2. Бір жылда неше ай бар?",
+        "normalized_text": "5-тапсырма. Жыл мезгілдері туралы сұрақтарға жауап беріп, диалог құру.",
+        "task_type": "speaking_dialogue",
+        "confidence": "high_text_layer"
+      },
+      {
+        "exact_page": 96,
+        "raw_text": "Жаңа сөздер: құрылысшы, сәулетші, ғимарат, жаңа, көпқабатты. Әкем — сәулетші. Ол жаңа, көпқабатты ғимараттың жобасын жасады.",
+        "normalized_text": "Кәсіп пен ғимарат лексикасын қолданып сөйлем құрау.",
+        "task_type": "profession_vocabulary_context",
+        "confidence": "high_text_layer"
+      },
+      {
+        "exact_page": 107,
+        "raw_text": "4-тапсырма. Қажетті сөздерді қатыстырып, «Шығыс күнтізбесі» субұрқағы туралы Әлібек пен Сашаның диалогін жаз.",
+        "normalized_text": "4-тапсырма. Тірек сөздермен диалог жазу (сәулет нысанын сипаттау).",
+        "task_type": "guided_dialogue_writing",
+        "confidence": "high_text_layer"
+      },
+      {
+        "exact_page": 115,
+        "raw_text": "4-тапсырма. Сөзжұмбақты шеш. Ортасынан сәулетті қаланың атауы шығады.",
+        "normalized_text": "4-тапсырма. Сөзжұмбақ шешу арқылы тақырыптық сөздерді бекіту.",
+        "task_type": "crossword_vocabulary",
+        "confidence": "high_text_layer"
+      },
+      {
+        "exact_page": 120,
+        "raw_text": "4-тапсырма. Үлгіге қара. Мына балаларға қазақша ат қой. Олар «Ханшатыр» туралы бір-бір сөйлемнен айтсын.",
+        "normalized_text": "4-тапсырма. Үлгі бойынша кейіпкер атын таңдап, нысан туралы сөйлем құрау.",
+        "task_type": "sentence_building_contextual",
+        "confidence": "high_text_layer"
+      },
+      {
+        "exact_page": 4,
+        "raw_text": "Оқушы, бұл модульде: ... тыңдап түсіну, сұрақтарға жауап беру, мәтінді оқу, тірек сөздермен мазмұндау.",
+        "normalized_text": "Модуль басында күтілетін дағдыларды негізге алып тапсырма орындау.",
+        "task_type": "skills_orientation",
+        "confidence": "high_text_layer"
+      },
+      {
+        "exact_page": 37,
+        "raw_text": "Мен еңбекқормын / ақылдымын ... Мен мейірімдімін / сыпайымын ...",
+        "normalized_text": "Жіктеу үлгісімен мінезді сипаттау сөйлемдерін құрау.",
+        "task_type": "grammar_personal_endings",
+        "confidence": "high_text_layer"
+      },
+      {
+        "exact_page": 118,
+        "raw_text": "«Ханшатырдың» ішінде тропикалық бақтар, гүлзарлар бар. Ғимараттың сәулетшісі — өз ісінің шебері.",
+        "normalized_text": "Нысан сипаттамасын оқып, белгілерін айту/жазу.",
+        "task_type": "descriptive_reading_response",
+        "confidence": "high_text_layer"
+      }
+    ],
+    "verbatim_examples_status": {
+      "available": true,
+      "reason": "Text layer толық, тапсырма мәтіндері дәл көшірілді.",
+      "next_step": "Келесі итерацияда әр lesson-ге кемі 1 verbatim-мысалға дейін кеңейтуге болады."
+    },
+    "structural_examples_for_generation": [
+      {
+        "task_type": "reading_comprehension_short",
+        "template_kk": "Мәтінді оқы. 3 сұраққа қысқа жауап бер: «Кім? Не істеді? Қайда?»",
+        "rk_program_style_note": "Қысқа мәтін + нақты сұрақтар, 3-сынып деңгейі."
+      },
+      {
+        "task_type": "grammar_suffix_choice",
+        "template_kk": "Сөйлемді толықтыр: сөзге тиісті қосымшаны таңда (-да/-де, -тан/-тен, -ға/-ге).",
+        "rk_program_style_note": "Орфо-грамматикалық норма мен қолданымға бағытталған."
+      },
+      {
+        "task_type": "speaking_dialogue",
+        "template_kk": "Жағдаят берілген. Жұппен 4-6 репликалық диалог құрастыр.",
+        "rk_program_style_note": "Айтылым құзыретін қалыптастыру, тірек сөздермен."
+      },
+      {
+        "task_type": "vocabulary_matching",
+        "template_kk": "Сөздерді мағынасымен сәйкестендір (kk-ru немесе kk-kk түсіндірме).",
+        "rk_program_style_note": "Сөздік қорды модуль тақырыбы бойынша бекіту."
+      },
+      {
+        "task_type": "landmark_description",
+        "template_kk": "Суретке қарап, нысанды 3 белгімен сипатта: атауы, материалы, ерекшелігі.",
+        "rk_program_style_note": "«Сәулет» бөліміндегі үлгіге сәйкес сипаттамалы жазылым."
+      }
+    ]
+  },
+  "generator_profile_kz_moem": {
+    "audience": "3-сынып, қазақ тілінен басқа тілде оқытатын мектеп",
+    "language_policy": {
+      "ui_languages": ["ru", "kk"],
+      "content_primary": "kk",
+      "support_gloss": "ru_allowed_for_clarity"
+    },
+    "task_mix_recommended": {
+      "reading_comprehension": 0.25,
+      "speaking_dialogue": 0.2,
+      "grammar_spelling": 0.25,
+      "vocabulary_work": 0.2,
+      "writing_short_response": 0.1
+    },
+    "format_rules": [
+      "Тапсырма мәтіні қысқа әрі түсінікті",
+      "Көрнекі тірек сөз/үлгі беру",
+      "Жас ерекшелігіне сай 1-3 қадам",
+      "Бір тапсырмада бір негізгі дағды"
+    ],
+    "safety_and_scope": [
+      "Балаларға қауіпсіз, бейтарап мазмұн",
+      "Медициналық/психологиялық диагноз берілмейді",
+      "Казахстан мектеп контексі, мәдени сәйкестік сақталады"
+    ]
+  }
+}

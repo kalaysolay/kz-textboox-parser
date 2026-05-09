@@ -28,6 +28,16 @@ Always produce JSON with these top-level blocks:
 
 If some data is unavailable, keep fields with `null`/empty arrays and explain in `quality_report.note`.
 
+## OCR outputs (repository layout)
+
+When text must be read via **OCR** (page images, per-page `.txt`, probes, or any intermediate dumps), write **everything** produced by that OCR pass into a **dedicated subdirectory** whose parent is always the project’s **`ocr/`** folder at the repo root.
+
+- **Do not** scatter OCR files next to the PDF or next to final JSON at the root.
+- **Do** use a descriptive subfolder name, for example: `ocr/ocr_text_<book>_<part>/`, `ocr/ocr_pages_<book>_<part>/`.
+- Point the user (and `source.extraction_method` in JSON) to the actual path under `ocr/…` that was used.
+
+This keeps large/regenerable OCR artifacts out of the main tree and matches `.gitignore` when `ocr/` is ignored.
+
 ## Required JSON Shape
 
 Use this baseline structure:
@@ -85,7 +95,7 @@ Use this baseline structure:
 ## Workflow
 
 1. **Read source PDF**  
-   Try PDF text extraction first.
+   Try PDF text extraction first. If OCR is required, write all OCR outputs under `ocr/<your_subfolder>/` (see **OCR outputs** above).
 
 2. **Extract and map core entities**
    - `metadata`: title, authors, class, part, year, ISBN, publisher.

@@ -1,0 +1,809 @@
+{
+  "source": {
+    "file_name": "Қазақ тілі Даулеткереева Н. учебник для 4 класса 3 бөлім.pdf",
+    "parsed_at": "2026-05-09",
+    "version": "v2",
+    "extraction_method": {
+      "pdf_text_layer": true,
+      "pdf_text_layer_usable_for_content": false,
+      "ocr_applied": true,
+      "ocr_languages": [
+        "kaz",
+        "rus"
+      ],
+      "ocr_engine": "tesseract.js",
+      "render": "@napi-rs/canvas + pdfjs-dist",
+      "ocr_scale": 2,
+      "ocr_text_dir": "ocr/ocr_pages_kaz_tili_4_dauletkerieva_part3",
+      "ocr_pdf_page_range": "1-96"
+    },
+    "quality_report": {
+      "high_confidence_blocks": [
+        "Меташығыс: авторлар, шығармашы, шыққан жылы, бет саны (ISBN жоқ) — бет 2, 95–96 OCR",
+        "Жалпы бөлімдік құрылым: «Ғарышқа саяхат», «Болашаққа саяхат» — МАЗМҰНЫ беті 93 тақырып жолдары"
+      ],
+      "medium_confidence_blocks": [
+        "Әр тақырыптың page_start: сабақ тақырыптары бойынша OCR текстісінен кескінделді (15 + 15 сабақ)",
+        "verbatim үлгілері: бет 4, 15, 48, 79 бойынша нөмірленген бірінші қадам үзінділері",
+        "Әдістемелік 'rules' бөлімі: бөлімдік грамматикалық приложение болған жоқ; дәріс беттеріндегі типтік тапсырмалар бойынша қысқа конспект"
+      ],
+      "low_confidence_blocks": [
+        "МАЗМҰН бет 93 OCR: жолдар мен бет нөмірлері сынықты; page_end_estimated санақты негізге алмаңыз — қажет болғанда баспа МАЗМҰНАМЕН сәйкестендіріп алу",
+        "Тақырықтағы кейбір қаріптер (мәс. «ШІЗ», «Шара» орнына «Шарға»): OCR түзетуі қажет"
+      ],
+      "note": "Толық сенім үшін тек OCR-қа сенбеңіз: МАЗМҰН (бет 93) және әдетте әр бөлімнен кем дегенде 2 сабақты қағаз мұқабамен сәйкестендіріңіз."
+    }
+  },
+  "metadata": {
+    "title": "Қазақ тілі. Оқулық 4-сынып үшін (РМО сыныбы, 3-бөлік)",
+    "title_kk": "Қазақ тілі. Оқулық 4-сынып үшін (русше оқыту сыныбы, 3-бөлік)",
+    "title_ru": "Казахский язык. Учебник для 4 класса (обучение на русском, часть 3)",
+    "subject": "Қазақ тілі",
+    "grade": 4,
+    "part": 3,
+    "authors": [
+      "Даулеткереева Н.Ж.",
+      "Мухангалиева Г.Б."
+    ],
+    "publisher": "ТОО «Алматыкітап баспасы»",
+    "city": "Алматы",
+    "publication_year": 2019,
+    "page_count": 96,
+    "isbn": {
+      "part_3": null,
+      "overall": null,
+      "note_ru": "ISBN OCR мәтінде анық оқылмады (баспа деректері бет 95–96). Қажет болғанда қолмен толтыру."
+    },
+    "languages": [
+      "kk",
+      "ru"
+    ]
+  },
+  "topics_with_pages": [
+    {
+      "id": "d4p3_u1l01",
+      "unit_no": 1,
+      "unit_title_kk": "Ғарышқа саяхат",
+      "lesson_no": 1,
+      "topic_title_kk": "Ғарышкер болғым келеді",
+      "page_start": 4,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 6
+    },
+    {
+      "id": "d4p3_u1l02",
+      "unit_no": 1,
+      "unit_title_kk": "Ғарышқа саяхат",
+      "lesson_no": 2,
+      "topic_title_kk": "Байқоңыр ғарыш айлағы",
+      "page_start": 7,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 9
+    },
+    {
+      "id": "d4p3_u1l03",
+      "unit_no": 1,
+      "unit_title_kk": "Ғарышқа саяхат",
+      "lesson_no": 3,
+      "topic_title_kk": "Ғарыш кемесі",
+      "page_start": 10,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 11
+    },
+    {
+      "id": "d4p3_u1l04",
+      "unit_no": 1,
+      "unit_title_kk": "Ғарышқа саяхат",
+      "lesson_no": 4,
+      "topic_title_kk": "Ғарыштағы ас мәзірі",
+      "page_start": 12,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 14
+    },
+    {
+      "id": "d4p3_u1l05",
+      "unit_no": 1,
+      "unit_title_kk": "Ғарышқа саяхат",
+      "lesson_no": 5,
+      "topic_title_kk": "Қазақстанның тұңғыш ғарышкері (Т. Әубәкіров)",
+      "page_start": 15,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 17
+    },
+    {
+      "id": "d4p3_u1l06",
+      "unit_no": 1,
+      "unit_title_kk": "Ғарышқа саяхат",
+      "lesson_no": 6,
+      "topic_title_kk": "Талғат Мұсабаев",
+      "page_start": 18,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 20
+    },
+    {
+      "id": "d4p3_u1l07",
+      "unit_no": 1,
+      "unit_title_kk": "Ғарышқа саяхат",
+      "lesson_no": 7,
+      "topic_title_kk": "Айдын Айымбетов",
+      "page_start": 21,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 23
+    },
+    {
+      "id": "d4p3_u1l08",
+      "unit_no": 1,
+      "unit_title_kk": "Ғарышқа саяхат",
+      "lesson_no": 8,
+      "topic_title_kk": "Қайталау (ғарыш тақырыбы)",
+      "page_start": 24,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 25
+    },
+    {
+      "id": "d4p3_u1l09",
+      "unit_no": 1,
+      "unit_title_kk": "Ғарышқа саяхат",
+      "lesson_no": 9,
+      "topic_title_kk": "Шарға ұқсас денелер",
+      "page_start": 26,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 28
+    },
+    {
+      "id": "d4p3_u1l10",
+      "unit_no": 1,
+      "unit_title_kk": "Ғарышқа саяхат",
+      "lesson_no": 10,
+      "topic_title_kk": "Ғаламшарлар",
+      "page_start": 29,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 31
+    },
+    {
+      "id": "d4p3_u1l11",
+      "unit_no": 1,
+      "unit_title_kk": "Ғарышқа саяхат",
+      "lesson_no": 11,
+      "topic_title_kk": "Мен астроном боламын",
+      "page_start": 32,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 33
+    },
+    {
+      "id": "d4p3_u1l12",
+      "unit_no": 1,
+      "unit_title_kk": "Ғарышқа саяхат",
+      "lesson_no": 12,
+      "topic_title_kk": "Ғаламшар сипаты",
+      "page_start": 34,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 36
+    },
+    {
+      "id": "d4p3_u1l13",
+      "unit_no": 1,
+      "unit_title_kk": "Ғарышқа саяхат",
+      "lesson_no": 13,
+      "topic_title_kk": "Қызылжұлдызға (Марсқа) саяхат",
+      "page_start": 37,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 39
+    },
+    {
+      "id": "d4p3_u1l14",
+      "unit_no": 1,
+      "unit_title_kk": "Ғарышқа саяхат",
+      "lesson_no": 14,
+      "topic_title_kk": "Жетіқарақшы (Үркер туралы аңыз)",
+      "page_start": 40,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 42
+    },
+    {
+      "id": "d4p3_u1l15",
+      "unit_no": 1,
+      "unit_title_kk": "Ғарышқа саяхат",
+      "lesson_no": 15,
+      "topic_title_kk": "Оның қалауын білемін",
+      "page_start": 43,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 47
+    },
+    {
+      "id": "d4p3_u2l01",
+      "unit_no": 2,
+      "unit_title_kk": "Болашаққа саяхат",
+      "lesson_no": 1,
+      "topic_title_kk": "Сиқырлы қорап",
+      "page_start": 48,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 53
+    },
+    {
+      "id": "d4p3_u2l02",
+      "unit_no": 2,
+      "unit_title_kk": "Болашаққа саяхат",
+      "lesson_no": 2,
+      "topic_title_kk": "Менің қиялымдағы мектеп",
+      "page_start": 54,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 56
+    },
+    {
+      "id": "d4p3_u2l03",
+      "unit_no": 2,
+      "unit_title_kk": "Болашаққа саяхат",
+      "lesson_no": 3,
+      "topic_title_kk": "Заманауи көлік",
+      "page_start": 57,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 58
+    },
+    {
+      "id": "d4p3_u2l04",
+      "unit_no": 2,
+      "unit_title_kk": "Болашаққа саяхат",
+      "lesson_no": 4,
+      "topic_title_kk": "Сиқырлы доп",
+      "page_start": 59,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 61
+    },
+    {
+      "id": "d4p3_u2l05",
+      "unit_no": 2,
+      "unit_title_kk": "Болашаққа саяхат",
+      "lesson_no": 5,
+      "topic_title_kk": "Ақылды үй",
+      "page_start": 62,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 64
+    },
+    {
+      "id": "d4p3_u2l06",
+      "unit_no": 2,
+      "unit_title_kk": "Болашаққа саяхат",
+      "lesson_no": 6,
+      "topic_title_kk": "Өзгеру мен даму",
+      "page_start": 65,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 67
+    },
+    {
+      "id": "d4p3_u2l07",
+      "unit_no": 2,
+      "unit_title_kk": "Болашаққа саяхат",
+      "lesson_no": 7,
+      "topic_title_kk": "Қайталау (түйінді тілдік құрылымдар)",
+      "page_start": 68,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 69
+    },
+    {
+      "id": "d4p3_u2l08",
+      "unit_no": 2,
+      "unit_title_kk": "Болашаққа саяхат",
+      "lesson_no": 8,
+      "topic_title_kk": "Сағат неше болды? (жаңалық мәтіні)",
+      "page_start": 70,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 72
+    },
+    {
+      "id": "d4p3_u2l09",
+      "unit_no": 2,
+      "unit_title_kk": "Болашаққа саяхат",
+      "lesson_no": 9,
+      "topic_title_kk": "Музейде",
+      "page_start": 73,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 75
+    },
+    {
+      "id": "d4p3_u2l10",
+      "unit_no": 2,
+      "unit_title_kk": "Болашаққа саяхат",
+      "lesson_no": 10,
+      "topic_title_kk": "Жаттығудың пайдасы",
+      "page_start": 76,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 78
+    },
+    {
+      "id": "d4p3_u2l11",
+      "unit_no": 2,
+      "unit_title_kk": "Болашаққа саяхат",
+      "lesson_no": 11,
+      "topic_title_kk": "Болашақтың жоспары. Күнтізбе",
+      "page_start": 79,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 81
+    },
+    {
+      "id": "d4p3_u2l12",
+      "unit_no": 2,
+      "unit_title_kk": "Болашаққа саяхат",
+      "lesson_no": 12,
+      "topic_title_kk": "Өнертапқыш бала",
+      "page_start": 82,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 83
+    },
+    {
+      "id": "d4p3_u2l13",
+      "unit_no": 2,
+      "unit_title_kk": "Болашаққа саяхат",
+      "lesson_no": 13,
+      "topic_title_kk": "Айға сапар",
+      "page_start": 84,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 86
+    },
+    {
+      "id": "d4p3_u2l14",
+      "unit_no": 2,
+      "unit_title_kk": "Болашаққа саяхат",
+      "lesson_no": 14,
+      "topic_title_kk": "Кайта оралу («Мен болашаққа сенемін»)",
+      "page_start": 87,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 89
+    },
+    {
+      "id": "d4p3_u2l15",
+      "unit_no": 2,
+      "unit_title_kk": "Болашаққа саяхат",
+      "lesson_no": 15,
+      "topic_title_kk": "Қайталау (мақсат бөлімі)",
+      "page_start": 90,
+      "page_start_ref": "ocr_lesson_heading_scan",
+      "page_end_estimated": 92
+    }
+  ],
+  "topic_rule_links": [
+    {
+      "topic_id": "d4p3_u1l01",
+      "rule_ids": [
+        "r_prediction_from_image"
+      ],
+      "relation": "primary",
+      "note_ru": "Ғарыш модулінде сурет, жұмбақ және мәтін арқылы тілдік қалыптастыру."
+    },
+    {
+      "topic_id": "d4p3_u1l02",
+      "rule_ids": [
+        "r_prediction_from_image",
+        "r_easy_sentence_compound"
+      ],
+      "relation": "primary",
+      "note_ru": "Байқоңыр: жай сөйлем және микротекст (OCR бет 7)."
+    },
+    {
+      "topic_id": "d4p3_u1l03",
+      "rule_ids": [
+        "r_prediction_from_image"
+      ],
+      "relation": "primary",
+      "note_ru": "Ғарыш модулінде сурет, жұмбақ және мәтін арқылы тілдік қалыптастыру."
+    },
+    {
+      "topic_id": "d4p3_u1l04",
+      "rule_ids": [
+        "r_prediction_from_image"
+      ],
+      "relation": "primary",
+      "note_ru": "Ғарыш модулінде сурет, жұмбақ және мәтін арқылы тілдік қалыптастыру."
+    },
+    {
+      "topic_id": "d4p3_u1l05",
+      "rule_ids": [
+        "r_prediction_from_image",
+        "r_dialogue_listen_read"
+      ],
+      "relation": "primary",
+      "note_ru": "Сұхбат/хабарлау мәтіндері (ғарышкерлер)."
+    },
+    {
+      "topic_id": "d4p3_u1l06",
+      "rule_ids": [
+        "r_prediction_from_image",
+        "r_dialogue_listen_read"
+      ],
+      "relation": "primary",
+      "note_ru": "Сұхбат/хабарлау мәтіндері (ғарышкерлер)."
+    },
+    {
+      "topic_id": "d4p3_u1l07",
+      "rule_ids": [
+        "r_prediction_from_image",
+        "r_dialogue_listen_read"
+      ],
+      "relation": "primary",
+      "note_ru": "Сұхбат/хабарлау мәтіндері (ғарышкерлер)."
+    },
+    {
+      "topic_id": "d4p3_u1l08",
+      "rule_ids": [
+        "r_prediction_from_image",
+        "r_vocabulary_comparison"
+      ],
+      "relation": "review",
+      "note_ru": "Қайталау немесе жинақтау: лексика мен ойлау."
+    },
+    {
+      "topic_id": "d4p3_u1l09",
+      "rule_ids": [
+        "r_prediction_from_image"
+      ],
+      "relation": "primary",
+      "note_ru": "Ғарыш модулінде сурет, жұмбақ және мәтін арқылы тілдік қалыптастыру."
+    },
+    {
+      "topic_id": "d4p3_u1l10",
+      "rule_ids": [
+        "r_prediction_from_image"
+      ],
+      "relation": "primary",
+      "note_ru": "Ғарыш модулінде сурет, жұмбақ және мәтін арқылы тілдік қалыптастыру."
+    },
+    {
+      "topic_id": "d4p3_u1l11",
+      "rule_ids": [
+        "r_prediction_from_image"
+      ],
+      "relation": "primary",
+      "note_ru": "Ғарыш модулінде сурет, жұмбақ және мәтін арқылы тілдік қалыптастыру."
+    },
+    {
+      "topic_id": "d4p3_u1l12",
+      "rule_ids": [
+        "r_prediction_from_image"
+      ],
+      "relation": "primary",
+      "note_ru": "Ғарыш модулінде сурет, жұмбақ және мәтін арқылы тілдік қалыптастыру."
+    },
+    {
+      "topic_id": "d4p3_u1l13",
+      "rule_ids": [
+        "r_prediction_from_image"
+      ],
+      "relation": "primary",
+      "note_ru": "Ғарыш модулінде сурет, жұмбақ және мәтін арқылы тілдік қалыптастыру."
+    },
+    {
+      "topic_id": "d4p3_u1l14",
+      "rule_ids": [
+        "r_prediction_from_image",
+        "r_vocabulary_comparison"
+      ],
+      "relation": "primary",
+      "note_ru": "Аңыз мәтіні: оқиғаны айырмашылықтау."
+    },
+    {
+      "topic_id": "d4p3_u1l15",
+      "rule_ids": [
+        "r_prediction_from_image",
+        "r_vocabulary_comparison"
+      ],
+      "relation": "review",
+      "note_ru": "Қайталау немесе жинақтау: лексика мен ойлау."
+    },
+    {
+      "topic_id": "d4p3_u2l01",
+      "rule_ids": [
+        "r_hypothesis_future.lexis",
+        "r_prediction_from_image"
+      ],
+      "relation": "primary",
+      "note_ru": "Болашақ сценарийлері: қауіпсіз болжам стилі."
+    },
+    {
+      "topic_id": "d4p3_u2l02",
+      "rule_ids": [
+        "r_hypothesis_future.lexis",
+        "r_dialogue_listen_read"
+      ],
+      "relation": "primary",
+      "note_ru": "Болашақ сценарийлері: қауіпсіз болжам стилі. Диалог немесе тыңдалым элементі."
+    },
+    {
+      "topic_id": "d4p3_u2l03",
+      "rule_ids": [
+        "r_hypothesis_future.lexis"
+      ],
+      "relation": "primary",
+      "note_ru": "Болашақ сценарийлері: қауіпсіз болжам стилі."
+    },
+    {
+      "topic_id": "d4p3_u2l04",
+      "rule_ids": [
+        "r_hypothesis_future.lexis",
+        "r_dialogue_listen_read"
+      ],
+      "relation": "primary",
+      "note_ru": "Болашақ сценарийлері: қауіпсіз болжам стилі. Диалог немесе тыңдалым элементі."
+    },
+    {
+      "topic_id": "d4p3_u2l05",
+      "rule_ids": [
+        "r_hypothesis_future.lexis",
+        "r_dialogue_listen_read"
+      ],
+      "relation": "primary",
+      "note_ru": "Болашақ сценарийлері: қауіпсіз болжам стилі. Диалог немесе тыңдалым элементі."
+    },
+    {
+      "topic_id": "d4p3_u2l06",
+      "rule_ids": [
+        "r_hypothesis_future.lexis",
+        "r_vocabulary_comparison"
+      ],
+      "relation": "primary",
+      "note_ru": "өзгеру / даму сөздерін ажырату (бет 65 OCR)."
+    },
+    {
+      "topic_id": "d4p3_u2l07",
+      "rule_ids": [
+        "r_hypothesis_future.lexis",
+        "r_suffix_placeholder_fill"
+      ],
+      "relation": "related",
+      "note_ru": "Жалғау таңдау жаттығуы (бет 68 OCR, тексеру)."
+    },
+    {
+      "topic_id": "d4p3_u2l08",
+      "rule_ids": [
+        "r_hypothesis_future.lexis",
+        "r_dialogue_listen_read"
+      ],
+      "relation": "primary",
+      "note_ru": "Болашақ сценарийлері: қауіпсіз болжам стилі. Диалог немесе тыңдалым элементі."
+    },
+    {
+      "topic_id": "d4p3_u2l09",
+      "rule_ids": [
+        "r_hypothesis_future.lexis"
+      ],
+      "relation": "primary",
+      "note_ru": "Болашақ сценарийлері: қауіпсіз болжам стилі."
+    },
+    {
+      "topic_id": "d4p3_u2l10",
+      "rule_ids": [
+        "r_hypothesis_future.lexis",
+        "r_dialogue_listen_read"
+      ],
+      "relation": "primary",
+      "note_ru": "Болашақ сценарийлері: қауіпсіз болжам стилі. Диалог немесе тыңдалым элементі."
+    },
+    {
+      "topic_id": "d4p3_u2l11",
+      "rule_ids": [
+        "r_hypothesis_future.lexis"
+      ],
+      "relation": "primary",
+      "note_ru": "Болашақ сценарийлері: қауіпсіз болжам стилі."
+    },
+    {
+      "topic_id": "d4p3_u2l12",
+      "rule_ids": [
+        "r_hypothesis_future.lexis",
+        "r_dialogue_listen_read"
+      ],
+      "relation": "primary",
+      "note_ru": "Болашақ сценарийлері: қауіпсіз болжам стилі. Диалог немесе тыңдалым элементі."
+    },
+    {
+      "topic_id": "d4p3_u2l13",
+      "rule_ids": [
+        "r_hypothesis_future.lexis",
+        "r_dialogue_listen_read"
+      ],
+      "relation": "primary",
+      "note_ru": "Болашақ сценарийлері: қауіпсіз болжам стилі. Диалог немесе тыңдалым элементі."
+    },
+    {
+      "topic_id": "d4p3_u2l14",
+      "rule_ids": [
+        "r_hypothesis_future.lexis"
+      ],
+      "relation": "review",
+      "note_ru": "Бөлімді қорытындылау және жазба сөйлеу."
+    },
+    {
+      "topic_id": "d4p3_u2l15",
+      "rule_ids": [
+        "r_hypothesis_future.lexis"
+      ],
+      "relation": "review",
+      "note_ru": "Бөлімді қорытындылау және жазба сөйлеу."
+    }
+  ],
+  "rules": [
+    {
+      "id": "r_easy_sentence_compound",
+      "title_kk": "Жай сөйлем",
+      "title_ru": "Простое предложение (жай сөйлем)",
+      "source_pdf_pages": [
+        7
+      ],
+      "summary_kk": "Сабақ бетінде бір ойды білдіретін құрылып жоғын ажырату (мақсаты бойынша): жаңа ақпарат және мысал бет 7 OCR.",
+      "summary_ru": "Тема страницы: построение и распознавание простых предложений при работе с микротекстом (по заданию, с. 7 OCR).",
+      "formula": null,
+      "extraction_note_ru": "Краткая формулировка дидактической цели восстановлена по формулировке урока в OCR; это не текст отдельного грамматического справочника.",
+      "confidence": "medium_ocr"
+    },
+    {
+      "id": "r_dialogue_listen_read",
+      "title_kk": "Диалогті тыңдап/оқып түсіну",
+      "title_ru": "Понимание диалога (аудирование и чтение)",
+      "source_pdf_pages": [
+        79
+      ],
+      "summary_ru": "Практический приём учебника: диалог как опора для усной и письменной речи («Күнтізбе» бөлімі, бет 79 OCR).",
+      "formula": null,
+      "extraction_note_ru": "Привязано к типу упражнения на стр. 79 (OCR): «диалогті тыңда». ",
+      "confidence": "medium_ocr"
+    },
+    {
+      "id": "r_prediction_from_image",
+      "title_kk": "Сурет бойынша болжау",
+      "title_ru": "Предсказание содержания по иллюстрации",
+      "source_pdf_pages": [
+        48
+      ],
+      "summary_ru": "Урок «сиқырлы қорап»: этапы «болжа» в задании (по странице 48 OCR).",
+      "formula": null,
+      "confidence": "medium_ocr"
+    },
+    {
+      "id": "r_hypothesis_future.lexis",
+      "title_kk": "Болашақ туралы мағыналы болжам",
+      "title_ru": "Гипотезы о будущем (лексика и простые высказывания)",
+      "source_pdf_pages": [
+        88
+      ],
+      "summary_ru": "Работа с темой «Болашақта…»: поддержание нейтрального, безопасного тона, без утверждений о медицине/политике.",
+      "formula": null,
+      "confidence": "medium_ocr"
+    },
+    {
+      "id": "r_vocabulary_comparison",
+      "title_kk": "Сөздерді салыстырып қолдану",
+      "title_ru": "Употребление сравнений и противопоставлений слов",
+      "source_pdf_pages": [
+        65
+      ],
+      "summary_ru": "Различение понятий «өзгеру / даму» в лексической работе (стр. 65 OCR).",
+      "formula": null,
+      "confidence": "medium_ocr"
+    },
+    {
+      "id": "r_suffix_placeholder_fill",
+      "title_kk": "Көзқараспен қатысты жалғаулар таңдау",
+      "title_ru": "Подстановка суффиксов / окончаний по контексту",
+      "source_pdf_pages": [
+        68
+      ],
+      "summary_ru": "Обобщение упражнения на многоточия с морфологическими окончаниями (рейтинг — medium OCR).",
+      "formula": null,
+      "confidence": "low_ocr"
+    }
+  ],
+  "glossary_kk_ru": {
+    "available": false,
+    "reason_kk": "3-бөлім OCR соңында сөздік бөлімі адасқан МАЗМҰНЫ/шығыс деректерімен ажыратылмады; жеке «қазақша–орысша» кестесі табылған жоқ.",
+    "sections": []
+  },
+  "example_tasks_v2": {
+    "verbatim_examples": [
+      {
+        "lesson_id": "d4p3_u1l01",
+        "lesson_no": 1,
+        "unit_no": 1,
+        "topic_title": "Ғарышкер болғым келеді",
+        "exact_page": 4,
+        "raw_text": "ҒАРЫШҚАСАЯХАТ ШІЗ Ғарышкер болғым келеді я ғарышкер Өз арманың немесе қалауың туралы сөйлесесің. ғарыш Тақырыппен байланысты жаңа сөздер үйренесің. алыс жақын айлаа ; 1. Жұмбақты шеш. \\ Күміс канат сұңқары + ; Көкке еркін сүңгиді. 3 ь Булттан да тым эр! ДЕС Кеткен жанды кім дейді? қ жарынпкер ұшқыш а - : == | нан \"ж. Ч || те А нон р 4. ‚а ЖҚ <Ё 4. ® ® ; 4 4) ғарыш кемесі ғарыш айлағы ғарыш 2. Сөйлемді толықтырып жаз. Қажетті сөздер: ғарыш, ғарыш кемесі, ғарыш айлағы, ғарышкер",
+        "normalized_text": "ҒАРЫШҚАСАЯХАТ ШІЗ Ғарышкер болғым келеді я ғарышкер Өз арманың немесе қалауың туралы сөйлесесің. ғарыш Тақырыппен байланысты жаңа сөздер үйренесің. алыс жақын айлаа ; 1. Жұмбақты шеш. \\ Күміс канат сұңқары + ; Көкке еркін сүңгиді. 3 ь Булттан да тым эр! ДЕС Кеткен жанды кім дейді? қ жарынпкер ұшқыш а - : == | нан \"ж. Ч || те А нон р 4. ‚а ЖҚ <Ё 4. ® ® ; 4 4) ғарыш кемесі ғарыш айлағы ғарыш 2. Сөйлемді толықтырып жаз. Қажетті сөздер: ғарыш, ғарыш кемесі, ғарыш айлағы, ғарышкер",
+        "task_type": "grammar_vocabulary_integration",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_id": "d4p3_u1l05",
+        "lesson_no": 5,
+        "unit_no": 1,
+        "topic_title": "Қазақстанның тұңғыш ғарышкері (Т. Әубәкіров)",
+        "exact_page": 15,
+        "raw_text": "ҒАРЫШҚА САЯХАТ @) Қазақстанның тұңғыш ғарышкері Т.Әубәкіровтің сұхбатын оқисың. наны жне; ғұ В атыл Тілдік құрылымдарды қолдана білуге үйренесің. Ня - марапвттау а Сәлем, достар! Менімен бірге жүріңдер; % о (5 Қазір Қазақстанның тұңғыш ғарышкері » ^^ р Тоқтар Әубәкіровтен сүхбат аламыз. | 7 | Кт | „й ” (1 \"РД Ж |= \\ ғ “ % 3» қ 1.Дайын тілдік құрылымдармен танғю, Өз мысалынды ойлап айт. -. болуды Әнші болуды армандадым. армандадым. Бишіб дадым. ігі лу дадым. „.. жауап беретін ",
+        "normalized_text": "ҒАРЫШҚА САЯХАТ @) Қазақстанның тұңғыш ғарышкері Т.Әубәкіровтің сұхбатын оқисың. наны жне; ғұ В атыл Тілдік құрылымдарды қолдана білуге үйренесің. Ня - марапвттау а Сәлем, достар! Менімен бірге жүріңдер; % о (5 Қазір Қазақстанның тұңғыш ғарышкері » ^^ р Тоқтар Әубәкіровтен сүхбат аламыз. | 7 | Кт | „й ” (1 \"РД Ж |= \\ ғ “ % 3» қ 1.Дайын тілдік құрылымдармен танғю, Өз мысалынды ойлап айт. -. болуды Әнші болуды армандадым. армандадым. Бишіб дадым. ігі лу дадым. „.. жауап беретін ",
+        "task_type": "listening_reading_interaction",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_id": "d4p3_u2l01",
+        "lesson_no": 1,
+        "unit_no": 2,
+        "topic_title": "Сиқырлы қорап",
+        "exact_page": 48,
+        "raw_text": "БОЛАШАҚҚА САЯХАТ (121 — Сикырлы корап Оқиғаны болжап үйренесің о водо родатеетосьиное солдат Нея сазанды ай қорап кілт 4 а) Суреттерге қара. Мына адамдар туралы не айта ала 7) 3 1% Талғат Тілеух. жар Азамат ә) Сөйлемдерді оқы. Кі ту) айтылғанын анықта. 1. Ол кітап оқы: “А ақсы көреді. 2. Ол футбол ойн аған ы жақсы көреді. 8. Олскэйтборд тепкенді жақсы көреді. 4. Ол- Тілеухан мен Санжардың сыныптасы. 5. Тілеухан бл кісіні: «көрші», - дейді. К Газа # `` (5 ғақ лі е ші ы қорап ө",
+        "normalized_text": "БОЛАШАҚҚА САЯХАТ (121 — Сикырлы корап Оқиғаны болжап үйренесің о водо родатеетосьиное солдат Нея сазанды ай қорап кілт 4 а) Суреттерге қара. Мына адамдар туралы не айта ала 7) 3 1% Талғат Тілеух. жар Азамат ә) Сөйлемдерді оқы. Кі ту) айтылғанын анықта. 1. Ол кітап оқы: “А ақсы көреді. 2. Ол футбол ойн аған ы жақсы көреді. 8. Олскэйтборд тепкенді жақсы көреді. 4. Ол- Тілеухан мен Санжардың сыныптасы. 5. Тілеухан бл кісіні: «көрші», - дейді. К Газа # `` (5 ғақ лі е ші ы қорап ө",
+        "task_type": "prediction_speaking",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_id": "d4p3_u2l11",
+        "lesson_no": 11,
+        "unit_no": 2,
+        "topic_title": "Болашақтың жоспары. Күнтізбе",
+        "exact_page": 79,
+        "raw_text": "БОЛАШАҚҚАСАЯХАТ ЖЕР) Болашақтың жоспары. Күнтізбе Денсаулықты күту туралы өз ойынды ауызша я 2 және жазбаша жеткізе білуге үйренесің. ео үлгеру 1. Диалогті тыңда. Күнтізбе туралы айтып бер. / | Ч % ЫН = 4 атты. | РЛ > ой | ы 8 [РР ан | 75% 210 мы АНЫ қ а, ӘБ %й || К | ” % ) 2. Күнтізбедегі. «қь 24 4х тус нені білдіруі мүмкін? Болжап көр. Аныктайык - % “ 8.Сұңғаттың атасының күнтізбесіндегі қызыл түс нені білдіре- ді? Үс << ізаттарды мүқият кара. Анықтап көр. ЯҰ» 1 бк, 42 қ ыз",
+        "normalized_text": "БОЛАШАҚҚАСАЯХАТ ЖЕР) Болашақтың жоспары. Күнтізбе Денсаулықты күту туралы өз ойынды ауызша я 2 және жазбаша жеткізе білуге үйренесің. ео үлгеру 1. Диалогті тыңда. Күнтізбе туралы айтып бер. / | Ч % ЫН = 4 атты. | РЛ > ой | ы 8 [РР ан | 75% 210 мы АНЫ қ а, ӘБ %й || К | ” % ) 2. Күнтізбедегі. «қь 24 4х тус нені білдіруі мүмкін? Болжап көр. Аныктайык - % “ 8.Сұңғаттың атасының күнтізбесіндегі қызыл түс нені білдіре- ді? Үс << ізаттарды мүқият кара. Анықтап көр. ЯҰ» 1 бк, 42 қ ыз",
+        "task_type": "dialogue_comprehension",
+        "confidence": "medium_ocr"
+      }
+    ],
+    "verbatim_examples_status": {
+      "available": true,
+      "reason": "Нөмірленген алғашқы тапсырмадан OCR үзінділері (4 беті).",
+      "next_step": "Сенімді verbatim үшін сынықты беттерде render scale=3 қайта OCR немесе қолмен редакциялеу."
+    },
+    "structural_examples_for_generation": [
+      {
+        "task_type": "cloze_synonyms_future",
+        "stem_template_kk": "Мәтінде бос жерге сәйкес сөзді қой: {sentence_with_gap}",
+        "variants_hint_kz_moem": [
+          "қайтарады",
+          "қайтарылады",
+          "жеткізеді",
+          "жетелейді"
+        ]
+      },
+      {
+        "task_type": "mcq_inference_safe",
+        "stem_template_kk": "Мәтін бойынша дұрыс пікірді таңда (бола шақ туралы жалпы қолданылған тілдік форма)."
+      },
+      {
+        "task_type": "dialogue_who_said",
+        "stem_template_kk": "Қайсын «{speaker}» айтқан? Таңда:",
+        "grammar_tags": [
+          "r_dialogue_listen_read"
+        ]
+      },
+      {
+        "task_type": "space_lexis_match_kk_ru",
+        "stem_template_kk": "Қазақша «{kk}» үшін ең жақын орыс мағынасын таңда.",
+        "stem_template_ru": "Подбери русский оттенок к казахстанскому слову про космос: «{kk}»."
+      }
+    ]
+  },
+  "generator_profile_kz_moem": {
+    "audience": "4 сынып, 3-бөлік: ғарыш және болашақ тақырыбындағы оқылым/сөйлеу модульдері",
+    "language_policy": {
+      "ui": [
+        "kk",
+        "ru"
+      ],
+      "explanations": "kk_primary_optional_ru_gloss",
+      "terminology": "Қазақ школалық лексика, қауіпсіз болжаулар мен табиғатты қорғау мәнерлі тілі"
+    },
+    "task_mix_recommended": {
+      "reading_comprehension": 0.28,
+      "speaking_writing_hypothesis": 0.22,
+      "lexis_synonyms_antonyms": 0.22,
+      "dialogue_and_listen": 0.18,
+      "review_blocks": 0.1
+    },
+    "format_rules": [
+      "Қысқа жауап",
+      "Бір таңдау",
+      "Болдырма (иә/жоқ)",
+      "Сөзжұмбақ пен топтау"
+    ],
+    "safety_and_scope": [
+      "Балаларға арналған, бейтарап фантастика;",
+      "медициналық диагноз, экстремалық сценарии жоқ;",
+      "болаша кескіндері — үлгі ретінде, факт деп жария етпеу;"
+    ]
+  }
+}
