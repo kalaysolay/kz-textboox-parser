@@ -1,0 +1,1797 @@
+{
+  "source": {
+    "file_name": "Математика Алдамуратова Т. учебник для 5 класса Часть 1.pdf",
+    "parsed_at": "2026-07-05",
+    "version": "v2",
+    "extraction_method": {
+      "pdf_text_layer": true,
+      "pdf_text_layer_usable": false,
+      "ocr_applied": true,
+      "ocr_engine": "tesseract.js",
+      "ocr_page_render": "poppler pdftoppm",
+      "ocr_languages": [
+        "rus"
+      ],
+      "ocr_output_dir": "ocr/ocr_pages_math_aldamuratova_5grade_part1",
+      "ocr_pages_completed": 224,
+      "ocr_pages_total": 224
+    },
+    "quality_report": {
+      "high_confidence_blocks": [
+        "Титульный лист и выходные данные (стр. 1–2)",
+        "Введение (стр. 3)",
+        "Оглавление — номера страниц сверены с i-book.kz / OKULYK"
+      ],
+      "medium_confidence_blocks": [
+        "Темы и page_start по официальному содержанию учебника",
+        "Правила и ключевые факты из OCR-текста уроков",
+        "Дословные примеры заданий (99 фрагментов)"
+      ],
+      "low_confidence_blocks": [],
+      "note": "Текстовый слой PDF содержит только водяной знак OKULYK; весь контент извлечён OCR (tesseract rus, pdftoppm). Возможны артефакты распознавания формул и таблиц."
+    }
+  },
+  "metadata": {
+    "title": "Математика. Учебник для учащихся 5 класса общеобразовательной школы",
+    "subject": "Математика",
+    "grade": 5,
+    "part": 1,
+    "authors": [
+      "Алдамуратова Т. А.",
+      "Байшоланова К. С.",
+      "Байшоланов Е. С."
+    ],
+    "publisher": "Атамура",
+    "city": "Алматы",
+    "publication_year": 2017,
+    "page_count": 224,
+    "isbn": {
+      "part_1": "978-601-306-725-4",
+      "overall": "978-601-306-724-7"
+    },
+    "languages": [
+      "ru"
+    ],
+    "udc": "373.167.1",
+    "bbc": "22.1я72"
+  },
+  "topics_with_pages": [
+    {
+      "lesson_no": 1,
+      "section": "I",
+      "section_title": "Натуральные числа и нуль",
+      "topic_code": null,
+      "topic_title": "Введение",
+      "page_start": 3,
+      "supplementary": false,
+      "page_end_estimated": 3
+    },
+    {
+      "lesson_no": 2,
+      "section": "I",
+      "section_title": "Натуральные числа и нуль",
+      "topic_code": "1.1",
+      "topic_title": "Натуральные числа и нуль",
+      "page_start": 4,
+      "supplementary": false,
+      "page_end_estimated": 8
+    },
+    {
+      "lesson_no": 3,
+      "section": "I",
+      "section_title": "Натуральные числа и нуль",
+      "topic_code": "1.2",
+      "topic_title": "Координатный луч. Изображение натуральных чисел и числа нуль на координатном луче",
+      "page_start": 9,
+      "supplementary": false,
+      "page_end_estimated": 13
+    },
+    {
+      "lesson_no": 4,
+      "section": "I",
+      "section_title": "Натуральные числа и нуль",
+      "topic_code": "1.3",
+      "topic_title": "Сравнение натуральных чисел. Двойное неравенство",
+      "page_start": 14,
+      "supplementary": false,
+      "page_end_estimated": 17
+    },
+    {
+      "lesson_no": null,
+      "section": "I",
+      "section_title": "Натуральные числа и нуль",
+      "topic_code": null,
+      "topic_title": "Исторические сведения о системах счисления и записи чисел",
+      "page_start": 18,
+      "supplementary": true,
+      "page_end_estimated": 19
+    },
+    {
+      "lesson_no": 5,
+      "section": "I",
+      "section_title": "Натуральные числа и нуль",
+      "topic_code": "1.4",
+      "topic_title": "Сложение и вычитание натуральных чисел",
+      "page_start": 20,
+      "supplementary": false,
+      "page_end_estimated": 23
+    },
+    {
+      "lesson_no": 6,
+      "section": "I",
+      "section_title": "Натуральные числа и нуль",
+      "topic_code": "1.5",
+      "topic_title": "Умножение и деление натуральных чисел. Основное свойство частного",
+      "page_start": 24,
+      "supplementary": false,
+      "page_end_estimated": 27
+    },
+    {
+      "lesson_no": null,
+      "section": "I",
+      "section_title": "Натуральные числа и нуль",
+      "topic_code": null,
+      "topic_title": "История возникновения арифметических действий, знаков равенства и неравенства",
+      "page_start": 28,
+      "supplementary": true,
+      "page_end_estimated": 28
+    },
+    {
+      "lesson_no": 7,
+      "section": "I",
+      "section_title": "Натуральные числа и нуль",
+      "topic_code": "1.6",
+      "topic_title": "Свойства арифметических действий",
+      "page_start": 29,
+      "supplementary": false,
+      "page_end_estimated": 33
+    },
+    {
+      "lesson_no": null,
+      "section": "I",
+      "section_title": "Натуральные числа и нуль",
+      "topic_code": null,
+      "topic_title": "Способ сложения Гаусса",
+      "page_start": 34,
+      "supplementary": true,
+      "page_end_estimated": 35
+    },
+    {
+      "lesson_no": 8,
+      "section": "I",
+      "section_title": "Натуральные числа и нуль",
+      "topic_code": "1.7",
+      "topic_title": "Арифметические действия над натуральными числами",
+      "page_start": 36,
+      "supplementary": false,
+      "page_end_estimated": 37
+    },
+    {
+      "lesson_no": 9,
+      "section": "I",
+      "section_title": "Натуральные числа и нуль",
+      "topic_code": "1.8",
+      "topic_title": "Числовые выражения. Буквенные выражения",
+      "page_start": 38,
+      "supplementary": false,
+      "page_end_estimated": 42
+    },
+    {
+      "lesson_no": 10,
+      "section": "I",
+      "section_title": "Натуральные числа и нуль",
+      "topic_code": "1.9",
+      "topic_title": "Упрощение выражений",
+      "page_start": 43,
+      "supplementary": false,
+      "page_end_estimated": 47
+    },
+    {
+      "lesson_no": 11,
+      "section": "I",
+      "section_title": "Натуральные числа и нуль",
+      "topic_code": "1.10",
+      "topic_title": "Уравнение",
+      "page_start": 48,
+      "supplementary": false,
+      "page_end_estimated": 53
+    },
+    {
+      "lesson_no": 12,
+      "section": "I",
+      "section_title": "Натуральные числа и нуль",
+      "topic_code": "1.11",
+      "topic_title": "Формулы. Вычисление по формулам",
+      "page_start": 54,
+      "supplementary": false,
+      "page_end_estimated": 59
+    },
+    {
+      "lesson_no": 13,
+      "section": "I",
+      "section_title": "Натуральные числа и нуль",
+      "topic_code": "1.12",
+      "topic_title": "Числовые последовательности",
+      "page_start": 60,
+      "supplementary": false,
+      "page_end_estimated": 62
+    },
+    {
+      "lesson_no": null,
+      "section": "I",
+      "section_title": "Натуральные числа и нуль",
+      "topic_code": null,
+      "topic_title": "Упражнения для повторения главы I",
+      "page_start": 63,
+      "supplementary": true
+    },
+    {
+      "lesson_no": 14,
+      "section": "II",
+      "section_title": "Делимость натуральных чисел",
+      "topic_code": "2.1",
+      "topic_title": "Делители натурального числа. Кратные натурального числа",
+      "page_start": 66,
+      "supplementary": false,
+      "page_end_estimated": 71
+    },
+    {
+      "lesson_no": null,
+      "section": "II",
+      "section_title": "Делимость натуральных чисел",
+      "topic_code": null,
+      "topic_title": "Нахождение натурального корня уравнения способом перебора пар делителей числа",
+      "page_start": 72,
+      "supplementary": true,
+      "page_end_estimated": 72
+    },
+    {
+      "lesson_no": 15,
+      "section": "II",
+      "section_title": "Делимость натуральных чисел",
+      "topic_code": "2.2",
+      "topic_title": "Простые числа. Составные числа",
+      "page_start": 73,
+      "supplementary": false,
+      "page_end_estimated": 76
+    },
+    {
+      "lesson_no": null,
+      "section": "II",
+      "section_title": "Делимость натуральных чисел",
+      "topic_code": null,
+      "topic_title": "Решето Эратосфена",
+      "page_start": 77,
+      "supplementary": true,
+      "page_end_estimated": 77
+    },
+    {
+      "lesson_no": 16,
+      "section": "II",
+      "section_title": "Делимость натуральных чисел",
+      "topic_code": "2.3",
+      "topic_title": "Основные свойства делимости",
+      "page_start": 78,
+      "supplementary": false,
+      "page_end_estimated": 81
+    },
+    {
+      "lesson_no": 17,
+      "section": "II",
+      "section_title": "Делимость натуральных чисел",
+      "topic_code": "2.4",
+      "topic_title": "Признаки делимости натуральных чисел на 2, 5 и 10",
+      "page_start": 82,
+      "supplementary": false,
+      "page_end_estimated": 86
+    },
+    {
+      "lesson_no": 18,
+      "section": "II",
+      "section_title": "Делимость натуральных чисел",
+      "topic_code": "2.5",
+      "topic_title": "Признаки делимости натуральных чисел на 3 и на 9",
+      "page_start": 87,
+      "supplementary": false,
+      "page_end_estimated": 90
+    },
+    {
+      "lesson_no": 19,
+      "section": "II",
+      "section_title": "Делимость натуральных чисел",
+      "topic_code": "2.6",
+      "topic_title": "Степень числа",
+      "page_start": 91,
+      "supplementary": false,
+      "page_end_estimated": 96
+    },
+    {
+      "lesson_no": 20,
+      "section": "II",
+      "section_title": "Делимость натуральных чисел",
+      "topic_code": "2.7",
+      "topic_title": "Разложение составных чисел на простые множители",
+      "page_start": 97,
+      "supplementary": false,
+      "page_end_estimated": 101
+    },
+    {
+      "lesson_no": 21,
+      "section": "II",
+      "section_title": "Делимость натуральных чисел",
+      "topic_code": "2.8",
+      "topic_title": "Наибольший общий делитель. Взаимно простые числа",
+      "page_start": 102,
+      "supplementary": false,
+      "page_end_estimated": 107
+    },
+    {
+      "lesson_no": 22,
+      "section": "II",
+      "section_title": "Делимость натуральных чисел",
+      "topic_code": "2.9",
+      "topic_title": "Наименьшее общее кратное",
+      "page_start": 108,
+      "supplementary": false,
+      "page_end_estimated": 113
+    },
+    {
+      "lesson_no": null,
+      "section": "II",
+      "section_title": "Делимость натуральных чисел",
+      "topic_code": null,
+      "topic_title": "Упражнения для повторения главы II",
+      "page_start": 114,
+      "supplementary": true,
+      "page_end_estimated": 115
+    },
+    {
+      "lesson_no": null,
+      "section": "II",
+      "section_title": "Делимость натуральных чисел",
+      "topic_code": "2.10",
+      "topic_title": "Движение по реке",
+      "page_start": 116,
+      "supplementary": true
+    },
+    {
+      "lesson_no": 23,
+      "section": "III",
+      "section_title": "Обыкновенные дроби и действия над ними",
+      "topic_code": "3.1",
+      "topic_title": "Обыкновенная дробь. Чтение и запись обыкновенных дробей",
+      "page_start": 122,
+      "supplementary": false,
+      "page_end_estimated": 129
+    },
+    {
+      "lesson_no": 24,
+      "section": "III",
+      "section_title": "Обыкновенные дроби и действия над ними",
+      "topic_code": "3.2",
+      "topic_title": "Основное свойство дроби. Сокращение дробей",
+      "page_start": 130,
+      "supplementary": false,
+      "page_end_estimated": 136
+    },
+    {
+      "lesson_no": 25,
+      "section": "III",
+      "section_title": "Обыкновенные дроби и действия над ними",
+      "topic_code": "3.3",
+      "topic_title": "Правильные дроби. Неправильные дроби",
+      "page_start": 137,
+      "supplementary": false,
+      "page_end_estimated": 141
+    },
+    {
+      "lesson_no": 26,
+      "section": "III",
+      "section_title": "Обыкновенные дроби и действия над ними",
+      "topic_code": "3.4",
+      "topic_title": "Смешанные числа",
+      "page_start": 142,
+      "supplementary": false,
+      "page_end_estimated": 147
+    },
+    {
+      "lesson_no": 27,
+      "section": "III",
+      "section_title": "Обыкновенные дроби и действия над ними",
+      "topic_code": "3.5",
+      "topic_title": "Изображение обыкновенных дробей и смешанных чисел на координатном луче",
+      "page_start": 148,
+      "supplementary": false,
+      "page_end_estimated": 154
+    },
+    {
+      "lesson_no": 28,
+      "section": "III",
+      "section_title": "Обыкновенные дроби и действия над ними",
+      "topic_code": "3.6",
+      "topic_title": "Приведение обыкновенных дробей и смешанных чисел к наименьшему общему знаменателю",
+      "page_start": 155,
+      "supplementary": false,
+      "page_end_estimated": 161
+    },
+    {
+      "lesson_no": 29,
+      "section": "III",
+      "section_title": "Обыкновенные дроби и действия над ними",
+      "topic_code": "3.7",
+      "topic_title": "Сравнение обыкновенных дробей. Сравнение смешанных чисел",
+      "page_start": 162,
+      "supplementary": false,
+      "page_end_estimated": 168
+    },
+    {
+      "lesson_no": 30,
+      "section": "III",
+      "section_title": "Обыкновенные дроби и действия над ними",
+      "topic_code": "3.8",
+      "topic_title": "Сложение и вычитание обыкновенных дробей",
+      "page_start": 169,
+      "supplementary": false,
+      "page_end_estimated": 177
+    },
+    {
+      "lesson_no": 31,
+      "section": "III",
+      "section_title": "Обыкновенные дроби и действия над ними",
+      "topic_code": "3.9",
+      "topic_title": "Сложение и вычитание смешанных чисел",
+      "page_start": 178,
+      "supplementary": false,
+      "page_end_estimated": 185
+    },
+    {
+      "lesson_no": null,
+      "section": "III",
+      "section_title": "Обыкновенные дроби и действия над ними",
+      "topic_code": "3.10",
+      "topic_title": "Аликвотные дроби",
+      "page_start": 186,
+      "supplementary": true,
+      "page_end_estimated": 188
+    },
+    {
+      "lesson_no": null,
+      "section": "III",
+      "section_title": "Обыкновенные дроби и действия над ними",
+      "topic_code": null,
+      "topic_title": "Исторические сведения",
+      "page_start": 189,
+      "supplementary": true,
+      "page_end_estimated": 190
+    },
+    {
+      "lesson_no": 32,
+      "section": "III",
+      "section_title": "Обыкновенные дроби и действия над ними",
+      "topic_code": "3.11",
+      "topic_title": "Умножение обыкновенных дробей и смешанных чисел",
+      "page_start": 191,
+      "supplementary": false,
+      "page_end_estimated": 199
+    },
+    {
+      "lesson_no": 33,
+      "section": "III",
+      "section_title": "Обыкновенные дроби и действия над ними",
+      "topic_code": "3.12",
+      "topic_title": "Взаимно обратные числа",
+      "page_start": 200,
+      "supplementary": false,
+      "page_end_estimated": 202
+    },
+    {
+      "lesson_no": 34,
+      "section": "III",
+      "section_title": "Обыкновенные дроби и действия над ними",
+      "topic_code": "3.13",
+      "topic_title": "Деление обыкновенных дробей и смешанных чисел",
+      "page_start": 203,
+      "supplementary": false,
+      "page_end_estimated": 211
+    },
+    {
+      "lesson_no": null,
+      "section": "III",
+      "section_title": "Обыкновенные дроби и действия над ними",
+      "topic_code": null,
+      "topic_title": "Арифметические действия над обыкновенными дробями и смешанными числами",
+      "page_start": 212,
+      "supplementary": true,
+      "page_end_estimated": 217
+    },
+    {
+      "lesson_no": null,
+      "section": "III",
+      "section_title": "Обыкновенные дроби и действия над ними",
+      "topic_code": null,
+      "topic_title": "Алфавитный указатель",
+      "page_start": 218,
+      "supplementary": true,
+      "page_end_estimated": 224
+    }
+  ],
+  "rules": [
+    {
+      "rule_id": "R001",
+      "name": "Натуральные числа",
+      "statement": "Для счета предметов применяют натуральные числа 1, 2, 3, …; нуль не является натуральным числом.",
+      "formula": null,
+      "source_pages": [
+        4,
+        5
+      ]
+    },
+    {
+      "rule_id": "R002",
+      "name": "Десятичная позиционная система",
+      "statement": "Единица каждого следующего разряда в 10 раз больше единицы предыдущего разряда; значение цифры зависит от её позиции.",
+      "formula": "10 ед. = 1 дес.; 10 дес. = 1 сот.",
+      "source_pages": [
+        5
+      ]
+    },
+    {
+      "rule_id": "R003",
+      "name": "Сравнение натуральных чисел",
+      "statement": "Из двух натуральных чисел большее на координатном луче расположено правее, меньшее — левее.",
+      "formula": "a < b ⟺ точка A левее B",
+      "source_pages": [
+        14
+      ]
+    },
+    {
+      "rule_id": "R004",
+      "name": "Координатный луч",
+      "statement": "Координатный луч — луч с началом O, единичным отрезком и направлением слева направо; каждой точке соответствует число.",
+      "formula": null,
+      "source_pages": [
+        9,
+        10
+      ]
+    },
+    {
+      "rule_id": "R005",
+      "name": "Основное свойство частного",
+      "statement": "Если делимое и делитель умножить или разделить на одно и то же натуральное число (не равное нулю), частное не изменится.",
+      "formula": "a:b = (a·c):(b·c)",
+      "source_pages": [
+        24
+      ]
+    },
+    {
+      "rule_id": "R006",
+      "name": "Признаки делимости",
+      "statement": "Число делится на 2, если его последняя цифра чётная; на 5 — если оканчивается 0 или 5; на 10 — если оканчивается 0.",
+      "formula": null,
+      "source_pages": [
+        82,
+        83
+      ]
+    },
+    {
+      "rule_id": "R007",
+      "name": "Признаки делимости на 3 и 9",
+      "statement": "Число делится на 3 (9), если сумма цифр делится на 3 (9).",
+      "formula": null,
+      "source_pages": [
+        87
+      ]
+    },
+    {
+      "rule_id": "R008",
+      "name": "Степень числа",
+      "statement": "Степень показывает, сколько раз основание a умножено само на себя.",
+      "formula": "aⁿ = a·a·…·a (n раз)",
+      "source_pages": [
+        91,
+        92
+      ]
+    },
+    {
+      "rule_id": "R009",
+      "name": "НОД и НОК",
+      "statement": "НОД — наибольший общий делитель; НОК — наименьшее общее кратное данных чисел.",
+      "formula": null,
+      "source_pages": [
+        102,
+        108
+      ]
+    },
+    {
+      "rule_id": "R010",
+      "name": "Обыкновенная дробь",
+      "statement": "Обыкновенная дробь — число вида m/n, где m — числитель, n — знаменатель (n ≠ 0).",
+      "formula": "m/n",
+      "source_pages": [
+        122,
+        123
+      ]
+    },
+    {
+      "rule_id": "R011",
+      "name": "Основное свойство дроби",
+      "statement": "Если числитель и знаменатель дроби умножить или разделить на одно и то же натуральное число, значение дроби не изменится.",
+      "formula": "m/n = (m·k)/(n·k)",
+      "source_pages": [
+        130
+      ]
+    },
+    {
+      "rule_id": "R012",
+      "name": "Взаимно обратные числа",
+      "statement": "Два числа взаимно обратны, если их произведение равно 1.",
+      "formula": "a·b = 1",
+      "source_pages": [
+        200
+      ]
+    },
+    {
+      "rule_id": "KF_p8_1",
+      "name": "Для счета предметов применяют натуральные числа.",
+      "statement": "Для счета предметов применяют натуральные числа.",
+      "formula": null,
+      "source_pages": [
+        8
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p8_2",
+      "name": "За каждым натуральным числом идет следующее, которое",
+      "statement": "За каждым натуральным числом идет следующее, которое",
+      "formula": null,
+      "source_pages": [
+        8
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p8_4",
+      "name": "Натуральные числа можно перечислять без конца.",
+      "statement": "Натуральные числа можно перечислять без конца.",
+      "formula": null,
+      "source_pages": [
+        8
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p8_5",
+      "name": "В десятичной системе счисления:",
+      "statement": "В десятичной системе счисления:",
+      "formula": null,
+      "source_pages": [
+        8
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p8_6",
+      "name": "1) единица каждого следующего разряда в 10 раз больше",
+      "statement": "1) единица каждого следующего разряда в 10 раз больше",
+      "formula": null,
+      "source_pages": [
+        8
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p8_7",
+      "name": "единицы предыдущего разряда;",
+      "statement": "единицы предыдущего разряда;",
+      "formula": null,
+      "source_pages": [
+        8
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p8_8",
+      "name": "ачение цифры зависит от ее места в записи числа, то есть",
+      "statement": "ачение цифры зависит от ее места в записи числа, то есть",
+      "formula": null,
+      "source_pages": [
+        8
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p23_1",
+      "name": "Сложение натуральных чисел выполняется по разрядам:",
+      "statement": "Сложение натуральных чисел выполняется по разрядам:",
+      "formula": null,
+      "source_pages": [
+        23
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p23_2",
+      "name": "единицы складываются с единицами, десятки — с десятками,",
+      "statement": "единицы складываются с единицами, десятки — с десятками,",
+      "formula": null,
+      "source_pages": [
+        23
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p23_3",
+      "name": "сотни -— с сотнями и т.д.",
+      "statement": "сотни -— с сотнями и т.д.",
+      "formula": null,
+      "source_pages": [
+        23
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p23_4",
+      "name": "Если а - Ъ = с, то а = Ъ + с, где а, Ь и с - натуральные чис…",
+      "statement": "Если а - Ъ = с, то а = Ъ + с, где а, Ь и с - натуральные числа.",
+      "formula": null,
+      "source_pages": [
+        23
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p23_5",
+      "name": "Значит, уменьшаемое равно сумме вычитаемого и значения",
+      "statement": "Значит, уменьшаемое равно сумме вычитаемого и значения",
+      "formula": null,
+      "source_pages": [
+        23
+      ],
+      "confidence": "medium_ocr"
+    }
+  ],
+  "example_tasks_v2": {
+    "verbatim_examples": [
+      {
+        "lesson_no": 2,
+        "topic_title": "Натуральные числа и нуль",
+        "exact_page": 4,
+        "raw_text": "2. Насколько последующее число больше предыдущего при счете по",
+        "normalized_text": "2. Насколько последующее число больше предыдущего при счете по",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 2,
+        "topic_title": "Натуральные числа и нуль",
+        "exact_page": 4,
+        "raw_text": "3. 1) Найдите сумму:",
+        "normalized_text": "3. 1) Найдите сумму:",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 2,
+        "topic_title": "Натуральные числа и нуль",
+        "exact_page": 4,
+        "raw_text": "2) а) Сколько тысяч содержится в числе 5761?",
+        "normalized_text": "2) а) Сколько тысяч содержится в числе 5761?",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 3,
+        "topic_title": "Координатный луч. Изображение натуральных чисел и числа нуль на координатном луче",
+        "exact_page": 9,
+        "raw_text": "1. Начертите луч с началом в точке О, направленный слева направо.",
+        "normalized_text": "1. Начертите луч с началом в точке О, направленный слева направо.",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 3,
+        "topic_title": "Координатный луч. Изображение натуральных чисел и числа нуль на координатном луче",
+        "exact_page": 9,
+        "raw_text": "1.2. Координатный луч. Изображение натуральных чисел",
+        "normalized_text": "1.2. Координатный луч. Изображение натуральных чисел",
+        "task_type": "geometry",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 3,
+        "topic_title": "Координатный луч. Изображение натуральных чисел и числа нуль на координатном луче",
+        "exact_page": 9,
+        "raw_text": "1) Что на рисунке 1.1 показывает луч, направленный слева",
+        "normalized_text": "1) Что на рисунке 1.1 показывает луч, направленный слева",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 4,
+        "topic_title": "Сравнение натуральных чисел. Двойное неравенство",
+        "exact_page": 14,
+        "raw_text": "1) 745 и 815; 2) 8463 и 8436; 3) 64 816 и 64 891.",
+        "normalized_text": "1) 745 и 815; 2) 8463 и 8436; 3) 64 816 и 64 891.",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 4,
+        "topic_title": "Сравнение натуральных чисел. Двойное неравенство",
+        "exact_page": 14,
+        "raw_text": "1) Сравниваем поразрядно, начиная с разряда единицы.",
+        "normalized_text": "1) Сравниваем поразрядно, начиная с разряда единицы.",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 4,
+        "topic_title": "Сравнение натуральных чисел. Двойное неравенство",
+        "exact_page": 14,
+        "raw_text": "2) Сравниваем поразрядно, начиная со старшего разряда.",
+        "normalized_text": "2) Сравниваем поразрядно, начиная со старшего разряда.",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 5,
+        "topic_title": "Сложение и вычитание натуральных чисел",
+        "exact_page": 20,
+        "raw_text": "1.4. Сложение и вычитание натуральных чисел",
+        "normalized_text": "1.4. Сложение и вычитание натуральных чисел",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 5,
+        "topic_title": "Сложение и вычитание натуральных чисел",
+        "exact_page": 20,
+        "raw_text": "1. Сложение натуральных чисел. Ре,",
+        "normalized_text": "1. Сложение натуральных чисел. Ре,",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 5,
+        "topic_title": "Сложение и вычитание натуральных чисел",
+        "exact_page": 21,
+        "raw_text": "1. Чему равно уменьшаемое?",
+        "normalized_text": "1. Чему равно уменьшаемое?",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 6,
+        "topic_title": "Умножение и деление натуральных чисел. Основное свойство частного",
+        "exact_page": 24,
+        "raw_text": "47. Всего 114 дубов, тополей и берез.",
+        "normalized_text": "47. Всего 114 дубов, тополей и берез.",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 6,
+        "topic_title": "Умножение и деление натуральных чисел. Основное свойство частного",
+        "exact_page": 24,
+        "raw_text": "49. 18 желтых шаров.",
+        "normalized_text": "49. 18 желтых шаров.",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 6,
+        "topic_title": "Умножение и деление натуральных чисел. Основное свойство частного",
+        "exact_page": 24,
+        "raw_text": "50. У мух по 6 лапок, у пауков по 8.",
+        "normalized_text": "50. У мух по 6 лапок, у пауков по 8.",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 7,
+        "topic_title": "Свойства арифметических действий",
+        "exact_page": 29,
+        "raw_text": "1.6. Свойства арифметических действий",
+        "normalized_text": "1.6. Свойства арифметических действий",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 7,
+        "topic_title": "Свойства арифметических действий",
+        "exact_page": 29,
+        "raw_text": "1. Свойства сложения.",
+        "normalized_text": "1. Свойства сложения.",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 7,
+        "topic_title": "Свойства арифметических действий",
+        "exact_page": 29,
+        "raw_text": "1) Переместительное свойство сложения.",
+        "normalized_text": "1) Переместительное свойство сложения.",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 8,
+        "topic_title": "Арифметические действия над натуральными числами",
+        "exact_page": 36,
+        "raw_text": "1.7. Арифметические действия над натуральными числами",
+        "normalized_text": "1.7. Арифметические действия над натуральными числами",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 8,
+        "topic_title": "Арифметические действия над натуральными числами",
+        "exact_page": 36,
+        "raw_text": "1. Если в выражении нет скобок:",
+        "normalized_text": "1. Если в выражении нет скобок:",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 8,
+        "topic_title": "Арифметические действия над натуральными числами",
+        "exact_page": 36,
+        "raw_text": "1) выражение содержит действия только одной ступени, то их",
+        "normalized_text": "1) выражение содержит действия только одной ступени, то их",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 9,
+        "topic_title": "Числовые выражения. Буквенные выражения",
+        "exact_page": 38,
+        "raw_text": "2) 125 : (72 : 12 3 + 98 : (68 - 18 , 3));",
+        "normalized_text": "2) 125: (72: 12 3 + 98: (68 - 18, 3));",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 9,
+        "topic_title": "Числовые выражения. Буквенные выражения",
+        "exact_page": 38,
+        "raw_text": "3) 100 - (96 : (72 - 16 . 4) + 24 . 5: 6) › 3.",
+        "normalized_text": "3) 100 - (96: (72 - 16. 4) + 24. 5: 6) › 3.",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 9,
+        "topic_title": "Числовые выражения. Буквенные выражения",
+        "exact_page": 38,
+        "raw_text": "79. Составьте по схеме выражение и найдите его значение:",
+        "normalized_text": "79. Составьте по схеме выражение и найдите его значение:",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 10,
+        "topic_title": "Упрощение выражений",
+        "exact_page": 43,
+        "raw_text": "1. Запись, составленная из чисел, знаков действий и ск!",
+        "normalized_text": "1. Запись, составленная из чисел, знаков действий и ск!",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 10,
+        "topic_title": "Упрощение выражений",
+        "exact_page": 43,
+        "raw_text": "2. При составлении числовых выражений надо учесть то, чтобы",
+        "normalized_text": "2. При составлении числовых выражений надо учесть то, чтобы",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 10,
+        "topic_title": "Упрощение выражений",
+        "exact_page": 43,
+        "raw_text": "8. Буквенное выражение состоит из букв, может содержать числа,",
+        "normalized_text": "8. Буквенное выражение состоит из букв, может содержать числа,",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 11,
+        "topic_title": "Уравнение",
+        "exact_page": 48,
+        "raw_text": "1.10. Уравнение",
+        "normalized_text": "1.10. Уравнение",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 11,
+        "topic_title": "Уравнение",
+        "exact_page": 49,
+        "raw_text": "1) выбрать неизвестную величину, которую обозначим буквой х",
+        "normalized_text": "1) выбрать неизвестную величину, которую обозначим буквой х",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 11,
+        "topic_title": "Уравнение",
+        "exact_page": 49,
+        "raw_text": "2) составить математическую модель в виде уравнения;",
+        "normalized_text": "2) составить математическую модель в виде уравнения;",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 12,
+        "topic_title": "Формулы. Вычисление по формулам",
+        "exact_page": 54,
+        "raw_text": "1. Формула периметра прямоугольника.",
+        "normalized_text": "1. Формула периметра прямоугольника.",
+        "task_type": "geometry",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 12,
+        "topic_title": "Формулы. Вычисление по формулам",
+        "exact_page": 54,
+        "raw_text": "1) а = 6 см; Ь = 4 см; Р=[_— }",
+        "normalized_text": "1) а = 6 см; Ь = 4 см; Р=[_— }",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 12,
+        "topic_title": "Формулы. Вычисление по формулам",
+        "exact_page": 54,
+        "raw_text": "2) а = 5 дм; Ь = 3 дм; В=[",
+        "normalized_text": "2) а = 5 дм; Ь = 3 дм; В=[",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 13,
+        "topic_title": "Числовые последовательности",
+        "exact_page": 60,
+        "raw_text": "34. Вбили всего 70 столбиков. На ограждение ушло",
+        "normalized_text": "34. Вбили всего 70 столбиков. На ограждение ушло",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 13,
+        "topic_title": "Числовые последовательности",
+        "exact_page": 60,
+        "raw_text": "1.12. Числовые последовательности",
+        "normalized_text": "1.12. Числовые последовательности",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 13,
+        "topic_title": "Числовые последовательности",
+        "exact_page": 60,
+        "raw_text": "2) 3; 2; 3; 2; 3; 2; ... — числовая последовательность, составлен-",
+        "normalized_text": "2) 3; 2; 3; 2; 3; 2;... — числовая последовательность, составлен-",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 14,
+        "topic_title": "Делители натурального числа. Кратные натурального числа",
+        "exact_page": 66,
+        "raw_text": "1. Делители натурального числа.",
+        "normalized_text": "1. Делители натурального числа.",
+        "task_type": "sets_logic",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 14,
+        "topic_title": "Делители натурального числа. Кратные натурального числа",
+        "exact_page": 66,
+        "raw_text": "2) р(13) = {1, 13};",
+        "normalized_text": "2) р(13) = {1, 13};",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 14,
+        "topic_title": "Делители натурального числа. Кратные натурального числа",
+        "exact_page": 66,
+        "raw_text": "3) р(30) = {1, 2, 8, 5, 6, 10, 15, 80}.",
+        "normalized_text": "3) р(30) = {1, 2, 8, 5, 6, 10, 15, 80}.",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 15,
+        "topic_title": "Простые числа. Составные числа",
+        "exact_page": 73,
+        "raw_text": "1. Из чисел 2, 5, 6, 8, 11, 15, 16, 19, 20, 31, 45, 53 выпишите в",
+        "normalized_text": "1. Из чисел 2, 5, 6, 8, 11, 15, 16, 19, 20, 31, 45, 53 выпишите в",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 15,
+        "topic_title": "Простые числа. Составные числа",
+        "exact_page": 73,
+        "raw_text": "2.2. Простые числа. Составные числа",
+        "normalized_text": "2.2. Простые числа. Составные числа",
+        "task_type": "sets_logic",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 15,
+        "topic_title": "Простые числа. Составные числа",
+        "exact_page": 73,
+        "raw_text": "1) только один делитель; &",
+        "normalized_text": "1) только один делитель; &",
+        "task_type": "sets_logic",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 16,
+        "topic_title": "Основные свойства делимости",
+        "exact_page": 78,
+        "raw_text": "1) Применив решето Эратосфена, составьте таблицу простых чисел:",
+        "normalized_text": "1) Применив решето Эратосфена, составьте таблицу простых чисел:",
+        "task_type": "sets_logic",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 16,
+        "topic_title": "Основные свойства делимости",
+        "exact_page": 78,
+        "raw_text": "2) Напишите простые числа:",
+        "normalized_text": "2) Напишите простые числа:",
+        "task_type": "sets_logic",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 16,
+        "topic_title": "Основные свойства делимости",
+        "exact_page": 78,
+        "raw_text": "6) между числами 9 и 18.",
+        "normalized_text": "6) между числами 9 и 18.",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 17,
+        "topic_title": "Признаки делимости натуральных чисел на 2, 5 и 10",
+        "exact_page": 82,
+        "raw_text": "1. Если число а делится на число с, то произведение ав делится",
+        "normalized_text": "1. Если число а делится на число с, то произведение ав делится",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 17,
+        "topic_title": "Признаки делимости натуральных чисел на 2, 5 и 10",
+        "exact_page": 82,
+        "raw_text": "2) Если каждое из чисел а и Ь делится на число с, то сумма",
+        "normalized_text": "2) Если каждое из чисел а и Ь делится на число с, то сумма",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 17,
+        "topic_title": "Признаки делимости натуральных чисел на 2, 5 и 10",
+        "exact_page": 82,
+        "raw_text": "1) Из чисел от 10 до 80 выпишите числа, кратные числу 2. Какие",
+        "normalized_text": "1) Из чисел от 10 до 80 выпишите числа, кратные числу 2. Какие",
+        "task_type": "sets_logic",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 18,
+        "topic_title": "Признаки делимости натуральных чисел на 3 и на 9",
+        "exact_page": 87,
+        "raw_text": "2.5. Признаки делимости натуральных чисел на З и на 9",
+        "normalized_text": "2.5. Признаки делимости натуральных чисел на З и на 9",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 18,
+        "topic_title": "Признаки делимости натуральных чисел на 3 и на 9",
+        "exact_page": 87,
+        "raw_text": "1. Признак делимости на 3.",
+        "normalized_text": "1. Признак делимости на 3.",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 18,
+        "topic_title": "Признаки делимости натуральных чисел на 3 и на 9",
+        "exact_page": 87,
+        "raw_text": "1. Из таблицы выпишите только те числа, у которых сумма",
+        "normalized_text": "1. Из таблицы выпишите только те числа, у которых сумма",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 19,
+        "topic_title": "Степень числа",
+        "exact_page": 91,
+        "raw_text": "1. Если сумма числа разрядных единиц каждого разряда",
+        "normalized_text": "1. Если сумма числа разрядных единиц каждого разряда",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 19,
+        "topic_title": "Степень числа",
+        "exact_page": 91,
+        "raw_text": "2. Если сумма числа разрядных единиц каждого разряда",
+        "normalized_text": "2. Если сумма числа разрядных единиц каждого разряда",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 19,
+        "topic_title": "Степень числа",
+        "exact_page": 91,
+        "raw_text": "2.6. Степень числа",
+        "normalized_text": "2.6. Степень числа",
+        "task_type": "sets_logic",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 20,
+        "topic_title": "Разложение составных чисел на простые множители",
+        "exact_page": 97,
+        "raw_text": "3) радиуса Земли",
+        "normalized_text": "3) радиуса Земли",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 20,
+        "topic_title": "Разложение составных чисел на простые множители",
+        "exact_page": 97,
+        "raw_text": "2.7. Разложение составных чисел на простые множители",
+        "normalized_text": "2.7. Разложение составных чисел на простые множители",
+        "task_type": "sets_logic",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 20,
+        "topic_title": "Разложение составных чисел на простые множители",
+        "exact_page": 98,
+        "raw_text": "1. Что значит разложить составное число на простые множители?",
+        "normalized_text": "1. Что значит разложить составное число на простые множители?",
+        "task_type": "sets_logic",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 21,
+        "topic_title": "Наибольший общий делитель. Взаимно простые числа",
+        "exact_page": 102,
+        "raw_text": "1. Выпишите все делители чисел 56 и 98;",
+        "normalized_text": "1. Выпишите все делители чисел 56 и 98;",
+        "task_type": "sets_logic",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 21,
+        "topic_title": "Наибольший общий делитель. Взаимно простые числа",
+        "exact_page": 102,
+        "raw_text": "2. Найдите перебором делителей общие делители чисел 56 и 98.",
+        "normalized_text": "2. Найдите перебором делителей общие делители чисел 56 и 98.",
+        "task_type": "sets_logic",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 21,
+        "topic_title": "Наибольший общий делитель. Взаимно простые числа",
+        "exact_page": 102,
+        "raw_text": "8. Из общих делителей выберите наибольший.",
+        "normalized_text": "8. Из общих делителей выберите наибольший.",
+        "task_type": "sets_logic",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 22,
+        "topic_title": "Наименьшее общее кратное",
+        "exact_page": 108,
+        "raw_text": "88. 4 букета из гвоздик; 5 букетов из жасмина.",
+        "normalized_text": "88. 4 букета из гвоздик; 5 букетов из жасмина.",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 22,
+        "topic_title": "Наименьшее общее кратное",
+        "exact_page": 108,
+        "raw_text": "1) Закрасьте общие кратные чисел 2 и 3.",
+        "normalized_text": "1) Закрасьте общие кратные чисел 2 и 3.",
+        "task_type": "sets_logic",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 22,
+        "topic_title": "Наименьшее общее кратное",
+        "exact_page": 108,
+        "raw_text": "2) Найдите среди них наименьшее.",
+        "normalized_text": "2) Найдите среди них наименьшее.",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 23,
+        "topic_title": "Обыкновенная дробь. Чтение и запись обыкновенных дробей",
+        "exact_page": 122,
+        "raw_text": "3.1. Обыкновенная дробь. Чтение и запись",
+        "normalized_text": "3.1. Обыкновенная дробь. Чтение и запись",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 23,
+        "topic_title": "Обыкновенная дробь. Чтение и запись обыкновенных дробей",
+        "exact_page": 122,
+        "raw_text": "1. Обыкновенная дробь.",
+        "normalized_text": "1. Обыкновенная дробь.",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 23,
+        "topic_title": "Обыкновенная дробь. Чтение и запись обыкновенных дробей",
+        "exact_page": 124,
+        "raw_text": "2. Что показывает знаменатель дроби? Числитель дроби?",
+        "normalized_text": "2. Что показывает знаменатель дроби? Числитель дроби?",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 24,
+        "topic_title": "Основное свойство дроби. Сокращение дробей",
+        "exact_page": 130,
+        "raw_text": "2) Сколько 8 долей содержится в *,",
+        "normalized_text": "2) Сколько 8 долей содержится в *,",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 24,
+        "topic_title": "Основное свойство дроби. Сокращение дробей",
+        "exact_page": 130,
+        "raw_text": "3.2. Основное свойство дроби. Сокращение дробей",
+        "normalized_text": "3.2. Основное свойство дроби. Сокращение дробей",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 24,
+        "topic_title": "Основное свойство дроби. Сокращение дробей",
+        "exact_page": 131,
+        "raw_text": "1. Для каждой дроби найдите натуральное число, на которое",
+        "normalized_text": "1. Для каждой дроби найдите натуральное число, на которое",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 25,
+        "topic_title": "Правильные дроби. Неправильные дроби",
+        "exact_page": 137,
+        "raw_text": "3.3. Правильные дроби. Неправильные",
+        "normalized_text": "3.3. Правильные дроби. Неправильные",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 25,
+        "topic_title": "Правильные дроби. Неправильные дроби",
+        "exact_page": 138,
+        "raw_text": "1. Какую дробь называют правильной? Приведите примеры.",
+        "normalized_text": "1. Какую дробь называют правильной? Приведите примеры.",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 25,
+        "topic_title": "Правильные дроби. Неправильные дроби",
+        "exact_page": 138,
+        "raw_text": "2) Используя числа 3 и 5; 9 и 2; 2 и 7; 1 и 8, составьте неправиль-",
+        "normalized_text": "2) Используя числа 3 и 5; 9 и 2; 2 и 7; 1 и 8, составьте неправиль-",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 26,
+        "topic_title": "Смешанные числа",
+        "exact_page": 142,
+        "raw_text": "3.4. Смешанные числа",
+        "normalized_text": "3.4. Смешанные числа",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 26,
+        "topic_title": "Смешанные числа",
+        "exact_page": 142,
+        "raw_text": "1. Запись неправильной дроби в виде смешанного числа.",
+        "normalized_text": "1. Запись неправильной дроби в виде смешанного числа.",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 26,
+        "topic_title": "Смешанные числа",
+        "exact_page": 143,
+        "raw_text": "1) разделить с остатком числитель на знаменатель;",
+        "normalized_text": "1) разделить с остатком числитель на знаменатель;",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 27,
+        "topic_title": "Изображение обыкновенных дробей и смешанных чисел на координатном луче",
+        "exact_page": 148,
+        "raw_text": "1) разделить единичный отрезок на равное количество",
+        "normalized_text": "1) разделить единичный отрезок на равное количество",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 27,
+        "topic_title": "Изображение обыкновенных дробей и смешанных чисел на координатном луче",
+        "exact_page": 148,
+        "raw_text": "2) от начала отсчета отложить количество равных",
+        "normalized_text": "2) от начала отсчета отложить количество равных",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 27,
+        "topic_title": "Изображение обыкновенных дробей и смешанных чисел на координатном луче",
+        "exact_page": 148,
+        "raw_text": "1. Изображение обыкновенных дробей на координатном луче.",
+        "normalized_text": "1. Изображение обыкновенных дробей на координатном луче.",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 28,
+        "topic_title": "Приведение обыкновенных дробей и смешанных чисел к наименьшему общему знаменателю",
+        "exact_page": 155,
+        "raw_text": "2) з \"10° 4.0’ стучи 0-10: А.",
+        "normalized_text": "2) з \"10° 4.0’ стучи 0-10: А.",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 28,
+        "topic_title": "Приведение обыкновенных дробей и смешанных чисел к наименьшему общему знаменателю",
+        "exact_page": 155,
+        "raw_text": "3.6. Приведение обыкновенных дробей и смешанных",
+        "normalized_text": "3.6. Приведение обыкновенных дробей и смешанных",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 28,
+        "topic_title": "Приведение обыкновенных дробей и смешанных чисел к наименьшему общему знаменателю",
+        "exact_page": 156,
+        "raw_text": "1. Приведение обыкновенных дробей к наименьшему общему",
+        "normalized_text": "1. Приведение обыкновенных дробей к наименьшему общему",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 29,
+        "topic_title": "Сравнение обыкновенных дробей. Сравнение смешанных чисел",
+        "exact_page": 162,
+        "raw_text": "3.7. Сравнение обыкновенных дробей.",
+        "normalized_text": "3.7. Сравнение обыкновенных дробей.",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 29,
+        "topic_title": "Сравнение обыкновенных дробей. Сравнение смешанных чисел",
+        "exact_page": 162,
+        "raw_text": "1. Сравнение дробей с одинаковыми знаменателями.",
+        "normalized_text": "1. Сравнение дробей с одинаковыми знаменателями.",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 29,
+        "topic_title": "Сравнение обыкновенных дробей. Сравнение смешанных чисел",
+        "exact_page": 162,
+        "raw_text": "1. Запишите длины отрезков АД и АС.",
+        "normalized_text": "1. Запишите длины отрезков АД и АС.",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 30,
+        "topic_title": "Сложение и вычитание обыкновенных дробей",
+        "exact_page": 169,
+        "raw_text": "2. Из двух смешанных чисел с | желыми частями",
+        "normalized_text": "2. Из двух смешанных чисел с | желыми частями",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 30,
+        "topic_title": "Сложение и вычитание обыкновенных дробей",
+        "exact_page": 169,
+        "raw_text": "3.8. Сложение и вычитание обыкновенных дробей",
+        "normalized_text": "3.8. Сложение и вычитание обыкновенных дробей",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 30,
+        "topic_title": "Сложение и вычитание обыкновенных дробей",
+        "exact_page": 169,
+        "raw_text": "1. Сложение и вычитание дробей с одинаковыми знаменателя-",
+        "normalized_text": "1. Сложение и вычитание дробей с одинаковыми знаменателя-",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 31,
+        "topic_title": "Сложение и вычитание смешанных чисел",
+        "exact_page": 178,
+        "raw_text": "2) 9-25-85 725 = (8 э+( $)",
+        "normalized_text": "2) 9-25-85 725 = (8 э+( ·)",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 31,
+        "topic_title": "Сложение и вычитание смешанных чисел",
+        "exact_page": 178,
+        "raw_text": "3.9. Сложение и вычитание смешанных чисел",
+        "normalized_text": "3.9. Сложение и вычитание смешанных чисел",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 31,
+        "topic_title": "Сложение и вычитание смешанных чисел",
+        "exact_page": 178,
+        "raw_text": "1. Сложение и вычитание смешанных чисел с одинаковыми",
+        "normalized_text": "1. Сложение и вычитание смешанных чисел с одинаковыми",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 32,
+        "topic_title": "Умножение обыкновенных дробей и смешанных чисел",
+        "exact_page": 191,
+        "raw_text": "8.11. Умножение обыкновенных дробей и смешанных чисел",
+        "normalized_text": "8.11. Умножение обыкновенных дробей и смешанных чисел",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 32,
+        "topic_title": "Умножение обыкновенных дробей и смешанных чисел",
+        "exact_page": 191,
+        "raw_text": "1. Умножение обыкновенной дроби на натуральное число.",
+        "normalized_text": "1. Умножение обыкновенной дроби на натуральное число.",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 32,
+        "topic_title": "Умножение обыкновенных дробей и смешанных чисел",
+        "exact_page": 193,
+        "raw_text": "1. Площадь одной части квадрата равна в5/0ё.",
+        "normalized_text": "1. Площадь одной части квадрата равна в5/0ё.",
+        "task_type": "geometry",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 33,
+        "topic_title": "Взаимно обратные числа",
+        "exact_page": 200,
+        "raw_text": "1. Чтобы умножить дробь на натуральное число, нужно умно-",
+        "normalized_text": "1. Чтобы умножить дробь на натуральное число, нужно умно-",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 33,
+        "topic_title": "Взаимно обратные числа",
+        "exact_page": 200,
+        "raw_text": "2. Произведение двух дробей есть дробь, числитель которой ра-",
+        "normalized_text": "2. Произведение двух дробей есть дробь, числитель которой ра-",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 33,
+        "topic_title": "Взаимно обратные числа",
+        "exact_page": 200,
+        "raw_text": "3. Чтобы научиться умножать смешанные числа, используйте",
+        "normalized_text": "3. Чтобы научиться умножать смешанные числа, используйте",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 34,
+        "topic_title": "Деление обыкновенных дробей и смешанных чисел",
+        "exact_page": 203,
+        "raw_text": "2) ек-1: Линн: б)з%х=ы | В) Жана.",
+        "normalized_text": "2) ек-1: Линн: б)з%х=ы | В) Жана.",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 34,
+        "topic_title": "Деление обыкновенных дробей и смешанных чисел",
+        "exact_page": 203,
+        "raw_text": "1. Как называется действие, обратное умножению?",
+        "normalized_text": "1. Как называется действие, обратное умножению?",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 34,
+        "topic_title": "Деление обыкновенных дробей и смешанных чисел",
+        "exact_page": 203,
+        "raw_text": "3. Какое преобразование было произведено, чтобы заменить действие",
+        "normalized_text": "3. Какое преобразование было произведено, чтобы заменить действие",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      }
+    ],
+    "verbatim_examples_status": {
+      "available": true,
+      "reason": "Извлечено из OCR-текста страниц уроков.",
+      "next_step": "Выборочная ручная проверка заданий с формулами и таблицами."
+    },
+    "structural_examples_for_generation": [
+      {
+        "task_type": "calculation",
+        "topic_refs": [
+          1,
+          2,
+          3
+        ],
+        "template": "Запиши число 3 507 024 в виде суммы разрядных слагаемых. Прочитай его.",
+        "expected_skill": "Разрядный состав, чтение многозначных чисел"
+      },
+      {
+        "task_type": "geometry",
+        "topic_refs": [
+          2,
+          3
+        ],
+        "template": "Начерти координатный луч с единичным отрезком 1 см. Отметь точки A(3), B(8). Сравни числа 3 и 8.",
+        "expected_skill": "Координатный луч, сравнение чисел"
+      },
+      {
+        "task_type": "calculation",
+        "topic_refs": [
+          5,
+          6,
+          7
+        ],
+        "template": "Вычисли: 48 306 + 19 587; 90 004 − 28 956. Выполни проверку.",
+        "expected_skill": "Сложение и вычитание многозначных чисел"
+      },
+      {
+        "task_type": "calculation",
+        "topic_refs": [
+          8,
+          9
+        ],
+        "template": "Упрости выражение: 5a + 3a − 2a. Найди значение при a = 4.",
+        "expected_skill": "Буквенные выражения, упрощение"
+      },
+      {
+        "task_type": "calculation",
+        "topic_refs": [
+          10
+        ],
+        "template": "Реши уравнение: 3x + 15 = 42. Сделай проверку.",
+        "expected_skill": "Линейные уравнения"
+      },
+      {
+        "task_type": "word_problem",
+        "topic_refs": [
+          11
+        ],
+        "template": "Периметр прямоугольника P = 2(a + b). Найди сторону, если P = 36 см и a = 10 см.",
+        "expected_skill": "Формулы, подстановка"
+      },
+      {
+        "task_type": "sets_logic",
+        "topic_refs": [
+          13,
+          14,
+          15
+        ],
+        "template": "Найди все делители числа 36 и кратные числа 12 (не больше 72).",
+        "expected_skill": "Делители и кратные"
+      },
+      {
+        "task_type": "sets_logic",
+        "topic_refs": [
+          17,
+          18
+        ],
+        "template": "Определи, делится ли 2 340 на 2, 5, 10, 3 и 9. Обоснуй признаками делимости.",
+        "expected_skill": "Признаки делимости"
+      },
+      {
+        "task_type": "calculation",
+        "topic_refs": [
+          19,
+          20
+        ],
+        "template": "Разложи 180 на простые множители. Найди НОД(48, 180) и НОК(12, 18).",
+        "expected_skill": "Простые множители, НОД, НОК"
+      },
+      {
+        "task_type": "calculation",
+        "topic_refs": [
+          24,
+          25
+        ],
+        "template": "Сократи дробь 24/36. Запиши как смешанное число: 17/5.",
+        "expected_skill": "Сокращение дробей, смешанные числа"
+      },
+      {
+        "task_type": "calculation",
+        "topic_refs": [
+          28,
+          29
+        ],
+        "template": "Выполни: 3/8 + 5/12; 2 1/3 − 1 5/6.",
+        "expected_skill": "Сложение и вычитание дробей и смешанных чисел"
+      },
+      {
+        "task_type": "calculation",
+        "topic_refs": [
+          32,
+          33
+        ],
+        "template": "Вычисли: 4/9 · 3/8; 5/6 : 2/3.",
+        "expected_skill": "Умножение и деление дробей"
+      },
+      {
+        "task_type": "word_problem",
+        "topic_refs": [
+          22
+        ],
+        "template": "Лодка плыла по течению 2 ч со скоростью 18 км/ч, а против — 1 ч со скоростью 12 км/ч. Найди скорость течения и лодки в стоячей воде.",
+        "expected_skill": "Движение по реке"
+      }
+    ]
+  },
+  "generator_profile_kz_moem": {
+    "audience": "Учащиеся 5 класса общеобразовательных школ Республики Казахстан",
+    "language_policy": {
+      "primary": "ru",
+      "terminology": "соответствует учебнику Алдамуратовой (Атамура, 2017)"
+    },
+    "task_mix_recommended": {
+      "calculation": 0.4,
+      "word_problem": 0.25,
+      "measurement": 0.1,
+      "geometry": 0.1,
+      "sets_logic": 0.15
+    },
+    "format_rules": [
+      "Три уровня сложности: А (базовый), В (продвинутый), С (творческий)",
+      "Включать блок «Ключевые факты» после темы при генерации конспекта",
+      "Задания с контекстом Казахстана (расстояния, площади регионов) — по стилю учебника",
+      "Для дробей использовать обыкновенную запись m/n; для уравнений — поиск корня"
+    ],
+    "safety_and_scope": [
+      "Только программа 5 класса части 1: натуральные числа, делимость, обыкновенные дроби",
+      "Не включать десятичные дроби, проценты, множества — они в части 2"
+    ]
+  }
+}

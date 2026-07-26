@@ -1,0 +1,1843 @@
+{
+  "source": {
+    "file_name": "Математика Алдамуратова Т. учебник для 5 класса Часть 2.pdf",
+    "parsed_at": "2026-07-12",
+    "version": "v2",
+    "extraction_method": {
+      "pdf_text_layer": true,
+      "pdf_text_layer_usable": false,
+      "ocr_applied": true,
+      "ocr_engine": "tesseract.js",
+      "ocr_page_render": "poppler pdftoppm",
+      "ocr_languages": [
+        "rus"
+      ],
+      "ocr_output_dir": "ocr/ocr_pages_math_aldamuratova_5grade_part2",
+      "ocr_pages_completed": 192,
+      "ocr_pages_total": 192
+    },
+    "quality_report": {
+      "high_confidence_blocks": [
+        "Титульный лист и выходные данные (стр. 1–2)",
+        "Оглавление — номера страниц сверены с alleng.org / каталогом Атамура 2017"
+      ],
+      "medium_confidence_blocks": [
+        "Темы и page_start по официальному содержанию части 2",
+        "Правила и ключевые факты из OCR-текста уроков",
+        "Дословные примеры заданий (87 фрагментов)"
+      ],
+      "low_confidence_blocks": [],
+      "note": "Текстовый слой PDF содержит только водяной знак OKULYK; весь контент извлечён OCR (tesseract rus, pdftoppm). Возможны артефакты в формулах, диаграммах и чертежах."
+    }
+  },
+  "metadata": {
+    "title": "Математика. Учебник для учащихся 5 класса общеобразовательной школы",
+    "subject": "Математика",
+    "grade": 5,
+    "part": 2,
+    "authors": [
+      "Алдамуратова Т. А.",
+      "Байшоланова К. С.",
+      "Байшоланов Е. С."
+    ],
+    "publisher": "Атамура",
+    "city": "Алматы",
+    "publication_year": 2017,
+    "page_count": 192,
+    "isbn": {
+      "part_2": "978-601-306-726-1",
+      "overall": "978-601-306-724-7"
+    },
+    "languages": [
+      "ru"
+    ],
+    "udc": "373.167.1",
+    "bbc": "22.1я72"
+  },
+  "topics_with_pages": [
+    {
+      "lesson_no": 1,
+      "section": "III-cont",
+      "section_title": "Обыкновенные дроби (продолжение)",
+      "topic_code": "3.14",
+      "topic_title": "Нахождение дроби от числа. Нахождение числа по его дроби",
+      "page_start": 3,
+      "supplementary": false,
+      "page_end_estimated": 10
+    },
+    {
+      "lesson_no": 2,
+      "section": "III-cont",
+      "section_title": "Обыкновенные дроби (продолжение)",
+      "topic_code": "3.15",
+      "topic_title": "Задачи на совместную работу",
+      "page_start": 11,
+      "supplementary": false,
+      "page_end_estimated": 15
+    },
+    {
+      "lesson_no": 3,
+      "section": "IV",
+      "section_title": "Десятичные дроби. Действия над десятичными дробями",
+      "topic_code": "4.1",
+      "topic_title": "Десятичная дробь. Чтение и запись десятичных дробей",
+      "page_start": 16,
+      "supplementary": false,
+      "page_end_estimated": 23
+    },
+    {
+      "lesson_no": 4,
+      "section": "IV",
+      "section_title": "Десятичные дроби. Действия над десятичными дробями",
+      "topic_code": "4.2",
+      "topic_title": "Перевод десятичной дроби в обыкновенную, обыкновенной дроби в десятичную",
+      "page_start": 24,
+      "supplementary": false,
+      "page_end_estimated": 29
+    },
+    {
+      "lesson_no": 5,
+      "section": "IV",
+      "section_title": "Десятичные дроби. Действия над десятичными дробями",
+      "topic_code": "4.3",
+      "topic_title": "Изображение десятичной дроби на координатном луче. Сравнение десятичных дробей",
+      "page_start": 30,
+      "supplementary": false,
+      "page_end_estimated": 35
+    },
+    {
+      "lesson_no": null,
+      "section": "IV",
+      "section_title": "Десятичные дроби. Действия над десятичными дробями",
+      "topic_code": null,
+      "topic_title": "Исторические сведения",
+      "page_start": 36,
+      "supplementary": true,
+      "page_end_estimated": 36
+    },
+    {
+      "lesson_no": 6,
+      "section": "IV",
+      "section_title": "Десятичные дроби. Действия над десятичными дробями",
+      "topic_code": "4.4",
+      "topic_title": "Сложение и вычитание десятичных дробей",
+      "page_start": 37,
+      "supplementary": false,
+      "page_end_estimated": 44
+    },
+    {
+      "lesson_no": 7,
+      "section": "IV",
+      "section_title": "Десятичные дроби. Действия над десятичными дробями",
+      "topic_code": "4.5",
+      "topic_title": "Умножение десятичной дроби на натуральное число",
+      "page_start": 45,
+      "supplementary": false,
+      "page_end_estimated": 50
+    },
+    {
+      "lesson_no": 8,
+      "section": "IV",
+      "section_title": "Десятичные дроби. Действия над десятичными дробями",
+      "topic_code": "4.6",
+      "topic_title": "Умножение десятичных дробей",
+      "page_start": 51,
+      "supplementary": false,
+      "page_end_estimated": 56
+    },
+    {
+      "lesson_no": 9,
+      "section": "IV",
+      "section_title": "Десятичные дроби. Действия над десятичными дробями",
+      "topic_code": "4.7",
+      "topic_title": "Деление десятичной дроби на натуральное число",
+      "page_start": 57,
+      "supplementary": false,
+      "page_end_estimated": 64
+    },
+    {
+      "lesson_no": 10,
+      "section": "IV",
+      "section_title": "Десятичные дроби. Действия над десятичными дробями",
+      "topic_code": "4.8",
+      "topic_title": "Деление десятичной дроби на десятичную дробь",
+      "page_start": 65,
+      "supplementary": false,
+      "page_end_estimated": 71
+    },
+    {
+      "lesson_no": 11,
+      "section": "IV",
+      "section_title": "Десятичные дроби. Действия над десятичными дробями",
+      "topic_code": "4.9",
+      "topic_title": "Умножение и деление десятичной дроби на 10, 100, 1000, … и на 0,1; 0,01; 0,001; …",
+      "page_start": 72,
+      "supplementary": false,
+      "page_end_estimated": 77
+    },
+    {
+      "lesson_no": null,
+      "section": "IV",
+      "section_title": "Десятичные дроби. Действия над десятичными дробями",
+      "topic_code": null,
+      "topic_title": "Арифметические действия над обыкновенными и десятичными дробями. Упражнения для повторения главы IV",
+      "page_start": 78,
+      "supplementary": true,
+      "page_end_estimated": 81
+    },
+    {
+      "lesson_no": 12,
+      "section": "IV",
+      "section_title": "Десятичные дроби. Действия над десятичными дробями",
+      "topic_code": "4.11",
+      "topic_title": "Округление десятичных дробей",
+      "page_start": 82,
+      "supplementary": false,
+      "page_end_estimated": 88
+    },
+    {
+      "lesson_no": null,
+      "section": "IV",
+      "section_title": "Десятичные дроби. Действия над десятичными дробями",
+      "topic_code": null,
+      "topic_title": "Исторические сведения",
+      "page_start": 89,
+      "supplementary": true,
+      "page_end_estimated": 89
+    },
+    {
+      "lesson_no": 13,
+      "section": "IV",
+      "section_title": "Десятичные дроби. Действия над десятичными дробями",
+      "topic_code": "4.12",
+      "topic_title": "Числовые последовательности, составленные из дробей",
+      "page_start": 90,
+      "supplementary": false,
+      "page_end_estimated": 91
+    },
+    {
+      "lesson_no": 14,
+      "section": "V",
+      "section_title": "Множества",
+      "topic_code": "5.1",
+      "topic_title": "Множество. Элементы множества. Изображения множеств",
+      "page_start": 92,
+      "supplementary": false,
+      "page_end_estimated": 96
+    },
+    {
+      "lesson_no": 15,
+      "section": "V",
+      "section_title": "Множества",
+      "topic_code": "5.2",
+      "topic_title": "Подмножество",
+      "page_start": 97,
+      "supplementary": false,
+      "page_end_estimated": 101
+    },
+    {
+      "lesson_no": 16,
+      "section": "V",
+      "section_title": "Множества",
+      "topic_code": "5.3",
+      "topic_title": "Пересечение множеств. Объединение множеств",
+      "page_start": 102,
+      "supplementary": false,
+      "page_end_estimated": 106
+    },
+    {
+      "lesson_no": 17,
+      "section": "V",
+      "section_title": "Множества",
+      "topic_code": "5.4",
+      "topic_title": "Задачи на множества",
+      "page_start": 107,
+      "supplementary": false,
+      "page_end_estimated": 108
+    },
+    {
+      "lesson_no": null,
+      "section": "V",
+      "section_title": "Множества",
+      "topic_code": null,
+      "topic_title": "Упражнения для повторения главы V",
+      "page_start": 109,
+      "supplementary": true,
+      "page_end_estimated": 110
+    },
+    {
+      "lesson_no": 18,
+      "section": "VI",
+      "section_title": "Проценты",
+      "topic_code": "6.1",
+      "topic_title": "Проценты",
+      "page_start": 111,
+      "supplementary": false,
+      "page_end_estimated": 117
+    },
+    {
+      "lesson_no": 19,
+      "section": "VI",
+      "section_title": "Проценты",
+      "topic_code": "6.2",
+      "topic_title": "Нахождение процентов от данного числа",
+      "page_start": 118,
+      "supplementary": false,
+      "page_end_estimated": 123
+    },
+    {
+      "lesson_no": null,
+      "section": "VI",
+      "section_title": "Проценты",
+      "topic_code": null,
+      "topic_title": "Исторические сведения",
+      "page_start": 124,
+      "supplementary": true,
+      "page_end_estimated": 124
+    },
+    {
+      "lesson_no": 20,
+      "section": "VI",
+      "section_title": "Проценты",
+      "topic_code": "6.3",
+      "topic_title": "Нахождение числа по его процентам",
+      "page_start": 125,
+      "supplementary": false,
+      "page_end_estimated": 129
+    },
+    {
+      "lesson_no": null,
+      "section": "VI",
+      "section_title": "Проценты",
+      "topic_code": null,
+      "topic_title": "Упражнения для повторения главы VI. Задачи на проценты",
+      "page_start": 130,
+      "supplementary": true,
+      "page_end_estimated": 132
+    },
+    {
+      "lesson_no": 21,
+      "section": "VII",
+      "section_title": "Углы. Многоугольники",
+      "topic_code": "7.1",
+      "topic_title": "Угол. Градусная мера угла",
+      "page_start": 133,
+      "supplementary": false,
+      "page_end_estimated": 137
+    },
+    {
+      "lesson_no": null,
+      "section": "VII",
+      "section_title": "Углы. Многоугольники",
+      "topic_code": null,
+      "topic_title": "Краткие сведения о градусе",
+      "page_start": 138,
+      "supplementary": true,
+      "page_end_estimated": 138
+    },
+    {
+      "lesson_no": 22,
+      "section": "VII",
+      "section_title": "Углы. Многоугольники",
+      "topic_code": "7.2",
+      "topic_title": "Транспортир. Измерение и построение углов",
+      "page_start": 139,
+      "supplementary": false,
+      "page_end_estimated": 142
+    },
+    {
+      "lesson_no": 23,
+      "section": "VII",
+      "section_title": "Углы. Многоугольники",
+      "topic_code": "7.3",
+      "topic_title": "Сравнение углов. Виды углов. Чертежный треугольник",
+      "page_start": 143,
+      "supplementary": false,
+      "page_end_estimated": 149
+    },
+    {
+      "lesson_no": 24,
+      "section": "VII",
+      "section_title": "Углы. Многоугольники",
+      "topic_code": "7.4",
+      "topic_title": "Многоугольники",
+      "page_start": 150,
+      "supplementary": false,
+      "page_end_estimated": 154
+    },
+    {
+      "lesson_no": null,
+      "section": "VII",
+      "section_title": "Углы. Многоугольники",
+      "topic_code": null,
+      "topic_title": "Упражнения для повторения главы VII",
+      "page_start": 155,
+      "supplementary": true,
+      "page_end_estimated": 156
+    },
+    {
+      "lesson_no": 25,
+      "section": "VIII",
+      "section_title": "Диаграммы",
+      "topic_code": "8.1",
+      "topic_title": "Окружность. Круг",
+      "page_start": 157,
+      "supplementary": false,
+      "page_end_estimated": 161
+    },
+    {
+      "lesson_no": null,
+      "section": "VIII",
+      "section_title": "Диаграммы",
+      "topic_code": null,
+      "topic_title": "Исторические сведения",
+      "page_start": 162,
+      "supplementary": true,
+      "page_end_estimated": 161
+    },
+    {
+      "lesson_no": 26,
+      "section": "VIII",
+      "section_title": "Диаграммы",
+      "topic_code": "8.2",
+      "topic_title": "Круговой сектор",
+      "page_start": 162,
+      "supplementary": false,
+      "page_end_estimated": 164
+    },
+    {
+      "lesson_no": 27,
+      "section": "VIII",
+      "section_title": "Диаграммы",
+      "topic_code": "8.3",
+      "topic_title": "Способы представления статистических данных. Столбчатые, линейные, круговые и графические диаграммы. Таблицы",
+      "page_start": 165,
+      "supplementary": false,
+      "page_end_estimated": 172
+    },
+    {
+      "lesson_no": 28,
+      "section": "IX",
+      "section_title": "Развертки пространственных фигур",
+      "topic_code": "9.1",
+      "topic_title": "Прямоугольный параллелепипед и его развертка",
+      "page_start": 173,
+      "supplementary": false,
+      "page_end_estimated": 176
+    },
+    {
+      "lesson_no": 29,
+      "section": "IX",
+      "section_title": "Развертки пространственных фигур",
+      "topic_code": "9.2",
+      "topic_title": "Задачи на разрезание фигур. Задачи на склеивание фигур",
+      "page_start": 177,
+      "supplementary": false,
+      "page_end_estimated": 178
+    },
+    {
+      "lesson_no": null,
+      "section": "IX",
+      "section_title": "Развертки пространственных фигур",
+      "topic_code": null,
+      "topic_title": "Упражнения для повторения пройденного за год: Натуральные числа и нуль",
+      "page_start": 179,
+      "supplementary": true,
+      "page_end_estimated": 179
+    },
+    {
+      "lesson_no": null,
+      "section": "IX",
+      "section_title": "Развертки пространственных фигур",
+      "topic_code": null,
+      "topic_title": "Упражнения для повторения пройденного за год: Делимость натуральных чисел",
+      "page_start": 180,
+      "supplementary": true,
+      "page_end_estimated": 180
+    },
+    {
+      "lesson_no": null,
+      "section": "IX",
+      "section_title": "Развертки пространственных фигур",
+      "topic_code": null,
+      "topic_title": "Упражнения для повторения пройденного за год: Обыкновенные дроби",
+      "page_start": 181,
+      "supplementary": true,
+      "page_end_estimated": 181
+    },
+    {
+      "lesson_no": null,
+      "section": "IX",
+      "section_title": "Развертки пространственных фигур",
+      "topic_code": null,
+      "topic_title": "Упражнения для повторения пройденного за год: Десятичные дроби",
+      "page_start": 182,
+      "supplementary": true,
+      "page_end_estimated": 182
+    },
+    {
+      "lesson_no": null,
+      "section": "IX",
+      "section_title": "Развертки пространственных фигур",
+      "topic_code": null,
+      "topic_title": "Упражнения для повторения пройденного за год: Множества",
+      "page_start": 183,
+      "supplementary": true,
+      "page_end_estimated": 183
+    },
+    {
+      "lesson_no": null,
+      "section": "IX",
+      "section_title": "Развертки пространственных фигур",
+      "topic_code": null,
+      "topic_title": "Упражнения для повторения пройденного за год: Проценты",
+      "page_start": 184,
+      "supplementary": true,
+      "page_end_estimated": 183
+    },
+    {
+      "lesson_no": null,
+      "section": "IX",
+      "section_title": "Развертки пространственных фигур",
+      "topic_code": null,
+      "topic_title": "Упражнения для повторения пройденного за год: Углы. Многоугольники",
+      "page_start": 184,
+      "supplementary": true,
+      "page_end_estimated": 184
+    },
+    {
+      "lesson_no": null,
+      "section": "IX",
+      "section_title": "Развертки пространственных фигур",
+      "topic_code": null,
+      "topic_title": "Упражнения для повторения пройденного за год: Диаграммы. Развертка прямоугольного параллелепипеда",
+      "page_start": 185,
+      "supplementary": true,
+      "page_end_estimated": 186
+    },
+    {
+      "lesson_no": null,
+      "section": "IX",
+      "section_title": "Развертки пространственных фигур",
+      "topic_code": null,
+      "topic_title": "Алфавитный указатель",
+      "page_start": 187,
+      "supplementary": true,
+      "page_end_estimated": 192
+    }
+  ],
+  "rules": [
+    {
+      "rule_id": "R001",
+      "name": "Дробь от числа",
+      "statement": "Чтобы найти дробь от числа, нужно число умножить на эту дробь.",
+      "formula": "a · m/n",
+      "source_pages": [
+        3
+      ]
+    },
+    {
+      "rule_id": "R002",
+      "name": "Число по его дроби",
+      "statement": "Чтобы найти число по его дроби, нужно данное значение разделить на дробь.",
+      "formula": "x = b : (m/n)",
+      "source_pages": [
+        3
+      ]
+    },
+    {
+      "rule_id": "R003",
+      "name": "Совместная работа",
+      "statement": "При совместной работе общая производительность равна сумме производительностей участников.",
+      "formula": "1/t = 1/t₁ + 1/t₂ + …",
+      "source_pages": [
+        11
+      ]
+    },
+    {
+      "rule_id": "R004",
+      "name": "Десятичная дробь",
+      "statement": "Десятичная дробь — дробь со знаменателем 10, 100, 1000 и т.д.; записывается через запятую.",
+      "formula": "0,1 = 1/10; 0,01 = 1/100",
+      "source_pages": [
+        16
+      ]
+    },
+    {
+      "rule_id": "R005",
+      "name": "Сравнение десятичных дробей",
+      "statement": "Сначала сравнивают целые части; при равенстве — разряды дробной части слева направо.",
+      "formula": null,
+      "source_pages": [
+        30
+      ]
+    },
+    {
+      "rule_id": "R006",
+      "name": "Сдвиг запятой",
+      "statement": "При умножении на 10ⁿ запятая сдвигается вправо на n знаков; при делении — влево.",
+      "formula": "×10ⁿ → вправо; ÷10ⁿ → влево",
+      "source_pages": [
+        72
+      ]
+    },
+    {
+      "rule_id": "R007",
+      "name": "Округление",
+      "statement": "При округлении смотрят на первую отбрасываемую цифру: ≥5 — увеличить предыдущий разряд.",
+      "formula": null,
+      "source_pages": [
+        82
+      ]
+    },
+    {
+      "rule_id": "R008",
+      "name": "Множество",
+      "statement": "Множество — совокупность элементов; элементы изображают фигурными скобками или на диаграмме Эйлера–Венна.",
+      "formula": "A = {a, b, c}",
+      "source_pages": [
+        92
+      ]
+    },
+    {
+      "rule_id": "R009",
+      "name": "Подмножество",
+      "statement": "A — подмножество B, если каждый элемент A принадлежит B.",
+      "formula": "A ⊂ B",
+      "source_pages": [
+        97
+      ]
+    },
+    {
+      "rule_id": "R010",
+      "name": "Пересечение и объединение",
+      "statement": "Пересечение — общие элементы; объединение — все элементы, входящие хотя бы в одно множество.",
+      "formula": "A ∩ B, A ∪ B",
+      "source_pages": [
+        102
+      ]
+    },
+    {
+      "rule_id": "R011",
+      "name": "Процент",
+      "statement": "Процент — сотая часть числа; 1% = 1/100.",
+      "formula": "a% = a/100",
+      "source_pages": [
+        111
+      ]
+    },
+    {
+      "rule_id": "R012",
+      "name": "Нахождение процента от числа",
+      "statement": "Чтобы найти p% от числа N, умножь N на p и раздели на 100.",
+      "formula": "p% от N = N·p/100",
+      "source_pages": [
+        118
+      ]
+    },
+    {
+      "rule_id": "R013",
+      "name": "Число по процентам",
+      "statement": "Чтобы найти число по его p%, раздели данное значение на p и умножь на 100.",
+      "formula": "N = b·100/p",
+      "source_pages": [
+        125
+      ]
+    },
+    {
+      "rule_id": "R014",
+      "name": "Градусная мера угла",
+      "statement": "Угол измеряется в градусах; полный угол равен 360°.",
+      "formula": "∠ = n°",
+      "source_pages": [
+        133
+      ]
+    },
+    {
+      "rule_id": "R015",
+      "name": "Окружность и круг",
+      "statement": "Окружность — граница круга; круг — часть плоскости внутри окружности.",
+      "formula": null,
+      "source_pages": [
+        157
+      ]
+    },
+    {
+      "rule_id": "R016",
+      "name": "Развертка параллелепипеда",
+      "statement": "Развертка прямоугольного параллелепипеда состоит из шести прямоугольников — его граней.",
+      "formula": null,
+      "source_pages": [
+        173
+      ]
+    },
+    {
+      "rule_id": "KF_p10_1",
+      "name": "“@: (У 1. Чтобы найти часть от числа,",
+      "statement": "“@: (У 1. Чтобы найти часть от числа,",
+      "formula": null,
+      "source_pages": [
+        10
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p10_2",
+      "name": "ВИ выраженного дробью, надо это чис-",
+      "statement": "ВИ выраженного дробью, надо это чис-",
+      "formula": null,
+      "source_pages": [
+        10
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p10_3",
+      "name": "Рис. 3.43 ло умножить на дробь.",
+      "statement": "Рис. 3.43 ло умножить на дробь.",
+      "formula": null,
+      "source_pages": [
+        10
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p23_1",
+      "name": "Число, записанное в десятичной системе и имеющее разряды",
+      "statement": "Число, записанное в десятичной системе и имеющее разряды",
+      "formula": null,
+      "source_pages": [
+        23
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p23_2",
+      "name": "меньше единичного, называется десятичной дробью.",
+      "statement": "меньше единичного, называется десятичной дробью.",
+      "formula": null,
+      "source_pages": [
+        23
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p29_1",
+      "name": "Любую десятичную дробь можно записать в виде обыкно-",
+      "statement": "Любую десятичную дробь можно записать в виде обыкно-",
+      "formula": null,
+      "source_pages": [
+        29
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p29_2",
+      "name": "венной дроби или смешанного числа.",
+      "statement": "венной дроби или смешанного числа.",
+      "formula": null,
+      "source_pages": [
+        29
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p29_4",
+      "name": "п ер 1. 1) 0,25 = =®_ = =; 2) 9,14 = 9 =9_—.",
+      "statement": "п ер 1. 1) 0,25 = =®_ = =; 2) 9,14 = 9 =9_—.",
+      "formula": null,
+      "source_pages": [
+        29
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p29_5",
+      "name": "ны ) 100 4 ) 100 50",
+      "statement": "ны ) 100 4 ) 100 50",
+      "formula": null,
+      "source_pages": [
+        29
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p29_6",
+      "name": "П. Несократимую обыкновенную дробь и смешанное число",
+      "statement": "П. Несократимую обыкновенную дробь и смешанное число",
+      "formula": null,
+      "source_pages": [
+        29
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p29_7",
+      "name": "можно записать в виде десятичной дроби только в том случае, …",
+      "statement": "можно записать в виде десятичной дроби только в том случае, если",
+      "formula": null,
+      "source_pages": [
+        29
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p29_8",
+      "name": "их знаменатель кратен только числам 2 и 5 (2 или 5).",
+      "statement": "их знаменатель кратен только числам 2 и 5 (2 или 5).",
+      "formula": null,
+      "source_pages": [
+        29
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p29_9",
+      "name": "Пример 2. Дробь = и смешанное число чо можно записать",
+      "statement": "Пример 2. Дробь = и смешанное число чо можно записать",
+      "formula": null,
+      "source_pages": [
+        29
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p29_10",
+      "name": "в виде десятичной дроби.",
+      "statement": "в виде десятичной дроби.",
+      "formula": null,
+      "source_pages": [
+        29
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p29_11",
+      "name": "Ве В! Ва 12 ож,",
+      "statement": "Ве В! Ва 12 ож,",
+      "formula": null,
+      "source_pages": [
+        29
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p29_12",
+      "name": "25 5:5 5:5.2:2 100",
+      "statement": "25 5:5 5:5.2:2 100",
+      "formula": null,
+      "source_pages": [
+        29
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p29_13",
+      "name": "Тао —® ней @ не абон 14,05.",
+      "statement": "Тао —® ней @ не абон 14,05.",
+      "formula": null,
+      "source_pages": [
+        29
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p29_14",
+      "name": "20 2-2-5 2-2-5-5 100",
+      "statement": "20 2-2-5 2-2-5-5 100",
+      "formula": null,
+      "source_pages": [
+        29
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p44_1",
+      "name": "Чтобы сложить (вычесть) десятичные дроби столбиком, нуж-",
+      "statement": "Чтобы сложить (вычесть) десятичные дроби столбиком, нуж-",
+      "formula": null,
+      "source_pages": [
+        44
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p44_3",
+      "name": "1) уравнять в дробях количество знаков после запятой;",
+      "statement": "1) уравнять в дробях количество знаков после запятой;",
+      "formula": null,
+      "source_pages": [
+        44
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p44_4",
+      "name": "2) записать их в столбик так, чтобы цифры одноименных раз-",
+      "statement": "2) записать их в столбик так, чтобы цифры одноименных раз-",
+      "formula": null,
+      "source_pages": [
+        44
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p44_5",
+      "name": "рядов были в одном столбце (запятая оказалась под запятой);",
+      "statement": "рядов были в одном столбце (запятая оказалась под запятой);",
+      "formula": null,
+      "source_pages": [
+        44
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p44_6",
+      "name": "8) сложить (вычесть) числа поразрядно;",
+      "statement": "8) сложить (вычесть) числа поразрядно;",
+      "formula": null,
+      "source_pages": [
+        44
+      ],
+      "confidence": "medium_ocr"
+    },
+    {
+      "rule_id": "KF_p44_7",
+      "name": "4) в полученном результате поставить запятую под запятыми",
+      "statement": "4) в полученном результате поставить запятую под запятыми",
+      "formula": null,
+      "source_pages": [
+        44
+      ],
+      "confidence": "medium_ocr"
+    }
+  ],
+  "example_tasks_v2": {
+    "verbatim_examples": [
+      {
+        "lesson_no": 1,
+        "topic_title": "Нахождение дроби от числа. Нахождение числа по его дроби",
+        "exact_page": 3,
+        "raw_text": "1) Сколько страниц составляет 2? Т2: О-?",
+        "normalized_text": "1) Сколько страниц составляет 2? Т2: О-?",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 1,
+        "topic_title": "Нахождение дроби от числа. Нахождение числа по его дроби",
+        "exact_page": 3,
+        "raw_text": "2) Сколько страниц составляет 8 книги?",
+        "normalized_text": "2) Сколько страниц составляет 8 книги?",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 1,
+        "topic_title": "Нахождение дроби от числа. Нахождение числа по его дроби",
+        "exact_page": 3,
+        "raw_text": "72. == - 21 (страниц).",
+        "normalized_text": "72. == - 21 (страниц).",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 2,
+        "topic_title": "Задачи на совместную работу",
+        "exact_page": 11,
+        "raw_text": "2. Чтобы найти число по его части, выраженной дробью, надо",
+        "normalized_text": "2. Чтобы найти число по его части, выраженной дробью, надо",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 2,
+        "topic_title": "Задачи на совместную работу",
+        "exact_page": 11,
+        "raw_text": "3.15. Задачи на совместную работу",
+        "normalized_text": "3.15. Задачи на совместную работу",
+        "task_type": "word_problem",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 2,
+        "topic_title": "Задачи на совместную работу",
+        "exact_page": 12,
+        "raw_text": "1) 1: 24 = за (цистерны) - наполнит бензином первый насос",
+        "normalized_text": "1) 1: 24 = за (цистерны) - наполнит бензином первый насос",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 3,
+        "topic_title": "Десятичная дробь. Чтение и запись десятичных дробей",
+        "exact_page": 16,
+        "raw_text": "6) в килограммах - 8 кг 351 г; 12 кг 29 г; 15 кг 3 г.",
+        "normalized_text": "6) в килограммах - 8 кг 351 г; 12 кг 29 г; 15 кг 3 г.",
+        "task_type": "word_problem",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 3,
+        "topic_title": "Десятичная дробь. Чтение и запись десятичных дробей",
+        "exact_page": 16,
+        "raw_text": "4.1. Десятичная дробь. Чтение и запись",
+        "normalized_text": "4.1. Десятичная дробь. Чтение и запись",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 3,
+        "topic_title": "Десятичная дробь. Чтение и запись десятичных дробей",
+        "exact_page": 16,
+        "raw_text": "1. Десятичная дробь.",
+        "normalized_text": "1. Десятичная дробь.",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 4,
+        "topic_title": "Перевод десятичной дроби в обыкновенную, обыкновенной дроби в десятичную",
+        "exact_page": 24,
+        "raw_text": "2) зо\" зо-и “00° 20) = 100; у = 5;",
+        "normalized_text": "2) зо\" зо-и “00° 20) = 100; у = 5;",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 4,
+        "topic_title": "Перевод десятичной дроби в обыкновенную, обыкновенной дроби в десятичную",
+        "exact_page": 24,
+        "raw_text": "4.2. Перевод десятичной дроби в обыкновенную,",
+        "normalized_text": "4.2. Перевод десятичной дроби в обыкновенную,",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 4,
+        "topic_title": "Перевод десятичной дроби в обыкновенную, обыкновенной дроби в десятичную",
+        "exact_page": 24,
+        "raw_text": "1. Цифры, стоящие до запятой, записать целой частью числа.",
+        "normalized_text": "1. Цифры, стоящие до запятой, записать целой частью числа.",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 5,
+        "topic_title": "Изображение десятичной дроби на координатном луче. Сравнение десятичных дробей",
+        "exact_page": 30,
+        "raw_text": "2) Сравните координаты этих точек.",
+        "normalized_text": "2) Сравните координаты этих точек.",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 5,
+        "topic_title": "Изображение десятичной дроби на координатном луче. Сравнение десятичных дробей",
+        "exact_page": 30,
+        "raw_text": "4.3. Изображение десятичной дроби на координатном луче.",
+        "normalized_text": "4.3. Изображение десятичной дроби на координатном луче.",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 5,
+        "topic_title": "Изображение десятичной дроби на координатном луче. Сравнение десятичных дробей",
+        "exact_page": 30,
+        "raw_text": "1. Изображение десятичной дроби на координатном луче.",
+        "normalized_text": "1. Изображение десятичной дроби на координатном луче.",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 6,
+        "topic_title": "Сложение и вычитание десятичных дробей",
+        "exact_page": 37,
+        "raw_text": "1) Научитесь выполнять сложение десятичных дробей по разрядам,",
+        "normalized_text": "1) Научитесь выполнять сложение десятичных дробей по разрядам,",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 6,
+        "topic_title": "Сложение и вычитание десятичных дробей",
+        "exact_page": 37,
+        "raw_text": "2) Научитесь выполнять вычитание десятичных дробей по разрядам,",
+        "normalized_text": "2) Научитесь выполнять вычитание десятичных дробей по разрядам,",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 6,
+        "topic_title": "Сложение и вычитание десятичных дробей",
+        "exact_page": 37,
+        "raw_text": "1) 3,7-1,2 2) 7,21-1,5 3) 25-2,64",
+        "normalized_text": "1) 3,7-1,2 2) 7,21-1,5 3) 25-2,64",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 7,
+        "topic_title": "Умножение десятичной дроби на натуральное число",
+        "exact_page": 45,
+        "raw_text": "4.5. Умножение десятичной дроби на натуральное число",
+        "normalized_text": "4.5. Умножение десятичной дроби на натуральное число",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 7,
+        "topic_title": "Умножение десятичной дроби на натуральное число",
+        "exact_page": 45,
+        "raw_text": "1) 25,85 . 7; 2) 8,9 - 6; 3) 0,009 . 8.",
+        "normalized_text": "1) 25,85. 7; 2) 8,9 - 6; 3) 0,009. 8.",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 7,
+        "topic_title": "Умножение десятичной дроби на натуральное число",
+        "exact_page": 46,
+        "raw_text": "1. Сформулируйте правило умножения десятичной дроби на нату-",
+        "normalized_text": "1. Сформулируйте правило умножения десятичной дроби на нату-",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 8,
+        "topic_title": "Умножение десятичных дробей",
+        "exact_page": 51,
+        "raw_text": "4.6. Умножение десятичных дробей",
+        "normalized_text": "4.6. Умножение десятичных дробей",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 8,
+        "topic_title": "Умножение десятичных дробей",
+        "exact_page": 51,
+        "raw_text": "1) 9,8 ‹ 3,2; 2) 2,16 . 1,07; — 1) 0,184 . 0,02.",
+        "normalized_text": "1) 9,8 · 3,2; 2) 2,16. 1,07; — 1) 0,184. 0,02.",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 8,
+        "topic_title": "Умножение десятичных дробей",
+        "exact_page": 51,
+        "raw_text": "1. Не обращая внимания на запятые, перемножьте множители.",
+        "normalized_text": "1. Не обращая внимания на запятые, перемножьте множители.",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 9,
+        "topic_title": "Деление десятичной дроби на натуральное число",
+        "exact_page": 57,
+        "raw_text": "2) Зх = 8,4; 8,4 | 3",
+        "normalized_text": "2) Зх = 8,4; 8,4 | 3",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 9,
+        "topic_title": "Деление десятичной дроби на натуральное число",
+        "exact_page": 57,
+        "raw_text": "4.7. Деление десятичной дроби на натуральное число",
+        "normalized_text": "4.7. Деление десятичной дроби на натуральное число",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 9,
+        "topic_title": "Деление десятичной дроби на натуральное число",
+        "exact_page": 57,
+        "raw_text": "1) В каком случае в частном получается 0 целых?",
+        "normalized_text": "1) В каком случае в частном получается 0 целых?",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 10,
+        "topic_title": "Деление десятичной дроби на десятичную дробь",
+        "exact_page": 65,
+        "raw_text": "4.8. Деление десятичной дроби на десятич:",
+        "normalized_text": "4.8. Деление десятичной дроби на десятич:",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 10,
+        "topic_title": "Деление десятичной дроби на десятичную дробь",
+        "exact_page": 65,
+        "raw_text": "1. На сколько цифр вправо надо перенести запятую в делимом и",
+        "normalized_text": "1. На сколько цифр вправо надо перенести запятую в делимом и",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 10,
+        "topic_title": "Деление десятичной дроби на десятичную дробь",
+        "exact_page": 65,
+        "raw_text": "2. Как разделить десятичную дробь на десятичную дробь?",
+        "normalized_text": "2. Как разделить десятичную дробь на десятичную дробь?",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 11,
+        "topic_title": "Умножение и деление десятичной дроби на 10, 100, 1000, … и на 0,1; 0,01; 0,001; …",
+        "exact_page": 72,
+        "raw_text": "3. е Расстояние между городами 240 км.",
+        "normalized_text": "3. е Расстояние между городами 240 км.",
+        "task_type": "word_problem",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 11,
+        "topic_title": "Умножение и деление десятичной дроби на 10, 100, 1000, … и на 0,1; 0,01; 0,001; …",
+        "exact_page": 72,
+        "raw_text": "4.9. Умножение и деление десятичной дроби на 10, 100, 1000, ...",
+        "normalized_text": "4.9. Умножение и деление десятичной дроби на 10, 100, 1000,...",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 11,
+        "topic_title": "Умножение и деление десятичной дроби на 10, 100, 1000, … и на 0,1; 0,01; 0,001; …",
+        "exact_page": 72,
+        "raw_text": "1. Умножение десятичной дроби на 10, 100, 1000, ...",
+        "normalized_text": "1. Умножение десятичной дроби на 10, 100, 1000,...",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 12,
+        "topic_title": "Округление десятичных дробей",
+        "exact_page": 82,
+        "raw_text": "4.11. Округление десятичных дробей",
+        "normalized_text": "4.11. Округление десятичных дробей",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 12,
+        "topic_title": "Округление десятичных дробей",
+        "exact_page": 83,
+        "raw_text": "1) По рисунку 4.16 укажите приближенные значения числа",
+        "normalized_text": "1) По рисунку 4.16 укажите приближенные значения числа",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 12,
+        "topic_title": "Округление десятичных дробей",
+        "exact_page": 83,
+        "raw_text": "2) Выберите более точное приближение, округленное до сотых.",
+        "normalized_text": "2) Выберите более точное приближение, округленное до сотых.",
+        "task_type": "geometry",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 13,
+        "topic_title": "Числовые последовательности, составленные из дробей",
+        "exact_page": 90,
+        "raw_text": "3.72.71 16, 8.4.2.",
+        "normalized_text": "3.72.71 16, 8.4.2.",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 13,
+        "topic_title": "Числовые последовательности, составленные из дробей",
+        "exact_page": 90,
+        "raw_text": "2) ВТ 4) 17 атататот!",
+        "normalized_text": "2) ВТ 4) 17 атататот!",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 13,
+        "topic_title": "Числовые последовательности, составленные из дробей",
+        "exact_page": 90,
+        "raw_text": "1) =)’ 16° 82°? 8) -+* 99’ 29° 29° °”°",
+        "normalized_text": "1) =)’ 16° 82°? 8) -+* 99’ 29° 29° °”°",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 14,
+        "topic_title": "Множество. Элементы множества. Изображения множеств",
+        "exact_page": 92,
+        "raw_text": "5.1. Множество. Элементы множества.",
+        "normalized_text": "5.1. Множество. Элементы множества.",
+        "task_type": "sets_logic",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 14,
+        "topic_title": "Множество. Элементы множества. Изображения множеств",
+        "exact_page": 93,
+        "raw_text": "2) множество обезьян на планете Меркурий -— пустое множество.",
+        "normalized_text": "2) множество обезьян на планете Меркурий -— пустое множество.",
+        "task_type": "sets_logic",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 14,
+        "topic_title": "Множество. Элементы множества. Изображения множеств",
+        "exact_page": 93,
+        "raw_text": "1. Сколько элементов содержит множество А?",
+        "normalized_text": "1. Сколько элементов содержит множество А?",
+        "task_type": "sets_logic",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 15,
+        "topic_title": "Подмножество",
+        "exact_page": 97,
+        "raw_text": "5.2. Подмножество",
+        "normalized_text": "5.2. Подмножество",
+        "task_type": "sets_logic",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 15,
+        "topic_title": "Подмножество",
+        "exact_page": 97,
+        "raw_text": "1. Выберите из этого множества те элементы",
+        "normalized_text": "1. Выберите из этого множества те элементы",
+        "task_type": "sets_logic",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 15,
+        "topic_title": "Подмножество",
+        "exact_page": 98,
+        "raw_text": "2. К =1.. 715,",
+        "normalized_text": "2. К =1.. 715,",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 16,
+        "topic_title": "Пересечение множеств. Объединение множеств",
+        "exact_page": 102,
+        "raw_text": "1. Запишите множества РЁ и № перечислением элементов.",
+        "normalized_text": "1. Запишите множества РЁ и № перечислением элементов.",
+        "task_type": "sets_logic",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 16,
+        "topic_title": "Пересечение множеств. Объединение множеств",
+        "exact_page": 102,
+        "raw_text": "2. ЕПМ = {|}. Запишите в фигурной скобке только те",
+        "normalized_text": "2. ЕПМ = {|}. Запишите в фигурной скобке только те",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 16,
+        "topic_title": "Пересечение множеств. Объединение множеств",
+        "exact_page": 102,
+        "raw_text": "83. Изобразите кругами Эйлера-Венна соотношения между мно-",
+        "normalized_text": "83. Изобразите кругами Эйлера-Венна соотношения между мно-",
+        "task_type": "geometry",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 17,
+        "topic_title": "Задачи на множества",
+        "exact_page": 107,
+        "raw_text": "1. Пересечение множеств.",
+        "normalized_text": "1. Пересечение множеств.",
+        "task_type": "sets_logic",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 17,
+        "topic_title": "Задачи на множества",
+        "exact_page": 107,
+        "raw_text": "5.4. Задачи на множества",
+        "normalized_text": "5.4. Задачи на множества",
+        "task_type": "sets_logic",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 17,
+        "topic_title": "Задачи на множества",
+        "exact_page": 107,
+        "raw_text": "25. Из них 20 учеников решили и арифметическую задачу, и гео-",
+        "normalized_text": "25. Из них 20 учеников решили и арифметическую задачу, и гео-",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 18,
+        "topic_title": "Проценты",
+        "exact_page": 112,
+        "raw_text": "1. Сколько процентов составляет: 5’ 5 ?",
+        "normalized_text": "1. Сколько процентов составляет: 5’ 5?",
+        "task_type": "word_problem",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 18,
+        "topic_title": "Проценты",
+        "exact_page": 112,
+        "raw_text": "2. Запишите выражение, по которому можно выразить дробь 8",
+        "normalized_text": "2. Запишите выражение, по которому можно выразить дробь 8",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 18,
+        "topic_title": "Проценты",
+        "exact_page": 113,
+        "raw_text": "1. Что такое 1%?",
+        "normalized_text": "1. Что такое 1%?",
+        "task_type": "word_problem",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 19,
+        "topic_title": "Нахождение процентов от данного числа",
+        "exact_page": 118,
+        "raw_text": "1) 800 : 100 = О;",
+        "normalized_text": "1) 800: 100 = О;",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 19,
+        "topic_title": "Нахождение процентов от данного числа",
+        "exact_page": 118,
+        "raw_text": "6.2. Нахождение процентов от данного числа",
+        "normalized_text": "6.2. Нахождение процентов от данного числа",
+        "task_type": "word_problem",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 19,
+        "topic_title": "Нахождение процентов от данного числа",
+        "exact_page": 118,
+        "raw_text": "1) Какую величину надо принять за 100% ?",
+        "normalized_text": "1) Какую величину надо принять за 100%?",
+        "task_type": "word_problem",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 20,
+        "topic_title": "Нахождение числа по его процентам",
+        "exact_page": 125,
+        "raw_text": "6.3. Нахождение числа по его проц",
+        "normalized_text": "6.3. Нахождение числа по его проц",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 20,
+        "topic_title": "Нахождение числа по его процентам",
+        "exact_page": 125,
+        "raw_text": "1) 480 : 60 = 8 (учеников) - количе- — Количество",
+        "normalized_text": "1) 480: 60 = 8 (учеников) - количе- — Количество",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 20,
+        "topic_title": "Нахождение числа по его процентам",
+        "exact_page": 125,
+        "raw_text": "2) 8 - 100 = 800 (учеников) - количе- 480 ___ 60%",
+        "normalized_text": "2) 8 - 100 = 800 (учеников) - количе- 480 ___ 60%",
+        "task_type": "word_problem",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 21,
+        "topic_title": "Угол. Градусная мера угла",
+        "exact_page": 133,
+        "raw_text": "7.1. Угол. Градусная мера угла",
+        "normalized_text": "7.1. Угол. Градусная мера угла",
+        "task_type": "geometry",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 21,
+        "topic_title": "Угол. Градусная мера угла",
+        "exact_page": 133,
+        "raw_text": "1. Что общего в этих рисунках?",
+        "normalized_text": "1. Что общего в этих рисунках?",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 21,
+        "topic_title": "Угол. Градусная мера угла",
+        "exact_page": 133,
+        "raw_text": "2. Как можно сформулировать определение угла?",
+        "normalized_text": "2. Как можно сформулировать определение угла?",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 22,
+        "topic_title": "Транспортир. Измерение и построение углов",
+        "exact_page": 139,
+        "raw_text": "7.2. Транспортир. Измерение и",
+        "normalized_text": "7.2. Транспортир. Измерение и",
+        "task_type": "geometry",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 22,
+        "topic_title": "Транспортир. Измерение и построение углов",
+        "exact_page": 139,
+        "raw_text": "1. Транспортир.",
+        "normalized_text": "1. Транспортир.",
+        "task_type": "geometry",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 22,
+        "topic_title": "Транспортир. Измерение и построение углов",
+        "exact_page": 139,
+        "raw_text": "1. Транспортир применяют для измерения углов.",
+        "normalized_text": "1. Транспортир применяют для измерения углов.",
+        "task_type": "geometry",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 23,
+        "topic_title": "Сравнение углов. Виды углов. Чертежный треугольник",
+        "exact_page": 143,
+        "raw_text": "2) Сравните угол АОВ с углом ЕКО и с углом МОЕ и запишите со",
+        "normalized_text": "2) Сравните угол АОВ с углом ЕКО и с углом МОЕ и запишите со",
+        "task_type": "geometry",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 23,
+        "topic_title": "Сравнение углов. Виды углов. Чертежный треугольник",
+        "exact_page": 143,
+        "raw_text": "3) Какой из углов: ЕКО или МОЁ больше угла АОВ? Меньше угла",
+        "normalized_text": "3) Какой из углов: ЕКО или МОЁ больше угла АОВ? Меньше угла",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 23,
+        "topic_title": "Сравнение углов. Виды углов. Чертежный треугольник",
+        "exact_page": 143,
+        "raw_text": "7.3. Сравнение углов. Виды углов. Чертежный треугольник",
+        "normalized_text": "7.3. Сравнение углов. Виды углов. Чертежный треугольник",
+        "task_type": "geometry",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 24,
+        "topic_title": "Многоугольники",
+        "exact_page": 150,
+        "raw_text": "7.4. Многоугольники",
+        "normalized_text": "7.4. Многоугольники",
+        "task_type": "geometry",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 24,
+        "topic_title": "Многоугольники",
+        "exact_page": 151,
+        "raw_text": "1. Приведите примеры из окружающих вас предметов, которые имеют",
+        "normalized_text": "1. Приведите примеры из окружающих вас предметов, которые имеют",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 24,
+        "topic_title": "Многоугольники",
+        "exact_page": 151,
+        "raw_text": "4. Что называют диагональю многоугольника?",
+        "normalized_text": "4. Что называют диагональю многоугольника?",
+        "task_type": "geometry",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 25,
+        "topic_title": "Окружность. Круг",
+        "exact_page": 157,
+        "raw_text": "8.1. Окружность. Круг",
+        "normalized_text": "8.1. Окружность. Круг",
+        "task_type": "geometry",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 25,
+        "topic_title": "Окружность. Круг",
+        "exact_page": 157,
+        "raw_text": "1. Окружность.",
+        "normalized_text": "1. Окружность.",
+        "task_type": "geometry",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 25,
+        "topic_title": "Окружность. Круг",
+        "exact_page": 158,
+        "raw_text": "1. Какую фигуру называют окружностью?",
+        "normalized_text": "1. Какую фигуру называют окружностью?",
+        "task_type": "geometry",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 26,
+        "topic_title": "Круговой сектор",
+        "exact_page": 162,
+        "raw_text": "2) 20 м/с. 1273. 16 см. 1274. 7 км 200 м.",
+        "normalized_text": "2) 20 м/с. 1273. 16 см. 1274. 7 км 200 м.",
+        "task_type": "word_problem",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 26,
+        "topic_title": "Круговой сектор",
+        "exact_page": 162,
+        "raw_text": "8.2. Круговой сектор",
+        "normalized_text": "8.2. Круговой сектор",
+        "task_type": "geometry",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 26,
+        "topic_title": "Круговой сектор",
+        "exact_page": 163,
+        "raw_text": "8.14). Угол первого (1) сектора равен 110’. Вычис- НВА",
+        "normalized_text": "8.14). Угол первого (1) сектора равен 110’. Вычис- НВА",
+        "task_type": "geometry",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 27,
+        "topic_title": "Способы представления статистических данных. Столбчатые, линейные, круговые и графические диаграммы. Таблицы",
+        "exact_page": 165,
+        "raw_text": "8.3. Способы представления статистических данных.",
+        "normalized_text": "8.3. Способы представления статистических данных.",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 27,
+        "topic_title": "Способы представления статистических данных. Столбчатые, линейные, круговые и графические диаграммы. Таблицы",
+        "exact_page": 165,
+        "raw_text": "1. Столбчатая диаграмма.",
+        "normalized_text": "1. Столбчатая диаграмма.",
+        "task_type": "geometry",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 27,
+        "topic_title": "Способы представления статистических данных. Столбчатые, линейные, круговые и графические диаграммы. Таблицы",
+        "exact_page": 168,
+        "raw_text": "1. Как строится столбчатая диаграмма?",
+        "normalized_text": "1. Как строится столбчатая диаграмма?",
+        "task_type": "geometry",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 28,
+        "topic_title": "Прямоугольный параллелепипед и его развертка",
+        "exact_page": 173,
+        "raw_text": "9.1. Прямоугольный параллелепипед и его развертка",
+        "normalized_text": "9.1. Прямоугольный параллелепипед и его развертка",
+        "task_type": "geometry",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 28,
+        "topic_title": "Прямоугольный параллелепипед и его развертка",
+        "exact_page": 173,
+        "raw_text": "9.1). Их называют гранями параллелепипеда. “",
+        "normalized_text": "9.1). Их называют гранями параллелепипеда. “",
+        "task_type": "geometry",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 28,
+        "topic_title": "Прямоугольный параллелепипед и его развертка",
+        "exact_page": 174,
+        "raw_text": "1. Приведите примеры предметов, имеющих форму прямоугольного",
+        "normalized_text": "1. Приведите примеры предметов, имеющих форму прямоугольного",
+        "task_type": "geometry",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 29,
+        "topic_title": "Задачи на разрезание фигур. Задачи на склеивание фигур",
+        "exact_page": 177,
+        "raw_text": "9.2. Задачи на разрезание фигур.",
+        "normalized_text": "9.2. Задачи на разрезание фигур.",
+        "task_type": "mixed",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 29,
+        "topic_title": "Задачи на разрезание фигур. Задачи на склеивание фигур",
+        "exact_page": 177,
+        "raw_text": "1) Запишите ребра, по которым можно разрезать модель куба,",
+        "normalized_text": "1) Запишите ребра, по которым можно разрезать модель куба,",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      },
+      {
+        "lesson_no": 29,
+        "topic_title": "Задачи на разрезание фигур. Задачи на склеивание фигур",
+        "exact_page": 177,
+        "raw_text": "2) Вычислите длину ломаной разреза.",
+        "normalized_text": "2) Вычислите длину ломаной разреза.",
+        "task_type": "calculation",
+        "confidence": "medium_ocr"
+      }
+    ],
+    "verbatim_examples_status": {
+      "available": true,
+      "reason": "Извлечено из OCR-текста страниц уроков.",
+      "next_step": "Выборочная ручная проверка заданий с диаграммами и чертежами."
+    },
+    "structural_examples_for_generation": [
+      {
+        "task_type": "calculation",
+        "topic_refs": [
+          1,
+          2
+        ],
+        "template": "Найди 3/5 от 240. Найди число, если 2/7 от него равно 18.",
+        "expected_skill": "Дробь от числа и число по дроби"
+      },
+      {
+        "task_type": "word_problem",
+        "topic_refs": [
+          2
+        ],
+        "template": "Один рабочий выполняет заказ за 6 ч, другой — за 4 ч. За сколько часов они выполнят заказ вместе?",
+        "expected_skill": "Задачи на совместную работу"
+      },
+      {
+        "task_type": "calculation",
+        "topic_refs": [
+          3,
+          4
+        ],
+        "template": "Запиши дроби 7/10, 23/100, 5/1000 в виде десятичных. Прочитай 0,045.",
+        "expected_skill": "Чтение и запись десятичных дробей"
+      },
+      {
+        "task_type": "calculation",
+        "topic_refs": [
+          5,
+          6,
+          7
+        ],
+        "template": "Выполни: 3,25 + 1,08; 5,4 − 2,73; 0,6 · 4.",
+        "expected_skill": "Сложение, вычитание, умножение десятичных дробей"
+      },
+      {
+        "task_type": "calculation",
+        "topic_refs": [
+          8,
+          9
+        ],
+        "template": "Вычисли: 2,4 : 0,6; 0,35 · 100; 12,5 : 0,01.",
+        "expected_skill": "Деление десятичных дробей, сдвиг запятой"
+      },
+      {
+        "task_type": "calculation",
+        "topic_refs": [
+          10
+        ],
+        "template": "Округли 3,8476 до десятых, сотых и тысячных.",
+        "expected_skill": "Округление десятичных дробей"
+      },
+      {
+        "task_type": "sets_logic",
+        "topic_refs": [
+          12,
+          13,
+          14
+        ],
+        "template": "A — чётные числа от 1 до 10; B — делители 12. Найди A∩B и A∪B.",
+        "expected_skill": "Множества, пересечение, объединение"
+      },
+      {
+        "task_type": "word_problem",
+        "topic_refs": [
+          15,
+          16
+        ],
+        "template": "В классе 28 учеников; 25% — отличники. Сколько отличников? Сколько учеников, если 6 — это 15%?",
+        "expected_skill": "Проценты от числа и число по процентам"
+      },
+      {
+        "task_type": "geometry",
+        "topic_refs": [
+          17,
+          18,
+          19
+        ],
+        "template": "Измерь угол транспортиром. Построй угол 65°. Назови виды углов.",
+        "expected_skill": "Углы, транспортир, классификация"
+      },
+      {
+        "task_type": "geometry",
+        "topic_refs": [
+          20,
+          21,
+          22
+        ],
+        "template": "Построй круговую диаграмму по данным таблицы. Найди длину окружности при r = 3 см.",
+        "expected_skill": "Диаграммы, окружность"
+      },
+      {
+        "task_type": "geometry",
+        "topic_refs": [
+          23,
+          24
+        ],
+        "template": "Начерти развертку прямоугольного параллелепипеда 4×3×2 см. Найди площадь поверхности.",
+        "expected_skill": "Развертка, пространственные фигуры"
+      },
+      {
+        "task_type": "mixed",
+        "topic_refs": [
+          25
+        ],
+        "template": "Итоговый блок «Повторение за год»: по 1 заданию на дроби, десятичные дроби, проценты и углы.",
+        "expected_skill": "Комплексное повторение программы 5 класса"
+      }
+    ]
+  },
+  "generator_profile_kz_moem": {
+    "audience": "Учащиеся 5 класса общеобразовательных школ Республики Казахстан",
+    "language_policy": {
+      "primary": "ru",
+      "terminology": "соответствует учебнику Алдамуратовой (Атамура, 2017), часть 2"
+    },
+    "task_mix_recommended": {
+      "calculation": 0.35,
+      "word_problem": 0.25,
+      "measurement": 0.05,
+      "geometry": 0.2,
+      "sets_logic": 0.15
+    },
+    "format_rules": [
+      "Три уровня сложности: А (базовый), В (продвинутый), С (творческий)",
+      "Десятичные дроби — запись через запятую (0,25)",
+      "Проценты — контекстные задачи (скидки, население, успеваемость)",
+      "Множества — диаграммы Эйлера–Венна, задачи на пересечение/объединение",
+      "Геометрия — транспортир, виды углов, развертки параллелепипеда"
+    ],
+    "safety_and_scope": [
+      "Программа 5 класса части 2: десятичные дроби, множества, проценты, углы, диаграммы, развертки",
+      "Не включать темы за пределами части 2 (алгебра 6+ класса)"
+    ]
+  }
+}

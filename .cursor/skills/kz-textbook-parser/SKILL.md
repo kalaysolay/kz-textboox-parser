@@ -1,6 +1,10 @@
 ---
 name: kz-textbook-parser
-description: Parse Kazakhstan school textbooks from PDF into a standardized JSON schema with metadata, topics, rules, examples, and confidence-based quality report. Use when the user asks to parse textbooks, extract curriculum structure, or prepare generation-ready datasets from учебник/PDF.
+description: >-
+  Parses Kazakhstan school textbooks from PDF into a standardized JSON schema
+  with metadata, topics, rules, examples, and a confidence-based quality report.
+  Use when the user asks to parse textbooks, extract curriculum structure, or
+  prepare generation-ready datasets from учебник or PDF files.
 ---
 
 # KZ Textbook Parser
@@ -30,7 +34,7 @@ If some data is unavailable, keep fields with `null`/empty arrays and explain in
 
 ## OCR outputs (repository layout)
 
-When text must be read via **OCR** (page images, per-page `.txt`, probes, or any intermediate dumps), write **everything** produced by that OCR pass into a **dedicated subdirectory** whose parent is always the project’s **`ocr/`** folder at the repo root.
+When text must be read via **OCR** (page images, per-page `.txt`, probes, or any intermediate dumps), write **everything** produced by that OCR pass into a **dedicated subdirectory** whose parent is always the project's **`ocr/`** folder at the repo root.
 
 - **Do not** scatter OCR files next to the PDF or next to final JSON at the root.
 - **Do** use a descriptive subfolder name, for example: `ocr/ocr_text_<book>_<part>/`, `ocr/ocr_pages_<book>_<part>/`.
