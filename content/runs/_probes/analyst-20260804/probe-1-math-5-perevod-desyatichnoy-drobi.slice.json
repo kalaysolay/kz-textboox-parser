@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "runId": "_probe/analyst-20260804/probe-1-math-5-perevod-desyatichnoy-drobi",
+  "textbook": {
+    "path": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+    "titleRu": "Математика. Учебник для учащихся 5 класса общеобразовательной школы",
+    "authorsShort": "Алдамуратова",
+    "grade": 5,
+    "part": 2,
+    "publisher": "Атамура",
+    "year": 2017
+  },
+  "unit": {
+    "lessonNo": 4,
+    "section": "IV",
+    "sectionTitle": "Десятичные дроби. Действия над десятичными дробями",
+    "topicCode": "4.2",
+    "topicTitle": "Перевод десятичной дроби в обыкновенную, обыкновенной дроби в десятичную",
+    "pageStart": 24,
+    "pageEnd": 29,
+    "supplementary": false
+  },
+  "textbookRef": "Алдамуратова, 5 кл, ч.2, стр. 24-29",
+  "rules": [
+    {
+      "ruleId": "KF_p29_1+KF_p29_2",
+      "name": "Запись десятичной дроби обыкновенной дробью",
+      "statement": "Любую десятичную дробь можно записать в виде обыкновенной дроби или смешанного числа.",
+      "formula": null,
+      "sourcePages": [29],
+      "origin": "verbatim_assembled",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "medium_assembled",
+      "needsManualCheck": false,
+      "evidence": "склейка KF_p29_1 («Любую десятичную дробь можно записать в виде обыкно-») + KF_p29_2 («венной дроби или смешанного числа.»); перенос по дефису убран"
+    },
+    {
+      "ruleId": "KF_p29_6+KF_p29_7+KF_p29_8",
+      "name": "Когда обыкновенную дробь можно записать десятичной",
+      "statement": "Несократимую обыкновенную дробь и смешанное число можно записать в виде десятичной дроби только в том случае, если их знаменатель кратен только числам 2 и 5 (2 или 5).",
+      "formula": null,
+      "sourcePages": [29],
+      "origin": "verbatim_assembled",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "medium_assembled",
+      "needsManualCheck": false,
+      "evidence": "склейка KF_p29_6 + KF_p29_7 + KF_p29_8; между ними в parsed лежат KF_p29_9…KF_p29_14 — это разобранные примеры и OCR-мусор, они не включены"
+    },
+    {
+      "ruleId": "VE_p24_1",
+      "name": "Первый шаг перевода десятичной дроби в обыкновенную",
+      "statement": "1. Цифры, стоящие до запятой, записать целой частью числа.",
+      "formula": null,
+      "sourcePages": [24],
+      "origin": "verbatim_from_examples",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "medium_ocr",
+      "needsManualCheck": false,
+      "evidence": "verbatim_examples[exact_page=24] с task_type=mixed: строка правила, а не задание; остальные пункты алгоритма (2, 3) OCR не извлёк"
+    }
+  ],
+  "verbatimExamples": [
+    {
+      "exactPage": 24,
+      "text": "1. Цифры, стоящие до запятой, записать целой частью числа.",
+      "taskType": "mixed",
+      "confidence": "medium_ocr",
+      "usable": false,
+      "note": "это фрагмент правила, не задание; вынесено в rules[] как VE_p24_1"
+    },
+    {
+      "exactPage": 24,
+      "text": "4.2. Перевод десятичной дроби в обыкновенную,",
+      "taskType": "calculation",
+      "confidence": "medium_ocr",
+      "usable": false,
+      "note": "заголовок темы, не задание"
+    },
+    {
+      "exactPage": 24,
+      "text": "2) зо\" зо-и “00° 20) = 100; у = 5;",
+      "taskType": "mixed",
+      "confidence": "medium_ocr",
+      "usable": false,
+      "note": "OCR-мусор: числа и знаки не восстанавливаются"
+    }
+  ],
+  "structuralExamples": [
+    {
+      "taskType": "calculation",
+      "template": "Запиши дроби 7/10, 23/100, 5/1000 в виде десятичных. Прочитай 0,045.",
+      "expectedSkill": "Чтение и запись десятичных дробей"
+    }
+  ],
+  "generatorProfile": {
+    "audience": "Учащиеся 5 класса общеобразовательных школ Республики Казахстан",
+    "taskMixRecommended": {
+      "calculation": 0.35,
+      "word_problem": 0.25,
+      "measurement": 0.05,
+      "geometry": 0.2,
+      "sets_logic": 0.15
+    },
+    "formatRules": [
+      "Три уровня сложности: А (базовый), В (продвинутый), С (творческий)",
+      "Десятичные дроби — запись через запятую (0,25)"
+    ],
+    "safetyAndScope": [
+      "Программа 5 класса части 2: десятичные дроби, множества, проценты, углы, диаграммы, развертки",
+      "Не включать темы за пределами части 2 (алгебра 6+ класса)"
+    ]
+  },
+  "blockStructureNotes": "Урок 4 (стр. 24-29) стоит между чтением/записью десятичных дробей (4.1) и сравнением дробей (4.3). Правило перевода в обе стороны лежит на стр. 24 (алгоритм, OCR извлёк только первый пункт) и на стр. 29 (два утверждения в KF-обрывках). Пригодных заданий OCR не дал ни одного: все три verbatim-строки — заголовок, фрагмент правила и мусор; опора для заданий — правила плюс один структурный пример.",
+  "sliceStatus": "ready",
+  "recommendedMaxCount": 8,
+  "gaps": [
+    "В rules[] нет ни одного элемента R0NN с source_pages в диапазоне 24-29: R004 на стр. 16 (тема 4.1), R005 на стр. 30 (тема 4.3). Оба взяты не были, диапазон не расширялся.",
+    "Все три правила собраны не из готового rules[]-текста, а склейкой KF_p29_* и строкой правила из verbatim_examples. Это выдержки из учебника (origin=verbatim_assembled / verbatim_from_examples), ручной сверки не требуют, но формулировки короче, чем в книге.",
+    "Пункты 2 и 3 алгоритма перевода десятичной дроби в обыкновенную OCR потерял — есть только пункт 1 (VE_p24_1).",
+    "Пригодных verbatim-примеров 0 из 3, поэтому recommendedMaxCount=8.",
+    "Структурный пример взят с topic_refs=[3,4] при lesson_no=4: отбор шёл по expected_skill «Чтение и запись десятичных дробей», совпадение topic_refs здесь случайное."
+  ],
+  "ocrConfidence": "medium"
+}

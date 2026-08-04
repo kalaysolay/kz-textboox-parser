@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "runId": "_probe/analyst-20260804-pdf/probe-3-math-5-perevod-drobi",
+  "textbook": {
+    "path": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+    "pdfPath": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/Математика Алдамуратова Т. учебник для 5 класса Часть 2.pdf",
+    "titleRu": "Математика. Учебник для учащихся 5 класса общеобразовательной школы",
+    "authorsShort": "Алдамуратова",
+    "grade": 5,
+    "part": 2,
+    "publisher": "Атамура",
+    "year": 2017
+  },
+  "unit": {
+    "lessonNo": 4,
+    "section": "IV",
+    "sectionTitle": "Десятичные дроби. Действия над десятичными дробями",
+    "topicCode": "4.2",
+    "topicTitle": "Перевод десятичной дроби в обыкновенную, обыкновенной дроби в десятичную",
+    "pageStart": 24,
+    "pageEnd": 29,
+    "supplementary": false
+  },
+  "textbookRef": "Алдамуратова, 5 кл, ч.2, стр. 24-29",
+  "rules": [
+    {
+      "ruleId": "PDF_p29_1",
+      "name": "Запись десятичной дроби обыкновенной",
+      "statement": "Любую десятичную дробь можно записать в виде обыкновенной дроби или смешанного числа.",
+      "formula": null,
+      "sourcePages": [29],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_029.png блок «Ключевые факты» I; совпадает со склейкой KF_p29_1+2 в parsed"
+    },
+    {
+      "ruleId": "PDF_p29_2",
+      "name": "Когда обыкновенную дробь можно записать десятичной",
+      "statement": "Несократимую обыкновенную дробь и смешанное число можно записать в виде десятичной дроби только в том случае, если их знаменатель кратен только числам 2 и 5 (2 или 5).",
+      "formula": null,
+      "sourcePages": [29],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_029.png «Ключевые факты» II; примеры 3/25=0,12 и 14 1/20=14,05"
+    }
+  ],
+  "verbatimExamples": [
+    {
+      "exactPage": 29,
+      "text": "Пример: 0,25 = 25/100 = 1/4; 9,14 = 9 14/100 = 9 7/50.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "из блока Ключевые факты на PNG"
+    }
+  ],
+  "structuralExamples": [],
+  "generatorProfile": {
+    "audience": "Учащиеся 5 класса общеобразовательных школ Республики Казахстан",
+    "taskMixRecommended": {
+      "calculation": 0.35,
+      "word_problem": 0.25,
+      "measurement": 0.05,
+      "geometry": 0.2,
+      "sets_logic": 0.15
+    },
+    "formatRules": [
+      "Три уровня сложности: А (базовый), В (продвинутый), С (творческий)",
+      "Десятичные дроби — запись через запятую (0,25)"
+    ],
+    "safetyAndScope": [
+      "Программа 5 класса части 2",
+      "Не включать темы за пределами части 2"
+    ]
+  },
+  "blockStructureNotes": "Правила собраны в конце блока (стр. 29, «Ключевые факты»). Стр. 24–28 — упражнения и перевод; формулировки с PDF совпали со склейками KF_* из старой пробы, но origin теперь verbatim_from_pdf.",
+  "sliceStatus": "ready",
+  "recommendedMaxCount": 8,
+  "gaps": [
+    "В этой пробе подробно вычитаны стр. 29 (правила); стр. 24–28 использованы для подтверждения диапазона темы, полный набор упражнений не копировался в verbatimExamples.",
+    "recommendedMaxCount=8 из-за одного пригодного verbatim-примера в срезе (правил два)."
+  ],
+  "ocrConfidence": "high"
+}

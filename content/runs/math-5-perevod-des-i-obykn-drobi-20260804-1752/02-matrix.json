@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-perevod-des-i-obykn-drobi-20260804-1752",
+  "typeMixPlanned": { "SCQ": 7, "MCQ": 3, "FILL_IN": 2 },
+  "difficultyMixPlanned": { "1": 1, "2": 2, "3": 6, "4": 2, "5": 1 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Факт: любая десятичная записывается обыкновенной или смешанным числом",
+      "stemIdea": "Выбрать верное утверждение о том, что можно сделать с любой десятичной дробью",
+      "trapIdeas": [
+        "Только правильные дроби меньше 1 можно перевести",
+        "Только смешанные числа, не обыкновенные",
+        "Перевод возможен только если знаменатель 10"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p29_1"],
+      "sourceExampleRefs": ["p29#1"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Десятичная → обыкновенная по алгоритму",
+      "stemIdea": "Записать 0,37 в виде обыкновенной дроби",
+      "trapIdeas": [
+        "Знаменатель 10 вместо 100 (посчитали один знак)",
+        "Знаменатель 1000 (лишний ноль)",
+        "Числитель 3 и 7 отдельно: 3/10 + 7/100 без общего знаменателя в ответе"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p24_1"],
+      "sourceExampleRefs": ["p26#737"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Число нулей в знаменателе по числу знаков после запятой",
+      "stemIdea": "Не выполняя перевода полностью, сказать, какой знаменатель у обыкновенной записи 0,008",
+      "trapIdeas": [
+        "Знаменатель 100 (два нуля) вместо 1000",
+        "Знаменатель 10",
+        "Знаменатель равен числителю"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p24_1"],
+      "sourceExampleRefs": ["p24#1"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сравнение двух форм одной и той же дроби",
+      "stemIdea": "Какая запись равна 5,07 после перевода в смешанное число",
+      "trapIdeas": [
+        "Оставить 5 07/100 без сокращения нуля в числителе как «другую» дробь",
+        "Перепутать: 5 7/10",
+        "Записать 507/100 без целой части как единственный верный вид"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p24_1"],
+      "sourceExampleRefs": ["p24#1"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q05",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Отбор дробей, представимых конечной десятичной",
+      "stemIdea": "Выбрать все дроби из набора, которые можно представить десятичной (критерий 2 и 5)",
+      "trapIdeas": [
+        "Включить дробь со знаменателем 7 или 11",
+        "Исключить 3/4 или 3/20 (забыли, что 4=2² и 20=2²·5)",
+        "Считать, что нужен обязательно и 2, и 5 одновременно"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p24_2", "PDF_p25_1"],
+      "sourceExampleRefs": ["p26#735"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Домножение числителя и знаменателя до 100",
+      "stemIdea": "Какое число пропущено в цепочке 7/20 = (7·□)/(20·□) = 35/100",
+      "trapIdeas": [
+        "Множитель 2 вместо 5",
+        "Множитель 10 (сразу к 10, хотя 20·10=200)",
+        "Множитель 4"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_2"],
+      "sourceExampleRefs": ["p25#1"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Обыкновенная → десятичная по таблице/без столбика",
+      "stemIdea": "Не выполняя деления в столбик, указать десятичную запись 3/4 (опора на таблицу 1/4=0,25)",
+      "trapIdeas": [
+        "0,34 (перепутали числитель и знаки)",
+        "0,43",
+        "3,4 (запятая не там)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_2"],
+      "sourceExampleRefs": ["p25#1"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q08",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Отбор дробей, которые нельзя представить конечной десятичной",
+      "stemIdea": "Выбрать все дроби, которые нельзя представить в виде конечной десятичной",
+      "trapIdeas": [
+        "Пометить 3/5 или 3/25 как «нельзя»",
+        "Пропустить 3/7 или 3/11",
+        "Считать сократимую дробь с «плохим» видом после сокращения всё ещё плохой без проверки"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_1"],
+      "sourceExampleRefs": ["p26#735"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q09",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Смешанное число → десятичная",
+      "stemIdea": "Записать 9 7/50 десятичной дробью",
+      "trapIdeas": [
+        "9,7 (забыли домножение до 100)",
+        "9,07",
+        "97,50"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_2", "PDF_p29_2"],
+      "sourceExampleRefs": ["p25#1"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Обратная задача: по десятичной узнать исходную сокращённую обыкновенную",
+      "stemIdea": "Какая несократимая обыкновенная дробь равна 0,25",
+      "trapIdeas": [
+        "Оставить 25/100 без сокращения",
+        "1/25",
+        "2/5"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p29_1"],
+      "sourceExampleRefs": ["p29#1"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q11",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Текстовая задача: часть класса → десятичная",
+      "stemIdea": "В классе 10 мальчиков и 15 девочек; выбрать верные десятичные записи долей",
+      "trapIdeas": [
+        "Доля мальчиков 10/15 вместо 10/25",
+        "Не сократить 10/25 → 2/5 = 0,4",
+        "Перепутать доли мальчиков и девочек"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_2"],
+      "sourceExampleRefs": ["p27#743"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q12",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Сократить, затем перевести в десятичную",
+      "stemIdea": "Сократить 12/15 и записать результат десятичной дробью",
+      "trapIdeas": [
+        "Делить 12 на 15 «в столбик» без сокращения и ошибиться",
+        "Получить 0,12 (взяли числитель как десятичную)",
+        "Оставить 4/5 без перевода"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_2", "PDF_p29_2"],
+      "sourceExampleRefs": ["p27#742"],
+      "questionForm": "restore"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "6 primary-правил с PDF; слоты покрывают обе стороны перевода и критерий 2/5. Формы: recall×1, compute×2 (q02,q09), predict×2 (q03,q07), compare×1, verify×2, restore×2, inverse×1, word_problem×1 — ни одна не больше 2. recommendedMaxCount=null, count=12 сохранён."
+}

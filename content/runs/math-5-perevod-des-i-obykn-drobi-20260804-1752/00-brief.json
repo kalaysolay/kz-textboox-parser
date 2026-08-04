@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-perevod-des-i-obykn-drobi-20260804-1752",
+  "createdAt": "2026-08-04T17:52:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "Перевод десятичной дроби в обыкновенную, обыкновенной дроби в десятичную",
+  "topicKk": "Ондық бөлшекті жай бөлшекке, жай бөлшекті ондық бөлшекке айналдыру",
+  "topicSlug": "perevod-des-i-obykn-drobi",
+  "topicCode": "4.2",
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 12,
+  "typeMix": { "SCQ": 7, "MCQ": 3, "FILL_IN": 2 },
+  "difficultyMix": { "1": 1, "2": 2, "3": 6, "4": 2, "5": 1 },
+  "illustrationPolicy": "none",
+  "illustrationFor": [],
+  "parsedTextbookPath": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+  "pdfTextbookPath": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/Математика Алдамуратова Т. учебник для 5 класса Часть 2.pdf",
+  "methodistInstruction": "Проверка пайплайна после удаления Java seed. Не выходить за тему 4.2: перевод десятичной↔обыкновенной. Умножение/деление десятичных — соседние темы.",
+  "languageMode": "BOTH"
+}

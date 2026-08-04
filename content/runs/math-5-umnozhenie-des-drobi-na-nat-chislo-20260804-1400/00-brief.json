@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-umnozhenie-des-drobi-na-nat-chislo-20260804-1400",
+  "createdAt": "2026-08-04T14:00:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "Умножение десятичной дроби на натуральное число",
+  "topicKk": "Ондық бөлшекті натурал санға көбейту",
+  "topicSlug": "umnozhenie-des-drobi-na-nat-chislo",
+  "topicCode": "4.5",
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 12,
+  "typeMix": { "SCQ": 7, "MCQ": 3, "FILL_IN": 2 },
+  "difficultyMix": { "1": 1, "2": 2, "3": 6, "4": 2, "5": 1 },
+  "illustrationPolicy": "none",
+  "illustrationFor": [],
+  "parsedTextbookPath": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+  "methodistInstruction": "Пилотный прогон пайплайна. Не выходить за пределы темы 4.5: умножение на 10/100/1000 (сдвиг запятой) — это тема 4.9, умножение десятичной дроби на десятичную — тема 4.6.",
+  "languageMode": "BOTH"
+}

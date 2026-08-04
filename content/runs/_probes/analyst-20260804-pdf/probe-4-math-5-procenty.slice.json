@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "runId": "_probe/analyst-20260804-pdf/probe-4-math-5-procenty",
+  "textbook": {
+    "path": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+    "pdfPath": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/Математика Алдамуратова Т. учебник для 5 класса Часть 2.pdf",
+    "titleRu": "Математика. Учебник для учащихся 5 класса общеобразовательной школы",
+    "authorsShort": "Алдамуратова",
+    "grade": 5,
+    "part": 2,
+    "publisher": "Атамура",
+    "year": 2017
+  },
+  "unit": {
+    "lessonNo": 16,
+    "section": "VI",
+    "sectionTitle": "Проценты",
+    "topicCode": "6.1",
+    "topicTitle": "Проценты",
+    "pageStart": 111,
+    "pageEnd": 117,
+    "supplementary": false
+  },
+  "textbookRef": "Алдамуратова, 5 кл, ч.2, стр. 111-117",
+  "rules": [
+    {
+      "ruleId": "PDF_p111_1",
+      "name": "Определение процента",
+      "statement": "Один процент — это одна сотая часть целого.",
+      "formula": "1% = 1/100 = 0,01",
+      "sourcePages": [111],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_111.png рамка определения + формула 1%=1/100 или 1%=0,01; рис. 6.1 — сетка 10×10"
+    },
+    {
+      "ruleId": "PDF_p111_2",
+      "name": "Процент как сотая часть величины",
+      "statement": "Одну сотую (1/100) часть любой величины (числа) принимают за один процент. Целое составляет 100%.",
+      "formula": null,
+      "sourcePages": [111],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_111.png абзацы под рамкой; «Любое число процентов можно выразить дробью или натуральным числом.»"
+    }
+  ],
+  "verbatimExamples": [
+    {
+      "exactPage": 111,
+      "text": "На рис. 6.1 закрашено 9 клеток из 100: это 9%; незакрашенные: 100% − 9% = 91%.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "схема на PNG; без картинки условие всё равно вычислимо"
+    }
+  ],
+  "structuralExamples": [],
+  "generatorProfile": {
+    "audience": "Учащиеся 5 класса общеобразовательных школ Республики Казахстан",
+    "taskMixRecommended": {
+      "calculation": 0.35,
+      "word_problem": 0.25,
+      "measurement": 0.05,
+      "geometry": 0.2,
+      "sets_logic": 0.15
+    },
+    "formatRules": [
+      "Три уровня сложности: А (базовый), В (продвинутый), С (творческий)",
+      "Проценты — контекстные задачи (скидки, население, успеваемость)"
+    ],
+    "safetyAndScope": [
+      "Программа 5 класса части 2",
+      "Не включать темы за пределами части 2"
+    ]
+  },
+  "blockStructureNotes": "Глава VI открывается определением процента на стр. 111 (рамка + формула + рис. 6.1). Для пробы вычитаны стр. 111–113; полный диапазон темы 111–117.",
+  "sliceStatus": "ready",
+  "recommendedMaxCount": 8,
+  "gaps": [
+    "В пробе детально вычитана вступительная часть (111); упражнения 112–117 не копировались целиком — recommendedMaxCount=8.",
+    "Перекрёстно: в parsed есть R012/правила процентов — текст совпадает с PDF-рамкой."
+  ],
+  "ocrConfidence": "high"
+}

@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-perevod-des-i-obykn-drobi-20260804-1752",
+  "reviewedAt": "2026-08-04T18:25:00+05:00",
+  "summary": {
+    "total": 12,
+    "accepted": 11,
+    "fixed": 1,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "A — любую десятичную можно записать обыкновенной или смешанным числом",
+      "keyAnswer": "A — correct: true",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "37/100 (после запятой две цифры → знаменатель 100)",
+      "keyAnswer": "B — 37/100",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "1000 (три цифры после запятой → 1 и три нуля в знаменателе)",
+      "keyAnswer": "C — 1000",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "5 7/100 (целая часть 5, дробная 07/100 = 7/100)",
+      "keyAnswer": "B — 5 7/100",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "A (3/4), C (3/20), D (3/25) — знаменатели только 2 и/или 5",
+      "keyAnswer": "A, C, D — correct: true",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "fixed",
+      "solvedAnswer": "5 (20·5=100, 7·5=35)",
+      "keyAnswer": "C — 5",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "kk_calque",
+          "severity": "minor",
+          "message": "bodyKk: «жіберілген» — калька с рус. «пропущено» (от «жіберу» = отправить); для пропуска в равенстве естественнее «орын алмаған»"
+        }
+      ],
+      "fixApplied": "bodyKk: «Қандай сан жіберілген» → «Қандай сан орын алмаған»"
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "0,75 (3/4 = 3·1/4 = 3·0,25 = 0,75)",
+      "keyAnswer": "B — 0,75",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "A (3/7), C (3/11), D (3/23) — знаменатели содержат простые множители ≠ 2,5",
+      "keyAnswer": "A, C, D — correct: true",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "9,14 (7/50 = 14/100 = 0,14 → 9,14)",
+      "keyAnswer": "[[1]] = 9,14",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "1/4 (0,25 = 25/100 = 1/4, несократимая)",
+      "keyAnswer": "B — 1/4",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "A (мальчики 10/25=0,4) и B (девочки 15/25=0,6)",
+      "keyAnswer": "A, B — correct: true",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "0,8 (12/15 = 4/5 = 8/10 = 0,8)",
+      "keyAnswer": "[[1]] = 0,8",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "runId": "_probe/analyst-20260804-pdf/probe-1-math-5-umnozhenie",
+  "textbook": {
+    "path": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+    "pdfPath": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/Математика Алдамуратова Т. учебник для 5 класса Часть 2.pdf",
+    "titleRu": "Математика. Учебник для учащихся 5 класса общеобразовательной школы",
+    "authorsShort": "Алдамуратова",
+    "grade": 5,
+    "part": 2,
+    "publisher": "Атамура",
+    "year": 2017
+  },
+  "unit": {
+    "lessonNo": 7,
+    "section": "IV",
+    "sectionTitle": "Десятичные дроби. Действия над десятичными дробями",
+    "topicCode": "4.5",
+    "topicTitle": "Умножение десятичной дроби на натуральное число",
+    "pageStart": 45,
+    "pageEnd": 50,
+    "supplementary": false
+  },
+  "textbookRef": "Алдамуратова, 5 кл, ч.2, стр. 45-50",
+  "rules": [
+    {
+      "ruleId": "PDF_p45_1",
+      "name": "Умножение десятичной дроби на натуральное число",
+      "statement": "При умножении десятичной дроби на натуральное число сначала надо выполнить умножение, не обращая внимания на запятую. Затем в значении произведения отделить запятой справа столько цифр (десятичных знаков), сколько их имеется после запятой в десятичной дроби.",
+      "formula": null,
+      "sourcePages": [45, 46],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "pdf/png page_045.png (начало рамки «Правило…») + page_046.png (продолжение); pdfOffset=0"
+    },
+    {
+      "ruleId": "PDF_p46_1",
+      "name": "Свойства умножения десятичной дроби на натуральное число",
+      "statement": "При умножении десятичной дроби на натуральное число выполняются переместительное, сочетательное и распределительное свойства умножения.",
+      "formula": null,
+      "sourcePages": [46],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_046.png сразу после рамки правила; примеры: 2,81·3=3·2,81; (3·2,5)·4=3·(2,5·4); (6,3+2)·5=6,3·5+2·5"
+    }
+  ],
+  "verbatimExamples": [
+    {
+      "exactPage": 45,
+      "text": "Найдите значение произведения: 1) 25,85 · 7; 2) 8,9 · 6; 3) 0,009 · 8. (Проверьте себя: 180,95; 53,4; 0,072.)",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "выписано с PNG; разобранный пример 4,23·5=21,15 на той же странице"
+    },
+    {
+      "exactPage": 46,
+      "text": "811. Вычислите (устно): 0,6·7; 0,08·9; 1,2·4; 3,5·10; …",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": null
+    },
+    {
+      "exactPage": 46,
+      "text": "815. Скорость звука в воздухе 332,5 м/с. Звук летящего самолета был услышан через 4 с после его обнаружения. На каком расстоянии находился самолет, когда был услышан звук?",
+      "taskType": "word_problem",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": null
+    }
+  ],
+  "structuralExamples": [
+    {
+      "taskType": "calculation",
+      "template": "Выполни: 3,25 + 1,08; 5,4 − 2,73; 0,6 · 4.",
+      "expectedSkill": "Сложение, вычитание, умножение десятичных дробей"
+    }
+  ],
+  "generatorProfile": {
+    "audience": "Учащиеся 5 класса общеобразовательных школ Республики Казахстан",
+    "taskMixRecommended": {
+      "calculation": 0.35,
+      "word_problem": 0.25,
+      "measurement": 0.05,
+      "geometry": 0.2,
+      "sets_logic": 0.15
+    },
+    "formatRules": [
+      "Три уровня сложности: А (базовый), В (продвинутый), С (творческий)",
+      "Десятичные дроби — запись через запятую (0,25)"
+    ],
+    "safetyAndScope": [
+      "Программа 5 класса части 2: десятичные дроби, множества, проценты, углы, диаграммы, развертки",
+      "Не включать темы за пределами части 2 (алгебра 6+ класса)"
+    ]
+  },
+  "blockStructureNotes": "Стр. 45 — разобранный пример 4,23·5 и рамка правила (перенос на 46); стр. 46 — свойства умножения и упражнения 811–815; далее до стр. 50 — практика. Текст правила взят с PNG, не из реконструкции.",
+  "sliceStatus": "ready",
+  "recommendedMaxCount": null,
+  "gaps": [
+    "В parsed rules[] по диапазону 45–50 пусто (как в пилоте); формулировка восстановлена с PDF, не RC_*.",
+    "Отдельного правила про «дописывание нулей слева» в рамке нет — только пример 0,009·8=0,072.",
+    "pdfOffset=0 подтверждён: на PNG печатный номер 45/46 совпадает с индексом PDF-страницы."
+  ],
+  "ocrConfidence": "high"
+}

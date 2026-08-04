@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "runId": "_probe/analyst-20260804/probe-2-math-5-procenty",
+  "textbook": {
+    "path": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+    "titleRu": "Математика. Учебник для учащихся 5 класса общеобразовательной школы",
+    "authorsShort": "Алдамуратова",
+    "grade": 5,
+    "part": 2,
+    "publisher": "Атамура",
+    "year": 2017
+  },
+  "unit": {
+    "lessonNo": 18,
+    "section": "VI",
+    "sectionTitle": "Проценты",
+    "topicCode": "6.1",
+    "topicTitle": "Проценты",
+    "pageStart": 111,
+    "pageEnd": 117,
+    "supplementary": false
+  },
+  "textbookRef": "Алдамуратова, 5 кл, ч.2, стр. 111-117",
+  "rules": [
+    {
+      "ruleId": "R011",
+      "name": "Процент",
+      "statement": "Процент — сотая часть числа; 1% = 1/100.",
+      "formula": "a% = a/100",
+      "sourcePages": [111],
+      "origin": "verbatim_extracted",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "rules[].rule_id=R011, source_pages=[111]; стр. 111 — первая страница темы"
+    },
+    {
+      "ruleId": "R012",
+      "name": "Нахождение процента от числа",
+      "statement": "Чтобы найти p% от числа N, умножь N на p и раздели на 100.",
+      "formula": "p% от N = N·p/100",
+      "sourcePages": [118],
+      "origin": "verbatim_extracted",
+      "binding": "neighbour_page",
+      "role": "prerequisite",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "rules[].rule_id=R012, source_pages=[118] — это стр. 118, первая страница следующей темы 6.2 «Нахождение процентов от данного числа»"
+    }
+  ],
+  "verbatimExamples": [
+    {
+      "exactPage": 113,
+      "text": "1. Что такое 1%?",
+      "taskType": "word_problem",
+      "confidence": "medium_ocr",
+      "usable": true,
+      "note": null
+    },
+    {
+      "exactPage": 112,
+      "text": "1. Сколько процентов составляет: 5’ 5 ?",
+      "taskType": "word_problem",
+      "confidence": "medium_ocr",
+      "usable": false,
+      "note": "OCR-обрывок: дроби в условии не восстанавливаются"
+    },
+    {
+      "exactPage": 112,
+      "text": "2. Запишите выражение, по которому можно выразить дробь 8",
+      "taskType": "calculation",
+      "confidence": "medium_ocr",
+      "usable": false,
+      "note": "OCR-обрывок: условие обрывается на середине дроби"
+    }
+  ],
+  "structuralExamples": [
+    {
+      "taskType": "word_problem",
+      "template": "В классе 28 учеников; 25% — отличники. Сколько отличников? Сколько учеников, если 6 — это 15%?",
+      "expectedSkill": "Проценты от числа и число по процентам"
+    }
+  ],
+  "generatorProfile": {
+    "audience": "Учащиеся 5 класса общеобразовательных школ Республики Казахстан",
+    "taskMixRecommended": {
+      "calculation": 0.35,
+      "word_problem": 0.25,
+      "measurement": 0.05,
+      "geometry": 0.2,
+      "sets_logic": 0.15
+    },
+    "formatRules": [
+      "Три уровня сложности: А (базовый), В (продвинутый), С (творческий)",
+      "Проценты — контекстные задачи (скидки, население, успеваемость)"
+    ],
+    "safetyAndScope": [
+      "Программа 5 класса части 2: десятичные дроби, множества, проценты, углы, диаграммы, развертки",
+      "Не включать темы за пределами части 2 (алгебра 6+ класса)"
+    ]
+  },
+  "blockStructureNotes": "Урок 18 (стр. 111-117) открывает раздел VI: определение процента на стр. 111, затем шесть страниц упражнений и методических вопросов («Что такое 1%?»). Нахождение процента от числа — уже следующая тема 6.2, поэтому R012 подключён как prerequisite и слот матрицы на нём строить нельзя. Реально встречающиеся task_type: word_problem и calculation.",
+  "sliceStatus": "ready",
+  "recommendedMaxCount": 8,
+  "gaps": [
+    "Пригодных verbatim-примеров 1 из 3 (стр. 113); два примера со стр. 112 — OCR-обрывки. recommendedMaxCount=8.",
+    "R012 «Нахождение процента от числа» лежит на стр. 118 — это первая страница темы 6.2, поэтому role=prerequisite: считать проценты в заданиях можно, но проверять этим слотом нельзя.",
+    "Структурный пример взят с topic_refs=[15,16] при lesson_no=18: отбор по expected_skill «Проценты от числа и число по процентам». Это тот самый сдвиг topic_refs относительно lesson_no, о котором предупреждает методика."
+  ],
+  "ocrConfidence": "medium"
+}

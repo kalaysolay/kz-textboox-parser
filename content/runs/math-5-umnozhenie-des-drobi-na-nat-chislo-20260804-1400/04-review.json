@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-umnozhenie-des-drobi-na-nat-chislo-20260804-1400",
+  "reviewedAt": "2026-08-04T14:35:00+05:00",
+  "summary": {
+    "total": 12,
+    "accepted": 10,
+    "fixed": 2,
+    "rejected": 0,
+    "rejectRate": 0.0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "Отделить справа столько цифр, сколько знаков после запятой было в десятичной дроби",
+      "keyAnswer": "A — Отделить справа столько цифр, сколько их после запятой в дроби",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "3",
+      "keyAnswer": "B — 3",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "53,4 (89 · 6 = 534, один знак после запятой)",
+      "keyAnswer": "[[1]] = 53,4",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "0,072 (9 · 8 = 72, три знака после запятой, нуль дописан слева)",
+      "keyAnswer": "C — 0,072",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "18,7 (374 · 5 = 1870, два знака после запятой, нуль в конце отброшен)",
+      "keyAnswer": "B — 18,7",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "180,95 (2585 · 7 = 18095, два знака после запятой)",
+      "keyAnswer": "[[1]] = 180,95",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "5,1 кг (85 · 6 = 510, два знака после запятой, нуль в конце отброшен)",
+      "keyAnswer": "D — 5,1 кг",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "2,5 · 4 = 10 и 0,75 · 4 = 3 (1,5 · 3 = 4,5 и 0,35 · 4 = 1,4 — не натуральные)",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "fixed",
+      "solvedAnswer": "28,8 м (36 · 4 = 144 → 14,4 м периметр; 144 · 2 = 288 → 28,8 м)",
+      "keyAnswer": "C — 28,8 м",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "kk_calque",
+          "severity": "minor",
+          "message": "bodyKk: «екі қатар қоршаумен қоршады» — тавтология однокоренных слов и калька русской конструкции; вопрос «Қоршауға қанша метр кетті?» без подлежащего звучит для пятиклассника обрывочно"
+        }
+      ],
+      "fixApplied": "bodyKk переписан на «Гүлзардың айналасын екі қатар етіп қоршады. Барлығы қанша метр қоршау жұмсалды?»; смысл, числа и ключ не изменены"
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "1,2 · 5 = 6 и 0,08 · 9 = 0,72 (0,45 · 3 = 1,35, а не 13,5; 7,3 · 4 = 29,2, а не 2,92)",
+      "keyAnswer": "A, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "A и C (B и D противоречат правилу RC_4501)",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "fixed",
+      "solvedAnswer": "8 (0,125 · n натурально впервые при n = 8: 125 · 8 = 1000 → 1)",
+      "keyAnswer": "B — 8",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "kk_mixed_script",
+          "severity": "minor",
+          "message": "explanationKk: в слове «тексеремiз» латинская буква i (U+0069) вместо казахской і (U+0456) — смешение алфавитов внутри одного поля"
+        }
+      ],
+      "fixApplied": "В explanationKk слово «тексеремiз» заменено на «тексереміз» с казахской буквой і; текст объяснения в остальном не менялся"
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

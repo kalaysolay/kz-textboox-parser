@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "runId": "_probe/analyst-20260804/probe-4-kaz-3-zhyl-mezgilderi",
+  "textbook": {
+    "path": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Казахский язык 3 класс/kaz_tili_orazbaeva_3grade_part1_parsed_v2.json",
+    "titleRu": "Казахский язык. Балапан. Учебник для 3 класса (часть 1)",
+    "authorsShort": "Оразбаева",
+    "grade": 3,
+    "part": 1,
+    "publisher": "Көкжиек-Горизонт",
+    "year": 2018
+  },
+  "unit": {
+    "lessonNo": 6,
+    "section": "3",
+    "sectionTitle": "Уақыт",
+    "topicCode": "p1_u306",
+    "topicTitle": "Жылдың төрт мезгілі",
+    "pageStart": 82,
+    "pageEnd": 84,
+    "supplementary": false
+  },
+  "textbookRef": "Оразбаева, 3 кл, ч.1, стр. 82-84",
+  "rules": [
+    {
+      "ruleId": "r_seasons_core",
+      "name": "Жыл мезгілдері",
+      "statement": "Жылдың төрт мезгілі: қыс, көктем, жаз, күз; бір жылда 12 ай, 365 тәулік, тәулікте 24 сағат.",
+      "formula": "1 жыл = 12 ай = 365 тәулік; 1 тәулік = 24 сағат",
+      "sourcePages": [84],
+      "origin": "verbatim_extracted",
+      "binding": "explicit_link",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "topic_rule_links: topic_id=p1_u306, rule_ids=[r_seasons_core], relation=primary; сама rules[].id=r_seasons_core с source_page=84 попадает в диапазон 82-84"
+    },
+    {
+      "ruleId": "r_winter_spring_features",
+      "name": "Қыс/көктем сипаттау",
+      "statement": "Маусымдық құбылыстарды нақты етістіктермен айту: қар жауады, қар ериді, күн жылынады.",
+      "formula": null,
+      "sourcePages": [87],
+      "origin": "verbatim_extracted",
+      "binding": "neighbour_page",
+      "role": "prerequisite",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "rules[].id=r_winter_spring_features, source_page=87 — это диапазон соседней темы p1_u307 «Қыс айлары» (стр. 85-87); в topic_rule_links связи с p1_u306 у этого правила нет"
+    }
+  ],
+  "verbatimExamples": [
+    {
+      "exactPage": 84,
+      "text": "5-тапсырма. Сұраққа жауап беріңдер. Диалог құрыңдар. 1. Жылдың неше мезгілі бар? 2. Бір жылда неше ай бар?",
+      "taskType": "speaking_dialogue",
+      "confidence": "high_text_layer",
+      "usable": true,
+      "note": null
+    }
+  ],
+  "structuralExamples": [
+    {
+      "taskType": "vocabulary_matching",
+      "template": "Сөздерді мағынасымен сәйкестендір (kk-ru немесе kk-kk түсіндірме).",
+      "expectedSkill": "vocabulary_matching — сөздік қорды модуль тақырыбы бойынша бекіту (поля expected_skill в этом учебнике нет)"
+    },
+    {
+      "taskType": "reading_comprehension_short",
+      "template": "Мәтінді оқы. 3 сұраққа қысқа жауап бер: «Кім? Не істеді? Қайда?»",
+      "expectedSkill": "reading_comprehension_short — қысқа мәтін + нақты сұрақтар, 3-сынып деңгейі (поля expected_skill в этом учебнике нет)"
+    }
+  ],
+  "generatorProfile": {
+    "audience": "3-сынып, қазақ тілінен басқа тілде оқытатын мектеп",
+    "taskMixRecommended": {
+      "reading_comprehension": 0.25,
+      "speaking_dialogue": 0.2,
+      "grammar_spelling": 0.25,
+      "vocabulary_work": 0.2,
+      "writing_short_response": 0.1
+    },
+    "formatRules": [
+      "Тапсырма мәтіні қысқа әрі түсінікті",
+      "Көрнекі тірек сөз/үлгі беру",
+      "Жас ерекшелігіне сай 1-3 қадам",
+      "Бір тапсырмада бір негізгі дағды"
+    ],
+    "safetyAndScope": [
+      "Балаларға қауіпсіз, бейтарап мазмұн",
+      "Медициналық/психологиялық диагноз берілмейді",
+      "Казахстан мектеп контексі, мәдени сәйкестік сақталады"
+    ]
+  },
+  "blockStructureNotes": "Урок 6 модуля «Уақыт» (стр. 82-84) вводит систему времён года и опирается на счётную лексику (12 ай, 365 тәулік, 24 сағат); дальше идут уроки про отдельные сезоны (p1_u307 «Қыс айлары» и т.д.). В parsed текстовый слой хороший (high_text_layer), но verbatim-задание по теме одно — устный диалог со стр. 84. Структурные примеры в этом учебнике даны на всю книгу без привязки к урокам, поэтому отобраны по характеру задания и профилю (лексика и короткое чтение).",
+  "sliceStatus": "ready",
+  "recommendedMaxCount": 8,
+  "gaps": [
+    "Единица найдена по id=p1_u306 (в этом учебнике вместо topic_code — поле id, а вместо topic_title — topic_title_kk).",
+    "verbatim_examples в этом учебнике без lesson_no: отбор шёл по exact_page в диапазоне 82-84, нашлась одна строка.",
+    "Пригодных verbatim-примеров 1 из 1, но их меньше трёх, поэтому recommendedMaxCount=8.",
+    "structural_examples_for_generation здесь без topic_refs и без expected_skill (есть template_kk, task_type и rk_program_style_note): привязка к теме сделана по смыслу, expectedSkill собран из task_type и пометки, риск не по теме — на аналитике.",
+    "r_winter_spring_features со стр. 87 отнесён к соседней теме p1_u307 (role=prerequisite): описывать зимние признаки в задании можно, слот матрицы на этом правиле — нельзя.",
+    "unit.section / sectionTitle собраны из unit_no=3 и unit_title_kk=«Уақыт» — полей section/section_title в этом учебнике нет; titleRu взят из metadata.title_ru (основной title здесь по-казахски)."
+  ],
+  "ocrConfidence": "high"
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "runId": "_probe/analyst-20260804-pdf/probe-2-math-5-posledovatelnosti",
+  "textbook": {
+    "path": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+    "pdfPath": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/Математика Алдамуратова Т. учебник для 5 класса Часть 2.pdf",
+    "titleRu": "Математика. Учебник для учащихся 5 класса общеобразовательной школы",
+    "authorsShort": "Алдамуратова",
+    "grade": 5,
+    "part": 2,
+    "publisher": "Атамура",
+    "year": 2017
+  },
+  "unit": {
+    "lessonNo": 13,
+    "section": "IV",
+    "sectionTitle": "Десятичные дроби. Действия над десятичными дробями",
+    "topicCode": "4.12",
+    "topicTitle": "Числовые последовательности, составленные из дробей",
+    "pageStart": 90,
+    "pageEnd": 91,
+    "supplementary": false
+  },
+  "textbookRef": "Алдамуратова, 5 кл, ч.2, стр. 90-91",
+  "rules": [
+    {
+      "ruleId": "PDF_p90_1",
+      "name": "Закономерность числовой последовательности",
+      "statement": "Установите закономерность в числовых последовательностях. Запишите последующие (или предыдущие / пропущенные) члены последовательности.",
+      "formula": null,
+      "sourcePages": [90, 91],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_090.png упр. 1005–1010 и page_091.png упр. 1012 — дословные инструкции заданий; отдельной рамки «Правило» на развороте нет"
+    },
+    {
+      "ruleId": "PDF_p91_1",
+      "name": "Последовательность, заданная формулой",
+      "statement": "Последовательность (a_n) может быть задана формулой n-ого члена; по формуле вычисляют члены с номерами 1, 2, 3, …",
+      "formula": "a_n = 1/n^2",
+      "sourcePages": [91],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_091.png упр. 1011: «Впишите в таблицу первые пять членов последовательности (a_n), заданной формулой a_n = 1/n²»; упр. 1013 — «Запишите формулу n-ого члена»"
+    }
+  ],
+  "verbatimExamples": [
+    {
+      "exactPage": 90,
+      "text": "1007. Угадайте закономерность в порядке записи чисел. Запишите пропущенные 2 члена последовательности: 1) 0,4; 0,7; 1; … ; 1,9; 2,2; 2,5; … ; 2) 9,3; 9,1; 8,9; … ; 8,3; 8,1; 7,9; … ; 3) 0,03; 0,06; 0,12; … ; 0,96; 1,92; 3,84; … ; 4) 9,6; 4,8; 2,4; … ; 0,3; 0,15; 0,075; …",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "с PNG; в старой пробе parsed давал OCR-мусор на этих же номерах"
+    },
+    {
+      "exactPage": 91,
+      "text": "1011. Впишите в таблицу первые пять членов последовательности (a_n), заданной формулой a_n = 1/n².",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": null
+    },
+    {
+      "exactPage": 91,
+      "text": "1014. Запишите пять чисел последовательности, первое из которых равно 3/4, а каждое следующее получается умножением предыдущего на 2.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": null
+    }
+  ],
+  "structuralExamples": [],
+  "generatorProfile": {
+    "audience": "Учащиеся 5 класса общеобразовательных школ Республики Казахстан",
+    "taskMixRecommended": {
+      "calculation": 0.35,
+      "word_problem": 0.25,
+      "measurement": 0.05,
+      "geometry": 0.2,
+      "sets_logic": 0.15
+    },
+    "formatRules": [
+      "Три уровня сложности: А (базовый), В (продвинутый), С (творческий)",
+      "Десятичные дроби — запись через запятую (0,25)"
+    ],
+    "safetyAndScope": [
+      "Программа 5 класса части 2",
+      "Не включать темы за пределами части 2"
+    ]
+  },
+  "blockStructureNotes": "Короткий двухстраничный блок упражнений 1005–1014 без рамки «Правило». Уровни A/B/C. Материал полностью читаем на PNG; старая блокировка шла от пустого/битого parsed, а не от отсутствия темы в книге.",
+  "sliceStatus": "ready",
+  "recommendedMaxCount": null,
+  "gaps": [
+    "Формальной рамки «Правило …» на стр. 90–91 нет: primary-опоры — дословные инструкции заданий и формула a_n из упр. 1011.",
+    "В parsed verbatim_examples по этой теме — OCR-мусор; после чтения PDF тема больше не blocked."
+  ],
+  "ocrConfidence": "high"
+}

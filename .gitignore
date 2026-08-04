@@ -8,3 +8,9 @@
 # OS
 Thumbs.db
 .DS_Store
+
+# Пайплайн генерации вопросов (content/runs)
+# Машинозависимые payload импорта (id конкретной БД Damulab) — не коммитить.
+.local/
+# Журналы ролей прогона (logs/analyst.md и т.п.) — рабочие записки, истина в JSON 00–05.
+content/runs/**/logs/

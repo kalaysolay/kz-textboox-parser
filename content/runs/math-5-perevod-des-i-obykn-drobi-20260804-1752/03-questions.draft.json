@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-perevod-des-i-obykn-drobi-20260804-1752",
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "math-5-perevod-des-i-obykn-drobi-20260804-1752",
+    "generatedAt": "2026-08-04T18:10:00+05:00",
+    "subjectTitleRu": "Математика",
+    "subjectTitleKk": "Математика",
+    "gradeNo": 5,
+    "topicCode": "4.2",
+    "topicTitleRu": "Перевод десятичной дроби в обыкновенную, обыкновенной дроби в десятичную",
+    "topicTitleKk": "Ондық бөлшекті жай бөлшекке, жай бөлшекті ондық бөлшекке айналдыру",
+    "topicSlug": "perevod-des-i-obykn-drobi",
+    "atomicSkillTitleRu": null,
+    "textbookRef": "Алдамуратова, 5 кл, ч.2, стр. 24-29",
+    "illustrationPolicy": "none",
+    "sourceReliability": "verbatim"
+  },
+  "questions": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "bodyRu": "Какое утверждение верно?",
+      "bodyKk": "Қай тұжырым дұрыс?",
+      "explanationRu": "По ключевому факту учебника любую десятичную дробь можно записать в виде обыкновенной дроби или смешанного числа.",
+      "explanationKk": "Оқулықтағы негізгі факт бойынша кез келген ондық бөлшекті жай бөлшек немесе аралас сан түрінде жазуға болады.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 24-29",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Любую десятичную дробь можно записать в виде обыкновенной дроби или смешанного числа", "textKk": "Кез келген ондық бөлшекті жай бөлшек немесе аралас сан түрінде жазуға болады", "correct": true },
+        { "label": "B", "textRu": "Десятичную дробь можно записать обыкновенной только если она меньше 1", "textKk": "Ондық бөлшекті жай бөлшекпен тек 1-ден кіші болғанда ғана жазуға болады", "correct": false },
+        { "label": "C", "textRu": "Десятичную дробь можно записать только смешанным числом, но не обыкновенной дробью", "textKk": "Ондық бөлшекті тек аралас сан түрінде жазуға болады, жай бөлшек түрінде емес", "correct": false },
+        { "label": "D", "textRu": "Перевод десятичной в обыкновенную возможен только при знаменателе 10", "textKk": "Ондықты жай бөлшекке тек бөлімі 10 болғанда ғана айналдыруға болады", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p29_1"]
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Запиши число $0,37$ в виде обыкновенной дроби.",
+      "bodyKk": "$0,37$ санын жай бөлшек түрінде жаз.",
+      "explanationRu": "После запятой две цифры, значит знаменатель $100$, числитель $37$: $0,37 = \\frac{37}{100}$.",
+      "explanationKk": "Үтірден кейін екі цифр бар, демек бөлім $100$, алым $37$: $0,37 = \\frac{37}{100}$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 24-29",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$\\frac{37}{10}$", "textKk": "$\\frac{37}{10}$", "correct": false },
+        { "label": "B", "textRu": "$\\frac{37}{100}$", "textKk": "$\\frac{37}{100}$", "correct": true },
+        { "label": "C", "textRu": "$\\frac{37}{1000}$", "textKk": "$\\frac{37}{1000}$", "correct": false },
+        { "label": "D", "textRu": "$\\frac{3}{7}$", "textKk": "$\\frac{3}{7}$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p24_1"]
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Не выполняя полного перевода, определи знаменатель обыкновенной дроби, которой равна $0,008$.",
+      "bodyKk": "Толық ауыстыруды орындамай, $0,008$ санына тең жай бөлшектің бөлімін анықта.",
+      "explanationRu": "После запятой три цифры, поэтому в знаменателе единица и три нуля: $1000$.",
+      "explanationKk": "Үтірден кейін үш цифр бар, сондықтан бөлімде бір және үш нөл: $1000$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 24-29",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$10$", "textKk": "$10$", "correct": false },
+        { "label": "B", "textRu": "$100$", "textKk": "$100$", "correct": false },
+        { "label": "C", "textRu": "$1000$", "textKk": "$1000$", "correct": true },
+        { "label": "D", "textRu": "$8$", "textKk": "$8$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p24_1"]
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Какая запись равна числу $5,07$?",
+      "bodyKk": "Қай жазылым $5,07$ санына тең?",
+      "explanationRu": "По алгоритму: $5,07 = 5\\frac{07}{100} = 5\\frac{7}{100}$.",
+      "explanationKk": "Алгоритм бойынша: $5,07 = 5\\frac{07}{100} = 5\\frac{7}{100}$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 24-29",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$5\\frac{7}{10}$", "textKk": "$5\\frac{7}{10}$", "correct": false },
+        { "label": "B", "textRu": "$5\\frac{7}{100}$", "textKk": "$5\\frac{7}{100}$", "correct": true },
+        { "label": "C", "textRu": "$5\\frac{7}{1000}$", "textKk": "$5\\frac{7}{1000}$", "correct": false },
+        { "label": "D", "textRu": "$\\frac{5}{7}$", "textKk": "$\\frac{5}{7}$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p24_1"]
+    },
+    {
+      "localId": "q05",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Какие из дробей можно представить в виде конечной десятичной? Выбери все верные варианты.",
+      "bodyKk": "Қай бөлшектерді аяқталған ондық бөлшек түрінде жазуға болады? Барлық дұрыс нұсқаларды таңда.",
+      "explanationRu": "У несократимой дроби знаменатель должен содержать только множители $2$ и/или $5$: $3/4$ ($4=2^2$), $3/5$, $3/10$, $3/20$ ($20=2^2\\cdot5$), $3/25$ ($25=5^2$). У $3/7$, $3/11$, $3/23$ есть другие простые множители.",
+      "explanationKk": "Қысқармайтын бөлшектің бөлімінде тек $2$ және/немесе $5$ көбейткіштері болуы керек: $3/4$ ($4=2^2$), $3/5$, $3/10$, $3/20$ ($20=2^2\\cdot5$), $3/25$ ($25=5^2$). $3/7$, $3/11$, $3/23$ бөлшектерінде басқа жай көбейткіштер бар.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 24-29",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$\\frac{3}{4}$", "textKk": "$\\frac{3}{4}$", "correct": true },
+        { "label": "B", "textRu": "$\\frac{3}{7}$", "textKk": "$\\frac{3}{7}$", "correct": false },
+        { "label": "C", "textRu": "$\\frac{3}{20}$", "textKk": "$\\frac{3}{20}$", "correct": true },
+        { "label": "D", "textRu": "$\\frac{3}{25}$", "textKk": "$\\frac{3}{25}$", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p24_2", "PDF_p25_1"]
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Какое число пропущено: $\\dfrac{7}{20} = \\dfrac{7\\cdot \\square}{20\\cdot \\square} = \\dfrac{35}{100}$? (Одно и то же натуральное число в обоих местах.)",
+      "bodyKk": "Қандай сан жіберілген: $\\dfrac{7}{20} = \\dfrac{7\\cdot \\square}{20\\cdot \\square} = \\dfrac{35}{100}$? (Екі жерде де бірдей натурал сан.)",
+      "explanationRu": "Нужно $20\\cdot x = 100$, значит $x = 5$; тогда $7\\cdot5 = 35$.",
+      "explanationKk": "$20\\cdot x = 100$ болуы керек, демек $x = 5$; сонда $7\\cdot5 = 35$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 24-29",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$2$", "textKk": "$2$", "correct": false },
+        { "label": "B", "textRu": "$4$", "textKk": "$4$", "correct": false },
+        { "label": "C", "textRu": "$5$", "textKk": "$5$", "correct": true },
+        { "label": "D", "textRu": "$10$", "textKk": "$10$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p25_2"]
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Не выполняя деления в столбик, укажи десятичную запись дроби $\\dfrac{3}{4}$ (можно опереться на то, что $\\dfrac{1}{4} = 0,25$).",
+      "bodyKk": "Бағанға бөлуді орындамай, $\\dfrac{3}{4}$ бөлшегінің ондық жазылымын көрсет ($\\dfrac{1}{4} = 0,25$ екеніне сүйенуге болады).",
+      "explanationRu": "$\\dfrac{3}{4} = 3\\cdot\\dfrac{1}{4} = 3\\cdot 0,25 = 0,75$. Или $\\dfrac{3}{4} = \\dfrac{75}{100} = 0,75$.",
+      "explanationKk": "$\\dfrac{3}{4} = 3\\cdot\\dfrac{1}{4} = 3\\cdot 0,25 = 0,75$. Немесе $\\dfrac{3}{4} = \\dfrac{75}{100} = 0,75$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 24-29",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$0,34$", "textKk": "$0,34$", "correct": false },
+        { "label": "B", "textRu": "$0,75$", "textKk": "$0,75$", "correct": true },
+        { "label": "C", "textRu": "$0,43$", "textKk": "$0,43$", "correct": false },
+        { "label": "D", "textRu": "$3,4$", "textKk": "$3,4$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p25_2"]
+    },
+    {
+      "localId": "q08",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Какие из дробей нельзя представить в виде конечной десятичной? Выбери все верные варианты.",
+      "bodyKk": "Қай бөлшектерді аяқталған ондық бөлшек түрінде жазуға болмайды? Барлық дұрыс нұсқаларды таңда.",
+      "explanationRu": "Знаменатели $7$, $11$ и $23$ содержат простые множители, отличные от $2$ и $5$. У $3/5$ знаменатель $5$ — такую дробь представить десятичной можно ($0,6$).",
+      "explanationKk": "$7$, $11$ және $23$ бөлімдерінде $2$ мен $5$-тен басқа жай көбейткіштер бар. $3/5$ бөлшегінің бөлімі $5$ — оны ондық түрінде жазуға болады ($0,6$).",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 24-29",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$\\frac{3}{7}$", "textKk": "$\\frac{3}{7}$", "correct": true },
+        { "label": "B", "textRu": "$\\frac{3}{5}$", "textKk": "$\\frac{3}{5}$", "correct": false },
+        { "label": "C", "textRu": "$\\frac{3}{11}$", "textKk": "$\\frac{3}{11}$", "correct": true },
+        { "label": "D", "textRu": "$\\frac{3}{23}$", "textKk": "$\\frac{3}{23}$", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p25_1"]
+    },
+    {
+      "localId": "q09",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "bodyRu": "Запиши смешанное число $9\\dfrac{7}{50}$ в виде десятичной дроби: [[1]].",
+      "bodyKk": "$9\\dfrac{7}{50}$ аралас санын ондық бөлшек түрінде жаз: [[1]].",
+      "explanationRu": "$\\dfrac{7}{50} = \\dfrac{7\\cdot 2}{50\\cdot 2} = \\dfrac{14}{100} = 0,14$, поэтому $9\\dfrac{7}{50} = 9,14$.",
+      "explanationKk": "$\\dfrac{7}{50} = \\dfrac{7\\cdot 2}{50\\cdot 2} = \\dfrac{14}{100} = 0,14$, демек $9\\dfrac{7}{50} = 9,14$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 24-29",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        { "placeholder": "[[1]]", "answer": "9,14", "matchMode": "NUMERIC_TOLERANCE", "tolerance": 0 }
+      ],
+      "sourceRuleIds": ["PDF_p25_2", "PDF_p29_2"]
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 4,
+      "bodyRu": "Какая несократимая обыкновенная дробь равна $0,25$?",
+      "bodyKk": "$0,25$ санына тең қысқармайтын жай бөлшек қайсы?",
+      "explanationRu": "$0,25 = \\dfrac{25}{100} = \\dfrac{1}{4}$ после сокращения на $25$.",
+      "explanationKk": "$0,25 = \\dfrac{25}{100} = \\dfrac{1}{4}$ ($25$-ке қысқарғаннан кейін).",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 24-29",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$\\frac{25}{100}$", "textKk": "$\\frac{25}{100}$", "correct": false },
+        { "label": "B", "textRu": "$\\frac{1}{4}$", "textKk": "$\\frac{1}{4}$", "correct": true },
+        { "label": "C", "textRu": "$\\frac{1}{25}$", "textKk": "$\\frac{1}{25}$", "correct": false },
+        { "label": "D", "textRu": "$\\frac{2}{5}$", "textKk": "$\\frac{2}{5}$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p29_1"]
+    },
+    {
+      "localId": "q11",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "В классе $10$ мальчиков и $15$ девочек. Какие утверждения верны? Выбери все верные варианты.",
+      "bodyKk": "Сыныпта $10$ ұл және $15$ қыз бар. Қай тұжырымдар дұрыс? Барлық дұрыс нұсқаларды таңда.",
+      "explanationRu": "Всего $25$ учеников. Доля мальчиков $\\dfrac{10}{25} = \\dfrac{2}{5} = 0,4$. Доля девочек $\\dfrac{15}{25} = \\dfrac{3}{5} = 0,6$.",
+      "explanationKk": "Барлығы $25$ оқушы. Ұлдардың үлесі $\\dfrac{10}{25} = \\dfrac{2}{5} = 0,4$. Қыздардың үлесі $\\dfrac{15}{25} = \\dfrac{3}{5} = 0,6$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 24-29",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Мальчики составляют $0,4$ всех учеников класса", "textKk": "Ұлдар сынып оқушыларының $0,4$ бөлігін құрайды", "correct": true },
+        { "label": "B", "textRu": "Девочки составляют $0,6$ всех учеников класса", "textKk": "Қыздар сынып оқушыларының $0,6$ бөлігін құрайды", "correct": true },
+        { "label": "C", "textRu": "Мальчики составляют $0,15$ всех учеников класса", "textKk": "Ұлдар сынып оқушыларының $0,15$ бөлігін құрайды", "correct": false },
+        { "label": "D", "textRu": "Девочки составляют $\\dfrac{15}{10}$ всех учеников класса", "textKk": "Қыздар сынып оқушыларының $\\dfrac{15}{10}$ бөлігін құрайды", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p25_2"]
+    },
+    {
+      "localId": "q12",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "bodyRu": "Сократи дробь $\\dfrac{12}{15}$ и запиши результат в виде десятичной дроби: [[1]].",
+      "bodyKk": "$\\dfrac{12}{15}$ бөлшегін қысқарт және нәтижені ондық бөлшек түрінде жаз: [[1]].",
+      "explanationRu": "$\\dfrac{12}{15} = \\dfrac{4}{5} = \\dfrac{8}{10} = 0,8$.",
+      "explanationKk": "$\\dfrac{12}{15} = \\dfrac{4}{5} = \\dfrac{8}{10} = 0,8$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 24-29",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        { "placeholder": "[[1]]", "answer": "0,8", "matchMode": "NUMERIC_TOLERANCE", "tolerance": 0 }
+      ],
+      "sourceRuleIds": ["PDF_p25_2", "PDF_p29_2"]
+    }
+  ],
+  "matrixDeviations": []
+}
