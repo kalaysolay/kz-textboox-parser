@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="360" viewBox="0 0 560 360">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <line x1="48" y1="28" x2="48" y2="312" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="48" y1="312" x2="536" y2="312" stroke="#1a1a1a" stroke-width="1.75"/>
+  <rect x="64" y="170" width="64" height="142" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="96" y="330" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="middle">Алатау</text>
+  <text x="96" y="158" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="middle">2000</text>
+  <rect x="144" y="63.5" width="64" height="248.5" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="176" y="330" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="middle">Боралдай</text>
+  <text x="176" y="51.5" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="middle">3500</text>
+  <rect x="224" y="205.5" width="64" height="106.5" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="256" y="330" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="middle">Көкжота</text>
+  <text x="256" y="193.5" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="middle">1500</text>
+  <rect x="304" y="113.20000000000002" width="64" height="198.79999999999998" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="336" y="330" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="middle">Сарытау</text>
+  <text x="336" y="101.20000000000002" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="middle">2800</text>
+</svg>

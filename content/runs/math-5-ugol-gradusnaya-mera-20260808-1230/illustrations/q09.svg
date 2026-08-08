@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="400" viewBox="0 0 480 400">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <line x1="200" y1="310" x2="444.5369001834514" y2="258.02207729556017" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="200" y1="310" x2="364.0147572476268" y2="121.32260494430699" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="200" y1="310" x2="122.74575140626317" y2="72.23587092621159" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="200" cy="310" r="3.5" fill="#1a1a1a"/>
+  <path d="M 246.95108483522267 300.02023884074754 A 48 48 0 0 0 231.49083339154436 273.77394014930695" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="256.8675245891407" y="276.5024680445935" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="middle">37°</text>
+  <path d="M 231.49083339154436 273.77394014930695 A 48 48 0 0 0 185.16718427000254 264.3492872178326" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <path d="M 276.2955128572369 293.7828881162148 A 78 78 0 0 0 175.8966744387541 235.81759172897802" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="248" y="226.8615612366939" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="middle">96°</text>
+  <text x="458.2309665937247" y="255.11131362411155" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">P</text>
+  <text x="373.19958365349396" y="110.75667082118818" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">D</text>
+  <text x="118.41951348501391" y="58.92107969807944" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">R</text>
+  <text x="184" y="318" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="end" dominant-baseline="middle">Q</text>
+</svg>

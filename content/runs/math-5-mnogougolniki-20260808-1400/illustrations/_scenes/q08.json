@@ -1,0 +1,11 @@
+{
+  "kind": "polygon",
+  "width": 480,
+  "height": 420,
+  "sides": 6,
+  "cx": 240,
+  "cy": 220,
+  "radius": 140,
+  "rotationDeg": -90,
+  "vertexLabels": ["A", "B", "C", "D", "E", "F"]
+}

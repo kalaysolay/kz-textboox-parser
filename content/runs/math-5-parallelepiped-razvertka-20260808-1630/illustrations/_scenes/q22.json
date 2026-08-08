@@ -1,0 +1,34 @@
+{
+  "kind": "parallelepiped",
+  "width": 520,
+  "height": 400,
+  "origin": { "x": 130, "y": 300 },
+  "size": { "a": 200, "b": 100, "c": 140 },
+  "depthAngleDeg": 32,
+  "showHidden": true,
+  "highlightFaces": ["front"],
+  "marks": [
+    { "type": "faceLabel", "face": "front", "text": "M", "dx": -8, "dy": -8 },
+    { "type": "annotation", "x": 220, "y": 248, "text": "грань", "size": 13 },
+    { "type": "edgeLabel", "from": "B", "to": "C", "text": "N", "dx": 16, "dy": 0 },
+    { "type": "annotation", "x": 360, "y": 230, "text": "ребро", "size": 13 },
+    {
+      "type": "point",
+      "at": { "from": "A", "to": "B", "t": 0.5 },
+      "text": "P",
+      "dx": 0,
+      "dy": 20
+    },
+    { "type": "annotation", "x": 250, "y": 330, "text": "вершина", "size": 13 },
+    {
+      "type": "segment",
+      "from": "A",
+      "to": "C",
+      "text": "Q",
+      "dashed": true,
+      "dx": -18,
+      "dy": -6
+    },
+    { "type": "annotation", "x": 175, "y": 200, "text": "измерение", "size": 13 }
+  ]
+}

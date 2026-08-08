@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-slozhenie-vychitanie-des-drobei-20260808-0330",
+  "typeMixPlanned": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMixPlanned": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Первый шаг алгоритма сложения/вычитания десятичных",
+      "stemIdea": "Выбрать, что нужно сделать сначала при сложении десятичных с разным числом знаков после запятой",
+      "trapIdeas": [
+        "Ученик сразу складывает цифры без уравнивания знаков",
+        "Ученик выравнивает записи по левому краю, а не по запятой",
+        "Ученик считает, что сначала нужно перевести дроби в обыкновенные"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p38_1"],
+      "sourceExampleRefs": ["p38#algo"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Запятая в ответе столбика",
+      "stemIdea": "Выбрать верное утверждение, куда ставить запятую в результате сложения или вычитания столбиком",
+      "trapIdeas": [
+        "Ученик ставит запятую после всех цифр ответа",
+        "Ученик ставит запятую «на глаз» по более короткому слагаемому",
+        "Ученик считает, что запятая в ответе не нужна, если целая часть «получилась сама»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p38_2", "PDF_p44_1"],
+      "sourceExampleRefs": ["p38#check", "p44#KF"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Сложение десятичных с разной длиной дробной части",
+      "stemIdea": "Сложить две десятичные с разным числом знаков после запятой",
+      "trapIdeas": [
+        "Ученик складывает без дописывания нулей и сдвигает разряды",
+        "Ученик забывает перенос в следующий разряд",
+        "Ученик ставит запятую не под запятыми слагаемых"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p38_1"],
+      "sourceExampleRefs": ["p38#1", "p37#1"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Вычитание десятичных с разной длиной дробной части",
+      "stemIdea": "Найти разность двух десятичных с разным числом знаков после запятой",
+      "trapIdeas": [
+        "Ученик вычитает «как написано» без уравнивания знаков",
+        "Ученик меняет местами уменьшаемое и вычитаемое",
+        "Ученик ошибается в займе из соседнего разряда"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p38_1"],
+      "sourceExampleRefs": ["p38#2", "p37#2"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Положение запятой в столбике без полного счёта",
+      "stemIdea": "По уже выровненным слагаемым в столбике сказать, под каким столбцом окажется запятая в сумме, не вычисляя цифры",
+      "trapIdeas": [
+        "Ученик думает, что перенос «съезжает» запятую",
+        "Ученик ставит запятую после последней цифры более длинного слагаемого",
+        "Ученик ориентируется на более короткое слагаемое"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p38_1", "PDF_p44_1"],
+      "sourceExampleRefs": ["p44#KF"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Дописывание нулей для уравнивания знаков",
+      "stemIdea": "Какую запись с нулями нужно взять вместо более короткой дроби перед сложением столбиком",
+      "trapIdeas": [
+        "Ученик дописывает нули слева в целую часть",
+        "Ученик убирает значащие нули справа",
+        "Ученик уравнивает до суммы длин дробных частей"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p38_1", "PDF_p39_1"],
+      "sourceExampleRefs": ["p37#intro"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Вычитание десятичной из натурального числа",
+      "stemIdea": "Вычесть десятичную дробь из целого числа, записав целое с нулями после запятой",
+      "trapIdeas": [
+        "Ученик вычитает только из целой части, игнорируя дробную",
+        "Ученик не дописывает нули к целому уменьшаемому",
+        "Ученик ошибается в цепочке займов по разрядам"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p38_1", "PDF_p44_1"],
+      "sourceExampleRefs": ["p38#grid", "p39#781"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Проверка готового столбика сложения",
+      "stemIdea": "Найти ошибочное равенство среди предложенных сложений десятичных",
+      "trapIdeas": [
+        "Ученик принимает ответ с запятой не под запятой",
+        "Ученик не замечает сдвиг одноимённых разрядов",
+        "Ученик принимает ошибку переноса как верный ответ"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p38_1", "PDF_p38_2"],
+      "sourceExampleRefs": ["p38#1"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сравнение двух сумм десятичных",
+      "stemIdea": "Какая из двух сумм десятичных больше",
+      "trapIdeas": [
+        "Ученик сравнивает по «длине» записи слагаемых",
+        "Ученик ошибается в одной сумме и переносит сравнение",
+        "Ученик сравнивает только целые части слагаемых"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p38_1"],
+      "sourceExampleRefs": ["p39#779"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Текстовая задача на сложение длин",
+      "stemIdea": "Два участка пути в километрах записаны десятичными — найти общую длину",
+      "trapIdeas": [
+        "Ученик вычитает вместо сложения",
+        "Ученик складывает без уравнивания знаков после запятой",
+        "Ученик округляет километры до целых до сложения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p38_1"],
+      "sourceExampleRefs": ["p40#787"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Найти недостающее слагаемое",
+      "stemIdea": "Даны сумма двух десятичных и одно слагаемое — найти второе",
+      "trapIdeas": [
+        "Ученик складывает вместо вычитания",
+        "Ученик вычитает сумму из известного слагаемого",
+        "Ученик теряет разряд после запятой при обратном действии"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p38_1"],
+      "sourceExampleRefs": ["p39#779"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "До скольких знаков уравнивать перед действием",
+      "stemIdea": "Перед сложением двух дробей с разной длиной дробной части сказать, до скольких знаков нужно уравнять записи",
+      "trapIdeas": [
+        "Ученик берёт сумму длин дробных частей",
+        "Ученик берёт длину более короткой дроби",
+        "Ученик считает, что уравнивать знаки не нужно"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p38_1", "PDF_p37_1"],
+      "sourceExampleRefs": ["p37#1"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Восстановить пропущенную цифру в столбике",
+      "stemIdea": "В верном столбике сложения или вычитания пропущена одна цифра — восстановить её",
+      "trapIdeas": [
+        "Ученик игнорирует перенос или заём",
+        "Ученик подставляет цифру только для визуального выравнивания",
+        "Ученик путает разряд пропущенной цифры"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p38_2", "PDF_p38_1"],
+      "sourceExampleRefs": ["p38#grid"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Рациональное сложение по свойствам",
+      "stemIdea": "Вычислить сумму нескольких десятичных, удобно перегруппировав слагаемые",
+      "trapIdeas": [
+        "Ученик складывает строго слева направо без группировки и ошибается",
+        "Ученик образует «круглые» пары неверно",
+        "Ученик забывает одно из слагаемых после перестановки"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p38_3"],
+      "sourceExampleRefs": ["p39#780", "p42#801"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Проверка применения переместительного/сочетательного свойства",
+      "stemIdea": "Какое преобразование суммы десятичных верно по изученным свойствам",
+      "trapIdeas": [
+        "Ученик меняет знаки действий при перестановке",
+        "Ученик переносит скобки так, что меняется значение суммы",
+        "Ученик путает со свойствами умножения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p38_3"],
+      "sourceExampleRefs": ["p39#780"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Сравнение разностей с целым уменьшаемым",
+      "stemIdea": "Сравнить две разности десятичных, где в одной уменьшаемое — натуральное число",
+      "trapIdeas": [
+        "Ученик неверно вычитает десятичную из целого",
+        "Ученик сравнивает уменьшаемые вместо разностей",
+        "Ученик из-за ошибки займа меняет знак сравнения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p38_1", "PDF_p44_1"],
+      "sourceExampleRefs": ["p38#grid", "p39#781"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Периметр по данным «на … меньше/больше»",
+      "stemIdea": "По сторонам треугольника, заданным через «меньше» и «больше», найти периметр суммой десятичных",
+      "trapIdeas": [
+        "Ученик складывает только данные в условии числа, не находя стороны",
+        "Ученик путает «меньше» и «больше» при восстановлении сторон",
+        "Ученик забывает одну сторону в периметре"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p38_1"],
+      "sourceExampleRefs": ["p40#788"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 5,
+      "skillFocus": "Обратная задача со свойством вычитания суммы",
+      "stemIdea": "По результату рационального вычитания вида a−(b+c) восстановить пропущенное исходное число",
+      "trapIdeas": [
+        "Ученик игнорирует свойство и считает «в лоб» с ошибкой выравнивания",
+        "Ученик путает, какое из чисел пропущено",
+        "Ученик меняет порядок вычитания и получает другое неизвестное"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p38_3", "PDF_p38_1"],
+      "sourceExampleRefs": ["p41#792"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Шаги алгоритма ключевых фактов",
+      "stemIdea": "Выбрать все верные шаги алгоритма сложения или вычитания десятичных столбиком",
+      "trapIdeas": [
+        "Ученик включает шаг «поставить запятую после всех цифр результата»",
+        "Ученик пропускает уравнивание числа знаков после запятой",
+        "Ученик добавляет лишний шаг умножения разрядов"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p44_1", "PDF_p38_1"],
+      "sourceExampleRefs": ["p44#KF"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Когда недостающие нули можно приписать мысленно",
+      "stemIdea": "Выбрать все случаи, где при сложении/вычитании недостающие нули допустимо не писать явно",
+      "trapIdeas": [
+        "Ученик считает, что нули всегда обязаны быть записаны на бумаге",
+        "Ученик разрешает «мысленные нули» при сдвиге запятой в другую тему",
+        "Ученик путает приписывание нулей с умножением на 10"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p39_1", "PDF_p38_1"],
+      "sourceExampleRefs": ["p39#note"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные равенства сложения и вычитания",
+      "stemIdea": "Отметить все верные равенства среди предложенных сложений и вычитаний десятичных",
+      "trapIdeas": [
+        "Ученик принимает равенство со сдвигом разрядов",
+        "Ученик отвергает верный ответ с лишними нулями справа",
+        "Ученик не замечает ошибку положения запятой"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p38_1", "PDF_p38_2"],
+      "sourceExampleRefs": ["p38#1", "p38#2"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Корректные записи для уравнивания знаков",
+      "stemIdea": "Выбрать все корректные способы записи пары дробей перед сложением или вычитанием столбиком",
+      "trapIdeas": [
+        "Ученик принимает выравнивание по левому краю записи",
+        "Ученик принимает дописывание нулей в целую часть",
+        "Ученик отвергает эквивалентную запись с лишним нулём справа"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p38_1", "PDF_p39_1"],
+      "sourceExampleRefs": ["p37#intro"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные сравнения сумм и разностей",
+      "stemIdea": "Отметить все верные неравенства между суммами или разностями десятичных",
+      "trapIdeas": [
+        "Ученик из-за ошибки в одном вычислении ломает сравнение",
+        "Ученик сравнивает только дробные части",
+        "Ученик путает направление знака неравенства"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p38_1"],
+      "sourceExampleRefs": ["p39#779", "p39#781"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Верные применения свойств вычитания",
+      "stemIdea": "Выбрать все верные рациональные преобразования с вычитанием суммы из числа или числа из суммы",
+      "trapIdeas": [
+        "Ученик раскрывает скобки с плюсом вместо минуса",
+        "Ученик вычитает только одно слагаемое суммы",
+        "Ученик меняет местами уменьшаемое и вычитаемое"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p38_3"],
+      "sourceExampleRefs": ["p41#792"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Правильная запись столбика до результата",
+      "stemIdea": "Отметить все столбики, где запятые и одноимённые разряды выровнены верно ещё до вычисления",
+      "trapIdeas": [
+        "Ученик принимает запись «в ряд» как корректный столбик",
+        "Ученик принимает выравнивание по последней цифре справа без учёта запятой",
+        "Ученик отвергает запись целого как N,00"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p44_1", "PDF_p38_1"],
+      "sourceExampleRefs": ["p44#KF", "p38#grid"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Сюжеты на сложение/вычитание десятичных",
+      "stemIdea": "Выбрать все текстовые ситуации, которые решаются сложением или вычитанием десятичных, а не умножением",
+      "trapIdeas": [
+        "Ученик включает сюжет на многократное сложение одинаковых слагаемых как умножение-ядро темы",
+        "Ученик путает «на сколько больше» с умножением",
+        "Ученик отбрасывает задачу на дополнение до круглого числа"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p38_1"],
+      "sourceExampleRefs": ["p40#787", "p39#782"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Какие исходные дают данный результат",
+      "stemIdea": "Дан результат действия с десятичными и часть данных — отметить все подходящие недостающие числа",
+      "trapIdeas": [
+        "Ученик предлагает пару, дающую сумму вместо нужной разности",
+        "Ученик не учитывает уравнивание знаков при проверке кандидата",
+        "Ученик принимает разные записи одного и того же числа как разные ответы"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p38_1", "PDF_p38_3"],
+      "sourceExampleRefs": ["p41#792", "p39#782"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Сложение десятичных — числовой ответ",
+      "stemIdea": "Вписать сумму двух десятичных с разной длиной дробной части",
+      "trapIdeas": [
+        "Ученик сдвигает разряды без уравнивания нулями",
+        "Ученик ставит запятую не под запятыми слагаемых"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p38_1", "PDF_p44_1"],
+      "sourceExampleRefs": ["p39#779", "p44#KF"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "skillFocus": "Дополнение десятичной до круглого числа",
+      "stemIdea": "Вписать число, которым нужно дополнить данную десятичную до 1, до 10 или до 100",
+      "trapIdeas": [
+        "Ученик вычитает из меньшей степени десятки (до 1 вместо до 10)",
+        "Ученик ошибается в числе знаков после запятой у дополнения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p38_1"],
+      "sourceExampleRefs": ["p39#782"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Смешанная текстовая задача на сумму и разность",
+      "stemIdea": "Вписать ответ текстовой задачи, где нужно и сложить, и вычесть десятичные (два шага)",
+      "trapIdeas": [
+        "Ученик выполняет только одно из двух действий",
+        "Ученик путает порядок «на сколько меньше/больше» и итоговую сумму"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p38_1", "PDF_p38_3"],
+      "sourceExampleRefs": ["p40#788"],
+      "questionForm": "word_problem"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "Count 30 сохранён (recommendedMaxCount=null; 6 primary verbatim-правил + богатые упражнения). TypeMix 18/9/3 и difficulty 2/4/15/6/3: SCQ q01–q18 (d1×2, d2×4, d3×9, d4×2, d5×1), MCQ q19–q27 (d3×5, d4×3, d5×1), FILL_IN q28–q30 (d3/d4/d5). questionForm при count=30: лимит ≤2 нереален (G017) — разведено recall×3, compute×5, predict×3, verify×4, restore×4, compare×4, word_problem×4, inverse×3. needsIllustration все false (visual-topics: сложение/вычитание десятичных — stem полон без рисунка; периметр по текстовым данным сторон тоже). R004 (prerequisite) в sourceRuleIds не ставился — только как источник путаницы записи через запятую в trapIdeas при необходимости. RC_* нет."
+}

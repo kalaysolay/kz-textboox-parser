@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "tool": "read-textbook-pages",
+  "parsedPath": "C:\\Users\\admin\\IdeaProjects\\kz-textboox-parser\\Математика\\parsed\\math_aldamuratova_5grade_part2_parsed_v2.json",
+  "parserRoot": "C:\\Users\\admin\\IdeaProjects\\kz-textboox-parser",
+  "fileName": "Математика Алдамуратова Т. учебник для 5 класса Часть 2.pdf",
+  "pdfPath": "C:\\Users\\admin\\IdeaProjects\\kz-textboox-parser\\Математика\\Математика Алдамуратова Т. учебник для 5 класса Часть 2.pdf",
+  "pdfOffset": 0,
+  "bookPageStart": 157,
+  "bookPageEnd": 161,
+  "cacheDir": "C:\\Users\\admin\\IdeaProjects\\kz-textboox-parser\\ocr\\ocr_pages_math_aldamuratova_5grade_part2",
+  "cacheKind": "ocr_pages",
+  "cacheMissing": null,
+  "pages": [
+    {
+      "bookPage": 157,
+      "pdfPage": 157,
+      "textPath": "page_157.txt",
+      "pngPath": "page_157.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": []
+    },
+    {
+      "bookPage": 158,
+      "pdfPage": 158,
+      "textPath": "page_158.txt",
+      "pngPath": "page_158.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": []
+    },
+    {
+      "bookPage": 159,
+      "pdfPage": 159,
+      "textPath": "page_159.txt",
+      "pngPath": "page_159.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": []
+    },
+    {
+      "bookPage": 160,
+      "pdfPage": 160,
+      "textPath": "page_160.txt",
+      "pngPath": "page_160.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": []
+    },
+    {
+      "bookPage": 161,
+      "pdfPage": 161,
+      "textPath": "page_161.txt",
+      "pngPath": "page_161.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": []
+    }
+  ],
+  "summary": {
+    "requested": 5,
+    "readable": 5,
+    "unreadable": 0,
+    "allReadable": true
+  },
+  "howToRead": "Аналитик: сначала открой *.png (Read) и выпиши правила/примеры дословно; *.txt — черновик OCR/слоя, сверяй с PNG. parsed JSON — навигация и перекрёстная проверка."
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="360" viewBox="0 0 560 360">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <line x1="48" y1="28" x2="48" y2="312" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="48" y1="312" x2="536" y2="312" stroke="#1a1a1a" stroke-width="1.75"/>
+  <rect x="64" y="68.57142857142858" width="64" height="243.42857142857142" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="96" y="330" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="middle">собака</text>
+  <text x="96" y="56.571428571428584" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="middle">12</text>
+  <rect x="144" y="149.71428571428572" width="64" height="162.28571428571428" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="176" y="330" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="middle">кошка</text>
+  <text x="176" y="137.71428571428572" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="middle">8</text>
+  <rect x="224" y="210.57142857142856" width="64" height="101.42857142857143" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="256" y="330" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="middle">кролик</text>
+  <text x="256" y="198.57142857142856" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="middle">5</text>
+  <rect x="304" y="251.14285714285714" width="64" height="60.857142857142854" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="336" y="330" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="middle">хомяк</text>
+  <text x="336" y="239.14285714285714" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="middle">3</text>
+</svg>

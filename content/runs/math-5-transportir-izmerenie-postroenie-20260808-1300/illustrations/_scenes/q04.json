@@ -1,0 +1,71 @@
+{
+  "kind": "angle",
+  "width": 560,
+  "height": 340,
+  "figures": [
+    {
+      "cx": 140,
+      "cy": 210,
+      "rayLength": 130,
+      "vertexLabel": "O",
+      "vertexOffset": { "x": -14, "y": 16 },
+      "rays": [
+        { "label": "A", "deg": 0 },
+        { "label": "B", "deg": 55 }
+      ],
+      "showArc": true,
+      "showDegree": false,
+      "caption": "1",
+      "captionX": 140,
+      "captionY": 310
+    },
+    {
+      "cx": 140,
+      "cy": 210,
+      "rayLength": 110,
+      "vertexLabel": "",
+      "rays": [
+        { "label": "", "deg": 0 },
+        { "label": "", "deg": 180 }
+      ],
+      "arcs": [
+        { "fromDeg": 0, "toDeg": 180, "radius": 95 }
+      ],
+      "points": [
+        { "id": "0°", "deg": 0, "t": 0.92, "labelDx": 10, "labelDy": 16 }
+      ]
+    },
+    {
+      "cx": 400,
+      "cy": 210,
+      "rayLength": 130,
+      "vertexLabel": "O",
+      "vertexOffset": { "x": -14, "y": 16 },
+      "rays": [
+        { "label": "A", "deg": 0 },
+        { "label": "B", "deg": 55 }
+      ],
+      "showArc": true,
+      "showDegree": false,
+      "caption": "2",
+      "captionX": 400,
+      "captionY": 310
+    },
+    {
+      "cx": 430,
+      "cy": 175,
+      "rayLength": 110,
+      "vertexLabel": "",
+      "rays": [
+        { "label": "", "deg": 15 },
+        { "label": "", "deg": 195 }
+      ],
+      "arcs": [
+        { "fromDeg": 15, "toDeg": 195, "radius": 95 }
+      ],
+      "points": [
+        { "id": "0°", "deg": 15, "t": 0.92, "labelDx": 8, "labelDy": 16 }
+      ]
+    }
+  ]
+}

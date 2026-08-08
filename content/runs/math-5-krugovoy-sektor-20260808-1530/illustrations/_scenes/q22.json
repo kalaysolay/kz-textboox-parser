@@ -1,0 +1,71 @@
+{
+  "kind": "angle",
+  "width": 500,
+  "height": 440,
+  "figures": [
+    {
+      "cx": 250,
+      "cy": 230,
+      "rayLength": 150,
+      "vertexLabel": "",
+      "rays": [
+        { "label": "", "deg": 25 },
+        { "label": "", "deg": 105 }
+      ],
+      "triangleOverlay": {
+        "legA": { "deg": 25, "t": 1 },
+        "legB": { "deg": 105, "t": 1 }
+      },
+      "showArc": false
+    },
+    {
+      "cx": 250,
+      "cy": 230,
+      "rayLength": 150,
+      "vertexLabel": "",
+      "rays": [
+        { "label": "", "deg": 105 },
+        { "label": "", "deg": 210 }
+      ],
+      "triangleOverlay": {
+        "legA": { "deg": 105, "t": 1 },
+        "legB": { "deg": 210, "t": 1 }
+      },
+      "showArc": false
+    },
+    {
+      "cx": 250,
+      "cy": 230,
+      "rayLength": 150,
+      "vertexLabel": "",
+      "rays": [
+        { "label": "", "deg": 210 },
+        { "label": "", "deg": 385 }
+      ],
+      "triangleOverlay": {
+        "legA": { "deg": 210, "t": 1 },
+        "legB": { "deg": 385, "t": 1 }
+      },
+      "showArc": false
+    },
+    {
+      "cx": 250,
+      "cy": 230,
+      "rayLength": 150,
+      "vertexLabel": "O",
+      "vertexOffset": { "x": -4, "y": 22 },
+      "vertexAnchor": "middle",
+      "rays": [
+        { "label": "A", "deg": 25 },
+        { "label": "B", "deg": 105 },
+        { "label": "C", "deg": 210 }
+      ],
+      "arcs": [
+        { "fromDeg": 25, "toDeg": 105, "radius": 150 },
+        { "fromDeg": 105, "toDeg": 210, "radius": 150 },
+        { "fromDeg": 210, "toDeg": 385, "radius": 150 }
+      ],
+      "showArc": false
+    }
+  ]
+}

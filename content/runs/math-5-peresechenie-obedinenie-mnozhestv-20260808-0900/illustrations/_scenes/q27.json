@@ -1,0 +1,20 @@
+{
+  "kind": "set_euler",
+  "width": 560,
+  "height": 420,
+  "sets": [
+    { "id": "A", "cx": 210, "cy": 175, "r": 110, "shape": "circle", "labelX": 120, "labelY": 70 },
+    { "id": "B", "cx": 350, "cy": 175, "r": 110, "shape": "circle", "labelX": 440, "labelY": 70 },
+    { "id": "C", "cx": 280, "cy": 275, "r": 110, "shape": "circle", "labelX": 280, "labelY": 400 }
+  ],
+  "elements": [
+    { "label": "m", "x": 145, "y": 140 },
+    { "label": "n", "x": 415, "y": 140 },
+    { "label": "k", "x": 280, "y": 345 },
+    { "label": "h", "x": 280, "y": 145 },
+    { "label": "g", "x": 350, "y": 255 },
+    { "label": "f", "x": 210, "y": 255 },
+    { "label": "e", "x": 280, "y": 210 },
+    { "label": "d", "x": 70, "y": 60 }
+  ]
+}

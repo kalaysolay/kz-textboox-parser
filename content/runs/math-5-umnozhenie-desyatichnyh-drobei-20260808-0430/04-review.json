@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-umnozhenie-desyatichnyh-drobei-20260808-0430",
+  "reviewedAt": "2026-08-08T06:15:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 27,
+    "fixed": 3,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "C — столько цифр после запятой, сколько в обоих множителях вместе",
+      "keyAnswer": "C — Столько, сколько цифр после запятой в обоих множителях вместе",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "B — перемножить как натуральные, не обращая внимания на запятые",
+      "keyAnswer": "B — Не обращая внимания на запятые, перемножить множители как натуральные числа",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "A — 8,88",
+      "keyAnswer": "A — $8,88$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "B — 3,185",
+      "keyAnswer": "B — $3,185$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "C — 3 знака (1+2)",
+      "keyAnswer": "C — $3$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "C — 4,80",
+      "keyAnswer": "C — $4,80$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "B — 0,048",
+      "keyAnswer": "B — $0,048$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "A — меньше 5,4 (множитель 0,7 < 1)",
+      "keyAnswer": "A — меньше $5,4$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "fixed",
+      "solvedAnswer": "B — 2,4 · 1,5 = 3,6",
+      "keyAnswer": "B — $2,4 \\cdot 1,5 = 3,6$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": "Новый stem и числа (2,4·1,5); устранение duplicate_body с perevod#q13."
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "B — 0350",
+      "keyAnswer": "B — $0350$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "C — 4,8 · 1,2 > 4,8",
+      "keyAnswer": "C — $4,8 \\cdot 1,2 > 4,8$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "B — 3,6 м²",
+      "keyAnswer": "B — $3,6$ м²",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "C — 4,2",
+      "keyAnswer": "C — $4,2$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "B — отделено 2 знака вместо 3; верно 0,18",
+      "keyAnswer": "B — Отделено $2$ знака вместо суммы $3$; нужен ведущий нуль: $0,18$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "A — у 2,5 · 1,34 (3 знака vs 2)",
+      "keyAnswer": "A — У $2,5 \\cdot 1,34$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "status": "accepted",
+      "solvedAnswer": "B — 1,68 кг",
+      "keyAnswer": "B — $1,68$ кг",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "A — 1,5",
+      "keyAnswer": "A — $1,5$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "A — 3,15 км (12,6−10,5)×1,5",
+      "keyAnswer": "A — $3,15$ км",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A, C, D — алгоритм + ведущие нули; B ложно",
+      "keyAnswer": "A, C, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "fixed",
+      "solvedAnswer": "A, B — 1,5·2,4=3,6 и 0,6·0,4=0,24",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": "Новый stem и числа; устранение duplicate_body с desyatichnaya-drob#q21."
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "A, C — 048 и 0,048",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "A, B — k<1 меньше, k>1 больше",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "A, B, D — C неверно (нужно 3, не 2)",
+      "keyAnswer": "A, B, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "A, B — 1,5 и 0,07",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A, B, C — D сдвиг запятой",
+      "keyAnswer": "A, B, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "fixed",
+      "solvedAnswer": "A, B, C — D ложно (0,72 = 0,72)",
+      "keyAnswer": "A, B, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": "Новый stem и числа; устранение duplicate_body с izobrazhenie#q16."
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "A, B, D — целые; C = 0,15",
+      "keyAnswer": "A, B, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 4,06",
+      "keyAnswer": "[[1]] = 4,06",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 0,84",
+      "keyAnswer": "[[1]] = 0,84",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 0,04",
+      "keyAnswer": "[[1]] = 0,04",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

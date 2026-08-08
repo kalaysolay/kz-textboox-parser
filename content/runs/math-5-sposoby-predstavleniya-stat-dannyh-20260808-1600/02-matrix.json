@@ -1,0 +1,523 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-sposoby-predstavleniya-stat-dannyh-20260808-1600",
+  "typeMixPlanned": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMixPlanned": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Определение диаграммы",
+      "stemIdea": "Выбрать, что называют диаграммой (наглядное представление числовых данных)",
+      "trapIdeas": [
+        "Ученик путает диаграмму с обычной таблицей без рисунка",
+        "Ученик считает диаграммой любой геометрический чертёж без данных",
+        "Ученик думает, что диаграмма — только круговая"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p165_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Виды диаграмм",
+      "stemIdea": "Какие виды диаграмм наиболее распространены (столбчатые, линейные, круговые, графические)",
+      "trapIdeas": [
+        "Ученик называет только столбчатую и круговую",
+        "Ученик добавляет «окружность» или «сектор» как вид диаграммы (путаница с 8.1/8.2)",
+        "Ученик считает таблицу видом диаграммы"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p165_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Смысл высоты столбика",
+      "stemIdea": "Не строя диаграмму: что показывают высоты столбиков одинаковой ширины",
+      "trapIdeas": [
+        "Ученик думает, что высоту задаёт ширина столбика",
+        "Ученик путает высоту с расстоянием между столбиками",
+        "Ученик считает, что все столбики всегда одной высоты"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p165_2"],
+      "sourceExampleRefs": ["p165#1"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Угол на 1% круговой диаграммы",
+      "stemIdea": "Чему равен угол сектора, соответствующий 1% (полный угол 360°)",
+      "trapIdeas": [
+        "Ученик делит 360 на 10 и отвечает 36°",
+        "Ученик отвечает 3° или 360°",
+        "Ученик путает с 1% от числа, а не от полного угла"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p167_1"],
+      "sourceExampleRefs": ["p167#3"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Чтение наибольшего столбика",
+      "stemIdea": "На рисунке столбчатая диаграмма четырёх величин — какая наибольшая",
+      "trapIdeas": [
+        "Ученик выбирает самый левый столбик, а не самый высокий",
+        "Ученик путает близкие по высоте столбики",
+        "Ученик читает подпись оси вместо высоты"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Без столбчатой диаграммы нельзя сравнить высоты объектов",
+      "sourceRuleIds": ["PDF_p165_2"],
+      "sourceExampleRefs": ["p168#1291"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Шаг таблицы",
+      "stemIdea": "В таблице время через равные промежутки — чему равен шаг таблицы",
+      "trapIdeas": [
+        "Ученик путает шаг с числом строк",
+        "Ученик берёт первое значение времени вместо разности",
+        "Ученик считает шаг по значениям температуры, а не по времени"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p168_1"],
+      "sourceExampleRefs": ["p168#5"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Проверка перевода % в угол",
+      "stemIdea": "Какое равенство верно переводит данный процент части в угол сектора (3,6°·p%)",
+      "trapIdeas": [
+        "Ученик умножает процент на 360 вместо 3,6",
+        "Ученик делит процент на 3,6",
+        "Ученик берёт 360−p вместо 3,6·p"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p167_1"],
+      "sourceExampleRefs": ["p167#3"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Угол сектора по проценту",
+      "stemIdea": "Дан процент части целого (≠15/60 из эталона) — найти угол сектора круговой диаграммы",
+      "trapIdeas": [
+        "Ученик считает угол равным самому проценту",
+        "Ученик умножает на 36 вместо 3,6",
+        "Ученик вычитает процент из 360"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p167_1"],
+      "sourceExampleRefs": ["p169#1292"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Назначение линейной диаграммы",
+      "stemIdea": "Для чего служат линейные диаграммы (показать изменения величин отрезками)",
+      "trapIdeas": [
+        "Ученик путает линейную с круговой (доли целого)",
+        "Ученик думает, что линейная — только таблица чисел",
+        "Ученик путает линейную с графической ломаной"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p166_1"],
+      "sourceExampleRefs": ["p166#2"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Смысл графической диаграммы",
+      "stemIdea": "Не строя график: как на графической диаграмме изображают изменение данных",
+      "trapIdeas": [
+        "Ученик отвечает «столбиками одинаковой ширины» (столбчатая)",
+        "Ученик отвечает «секторами круга» (круговая)",
+        "Ученик думает, что точки не соединяют"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p167_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Остаток угла сектора",
+      "stemIdea": "Две части заданы процентами; найти угол третьей как 360° минус сумма найденных углов (другие %)",
+      "trapIdeas": [
+        "Ученик вычитает проценты, а не углы",
+        "Ученик забывает перевести проценты в углы перед вычитанием",
+        "Ученик вычитает только один угол из 360°"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p167_1"],
+      "sourceExampleRefs": ["p167#3"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Близкие значения на столбчатой диаграмме",
+      "stemIdea": "На рисунке столбчатой диаграммы — какие два объекта имеют примерно одинаковые значения",
+      "trapIdeas": [
+        "Ученик выбирает крайние столбики вместо близких по высоте",
+        "Ученик сравнивает подписи, а не высоты",
+        "Ученик считает одинаковыми любые соседние столбики"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Близость значений видна только по высотам столбиков на рисунке",
+      "sourceRuleIds": ["PDF_p165_2"],
+      "sourceExampleRefs": ["p168#1291"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Чтение клетки таблицы",
+      "stemIdea": "По таблице этаж×квартира найти номер квартиры ученика (другие имена/клетки, не копировать 1293 один в один)",
+      "trapIdeas": [
+        "Ученик путает номер этажа с номером квартиры",
+        "Ученик считает квартиры подряд без учёта этажа",
+        "Ученик меняет местами строку и столбец"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Без таблицы нельзя прочитать клетку этаж×квартира",
+      "sourceRuleIds": ["PDF_p168_1"],
+      "sourceExampleRefs": ["p169#1293"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Процент по углу сектора",
+      "stemIdea": "Дан угол сектора круговой диаграммы — какой процент части целого он задаёт",
+      "trapIdeas": [
+        "Ученик делит угол на 360 и забывает перевести в проценты",
+        "Ученик делит угол на 3,6 неверно (ошибка порядка)",
+        "Ученик отвечает самим числом градусов как процентом"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p167_1"],
+      "sourceExampleRefs": ["p169#1292"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Чтение линейной диаграммы",
+      "stemIdea": "На рисунке линейная диаграмма нескольких величин — какая наибольшая",
+      "trapIdeas": [
+        "Ученик выбирает самый короткий отрезок",
+        "Ученик путает подпись объекта с длиной отрезка",
+        "Ученик сравнивает без учёта масштаба подписей оси"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Значения заданы только длинами отрезков на линейной диаграмме",
+      "sourceRuleIds": ["PDF_p166_1"],
+      "sourceExampleRefs": ["p166#2"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Верное утверждение о столбчатой диаграмме",
+      "stemIdea": "По рисунку столбчатой диаграммы выбрать одно верное утверждение (наибольшее/наименьшее)",
+      "trapIdeas": [
+        "Ученик выбирает утверждение с перепутанным макс/мин",
+        "Ученик принимает близкие столбики за равные без оговорки «примерно»",
+        "Ученик читает подпись категории вместо значения"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Проверка утверждения требует чтения столбиков с рисунка",
+      "sourceRuleIds": ["PDF_p165_2"],
+      "sourceExampleRefs": ["p172#1299"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Максимум на графической диаграмме",
+      "stemIdea": "На рисунке графическая диаграмма (ломаная) — в какой момент величина наибольшая",
+      "trapIdeas": [
+        "Ученик выбирает первую или последнюю точку ломаной",
+        "Ученик путает минимум с максимумом",
+        "Ученик читает подпись оси X вместо высоты точки"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Пик ломаной виден только на графической диаграмме",
+      "sourceRuleIds": ["PDF_p167_2"],
+      "sourceExampleRefs": ["p170#1296"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Сравнение по горизонтальной столбчатой диаграмме",
+      "stemIdea": "На рисунке горизонтальные столбики скоростей — кто быстрее и на сколько (другие числа, не копировать 1300)",
+      "trapIdeas": [
+        "Ученик сравнивает «на глаз» без разности",
+        "Ученик вычитает в неправильном порядке",
+        "Ученик путает, кого догонят быстрее, с тем, кто быстрее бежит"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Скорости заданы только длинами горизонтальных столбиков",
+      "sourceRuleIds": ["PDF_p165_2"],
+      "sourceExampleRefs": ["p172#1300"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Способы представления статистических данных",
+      "stemIdea": "Выбрать все верные способы представления статистических данных из списка",
+      "trapIdeas": [
+        "Ученик включает «окружность» или «сектор» как способ представления данных (8.1/8.2)",
+        "Ученик пропускает таблицу",
+        "Ученик пропускает графическую диаграмму"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p165_1", "PDF_p168_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Углы секторов по круговой диаграмме",
+      "stemIdea": "На рисунке круговая диаграмма с подписями процентов — выбрать все верно найденные углы секторов",
+      "trapIdeas": [
+        "Ученик принимает процент за градусы",
+        "Ученик верно считает один сектор и ошибается в другом",
+        "Ученик для остатка забывает 360° − сумма"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Проценты частей даны на круговой диаграмме; без рисунка stem неполный",
+      "sourceRuleIds": ["PDF_p167_1"],
+      "sourceExampleRefs": ["p169#1292"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Сравнения по столбчатой диаграмме",
+      "stemIdea": "На рисунке столбчатая диаграмма — выбрать все верные сравнения величин",
+      "trapIdeas": [
+        "Ученик путает «больше» и «меньше»",
+        "Ученик считает близкие столбики строго равными",
+        "Ученик сравнивает не те пары объектов"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Сравнения опираются только на высоты столбиков рисунка",
+      "sourceRuleIds": ["PDF_p165_2"],
+      "sourceExampleRefs": ["p171#1297"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Правила построения столбчатой диаграммы",
+      "stemIdea": "Выбрать все верные шаги построения столбчатой диаграммы (прямой угол, масштаб, равная ширина)",
+      "trapIdeas": [
+        "Ученик допускает столбики разной ширины",
+        "Ученик пропускает выбор единичного отрезка",
+        "Ученик путает оси: значения на горизонтали, названия на вертикали без нужды"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p165_2"],
+      "sourceExampleRefs": ["p165#1"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Чтение таблицы температуры",
+      "stemIdea": "По таблице время–температура выбрать все верные утверждения (макс/мин/шаг; другие числа)",
+      "trapIdeas": [
+        "Ученик путает время максимума и минимума",
+        "Ученик неверно указывает шаг таблицы",
+        "Ученик читает соседнюю клетку"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Утверждения проверяются только по клеткам таблицы",
+      "sourceRuleIds": ["PDF_p168_1"],
+      "sourceExampleRefs": ["p168#5"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Чтение многолинейной графической диаграммы",
+      "stemIdea": "На рисунке несколько ломаных по сезонам — выбрать все верные выводы о продажах (не копировать 1296 дословно)",
+      "trapIdeas": [
+        "Ученик путает серии (платья/пальто/зонты)",
+        "Ученик выбирает сезон минимума вместо максимума",
+        "Ученик делает вывод без опоры на ломаную"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Сравнение серий по сезонам возможно только по графической диаграмме",
+      "sourceRuleIds": ["PDF_p167_2"],
+      "sourceExampleRefs": ["p170#1296"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Верные углы по процентам частей",
+      "stemIdea": "Даны проценты нескольких частей (≠25/15/45/15 из 1295) — выбрать все верно найденные углы секторов",
+      "trapIdeas": [
+        "Ученик считает 25% = 25°",
+        "Ученик верно считает одни части и ошибается в других",
+        "Ученик для двух одинаковых процентов даёт разные углы"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p167_1"],
+      "sourceExampleRefs": ["p170#1295"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Числа и проценты по столбчатой диаграмме оценок",
+      "stemIdea": "На рисунке столбцы оценок класса — выбрать все верные: число учеников на оценку и процент «4» и «5» (другие высоты)",
+      "trapIdeas": [
+        "Ученик неверно суммирует столбики для целого класса",
+        "Ученик считает процент одной оценки вместо суммы «4» и «5»",
+        "Ученик читает высоту столбика как процент"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Числа оценок читаются только со столбчатой диаграммы",
+      "sourceRuleIds": ["PDF_p165_2"],
+      "sourceExampleRefs": ["p171#1297"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Синтез: линейная диаграмма и сравнение",
+      "stemIdea": "По рисунку линейной диаграммы протяжённостей выбрать все верные: наибольшая, наименьшая, примерно равные (другие реки/числа)",
+      "trapIdeas": [
+        "Ученик путает наибольшую и наименьшую",
+        "Ученик называет «примерно равными» сильно разные отрезки",
+        "Ученик сравнивает без учёта масштаба"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Протяжённости заданы только отрезками линейной диаграммы",
+      "sourceRuleIds": ["PDF_p166_1"],
+      "sourceExampleRefs": ["p170#1294"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Вычисление угла сектора",
+      "stemIdea": "Вписать угол сектора для данного процента части (одно число в градусах; % ≠ эталону 15/29/71)",
+      "trapIdeas": [
+        "Ученик умножает процент на 360",
+        "Ученик отвечает самим процентом",
+        "Ученик делит 360 на процент"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p167_1"],
+      "sourceExampleRefs": ["p167#3"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Угол сектора с круговой диаграммы",
+      "stemIdea": "На рисунке круговая диаграмма с подписью процента одной части — вписать угол этого сектора",
+      "trapIdeas": [
+        "Ученик вписывает процент вместо градусов",
+        "Ученик считает 3,6·p с арифметической ошибкой",
+        "Ученик берёт дополнение до 360° вместо нужного сектора"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Процент части дан на круговой диаграмме; без рисунка нет данных",
+      "sourceRuleIds": ["PDF_p167_1"],
+      "sourceExampleRefs": ["p169#1292"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Максимум по таблице или графику",
+      "stemIdea": "По таблице или графической диаграмме температуры вписать наибольшее значение (одно число; другие данные)",
+      "trapIdeas": [
+        "Ученик вписывает время вместо температуры",
+        "Ученик выбирает минимум",
+        "Ученик читает соседнюю клетку/точку"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Максимум читается только из таблицы или ломаной на рисунке",
+      "sourceRuleIds": ["PDF_p168_1", "PDF_p167_2"],
+      "sourceExampleRefs": ["p168#5"],
+      "questionForm": "word_problem"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "Тема 8.3 only (способы представления стат. данных), стр. 165–172; не 8.1 (окружность/круг) и не 8.2 (сектор как фигура). Primary: PDF_p165_1, PDF_p165_2, PDF_p166_1, PDF_p167_1, PDF_p167_2, PDF_p168_1. Prerequisite R014 / PDF_p162_prereq — только в trapIdeas (360°, сектор как средство круговой диаграммы), не в sourceRuleIds. Count 30 при recommendedMaxCount null. G017: ≤2 form нереален → recall×4, predict×4, compute×4, compare×3, restore×4, verify×4, word_problem×4, inverse×3. visual-topics: ILL=15 (q05,q12,q13,q15,q16,q17,q18,q20,q21,q23,q24,q26,q27,q29,q30) — здоровый share чтения с рисунка; text-complete для определений, 1%=3,6°, %→° и шагов построения. Planned sceneKinds: bar_chart, line_chart, pie_chart, table. Anti-dup vs math-5-okruzhnost-krug-20260808-1500 и math-5-krugovoy-sektor-20260808-1530: нет определения окружности/круга/сектора как главного навыка; другие числа vs эталонов учебника. Стемы короткие/однозначные (methodist 5 кл)."
+}

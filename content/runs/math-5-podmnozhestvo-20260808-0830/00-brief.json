@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-podmnozhestvo-20260808-0830",
+  "createdAt": "2026-08-08T08:30:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "Подмножество",
+  "topicKk": "Ішкі жиын",
+  "topicSlug": "podmnozhestvo",
+  "topicCode": "5.2",
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 30,
+  "typeMix": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMix": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "illustrationPolicy": "visual-topics",
+  "illustrationFor": [],
+  "parsedTextbookPath": "Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+  "methodistInstruction": "VISUAL topic 5.2 pages ~97–101. Subset (⊂/⊆), subset from Euler diagrams. illustrationPolicy visual-topics — mark needsIllustration where stem needs Euler/set diagram (healthy share). Generator stems needing figures: «на рисунке» / KK. sceneKinds: set_euler, set_venn. Anti-dup vs run math-5-mnozhestvo-elementy-izobrazheniya-20260808-0800. Reduce count if recommendedMaxCount < 30. pdfOffset=0.",
+  "languageMode": "BOTH"
+}

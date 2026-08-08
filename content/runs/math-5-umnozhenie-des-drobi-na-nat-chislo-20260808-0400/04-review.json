@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-umnozhenie-des-drobi-na-nat-chislo-20260808-0400",
+  "reviewedAt": "2026-08-08T06:15:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 29,
+    "fixed": 1,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "B — переместительное, сочетательное и распределительное",
+      "keyAnswer": "B — Переместительное, сочетательное и распределительное",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "C — 4,7 · 5 = 5 · 4,7",
+      "keyAnswer": "C — $4,7 \\cdot 5 = 5 \\cdot 4,7$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "B — 96,2",
+      "keyAnswer": "B — $96,2$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "A — 23,6",
+      "keyAnswer": "A — $23,6$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "B — у 5,67 · 8 (2 знака vs 1)",
+      "keyAnswer": "B — У $5,67 \\cdot 8$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "C — 7",
+      "keyAnswer": "C — $7$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "B — 0,084",
+      "keyAnswer": "B — $0,084$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "D — 49",
+      "keyAnswer": "D — $49$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "B — запятая на разряд левее (верно 36,4)",
+      "keyAnswer": "B — Запятую отделила на один разряд левее, чем нужно",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "C — 15 > 14,4",
+      "keyAnswer": "C — $2,5 \\cdot 6 > 1,8 \\cdot 8$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "C — 187,5 км",
+      "keyAnswer": "C — $187,5$ км",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "D — 4 (34)",
+      "keyAnswer": "D — $4$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "B — да, цифр без запятой меньше знаков дроби",
+      "keyAnswer": "B — Да, цифр произведения без запятой меньше, чем знаков после запятой в дроби",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "B — 1008 тенге",
+      "keyAnswer": "B — $1008$ тенге",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "B — (2,4+1,6)·5 = 2,4·5 + 1,6·5",
+      "keyAnswer": "B — $(2,4 + 1,6) \\cdot 5 = 2,4 \\cdot 5 + 1,6 \\cdot 5$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "status": "accepted",
+      "solvedAnswer": "C — 2,4",
+      "keyAnswer": "C — $2,4$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "C — A > B (25 > 17,8)",
+      "keyAnswer": "C — $A > B$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "C — 206,7 км",
+      "keyAnswer": "C — $206,7$ км",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A, C — шаги алгоритма (умножить без запятой; отделить справа)",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "A, C — 9,2 и 5,6",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "A, C — 1,25·3 и 3,07·8 (по 2 знака)",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "fixed",
+      "solvedAnswer": "A, C — 0,070 и 0,075 (сразу после запятой 0)",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": "Переписан stem (однозначно: первая цифра после запятой = 0) и новые множители 0,014·5 / 0,025·3 / 1,6·4 / 0,45·2; ключ A,C."
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "A, B — переместительное и сочетательное равенства",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "A, C — 1,2·10 и 0,8·15 (=12)",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A, C, D — 0,25; 1,5; 0,375 (при ·8 натуральные)",
+      "keyAnswer": "A, C, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "B, C, D — неверные разборы",
+      "keyAnswer": "B, C, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "A, C — полные развёртки с множителем 4",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 25",
+      "keyAnswer": "[[1]] = 25",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 2750",
+      "keyAnswer": "[[1]] = 2750",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 12",
+      "keyAnswer": "[[1]] = 12",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

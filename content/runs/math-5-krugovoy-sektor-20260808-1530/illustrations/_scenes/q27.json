@@ -1,0 +1,24 @@
+{
+  "kind": "angle",
+  "width": 500,
+  "height": 420,
+  "cx": 250,
+  "cy": 250,
+  "rayLength": 180,
+  "vertexLabel": "O",
+  "vertexOffset": { "x": -4, "y": 22 },
+  "vertexAnchor": "middle",
+  "rays": [
+    { "label": "M", "deg": 10 },
+    { "label": "P", "deg": 45 },
+    { "label": "R", "deg": 100 }
+  ],
+  "arcs": [
+    { "fromDeg": 10, "toDeg": 45, "label": "35°", "radius": 50 },
+    { "fromDeg": 45, "toDeg": 100, "label": "55°", "radius": 50 },
+    { "fromDeg": 10, "toDeg": 45, "radius": 180 },
+    { "fromDeg": 45, "toDeg": 100, "radius": 180 },
+    { "fromDeg": 100, "toDeg": 370, "radius": 180 }
+  ],
+  "showArc": false
+}

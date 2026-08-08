@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "tool": "read-textbook-pages",
+  "parsedPath": "C:\\Users\\admin\\IdeaProjects\\kz-textboox-parser\\Математика\\parsed\\math_aldamuratova_5grade_part1_parsed_v2.json",
+  "parserRoot": "C:\\Users\\admin\\IdeaProjects\\kz-textboox-parser",
+  "fileName": "Математика Алдамуратова Т. учебник для 5 класса Часть 1.pdf",
+  "pdfPath": "C:\\Users\\admin\\IdeaProjects\\kz-textboox-parser\\Математика\\Математика Алдамуратова Т. учебник для 5 класса Часть 1.pdf",
+  "pdfOffset": 0,
+  "bookPageStart": 9,
+  "bookPageEnd": 13,
+  "cacheDir": "C:\\Users\\admin\\IdeaProjects\\kz-textboox-parser\\ocr\\ocr_pages_math_aldamuratova_5grade_part1",
+  "cacheKind": "ocr_pages",
+  "cacheMissing": null,
+  "pages": [
+    {
+      "bookPage": 9,
+      "pdfPage": 9,
+      "textPath": "page_009.txt",
+      "pngPath": "page_009.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": []
+    },
+    {
+      "bookPage": 10,
+      "pdfPage": 10,
+      "textPath": "page_010.txt",
+      "pngPath": "page_010.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": []
+    },
+    {
+      "bookPage": 11,
+      "pdfPage": 11,
+      "textPath": "page_011.txt",
+      "pngPath": "page_011.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": []
+    },
+    {
+      "bookPage": 12,
+      "pdfPage": 12,
+      "textPath": "page_012.txt",
+      "pngPath": "page_012.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": []
+    },
+    {
+      "bookPage": 13,
+      "pdfPage": 13,
+      "textPath": "page_013.txt",
+      "pngPath": "page_013.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": []
+    }
+  ],
+  "summary": {
+    "requested": 5,
+    "readable": 5,
+    "unreadable": 0,
+    "allReadable": true
+  },
+  "howToRead": "Аналитик: сначала открой *.png (Read) и выпиши правила/примеры дословно; *.txt — черновик OCR/слоя, сверяй с PNG. parsed JSON — навигация и перекрёстная проверка."
+}

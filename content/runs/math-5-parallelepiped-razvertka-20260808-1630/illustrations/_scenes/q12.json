@@ -1,0 +1,19 @@
+{
+  "kind": "parallelepiped",
+  "width": 480,
+  "height": 360,
+  "origin": { "x": 110, "y": 270 },
+  "size": { "a": 200, "b": 100, "c": 130 },
+  "depthAngleDeg": 32,
+  "showHidden": true,
+  "highlightEdges": [{ "from": "A", "to": "B" }],
+  "marks": [
+    {
+      "type": "annotation",
+      "x": 210,
+      "y": 292,
+      "text": "",
+      "size": 12
+    }
+  ]
+}

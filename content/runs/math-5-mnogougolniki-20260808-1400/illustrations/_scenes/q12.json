@@ -1,0 +1,32 @@
+{
+  "kind": "polygon",
+  "width": 720,
+  "height": 380,
+  "figures": [
+    {
+      "sides": 5,
+      "cx": 180,
+      "cy": 210,
+      "radius": 115,
+      "rotationDeg": -90,
+      "vertexLabels": ["", "", "", "", ""],
+      "caption": "P",
+      "captionX": 180,
+      "captionY": 55
+    },
+    {
+      "vertices": [
+        { "id": "", "x": 470, "y": 90 },
+        { "id": "", "x": 620, "y": 130 },
+        { "id": "", "x": 560, "y": 210 },
+        { "id": "", "x": 650, "y": 320 },
+        { "id": "", "x": 450, "y": 300 }
+      ],
+      "cx": 555,
+      "cy": 210,
+      "caption": "Q",
+      "captionX": 555,
+      "captionY": 55
+    }
+  ]
+}

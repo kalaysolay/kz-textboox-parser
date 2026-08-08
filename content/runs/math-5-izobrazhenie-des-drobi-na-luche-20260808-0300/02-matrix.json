@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-izobrazhenie-des-drobi-na-luche-20260808-0300",
+  "typeMixPlanned": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMixPlanned": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Правило: меньшая левее на луче",
+      "stemIdea": "Выбрать верную формулировку о положении меньшей/большей десятичной на координатном луче",
+      "trapIdeas": [
+        "Путает левее и правее",
+        "Говорит, что равные дроби — разные точки",
+        "Смешивает с правилом поразрядного сравнения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p31_1"],
+      "sourceExampleRefs": ["p31#rule"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Чтение координаты точки на луче (десятые)",
+      "stemIdea": "На рисунке координатного луча с делениями по 0,1 найти координату отмеченной точки",
+      "trapIdeas": [
+        "Отсчёт делений от 1, а не от 0",
+        "Путает десятые и сотые",
+        "Берёт соседнее деление"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Без луча нельзя прочитать координату точки",
+      "sourceRuleIds": ["PDF_p30_1"],
+      "sourceExampleRefs": ["p30#intro", "p33#757"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Поразрядное сравнение по целой части",
+      "stemIdea": "Сравнить две десятичные с разными целыми частями и выбрать знак",
+      "trapIdeas": [
+        "Сравнивает дробные части, игнорируя целые",
+        "Путает направление неравенства",
+        "Считает «длиннее запись — больше»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p32_1", "PDF_p32_2"],
+      "sourceExampleRefs": ["p32#755"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Сравнение двух точек на луче по положению",
+      "stemIdea": "На рисунке две точки; какая координата больше по положению правее",
+      "trapIdeas": [
+        "Выбирает точку левее как большую",
+        "Сравнивает по подписям целых меток, игнорируя дробь",
+        "Считает точки равными"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Сравнение по положению требует рисунка луча",
+      "sourceRuleIds": ["PDF_p31_1", "PDF_p30_2"],
+      "sourceExampleRefs": ["p31#1"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Равные дроби — одна точка на луче",
+      "stemIdea": "Выбрать верное утверждение про 0,4 и 0,40 на координатном луче",
+      "trapIdeas": [
+        "Думает, что 0,40 правее 0,4",
+        "Думает, что 0,40 левее",
+        "Считает, что это разные числа"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p31_2", "PDF_p31_1"],
+      "sourceExampleRefs": ["p31#1"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Поразрядное сравнение по десятым",
+      "stemIdea": "Целые равны — сравнить по числу десятых",
+      "trapIdeas": [
+        "Сравнивает сотые раньше десятых",
+        "Сравнивает «длину» записи",
+        "Путает знак при близких десятых"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p32_1", "PDF_p32_2"],
+      "sourceExampleRefs": ["p32#755"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Чтение координаты между целыми (десятые)",
+      "stemIdea": "На луче с метками 0,1,2,3 точка между 1 и 2 — найти десятичную координату",
+      "trapIdeas": [
+        "Считает деления от ближайшего целого неверно",
+        "Путает 1,3 и 1,7 (зеркально)",
+        "Берёт натуральное число ближайшей метки"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Координата задана только положением на рисунке",
+      "sourceRuleIds": ["PDF_p30_1"],
+      "sourceExampleRefs": ["p33#757"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q08",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Выбор всех верных равенств с нулями в конце",
+      "stemIdea": "Из списка пар выбрать все равные десятичные записи",
+      "trapIdeas": [
+        "Путает 2,1 и 2,01",
+        "Считает 0,5 ≠ 0,500",
+        "Принимает 4,76 = 4,706"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p31_2"],
+      "sourceExampleRefs": ["p32#756"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Поразрядное сравнение по сотым",
+      "stemIdea": "Целые и десятые равны — сравнить по сотым",
+      "trapIdeas": [
+        "Сравнивает тысячные раньше сотых",
+        "Смотрит только на последнюю цифру",
+        "Путает направление знака"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p32_1", "PDF_p32_2"],
+      "sourceExampleRefs": ["p32#755"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Шаги построения десятичной на луче",
+      "stemIdea": "Какой следующий шаг после отметки целой части при изображении дроби вида a,bc",
+      "trapIdeas": [
+        "Сразу делит на 100, пропуская десятые",
+        "Делит весь луч, а не единичный отрезок",
+        "Отсчитывает сотые от нуля"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p30_1"],
+      "sourceExampleRefs": ["p30#2.57"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q11",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные утверждения о точках на рисунке луча",
+      "stemIdea": "По рисунку с несколькими точками выбрать все верные неравенства координат",
+      "trapIdeas": [
+        "Инвертирует левее/правее",
+        "Сравнивает по буквам алфавита",
+        "Считает равными соседние точки"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Неравенства опираются на взаимное положение точек на рисунке",
+      "sourceRuleIds": ["PDF_p31_1", "PDF_p30_2"],
+      "sourceExampleRefs": ["p33#757", "p34#766"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сравнение при разной длине дробной части",
+      "stemIdea": "Сравнить 0,971 и 0,97 (добавление нуля / выравнивание разрядов)",
+      "trapIdeas": [
+        "Думает 0,97 > 0,971 из‑за «короче»",
+        "Сравнивает как 971 и 97 без запятой",
+        "Считает равными"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p32_1", "PDF_p32_2"],
+      "sourceExampleRefs": ["p32#755"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q13",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Знак сравнения поразрядно",
+      "stemIdea": "Вставить знак < или > между двумя данными десятичными",
+      "trapIdeas": [
+        "Ошибка на сотых при равных целых и десятых",
+        "Сравнение «с конца» записи"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p32_2"],
+      "sourceExampleRefs": ["p33#759"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Упрощение записи равной дроби",
+      "stemIdea": "Заменить 5,2000 равной более короткой десятичной записью",
+      "trapIdeas": [
+        "Убирает нули внутри (5,2→5,02)",
+        "Меняет целую часть",
+        "Оставляет лишний ноль"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p31_2"],
+      "sourceExampleRefs": ["p33#758"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сопоставление десятичной записи с точкой на луче",
+      "stemIdea": "На рисунке несколько точек; какая соответствует данному числу",
+      "trapIdeas": [
+        "Путает соседние десятые",
+        "Берёт точку с той же целой частью, но другой дробной",
+        "Отсчитывает от конца луча"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Нужно сопоставить число с положением точки на рисунке",
+      "sourceRuleIds": ["PDF_p30_1"],
+      "sourceExampleRefs": ["p33#757"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q16",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Все верные сравнения из набора пар",
+      "stemIdea": "Выбрать все пары, для которых верно указанный знак (или верные неравенства)",
+      "trapIdeas": [
+        "Ошибка при равных целых и разных десятых",
+        "Путает 0,47 и 0,5",
+        "Инвертирует знак у близких сотых"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p32_1", "PDF_p32_2"],
+      "sourceExampleRefs": ["p33#759"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Порядок возрастания трёх десятичных",
+      "stemIdea": "Расположить три числа по возрастанию — выбрать верную цепочку",
+      "trapIdeas": [
+        "Сортирует по числу цифр после запятой",
+        "Путает возрастание и убывание",
+        "Ошибка на одном из поразрядных шагов"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p32_2"],
+      "sourceExampleRefs": ["p35#773"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Предсказание положения без построения",
+      "stemIdea": "Не вычисляя подробно: какая из двух дробей правее на луче",
+      "trapIdeas": [
+        "Путает левее/правее при верном сравнении чисел",
+        "Опирается на «больше цифр — правее»",
+        "Считает равными из‑за похожей записи"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p30_2", "PDF_p31_1"],
+      "sourceExampleRefs": ["p31#rule"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q19",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Запись координаты точки с рисунка",
+      "stemIdea": "По рисунку луча вписать координату указанной точки",
+      "trapIdeas": [
+        "Ошибка на одно деление",
+        "Запись через точку вместо запятой не критична для NUMERIC, но отсчёт важен"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Координата читается только с рисунка",
+      "sourceRuleIds": ["PDF_p30_1"],
+      "sourceExampleRefs": ["p33#757"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Свойства равных и неравных на луче",
+      "stemIdea": "Выбрать все верные утверждения о расположении равных/неравных десятичных на луче",
+      "trapIdeas": [
+        "Равные — разные точки",
+        "Большая всегда левее",
+        "Смешение с правилом перевода в обыкновенную"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p31_1", "PDF_p31_2"],
+      "sourceExampleRefs": ["p31#rule"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Последовательности: возрастание или убывание",
+      "stemIdea": "Выбрать все последовательности десятичных, расположенные по возрастанию",
+      "trapIdeas": [
+        "Смотрит только на первую и последнюю цифру",
+        "Путает возрастание с убыванием при 0,5; 0,55; 0,555",
+        "Сравнивает «длину» членов"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p32_2"],
+      "sourceExampleRefs": ["p33#760"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q22",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Сравнение после перевода величин в десятичные",
+      "stemIdea": "Записать 3 кг 485 г и 4 кг 80 г десятичными (в кг) и сравнить",
+      "trapIdeas": [
+        "Неверно переводит граммы в долю кг",
+        "Сравнивает граммы без учёта килограммов",
+        "Путает 0,080 и 0,80"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p32_1", "PDF_p32_2"],
+      "sourceExampleRefs": ["p33#761"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q23",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Сравнение нескольких точек на луче",
+      "stemIdea": "На рисунке четыре точки; выбрать верное двойное неравенство координат",
+      "trapIdeas": [
+        "Переставляет точки по алфавиту",
+        "Ошибка чтения одной из координат",
+        "Инвертирует цепочку"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Двойное неравенство строится по положению точек на рисунке",
+      "sourceRuleIds": ["PDF_p31_1", "PDF_p30_1"],
+      "sourceExampleRefs": ["p33#757", "p34#766"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Все пары с верным знаком из «ловушечных» сравнений",
+      "stemIdea": "Выбрать все верные неравенства среди пар вроде 4,899 и 4,9; 5,708 и 5,69",
+      "trapIdeas": [
+        "4,899 > 4,9 из‑за «больше цифр»",
+        "5,708 < 5,69 из‑за сравнения с конца",
+        "Ошибка на тысячных"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p32_1", "PDF_p32_2"],
+      "sourceExampleRefs": ["p34#767"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q25",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Восстановление цифры в неравенстве",
+      "stemIdea": "Какая цифра вместо * делает неравенство верным (однозначный выбор)",
+      "trapIdeas": [
+        "Цифра, нарушающая границу",
+        "Цифра из соседнего разряда",
+        "Игнорирует следующий разряд сравнения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p32_1", "PDF_p32_2"],
+      "sourceExampleRefs": ["p35#774"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q26",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "skillFocus": "Координата после сдвига по лучу",
+      "stemIdea": "Точка A дана; точка B правее A на заданную десятичную — вписать координату B",
+      "trapIdeas": [
+        "Вычитает вместо сложения",
+        "Ошибка в разрядной сетке при сложении десятых"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": "Числа заданы текстом; рисунок не обязателен",
+      "sourceRuleIds": ["PDF_p30_1", "PDF_p30_2"],
+      "sourceExampleRefs": ["p35#776"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Все верные неравенства по точкам рисунка",
+      "stemIdea": "По рисунку с точками A,B,C,D выбрать все верные неравенства между их координатами",
+      "trapIdeas": [
+        "Неверное чтение одной координаты",
+        "Инверсия знака",
+        "Сравнение букв вместо координат"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Неравенства проверяются по взаимному положению на рисунке",
+      "sourceRuleIds": ["PDF_p31_1", "PDF_p30_2"],
+      "sourceExampleRefs": ["p34#766"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q28",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Верные шаги поразрядного алгоритма",
+      "stemIdea": "Выбрать все корректные шаги/утверждения алгоритма сравнения со старшего разряда",
+      "trapIdeas": [
+        "Начинать с младшего разряда",
+        "Сравнивать только дробные части",
+        "Пропускать десятые при равных целых"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p32_1", "PDF_p32_2"],
+      "sourceExampleRefs": ["p32#hint"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q29",
+      "type": "SCQ",
+      "difficulty": 5,
+      "skillFocus": "Наибольшая/наименьшая дробь из цифр",
+      "stemIdea": "Из цифр 1,3,5,8 и запятой выбрать наибольшую возможную десятичную (или наименьшую — один фокус)",
+      "trapIdeas": [
+        "Ставит запятую не в оптимальное место",
+        "Путает наибольшую и наименьшую",
+        "Игнорирует целую часть из нескольких цифр"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p32_2", "PDF_p30_2"],
+      "sourceExampleRefs": ["p33#763"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q30",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Синтез: луч + поразрядное + равенство записей",
+      "stemIdea": "Выбрать все верные утверждения, связывающие положение на луче, равенство записей и поразрядное сравнение",
+      "trapIdeas": [
+        "Противоречит правилу левее/правее",
+        "Ошибочное равенство 2,1=2,01",
+        "Неверный вывод о старшем разряде"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p31_1", "PDF_p31_2", "PDF_p32_2"],
+      "sourceExampleRefs": ["p31#rule", "p32#756"],
+      "questionForm": "verify"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "8 слотов с needsIllustration:true (q02,q04,q07,q11,q15,q19,q23,q27) — чтение/сравнение по рисунку луча; остальные — поразрядное, равенство записей, величины, алгоритм. G017: при count=30 questionForm>2 неизбежен (как в соседних прогонах пачки). FILL_IN: q13 знак, q19 координата с рисунка, q26 сдвиг по лучу."
+}

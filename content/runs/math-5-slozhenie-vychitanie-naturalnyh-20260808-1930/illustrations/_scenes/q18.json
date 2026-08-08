@@ -1,0 +1,12 @@
+{
+  "kind": "coordinate_ray",
+  "width": 720,
+  "height": 240,
+  "originLabel": "O",
+  "unitCount": 20,
+  "tickStart": 15,
+  "points": [
+    { "id": "A", "value": 27 },
+    { "id": "C", "value": 18 }
+  ]
+}

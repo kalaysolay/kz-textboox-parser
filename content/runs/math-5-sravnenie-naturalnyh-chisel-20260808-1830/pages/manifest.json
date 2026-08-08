@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "tool": "read-textbook-pages",
+  "parsedPath": "C:\\Users\\admin\\IdeaProjects\\kz-textboox-parser\\Математика\\parsed\\math_aldamuratova_5grade_part1_parsed_v2.json",
+  "parserRoot": "C:\\Users\\admin\\IdeaProjects\\kz-textboox-parser",
+  "fileName": "Математика Алдамуратова Т. учебник для 5 класса Часть 1.pdf",
+  "pdfPath": "C:\\Users\\admin\\IdeaProjects\\kz-textboox-parser\\Математика\\Математика Алдамуратова Т. учебник для 5 класса Часть 1.pdf",
+  "pdfOffset": 0,
+  "bookPageStart": 14,
+  "bookPageEnd": 17,
+  "cacheDir": "C:\\Users\\admin\\IdeaProjects\\kz-textboox-parser\\ocr\\ocr_pages_math_aldamuratova_5grade_part1",
+  "cacheKind": "ocr_pages",
+  "cacheMissing": null,
+  "pages": [
+    {
+      "bookPage": 14,
+      "pdfPage": 14,
+      "textPath": "page_014.txt",
+      "pngPath": "page_014.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": []
+    },
+    {
+      "bookPage": 15,
+      "pdfPage": 15,
+      "textPath": "page_015.txt",
+      "pngPath": "page_015.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": []
+    },
+    {
+      "bookPage": 16,
+      "pdfPage": 16,
+      "textPath": "page_016.txt",
+      "pngPath": "page_016.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": []
+    },
+    {
+      "bookPage": 17,
+      "pdfPage": 17,
+      "textPath": "page_017.txt",
+      "pngPath": "page_017.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": []
+    }
+  ],
+  "summary": {
+    "requested": 4,
+    "readable": 4,
+    "unreadable": 0,
+    "allReadable": true
+  },
+  "howToRead": "Аналитик: сначала открой *.png (Read) и выпиши правила/примеры дословно; *.txt — черновик OCR/слоя, сверяй с PNG. parsed JSON — навигация и перекрёстная проверка."
+}

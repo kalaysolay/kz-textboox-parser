@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-povtorenie-glavy-vi-protsenty-20260808-1100",
+  "createdAt": "2026-08-08T11:00:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "Упражнения для повторения главы VI. Задачи на проценты",
+  "topicKk": "VI тарауды қайталау жаттығулары. Пайызға есептер",
+  "topicSlug": "povtorenie-glavy-vi-protsenty",
+  "topicCode": null,
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 12,
+  "typeMix": { "SCQ": 7, "MCQ": 4, "FILL_IN": 1 },
+  "difficultyMix": { "1": 1, "2": 2, "3": 6, "4": 2, "5": 1 },
+  "illustrationPolicy": "visual-topics",
+  "illustrationFor": [],
+  "parsedTextbookPath": "Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+  "methodistInstruction": "SUPPLEMENTARY chapter VI review, pages 130–132. topicCode null. count cut 30→12 by recommendedMaxCount (SCQ7/MCQ4/FILL_IN1 ≈60/30/10). slice ready_unverified with RC_* primary skills — meta.sourceReliability unverified_reconstruction. Mix percent-of-number, number-by-percent, % change, successive %, remainder chains. Anti-dup vs math-5-nahozhdenie-protsentov-ot-chisla-20260808-1000 and math-5-nahozhdenie-chisla-po-protsentam-20260808-1030 — fresh numbers. illustrationPolicy visual-topics. pdfOffset=0.",
+  "languageMode": "BOTH"
+}

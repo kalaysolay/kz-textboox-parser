@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "tool": "read-textbook-pages",
+  "parsedPath": "C:\\Users\\admin\\IdeaProjects\\kz-textboox-parser\\Математика\\parsed\\math_aldamuratova_5grade_part2_parsed_v2.json",
+  "parserRoot": "C:\\Users\\admin\\IdeaProjects\\kz-textboox-parser",
+  "fileName": "Математика Алдамуратова Т. учебник для 5 класса Часть 2.pdf",
+  "pdfPath": "C:\\Users\\admin\\IdeaProjects\\kz-textboox-parser\\Математика\\Математика Алдамуратова Т. учебник для 5 класса Часть 2.pdf",
+  "pdfOffset": 0,
+  "bookPageStart": 130,
+  "bookPageEnd": 132,
+  "cacheDir": "C:\\Users\\admin\\IdeaProjects\\kz-textboox-parser\\ocr\\ocr_pages_math_aldamuratova_5grade_part2",
+  "cacheKind": "ocr_pages",
+  "cacheMissing": null,
+  "note": "read-textbook-pages.js failed (ESM/require); PNG+TXT copied from parser OCR cache into run/pages. pdfOffset=0.",
+  "pages": [
+    {
+      "bookPage": 130,
+      "pdfPage": 130,
+      "textPath": "page_130.txt",
+      "pngPath": "page_130.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": ["copied from ocr/ocr_pages_math_aldamuratova_5grade_part2"]
+    },
+    {
+      "bookPage": 131,
+      "pdfPage": 131,
+      "textPath": "page_131.txt",
+      "pngPath": "page_131.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": ["copied from ocr/ocr_pages_math_aldamuratova_5grade_part2"]
+    },
+    {
+      "bookPage": 132,
+      "pdfPage": 132,
+      "textPath": "page_132.txt",
+      "pngPath": "page_132.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": ["copied from ocr/ocr_pages_math_aldamuratova_5grade_part2"]
+    }
+  ],
+  "summary": {
+    "requested": 3,
+    "readable": 3,
+    "unreadable": 0,
+    "allReadable": true
+  },
+  "howToRead": "Аналитик: сначала открой *.png (Read) и выпиши правила/примеры дословно; *.txt — черновик OCR/слоя, сверяй с PNG. parsed JSON — навигация и перекрёстная проверка."
+}

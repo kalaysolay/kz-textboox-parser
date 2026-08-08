@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-uproshchenie-vyrazheniy-20260808-2300",
+  "createdAt": "2026-08-08T23:00:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "Упрощение выражений",
+  "topicKk": "Өрнектерді ықшамдау",
+  "topicSlug": "uproshchenie-vyrazheniy",
+  "topicCode": "1.9",
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 30,
+  "typeMix": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMix": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "illustrationPolicy": "visual-topics",
+  "illustrationFor": [],
+  "parsedTextbookPath": "Математика/parsed/math_aldamuratova_5grade_part1_parsed_v2.json",
+  "methodistInstruction": "Формулировки для 5 класса: короткие, однозначные, без двусмысленности и лишних условий. Topic 1.9 pages ~43–47. pdfOffset=0. Respect recommendedMaxCount. Anti-dup vs C7 (properties as named facts), C10 (definitions/substitution without simplify). Focus: simplify using properties, like terms, bringing to simpler form — not bare definition of letter expression.",
+  "languageMode": "BOTH"
+}

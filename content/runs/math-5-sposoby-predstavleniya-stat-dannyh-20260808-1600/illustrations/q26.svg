@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="360" viewBox="0 0 520 360">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <line x1="48" y1="28" x2="48" y2="312" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="48" y1="312" x2="496" y2="312" stroke="#1a1a1a" stroke-width="1.75"/>
+  <rect x="64" y="170" width="64" height="142" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="96" y="330" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="middle">5</text>
+  <text x="96" y="158" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="middle">6</text>
+  <rect x="144" y="75.33333333333331" width="64" height="236.66666666666669" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="176" y="330" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="middle">4</text>
+  <text x="176" y="63.333333333333314" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="middle">10</text>
+  <rect x="224" y="122.66666666666669" width="64" height="189.33333333333331" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="256" y="330" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="middle">3</text>
+  <text x="256" y="110.66666666666669" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="middle">8</text>
+  <rect x="304" y="288.3333333333333" width="64" height="23.666666666666664" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="336" y="330" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="middle">2</text>
+  <text x="336" y="276.3333333333333" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="middle">1</text>
+</svg>

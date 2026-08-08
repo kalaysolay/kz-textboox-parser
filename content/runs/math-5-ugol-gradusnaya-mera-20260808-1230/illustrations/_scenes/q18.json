@@ -1,0 +1,21 @@
+{
+  "kind": "angle",
+  "width": 520,
+  "height": 400,
+  "cx": 240,
+  "cy": 300,
+  "rayLength": 240,
+  "vertexLabel": "O",
+  "rays": [
+    { "label": "A", "deg": 10 },
+    { "label": "D", "deg": 30 },
+    { "label": "B", "deg": 50 },
+    { "label": "E", "deg": 90 },
+    { "label": "C", "deg": 130 }
+  ],
+  "arcs": [
+    { "fromDeg": 10, "toDeg": 50, "radius": 48 },
+    { "fromDeg": 50, "toDeg": 130, "radius": 48 }
+  ],
+  "vertexOffset": { "x": -16, "y": 8 }
+}

@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "illustrator-20260805",
+    "generatedAt": "2026-08-05T00:15:00+05:00",
+    "subjectTitleRu": "Математика",
+    "subjectTitleKk": "Математика",
+    "gradeNo": 5,
+    "topicCode": "1.2",
+    "topicTitleRu": "Координатный луч. Изображение натуральных чисел и числа нуль на координатном луче",
+    "topicTitleKk": "Координаталық сәуле. Натурал сандарды және нөл санын координаталық сәулеге салу",
+    "topicSlug": "koordinatnyy-luch-illustrator-probe",
+    "atomicSkillTitleRu": null,
+    "textbookRef": "Алдамуратова, 5 кл, ч.1, стр. 9-13",
+    "illustrationPolicy": "visual-topics",
+    "sourceReliability": "verbatim"
+  },
+  "questions": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "bodyRu": "На координатном луче отмечены точки A, B и C. Какое число соответствует точке B?",
+      "bodyKk": "Координаталық сәуледе A, B және C нүктелері белгіленген. B нүктесіне қандай сан сәйкес келеді?",
+      "explanationRu": "Координата точки — число единичных отрезков от начала O.",
+      "explanationKk": "Нүктенің координатасы — O бас нүктесінен санағандағы бірлік кесінділер саны.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 9-13",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "2", "textKk": "2", "correct": false },
+        { "label": "B", "textRu": "5", "textKk": "5", "correct": true },
+        { "label": "C", "textRu": "7", "textKk": "7", "correct": false },
+        { "label": "D", "textRu": "8", "textKk": "8", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["R004"]
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "На координатном луче отмечены точки A и C. Какая точка лежит правее?",
+      "bodyKk": "Координаталық сәуледе A және C нүктелері белгіленген. Қай нүкте оңға қарай орналасқан?",
+      "explanationRu": "Правее та точка, у которой больше координата.",
+      "explanationKk": "Координатасы үлкенірек нүкте оңға қарай орналасады.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 9-13",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "C", "textKk": "C", "correct": true },
+        { "label": "B", "textRu": "A", "textKk": "A", "correct": false },
+        { "label": "C", "textRu": "Одинаково", "textKk": "Бірдей", "correct": false },
+        { "label": "D", "textRu": "Нельзя определить", "textKk": "Анықтауға болмайды", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["R004"]
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "На координатном луче отмечена точка A. Сколько единичных отрезков от начала O до точки A?",
+      "bodyKk": "Координаталық сәуледе A нүктесі белгіленген. O бас нүктесінен A нүктесіне дейін қанша бірлік кесінді бар?",
+      "explanationRu": "Число единичных отрезков от O до A равно координате A.",
+      "explanationKk": "O-дан A-ға дейінгі бірлік кесінділер саны A координатасына тең.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 9-13",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "2", "textKk": "2", "correct": false },
+        { "label": "B", "textRu": "4", "textKk": "4", "correct": false },
+        { "label": "C", "textRu": "3", "textKk": "3", "correct": true },
+        { "label": "D", "textRu": "5", "textKk": "5", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["R004"]
+    },
+    {
+      "localId": "q04",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "bodyRu": "На координатном луче отмечена точка M. Число, соответствующее точке M: [[1]].",
+      "bodyKk": "Координаталық сәуледе M нүктесі белгіленген. M нүктесіне сәйкес сан: [[1]].",
+      "explanationRu": "Точка M стоит на делении 7.",
+      "explanationKk": "M нүктесі 7 бөлікте тұр.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 9-13",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        { "placeholder": "[[1]]", "answer": "7", "matchMode": "NUMERIC_TOLERANCE", "tolerance": 0 }
+      ],
+      "sourceRuleIds": ["R004"]
+    }
+  ]
+}

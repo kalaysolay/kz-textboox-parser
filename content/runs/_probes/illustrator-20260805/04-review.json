@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "runId": "illustrator-20260805",
+  "summary": {
+    "total": 4,
+    "accepted": 4,
+    "fixed": 0,
+    "rejected": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "5",
+      "keyAnswer": "B — 5",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "C",
+      "keyAnswer": "A — C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "3",
+      "keyAnswer": "C — 3",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "7",
+      "keyAnswer": "[[1]] = 7",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

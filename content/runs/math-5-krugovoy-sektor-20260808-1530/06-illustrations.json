@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-krugovoy-sektor-20260808-1530",
+  "sourceFinal": "05-questions.final.json",
+  "styleProfile": "aldamuratova-textbook-simple",
+  "items": [
+    {
+      "localId": "q12",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Центр O и радиусы OA, OB, OC, OD на окружности; ученик считает сектора между радиусами",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q12.svg",
+        "format": "svg",
+        "width": 480,
+        "height": 420,
+        "raster": {
+          "path": "illustrations/q12.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 480,
+        "height": 420,
+        "cx": 240,
+        "cy": 220,
+        "rayLength": 150,
+        "vertexLabel": "O",
+        "vertexOffset": { "x": -4, "y": 20 },
+        "vertexAnchor": "middle",
+        "rays": [
+          { "label": "A", "deg": 35 },
+          { "label": "B", "deg": 110 },
+          { "label": "C", "deg": 200 },
+          { "label": "D", "deg": 295 }
+        ],
+        "arcs": [
+          { "fromDeg": 35, "toDeg": 110, "radius": 150 },
+          { "fromDeg": 110, "toDeg": 200, "radius": 150 },
+          { "fromDeg": 200, "toDeg": 295, "radius": 150 },
+          { "fromDeg": 295, "toDeg": 395, "radius": 150 }
+        ],
+        "showArc": false
+      },
+      "notes": "Workaround: angle rays + circumference arcs (no pie_chart/sector). Count not labeled."
+    },
+    {
+      "localId": "q16",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Сектор с центром O: два радиуса OA, OB, центральный угол отмечен дугой; без подписи ответа",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q16.svg",
+        "format": "svg",
+        "width": 480,
+        "height": 420,
+        "raster": {
+          "path": "illustrations/q16.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 480,
+        "height": 420,
+        "cx": 240,
+        "cy": 230,
+        "rayLength": 150,
+        "vertexLabel": "O",
+        "vertexOffset": { "x": -16, "y": 16 },
+        "rays": [
+          { "label": "A", "deg": 20 },
+          { "label": "B", "deg": 95 }
+        ],
+        "arcs": [
+          { "fromDeg": 20, "toDeg": 95, "radius": 44 },
+          { "fromDeg": 20, "toDeg": 95, "radius": 150 },
+          { "fromDeg": 95, "toDeg": 380, "radius": 150 }
+        ],
+        "showArc": false
+      },
+      "notes": "Retry: removed triangleOverlay (chord AB looked like segment / distractor D). No pie fill — stem «закрашена» approximated by two radii + marked central angle on disk outline."
+    },
+    {
+      "localId": "q17",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Центральный угол сектора подписан 75° только на чертеже (ключ B)",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q17.svg",
+        "format": "svg",
+        "width": 480,
+        "height": 420,
+        "raster": {
+          "path": "illustrations/q17.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 480,
+        "height": 420,
+        "cx": 240,
+        "cy": 230,
+        "rayLength": 150,
+        "vertexLabel": "O",
+        "vertexOffset": { "x": -16, "y": 16 },
+        "rays": [
+          { "label": "A", "deg": 15 },
+          { "label": "B", "deg": 90 }
+        ],
+        "arcs": [
+          { "fromDeg": 15, "toDeg": 90, "label": "75°", "radius": 52 },
+          { "fromDeg": 15, "toDeg": 90, "radius": 150 },
+          { "fromDeg": 90, "toDeg": 375, "radius": 150 }
+        ],
+        "showArc": false
+      },
+      "notes": "Retry: no triangleOverlay chord. 75° on figure required by stem (not leak of options); 285°/180°/105° not shown."
+    },
+    {
+      "localId": "q22",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Диск O с радиусами OA, OB, OC; все три смежные клина закрашены одинаково — выбор секторов в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q22.svg",
+        "format": "svg",
+        "width": 500,
+        "height": 440,
+        "raster": {
+          "path": "illustrations/q22.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 500,
+        "height": 440,
+        "figures": [
+          {
+            "cx": 250,
+            "cy": 230,
+            "rayLength": 150,
+            "vertexLabel": "",
+            "rays": [
+              { "label": "", "deg": 25 },
+              { "label": "", "deg": 105 }
+            ],
+            "triangleOverlay": {
+              "legA": { "deg": 25, "t": 1 },
+              "legB": { "deg": 105, "t": 1 }
+            },
+            "showArc": false
+          },
+          {
+            "cx": 250,
+            "cy": 230,
+            "rayLength": 150,
+            "vertexLabel": "",
+            "rays": [
+              { "label": "", "deg": 105 },
+              { "label": "", "deg": 210 }
+            ],
+            "triangleOverlay": {
+              "legA": { "deg": 105, "t": 1 },
+              "legB": { "deg": 210, "t": 1 }
+            },
+            "showArc": false
+          },
+          {
+            "cx": 250,
+            "cy": 230,
+            "rayLength": 150,
+            "vertexLabel": "",
+            "rays": [
+              { "label": "", "deg": 210 },
+              { "label": "", "deg": 385 }
+            ],
+            "triangleOverlay": {
+              "legA": { "deg": 210, "t": 1 },
+              "legB": { "deg": 385, "t": 1 }
+            },
+            "showArc": false
+          },
+          {
+            "cx": 250,
+            "cy": 230,
+            "rayLength": 150,
+            "vertexLabel": "O",
+            "vertexOffset": { "x": -4, "y": 22 },
+            "vertexAnchor": "middle",
+            "rays": [
+              { "label": "A", "deg": 25 },
+              { "label": "B", "deg": 105 },
+              { "label": "C", "deg": 210 }
+            ],
+            "arcs": [
+              { "fromDeg": 25, "toDeg": 105, "radius": 150 },
+              { "fromDeg": 105, "toDeg": 210, "radius": 150 },
+              { "fromDeg": 210, "toDeg": 385, "radius": 150 }
+            ],
+            "showArc": false
+          }
+        ]
+      },
+      "notes": "Retry: shade AOB+BOC+COA equally (triangleOverlay) so A/B are not uniquely highlighted. No pie_chart — fills are triangular wedges, not true sector fills; segment distractors stay conceptual."
+    },
+    {
+      "localId": "q27",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Смежные сектора MOP и POR: на чертеже 35° и 55°; составной 90° не подписан",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q27.svg",
+        "format": "svg",
+        "width": 500,
+        "height": 420,
+        "raster": {
+          "path": "illustrations/q27.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 500,
+        "height": 420,
+        "cx": 250,
+        "cy": 250,
+        "rayLength": 180,
+        "vertexLabel": "O",
+        "vertexOffset": { "x": -4, "y": 22 },
+        "vertexAnchor": "middle",
+        "rays": [
+          { "label": "M", "deg": 10 },
+          { "label": "P", "deg": 45 },
+          { "label": "R", "deg": 100 }
+        ],
+        "arcs": [
+          { "fromDeg": 10, "toDeg": 45, "label": "35°", "radius": 50 },
+          { "fromDeg": 45, "toDeg": 100, "label": "55°", "radius": 50 },
+          { "fromDeg": 10, "toDeg": 45, "radius": 180 },
+          { "fromDeg": 45, "toDeg": 100, "radius": 180 },
+          { "fromDeg": 100, "toDeg": 370, "radius": 180 }
+        ],
+        "showArc": false
+      },
+      "notes": "Stem already has 35°/55°; figure matches. Composite 90° not labeled (anti-leak for option A)."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "runId": "illustrator-20260805",
+  "sourceFinal": "05-questions.final.json",
+  "styleProfile": "aldamuratova-textbook-simple",
+  "items": [
+    {
+      "localId": "q01",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "coordinate_ray",
+      "purpose": "Показать точки A, B, C на луче; ответ в options, не подсвечен на рисунке",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q01.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": { "path": "illustrations/q01.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "coordinate_ray",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 8,
+        "points": [
+          { "id": "A", "value": 2 },
+          { "id": "B", "value": 5 },
+          { "id": "C", "value": 7 }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q02",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "coordinate_ray",
+      "purpose": "Показать A и C для сравнения положения",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q02.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": { "path": "illustrations/q02.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "coordinate_ray",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 8,
+        "points": [
+          { "id": "A", "value": 3 },
+          { "id": "C", "value": 7 }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q03",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "coordinate_ray",
+      "purpose": "Показать точку A для подсчёта единичных отрезков от O",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q03.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": { "path": "illustrations/q03.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "coordinate_ray",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 8,
+        "points": [{ "id": "A", "value": 3 }]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q04",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "coordinate_ray",
+      "purpose": "Показать точку M; ученик читает координату с луча (FILL_IN)",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q04.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": { "path": "illustrations/q04.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "coordinate_ray",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 10,
+        "points": [{ "id": "M", "value": 7 }]
+      },
+      "notes": "Положение M на шкале необходимо для задания; число ответа в тексте на рисунке не подписано отдельно"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <line x1="160" y1="260" x2="328.34557168606693" y2="236.34057283678888" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="160" y1="260" x2="136.34057283678888" y2="91.65442831393304" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="160" cy="260" r="3.5" fill="#1a1a1a"/>
+  <polyline points="173.863752962382,258.05157658655907 171.9153295489411,244.18782362417707 158.0515765865591,246.136247037618" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="342.20932464844896" y="234.39214942334797" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">A</text>
+  <text x="134.39214942334797" y="77.79067535155104" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">B</text>
+  <text x="146" y="270" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="end" dominant-baseline="middle">O</text>
+  <line x1="480" y1="250" x2="659.3150456565143" y2="234.31196630542152" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="480" y1="250" x2="600.4435091445945" y2="116.23393141406905" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="480" y1="250" x2="352.72077938642144" y2="122.72077938642144" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="480" cy="250" r="3.5" fill="#1a1a1a"/>
+  <path d="M 521.8401773198533 246.33945880459837 A 42 42 0 0 0 508.10348546707206 218.78791732994944" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <path d="M 547.7412394702387 244.07340949315923 A 68 68 0 0 0 431.9167388793148 201.91673887931478" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="673.2617714297986" y="233.09178590695433" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">F</text>
+  <text x="609.8113376336185" y="105.82990385738552" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">C</text>
+  <text x="342.8212844498098" y="112.82128444980978" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">K</text>
+  <text x="466" y="260" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="end" dominant-baseline="middle">N</text>
+</svg>

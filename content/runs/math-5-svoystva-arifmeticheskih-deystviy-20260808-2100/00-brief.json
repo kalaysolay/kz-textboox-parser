@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-svoystva-arifmeticheskih-deystviy-20260808-2100",
+  "createdAt": "2026-08-08T21:00:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "Свойства арифметических действий",
+  "topicKk": "Арифметикалық амалдардың қасиеттері",
+  "topicSlug": "svoystva-arifmeticheskih-deystviy",
+  "topicCode": "1.6",
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 30,
+  "typeMix": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMix": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "illustrationPolicy": "visual-topics",
+  "illustrationFor": [],
+  "parsedTextbookPath": "Математика/parsed/math_aldamuratova_5grade_part1_parsed_v2.json",
+  "methodistInstruction": "Формулировки для 5 класса: короткие, однозначные, без двусмысленности и лишних условий. Topic 1.6 pages ~29–33. pdfOffset part1=0. Respect recommendedMaxCount if set. Anti-dup vs C1–C6 and other content/runs/*/05. Scope: properties of arithmetic operations only (not Gauss method 1.7+).",
+  "languageMode": "BOTH"
+}

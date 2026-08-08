@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "tool": "read-textbook-pages",
+  "parsedPath": "C:\\Users\\admin\\IdeaProjects\\kz-textboox-parser\\Математика\\parsed\\math_aldamuratova_5grade_part2_parsed_v2.json",
+  "parserRoot": "C:\\Users\\admin\\IdeaProjects\\kz-textboox-parser",
+  "fileName": "Математика Алдамуратова Т. учебник для 5 класса Часть 2.pdf",
+  "pdfPath": "C:\\Users\\admin\\IdeaProjects\\kz-textboox-parser\\Математика\\Математика Алдамуратова Т. учебник для 5 класса Часть 2.pdf",
+  "pdfOffset": 0,
+  "bookPageStart": 11,
+  "bookPageEnd": 15,
+  "cacheDir": "C:\\Users\\admin\\IdeaProjects\\kz-textboox-parser\\ocr\\ocr_pages_math_aldamuratova_5grade_part2",
+  "cacheKind": "ocr_pages",
+  "cacheMissing": null,
+  "pages": [
+    {
+      "bookPage": 11,
+      "pdfPage": 11,
+      "textPath": "page_011.txt",
+      "pngPath": "page_011.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": []
+    },
+    {
+      "bookPage": 12,
+      "pdfPage": 12,
+      "textPath": "page_012.txt",
+      "pngPath": "page_012.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": []
+    },
+    {
+      "bookPage": 13,
+      "pdfPage": 13,
+      "textPath": "page_013.txt",
+      "pngPath": "page_013.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": []
+    },
+    {
+      "bookPage": 14,
+      "pdfPage": 14,
+      "textPath": "page_014.txt",
+      "pngPath": "page_014.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": []
+    },
+    {
+      "bookPage": 15,
+      "pdfPage": 15,
+      "textPath": "page_015.txt",
+      "pngPath": "page_015.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": []
+    }
+  ],
+  "summary": {
+    "requested": 5,
+    "readable": 5,
+    "unreadable": 0,
+    "allReadable": true
+  },
+  "howToRead": "Аналитик: сначала открой *.png (Read) и выпиши правила/примеры дословно; *.txt — черновик OCR/слоя, сверяй с PNG.",
+  "note": "Copied from OCR cache via PowerShell; read-textbook-pages.js fails under content/tools package.json type=module (CommonJS require)."
+}

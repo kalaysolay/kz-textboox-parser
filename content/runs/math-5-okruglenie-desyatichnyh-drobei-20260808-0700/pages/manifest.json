@@ -1,0 +1,21 @@
+﻿{
+  "schemaVersion": 1,
+  "parsed": "Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+  "pdfOffset": 0,
+  "pageRange": "82-88",
+  "note": "read-textbook-pages.js crashed (ACCESS_VIOLATION); copied from ocr/ocr_pages_math_aldamuratova_5grade_part2",
+  "pages": [
+    { "bookPage": 82, "pdfPage": 82, "png": "page_082.png", "txt": "page_082.txt", "source": "ocr_cache", "readable": true },
+    { "bookPage": 83, "pdfPage": 83, "png": "page_083.png", "txt": "page_083.txt", "source": "ocr_cache", "readable": true },
+    { "bookPage": 84, "pdfPage": 84, "png": "page_084.png", "txt": "page_084.txt", "source": "ocr_cache", "readable": true },
+    { "bookPage": 85, "pdfPage": 85, "png": "page_085.png", "txt": "page_085.txt", "source": "ocr_cache", "readable": true },
+    { "bookPage": 86, "pdfPage": 86, "png": "page_086.png", "txt": "page_086.txt", "source": "ocr_cache", "readable": true },
+    { "bookPage": 87, "pdfPage": 87, "png": "page_087.png", "txt": "page_087.txt", "source": "ocr_cache", "readable": true },
+    { "bookPage": 88, "pdfPage": 88, "png": "page_088.png", "txt": "page_088.txt", "source": "ocr_cache", "readable": true }
+  ],
+  "summary": {
+    "requested": 7,
+    "copied": 7,
+    "allReadable": true
+  }
+}

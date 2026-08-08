@@ -1,0 +1,13 @@
+{
+  "kind": "set_euler",
+  "width": 520,
+  "height": 360,
+  "sets": [
+    { "id": "", "cx": 260, "cy": 200, "r": 120 }
+  ],
+  "elements": [
+    { "label": "P", "x": 245, "y": 185 },
+    { "label": "Q", "x": 380, "y": 200 },
+    { "label": "R", "x": 455, "y": 95 }
+  ]
+}

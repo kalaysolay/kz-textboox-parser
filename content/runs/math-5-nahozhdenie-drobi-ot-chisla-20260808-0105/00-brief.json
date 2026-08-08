@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-nahozhdenie-drobi-ot-chisla-20260808-0105",
+  "createdAt": "2026-08-08T01:05:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "Нахождение дроби от числа. Нахождение числа по его дроби",
+  "topicKk": "Санның бөлшегін табу. Бөлшегі бойынша санды табу",
+  "topicSlug": "nahozhdenie-drobi-ot-chisla",
+  "topicCode": "3.14",
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 30,
+  "typeMix": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMix": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "illustrationPolicy": "visual-topics",
+  "illustrationFor": [],
+  "parsedTextbookPath": "Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+  "methodistInstruction": "Пачка 30: SCQ 60% / MCQ 30% / FILL_IN 10%. Разнообразие questionForm (не больше 2 слотов на одну форму в матрице). Иллюстрации только если stem без рисунка неполный (для этой темы обычно не нужны). Качество важнее объёма: если slice.recommendedMaxCount < 30 — оркестратор уменьшит count.",
+  "languageMode": "BOTH"
+}

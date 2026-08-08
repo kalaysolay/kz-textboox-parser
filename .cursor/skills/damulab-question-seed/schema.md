@@ -97,8 +97,12 @@ Id БД (`subjectId`, `topicIds`, `gradeIds`, `atomicSkillId`) **не** вход
 
 ### illustration
 
-В v1 всегда `null`: в банке вопросов нет хранения картинок. Поле оставлено под v2, когда
-появится ручка `POST /api/admin/question-assets`.
+В артефакте `05` всегда `null`: файлы картинок пишет иллюстратор в `06-illustrations.json` +
+`illustrations/`. Привязку assetId к вопросу в БД сделает будущий asset-import агент
+(ручка вроде `POST /api/admin/question-assets`), не генератор и не ревьюер.
+
+`needsIllustration` копируется из слота матрицы; при `illustrationPolicy: none` — всегда
+`false`.
 
 ## Проверка
 

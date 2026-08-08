@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="360" viewBox="0 0 420 360">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <rect x="126" y="50" width="56" height="56" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <rect x="70" y="106" width="56" height="56" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <rect x="126" y="106" width="56" height="56" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <rect x="182" y="106" width="56" height="56" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <rect x="238" y="106" width="56" height="56" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <rect x="126" y="162" width="56" height="56" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="154" cy="78" r="8.819999999999999" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="165.34" y1="78" x2="171.64" y2="78" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="162.01859089865545" y1="86.01859089865545" x2="166.4733636201307" y2="90.4733636201307" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="154" y1="89.34" x2="154" y2="95.64" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="145.98140910134455" y1="86.01859089865545" x2="141.5266363798693" y2="90.4733636201307" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="142.66" y1="78" x2="136.36" y2="78" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="145.98140910134455" y1="69.98140910134455" x2="141.5266363798693" y2="65.5266363798693" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="154" y1="66.66" x2="154" y2="60.36" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="162.01859089865545" y1="69.98140910134455" x2="166.4733636201307" y2="65.5266363798693" stroke="#1a1a1a" stroke-width="1.75"/>
+  <path d="M 98 141.938 C 83.888 133.118, 90.062 122.534, 98 130.031 C 105.938 122.534, 112.112 133.118, 98 141.938 Z" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <ellipse cx="154" cy="134" rx="7.056" ry="12.6" transform="rotate(-25 154 134)" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="154" y1="145.34" x2="154" y2="122.66" stroke="#1a1a1a" stroke-width="1.75"/>
+  <polygon points="154,176.14 163.702,190 154,203.86 144.298,190" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+</svg>

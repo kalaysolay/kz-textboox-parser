@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-sposoby-predstavleniya-stat-dannyh-20260808-1600",
+  "reviewedAt": "2026-08-08T13:10:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 28,
+    "fixed": 2,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "solvedAnswer": "A — способ наглядного представления числовых данных",
+      "keyAnswer": "A — Способ наглядного представления числовых данных",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×4, predict×4, compute×4, compare×3, restore×4, verify×4, word_problem×4, inverse×3. Стемы внутри формы разные; не отклоняем."
+        }
+      ],
+      "fixApplied": "explanationKk: «көрсету» → «ұсыну» (паритет с вариантом A).",
+      "status": "fixed"
+    },
+    {
+      "localId": "q02",
+      "solvedAnswer": "D — столбчатые, линейные, круговые и графические",
+      "keyAnswer": "D — Столбчатые, линейные, круговые и графические",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    },
+    {
+      "localId": "q03",
+      "solvedAnswer": "D — значения величин",
+      "keyAnswer": "D — Значения величин",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    },
+    {
+      "localId": "q04",
+      "solvedAnswer": "A — 3,6° (360:100)",
+      "keyAnswer": "A — $3,6^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    },
+    {
+      "localId": "q05",
+      "solvedAnswer": "D — Сабина (самый высокий столбик)",
+      "keyAnswer": "D — Сабина",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    },
+    {
+      "localId": "q06",
+      "solvedAnswer": "A — 2 (5−3)",
+      "keyAnswer": "A — $2$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    },
+    {
+      "localId": "q07",
+      "solvedAnswer": "B — 3,6°·20=72°",
+      "keyAnswer": "B — $3,6^\\circ \\cdot 20 = 72^\\circ$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "kk_calque",
+          "severity": "minor",
+          "message": "bodyKk: «ауыстырады» звучало как калька; заменено на «түрлендіреді»."
+        }
+      ],
+      "fixApplied": "bodyKk: «ауыстырады» → «түрлендіреді» (естественнее KK).",
+      "status": "fixed"
+    },
+    {
+      "localId": "q08",
+      "solvedAnswer": "D — 90° (3,6·25)",
+      "keyAnswer": "D — $90^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    },
+    {
+      "localId": "q09",
+      "solvedAnswer": "C — показать изменения величин отрезками",
+      "keyAnswer": "C — Показать изменения величин отрезками",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    },
+    {
+      "localId": "q10",
+      "solvedAnswer": "A — точками, соединёнными отрезками (ломаной)",
+      "keyAnswer": "A — Точками, соединёнными отрезками (ломаной)",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    },
+    {
+      "localId": "q11",
+      "solvedAnswer": "D — 144° (360−(36+180))",
+      "keyAnswer": "D — $144^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    },
+    {
+      "localId": "q12",
+      "solvedAnswer": "A — 5А и 5В (близкие высоты)",
+      "keyAnswer": "A — 5А и 5В",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    },
+    {
+      "localId": "q13",
+      "solvedAnswer": "B — 8 ((3−1)·3+2)",
+      "keyAnswer": "B — $8$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    },
+    {
+      "localId": "q14",
+      "solvedAnswer": "C — 30% (108:3,6)",
+      "keyAnswer": "C — $30\\%$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    },
+    {
+      "localId": "q15",
+      "solvedAnswer": "D — Боралдай (самый длинный отрезок)",
+      "keyAnswer": "D — Боралдай",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    },
+    {
+      "localId": "q16",
+      "solvedAnswer": "A — в огурце воды больше всего",
+      "keyAnswer": "A — В огурце воды больше всего",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    },
+    {
+      "localId": "q17",
+      "solvedAnswer": "C — в 14 ч (пик ломаной)",
+      "keyAnswer": "C — В $14$ ч",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    },
+    {
+      "localId": "q18",
+      "solvedAnswer": "D — 4 (9−5)",
+      "keyAnswer": "D — $4$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    },
+    {
+      "localId": "q19",
+      "solvedAnswer": "A, C, D — столбчатая, таблица, графическая",
+      "keyAnswer": "A, C, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    },
+    {
+      "localId": "q20",
+      "solvedAnswer": "A, C, D — 72°, 108°, 180°",
+      "keyAnswer": "A, C, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    },
+    {
+      "localId": "q21",
+      "solvedAnswer": "A, C, D — собак>кошек; хомяков меньше всех; кроликов<кошек",
+      "keyAnswer": "A, C, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    },
+    {
+      "localId": "q22",
+      "solvedAnswer": "A, B, D — прямой угол, масштаб, равная ширина",
+      "keyAnswer": "A, B, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    },
+    {
+      "localId": "q23",
+      "solvedAnswer": "A, B, D — шаг 2; макс в 5 ч; мин=4",
+      "keyAnswer": "A, B, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    },
+    {
+      "localId": "q24",
+      "solvedAnswer": "A, B, D — мороженое летом; чай зимой; зонты весной",
+      "keyAnswer": "A, B, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    },
+    {
+      "localId": "q25",
+      "solvedAnswer": "A, C, D — 108°, 72°, 36°",
+      "keyAnswer": "A, C, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    },
+    {
+      "localId": "q26",
+      "solvedAnswer": "A, C, D — 6 на «5»; всего 25; 64% на «4»+«5»",
+      "keyAnswer": "A, C, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    },
+    {
+      "localId": "q27",
+      "solvedAnswer": "A, B, D — Лепсі макс; Ақсу мин; Қаратал≈Лепсі",
+      "keyAnswer": "A, B, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    },
+    {
+      "localId": "q28",
+      "solvedAnswer": "[[1]] = 126",
+      "keyAnswer": "[[1]] = 126",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    },
+    {
+      "localId": "q29",
+      "solvedAnswer": "[[1]] = 144",
+      "keyAnswer": "[[1]] = 144",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    },
+    {
+      "localId": "q30",
+      "solvedAnswer": "[[1]] = 12",
+      "keyAnswer": "[[1]] = 12",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null,
+      "status": "accepted"
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

@@ -1,0 +1,524 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-nahozhdenie-chisla-po-protsentam-20260808-1030",
+  "typeMixPlanned": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMixPlanned": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Узнавание определения нахождения числа по его процентам",
+      "stemIdea": "Выбрать формулировку: нахождение 100%-ного значения величины, если известна её часть, составляющая данное число процентов",
+      "trapIdeas": [
+        "Ученик выбирает определение нахождения процентов от данного числа (тема 6.2)",
+        "Ученик выбирает определение процента как сотой части (тема 6.1)",
+        "Ученик считает, что «число по процентам» — это умножение части на процент"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_0"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Узнавание правила: деление части на дробь процента",
+      "stemIdea": "Выбрать правило: проценты выражают дробью и данное число (часть) делят на эту дробь",
+      "trapIdeas": [
+        "Ученик выбирает правило 6.2: умножить данное число на дробь процента",
+        "Ученик выбирает «разделить число на 100» без указания, что делится часть b на P",
+        "Ученик думает, что достаточно прибавить проценты к части"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Удобные проценты: целое по 1%/10%/25%/50%",
+      "stemIdea": "Найти число, если известны его удобные проценты (1%, 10%, 25% или 50%) одним шагом",
+      "trapIdeas": [
+        "Ученик для 50% делит часть пополам вместо умножения на 2",
+        "Ученик для 25% делит часть на 4 вместо умножения на 4",
+        "Ученик для 10% умножает на 10 со сдвигом разряда в другую сторону"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_1", "PDF_p125_3"],
+      "sourceExampleRefs": ["p126#1142"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Нахождение числа через 1%",
+      "stemIdea": "Найти целое двухшагово: 1% = b:P, затем умножить на 100",
+      "trapIdeas": [
+        "Ученик останавливается после нахождения 1% и выдаёт его за целое",
+        "Ученик умножает b на P вместо деления, чтобы «найти 1%»",
+        "Ученик умножает b на P/100 (делает 6.2 вместо 6.3)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_3"],
+      "sourceExampleRefs": ["p125#1"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Выбор действия для числа по процентам без полного счёта",
+      "stemIdea": "По смыслу «P% числа равны b, найти число» указать нужное действие (b:(P/100) или через 1%), не доводя до ответа",
+      "trapIdeas": [
+        "Ученик выбирает умножение b на P/100 (правило 6.2)",
+        "Ученик выбирает умножение b на P без перевода в дробь",
+        "Ученик выбирает деление b на P без последующего ·100"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_1", "PDF_p125_2"],
+      "sourceExampleRefs": ["p126#2"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Восстановление шага в цепочке через 1%",
+      "stemIdea": "В разборе «b:P = 1%; затем ·100» пропущено одно действие — восстановить его",
+      "trapIdeas": [
+        "Ученик вставляет умножение на P вместо деления на P",
+        "Ученик вставляет деление на 100 вместо умножения на 100",
+        "Ученик вставляет умножение на P/100 (путь 6.2)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_3"],
+      "sourceExampleRefs": ["p125#1"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Равносильность пути через 1% и деления на P/100",
+      "stemIdea": "Выбрать утверждение, что (b:P)·100 и b:(P/100) дают один и тот же результат",
+      "trapIdeas": [
+        "Ученик считает пути разными по смыслу и результату",
+        "Ученик принимает равенство (b:P)·100 = b·(P/100)",
+        "Ученик путает с правилом нахождения процентов от числа"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_3", "PDF_p125_1"],
+      "sourceExampleRefs": ["p125#1"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Число по процентам в текстовой задаче",
+      "stemIdea": "Сюжет: величина b составляет P% от целого (площадь, книги, ученики класса) — найти целое a",
+      "trapIdeas": [
+        "Ученик умножает b на P/100, находя «процент от части»",
+        "Ученик берёт (100−P)% от b вместо деления b на P/100",
+        "Ученик делит b на P без перевода процента в дробь и без ·100"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_1"],
+      "sourceExampleRefs": ["p127#1144"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Исходное после увеличения на P% (стало = (100+P)%)",
+      "stemIdea": "После перевыполнения/роста на P% величина стала b; найти исходный план как 100%",
+      "trapIdeas": [
+        "Ученик считает, что b — это P% от исходного, и делит b на P/100",
+        "Ученик вычитает из b величину P% от b и выдаёт разность за исходное",
+        "Ученик делит b на (1−P/100) вместо (1+P/100)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_1", "PDF_p125_2"],
+      "sourceExampleRefs": ["p127#1145"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Исходное после уменьшения на P% (стало = (100−P)%)",
+      "stemIdea": "После уценки/убытка на P% величина стала b; найти исходную цену или сумму закупки",
+      "trapIdeas": [
+        "Ученик прибавляет к b величину P% от b (считает скидку от новой цены)",
+        "Ученик делит b на (1+P/100) вместо (1−P/100)",
+        "Ученик считает b = P% исходного и применяет a = b:(P/100)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_1", "PDF_p125_2"],
+      "sourceExampleRefs": ["p127#1146"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Проверка равенства «число по процентам»",
+      "stemIdea": "Среди готовых равенств выбрать верное вычисление a при известных b и P%",
+      "trapIdeas": [
+        "Ученик принимает b · (P/100) = a (операция 6.2)",
+        "Ученик принимает b · P = a без деления на 100",
+        "Ученик принимает перевод P% в неверную десятичную (например 18% = 1,8)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_2", "PDF_p125_1"],
+      "sourceExampleRefs": ["p126#2"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Эквивалентность обыкновенной и десятичной записи при делении",
+      "stemIdea": "Проверить, какое из готовых решений (через P/100 и через десятичную) верно даёт число по процентам",
+      "trapIdeas": [
+        "Ученик считает верным только один способ и отвергает равносильный второй",
+        "Ученик принимает неверное сокращение обыкновенной дроби процента",
+        "Ученик путает 18% = 0,18 с 18% = 0,018 или 1,8"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_1"],
+      "sourceExampleRefs": ["p126#2"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сравнение двух чисел, заданных условиями «P%=b»",
+      "stemIdea": "Сравнить два числа: у одного P1% равны b1, у другого P2% равны b2",
+      "trapIdeas": [
+        "Ученик сравнивает только проценты или только части, не находя целые",
+        "Ученик для одного из чисел применяет умножение на P/100 вместо деления",
+        "Ученик меняет местами P и b в одном из условий"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_1", "PDF_p125_2"],
+      "sourceExampleRefs": ["p128#1160"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Восстановление пропущенного a в таблице Количество/Процентов",
+      "stemIdea": "По строке таблицы «P% — b; 100% — ?» восстановить целое среди вариантов",
+      "trapIdeas": [
+        "Ученик считает a = b · P/100",
+        "Ученик меняет b и P ролями",
+        "Ученик делит b на (100−P)/100 (дополнение вместо данной доли)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_2"],
+      "sourceExampleRefs": ["p125#1"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Оценка 1% по известной части без полного целого",
+      "stemIdea": "Сказать, чему равен 1% искомого числа, если P% равны b — не завершая умножение на 100",
+      "trapIdeas": [
+        "Ученик делит b на 100 вместо деления на P",
+        "Ученик выдаёт b·P за 1%",
+        "Ученик выдаёт целое a вместо значения 1%"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_3"],
+      "sourceExampleRefs": ["p125#1"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Восстановление делителя P/100 для нахождения целого",
+      "stemIdea": "Указать, на какую дробь или десятичную надо разделить b, чтобы найти число, P% которого равны b",
+      "trapIdeas": [
+        "Ученик выбирает множитель P/100 (путь умножения 6.2)",
+        "Ученик выбирает 1 + P/100, хотя просят делитель для прямой части P%",
+        "Ученик выбирает 100/P без связи с делением b на P/100"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_1", "PDF_p125_2"],
+      "sourceExampleRefs": ["p126#2"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Длина по проценту ширины, затем площадь",
+      "stemIdea": "Ширина прямоугольника составляет P% длины; по ширине найти длину и сравнить/выбрать верную площадь",
+      "trapIdeas": [
+        "Ученик принимает ширину за P% площади, а не длины",
+        "Ученик умножает ширину на P/100 вместо деления",
+        "Ученик находит длину верно, но площадь считает как ширина·P"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_1"],
+      "sourceExampleRefs": ["p128#1153"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 5,
+      "skillFocus": "Обратная цепочка двух процентных изменений",
+      "stemIdea": "После двух последовательных изменений цены (±P%, затем ±Q%) величина равна b; найти исходную цену",
+      "trapIdeas": [
+        "Ученик откатывает изменения одним суммарным процентом или в неверном порядке",
+        "Ученик вычитает/прибавляет проценты от конечной цены как от исходной",
+        "Ученик делит b на неверную пару множителей (знаки +/− перепутаны)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_1", "PDF_p125_2"],
+      "sourceExampleRefs": ["p129#1162", "p129#1163"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Распознавание сюжетов «число по его процентам»",
+      "stemIdea": "Отметить все формулировки, где известны b и P% и нужно найти целое a (отсечь сюжеты 6.2)",
+      "trapIdeas": [
+        "Ученик отмечает «найти P% от данного числа» как задачу этой темы",
+        "Ученик пропускает сюжет «после уценки на P% цена стала b»",
+        "Ученик отмечает определение «что такое 1%» как нахождение числа по процентам"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_0", "PDF_p125_1"],
+      "sourceExampleRefs": ["p127#1144"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Все верные способы найти число по процентам",
+      "stemIdea": "Отметить все корректные равенства/способы: через P/100, через десятичную, через 1%",
+      "trapIdeas": [
+        "Ученик отмечает b · (P/100) как способ найти целое",
+        "Ученик отмечает b + P как способ",
+        "Ученик отвергает верный путь через 1%, считая его «другой темой»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_1", "PDF_p125_2", "PDF_p125_3"],
+      "sourceExampleRefs": ["p126#2"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные утверждения о буквах формулы a = b:(P/100)",
+      "stemIdea": "Отметить все верные высказывания: что обозначают a, P, b и как из формулы получают целое",
+      "trapIdeas": [
+        "Ученик считает, что a — уже известная часть, а b — искомое целое",
+        "Ученик считает, что b всегда больше a",
+        "Ученик утверждает, что формула ищет b = a·P/100 (тема 6.2)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Величина с единицами: целое по проценту части",
+      "stemIdea": "Отметить все верно найденные целые величины (м, кг, км…), если P% величины равны данной мере",
+      "trapIdeas": [
+        "Ученик умножает данную меру на P/100",
+        "Ученик для 75% умножает на 3/4 вместо деления на 3/4",
+        "Ученик верно делит, но выбирает вариант с перепутанными единицами"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_1"],
+      "sourceExampleRefs": ["p127#1151"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Восстановление соответствия «часть ↔ процент» до нахождения целого",
+      "stemIdea": "Отметить все верные пары «данная величина соответствует такому-то %» (118% плана, 90% после уценки, остаток пути)",
+      "trapIdeas": [
+        "Ученик считает перевыполнение на 18% равным 18% плана, а не 118%",
+        "Ученик после уценки на 10% принимает новую цену за 10% исходной",
+        "Ученик для остатка пути после 74% принимает остаток за 74%"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_0", "PDF_p125_2"],
+      "sourceExampleRefs": ["p127#1145", "p127#1146", "p127#1147"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Составное: сначала % от числа, затем число по %",
+      "stemIdea": "Отметить все верные итоги, где P% искомого равны Q% от c: сначала правая часть (шаг 6.2), затем целое (6.3)",
+      "trapIdeas": [
+        "Ученик останавливается после нахождения Q% от c и выдаёт его за ответ",
+        "Ученик делит c на P/100, пропуская вычисление Q% от c",
+        "Ученик умножает (Q% от c) на P/100 вместо деления"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_1", "PDF_p125_2"],
+      "sourceExampleRefs": ["p128#1161"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Смесь дроби и процента полок → целое по остатку",
+      "stemIdea": "Отметить верные рассуждения: часть полок дана дробью и %, третья полка — остаток до 100%; по числу книг на третьей найти целое",
+      "trapIdeas": [
+        "Ученик складывает 1/4 и 40% как 65% без приведения к одному виду",
+        "Ученик принимает книги третьей полки за 40% всех книг",
+        "Ученик умножает число на третьей полке на остаток-процент вместо деления"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_1"],
+      "sourceExampleRefs": ["p128#1157"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Разность долей сплава → какой % соответствует разности",
+      "stemIdea": "Отметить верные промежуточные утверждения: при P% и (100−P)% разность масс d соответствует |2P−100|% сплава (ещё до нахождения массы)",
+      "trapIdeas": [
+        "Ученик принимает разность масс за P% сплава",
+        "Ученик складывает проценты алюминия и меди как 180%",
+        "Ученик считает, что разность долей равна 100%"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_1", "PDF_p125_2"],
+      "sourceExampleRefs": ["p128#1158"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Сравнение результатов сложных восстановлений по процентам",
+      "stemIdea": "Отметить все верные сравнения/утверждения о целых, найденных по остатку пути за несколько дней или по разности долей",
+      "trapIdeas": [
+        "Ученик сравнивает проценты дней вместо найденных километров целого",
+        "Ученик принимает остаток километров за сумму процентов дней",
+        "Ученик для сплава делит разность масс на 100% вместо доли-разности"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_1", "PDF_p125_2"],
+      "sourceExampleRefs": ["p128#1156", "p128#1158"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Вписывание целого по формуле a = b:(P/100)",
+      "stemIdea": "Вписать число a, если P% его равны b (микрокалькуляторный или «неудобный» процент)",
+      "trapIdeas": [
+        "Ученик умножает b на P/100",
+        "Ученик делит b на P и забывает ·100",
+        "Ученик путает порядок клавиш b ÷ P % с умножением"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_2", "PDF_p125_1"],
+      "sourceExampleRefs": ["p126#1149"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "skillFocus": "Целое по проценту остатка пути или запаса",
+      "stemIdea": "Пройдено/израсходовано P%; остаток равен b = (100−P)%; вписать целое расстояние или запас",
+      "trapIdeas": [
+        "Ученик принимает остаток за P% и делит b на P/100",
+        "Ученик умножает b на (100−P)/100",
+        "Ученик складывает остаток с P как именованной величиной"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_1", "PDF_p125_2"],
+      "sourceExampleRefs": ["p127#1147", "p128#1156"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Процент от остатка: целое по последней доле",
+      "stemIdea": "Сначала P% от целого, затем Q% от остатка, последняя доля равна b; вписать исходное целое",
+      "trapIdeas": [
+        "Ученик берёт второй процент от исходного целого, а не от остатка",
+        "Ученик складывает P% и Q% и делит b на сумму процентов",
+        "Ученик принимает последнюю долю за P% исходного"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p125_1", "PDF_p125_2"],
+      "sourceExampleRefs": ["p129#1164"],
+      "questionForm": "inverse"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "Пачка только на 6.3 (стр. 125–129): primary PDF_p125_0 (определение), PDF_p125_1 (правило деления на дробь), PDF_p125_2 (формула a=b:(P/100)), PDF_p125_3 (через 1%). Prerequisite PDF_p119_1 (6.2) и R011 (6.1) — только trapIdeas / промежуточный шаг (q24), не в sourceRuleIds. TypeMix SCQ18/MCQ9/FILL_IN3 и difficulty 1:2/2:4/3:15/4:6/5:3: SCQ q01–q18 (d1×2, d2×4, d3×9, d4×2, d5×1), MCQ q19–q27 (d3×5, d4×3, d5×1), FILL_IN q28–q30 (d3/d4/d5). Scope: найти целое a при известных b и P%; следствия — исходное после ±P%, целое по остатку %, сравнение двух «P%=b», составное 6.2→6.3, % от остатка, цепочки. Нет skillFocus «P% от a». illustrationPolicy=visual-topics: needsIllustration 0/30 — условие полно текстом; полоска 100%/P% не обязательна. G017: при count=30 лимит ≤2 на форму нереален — recall×4, compute×4, predict×4, verify×4, restore×4, word_problem×4, compare×3, inverse×3. inverse = делитель P/100 / откат цепочки / % от остатка — НЕ поиск P% от a. recommendedMaxCount=null — 30 ок. Anti-dup vs …-protsentov-ot-chisla-20260808-1000: не клонировать числа/сюжеты 1114–1139; опоры 1142–1166. Вне ядра: 1150°/1155/1159/1169*; 1167*–1168* не брали."
+}
+

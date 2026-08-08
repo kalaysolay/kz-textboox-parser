@@ -1,0 +1,523 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-nahozhdenie-protsentov-ot-chisla-20260808-1000",
+  "typeMixPlanned": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMixPlanned": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Узнавание правила нахождения процентов от числа",
+      "stemIdea": "Выбрать формулировку: чтобы найти проценты от числа, проценты выражают дробью и умножают данное число на эту дробь",
+      "trapIdeas": [
+        "Ученик выбирает правило «число по его процентам» (деление вместо умножения) — путаница с 6.3",
+        "Ученик считает, что достаточно разделить число на 100 и остановиться",
+        "Ученик думает, что проценты прибавляют к числу без перевода в дробь"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p119_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Узнавание основной формулы процентов b = a·P/100",
+      "stemIdea": "По подписям a — данное число, P — число процентов, b — искомое: выбрать верную буквенную запись",
+      "trapIdeas": [
+        "Ученик выбирает b = a · P (забывает деление на 100)",
+        "Ученик выбирает b = a : (P/100) (переворачивает операцию)",
+        "Ученик выбирает b = P : a · 100"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p118_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Удобные проценты 10%/25%/50% от числа",
+      "stemIdea": "Найти один из «удобных» процентов от натурального числа одним шагом (через 1/10, 1/4 или 1/2)",
+      "trapIdeas": [
+        "Ученик для 50% умножает число на 2 вместо деления пополам",
+        "Ученик для 25% делит на 2, а не на 4",
+        "Ученик для 10% делит на 10 неверно (сдвиг разряда в другую сторону)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p119_1"],
+      "sourceExampleRefs": ["p120#1114"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Нахождение P% через 1% числа",
+      "stemIdea": "Найти P% от числа двухшагово: сначала 1% (деление на 100), затем умножение на P",
+      "trapIdeas": [
+        "Ученик останавливается после нахождения 1% и выдаёт его за ответ",
+        "Ученик умножает число на 100 вместо деления, чтобы «найти 1%»",
+        "Ученик умножает данное сразу на P и забывает деление на 100"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p118_2"],
+      "sourceExampleRefs": ["p118#1"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Выбор действия для P% от числа без полного счёта",
+      "stemIdea": "По смыслу «найти P% от a» указать нужное действие (·P/100 или ·десятичная), не доводя вычисление до ответа",
+      "trapIdeas": [
+        "Ученик выбирает деление a на P/100 (правило 6.3)",
+        "Ученик выбирает умножение a на P без перевода в дробь",
+        "Ученик выбирает деление a на P"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p119_1", "PDF_p118_1"],
+      "sourceExampleRefs": ["p119#2"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Восстановление шага в цепочке через 1%",
+      "stemIdea": "В разборе «a = 100%; a:100 = 1%; затем ·P» пропущено одно действие — восстановить его",
+      "trapIdeas": [
+        "Ученик вставляет умножение на 100 вместо деления на 100",
+        "Ученик меняет местами шаги: сначала ·P, потом :100 без эквивалентности",
+        "Ученик вставляет прибавление P% вместо умножения на P"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p118_2"],
+      "sourceExampleRefs": ["p118#1"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q07",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Вычисление P% от числа",
+      "stemIdea": "Вписать значение P% от данного числа (не «удобный» процент, нужен полный перевод в дробь)",
+      "trapIdeas": [
+        "Ученик умножает a на P и не делит на 100",
+        "Ученик делит a на P/100 (ищет целое по проценту)",
+        "Ученик путает запятую при умножении на десятичную запись процента"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p119_1", "PDF_p118_1"],
+      "sourceExampleRefs": ["p120#1118"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q08",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Процент состава от данной массы",
+      "stemIdea": "Сюжет: в продукте P% вещества; вписать массу вещества в данной порции",
+      "trapIdeas": [
+        "Ученик находит (100−P)% вместо P%",
+        "Ученик делит массу на P/100, ища «целое»",
+        "Ученик забывает единицы и портит числовой ответ лишним текстом"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p119_1"],
+      "sourceExampleRefs": ["p120#1115"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q09",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Восстановление значения b = a·P/100",
+      "stemIdea": "В равенстве или таблице «a, P%, b» пропущено b — вписать найденные проценты от числа",
+      "trapIdeas": [
+        "Ученик подставляет a·P",
+        "Ученик подставляет a : P",
+        "Ученик переводит P% в дробь верно, но умножает не то число"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p118_1"],
+      "sourceExampleRefs": ["p120#1118"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Два процента от одного числа и сумма",
+      "stemIdea": "От одного целого даны два разных процента частей — найти суммарное количество (как «на 5» и «на 4»)",
+      "trapIdeas": [
+        "Ученик складывает проценты и забывает взять сумму процентов от числа",
+        "Ученик находит только один из двух процентов",
+        "Ученик вычитает проценты вместо сложения найденных частей"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p119_1"],
+      "sourceExampleRefs": ["p120#1117"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Дополнение процента до 100%",
+      "stemIdea": "Дана доля P% одной части, остальное — другая; найти массу/объём остатка как (100−P)% от a",
+      "trapIdeas": [
+        "Ученик берёт P% от a вместо (100−P)%",
+        "Ученик вычитает P из a как будто P — именованная величина",
+        "Ученик делит a на (100−P)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p119_1"],
+      "sourceExampleRefs": ["p120#1116"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Проверка равенства «P% от a»",
+      "stemIdea": "Среди готовых равенств выбрать верное вычисление P% от данного числа",
+      "trapIdeas": [
+        "Ученик принимает a · P = b без /100",
+        "Ученик принимает a : (P/100) = b (обратная операция)",
+        "Ученик принимает перевод P% в неверную десятичную (например 5% = 0,5)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p118_1", "PDF_p119_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Эквивалентность обыкновенной и десятичной записи процента",
+      "stemIdea": "Проверить, какое из готовых решений (через P/100 и через десятичную) верно даёт P% от a",
+      "trapIdeas": [
+        "Ученик считает верным только один способ и отвергает равносильный второй",
+        "Ученик принимает неверное сокращение обыкновенной дроби процента",
+        "Ученик путает 20% = 0,2 с 20% = 2"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p119_1"],
+      "sourceExampleRefs": ["p119#2"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сравнение двух процентов от одного числа",
+      "stemIdea": "Сравнить величины P1% и P2% от одного и того же a (без обязательного полного счёта обеих частей)",
+      "trapIdeas": [
+        "Ученик сравнивает только проценты, игнорируя что основание одно и то же (верно по сути) но путает направление неравенства частей",
+        "Ученик находит проценты от разных оснований по ошибке условия",
+        "Ученик сравнивает P1 с P2 после перевода в дроби неверно"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p119_1", "PDF_p118_1"],
+      "sourceExampleRefs": ["p120#1114"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Восстановление пропущенного b в таблице процентов",
+      "stemIdea": "По строке таблицы a и P% восстановить b = a·P/100 среди вариантов",
+      "trapIdeas": [
+        "Ученик считает b = a · P / 10 (теряет ноль)",
+        "Ученик меняет a и P ролями",
+        "Ученик берёт дополнение (100−P)% от a"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p118_1"],
+      "sourceExampleRefs": ["p120#1118"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Оценка 1% числа без завершения всего P%",
+      "stemIdea": "Сказать, чему равен 1% данного a (или порядок величины P% ), не выполняя полное умножение на P",
+      "trapIdeas": [
+        "Ученик делит a на P вместо 100",
+        "Ученик умножает a на 0,01 неверно (сдвиг)",
+        "Ученик выдаёт P% целиком вместо 1%"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p118_2"],
+      "sourceExampleRefs": ["p118#1"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Восстановление десятичного множителя для P%",
+      "stemIdea": "Указать, на какую десятичную дробь надо умножить a, чтобы найти P% от a (не искать «целое по проценту»)",
+      "trapIdeas": [
+        "Ученик выбирает множитель P вместо P/100",
+        "Ученик выбирает 1 + P/100, хотя просят именно P% от числа, а не увеличение",
+        "Ученик выбирает 100/P"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p119_1", "PDF_p118_1"],
+      "sourceExampleRefs": ["p119#2"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Равносильность пути через 1% и умножения на P/100",
+      "stemIdea": "Выбрать утверждение, что (a:100)·P и a·(P/100) дают один и тот же результат",
+      "trapIdeas": [
+        "Ученик считает пути разными по смыслу и результату",
+        "Ученик принимает равенство (a:100)·P = a·P (без /100 во второй записи)",
+        "Ученик путает с правилом нахождения числа по проценту"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p118_2", "PDF_p119_1"],
+      "sourceExampleRefs": ["p118#1"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Распознавание сюжетов «проценты от данного числа»",
+      "stemIdea": "Отметить все формулировки, где известно целое a и нужно найти P% от него (отсечь сюжеты 6.3 «число по проценту»)",
+      "trapIdeas": [
+        "Ученик отмечает «b составляет P% от числа, найдите число» как задачу этой темы",
+        "Ученик пропускает сюжет увеличения на P%, хотя он сводится к (100+P)% от a",
+        "Ученик отмечает определение «что такое 1%» как нахождение процентов от числа"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p119_1", "PDF_p118_1"],
+      "sourceExampleRefs": ["p120#1115"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Все верные способы найти P% от a",
+      "stemIdea": "Отметить все корректные равенства/способы: через P/100, через десятичную, через 1%",
+      "trapIdeas": [
+        "Ученик отмечает a : (P/100) как способ найти P% от a",
+        "Ученик отмечает a + P как способ",
+        "Ученик отвергает верный путь через 1%, считая его «другой темой»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p119_1", "PDF_p118_2", "PDF_p118_1"],
+      "sourceExampleRefs": ["p119#2"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные утверждения о буквах формулы процентов",
+      "stemIdea": "Отметить все верные высказывания: что обозначают a, P, b и как из формулы получают b",
+      "trapIdeas": [
+        "Ученик считает, что a — это уже проценты, а P — данное число",
+        "Ученик считает, что b всегда больше a",
+        "Ученик утверждает, что формула ищет a по известным b и P (6.3)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p118_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q22",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Сравнение «P% от a» и «число на P% больше a»",
+      "stemIdea": "Сравнить величину P% от a с величиной числа, которое на P% больше a (прирост vs новое значение)",
+      "trapIdeas": [
+        "Ученик считает, что «на P% больше» равно просто P% от a",
+        "Ученик сравнивает с числом на P% меньше вместо большего",
+        "Ученик принимает новое значение равным a + P (без процента от a)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p119_1", "PDF_p118_1"],
+      "sourceExampleRefs": ["p120#1119"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q23",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Цена после повышения на P%",
+      "stemIdea": "Вычислить новую цену: первоначальная плюс P% от неё (или ·(1+P/100))",
+      "trapIdeas": [
+        "Ученик находит только P% и забывает прибавить к цене",
+        "Ученик вычитает P% вместо прибавления",
+        "Ученик умножает цену на P/100 неверно (например 12% = 1,2)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p119_1", "PDF_p118_1"],
+      "sourceExampleRefs": ["p120#1119"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q24",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Множитель для уменьшения на P%",
+      "stemIdea": "Указать множитель (100−P)/100, на который умножают a, чтобы сразу получить число на P% меньше a",
+      "trapIdeas": [
+        "Ученик выбирает множитель 1 + P/100 (увеличение)",
+        "Ученик выбирает P/100 (только величину снижения без «нового значения»)",
+        "Ученик выбирает 1 − P (без деления P на 100)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p119_1", "PDF_p118_1"],
+      "sourceExampleRefs": ["p121#1120"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Предсказание верных промежуточных шагов ±P%",
+      "stemIdea": "Отметить все верные промежуточные записи при нахождении числа на P% больше/меньше данного (без требования конечного числа в каждом варианте)",
+      "trapIdeas": [
+        "Ученик отмечает a − P как уменьшение на P%",
+        "Ученик отмечает умножение на 1 − P/100 при увеличении",
+        "Ученик отмечает деление на (1+P/100) как прямой путь к новому значению"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p119_1", "PDF_p118_1"],
+      "sourceExampleRefs": ["p121#1120"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Отсечение ложных равенств при ±P%",
+      "stemIdea": "Отметить все верные равенства для новой цены/величины после повышения или понижения на P%",
+      "trapIdeas": [
+        "Ученик принимает a · P/100 как новую цену после повышения",
+        "Ученик принимает a · (1 − P) при P в процентах без /100",
+        "Ученик принимает обратную операцию a : (1+P/100) как «повышение»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p118_1", "PDF_p119_1"],
+      "sourceExampleRefs": ["p120#1119", "p121#1120"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Сравнение результатов процентов в разных сюжетах",
+      "stemIdea": "Отметить все верные сравнения двух величин, полученных как проценты от разных или одного основания (вкл. разность меди/олово)",
+      "trapIdeas": [
+        "Ученик сравнивает проценты вместо найденных именованных величин",
+        "Ученик для «на сколько больше» вычитает проценты, а не массы частей",
+        "Ученик берёт обе части как P% вместо P% и (100−P)%"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p119_1"],
+      "sourceExampleRefs": ["p121#1126"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q28",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Подстановка в формулу простого процентного роста",
+      "stemIdea": "Отметить все верно восстановленные шаги/значения при S_n = S(1 + P·n/100) для вклада на несколько периодов",
+      "trapIdeas": [
+        "Ученик начисляет процент на уже выросшую сумму каждого периода (сложный рост)",
+        "Ученик пишет 1 + P/100 + n вместо 1 + P·n/100",
+        "Ученик умножает S на P·n без деления на 100"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p122_1"],
+      "sourceExampleRefs": ["p122#1135", "p123#1136"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q29",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Процент от остатка и цепочка частей",
+      "stemIdea": "Отметить все верно найденные части пути/величины, когда следующий процент берётся от остатка, а не от исходного целого",
+      "trapIdeas": [
+        "Ученик берёт второй процент от исходного a, а не от остатка",
+        "Ученик складывает проценты и берёт сумму от a",
+        "Ученик вычитает проценты как именованные величины без нахождения частей"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p119_1"],
+      "sourceExampleRefs": ["p123#1138"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q30",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Цепочка: увеличение на P1%, затем P2% от нового числа",
+      "stemIdea": "Отметить все верные выражения/шаги для сюжета «увеличили число на P1%, затем нашли P2% результата» (итог — процент от нового, не поиск исходного)",
+      "trapIdeas": [
+        "Ученик берёт P2% от исходного числа, пропуская увеличение",
+        "Ученик увеличивает на P1% неверно (прибавляет P1 как число)",
+        "Ученик после увеличения делит на P2/100, ища «целое» (уход в 6.3)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p119_1", "PDF_p118_1"],
+      "sourceExampleRefs": ["p122#1131"],
+      "questionForm": "inverse"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "Пачка только на 6.2 (стр. 118–123): primary PDF_p119_1 (правило), PDF_p118_1 (формула), PDF_p118_2 (через 1%), PDF_p122_1 (простой рост). R011 (6.1) — prerequisite, только как источник ловушек, не в sourceRuleIds. TypeMix SCQ18/MCQ9/FILL_IN3 и difficulty 1:2/2:4/3:15/4:6/5:3 из brief. Scope: нахождение P% от a и следствия (±P%, % остатка, простой рост, цепочки); нет drill 6.1 «что такое %» и нет 6.3 «число по проценту». illustrationPolicy=visual-topics: needsIllustration везде false — процентный расчёт полон текстом; полоска 100%/P% из Задачи 2 не обязательна для stem. ВАЖНО (G017): при count=30 и 8 формах лимит «≤2 на форму» невыполним (макс. 16). Формы максимально ровно: по 4 recall/compute/predict/verify/restore/word_problem и по 3 compare/inverse. inverse здесь = восстановить множитель P/100 или (100±P)/100 / структуру цепочки — НЕ поиск a по известному b=P% от a. recommendedMaxCount=null, usable-примеров много — объём 30 по материалу ок. Свежие числа; не клонировать 1114–1139 дословно."
+}

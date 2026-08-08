@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-sposoby-predstavleniya-stat-dannyh-20260808-1600",
+  "sourceFinal": "05-questions.final.json",
+  "styleProfile": "aldamuratova-textbook-simple",
+  "items": [
+    {
+      "localId": "q05",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "bar_chart",
+      "purpose": "Столбчатая диаграмма числа книг: Айгуль 8, Бауыржан 12, Сабина 15, Тимур 6",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q05.svg",
+        "format": "svg",
+        "width": 560,
+        "height": 360,
+        "raster": { "path": "illustrations/q05.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "bar_chart",
+        "width": 560,
+        "height": 360,
+        "yMax": 16,
+        "showValues": true,
+        "bars": [
+          { "label": "Айгуль", "value": 8 },
+          { "label": "Бауыржан", "value": 12 },
+          { "label": "Сабина", "value": 15 },
+          { "label": "Тимур", "value": 6 }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q12",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "bar_chart",
+      "purpose": "Столбики мячей: 5А=18, 5Б=10, 5В=19, 5Г=7 — близки 5А и 5В",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q12.svg",
+        "format": "svg",
+        "width": 560,
+        "height": 360,
+        "raster": { "path": "illustrations/q12.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "bar_chart",
+        "width": 560,
+        "height": 360,
+        "yMax": 20,
+        "showValues": true,
+        "bars": [
+          { "label": "5А", "value": 18 },
+          { "label": "5Б", "value": 10 },
+          { "label": "5В", "value": 19 },
+          { "label": "5Г", "value": 7 }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q13",
+      "status": "blocked",
+      "role": "stem",
+      "sceneKind": "table",
+      "purpose": "Таблица этаж×квартира с нумерацией для чтения № Мадины",
+      "answerLeakCheck": "pass",
+      "asset": null,
+      "scene": null,
+      "notes": "Preferred table unsupported in RENDERERS. Retry bar_chart cannot encode 4×3 apartment grid / numbering rule. See pipeline-gaps G022."
+    },
+    {
+      "localId": "q15",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "bar_chart",
+      "purpose": "Высоты холмов: Алатау 2000, Боралдай 3500, Көкжота 1500, Сарытау 2800",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q15.svg",
+        "format": "svg",
+        "width": 560,
+        "height": 360,
+        "raster": { "path": "illustrations/q15.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "bar_chart",
+        "width": 560,
+        "height": 360,
+        "yMax": 4000,
+        "showValues": true,
+        "bars": [
+          { "label": "Алатау", "value": 2000 },
+          { "label": "Боралдай", "value": 3500 },
+          { "label": "Көкжота", "value": 1500 },
+          { "label": "Сарытау", "value": 2800 }
+        ]
+      },
+      "notes": "Retry: line_chart (линейная) unsupported → vertical bar_chart with same lengths."
+    },
+    {
+      "localId": "q16",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "bar_chart",
+      "purpose": "% воды: огурец 95, хлеб 40, яблоко 85, сыр 35",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q16.svg",
+        "format": "svg",
+        "width": 560,
+        "height": 360,
+        "raster": { "path": "illustrations/q16.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "bar_chart",
+        "width": 560,
+        "height": 360,
+        "yMax": 100,
+        "showValues": true,
+        "bars": [
+          { "label": "огурец", "value": 95 },
+          { "label": "хлеб", "value": 40 },
+          { "label": "яблоко", "value": 85 },
+          { "label": "сыр", "value": 35 }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q17",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "bar_chart",
+      "purpose": "Температура по часам: 8→10, 10→14, 12→17, 14→21, 16→18, 18→13",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q17.svg",
+        "format": "svg",
+        "width": 620,
+        "height": 360,
+        "raster": { "path": "illustrations/q17.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "bar_chart",
+        "width": 620,
+        "height": 360,
+        "yMax": 24,
+        "showValues": true,
+        "bars": [
+          { "label": "8", "value": 10 },
+          { "label": "10", "value": 14 },
+          { "label": "12", "value": 17 },
+          { "label": "14", "value": 21 },
+          { "label": "16", "value": 18 },
+          { "label": "18", "value": 13 }
+        ]
+      },
+      "notes": "Retry: line_chart (ломаная) unsupported → bar_chart by hour; peak at 14 readable."
+    },
+    {
+      "localId": "q18",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "bar_chart",
+      "purpose": "Скорости: велосипед 9, самокат 5, бег 7 м/с",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q18.svg",
+        "format": "svg",
+        "width": 480,
+        "height": 360,
+        "raster": { "path": "illustrations/q18.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "bar_chart",
+        "width": 480,
+        "height": 360,
+        "yMax": 10,
+        "showValues": true,
+        "bars": [
+          { "label": "велосипед", "value": 9 },
+          { "label": "самокат", "value": 5 },
+          { "label": "бег", "value": 7 }
+        ]
+      },
+      "notes": "Stem asks horizontal bars; renderer is vertical only — values unchanged."
+    },
+    {
+      "localId": "q20",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Круговая схема с подписями 20%, 30%, 50%; углы в options не подписаны",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q20.svg",
+        "format": "svg",
+        "width": 500,
+        "height": 440,
+        "raster": { "path": "illustrations/q20.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 500,
+        "height": 440,
+        "figures": [
+          {
+            "cx": 250,
+            "cy": 230,
+            "rayLength": 150,
+            "vertexLabel": "",
+            "rays": [
+              { "label": "", "deg": 0 },
+              { "label": "", "deg": 72 }
+            ],
+            "triangleOverlay": {
+              "legA": { "deg": 0, "t": 1 },
+              "legB": { "deg": 72, "t": 1 }
+            },
+            "showArc": false
+          },
+          {
+            "cx": 250,
+            "cy": 230,
+            "rayLength": 150,
+            "vertexLabel": "",
+            "rays": [
+              { "label": "", "deg": 72 },
+              { "label": "", "deg": 180 }
+            ],
+            "triangleOverlay": {
+              "legA": { "deg": 72, "t": 1 },
+              "legB": { "deg": 180, "t": 1 }
+            },
+            "showArc": false
+          },
+          {
+            "cx": 250,
+            "cy": 230,
+            "rayLength": 150,
+            "vertexLabel": "",
+            "rays": [
+              { "label": "", "deg": 180 },
+              { "label": "", "deg": 360 }
+            ],
+            "triangleOverlay": {
+              "legA": { "deg": 180, "t": 1 },
+              "legB": { "deg": 360, "t": 1 }
+            },
+            "showArc": false
+          },
+          {
+            "cx": 250,
+            "cy": 230,
+            "rayLength": 150,
+            "vertexLabel": "O",
+            "vertexOffset": { "x": -4, "y": 22 },
+            "vertexAnchor": "middle",
+            "rays": [
+              { "label": "", "deg": 0 },
+              { "label": "", "deg": 72 },
+              { "label": "", "deg": 180 }
+            ],
+            "arcs": [
+              { "fromDeg": 0, "toDeg": 72, "label": "20%", "radius": 68 },
+              { "fromDeg": 72, "toDeg": 180, "label": "30%", "radius": 78 },
+              { "fromDeg": 180, "toDeg": 360, "label": "50%", "radius": 88 },
+              { "fromDeg": 0, "toDeg": 72, "radius": 150 },
+              { "fromDeg": 72, "toDeg": 180, "radius": 150 },
+              { "fromDeg": 180, "toDeg": 360, "radius": 150 }
+            ],
+            "showArc": false
+          }
+        ]
+      },
+      "notes": "Retry: pie_chart unsupported → angle wedges + % labels (G021). Degrees 72/108/180 not shown."
+    },
+    {
+      "localId": "q21",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "bar_chart",
+      "purpose": "Животные: собака 12, кошка 8, кролик 5, хомяк 3",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q21.svg",
+        "format": "svg",
+        "width": 560,
+        "height": 360,
+        "raster": { "path": "illustrations/q21.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "bar_chart",
+        "width": 560,
+        "height": 360,
+        "yMax": 14,
+        "showValues": true,
+        "bars": [
+          { "label": "собака", "value": 12 },
+          { "label": "кошка", "value": 8 },
+          { "label": "кролик", "value": 5 },
+          { "label": "хомяк", "value": 3 }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q23",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "bar_chart",
+      "purpose": "t=1,3,5,7,9; T=4,6,9,8,5 — чтение шага/макс/мин",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q23.svg",
+        "format": "svg",
+        "width": 560,
+        "height": 360,
+        "raster": { "path": "illustrations/q23.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "bar_chart",
+        "width": 560,
+        "height": 360,
+        "yMax": 10,
+        "showValues": true,
+        "bars": [
+          { "label": "1", "value": 4 },
+          { "label": "3", "value": 6 },
+          { "label": "5", "value": 9 },
+          { "label": "7", "value": 8 },
+          { "label": "9", "value": 5 }
+        ]
+      },
+      "notes": "Retry: table unsupported → bar_chart by hour with same T values."
+    },
+    {
+      "localId": "q24",
+      "status": "blocked",
+      "role": "stem",
+      "sceneKind": "line_chart",
+      "purpose": "Три ломаные продаж по сезонам (мороженое/чай/зонты)",
+      "answerLeakCheck": "pass",
+      "asset": null,
+      "scene": null,
+      "notes": "line_chart unsupported; retry bar_chart is single-series only — cannot encode 3 series × 4 seasons. See pipeline-gaps G022."
+    },
+    {
+      "localId": "q26",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "bar_chart",
+      "purpose": "Оценки: «5»→6, «4»→10, «3»→8, «2»→1",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q26.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": { "path": "illustrations/q26.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "bar_chart",
+        "width": 520,
+        "height": 360,
+        "yMax": 12,
+        "showValues": true,
+        "bars": [
+          { "label": "5", "value": 6 },
+          { "label": "4", "value": 10 },
+          { "label": "3", "value": 8 },
+          { "label": "2", "value": 1 }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q27",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "bar_chart",
+      "purpose": "Реки: Көксу 280, Қаратал 390, Лепсі 420, Ақсу 160",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q27.svg",
+        "format": "svg",
+        "width": 560,
+        "height": 360,
+        "raster": { "path": "illustrations/q27.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "bar_chart",
+        "width": 560,
+        "height": 360,
+        "yMax": 450,
+        "showValues": true,
+        "bars": [
+          { "label": "Көксу", "value": 280 },
+          { "label": "Қаратал", "value": 390 },
+          { "label": "Лепсі", "value": 420 },
+          { "label": "Ақсу", "value": 160 }
+        ]
+      },
+      "notes": "Retry: line_chart (линейная) unsupported → bar_chart."
+    },
+    {
+      "localId": "q29",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Круговая схема: один сектор подписан 40%; угол 144° не показан",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q29.svg",
+        "format": "svg",
+        "width": 480,
+        "height": 420,
+        "raster": { "path": "illustrations/q29.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 480,
+        "height": 420,
+        "figures": [
+          {
+            "cx": 240,
+            "cy": 220,
+            "rayLength": 145,
+            "vertexLabel": "",
+            "rays": [
+              { "label": "", "deg": 20 },
+              { "label": "", "deg": 164 }
+            ],
+            "triangleOverlay": {
+              "legA": { "deg": 20, "t": 1 },
+              "legB": { "deg": 164, "t": 1 }
+            },
+            "showArc": false
+          },
+          {
+            "cx": 240,
+            "cy": 220,
+            "rayLength": 145,
+            "vertexLabel": "O",
+            "vertexOffset": { "x": -4, "y": 22 },
+            "vertexAnchor": "middle",
+            "rays": [
+              { "label": "", "deg": 20 },
+              { "label": "", "deg": 164 },
+              { "label": "", "deg": 380 }
+            ],
+            "arcs": [
+              { "fromDeg": 20, "toDeg": 164, "label": "40%", "radius": 70 },
+              { "fromDeg": 20, "toDeg": 164, "radius": 145 },
+              { "fromDeg": 164, "toDeg": 380, "radius": 145 }
+            ],
+            "showArc": false
+          }
+        ]
+      },
+      "notes": "Retry: pie_chart unsupported → angle sector + 40% label (G021). Answer 144° not on figure."
+    },
+    {
+      "localId": "q30",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "bar_chart",
+      "purpose": "t=6..16; T=2,5,8,12,10,7 — найти максимум 12",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q30.svg",
+        "format": "svg",
+        "width": 620,
+        "height": 360,
+        "raster": { "path": "illustrations/q30.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "bar_chart",
+        "width": 620,
+        "height": 360,
+        "yMax": 14,
+        "showValues": true,
+        "bars": [
+          { "label": "6", "value": 2 },
+          { "label": "8", "value": 5 },
+          { "label": "10", "value": 8 },
+          { "label": "12", "value": 12 },
+          { "label": "14", "value": 10 },
+          { "label": "16", "value": 7 }
+        ]
+      },
+      "notes": "Retry: table unsupported → bar_chart with same T series."
+    }
+  ]
+}

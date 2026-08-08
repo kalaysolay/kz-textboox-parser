@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-uproshchenie-vyrazheniy-20260808-2300",
+  "pdfOffset": 0,
+  "source": "ocr/ocr_pages_math_aldamuratova_5grade_part1",
+  "pages": [
+    { "bookPage": 43, "pdfPage": 43, "png": "page_043.png", "txt": "page_043.txt", "readable": true },
+    { "bookPage": 44, "pdfPage": 44, "png": "page_044.png", "txt": "page_044.txt", "readable": true },
+    { "bookPage": 45, "pdfPage": 45, "png": "page_045.png", "txt": "page_045.txt", "readable": true },
+    { "bookPage": 46, "pdfPage": 46, "png": "page_046.png", "txt": "page_046.txt", "readable": true },
+    { "bookPage": 47, "pdfPage": 47, "png": "page_047.png", "txt": "page_047.txt", "readable": true }
+  ],
+  "summary": {
+    "pageCount": 5,
+    "allReadable": true,
+    "source": "ocr_cache"
+  }
+}

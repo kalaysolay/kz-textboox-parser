@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-nahozhdenie-drobi-ot-chisla-20260808-0105",
+  "reviewedAt": "2026-08-08T01:20:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 30,
+    "fixed": 0,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "C — умножить число на эту дробь",
+      "keyAnswer": "C — Нужно умножить число на эту дробь",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "B — разделить на дробь число, ей соответствующее",
+      "keyAnswer": "B — Нужно разделить на эту дробь число, ей соответствующее",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "27 (45:5=9, 9·3=27)",
+      "keyAnswer": "D — 27",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "56 (84·2/3=56)",
+      "keyAnswer": "A — 56",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "C — умножить 48 на 5/8",
+      "keyAnswer": "C — Умножить $48$ на $\\frac{5}{8}$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "B — 8·3",
+      "keyAnswer": "B — $8 \\cdot 3$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "45 (54·5/6=45)",
+      "keyAnswer": "[[1]] = 45",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "81 (36:4/9=81)",
+      "keyAnswer": "[[1]] = 81",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "5 (знаменатель; (48:3)·5=80)",
+      "keyAnswer": "[[1]] = 5",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "36 кг (90·2/5=36)",
+      "keyAnswer": "C — 36 кг",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "98 км (42:3/7=98)",
+      "keyAnswer": "B — 98 км",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "D — 60·4/5=48",
+      "keyAnswer": "D — $60 \\cdot \\frac{4}{5} = 48$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "C — 40:2/5=100",
+      "keyAnswer": "C — $40 : \\frac{2}{5} = 100$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "C — 3/4 от 80 (=60 > 32)",
+      "keyAnswer": "C — $\\frac{3}{4}$ от $80$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "C — A=80 > B=75",
+      "keyAnswer": "C — Число $A$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "status": "accepted",
+      "solvedAnswer": "64 (40:5/8=64)",
+      "keyAnswer": "B — 64",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "C — 5 (знаменатель; 30·5=150)",
+      "keyAnswer": "C — 5",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "A,B,D",
+      "keyAnswer": "A, B, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A,C",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "A,C",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "A,C,D",
+      "keyAnswer": "A, C, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "200 тенге (остаток 2/5; 80:2/5=200)",
+      "keyAnswer": "C — 200 тенге",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "C — 48·2/3 и 48:3·2 (=32)",
+      "keyAnswer": "C — $48 \\cdot \\frac{2}{3}$ и $48 : 3 \\cdot 2$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "56 см (21:3/8=56)",
+      "keyAnswer": "A — 56 см",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A,C (28:4=7; 7·7=49)",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "A,B",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "A,C",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "36 (18:3/4=24; 24:2/3=36)",
+      "keyAnswer": "C — 36",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "accepted",
+      "solvedAnswer": "A,B,C (12; 15; 33)",
+      "keyAnswer": "A, B, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "A,B",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

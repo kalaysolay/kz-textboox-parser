@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <line x1="220" y1="240" x2="397.26539554219744" y2="208.74332801995254" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="220" y1="240" x2="281.56362579862036" y2="70.8553282585365" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="220" cy="240" r="3.5" fill="#1a1a1a"/>
+  <path d="M 269.6343107518153 231.2481318455867 A 50.400000000000006 50.400000000000006 0 0 0 237.23781522361372 192.6394919123902" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="411.0527040843683" y="206.3122535326155" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">K</text>
+  <text x="286.35190780517974" y="57.6996315675338" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">M</text>
+  <text x="204" y="258" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="end" dominant-baseline="middle">L</text>
+  <line x1="255" y1="200" x2="402.72116295183116" y2="173.95277334996044" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="255" y1="200" x2="107.27883704816881" y2="226.04722665003956" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="255" cy="200" r="3.5" fill="#1a1a1a"/>
+  <path d="M 373.176930361465 179.16221867996836 A 120 120 0 0 0 136.82306963853503 220.83778132003167" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="387.9490466566481" cy="176.5574960149644" r="4" fill="#1a1a1a"/>
+  <text x="399.9490466566481" y="190.5574960149644" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" dominant-baseline="middle">0°</text>
+</svg>

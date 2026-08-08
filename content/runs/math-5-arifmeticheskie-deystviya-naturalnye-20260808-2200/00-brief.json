@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-arifmeticheskie-deystviya-naturalnye-20260808-2200",
+  "createdAt": "2026-08-08T22:00:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "Арифметические действия над натуральными числами",
+  "topicKk": "Натурал сандарға арифметикалық амалдар",
+  "topicSlug": "arifmeticheskie-deystviya-naturalnye",
+  "topicCode": "1.7",
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 12,
+  "typeMix": { "SCQ": 7, "MCQ": 4, "FILL_IN": 1 },
+  "difficultyMix": { "1": 1, "2": 2, "3": 6, "4": 2, "5": 1 },
+  "illustrationPolicy": "visual-topics",
+  "illustrationFor": [],
+  "parsedTextbookPath": "Математика/parsed/math_aldamuratova_5grade_part1_parsed_v2.json",
+  "methodistInstruction": "Формулировки для 5 класса: короткие, однозначные, без двусмысленности и лишних условий. Topic 1.7 pages 36–37. Count reduced 30→12 per recommendedMaxCount (SCQ7/MCQ4/FILL_IN1 ≈60/30/10). Focus order of operations / steps with and without brackets — not bare C4/C5 ops, not C7 property names, not C8 Gauss. pdfOffset=0.",
+  "languageMode": "BOTH"
+}

@@ -1,0 +1,523 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-nahozhdenie-drobi-ot-chisla-20260808-0105",
+  "typeMixPlanned": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMixPlanned": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Узнавание правила «дробь от числа»",
+      "stemIdea": "Выбрать формулировку: чтобы найти дробь от числа, число умножают на эту дробь",
+      "trapIdeas": [
+        "Ученик выбирает правило деления числа на дробь (путает с числом по дроби)",
+        "Ученик думает, что достаточно разделить число только на знаменатель",
+        "Ученик считает, что нужно умножить данное на числитель без знаменателя"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p4_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Узнавание правила «число по его дроби»",
+      "stemIdea": "Выбрать формулировку: чтобы найти число по его дроби, данное значение делят на эту дробь",
+      "trapIdeas": [
+        "Ученик выбирает умножение на дробь (путает с дробью от числа)",
+        "Ученик думает, что нужно умножить данное значение на числитель",
+        "Ученик считает правилом деление данного только на знаменатель"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p5_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Дробь от числа через :n · m",
+      "stemIdea": "Найти простую дробь от небольшого числа двухшаговым способом «разделить на знаменатель, умножить на числитель»",
+      "trapIdeas": [
+        "Ученик умножает на знаменатель и делит на числитель",
+        "Ученик делит число на числитель вместо знаменателя",
+        "Ученик останавливается после деления на знаменатель"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p3_1"],
+      "sourceExampleRefs": ["p5#666"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Дробь от числа умножением на дробь",
+      "stemIdea": "Найти m/n от натурального числа одним умножением a · (m/n)",
+      "trapIdeas": [
+        "Ученик делит число на дробь вместо умножения",
+        "Ученик умножает число только на числитель",
+        "Ученик берёт дополнение дроби до 1 и умножает на него"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p4_1"],
+      "sourceExampleRefs": ["p6#667"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Выбор операции для дроби от числа без полного счёта",
+      "stemIdea": "По смыслу «найти дробь от числа» указать нужное действие, не доводя вычисление до ответа",
+      "trapIdeas": [
+        "Ученик выбирает деление на дробь",
+        "Ученик выбирает деление числа на числитель",
+        "Ученик выбирает умножение числа на знаменатель"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p4_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Восстановление пропущенного шага :n · m",
+      "stemIdea": "В цепочке нахождения дроби от числа пропущено одно действие — восстановить его",
+      "trapIdeas": [
+        "Ученик вставляет деление на дробь вместо умножения на числитель",
+        "Ученик меняет числитель и знаменатель в пропущенном шаге",
+        "Ученик вставляет умножение на знаменатель"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p3_1"],
+      "sourceExampleRefs": ["p3#1"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q07",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Вычисление дроби от числа",
+      "stemIdea": "Вписать значение m/n от данного натурального числа",
+      "trapIdeas": [
+        "Ученик делит число на дробь и получает «перевёрнутый» ответ",
+        "Ученик считает только 1/n числа без умножения на m",
+        "Ученик умножает на перевёрнутую дробь"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p4_1"],
+      "sourceExampleRefs": ["p6#667"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q08",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Вычисление числа по его дроби",
+      "stemIdea": "Вписать целое, если m/n его равны данному значению b",
+      "trapIdeas": [
+        "Ученик умножает b на дробь вместо деления",
+        "Ученик делит b на знаменатель и умножает на числитель",
+        "Ученик отвечает самим значением b"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p5_1"],
+      "sourceExampleRefs": ["p6#668"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q09",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Число по дроби через (b : m) · n",
+      "stemIdea": "Вписать целое, найдя его делением b на числитель и умножением на знаменатель",
+      "trapIdeas": [
+        "Ученик делает (b : n) · m вместо (b : m) · n",
+        "Ученик только делит b на числитель и останавливается",
+        "Ученик умножает b на числитель и делит на знаменатель"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p5_2"],
+      "sourceExampleRefs": ["p4#2"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Дробь от числа в текстовой задаче",
+      "stemIdea": "Бытовой сюжет: дано целое и дробь части — найти величину части",
+      "trapIdeas": [
+        "Ученик ищет целое по части (делит на дробь) вместо части от целого",
+        "Ученик находит дополнение дроби до 1 и считает его ответом",
+        "Ученик делит целое только на знаменатель"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p4_1"],
+      "sourceExampleRefs": ["p6#670"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Число по дроби в текстовой задаче",
+      "stemIdea": "Сюжет: известна величина, составляющая m/n целого — найти целое",
+      "trapIdeas": [
+        "Ученик умножает данное на дробь (ищет часть, а не целое)",
+        "Ученик делит данное на знаменатель без умножения на числитель",
+        "Ученик берёт дополнение до 1 как ответ"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p5_1"],
+      "sourceExampleRefs": ["p5#3"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Проверка равенства «дробь от числа»",
+      "stemIdea": "Среди готовых равенств выбрать верное вычисление дроби от числа",
+      "trapIdeas": [
+        "Ученик принимает верным равенство с делением на дробь",
+        "Ученик принимает верным только деление на знаменатель без умножения на числитель",
+        "Ученик путает местами числитель и знаменатель в произведении"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p4_1", "PDF_p3_1"],
+      "sourceExampleRefs": ["p3#1"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Проверка равенства «число по дроби»",
+      "stemIdea": "Среди готовых равенств выбрать верное нахождение числа по его дроби",
+      "trapIdeas": [
+        "Ученик принимает умножение b на дробь за верный способ",
+        "Ученик принимает (b : n) · m за верную двухшаговую схему",
+        "Ученик путает деление на дробь с умножением на ту же дробь"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p5_1", "PDF_p5_2"],
+      "sourceExampleRefs": ["p4#2"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сравнение двух дробей от одного числа",
+      "stemIdea": "Сравнить величины двух разных дробей от одного и того же целого",
+      "trapIdeas": [
+        "Ученик сравнивает только числители, игнорируя знаменатели",
+        "Ученик сравнивает дроби в режиме «число по дроби», а не части от целого",
+        "Ученик считает большей дробь с большим знаменателем"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p4_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сравнение двух восстановленных целых",
+      "stemIdea": "Даны две разные пары «часть + дробь» — сравнить соответствующие целые",
+      "trapIdeas": [
+        "Ученик сравнивает данные части b, а не восстановленные целые",
+        "Ученик для обоих случаев умножает на дробь вместо деления",
+        "Ученик сравнивает дроби m/n, забыв про разные b"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p5_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Обратный переход: от части к целому",
+      "stemIdea": "Дана величина части и дробь — найти исходное целое",
+      "trapIdeas": [
+        "Ученик снова умножает часть на дробь",
+        "Ученик делит часть на знаменатель и умножает на числитель",
+        "Ученик вычитает дробь из части как из целого"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p5_1", "PDF_p5_3"],
+      "sourceExampleRefs": ["p3#2"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Восстановление шага в схеме (b : m) · n",
+      "stemIdea": "По образцу двухшагового нахождения числа по дроби восстановить пропущенный множитель или частное",
+      "trapIdeas": [
+        "Ученик подставляет знаменатель на место числителя в первом шаге",
+        "Ученик умножает частное на числитель вместо знаменателя",
+        "Ученик заменяет всю схему умножением b на дробь"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p5_2"],
+      "sourceExampleRefs": ["p6#668"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q18",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Распознавание сюжетов «дробь от числа»",
+      "stemIdea": "Отметить все формулировки, где нужно найти часть от известного целого",
+      "trapIdeas": [
+        "Ученик отмечает сюжет «часть известна — найти целое»",
+        "Ученик отмечает задачу на остаток как прямую дробь от числа без анализа",
+        "Ученик пропускает короткий вычислительный сюжет того же типа"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p4_1"],
+      "sourceExampleRefs": ["p6#670"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Все верные способы найти дробь от числа",
+      "stemIdea": "Отметить все корректные равенства/способы нахождения m/n от числа a",
+      "trapIdeas": [
+        "Ученик отмечает деление a на дробь как верный способ",
+        "Ученик отмечает только один из двух верных способов (:n·m или ·m/n)",
+        "Ученик отмечает схему с переставленными числителем и знаменателем"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p4_1", "PDF_p3_1"],
+      "sourceExampleRefs": ["p4#1"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Распознавание сюжетов «число по дроби»",
+      "stemIdea": "Отметить все формулировки, где по известной части, равной m/n целого, ищут целое",
+      "trapIdeas": [
+        "Ученик отмечает сюжет «найти часть от известного целого»",
+        "Ученик отмечает сравнение двух дробей без восстановления целого",
+        "Ученик пропускает сюжет с величинами (м, кг), где тип тот же"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p5_1"],
+      "sourceExampleRefs": ["p6#668"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные утверждения об уравнении для числа по дроби",
+      "stemIdea": "Отметить все верные высказывания о записи (m/n)·x = b и переходе к x",
+      "trapIdeas": [
+        "Ученик принимает верным утверждение «x = b · (m/n)»",
+        "Ученик считает, что уравнение составляют для дроби от числа, а не для числа по дроби",
+        "Ученик считает, что уравнение нельзя заменять делением на дробь"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p5_3"],
+      "sourceExampleRefs": ["p5#4"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q22",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Целое по остатку (дополнение дроби до 1)",
+      "stemIdea": "Потратили/прошли m/n, осталось известное — найти первоначальное целое",
+      "trapIdeas": [
+        "Ученик делит остаток на m/n вместо дополнения 1 − m/n",
+        "Ученик умножает остаток на m/n",
+        "Ученик принимает остаток за m/n целого и делит на эту же дробь"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p5_1"],
+      "sourceExampleRefs": ["p7#675"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q23",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Эквивалентность a · (m/n) и a : n · m при отсечении ловушек",
+      "stemIdea": "Сравнить записи и выбрать пару, дающую одну и ту же дробь от числа, среди близких ложных",
+      "trapIdeas": [
+        "Ученик считает эквивалентными a : (m/n) и a · (m/n)",
+        "Ученик считает верной пару a : m · n как равную a · (m/n)",
+        "Ученик путает умножение на дробь с умножением на перевёрнутую дробь"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p3_1", "PDF_p4_1"],
+      "sourceExampleRefs": ["p3#1"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q24",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Решение уравнения (m/n)·x = b в новой ситуации",
+      "stemIdea": "Составить уравнение по сюжету с длиной/величиной и найти x делением на дробь",
+      "trapIdeas": [
+        "Ученик умножает b на дробь вместо деления",
+        "Ученик переносит дробь как слагаемое, а не как множитель",
+        "Ученик делит b на знаменатель и забывает второй шаг альтернативной схемы"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p5_3"],
+      "sourceExampleRefs": ["p5#4"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Восстановление верных промежуточных значений в (b : m) · n",
+      "stemIdea": "Отметить все верно восстановленные числа в двухшаговых решениях «число по дроби»",
+      "trapIdeas": [
+        "Ученик отмечает частное b : n вместо b : m",
+        "Ученик отмечает умножение частного на числитель",
+        "Ученик отмечает конечный ответ, полученный умножением b на дробь"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p5_2"],
+      "sourceExampleRefs": ["p7#677"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Различение двух правил темы в наборе утверждений",
+      "stemIdea": "Отметить все верные сопоставления «тип вопроса → нужное правило»",
+      "trapIdeas": [
+        "Ученик сопоставляет «найти часть от целого» с делением на дробь",
+        "Ученик сопоставляет «найти целое по части» с умножением на дробь",
+        "Ученик считает оба правила взаимозаменяемыми для любого сюжета"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p4_1", "PDF_p5_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Отсечение ложных равенств при числе по дроби",
+      "stemIdea": "Отметить все верные равенства среди смеси правильных и типичных ошибок на число по дроби",
+      "trapIdeas": [
+        "Ученик отмечает b · (m/n) как верное",
+        "Ученик отмечает (b : n) · m как верное",
+        "Ученик отвергает верное b : (m/n) из-за непривычной записи"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p5_1", "PDF_p5_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q28",
+      "type": "SCQ",
+      "difficulty": 5,
+      "skillFocus": "Цепочка: число по дроби дважды",
+      "stemIdea": "Известна часть от части (спортивный кружок от кружковцев) — восстановить численность класса",
+      "trapIdeas": [
+        "Ученик применяет только одно из двух делений на дробь",
+        "Ученик умножает данное на обе дроби вместо последовательного нахождения целых",
+        "Ученик складывает дроби и делит данное на сумму"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p5_1", "PDF_p5_2", "PDF_p5_3"],
+      "sourceExampleRefs": ["p8#679"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q29",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Несколько дробей от одного числа и остаток",
+      "stemIdea": "Отметить все верно найденные части (и/или остаток), когда от одного целого даны две разные дроби",
+      "trapIdeas": [
+        "Ученик складывает числители/знаменатели вместо отдельных дробей от числа",
+        "Ученик находит остаток как одну из данных дробей, а не дополнение суммы до 1",
+        "Ученик применяет правило числа по дроби к уже известному целому"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p4_1", "PDF_p3_1"],
+      "sourceExampleRefs": ["p7#672"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q30",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Синтез правил темы в многошаговом сюжете",
+      "stemIdea": "Отметить все верные утверждения о том, какое правило и в каком порядке нужны в задаче с остатком и последующей дробью от остатка",
+      "trapIdeas": [
+        "Ученик считает, что достаточно одного умножения на первую дробь",
+        "Ученик применяет деление на дробь там, где нужна дробь от уже найденного остатка",
+        "Ученик меняет порядок: сначала ищет целое по последнему остатку, игнорируя промежуточные дроби"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p4_1", "PDF_p5_1"],
+      "sourceExampleRefs": ["p8#680"],
+      "questionForm": "recall"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "Пачка на 5 primary-правилах PDF (verbatim): PDF_p4_1 и PDF_p5_1 — каркас темы; PDF_p3_1 — двухшаговый путь к дроби от числа; PDF_p5_2 — (b:m)·n; PDF_p5_3 — уравнение. TypeMix и difficultyMix скопированы из brief. illustrationPolicy=visual-topics: needsIllustration везде false — условия полной текстовые, рисунки учебника (3.41–3.42) для stem не обязательны. ВАЖНО для оркестратора: при count=30 и фиксированном списке из 8 questionForm жёсткий лимит «≤2 слота на форму» математически невыполним (макс. 16 слотов). Формы разложены максимально ровно: по 4 на recall/compute/predict/verify/restore/word_problem и по 3 на compare/inverse. Рекомендация: либо снизить brief.count до ≤16, либо ослабить лимит форм для пачек 30. Материал среза (recommendedMaxCount=null, много usable-примеров) объём 30 выдерживает."
+}

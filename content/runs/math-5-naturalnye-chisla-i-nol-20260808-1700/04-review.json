@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-naturalnye-chisla-i-nol-20260808-1700",
+  "reviewedAt": "2026-08-08T18:10:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 30,
+    "fixed": 0,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "B — Для счёта применяют натуральные; счёт с 1",
+      "keyAnswer": "B — Для счёта предметов применяют натуральны",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "B — Нет, нуль не натуральное",
+      "keyAnswer": "B — Нет, нуль не относится к натуральным чис",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "C — на 1",
+      "keyAnswer": "C — На $1$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "C — 10 единиц = 1 десяток",
+      "keyAnswer": "C — $10$ единиц = $1$ десяток",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "A — 7",
+      "keyAnswer": "A — $7$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "C — 582",
+      "keyAnswer": "C — $582$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "B — 30000+5000+700+40+9",
+      "keyAnswer": "B — $30\\,000 + 5\\,000 + 700 + 40 + 9$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "D — 900",
+      "keyAnswer": "D — $900$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "B,C,D — 8,25,1004",
+      "keyAnswer": "B, C, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "B — 430060",
+      "keyAnswer": "B — $430\\,060$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "D — 5 сотен",
+      "keyAnswer": "D — $5$ сотен",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 508234",
+      "keyAnswer": "[[1]] = 508234",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "A,B,D",
+      "keyAnswer": "A, B, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "A,B,D",
+      "keyAnswer": "A, B, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "A,C",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "status": "accepted",
+      "solvedAnswer": "A,B",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "C — 6",
+      "keyAnswer": "C — $6$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "B — 85402",
+      "keyAnswer": "B — $85\\,402$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A,B",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 73094",
+      "keyAnswer": "[[1]] = 73094",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "B — 1000",
+      "keyAnswer": "B — $1000$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "B — неверно, исключение 1",
+      "keyAnswer": "B — Неверно: исключение — число $1$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "C,D",
+      "keyAnswer": "C, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "B — 15204",
+      "keyAnswer": "B — $15\\,204$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A,B",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 9999999",
+      "keyAnswer": "[[1]] = 9999999",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "C — сорок два миллиона четыреста тысяч",
+      "keyAnswer": "C — Сорок два миллиона четыреста тысяч",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "A,D",
+      "keyAnswer": "A, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "accepted",
+      "solvedAnswer": "C — 252",
+      "keyAnswer": "C — $252$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "C — 109",
+      "keyAnswer": "C — $109$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

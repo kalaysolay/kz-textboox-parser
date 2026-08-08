@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="340" viewBox="0 0 560 340">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <line x1="140" y1="210" x2="270" y2="210" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="140" y1="210" x2="214.564936725636" y2="103.51023424243107" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="140" cy="210" r="3.5" fill="#1a1a1a"/>
+  <path d="M 176.4 210 A 36.400000000000006 36.400000000000006 0 0 0 160.8781822831781 180.18286558788068" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="284" y="210" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">A</text>
+  <text x="222.59500683455065" y="92.04210562238518" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">B</text>
+  <text x="126" y="226" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="end" dominant-baseline="middle">O</text>
+  <text x="140" y="310" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" dominant-baseline="middle">1</text>
+  <line x1="140" y1="210" x2="250" y2="210" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="140" y1="210" x2="30" y2="210" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="140" cy="210" r="3.5" fill="#1a1a1a"/>
+  <path d="M 235 210 A 95 95 0 0 0 45 210" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="241.2" cy="210" r="4" fill="#1a1a1a"/>
+  <text x="251.2" y="226" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" dominant-baseline="middle">0°</text>
+  <line x1="400" y1="210" x2="530" y2="210" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="400" y1="210" x2="474.564936725636" y2="103.51023424243107" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="400" cy="210" r="3.5" fill="#1a1a1a"/>
+  <path d="M 436.4 210 A 36.400000000000006 36.400000000000006 0 0 0 420.8781822831781 180.18286558788068" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="544" y="210" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">A</text>
+  <text x="482.59500683455065" y="92.04210562238518" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">B</text>
+  <text x="386" y="226" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="end" dominant-baseline="middle">O</text>
+  <text x="400" y="310" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" dominant-baseline="middle">2</text>
+  <line x1="430" y1="175" x2="536.2518408917975" y2="146.52990503872272" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="430" y1="175" x2="323.74815910820246" y2="203.47009496127723" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="430" cy="175" r="3.5" fill="#1a1a1a"/>
+  <path d="M 521.7629534974615 150.41219071526052 A 95 95 0 0 0 338.23704650253853 199.58780928473942" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="527.7516936204537" cy="148.8075126356249" r="4" fill="#1a1a1a"/>
+  <text x="535.7516936204537" y="164.8075126356249" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" dominant-baseline="middle">0°</text>
+</svg>

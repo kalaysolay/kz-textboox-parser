@@ -1,0 +1,40 @@
+{
+  "kind": "polygon",
+  "width": 840,
+  "height": 360,
+  "figures": [
+    {
+      "sides": 3,
+      "cx": 140,
+      "cy": 210,
+      "radius": 100,
+      "rotationDeg": -90,
+      "vertexLabels": ["", "", ""],
+      "caption": "1",
+      "captionX": 140,
+      "captionY": 55
+    },
+    {
+      "sides": 5,
+      "cx": 420,
+      "cy": 210,
+      "radius": 105,
+      "rotationDeg": -90,
+      "vertexLabels": ["", "", "", "", ""],
+      "caption": "2",
+      "captionX": 420,
+      "captionY": 55
+    },
+    {
+      "sides": 4,
+      "cx": 700,
+      "cy": 210,
+      "radius": 100,
+      "rotationDeg": -45,
+      "vertexLabels": ["", "", "", ""],
+      "caption": "3",
+      "captionX": 700,
+      "captionY": 55
+    }
+  ]
+}

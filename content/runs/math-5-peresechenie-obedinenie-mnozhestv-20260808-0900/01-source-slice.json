@@ -1,0 +1,441 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-peresechenie-obedinenie-mnozhestv-20260808-0900",
+  "textbook": {
+    "path": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+    "pdfPath": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/Математика Алдамуратова Т. учебник для 5 класса Часть 2.pdf",
+    "titleRu": "Математика. Учебник для учащихся 5 класса общеобразовательной школы",
+    "authorsShort": "Алдамуратова",
+    "grade": 5,
+    "part": 2,
+    "publisher": "Атамура",
+    "year": 2017
+  },
+  "unit": {
+    "lessonNo": 16,
+    "section": "V",
+    "sectionTitle": "Множества",
+    "topicCode": "5.3",
+    "topicTitle": "Пересечение множеств. Объединение множеств",
+    "pageStart": 102,
+    "pageEnd": 106,
+    "supplementary": false
+  },
+  "textbookRef": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+  "rules": [
+    {
+      "ruleId": "PDF_p102_1",
+      "name": "Пересечение множеств",
+      "statement": "Пересечением множеств A и B называется новое множество A ∩ B, содержащее те и только те элементы, которые принадлежат одновременно и множеству A, и множеству B.",
+      "formula": "A \\cap B",
+      "sourcePages": [102],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_102.png синяя рамка определения внизу страницы; перекрёстно parsed R010 (сжатая сводка)"
+    },
+    {
+      "ruleId": "PDF_p102_2",
+      "name": "Запись пересечения",
+      "statement": "Пересечение множеств A и B обозначают A ∩ B, где ∩ — знак пересечения. A ∩ B = {x | x ∈ A и x ∈ B}. На рис. 5.9 общая (заштрихованная) часть треугольника A и круга B — множество точек пересечения A ∩ B.",
+      "formula": "A \\cap B = \\{x \\mid x \\in A\\ \\text{и}\\ x \\in B\\}",
+      "sourcePages": [102],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_102.png пример 1 + рис. 5.9 (треугольник A ∩ круг B, штриховка) + формула set-builder"
+    },
+    {
+      "ruleId": "PDF_p103_1",
+      "name": "Непересекающиеся множества",
+      "statement": "Множества E и F, изображённые на рисунке 5.11, не пересекаются. Пишут: E ∩ F = ∅. Пример: E = {1, 3, 5, 7, 9}, F = {0, 2, 4, 6, 8} — два отдельных круга без общей части.",
+      "formula": "E \\cap F = \\varnothing",
+      "sourcePages": [103],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_103.png верх страницы + рис. 5.11 (два непересекающихся круга)"
+    },
+    {
+      "ruleId": "PDF_p103_2",
+      "name": "Запись объединения",
+      "statement": "Объединение множеств K и L обозначают K ∪ L, где ∪ — знак объединения. K ∪ L = {x | x ∈ K или x ∈ L}. Пример 2: K — множество точек квадрата ABCD, L — множество точек треугольника ECF; объединение — множество точек четырёхугольника ABCF (рис. 5.12).",
+      "formula": "K \\cup L = \\{x \\mid x \\in K\\ \\text{или}\\ x \\in L\\}",
+      "sourcePages": [103],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_103.png раздел II + пример 2 + рис. 5.12 + формула set-builder"
+    },
+    {
+      "ruleId": "PDF_p103_3",
+      "name": "Число элементов объединения (с пересечением)",
+      "statement": "Если множества пересекаются, число элементов объединения считают по формуле n(A ∪ B) = n(A) + n(B) − n(A ∩ B). Пример: A = {1, 2, 3, 5, 6, 7}, B = {0, 2, 5, 7, 8, 9}; A ∩ B = {2, 5, 7}; n(A ∪ B) = 6 + 6 − 3 = 9 (рис. 5.13).",
+      "formula": "n(A \\cup B) = n(A) + n(B) - n(A \\cap B)",
+      "sourcePages": [103],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_103.png блок «Проверьте себя» справа от рис. 5.13"
+    },
+    {
+      "ruleId": "PDF_p104_1",
+      "name": "Объединение множеств",
+      "statement": "Объединением множеств A и B называется новое множество A ∪ B, состоящее из тех и только тех элементов, которые принадлежат хотя бы одному из множеств A или B.",
+      "formula": "A \\cup B",
+      "sourcePages": [104],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_104.png синяя рамка определения вверху страницы; перекрёстно parsed R010"
+    },
+    {
+      "ruleId": "PDF_p104_2",
+      "name": "Объединение непересекающихся множеств",
+      "statement": "Можно объединять и множества, не имеющие общих элементов. Например, если N = {a, b, c, d}, P = {n, x, y}, то N ∪ P = {a, b, c, d, n, x, y}; n(N ∪ P) = n(N) + n(P) = 4 + 3 = 7 (рис. 5.14 — два отдельных круга).",
+      "formula": "n(N \\cup P) = n(N) + n(P)\\ (\\text{при}\\ N \\cap P = \\varnothing)",
+      "sourcePages": [104],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_104.png абзац после определения ∪ + рис. 5.14"
+    },
+    {
+      "ruleId": "PDF_p104_3",
+      "name": "Пересечение и объединение при подмножестве",
+      "statement": "Если B ⊂ A, то A ∩ B = B и A ∪ B = A (A и B — любые множества, связанные отношением подмножества).",
+      "formula": "B \\subset A \\Rightarrow A \\cap B = B,\\ A \\cup B = A",
+      "sourcePages": [104],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_104.png строка после рис. 5.14; опирается на ⊂ из 5.2, но формулировка ∩/∪ — объект этого урока"
+    },
+    {
+      "ruleId": "R010",
+      "name": "Пересечение и объединение (сводка parsed)",
+      "statement": "Пересечение — общие элементы; объединение — все элементы, входящие хотя бы в одно множество.",
+      "formula": "A ∩ B, A ∪ B",
+      "sourcePages": [102],
+      "origin": "verbatim_extracted",
+      "binding": "page_in_range",
+      "role": "reference",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "parsed rules[].rule_id=R010; смысл совпадает с PDF_p102_1 / PDF_p104_1, но короче — primary только PDF-формулировки"
+    }
+  ],
+  "verbatimExamples": [
+    {
+      "exactPage": 102,
+      "text": "Рис. 5.9: треугольник A пересекается с кругом B; общая заштрихованная область подписана A ∩ B.",
+      "taskType": "sets_logic",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "эталон set_venn / геометрическое пересечение фигур"
+    },
+    {
+      "exactPage": 102,
+      "text": "Задание 1. Найдите пересечение множеств F и N: F — делители 12; N — делители 16. 1) запишите перечислением; 2) запишите F ∩ N; 3) изобразите кругами Эйлера–Венна; 4) сформулируйте определение.",
+      "taskType": "sets_logic",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "вводный разбор; ответ в «Проверьте себя»"
+    },
+    {
+      "exactPage": 102,
+      "text": "Проверьте себя. F = {1, 2, 3, 4, 6, 12}; N = {1, 2, 4, 8, 16}; F ∩ N = {1, 2, 4}; рис. 5.10 — два пересекающихся круга, общая часть {1, 2, 4} заштрихована; n(F ∩ N) = 3.",
+      "taskType": "sets_logic",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "разобранный пример ∩ делителей + Venn"
+    },
+    {
+      "exactPage": 103,
+      "text": "Рис. 5.11: E = {1, 3, 5, 7, 9}, F = {0, 2, 4, 6, 8} — непересекающиеся круги; E ∩ F = ∅.",
+      "taskType": "sets_logic",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "эталон disjoint Venn / set_euler"
+    },
+    {
+      "exactPage": 103,
+      "text": "Рис. 5.12: квадрат ABCD (K) и треугольник ECF (L); объединение — четырёхугольник ABCF; обозначение K ∪ L.",
+      "taskType": "sets_logic",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "геометрическая иллюстрация ∪"
+    },
+    {
+      "exactPage": 103,
+      "text": "Задание 2 / Проверьте себя. A — цифры числа 715326; B — цифры 827905. A = {1, 2, 3, 5, 6, 7}; B = {0, 2, 5, 7, 8, 9}; A ∪ B = {1, 2, 3, 5, 6, 7, 0, 8, 9}. Рис. 5.13: A\\B = {1, 3, 6}, A∩B = {2, 5, 7}, B\\A = {0, 8, 9}; n(A ∪ B) = 6 + 6 − 3 = 9.",
+      "taskType": "sets_logic",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "разобранный пример ∪ цифр + формула мощности"
+    },
+    {
+      "exactPage": 104,
+      "text": "Рис. 5.14: N = {a, b, c, d}, P = {n, x, y} — два отдельных круга; N ∪ P = {a, b, c, d, n, x, y}; n(N ∪ P) = 7.",
+      "taskType": "sets_logic",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "∪ непересекающихся множеств"
+    },
+    {
+      "exactPage": 104,
+      "text": "Вопросы для повторения: 1) Какое множество называют пересечением двух множеств? 2) Какое множество называют объединением двух множеств?",
+      "taskType": "sets_logic",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "теоретические вопросы после определений"
+    },
+    {
+      "exactPage": 104,
+      "text": "1051. Назовите фигуру, которая является пересечением: 1) двух прямых; 2) двух квадратов, образующих прямоугольник.",
+      "taskType": "sets_logic",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "уровень A; геометрическое ∩"
+    },
+    {
+      "exactPage": 104,
+      "text": "1052. Перерисуйте рис. 5.15 (три пары пересекающихся многоугольников A/B, C/D, E/F). Закрасьте пересечения синим, объединения — красным.",
+      "taskType": "sets_logic",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "нужна иллюстрация геометрических ∩/∪; sceneKind set_venn / фигуры"
+    },
+    {
+      "exactPage": 104,
+      "text": "1053. E — цифры числа 24 264; F — цифры числа 45 695. Запишите перечислением E ∩ F и E ∪ F.",
+      "taskType": "sets_logic",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "E={2,4,6}, F={4,5,6,9}; E∩F={4,6}; E∪F={2,4,5,6,9} (цифры без повторов)"
+    },
+    {
+      "exactPage": 104,
+      "text": "1054. По рис. 5.16 (два пересекающихся круга A и B; в A только: 4, 20; в пересечении: 1, 2, 5, 10; в B только: 25, 50) запишите перечислением: а) A; б) B; в) A ∩ B; г) A ∪ B.",
+      "taskType": "sets_logic",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "эталон set_venn с числами; A={1,2,4,5,10,20}, B={1,2,5,10,25,50}; размещение элементов сверено с PNG page_104 — при иллюстрации сверять PNG"
+    },
+    {
+      "exactPage": 105,
+      "text": "1055. Постройте отрезки EF и KL так, чтобы их пересечением: 1) была точка; 2) был отрезок; 3) было пустое множество.",
+      "taskType": "sets_logic",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "геометрическое ∩ отрезков; ∅ как отсутствие пересечения"
+    },
+    {
+      "exactPage": 105,
+      "text": "1056. Решите уравнения: 2x + 9,8 = 13,6; 10,36 − 3x = 5,86; … (шесть уравнений с десятичными).",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": false,
+      "note": "на странице урока, но вне темы множеств"
+    },
+    {
+      "exactPage": 105,
+      "text": "1057 (B). Из букв в словах «Марс» и «Уран» запишите перечислением: 1) множества A и B; 2) A ∩ B; 3) A ∪ B.",
+      "taskType": "sets_logic",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "A={М,а,р,с}, B={У,р,а,н}; ∩={а,р}; ловушка регистра/дубликатов букв"
+    },
+    {
+      "exactPage": 105,
+      "text": "1058. Начертите два треугольника так, чтобы их пересечением был: 1) четырёхугольник; 2) пятиугольник.",
+      "taskType": "sets_logic",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "геометрическое ∩; needsIllustration"
+    },
+    {
+      "exactPage": 105,
+      "text": "1059. X — делители 56; Y — делители 32; запишите X ∩ Y. Что означает наибольшее число в пересечении для чисел 56 и 32? (НОД)",
+      "taskType": "sets_logic",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "связь ∩ делителей с НОД"
+    },
+    {
+      "exactPage": 105,
+      "text": "1060. Множество C содержит 5 элементов, D — 7. Если пересечение содержит 3 элемента, сколько элементов в объединении? Решение изобразите кругами Эйлера–Венна. (Ответ: n(C ∪ D) = 5 + 7 − 3 = 9.)",
+      "taskType": "sets_logic",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "формула мощности + Venn; needsIllustration"
+    },
+    {
+      "exactPage": 105,
+      "text": "1061. В одном селе 435 телефонов, в другом — 271… соединить каждый с каждым?",
+      "taskType": "word_problem",
+      "confidence": "high_verbatim",
+      "usable": false,
+      "note": "комбинаторика/умножение — вне темы ∩/∪"
+    },
+    {
+      "exactPage": 105,
+      "text": "1062. Решите задачу с помощью уравнения. Собственная скорость теплохода… (обрыв на следующей странице / движение).",
+      "taskType": "word_problem",
+      "confidence": "medium_ocr",
+      "usable": false,
+      "note": "задача на движение — вне темы"
+    },
+    {
+      "exactPage": 106,
+      "text": "1063 (C). 1) Как называется множество, являющееся объединением множества простых чисел, множества составных чисел и единицы? 2) K — простые, L — составные; найдите K ∩ L.",
+      "taskType": "sets_logic",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "1) натуральные числа N; 2) K ∩ L = ∅"
+    },
+    {
+      "exactPage": 106,
+      "text": "1064. Множества N и P содержат по 5 элементов. Изобразите кругами Эйлера–Венна их пересечение так, чтобы в пересечении было: а) 4 элемента; б) и в) — другие заданные численности (сверить точные числа б/в с PNG page_106).",
+      "taskType": "sets_logic",
+      "confidence": "medium_ocr",
+      "usable": true,
+      "note": "построение Venn по заданному n(N ∩ P); needsIllustration; точные варианты б/в — смотреть PNG"
+    },
+    {
+      "exactPage": 106,
+      "text": "1065. F — первые шесть натуральных, кратных 4; K — первые пять натуральных, кратных 6. Запишите F ∩ K. Что означает наименьшее число в пересечении для чисел 4 и 6? (НОК)",
+      "taskType": "sets_logic",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "F={4,8,12,16,20,24}, K={6,12,18,24,30}; F∩K={12,24}; min=12 = НОК(4,6)"
+    },
+    {
+      "exactPage": 106,
+      "text": "1066. A — натуральные решения 6 < x < 12; B — натуральные решения 8 < y < 15. Запишите A ∩ B и A ∪ B; укажите число элементов.",
+      "taskType": "sets_logic",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "A={7,8,9,10,11}, B={9,10,11,12,13,14}; ∩={9,10,11}; ∪={7..14}"
+    },
+    {
+      "exactPage": 106,
+      "text": "1067. По рис. 5.17 (три пересекающихся круга A, B, C с точками x, y, a, b, c, d в разных областях) запишите: 1) A, B, C; 2) A ∩ B; 3) B ∪ C.",
+      "taskType": "sets_logic",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "трёхкруговая диаграмма Эйлера–Венна; точное размещение точек — сверять PNG page_106 при иллюстрации"
+    },
+    {
+      "exactPage": 106,
+      "text": "1068. Вычислите сложное выражение с десятичными и обыкновенными дробями.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": false,
+      "note": "повтор вычислений — вне темы множеств"
+    }
+  ],
+  "structuralExamples": [
+    {
+      "taskType": "sets_logic",
+      "template": "Даны конечные множества перечислением (цифры числа / делители / буквы слова). Найди A ∩ B и/или A ∪ B перечислением.",
+      "expectedSkill": "Перечисление элементов пересечения и объединения"
+    },
+    {
+      "taskType": "sets_logic",
+      "template": "На рисунке два пересекающихся круга с числами в областях. Перечисли A, B, A ∩ B, A ∪ B.",
+      "expectedSkill": "Чтение диаграммы Эйлера–Венна (set_venn)"
+    },
+    {
+      "taskType": "sets_logic",
+      "template": "Два множества изображены отдельными кругами без общей части. Чему равно A ∩ B? (∅)",
+      "expectedSkill": "Непересекающиеся множества; ∩ = ∅"
+    },
+    {
+      "taskType": "sets_logic",
+      "template": "n(A)=…, n(B)=…, n(A ∩ B)=…. Найди n(A ∪ B) по формуле; при необходимости нарисуй круги Эйлера–Венна.",
+      "expectedSkill": "Формула n(A ∪ B) = n(A)+n(B)−n(A ∩ B)"
+    },
+    {
+      "taskType": "sets_logic",
+      "template": "A — чётные от 1 до 10; B — делители 12. Найди A ∩ B и A ∪ B.",
+      "expectedSkill": "Множества, пересечение, объединение (parsed structural)"
+    },
+    {
+      "taskType": "sets_logic",
+      "template": "Дано B ⊂ A. Чему равны A ∩ B и A ∪ B?",
+      "expectedSkill": "Связь ⊂ с ∩ и ∪"
+    },
+    {
+      "taskType": "sets_logic",
+      "template": "На рисунке две пересекающиеся геометрические фигуры. Укажи / закрась область A ∩ B и область A ∪ B.",
+      "expectedSkill": "Геометрическое пересечение и объединение фигур"
+    },
+    {
+      "taskType": "sets_logic",
+      "template": "X — делители m, Y — делители n. Найди X ∩ Y; интерпретируй max(X ∩ Y) как НОД(m, n).",
+      "expectedSkill": "∩ делителей ↔ НОД"
+    },
+    {
+      "taskType": "sets_logic",
+      "template": "F — первые кратные a, K — первые кратные b. Найди F ∩ K; интерпретируй min(F ∩ K) как НОК(a, b).",
+      "expectedSkill": "∩ кратных ↔ НОК"
+    },
+    {
+      "taskType": "sets_logic",
+      "template": "Три круга A, B, C с отмеченными точками. Перечисли A ∩ B и B ∪ C.",
+      "expectedSkill": "Трёхкруговая диаграмма; чтение ∩ и ∪"
+    }
+  ],
+  "generatorProfile": {
+    "audience": "Учащиеся 5 класса общеобразовательных школ Республики Казахстан",
+    "taskMixRecommended": {
+      "sets_logic": 0.85,
+      "geometry": 0.1,
+      "word_problem": 0.05
+    },
+    "formatRules": [
+      "Три уровня сложности: А (базовый), В (продвинутый), С (творческий)",
+      "Множества — символы ∩ / ∪, ∅ при отсутствии общих элементов, n(A ∪ B)=n(A)+n(B)−n(A ∩ B), диаграммы Эйлера–Венна",
+      "Стемы с рисунком: «на рисунке» / KK эквивалент; sceneKinds: set_venn (пересекающиеся круги), set_euler (в т.ч. непересекающиеся / три круга)",
+      "Десятичные — через запятую; множества — фигурные скобки {}",
+      "VISUAL topic: здоровая доля needsIllustration на ∩/∪ по рисунку, не на каждый слот чистого перечисления"
+    ],
+    "safetyAndScope": [
+      "Только программа 5 класса части 2, урок 5.3 стр. 102–106",
+      "Не тянуть чистые ∈/∉/n(A)/пустое без ∩∪ (антидубль 5.1) и чистые ⊂ без ∩∪ (антидубль 5.2), кроме правила B⊂A ⇒ A∩B=B, A∪B=A",
+      "Антидубль vs math-5-mnozhestvo-elementy-izobrazheniya-20260808-0800 и math-5-podmnozhestvo-20260808-0830",
+      "Не использовать упр. 1056, 1061, 1062, 1068 как опору темы"
+    ]
+  },
+  "blockStructureNotes": "Стр. 102: заголовок 5.3; I — пересечение: пример 1 + рис. 5.9, задание 1 / разбор F∩N (рис. 5.10), рамка определения ∩. Стр. 103: непересекающиеся E∩F=∅ (рис. 5.11); II — объединение: пример 2 + рис. 5.12, задание 2 / разбор A∪B (рис. 5.13) + формула мощности. Стр. 104: рамка определения ∪; ∪ непересекающихся (рис. 5.14); B⊂A ⇒ ∩/∪; вопросы; A: 1051–1054 (рис. 5.15–5.16). Стр. 105: 1055; 1056 вне темы; B: 1057–1060; 1061–1062 вне темы. Стр. 106: C: 1063–1067 (рис. 5.17 три круга); 1068 вне темы. Отдельной рамки «Ключевые факты» в конце урока нет.",
+  "sliceStatus": "ready",
+  "recommendedMaxCount": null,
+  "gaps": [
+    "topic_rule_links в parsed отсутствуют; связь с R010 — по source_pages=[102] и смыслу",
+    "parsed R010 — сжатая сводка; primary — дословные рамки PDF_p102_1 и PDF_p104_1",
+    "read-textbook-pages.js не стартовал (ESM package.json type:module vs CJS require); PNG скопированы из ocr/ocr_pages_math_aldamuratova_5grade_part2",
+    "TXT кэша — водяной знак OKULYK; формулировки с PNG",
+    "Упр. 1056, 1061, 1062, 1068 на страницах урока, но вне темы ∩/∪",
+    "1064: точные численности для вариантов б) и в) сверять с PNG page_106.png (OCR-описание неоднозначно)",
+    "1054 / 1067: при генерации иллюстраций сверять размещение элементов строго с PNG (page_104 / page_106)",
+    "Рамки «Ключевые факты» в конце урока 5.3 нет (в отличие от 5.1/5.2)"
+  ],
+  "ocrConfidence": "high"
+}

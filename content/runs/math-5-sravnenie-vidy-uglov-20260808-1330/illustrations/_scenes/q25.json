@@ -1,0 +1,46 @@
+{
+  "kind": "angle",
+  "width": 780,
+  "height": 320,
+  "figures": [
+    {
+      "cx": 130,
+      "cy": 230,
+      "rayLength": 140,
+      "vertexLabel": "A",
+      "rays": [
+        { "label": "", "deg": 20 },
+        { "label": "", "deg": 50 }
+      ],
+      "showArc": true,
+      "showDegree": false,
+      "vertexOffset": { "x": -14, "y": 10 }
+    },
+    {
+      "cx": 390,
+      "cy": 230,
+      "rayLength": 140,
+      "vertexLabel": "E",
+      "rays": [
+        { "label": "", "deg": 15 },
+        { "label": "", "deg": 80 }
+      ],
+      "showArc": true,
+      "showDegree": false,
+      "vertexOffset": { "x": -14, "y": 10 }
+    },
+    {
+      "cx": 650,
+      "cy": 230,
+      "rayLength": 140,
+      "vertexLabel": "D",
+      "rays": [
+        { "label": "", "deg": 5 },
+        { "label": "", "deg": 130 }
+      ],
+      "showArc": true,
+      "showDegree": false,
+      "vertexOffset": { "x": -14, "y": 10 }
+    }
+  ]
+}

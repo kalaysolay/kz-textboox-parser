@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-izobrazhenie-des-drobi-na-luche-20260808-0300",
+  "textbook": {
+    "path": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+    "pdfPath": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/Математика Алдамуратова Т. учебник для 5 класса Часть 2.pdf",
+    "titleRu": "Математика. Учебник для учащихся 5 класса общеобразовательной школы",
+    "authorsShort": "Алдамуратова",
+    "grade": 5,
+    "part": 2,
+    "publisher": "Атамура",
+    "year": 2017
+  },
+  "unit": {
+    "lessonNo": 5,
+    "section": "IV",
+    "sectionTitle": "Десятичные дроби. Действия над десятичными дробями",
+    "topicCode": "4.3",
+    "topicTitle": "Изображение десятичной дроби на координатном луче. Сравнение десятичных дробей",
+    "pageStart": 30,
+    "pageEnd": 35,
+    "supplementary": false
+  },
+  "textbookRef": "Алдамуратова, 5 кл, ч.2, стр. 30-35",
+  "rules": [
+    {
+      "ruleId": "PDF_p30_1",
+      "name": "Изображение десятичной дроби на координатном луче",
+      "statement": "Десятичные дроби на координатном луче изображаются так же, как обыкновенные дроби. Чтобы отметить десятичную дробь (например, 2,57): 1) отметить целую часть; 2) следующий единичный отрезок разделить на 10 долей и отсчитать нужное число десятых; 3) нужную десятую долю разделить на 10 сотых и отсчитать сотые.",
+      "formula": "2,57 = 2 + 0,5 + 0,07",
+      "sourcePages": [30],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_030.png — раздел «1. Изображение…», шаги 1–3 и рис. 4.3 (2; 2,5; 2,57)"
+    },
+    {
+      "ruleId": "PDF_p30_2",
+      "name": "Порядок на координатном луче",
+      "statement": "Число, расположенное на координатном луче правее, больше числа, расположенного левее.",
+      "formula": null,
+      "sourcePages": [30, 31],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_030.png низ / page_031.png — «Способ 1. Сравнение… на координатном луче»"
+    },
+    {
+      "ruleId": "PDF_p31_1",
+      "name": "Сравнение на луче: левее/правее и равные точки",
+      "statement": "Меньшая десятичная дробь расположена на координатном луче левее большей, а большая — правее меньшей. Равные десятичные дроби изображаются на координатном луче одной и той же точкой.",
+      "formula": "0,4 = 0,40;\\quad 2,1 > 1,5",
+      "sourcePages": [31],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_031.png — синяя рамка правила + «Проверьте себя» и рис. 4.5"
+    },
+    {
+      "ruleId": "PDF_p32_1",
+      "name": "Алгоритм поразрядного сравнения",
+      "statement": "Сначала надо сравнить целые части, как натуральные числа (или нуль). Если целые части двух десятичных дробей равны, то больше та дробь, у которой десятых больше. При равенстве целых и десятых та дробь больше, у которой больше сотых и т. д.",
+      "formula": null,
+      "sourcePages": [32],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_032.png — блок «Подсказка»"
+    },
+    {
+      "ruleId": "PDF_p32_2",
+      "name": "Поразрядное сравнение со старшего разряда",
+      "statement": "Десятичные дроби сравниваются поразрядно, начиная со старшего разряда.",
+      "formula": "2,75 < 3,14;\\quad 6,324 > 6,185;\\quad 7,538 < 7,548",
+      "sourcePages": [32],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_032.png — синяя рамка + «Проверьте себя»; перекрёстно parsed R005"
+    },
+    {
+      "ruleId": "PDF_p31_2",
+      "name": "Равенство дробей с нулями в конце дробной части",
+      "statement": "Десятичные дроби, отличающиеся только нулями в конце дробной части, равны и на координатном луче соответствуют одной и той же точке (например, 0,4 и 0,40).",
+      "formula": "0,4 = 0,40",
+      "sourcePages": [31],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_031.png — задание 1, вопрос б) и «Проверьте себя» п.2"
+    },
+    {
+      "ruleId": "R004",
+      "name": "Десятичная дробь (предпосылка)",
+      "statement": "Десятичная дробь — дробь со знаменателем 10, 100, 1000 и т.д.; записывается через запятую.",
+      "formula": "0,1 = 1/10; 0,01 = 1/100",
+      "sourcePages": [16],
+      "origin": "verbatim_extracted",
+      "binding": "neighbour_page",
+      "role": "prerequisite",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "parsed rules[].rule_id=R004; тема 4.1, стр. 16 — не primary для 4.3"
+    }
+  ],
+  "verbatimExamples": [
+    {
+      "exactPage": 30,
+      "text": "Какие десятичные дроби соответствуют точкам А и В на координатном луче? Запишите координаты этих точек. Сравните координаты этих точек. (Единичный отрезок разделён на 10; A≈0,6; B≈1,8.)",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "вводное упражнение до заголовка 4.3; луч на сетке"
+    },
+    {
+      "exactPage": 30,
+      "text": "Изобразим на координатном луче десятичную дробь 2,57: отметить 2; разделить [2;3] на 10, отметить 2,5; разделить десятую на 10 сотых, отсчитать 7 → 2,57 (рис. 4.3).",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "разобранный пример построения"
+    },
+    {
+      "exactPage": 31,
+      "text": "Задание 1. Рис. 4.4: сравните 0,6 и 1,3; 0,4 и 0,40. Как расположена точка 0,6 относительно 1,3? Почему 0,4 и 0,40 — одна точка?",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "Проверьте себя: 0,6<1,3; 0,4=0,40"
+    },
+    {
+      "exactPage": 31,
+      "text": "Например, 2,1 > 1,5. Точка 2,1 правее точки 1,5 (рис. 4.5).",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": null
+    },
+    {
+      "exactPage": 32,
+      "text": "Задание 2 / Проверьте себя: 2,75<3,14; 8,26>5,789; 6,324>6,185; 4,253<4,653; 7,538<7,548; 2,6912>2,6301.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "поразрядное сравнение (OCR местами путает 4,253/4,258 — сверено с PNG)"
+    },
+    {
+      "exactPage": 32,
+      "text": "755. Сравните (устно): 6,2 и 7,1; 5,73 и 5,69; 32,46 и 32,48; 0,638 и 0,648; 0,971 и 0,97; 10,215 и 10,309.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": null
+    },
+    {
+      "exactPage": 32,
+      "text": "756. Выберите равные и запишите равенством: группы 2,1/2,01/2,100/2,001; 4,76/4,706/4,076/4,760; 0,5/0,52/0,500/0,5000; 10,900/10,901/10,90/10,9.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "равенства с нулями в конце"
+    },
+    {
+      "exactPage": 33,
+      "text": "757. Какие десятичные дроби изображены точками A, B, C и D на рис. 4.6? Сравните координаты A и B, D и C, A и D. (Рис. 4.6: A≈0,6; B≈1,3; C≈2,2; D≈2,8.)",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "рисунок на стр. 33"
+    },
+    {
+      "exactPage": 33,
+      "text": "758. Замените равной дробью: 5,2000; 86,0500; 0,09300; 0,007000.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": null
+    },
+    {
+      "exactPage": 33,
+      "text": "759. Замените * знаками < или >: 2,7*3,6; 8,30*7,94; 7,308*7,312; 0,4*0,39; 0,47*0,5; 14,901*14,890; 0,1*0,99; 5,21*6,0; 56,053*51,983.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": null
+    },
+    {
+      "exactPage": 33,
+      "text": "760. В каких последовательностях числа в порядке возрастания / убывания: 0,1; 0,03; 0,004; 0,0005 … / 0,9; 0,89; … / 0,5; 0,55; … / 0,8; 0,87; …",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": null
+    },
+    {
+      "exactPage": 34,
+      "text": "766. Сравните десятичные дроби, изображённые точками A, B, C и D (рис. 4.7). Составьте 6 неравенств.",
+      "taskType": "geometry",
+      "confidence": "medium_ocr",
+      "usable": true,
+      "note": "нужен рисунок 4.7"
+    },
+    {
+      "exactPage": 34,
+      "text": "767. Сравните поразрядно: 4,899 и 4,9; 8,205 и 18,205; 7,5 и 7,4; 5,708 и 5,69; 3,607 и 3,608; 2,057 и 2,067; 0,0084 и 0,084; 0,3669 и 0,3619; 40,3702 и 41,37.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": null
+    },
+    {
+      "exactPage": 35,
+      "text": "772. Найдите равные дроби: 0,7; 0,07; 0,707; 0,700; … и 2,300; 2,03; 2,3; …",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": null
+    },
+    {
+      "exactPage": 35,
+      "text": "773. Какое из трёх чисел наибольшее/наименьшее; двойное неравенство: 18,6; 0,186; 1,86 и др.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": null
+    },
+    {
+      "exactPage": 35,
+      "text": "776. Начертите координатный луч (ед. отрезок 5 см). Отметьте A(0,2), C(1,9); найдите B правее A на 0,9; P левее C на 0,6.",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "построение и сдвиг по лучу"
+    },
+    {
+      "exactPage": 33,
+      "text": "762. Задача про вагоны Антона — вне навыка изображения/сравнения десятичных.",
+      "taskType": "word_problem",
+      "confidence": "high_verbatim",
+      "usable": false,
+      "note": "не использовать"
+    },
+    {
+      "exactPage": 34,
+      "text": "768–771: кольца на весах, металлы, туристы, автобус — олимпиада/движение, вне темы 4.3.",
+      "taskType": "word_problem",
+      "confidence": "medium_ocr",
+      "usable": false,
+      "note": "не использовать для генерации по 4.3"
+    }
+  ],
+  "structuralExamples": [
+    {
+      "taskType": "geometry",
+      "template": "На координатном луче (единичный отрезок = 10 делений) отмечены точки A, B, C. Прочитай координаты и сравни A и B.",
+      "expectedSkill": "Чтение координат десятичных на луче и сравнение по положению"
+    },
+    {
+      "taskType": "calculation",
+      "template": "Сравни поразрядно: 5,73 и 5,69; 0,971 и 0,97. Поставь знак <, > или =.",
+      "expectedSkill": "Поразрядное сравнение десятичных дробей"
+    },
+    {
+      "taskType": "calculation",
+      "template": "Найди равные записи: 2,1; 2,10; 2,100; 2,01. Запиши равенство.",
+      "expectedSkill": "Равенство десятичных с нулями в конце дробной части"
+    },
+    {
+      "taskType": "geometry",
+      "template": "Начерти луч, отметь 0,8 по десятым делениям единичного отрезка.",
+      "expectedSkill": "Изображение десятичной дроби на координатном луче"
+    }
+  ],
+  "generatorProfile": {
+    "audience": "Учащиеся 5 класса общеобразовательных школ Республики Казахстан",
+    "taskMixRecommended": {
+      "calculation": 0.45,
+      "geometry": 0.35,
+      "word_problem": 0.1,
+      "measurement": 0.1
+    },
+    "formatRules": [
+      "Три уровня сложности: А (базовый), В (продвинутый), С (творческий)",
+      "Десятичные дроби — запись через запятую (0,25)",
+      "Сравнение: по лучу (левее/правее) и поразрядно со старшего разряда",
+      "Равные дроби с нулями в конце дробной части — одна точка на луче"
+    ],
+    "safetyAndScope": [
+      "Только тема 4.3: изображение на луче и сравнение десятичных",
+      "Не уводить в сложение/вычитание десятичных (4.4+)",
+      "Не брать олимпиадные задачи 762, 768–771"
+    ]
+  },
+  "blockStructureNotes": "Стр. 30: вводный луч + теория построения 2,57 (рис. 4.3) + начало способа 1. Стр. 31: задание 1 / рис. 4.4, правило левее-правее и равные точки, рис. 4.5, начало поразрядного. Стр. 32: подсказка + правило поразрядного, устные 755–757. Стр. 33–35: упражнения 758–777 (рис. 4.6–4.7), уровни A/B/C; часть задач вне темы.",
+  "sliceStatus": "ready",
+  "recommendedMaxCount": null,
+  "gaps": [
+    "read-textbook-pages.js в этой среде падает (ESM/require); страницы скопированы из ocr/ocr_pages_math_aldamuratova_5grade_part2",
+    "OCR иногда путает цифры в парах сравнения (4,253/4,258) — сверено с PNG",
+    "parsed structural_examples не содержат отдельного шаблона на 4.3 — structural собраны с PDF"
+  ],
+  "ocrConfidence": "medium"
+}

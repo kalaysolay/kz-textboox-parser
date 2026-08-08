@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="340" viewBox="0 0 840 340">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <line x1="140" y1="240" x2="265.57035741757886" y2="206.35352413667232" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="140" y1="240" x2="214.564936725636" y2="133.51023424243107" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="140" cy="240" r="3.5" fill="#1a1a1a"/>
+  <path d="M 175.1597000769221 230.57898675826823 A 36.400000000000006 36.400000000000006 0 0 0 160.8781822831781 210.18286558788068" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="279.09331898562584" y="202.73005750523703" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">P</text>
+  <text x="222.59500683455065" y="122.04210562238518" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">N</text>
+  <text x="126" y="250" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="end" dominant-baseline="middle">K</text>
+  <line x1="400" y1="240" x2="528.7348489364042" y2="221.9074968751915" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="400" y1="240" x2="381.9074968751915" y2="111.26515106359585" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="400" cy="240" r="3.5" fill="#1a1a1a"/>
+  <polyline points="413.86375296238197,238.0515765865591 411.91532954894103,224.1878236241771 398.05157658655907,226.136247037618" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="542.5986018987861" y="219.95907346175056" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">A</text>
+  <text x="379.95907346175056" y="97.40139810121386" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">B</text>
+  <text x="386" y="250" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="end" dominant-baseline="middle">O</text>
+  <line x1="680" y1="240" x2="802.1600407021681" y2="195.53738136766307" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="680" y1="240" x2="573.5102342424311" y2="165.43506327436398" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="680" cy="240" r="3.5" fill="#1a1a1a"/>
+  <path d="M 714.204811396607 227.55046678294565 A 36.400000000000006 36.400000000000006 0 0 0 650.1828655878807 219.1218177168219" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="815.3157373931708" y="190.7490993611037" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">D</text>
+  <text x="562.0421056223852" y="157.40499316544933" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">F</text>
+  <text x="666" y="250" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="end" dominant-baseline="middle">E</text>
+</svg>

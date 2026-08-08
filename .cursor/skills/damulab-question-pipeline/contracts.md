@@ -74,14 +74,20 @@ content/runs/{subject}-{grade}-{topicSlug}-{YYYYMMDD-HHMM}/
 | `count`              | да    | Обычно 10–15                                                                      |
 | `typeMix`            | да    | Сумма значений = `count`; допустимы только SCQ/MCQ/FILL_IN                        |
 | `difficultyMix`      | нет   | `null` → дефолт ~20 % (1–2) / 50 % (3) / 30 % (4–5)                                |
-| `illustrationPolicy` | да    | v1 до импорта доводится только `none` (см. ниже)                                  |
+| `illustrationPolicy` | да    | `none` (дефолт) / `explicit` / `all` / `visual-topics` — см. ниже                  |
 | `parsedTextbookPath` | да    | Путь к parsed v2 JSON (относительно корня этого репо или абсолютный) — навигация |
 | `pdfTextbookPath`    | нет   | Путь к PDF; если пуст — аналитик ищет по `source.file_name` в этом репо |
 | `languageMode`       | да    | Пока всегда `BOTH`                                                                |
 
 `illustrationPolicy`: `none` | `explicit` | `all` | `visual-topics`.
-**В банке вопросов нет хранения картинок**, поэтому прогон с политикой ≠ `none`
-штатно останавливается на `05` и в импорт не идёт (валидатор: `illustration_policy_unsupported`).
+
+- `none` — матрица везде `needsIllustration: false`; роль illustrator не вызывается.
+- иначе — матрица ставит флаги по политике; после `05` идёт роль illustrator → `06` +
+  `illustrations/`. В `05` поле `illustration` остаётся `null` (ассеты живут только в `06`).
+- **Импорт текста вопросов** в банк v1 по-прежнему без картинок. Импорт ассетов —
+  отдельный будущий агент по `05`+`06` (см. ниже). Не путать: прогон с картинками
+  **не** останавливается на `05`, а доводится до `06` со статусом готовности
+  `ready_for_asset_import`.
 
 ---
 
@@ -255,6 +261,8 @@ PDF; читать диапазон через `content/tools/read-textbook-pages
 - `questionForm` — форма задания из фиксированного списка (см. ниже), не больше двух слотов
   на одну форму;
 - `needsIllustration` строго по `brief.illustrationPolicy`; при `none` — везде `false`;
+  при `visual-topics` — `true` только если без рисунка stem неполный (луч, множества, угол,
+  диаграмма, развёртка и т.п.), причина в `illustrationReason`;
 - `localId` сквозные `q01`, `q02`, … и совпадают с `03`/`05`.
 
 ### `questionForm` — форма задания
@@ -482,13 +490,127 @@ PDF; читать диапазон через `content/tools/read-textbook-pages
 
 ---
 
-## Импорт в банк (вне пайплайна генерации)
+## 06-illustrations.json — манифест иллюстраций (illustrator)
+
+Пишет роль [damulab-question-illustrator](../damulab-question-illustrator/SKILL.md)
+**после** принятого `05`. Файл `05` **не мутируется**: связь вопрос ↔ картинка только по
+`runId` + `localId`.
+
+Файлы картинок: `illustrations/qXX.svg` (канон) и опционально `illustrations/qXX.png`
+(растр из того же SVG). Пути в манифесте — **относительные** от корня папки прогона.
+
+```json
+{
+  "schemaVersion": 1,
+  "runId": "math-5-koordinatnyy-luch-20260804-1015",
+  "sourceFinal": "05-questions.final.json",
+  "styleProfile": "aldamuratova-textbook-simple",
+  "items": [
+    {
+      "localId": "q01",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "coordinate_ray",
+      "purpose": "Показать точки A, B, C на луче; ответ в options, не на рисунке",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q01.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": null
+      },
+      "scene": {
+        "kind": "coordinate_ray",
+        "originLabel": "O",
+        "unitCount": 8,
+        "points": [{ "id": "A", "value": 2 }, { "id": "B", "value": 5 }]
+      },
+      "notes": null
+    }
+  ]
+}
+```
+
+| Поле | Тип | Правило |
+|------|-----|---------|
+| `schemaVersion` | number | сейчас `1` |
+| `runId` | string | совпадает с папкой прогона и `05.meta.runId` |
+| `sourceFinal` | string | обычно `"05-questions.final.json"` |
+| `styleProfile` | string | сейчас `"aldamuratova-textbook-simple"` |
+| `items[]` | array | ноль или больше; пустой массив — валидный no-op |
+
+`items[]`:
+
+| Поле | Тип | Правило |
+|------|-----|---------|
+| `localId` | `q01`… | есть в `05`; уникален в `items` |
+| `status` | `ready` \| `skipped` \| `blocked` | импортёр ассетов берёт только `ready` |
+| `role` | string | в v1 только `"stem"` |
+| `sceneKind` | string | см. список ниже |
+| `purpose` | string | зачем рисунок в stem (одна фраза) |
+| `answerLeakCheck` | `pass` \| `fail` | при `fail` → `status: blocked`, файлов нет |
+| `asset` | object \| null | обязателен при `ready`; `null` при `blocked`/`skipped` |
+| `scene` | object \| null | scene-spec; обязателен при `ready` |
+| `notes` | string \| null | опционально |
+
+`asset` при `ready`:
+
+| Поле | Тип | Правило |
+|------|-----|---------|
+| `path` | string | относительный путь к SVG, напр. `illustrations/q01.svg` |
+| `format` | `"svg"` | канон всегда SVG |
+| `width` / `height` | number | viewBox / пиксельный размер кадра |
+| `raster` | object \| null | `{ "path": "illustrations/q01.png", "format": "png" }` или `null` |
+
+Допустимые `sceneKind` (первая волна + запас под темы):
+`coordinate_ray`, `number_line_decimals`, `set_euler`, `set_venn`, `angle`,
+`protractor`, `polygon`, `bar_chart`, `line_chart`, `pie_chart`, `table`,
+`parallelepiped`, `net_parallelepiped`.
+
+Правила отбора слотов:
+- только `needsIllustration: true` в `02-matrix.json`;
+- только `accepted` / `fixed` в `04-review.json` и присутствие в `05`;
+- при `illustrationPolicy: none` файл `06` можно не создавать (оркестратор не зовёт роль);
+  если создали — `items: []`.
+
+Запрещено в `06` и на рисунке: id БД, base64, URL продакшена, токены; предложения RU/KK
+на SVG; подсветка/подпись правильного ответа; лекционные типы (памятка, инфографика, декор).
+
+Рендер: `content/tools/render-illustration-svg.js` (scene → SVG; `--png` → PNG через
+`@resvg/resvg-js`).
+
+---
+
+## Потребитель `05`+`06`: будущий asset-import агент
+
+Иллюстратор **не** заливает картинки на сайт. Отдельный агент (будущий скилл вроде
+`damulab-question-asset-loader`, рядом с [damulab-question-loader](../damulab-question-loader/SKILL.md))
+читает прогон и грузит ассеты в банк/админку, когда появится ручка вроде
+`POST /api/admin/question-assets`.
+
+Контракт заточен под него:
+- ключ связи — только `runId` + `localId` (как в `05`); без id БД в `06`;
+- пути относительные от корня прогона; primary = `asset.path` (SVG), растр = `asset.raster`;
+- импортёр берёт `items` со `status: "ready"`; `blocked`/`skipped` пропускает;
+- `05` остаётся чистым текстом (`illustration: null`): вопросы и картинки можно грузить
+  в разные дни — сначала вопросы (получили id в банке), потом ассеты по тому же `runId`/`localId`;
+- итог прогона с картинками: локально `ready_for_asset_import`; вызов импорта — только
+  по явной просьбе пользователя.
+
+Скилл asset-import в этом репо **пока не реализован** — только этот крючок, чтобы не ломать `06`.
+
+---
+
+## Импорт вопросов в банк (вне пайплайна генерации)
 
 `05-questions.final.json` **не** содержит id БД. Резолв `subjectTitleRu` / `gradeNo` /
 `topicCode` → id и вызов импорта — через админку (`/admin/questions/import` или
 `POST /api/admin/question-imports`), см. [damulab-question-loader](../damulab-question-loader/SKILL.md).
+Это импорт **текста** вопросов. Картинки из `06` сюда не входят.
 
-Опциональная заготовка под текущую машину (не коммитить):
+Опциональная заготовка под текущую машину (не коммитить). Не путать с артефактом пайплайна
+`06-illustrations.json` в корне прогона:
 
 ### .local/06-import-payload.json
 

@@ -1,0 +1,523 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-krugovoy-sektor-20260808-1530",
+  "typeMixPlanned": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMixPlanned": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Определение кругового сектора",
+      "stemIdea": "Выбрать верное определение: часть круга, ограниченная двумя радиусами и дугой",
+      "trapIdeas": [
+        "Ученик путает сектор с окружностью (только линия)",
+        "Ученик считает сектором часть круга между хордой и дугой (сегмент)",
+        "Ученик думает, что сектор — весь круг без границы"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p162_1"],
+      "sourceExampleRefs": ["p163#1"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Сумма углов секторов круга",
+      "stemIdea": "Чему равна сумма градусных мер углов всех секторов, образующих круг",
+      "trapIdeas": [
+        "Ученик отвечает 180° (развёрнутый угол)",
+        "Ученик отвечает 90° (прямой угол)",
+        "Ученик отвечает 100° (путает с процентами)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p163_1"],
+      "sourceExampleRefs": ["p163#2"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Число секторов с развёрнутым углом",
+      "stemIdea": "Не выполняя длинного деления: сколько секторов с развёрнутым углом содержится в круге",
+      "trapIdeas": [
+        "Ученик отвечает 4 (как для прямого угла)",
+        "Ученик отвечает 1 (один полный круг)",
+        "Ученик отвечает 3 (угадывание)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p163_1"],
+      "sourceExampleRefs": ["p163#1277"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Дополнение угла сектора до 360°",
+      "stemIdea": "Круг разделён на два сектора; угол одного 120° (≠110° из эталона) — найти угол второго",
+      "trapIdeas": [
+        "Ученик вычитает из 180° вместо 360°",
+        "Ученик складывает 360°+120°",
+        "Ученик отвечает 120° (копирует данный угол)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p163_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Сектор vs не-сектор по описанию границы",
+      "stemIdea": "Какое текстовое описание задаёт круговой сектор (два радиуса и дуга), а не другую фигуру",
+      "trapIdeas": [
+        "Ученик выбирает описание «две точки на окружности и хорда»",
+        "Ученик выбирает «только дуга без радиусов»",
+        "Ученик выбирает «диаметр без дуги как сектор»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p162_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Угол равных секторов при делении круга",
+      "stemIdea": "Круг разделили на четыре сектора с равными углами — чему равен угол каждого",
+      "trapIdeas": [
+        "Ученик делит 180° на 4",
+        "Ученик отвечает 360° (не делит)",
+        "Ученик отвечает 45° (делит на 8)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p163_1"],
+      "sourceExampleRefs": ["p163#1279"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Проверка суммы углов секторов",
+      "stemIdea": "Дан набор троек углов секторов — какое равенство верно показывает, что они образуют полный круг",
+      "trapIdeas": [
+        "Ученик принимает сумму 350° как полный круг",
+        "Ученик считает верной сумму 180°",
+        "Ученик путает полный угол с развёрнутым"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p163_1"],
+      "sourceExampleRefs": ["p163#2"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Угол второго из двух секторов",
+      "stemIdea": "Два сектора; угол одного 85° (≠110°) — найти угол другого",
+      "trapIdeas": [
+        "Ученик считает 180°−85°",
+        "Ученик считает 100°−85°",
+        "Ученик прибавляет 85° к 360°"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p163_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Части границы кругового сектора",
+      "stemIdea": "Из чего состоит граница сектора: назвать два радиуса и дугу (не диаметр/хорду)",
+      "trapIdeas": [
+        "Ученик включает хорду вместо радиусов",
+        "Ученик называет только дугу",
+        "Ученик добавляет центр как «сторону» границы"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p162_1"],
+      "sourceExampleRefs": ["p163#1"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Число прямоугольных секторов в круге",
+      "stemIdea": "На сколько прямоугольных секторов (угол 90°) можно разделить круг",
+      "trapIdeas": [
+        "Ученик отвечает 2 (как для 180°)",
+        "Ученик отвечает 3",
+        "Ученик отвечает 6 (360:60)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p163_1"],
+      "sourceExampleRefs": ["p163#1277"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Дополнение сектора в бытовом сюжете",
+      "stemIdea": "От круглого торта отрезали сектор 50° — найти угол оставшегося сектора",
+      "trapIdeas": [
+        "Ученик вычитает из 180°",
+        "Ученик отвечает 50°",
+        "Ученик считает 100°−50°"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p163_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Перечисление секторов по чертежу с радиусами",
+      "stemIdea": "По рисунку: центр O, радиусы OA, OB, OC (конфигурация ≠клон 8.13/8.15 один в один) — сколько круговых секторов изображено",
+      "trapIdeas": [
+        "Ученик считает только «маленькие» сектора и пропускает составной",
+        "Ученик считает число радиусов вместо секторов",
+        "Ученик считает дуги как отдельные сектора без радиусов"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Конкретная раскладка радиусов/секторов на диске; без рис. неоднозначно. Нет pie_chart/sector в RENDERERS — illustrator: set_euler (области диска) или block после одного retry; не заявлять pie_chart.",
+      "sourceRuleIds": ["PDF_p162_1"],
+      "sourceExampleRefs": ["p163#1278"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сравнение долей круга по центральному углу",
+      "stemIdea": "Секторы с углами 40° и 100° (числа в тексте) — какой составляет большую долю круга (α/360)",
+      "trapIdeas": [
+        "Ученик сравнивает радиусы вместо углов",
+        "Ученик думает, что меньший угол — большая доля",
+        "Ученик сравнивает с 180°, а не друг с другом"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p163_1"],
+      "sourceExampleRefs": ["p163#2"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Доля круга сектора α/360",
+      "stemIdea": "Центральный угол сектора 90° — какая доля круга (90/360 в простейшем виде)",
+      "trapIdeas": [
+        "Ученик пишет 90/180",
+        "Ученик пишет 90/100",
+        "Ученик не сокращает и путает с процентами 90%"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p163_1"],
+      "sourceExampleRefs": ["p163#1279"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Центральный угол по доле круга",
+      "stemIdea": "Сектор составляет 1/6 круга — найти центральный угол (обратная к α/360)",
+      "trapIdeas": [
+        "Ученик делит 180° на 6",
+        "Ученик отвечает 6°",
+        "Ученик умножает 360° на 6"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p163_1", "PDF_p163_2"],
+      "sourceExampleRefs": ["p163#1279"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные утверждения о нарисованном секторе",
+      "stemIdea": "По рисунку сектора с двумя радиусами и отмеченным центральным углом — какое утверждение верно (граница / центральный угол)",
+      "trapIdeas": [
+        "Ученик принимает за сектор фигуру без одного радиуса",
+        "Ученик путает центральный угол с углом при окружности",
+        "Ученик считает, что сектор ограничен хордой"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Нужен чертёж сектора с центральным углом; без рис. stem про «нарисованный» сектор неполный. RENDERERS: angle (центральный угол) или set_euler; pie_chart нет — не заявлять.",
+      "sourceRuleIds": ["PDF_p162_1"],
+      "sourceExampleRefs": ["p163#1"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Чтение центрального угла сектора по рисунку",
+      "stemIdea": "По рисунку сектора угол подписан только на чертеже (≠110° эталона) — выбрать градусную меру центрального угла",
+      "trapIdeas": [
+        "Ученик читает смежный/дополнительный угол вместо данного",
+        "Ученик путает с развёрнутым 180°",
+        "Ученик выбирает дополнение до 360° вместо отмеченного угла"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Мера угла только на чертеже — без рис. нельзя. Ожидаемый sceneKind: angle (центральный угол). pie_chart/sector в RENDERERS нет.",
+      "sourceRuleIds": ["PDF_p163_1", "PDF_p162_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Сектор как процент полного угла → дополнение",
+      "stemIdea": "Один из двух секторов составляет 25% полного угла (≠30% из №1281) — найти угол второго сектора",
+      "trapIdeas": [
+        "Ученик находит 25% от 360° и останавливается (не дополняет)",
+        "Ученик считает 25% от 180°",
+        "Ученик вычитает 25 от 360 без перевода процентов"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p163_2", "PDF_p163_1"],
+      "sourceExampleRefs": ["p164#1281"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные факты: определение сектора и полный угол",
+      "stemIdea": "Выбрать все верные: сектор = два радиуса + дуга; сумма углов секторов круга = 360°; центральный угол измеряет сектор",
+      "trapIdeas": [
+        "Ученик отмечает «сектор ограничен хордой и дугой»",
+        "Ученик отмечает «сумма углов секторов = 180°»",
+        "Ученик отмечает «сектор — то же, что окружность»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p162_1", "PDF_p163_1"],
+      "sourceExampleRefs": ["p163#1", "p163#2"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные выводы о числе равных секторов",
+      "stemIdea": "Без длинного счёта: выбрать все верные — круг = 4 сектора по 90°; = 2 по 180°; = 3 по 120°",
+      "trapIdeas": [
+        "Ученик отмечает «6 секторов по 90°»",
+        "Ученик отмечает «3 сектора по 180°»",
+        "Ученик путает 360:α с α:360"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p163_1"],
+      "sourceExampleRefs": ["p163#1277", "p163#1279"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Восстановление пропущенного угла сектора",
+      "stemIdea": "Даны углы двух из трёх секторов (числа ≠55/80/225 эталона) — выбрать все верные значения третьего угла (сумма 360°)",
+      "trapIdeas": [
+        "Ученик вычитает сумму двух из 180°",
+        "Ученик складывает два угла и считает это третьим",
+        "Ученик берёт среднее арифметическое"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p163_1", "PDF_p163_2"],
+      "sourceExampleRefs": ["p164#1283"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Распознавание секторов среди областей диска",
+      "stemIdea": "По рисунку диска с несколькими радиусами и закрасками — выбрать все области, которые являются круговыми секторами",
+      "trapIdeas": [
+        "Ученик отмечает кольцевой/сегментный кусок без двух радиусов",
+        "Ученик отмечает только дугу",
+        "Ученик пропускает составной сектор из двух смежных"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Мультивыбор по закрашенным областям диска без рис. невозможен. Нет pie_chart — illustrator: set_euler (регионы диска) или block после retry; не invent pie_chart.",
+      "sourceRuleIds": ["PDF_p162_1"],
+      "sourceExampleRefs": ["p163#1278"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Верные равенства доли круга α/360",
+      "stemIdea": "Выбрать все верные: сектор 180° = 1/2 круга; 90° = 1/4; 120° = 1/3 (через α/360)",
+      "trapIdeas": [
+        "Ученик отмечает 90° = 1/2",
+        "Ученик отмечает 120° = 1/2",
+        "Ученик путает долю круга с долей развёрнутого угла"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p163_1"],
+      "sourceExampleRefs": ["p163#1277", "p163#1279"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Незакрашенный сектор после трёх заданных",
+      "stemIdea": "Заданы углы трёх секторов (≠40°/130°/60° из №1283) — выбрать все верные утверждения про угол незакрашенного четвёртого",
+      "trapIdeas": [
+        "Ученик суммирует три угла и не вычитает из 360°",
+        "Ученик вычитает из 180°",
+        "Ученик принимает один из данных углов за ответ"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p163_1", "PDF_p163_2"],
+      "sourceExampleRefs": ["p164#1283"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Верные дополнения до полного угла",
+      "stemIdea": "Набор пар углов двух секторов — выбрать все пары, дающие в сумме 360°",
+      "trapIdeas": [
+        "Ученик отмечает пары с суммой 180°",
+        "Ученик отмечает пары с суммой 100°",
+        "Ученик принимает 200°+100° без проверки"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p163_2", "PDF_p163_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Исходный угол по известному второму сектору",
+      "stemIdea": "Второй сектор равен 250° (как в эталоне по смыслу, другие пары) — выбрать все возможные углы первого сектора из списка",
+      "trapIdeas": [
+        "Ученик выбирает 250° как первый",
+        "Ученик выбирает 360°−250° с арифметической ошибкой",
+        "Ученик выбирает дополнение до 180°"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p163_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Смежные сектора и составной угол по рисунку",
+      "stemIdea": "По рисунку смежных секторов (в духе 8.16, другие буквы/углы): даны углы двух смежных — выбрать все верные меры составного сектора",
+      "trapIdeas": [
+        "Ученик вычитает углы вместо сложения смежных",
+        "Ученик дополняет один угол до 360° и игнорирует второй",
+        "Ученик путает составной сектор с одним из смежных"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Смежные сектора и составной угол задаются чертежом (как упр. 1280); без рис. stem неполный. Подход: angle (центральные углы) или set_euler; pie_chart нет.",
+      "sourceRuleIds": ["PDF_p163_1", "PDF_p162_1"],
+      "sourceExampleRefs": ["p164#1280"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Вычисление угла второго сектора",
+      "stemIdea": "Два сектора; угол одного 135° (≠110°) — вписать угол второго в градусах",
+      "trapIdeas": [
+        "Ученик считает 180−135",
+        "Ученик считает 135",
+        "Ученик считает 360+135"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p163_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Третий сектор через доли прямого и развёрнутого угла",
+      "stemIdea": "Три сектора: первый = 80% развёрнутого угла, второй = 2/3 прямого (как №1284, можно слегка сменить %) — вписать угол третьего",
+      "trapIdeas": [
+        "Ученик берёт проценты от 360° вместо развёрнутого",
+        "Ученик забывает вычесть оба найденных угла из 360°",
+        "Ученик путает прямой и развёрнутый угол"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p163_1", "PDF_p163_2"],
+      "sourceExampleRefs": ["p164#1284"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Уравнение на углы четырёх секторов",
+      "stemIdea": "Углы x°, 2x°, 5x°, 4x° в сумме 360° (≠тот же рис. 8.17 один в один) — вписать градусную меру наименьшего сектора",
+      "trapIdeas": [
+        "Ученик делит 360 на 4 без коэффициентов",
+        "Ученик находит x, но отвечает 2x",
+        "Ученик составляет сумму коэффициентов неверно (не 12x)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p163_1"],
+      "sourceExampleRefs": ["p164#1285"],
+      "questionForm": "restore"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "Тема 8.2 only (круговой сектор), стр. 162–164; не 8.1 определения окружности/круга/D=2R и не 8.3 диаграммы. Primary: PDF_p162_1, PDF_p163_1, PDF_p163_2. Prerequisite R014/PDF_p157_prereq — только в trapIdeas (полный угол, радиус), не в sourceRuleIds. Count 30 при recommendedMaxCount null; срез не thin — 3 primary + много usable упражнений. G017: ≤2 form нереален → recall×4, compute×4, predict×4, verify×4, restore×4, word_problem×4, compare×3, inverse×3. Skills: определение сектора, центральный угол, два радиуса+дуга, доля круга α/360, сумма/дополнение до 360°. visual-topics: ILL=5 (q12,q16,q17,q22,q27) — скромно; TEXT-COMPLETE для чисел углов и α/360. В illustrationReason: нет pie_chart/sector в RENDERERS (есть coordinate_ray, number_line_decimals, angle, set_venn, set_euler, bar_chart, polygon) — illustrator: angle или set_euler, иначе block после retry. Anti-dup vs math-5-okruzhnost-krug-20260808-1500: нет R/D/D=2R, окружность vs круг, принадлежности точек кругу."
+}

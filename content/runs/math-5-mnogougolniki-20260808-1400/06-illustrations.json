@@ -1,0 +1,424 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-mnogougolniki-20260808-1400",
+  "sourceFinal": "05-questions.final.json",
+  "styleProfile": "aldamuratova-textbook-simple",
+  "items": [
+    {
+      "localId": "q07",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "polygon",
+      "purpose": "Показать M (простой многоугольник) и N (самопересечение несмежных сторон)",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q07.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 360,
+        "raster": { "path": "illustrations/q07.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "polygon",
+        "width": 720,
+        "height": 360,
+        "figures": [
+          {
+            "sides": 5,
+            "cx": 180,
+            "cy": 200,
+            "radius": 110,
+            "rotationDeg": -90,
+            "vertexLabels": ["", "", "", "", ""],
+            "showVertices": true,
+            "caption": "M",
+            "captionX": 180,
+            "captionY": 55
+          },
+          {
+            "vertices": [
+              { "id": "", "x": 470, "y": 100 },
+              { "id": "", "x": 650, "y": 300 },
+              { "id": "", "x": 650, "y": 100 },
+              { "id": "", "x": 470, "y": 300 }
+            ],
+            "cx": 560,
+            "cy": 200,
+            "fillSoft": "rgba(100, 149, 237, 0.15)",
+            "caption": "N",
+            "captionX": 560,
+            "captionY": 55
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q08",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "polygon",
+      "purpose": "Шестиугольник ABCDEF для подсчёта сторон и вершин",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q08.svg",
+        "format": "svg",
+        "width": 480,
+        "height": 420,
+        "raster": { "path": "illustrations/q08.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "polygon",
+        "width": 480,
+        "height": 420,
+        "sides": 6,
+        "cx": 240,
+        "cy": 220,
+        "radius": 140,
+        "rotationDeg": -90,
+        "vertexLabels": ["A", "B", "C", "D", "E", "F"]
+      },
+      "notes": "Числа 6 и 6 не подписаны на рисунке"
+    },
+    {
+      "localId": "q12",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "polygon",
+      "purpose": "P выпуклый и Q невыпуклый многоугольники для сравнения",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q12.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 380,
+        "raster": { "path": "illustrations/q12.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "polygon",
+        "width": 720,
+        "height": 380,
+        "figures": [
+          {
+            "sides": 5,
+            "cx": 180,
+            "cy": 210,
+            "radius": 115,
+            "rotationDeg": -90,
+            "vertexLabels": ["", "", "", "", ""],
+            "caption": "P",
+            "captionX": 180,
+            "captionY": 55
+          },
+          {
+            "vertices": [
+              { "id": "", "x": 470, "y": 90 },
+              { "id": "", "x": 620, "y": 130 },
+              { "id": "", "x": 560, "y": 210 },
+              { "id": "", "x": 650, "y": 320 },
+              { "id": "", "x": 450, "y": 300 }
+            ],
+            "cx": 555,
+            "cy": 210,
+            "caption": "Q",
+            "captionX": 555,
+            "captionY": 55
+          }
+        ]
+      },
+      "notes": "Слова «выпуклый/невыпуклый» на рисунке отсутствуют"
+    },
+    {
+      "localId": "q13",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "polygon",
+      "purpose": "Два одинаковых пятиугольника для идеи равенства наложением",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q13.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 360,
+        "raster": { "path": "illustrations/q13.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "polygon",
+        "width": 720,
+        "height": 360,
+        "figures": [
+          {
+            "sides": 5,
+            "cx": 200,
+            "cy": 200,
+            "radius": 110,
+            "rotationDeg": -90,
+            "vertexLabels": ["", "", "", "", ""]
+          },
+          {
+            "sides": 5,
+            "cx": 520,
+            "cy": 200,
+            "radius": 110,
+            "rotationDeg": -90,
+            "vertexLabels": ["", "", "", "", ""]
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q17",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "polygon",
+      "purpose": "Шестиугольник DEFKLN с отрезками EN, EL, EF без подсказки, какие диагонали",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q17.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 460,
+        "raster": { "path": "illustrations/q17.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "polygon",
+        "width": 520,
+        "height": 460,
+        "sides": 6,
+        "cx": 260,
+        "cy": 240,
+        "radius": 150,
+        "rotationDeg": -90,
+        "vertexLabels": ["D", "E", "F", "K", "L", "N"],
+        "segments": [
+          { "from": "E", "to": "N" },
+          { "from": "E", "to": "L" },
+          { "from": "E", "to": "F" }
+        ]
+      },
+      "notes": "EF совпадает со стороной; подписей «диагональ» нет"
+    },
+    {
+      "localId": "q18",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "polygon",
+      "purpose": "Пятиугольник ABCDE, разбитый диагоналями BE и BD на три треугольника",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q18.svg",
+        "format": "svg",
+        "width": 480,
+        "height": 440,
+        "raster": { "path": "illustrations/q18.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "polygon",
+        "width": 480,
+        "height": 440,
+        "sides": 5,
+        "cx": 240,
+        "cy": 230,
+        "radius": 145,
+        "rotationDeg": -90,
+        "vertexLabels": ["A", "B", "C", "D", "E"],
+        "segments": [
+          { "from": "B", "to": "E" },
+          { "from": "B", "to": "D" }
+        ]
+      },
+      "notes": "Длины 14/28/56 см на рисунке не подписаны"
+    },
+    {
+      "localId": "q21",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "polygon",
+      "purpose": "Три фигуры: 1 — треугольник, 2 — пятиугольник, 3 — четырёхугольник (согласовано с ключом A,C,D)",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q21.svg",
+        "format": "svg",
+        "width": 840,
+        "height": 360,
+        "raster": { "path": "illustrations/q21.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "polygon",
+        "width": 840,
+        "height": 360,
+        "figures": [
+          {
+            "sides": 3,
+            "cx": 140,
+            "cy": 210,
+            "radius": 100,
+            "rotationDeg": -90,
+            "vertexLabels": ["", "", ""],
+            "caption": "1",
+            "captionX": 140,
+            "captionY": 55
+          },
+          {
+            "sides": 5,
+            "cx": 420,
+            "cy": 210,
+            "radius": 105,
+            "rotationDeg": -90,
+            "vertexLabels": ["", "", "", "", ""],
+            "caption": "2",
+            "captionX": 420,
+            "captionY": 55
+          },
+          {
+            "sides": 4,
+            "cx": 700,
+            "cy": 210,
+            "radius": 100,
+            "rotationDeg": -45,
+            "vertexLabels": ["", "", "", ""],
+            "caption": "3",
+            "captionX": 700,
+            "captionY": 55
+          }
+        ]
+      },
+      "notes": "Названия видов многоугольников на рисунке не подписаны — только номера 1/2/3"
+    },
+    {
+      "localId": "q25",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "polygon",
+      "purpose": "Два равных четырёхугольника; в ABCD отмечены AC (диагональ) и сторона AB",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q25.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 380,
+        "raster": { "path": "illustrations/q25.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "polygon",
+        "width": 720,
+        "height": 380,
+        "figures": [
+          {
+            "vertices": [
+              { "id": "A", "x": 80, "y": 280 },
+              { "id": "B", "x": 260, "y": 300 },
+              { "id": "C", "x": 290, "y": 120 },
+              { "id": "D", "x": 100, "y": 100 }
+            ],
+            "cx": 185,
+            "cy": 200,
+            "segments": [{ "from": "A", "to": "C" }],
+            "labelOffsets": {
+              "A": { "x": -16, "y": 14 },
+              "B": { "x": 16, "y": 14 },
+              "C": { "x": 16, "y": -12 },
+              "D": { "x": -16, "y": -12 }
+            }
+          },
+          {
+            "vertices": [
+              { "id": "A₁", "x": 430, "y": 280 },
+              { "id": "B₁", "x": 610, "y": 300 },
+              { "id": "C₁", "x": 640, "y": 120 },
+              { "id": "D₁", "x": 450, "y": 100 }
+            ],
+            "cx": 535,
+            "cy": 200,
+            "labelOffsets": {
+              "A₁": { "x": -18, "y": 14 },
+              "B₁": { "x": 18, "y": 14 },
+              "C₁": { "x": 18, "y": -12 },
+              "D₁": { "x": -18, "y": -12 }
+            }
+          }
+        ]
+      },
+      "notes": "Подписей «диагональ»/«сторона» нет; AB — ребро контура"
+    },
+    {
+      "localId": "q26",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "polygon",
+      "purpose": "Четырёхугольник и пятиугольник для подсчёта диагоналей",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q26.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 360,
+        "raster": { "path": "illustrations/q26.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "polygon",
+        "width": 720,
+        "height": 360,
+        "figures": [
+          {
+            "sides": 4,
+            "cx": 200,
+            "cy": 200,
+            "radius": 120,
+            "rotationDeg": -45,
+            "vertexLabels": ["", "", "", ""]
+          },
+          {
+            "sides": 5,
+            "cx": 520,
+            "cy": 200,
+            "radius": 120,
+            "rotationDeg": -90,
+            "vertexLabels": ["", "", "", "", ""]
+          }
+        ]
+      },
+      "notes": "Диагонали не проведены и числа 2/5 не подписаны"
+    },
+    {
+      "localId": "q30",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "polygon",
+      "purpose": "Квадрат с двумя диагоналями для подсчёта треугольников (ключ 8)",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q30.svg",
+        "format": "svg",
+        "width": 420,
+        "height": 420,
+        "raster": { "path": "illustrations/q30.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "polygon",
+        "width": 420,
+        "height": 420,
+        "vertices": [
+          { "id": "A", "x": 80, "y": 80 },
+          { "id": "B", "x": 340, "y": 80 },
+          { "id": "C", "x": 340, "y": 340 },
+          { "id": "D", "x": 80, "y": 340 }
+        ],
+        "cx": 210,
+        "cy": 210,
+        "segments": [
+          { "from": "A", "to": "C" },
+          { "from": "B", "to": "D" }
+        ],
+        "labelOffsets": {
+          "A": { "x": -16, "y": -12 },
+          "B": { "x": 16, "y": -12 },
+          "C": { "x": 16, "y": 14 },
+          "D": { "x": -16, "y": 14 }
+        }
+      },
+      "notes": "Число 8 на рисунке не подписано; 4 малых + 4 составных"
+    }
+  ]
+}

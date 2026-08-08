@@ -1,0 +1,523 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-chislovye-bukvennye-vyrazheniya-20260808-2230",
+  "typeMixPlanned": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMixPlanned": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Определение числового выражения",
+      "stemIdea": "Какое утверждение верно описывает числовое выражение",
+      "trapIdeas": [
+        "Ученик считает числовым любое выражение со скобками, даже с буквами",
+        "Ученик путает числовое выражение со значением выражения",
+        "Ученик думает, что числовое выражение обязательно содержит все четыре действия"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p39_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Определение буквенного выражения",
+      "stemIdea": "Какое утверждение верно описывает буквенное выражение",
+      "trapIdeas": [
+        "Ученик считает буквенным только выражение из одних букв без чисел",
+        "Ученик путает буквенное выражение с математическим предложением (со знаком =)",
+        "Ученик думает, что запись только из чисел тоже буквенная"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p39_3"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Термин «значение числового выражения»",
+      "stemIdea": "Что называют значением числового выражения",
+      "trapIdeas": [
+        "Ученик путает значение выражения с самим выражением",
+        "Ученик думает, что значением называют только результат в скобках",
+        "Ученик путает со значением буквы в буквенном выражении"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p39_2"],
+      "sourceExampleRefs": ["p39#example"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Определение коэффициента",
+      "stemIdea": "Что называют коэффициентом в произведении числа и букв",
+      "trapIdeas": [
+        "Ученик называет коэффициентом саму букву",
+        "Ученик думает, что коэффициент — это любое слагаемое рядом с буквой",
+        "Ученик считает, что в a коэффициент равен 0"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p40_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Классификация записи как числового выражения",
+      "stemIdea": "Не вычисляя: какая из записей — числовое выражение",
+      "trapIdeas": [
+        "Ученик выбирает запись с буквой, потому что в ней есть числа",
+        "Ученик отвергает числовое со скобками, думая что скобки «ломают» определение",
+        "Ученик путает выражение с равенством (математическим предложением)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p39_1"],
+      "sourceExampleRefs": ["p38#bell"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Подстановка буквы даёт числовое выражение",
+      "stemIdea": "Не вычисляя значение: что получится, если вместо буквы подставить число",
+      "trapIdeas": [
+        "Ученик думает, что после подстановки выражение остаётся буквенным",
+        "Ученик путает подстановку с упрощением подобных слагаемых",
+        "Ученик считает, что сразу получается «значение», минуя числовое выражение"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p39_5"],
+      "sourceExampleRefs": ["p39#subst"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Вычисление значения числового выражения",
+      "stemIdea": "Найти значение числового выражения со скобками (частное и разность)",
+      "trapIdeas": [
+        "Ученик считает действия строго слева направо, игнорируя скобки (путаница с порядком 1.7)",
+        "Ученик меняет делимое и делитель",
+        "Ученик вычитает числа в скобках в обратном порядке"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p39_2"],
+      "sourceExampleRefs": ["p39#example"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Значение буквенного выражения при данном значении буквы",
+      "stemIdea": "Найти значение буквенного выражения вида сумма/произведение после подстановки",
+      "trapIdeas": [
+        "Ученик складывает/умножает слева направо без учёта ступени · (вторично 1.7)",
+        "Ученик подставляет число не во все вхождения буквы",
+        "Ученик путает значение буквы со значением всего выражения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p39_5"],
+      "sourceExampleRefs": ["p39#subst"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Значение произведения коэффициента и буквы",
+      "stemIdea": "Найти значение записи вида 7x при данном x",
+      "trapIdeas": [
+        "Ученик складывает коэффициент с значением буквы вместо умножения",
+        "Ученик думает, что 7x — это две отдельные записи 7 и x",
+        "Ученик подставляет x в коэффициент, а не умножает"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p40_1", "PDF_p39_5"],
+      "sourceExampleRefs": ["p40#81"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Равнозначность записи с · и без ·",
+      "stemIdea": "Сравнить записи a·b и ab (или 3·(x+2) и 3(x+2))",
+      "trapIdeas": [
+        "Ученик думает, что ab — это сумма a и b",
+        "Ученик считает, что без знака · запись недопустима",
+        "Ученик путает опускание · с опусканием скобок"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p40_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Коэффициент 1 при одиночной букве",
+      "stemIdea": "Какой коэффициент при a в выражении вида a+6",
+      "trapIdeas": [
+        "Ученик называет коэффициентом число 6",
+        "Ученик думает, что коэффициент равен 0, раз числа перед a нет",
+        "Ученик называет коэффициентом всю сумму a+6"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p40_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Поиск ошибки в классификации выражений",
+      "stemIdea": "В готовой классификации «числовые / буквенные» указать неверную пометку",
+      "trapIdeas": [
+        "Ученик принимает буквенное со скобками за числовое",
+        "Ученик считает числовое с делением буквенным из‑за знака «:»",
+        "Ученик путает выражение с математическим предложением со знаком ="
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p39_1", "PDF_p39_3"],
+      "sourceExampleRefs": ["p38#bell"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Составление числового выражения по сюжету",
+      "stemIdea": "По задаче о двух скоростях в противоположных направлениях выбрать верное числовое выражение расстояния",
+      "trapIdeas": [
+        "Ученик пишет разность скоростей вместо суммы",
+        "Ученик умножает только одну скорость на время",
+        "Ученик составляет буквенное выражение, хотя скорости заданы числами"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p39_1", "PDF_p40_4"],
+      "sourceExampleRefs": ["p38#1"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Обратный поиск значения буквы",
+      "stemIdea": "Дано значение простого буквенного выражения; найти значение буквы",
+      "trapIdeas": [
+        "Ученик выполняет обратное действие неверно (складывает вместо вычитает)",
+        "Ученик подставляет найденное число обратно не в ту часть",
+        "Ученик путает значение буквы со значением выражения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p39_5", "PDF_p39_6"],
+      "sourceExampleRefs": [],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q15",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Латинские строчные буквы в буквенных выражениях",
+      "stemIdea": "Не вычисляя: какие записи используют допустимые буквы латинского алфавита для буквенного выражения",
+      "trapIdeas": [
+        "Ученик принимает кириллические буквы как допустимые",
+        "Ученик думает, что заглавные латинские обязательны",
+        "Ученик считает цифры «буквами» выражения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p39_4"],
+      "sourceExampleRefs": [],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Цепочка: буквенное → числовое → значение",
+      "stemIdea": "Восстановить пропущенный средний шаг схемы подстановки",
+      "trapIdeas": [
+        "Ученик пропускает числовое выражение и сразу пишет только итог",
+        "Ученик подставляет букву обратно в уже числовое выражение",
+        "Ученик путает «значение буквы» с «значением выражения»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p39_5", "PDF_p39_6"],
+      "sourceExampleRefs": ["p39#subst"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q17",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Отбор всех числовых выражений из списка",
+      "stemIdea": "Выбрать все записи, которые являются числовыми выражениями",
+      "trapIdeas": [
+        "Ученик включает в ответ выражения с буквами",
+        "Ученик исключает числовые с умножением/делением",
+        "Ученик включает равенства (математические предложения)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p39_1"],
+      "sourceExampleRefs": ["p40#80"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q18",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Отбор всех буквенных выражений из списка",
+      "stemIdea": "Выбрать все записи, которые являются буквенными выражениями",
+      "trapIdeas": [
+        "Ученик включает чисто числовые записи",
+        "Ученик исключает буквенные с числами и знаками действий",
+        "Ученик включает предложения со знаками сравнения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p39_3"],
+      "sourceExampleRefs": ["p40#80"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные сокращения записи без знака умножения",
+      "stemIdea": "Какие записи без · равносильны исходным с · (буквы и скобки)",
+      "trapIdeas": [
+        "Ученик опускает · между двумя числами (3·5 → 35)",
+        "Ученик убирает скобки вместе со знаком ·",
+        "Ученик пишет a+b вместо ab"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p40_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Переменные и значения буквы",
+      "stemIdea": "Выбрать все верные утверждения о переменных и значениях буквы",
+      "trapIdeas": [
+        "Ученик думает, что буква всегда обозначает одно фиксированное число навсегда",
+        "Ученик путает значение буквы со значением выражения",
+        "Ученик считает, что буквенное выражение нельзя назвать выражением с переменными"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p40_3", "PDF_p39_6"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q21",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Вычисление значения после подстановки",
+      "stemIdea": "Подставить данное значение буквы и записать число-значение выражения",
+      "trapIdeas": [
+        "Ученик ошибается в арифметике после верной подстановки",
+        "Ученик оставляет букву в ответе",
+        "Ученик записывает значение буквы вместо значения выражения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p39_5"],
+      "sourceExampleRefs": ["p41#83"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q22",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Составление буквенного выражения по условию",
+      "stemIdea": "По ценам a и b (a>b) выбрать верное буквенное выражение разности/увеличенной разности",
+      "trapIdeas": [
+        "Ученик пишет b−a вместо a−b",
+        "Ученик пишет 3a−b вместо 3(a−b)",
+        "Ученик составляет числовое выражение, подставив выдуманные цены"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p39_3", "PDF_p40_4"],
+      "sourceExampleRefs": ["p39#2"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q23",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Словесная формулировка → числовое выражение и значение",
+      "stemIdea": "По фразе «утроенная сумма / удвоенная разность / частное…» найти значение",
+      "trapIdeas": [
+        "Ученик умножает только одно слагаемое («утроенная сумма» → 3·a+b)",
+        "Ученик меняет порядок делимого и делителя в «частном»",
+        "Ученик забывает скобки вокруг суммы/разности"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p39_2"],
+      "sourceExampleRefs": ["p41#84"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q24",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Обратный поиск значения буквы в ka",
+      "stemIdea": "Дано значение произведения коэффициента и буквы; найти значение буквы",
+      "trapIdeas": [
+        "Ученик делит коэффициент на значение выражения вместо наоборот",
+        "Ученик вычитает коэффициент из значения",
+        "Ученик принимает коэффициент за ответ"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p40_1", "PDF_p39_5"],
+      "sourceExampleRefs": [],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Проверка верных подстановок и значений",
+      "stemIdea": "Какие из готовых равенств «буквенное при … равно …» верны",
+      "trapIdeas": [
+        "Ученик принимает верной подстановку с арифметической ошибкой",
+        "Ученик считает верным равенство, где букву не подставили",
+        "Ученик путает значение буквы с итогом выражения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p39_5"],
+      "sourceExampleRefs": ["p40#81"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Верные коэффициенты в наборе выражений",
+      "stemIdea": "Какие утверждения о коэффициенте (в 5a, 8a, a+6, ab) верны",
+      "trapIdeas": [
+        "Ученик считает коэффициентом при a в a+6 число 6",
+        "Ученик думает, что в ab коэффициента нет / он равен a",
+        "Ученик путает коэффициент со вторым множителем-буквой"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p40_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q27",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "skillFocus": "Запись буквенного выражения без знака умножения",
+      "stemIdea": "Переписать данное выражение с · в принятой краткой записи",
+      "trapIdeas": [
+        "Ученик склеивает цифры множителей",
+        "Ученик убирает скобки",
+        "Ученик вставляет знак + вместо опущенного ·"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p40_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q28",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Математическая модель ситуации буквенными выражениями",
+      "stemIdea": "По условию с несколькими величинами выбрать все верные буквенные модели",
+      "trapIdeas": [
+        "Ученик составляет модель с неверной зависимостью «на x меньше / на y больше»",
+        "Ученик суммирует только два из трёх объектов",
+        "Ученик подставляет числа в модель до проверки структуры выражения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p40_4", "PDF_p39_3"],
+      "sourceExampleRefs": ["p42#88"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q29",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Математическое выражение vs математическое предложение",
+      "stemIdea": "Выбрать все верные утверждения: что является выражением, а что предложением (=, ≠, >, <)",
+      "trapIdeas": [
+        "Ученик считает равенство 12+14=26 числовым выражением",
+        "Ученик думает, что буквенное выражение — уже предложение",
+        "Ученик путает модель ситуации с предложением сравнения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p40_4"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Составление модели и обратный поиск параметра",
+      "stemIdea": "По условию составить буквенное выражение, подставить данные и найти недостающий параметр по известному значению",
+      "trapIdeas": [
+        "Ученик строит неверную модель (число промежутков / частей)",
+        "Ученик подставляет параметр не в ту величину",
+        "Ученик упрощает подобные слагаемые как в теме 1.9 вместо подстановки"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p40_4", "PDF_p39_5"],
+      "sourceExampleRefs": ["p41#82"],
+      "questionForm": "inverse"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "count=30 при recommendedMaxCount=null; typeMix 18/9/3 и difficulty 2/4/15/6/3 из brief. Опора на 10 primary PDF_p39_1–6 и PDF_p40_1–4 (verbatim); RC_* нет; prerequisite PDF_p36_order_prereq только в trapIdeas (вторичная путаница порядка). Фокус: числовые vs буквенные, подстановка, коэффициент, опускание ·, модель/предложение — НЕ упрощение 1.9 и НЕ pure порядок действий 1.7 (C9). G017: при count=30 лимит ≤2 на questionForm нереален — recall×5, predict×3, compute×5, verify×5, restore×3, compare×3, word_problem×3, inverse×3. needsIllustration все false (visual-topics: определения и выражения полны текстом; рис.1.21 не обязателен)."
+}

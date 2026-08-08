@@ -1,0 +1,523 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-koordinatnyy-luch-20260808-1800",
+  "typeMixPlanned": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMixPlanned": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Определение координатного луча",
+      "stemIdea": "Выбрать верное определение: луч с началом отсчёта, единичным отрезком и направлением вправо",
+      "trapIdeas": [
+        "Ученик путает координатный луч с прямой (два направления)",
+        "Ученик забывает про единичный отрезок",
+        "Ученик считает, что направление луча не важно"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p10_2"],
+      "sourceExampleRefs": ["p11#check"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Начало отсчёта O(0)",
+      "stemIdea": "Какое число записывают под началом координатного луча (точка O)",
+      "trapIdeas": [
+        "Ученик пишет 1 вместо 0",
+        "Ученик думает, что под началом число не ставят",
+        "Ученик путает начало отсчёта с первой натуральной точкой"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p10_4"],
+      "sourceExampleRefs": ["p11#check"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Определение единичного отрезка",
+      "stemIdea": "Выбрать, какой отрезок называют единичным на координатном луче",
+      "trapIdeas": [
+        "Ученик считает единичным весь луч",
+        "Ученик путает единичный отрезок с длиной OA до произвольной точки",
+        "Ученик думает, что единичный отрезок обязан быть ровно 1 см всегда"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p10_1"],
+      "sourceExampleRefs": ["p11#check"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Направление координатного луча",
+      "stemIdea": "Не рисуя: в какую сторону обычно направляют координатный луч",
+      "trapIdeas": [
+        "Ученик отвечает «влево»",
+        "Ученик выбирает «вверх» как у вертикальной шкалы",
+        "Ученик думает, что луч идёт в обе стороны"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p10_2", "PDF_p9_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Связь координаты и длины от O",
+      "stemIdea": "Единица 1 см, дана точка A(5) текстом — найти длину OA в сантиметрах",
+      "trapIdeas": [
+        "Ученик отвечает 4 (считает промежутки от 1)",
+        "Ученик отвечает 6 (добавляет лишний отрезок)",
+        "Ученик путает сантиметры и «клетки» без масштаба"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p10_1", "PDF_p10_3"],
+      "sourceExampleRefs": ["p11#20"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Порядок меток при построении луча",
+      "stemIdea": "На луче после O подписаны 0, 1, 2, □, 4 — восстановить пропущенную метку",
+      "trapIdeas": [
+        "Ученик ставит 5 (прыгает через деление)",
+        "Ученик ставит 0 ещё раз",
+        "Ученик ставит 2,5 / дробь вне темы"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p9_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Чтение координаты точки на луче",
+      "stemIdea": "На рисунке луча с делениями отметить точку K (не A/B/C); найти её координату по другим числам, не как в probe",
+      "trapIdeas": [
+        "Ученик считает от 1, а не от O(0)",
+        "Ученик берёт соседнее деление",
+        "Ученик путает число делений и число промежутков"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Координата читается только с рисунка coordinate_ray",
+      "sourceRuleIds": ["PDF_p10_3"],
+      "sourceExampleRefs": ["p11#19"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сравнение координат по положению на луче",
+      "stemIdea": "На рисунке точки P и R; у какой точки больше координата (по положению правее)",
+      "trapIdeas": [
+        "Ученик выбирает левую точку как «большую»",
+        "Ученик сравнивает по буквам алфавита, а не по положению",
+        "Ученик считает координаты равными без основания"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Сравнение по положению требует coordinate_ray",
+      "sourceRuleIds": ["PDF_p10_3", "PDF_p10_2"],
+      "sourceExampleRefs": ["p11#19"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Запись точки с координатой",
+      "stemIdea": "Выбрать верную запись точки с координатой (вид M(n), O(0))",
+      "trapIdeas": [
+        "Ученик пишет (M)n или M=n",
+        "Ученик ставит O(1) у начала луча",
+        "Ученик меняет местами букву и число"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p10_3", "PDF_p10_4"],
+      "sourceExampleRefs": ["p11#check"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Длина отрезка от начала при единице 1 см",
+      "stemIdea": "Единица 1 см; даны точки A(2), B(6), C(8), D(9) текстом — найти длину одного из OD/OB",
+      "trapIdeas": [
+        "Ученик отвечает на 1 меньше координаты",
+        "Ученик суммирует координаты соседних точек",
+        "Ученик путает длину AB с длиной от O"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p10_1", "PDF_p10_3"],
+      "sourceExampleRefs": ["p11#20"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Восстановление координаты по частичной шкале",
+      "stemIdea": "На рисунке подписаны 0, 2, 4; точка S на неподписанном делении — восстановить координату S",
+      "trapIdeas": [
+        "Ученик ставит среднее без учёта шага шкалы",
+        "Ученик считает от первой подписанной двойки как от нуля",
+        "Ученик сдвигает на одно деление"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Частичная шкала читается с coordinate_ray",
+      "sourceRuleIds": ["PDF_p10_3", "PDF_p9_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Середина отрезка на луче",
+      "stemIdea": "Даны A(5) и B(11) текстом; найти координату середины отрезка AB",
+      "trapIdeas": [
+        "Ученик берёт половину большей координаты",
+        "Ученик вычитает координаты вместо среднего",
+        "Ученик отвечает координатой конца B"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p10_3"],
+      "sourceExampleRefs": ["p11#21"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Масштаб единичного отрезка (метры)",
+      "stemIdea": "На рисунке луч, единица равна 40 м; по делению цели найти расстояние от O в метрах (сюжет иной, чем Алдар Косе)",
+      "trapIdeas": [
+        "Ученик забывает умножить координату на 40",
+        "Ученик делит вместо умножения",
+        "Ученик считает деления от 1, занижая координату"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Положение цели и деления только на coordinate_ray",
+      "sourceRuleIds": ["PDF_p10_1", "PDF_p10_3"],
+      "sourceExampleRefs": ["p12#23"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Проверка чужого чтения координаты",
+      "stemIdea": "На рисунке точка; ученик назвал неверную координату — выбрать, в чём ошибка / какова верная",
+      "trapIdeas": [
+        "Ученик повторяет ошибку «отсчёт от 1»",
+        "Ученик принимает соседнее деление за ответ",
+        "Ученик путает проверку с переименованием точки"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Ошибка чтения проверяется только по рисунку луча",
+      "sourceRuleIds": ["PDF_p10_3", "PDF_p10_4"],
+      "sourceExampleRefs": ["p11#19"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Единственность изображения числа на луче",
+      "stemIdea": "Не рисуя: сколькими точками на координатном луче изображается данное натуральное число",
+      "trapIdeas": [
+        "Ученик отвечает «двумя точками»",
+        "Ученик отвечает «бесконечно многими»",
+        "Ученик думает, что число можно не изобразить"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p13_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Чтение координаты при разной длине единицы",
+      "stemIdea": "Два луча на одном рисунке с разным единичным отрезком; прочитать координату отмеченной точки на одном из них",
+      "trapIdeas": [
+        "Ученик применяет единицу с другого луча",
+        "Ученик считает клетки вместо принятой единицы",
+        "Ученик путает точки двух лучей"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Два луча с разной единицей — только coordinate_ray (как рис. 1.4)",
+      "sourceRuleIds": ["PDF_p10_1", "PDF_p10_3"],
+      "sourceExampleRefs": ["p11#19"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Сравнение удаления точек от начала по координатам",
+      "stemIdea": "Без рисунка: даны P(3) и Q(8); какая точка дальше от начала O",
+      "trapIdeas": [
+        "Ученик выбирает меньшую координату как «дальше»",
+        "Ученик считает расстояние одинаковым",
+        "Ученик путает с серединой отрезка PQ"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p10_3", "PDF_p10_4"],
+      "sourceExampleRefs": [],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Обратный переход: длина → координата",
+      "stemIdea": "Единица 2 см, длина OA = 12 см — найти координату точки A",
+      "trapIdeas": [
+        "Ученик отвечает 12 (забывает масштаб единицы)",
+        "Ученик отвечает 24 (умножает вместо деления)",
+        "Ученик отвечает 10 (сдвиг на 1)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p10_1", "PDF_p10_3"],
+      "sourceExampleRefs": ["p11#20"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Признаки координатного луча",
+      "stemIdea": "Отметить все верные утверждения о начале отсчёта, единичном отрезке и направлении луча",
+      "trapIdeas": [
+        "Ученик включает утверждение «луч направлен влево»",
+        "Ученик считает, что начало отсчёта — точка с координатой 1",
+        "Ученик путает единичный отрезок с произвольным отрезком OA"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p10_2", "PDF_p10_1", "PDF_p10_4"],
+      "sourceExampleRefs": ["p11#check"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Запись нескольких точек с координатами по рисунку",
+      "stemIdea": "На рисунке несколько точек; отметить все верные записи вида K(n) для этих точек (набор точек/чисел иной, чем probe A,B,C)",
+      "trapIdeas": [
+        "Ученик выбирает запись со сдвигом на 1",
+        "Ученик путает две соседние точки",
+        "Ученик ставит O(n) для точки не в начале"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Верность записей K(n) проверяется по coordinate_ray",
+      "sourceRuleIds": ["PDF_p10_3"],
+      "sourceExampleRefs": ["p11#19"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Положения точек относительно друг друга",
+      "stemIdea": "По рисунку луча отметить все верные сравнения положений (кто левее/правее; без сюжета «только A vs C» из probe)",
+      "trapIdeas": [
+        "Ученик переворачивает «левее/правее»",
+        "Ученик сравнивает по буквам, игнорируя рисунок",
+        "Ученик считает все точки равноудалёнными"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Сравнения положений только по coordinate_ray",
+      "sourceRuleIds": ["PDF_p10_3", "PDF_p10_2"],
+      "sourceExampleRefs": ["p11#19"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Ключевые факты темы 1.2",
+      "stemIdea": "Отметить все верные факты: O(0); единственность точки для натурального числа; единичный отрезок; горизонтальный луч вправо (без вопроса «является ли 0 натуральным»)",
+      "trapIdeas": [
+        "Ученик включает ложь «одно число — две точки»",
+        "Ученик относит к теме сравнение чисел из 1.3",
+        "Ученик путает «0 в начале луча» с определением натурального ряда из 1.1"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p13_1", "PDF_p10_4", "PDF_p10_1", "PDF_p10_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Отбор точек по координате на рисунке",
+      "stemIdea": "На луче отмечены несколько точек; выбрать все точки с координатой больше данного порога (порог и метки ≠ probe)",
+      "trapIdeas": [
+        "Ученик включает граничную точку с равной координатой",
+        "Ученик отсчитывает от 1 и сдвигает все координаты",
+        "Ученик выбирает по порядку букв, а не по координате"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Отбор точек по координате требует coordinate_ray",
+      "sourceRuleIds": ["PDF_p10_3"],
+      "sourceExampleRefs": ["p11#19"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Масштаб и расстояние на луче в сюжете",
+      "stemIdea": "По рисунку с масштабом (единица в метрах) отметить все верные выводы о координатах и расстоянии между двумя отмеченными объектами",
+      "trapIdeas": [
+        "Ученик забывает масштаб при переводе в метры",
+        "Ученик вычитает координаты в обратном порядке и теряет смысл",
+        "Ученик подменяет расстояние временем/скоростью без данных"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Координаты объектов и деления только на coordinate_ray",
+      "sourceRuleIds": ["PDF_p10_1", "PDF_p10_3"],
+      "sourceExampleRefs": ["p12#24"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Шаги построения координатного луча",
+      "stemIdea": "Отметить все необходимые/верные шаги построения: начало O, число 0, единичный отрезок, метки 1,2,3… вправо",
+      "trapIdeas": [
+        "Ученик включает шаг «подписать 1 под началом»",
+        "Ученик считает достаточным луч без единичного отрезка",
+        "Ученик добавляет деления влево от O как обязательный шаг"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p9_1"],
+      "sourceExampleRefs": ["p11#check"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Синтез определений и ключевых фактов",
+      "stemIdea": "Отметить все верные утверждения: 0 изображается началом O; каждое натуральное — одной точкой; единицу длины выбирают; координата — число, соответствующее точке (не спрашивать «нуль натуральный?»)",
+      "trapIdeas": [
+        "Ученик тащит формулировку из темы 1.1 про состав натуральных",
+        "Ученик считает, что единица длины всегда фиксирована учебником",
+        "Ученик допускает две точки для одного числа"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p13_1", "PDF_p10_4", "PDF_p10_1", "PDF_p10_3"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Движение по лучу скачками",
+      "stemIdea": "Кузнечик из данной точки прыгает фиксированными шагами влево/вправо; отметить все координаты из списка, в которые он сможет попасть",
+      "trapIdeas": [
+        "Ученик игнорирует направление «влево» у края луча",
+        "Ученик считает достижимой любую координату правее старта",
+        "Ученик путает длину прыжка с координатой точки"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p10_3"],
+      "sourceExampleRefs": ["p12#25"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Вписать координату по рисунку",
+      "stemIdea": "На луче отмечена точка W (не M); вписать соответствующее число",
+      "trapIdeas": [
+        "Ученик сдвигает ответ на 1 деление",
+        "Ученик считает от первой ненулевой метки",
+        "Ученик путает W с соседней подписанной точкой"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Число читается с coordinate_ray; без рисунка FILL_IN пуст",
+      "sourceRuleIds": ["PDF_p10_3"],
+      "sourceExampleRefs": ["p11#19"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "skillFocus": "Координата середины отрезка",
+      "stemIdea": "Даны A(4) и B(10) текстом; вписать координату середины C",
+      "trapIdeas": [
+        "Ученик вписывает 10−4=6 как «середину» без усреднения с A",
+        "Ученик вписывает половину B",
+        "Ученик вписывает среднее без деления пополам корректно"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p10_3"],
+      "sourceExampleRefs": ["p11#21"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Приближённое расстояние по лучу с масштабом",
+      "stemIdea": "На рисунке луч из O с единицей 60 км; по положению города вписать приближённое расстояние от O",
+      "trapIdeas": [
+        "Ученик считает деления, забыв ×60",
+        "Ученик округляет деления грубо в другую сторону",
+        "Ученик берёт координату соседнего города"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Положение города на шкале только на coordinate_ray",
+      "sourceRuleIds": ["PDF_p10_1", "PDF_p10_3"],
+      "sourceExampleRefs": ["p13#27"],
+      "questionForm": "word_problem"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "30 слотов при recommendedMaxCount=null; опора на 6 primary PDF-правил (p9–p13). PDF_p4_prereq только в trapIdeas (не в sourceRuleIds). Anti-dup probe: нет стемов «A,B,C → координата B», «A vs C правее», «сколько единиц O→A», «вписать M»; другие точки/числа/навыки. Anti-dup B11: нет «что такое натуральное» / «является ли 0 натуральным» — 0 только как O(0). illustrationPolicy=visual-topics: needsIllustration true там, где без coordinate_ray stem неполный (12 слотов). G017: при count=30 лимит ≤2 на questionForm нереален — формы разнесены максимально равномерно (~3–6)."
+}

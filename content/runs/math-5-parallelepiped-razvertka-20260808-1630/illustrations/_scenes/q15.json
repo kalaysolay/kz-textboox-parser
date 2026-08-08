@@ -1,0 +1,19 @@
+{
+  "kind": "net_parallelepiped",
+  "width": 420,
+  "height": 360,
+  "figures": [
+    {
+      "ox": 70,
+      "oy": 50,
+      "cell": 56,
+      "cells": [[1, 0], [0, 1], [1, 1], [2, 1], [3, 1], [1, 2]],
+      "faceMarks": [
+        { "i": 1, "j": 0, "symbol": "sun" },
+        { "i": 0, "j": 1, "symbol": "heart" },
+        { "i": 1, "j": 1, "symbol": "leaf" },
+        { "i": 1, "j": 2, "symbol": "rhombus" }
+      ]
+    }
+  ]
+}

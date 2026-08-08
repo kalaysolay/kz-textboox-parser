@@ -1,0 +1,36 @@
+{
+  "kind": "angle",
+  "width": 480,
+  "height": 360,
+  "figures": [
+    {
+      "cx": 220,
+      "cy": 240,
+      "rayLength": 180,
+      "vertexLabel": "L",
+      "vertexOffset": { "x": -16, "y": 18 },
+      "rays": [
+        { "label": "K", "deg": 10 },
+        { "label": "M", "deg": 70 }
+      ],
+      "showArc": true,
+      "showDegree": false
+    },
+    {
+      "cx": 255,
+      "cy": 200,
+      "rayLength": 150,
+      "vertexLabel": "",
+      "rays": [
+        { "label": "", "deg": 10 },
+        { "label": "", "deg": 190 }
+      ],
+      "arcs": [
+        { "fromDeg": 10, "toDeg": 190, "radius": 120 }
+      ],
+      "points": [
+        { "id": "0°", "deg": 10, "t": 0.9, "labelDx": 12, "labelDy": 14 }
+      ]
+    }
+  ]
+}

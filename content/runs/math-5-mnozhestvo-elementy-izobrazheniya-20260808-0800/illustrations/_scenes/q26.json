@@ -1,0 +1,14 @@
+{
+  "kind": "set_venn",
+  "width": 520,
+  "height": 360,
+  "radius": 110,
+  "setALabel": "A",
+  "setBLabel": "B",
+  "elements": [
+    { "label": "4", "region": "A", "x": 145, "y": 187 },
+    { "label": "5", "region": "AB", "x": 250, "y": 165 },
+    { "label": "9", "region": "AB", "x": 270, "y": 210 },
+    { "label": "11", "region": "B", "x": 375, "y": 187 }
+  ]
+}

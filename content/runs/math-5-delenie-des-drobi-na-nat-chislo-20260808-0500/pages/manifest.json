@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "parsed": "Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+  "pdfOffset": 0,
+  "pageRange": "57-64",
+  "note": "read-textbook-pages.js failed (ESM require); copied from ocr/ocr_pages_math_aldamuratova_5grade_part2",
+  "pages": [
+    {
+      "bookPage": 57,
+      "pdfPage": 57,
+      "png": "page_057.png",
+      "txt": "page_057.txt",
+      "source": "ocr_cache",
+      "readable": true
+    },
+    {
+      "bookPage": 58,
+      "pdfPage": 58,
+      "png": "page_058.png",
+      "txt": "page_058.txt",
+      "source": "ocr_cache",
+      "readable": true
+    },
+    {
+      "bookPage": 59,
+      "pdfPage": 59,
+      "png": "page_059.png",
+      "txt": "page_059.txt",
+      "source": "ocr_cache",
+      "readable": true
+    },
+    {
+      "bookPage": 60,
+      "pdfPage": 60,
+      "png": "page_060.png",
+      "txt": "page_060.txt",
+      "source": "ocr_cache",
+      "readable": true
+    },
+    {
+      "bookPage": 61,
+      "pdfPage": 61,
+      "png": "page_061.png",
+      "txt": "page_061.txt",
+      "source": "ocr_cache",
+      "readable": true
+    },
+    {
+      "bookPage": 62,
+      "pdfPage": 62,
+      "png": "page_062.png",
+      "txt": "page_062.txt",
+      "source": "ocr_cache",
+      "readable": true
+    },
+    {
+      "bookPage": 63,
+      "pdfPage": 63,
+      "png": "page_063.png",
+      "txt": "page_063.txt",
+      "source": "ocr_cache",
+      "readable": true
+    },
+    {
+      "bookPage": 64,
+      "pdfPage": 64,
+      "png": "page_064.png",
+      "txt": "page_064.txt",
+      "source": "ocr_cache",
+      "readable": true
+    }
+  ],
+  "summary": {
+    "requested": 8,
+    "copied": 8,
+    "allReadable": true
+  }
+}

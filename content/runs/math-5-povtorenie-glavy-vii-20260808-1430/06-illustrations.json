@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-povtorenie-glavy-vii-20260808-1430",
+  "sourceFinal": "05-questions.final.json",
+  "styleProfile": "aldamuratova-textbook-simple",
+  "items": [
+    {
+      "localId": "q04",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Прямая AB, луч OC из O; углы AOC и BOC без подписанных мер",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q04.svg",
+        "format": "svg",
+        "width": 560,
+        "height": 360,
+        "raster": { "path": "illustrations/q04.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 560,
+        "height": 360,
+        "cx": 280,
+        "cy": 240,
+        "rayLength": 200,
+        "vertexLabel": "O",
+        "rays": [
+          { "label": "A", "deg": 180 },
+          { "label": "C", "deg": 80 },
+          { "label": "B", "deg": 0 }
+        ],
+        "arcs": [
+          { "fromDeg": 80, "toDeg": 180, "radius": 52 },
+          { "fromDeg": 0, "toDeg": 80, "radius": 40 }
+        ],
+        "vertexOffset": { "x": 0, "y": 24 },
+        "vertexAnchor": "middle"
+      },
+      "notes": "Меры 100°/80° и выражения x+40/x+20 на рисунке не подписаны"
+    },
+    {
+      "localId": "q06",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "polygon",
+      "purpose": "Пять четырёхугольников: пары 1=3 и 2=5 совмещаемы; 4 другого размера",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q06.svg",
+        "format": "svg",
+        "width": 900,
+        "height": 520,
+        "raster": { "path": "illustrations/q06.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "polygon",
+        "width": 900,
+        "height": 520,
+        "figures": [
+          {
+            "vertices": [
+              { "id": "", "x": 70, "y": 95 },
+              { "id": "", "x": 175, "y": 85 },
+              { "id": "", "x": 195, "y": 175 },
+              { "id": "", "x": 60, "y": 165 }
+            ],
+            "cx": 125,
+            "cy": 130,
+            "showVertices": true,
+            "caption": "1",
+            "captionX": 125,
+            "captionY": 45
+          },
+          {
+            "vertices": [
+              { "id": "", "x": 300, "y": 80 },
+              { "id": "", "x": 410, "y": 100 },
+              { "id": "", "x": 395, "y": 185 },
+              { "id": "", "x": 320, "y": 175 }
+            ],
+            "cx": 355,
+            "cy": 135,
+            "showVertices": true,
+            "caption": "2",
+            "captionX": 355,
+            "captionY": 45
+          },
+          {
+            "vertices": [
+              { "id": "", "x": 530, "y": 95 },
+              { "id": "", "x": 635, "y": 85 },
+              { "id": "", "x": 655, "y": 175 },
+              { "id": "", "x": 520, "y": 165 }
+            ],
+            "cx": 585,
+            "cy": 130,
+            "showVertices": true,
+            "caption": "3",
+            "captionX": 585,
+            "captionY": 45
+          },
+          {
+            "vertices": [
+              { "id": "", "x": 200, "y": 300 },
+              { "id": "", "x": 330, "y": 290 },
+              { "id": "", "x": 355, "y": 420 },
+              { "id": "", "x": 185, "y": 400 }
+            ],
+            "cx": 265,
+            "cy": 350,
+            "showVertices": true,
+            "caption": "4",
+            "captionX": 265,
+            "captionY": 255
+          },
+          {
+            "vertices": [
+              { "id": "", "x": 550, "y": 300 },
+              { "id": "", "x": 660, "y": 320 },
+              { "id": "", "x": 645, "y": 405 },
+              { "id": "", "x": 570, "y": 395 }
+            ],
+            "cx": 605,
+            "cy": 355,
+            "showVertices": true,
+            "caption": "5",
+            "captionX": 605,
+            "captionY": 255
+          }
+        ]
+      },
+      "notes": "1≅3 и 2≅5 (одинаковые вершины со сдвигом); 4 крупнее и иной формы; равенство не подсвечено"
+    }
+  ]
+}

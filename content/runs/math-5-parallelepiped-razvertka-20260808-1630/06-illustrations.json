@@ -1,0 +1,468 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-parallelepiped-razvertka-20260808-1630",
+  "sourceFinal": "05-questions.final.json",
+  "styleProfile": "aldamuratova-textbook-simple",
+  "items": [
+    {
+      "localId": "q12",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "parallelepiped",
+      "purpose": "Выделить ребро на параллелепипеде; название элемента только в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q12.svg",
+        "format": "svg",
+        "width": 480,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q12.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "parallelepiped",
+        "width": 480,
+        "height": 360,
+        "origin": { "x": 110, "y": 270 },
+        "size": { "a": 200, "b": 100, "c": 130 },
+        "depthAngleDeg": 32,
+        "showHidden": true,
+        "highlightEdges": [{ "from": "A", "to": "B" }],
+        "marks": [
+          {
+            "type": "annotation",
+            "x": 210,
+            "y": 292,
+            "text": "",
+            "size": 12
+          }
+        ]
+      },
+      "notes": "Thick front-bottom edge (AB); no name label on figure."
+    },
+    {
+      "localId": "q13",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "parallelepiped",
+      "purpose": "Подписать три измерения у вершины; ширина выбирается в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q13.svg",
+        "format": "svg",
+        "width": 500,
+        "height": 380,
+        "raster": {
+          "path": "illustrations/q13.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "parallelepiped",
+        "width": 500,
+        "height": 380,
+        "origin": { "x": 120, "y": 290 },
+        "size": { "a": 210, "b": 105, "c": 125 },
+        "depthAngleDeg": 32,
+        "showHidden": true,
+        "edgeLabels": [
+          { "from": "A", "to": "B", "text": "7 см", "dx": 0, "dy": 18 },
+          { "from": "A", "to": "E", "text": "4 см", "dx": -28, "dy": 4 },
+          { "from": "A", "to": "D", "text": "3 см", "dx": -28, "dy": 0 }
+        ]
+      },
+      "notes": "Length AB=7, width AE=4, height AD=3; which is width is for the student."
+    },
+    {
+      "localId": "q14",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "net_parallelepiped",
+      "purpose": "Четыре раскладки 1–4; какая развёртка куба — в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q14.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 420,
+        "raster": {
+          "path": "illustrations/q14.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "net_parallelepiped",
+        "width": 720,
+        "height": 420,
+        "cell": 28,
+        "figures": [
+          {
+            "ox": 40,
+            "oy": 80,
+            "cell": 28,
+            "caption": "1",
+            "captionX": 138,
+            "captionY": 56,
+            "cells": [[0, 0], [1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]]
+          },
+          {
+            "ox": 280,
+            "oy": 70,
+            "cell": 28,
+            "caption": "2",
+            "captionX": 350,
+            "captionY": 48,
+            "cells": [[1, 0], [0, 1], [1, 1], [2, 1], [1, 2], [1, 3]]
+          },
+          {
+            "ox": 480,
+            "oy": 80,
+            "cell": 28,
+            "caption": "3",
+            "captionX": 550,
+            "captionY": 56,
+            "cells": [[0, 0], [1, 0], [2, 0], [0, 1], [1, 1], [2, 1]]
+          },
+          {
+            "ox": 160,
+            "oy": 260,
+            "cell": 28,
+            "caption": "4",
+            "captionX": 260,
+            "captionY": 240,
+            "rects": [
+              { "i": 0, "j": 0, "w": 2, "h": 1 },
+              { "i": 2, "j": 0, "w": 1, "h": 1 },
+              { "i": 0, "j": 1, "w": 1, "h": 1 },
+              { "i": 1, "j": 1, "w": 2, "h": 1 },
+              { "i": 3, "j": 0, "w": 1, "h": 2 }
+            ]
+          }
+        ]
+      },
+      "notes": "Figure 2 is valid cube net; not highlighted."
+    },
+    {
+      "localId": "q15",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "net_parallelepiped",
+      "purpose": "Развёртка куба с символами; нижняя грань — в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q15.svg",
+        "format": "svg",
+        "width": 420,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q15.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "net_parallelepiped",
+        "width": 420,
+        "height": 360,
+        "figures": [
+          {
+            "ox": 70,
+            "oy": 50,
+            "cell": 56,
+            "cells": [[1, 0], [0, 1], [1, 1], [2, 1], [3, 1], [1, 2]],
+            "faceMarks": [
+              { "i": 1, "j": 0, "symbol": "sun" },
+              { "i": 0, "j": 1, "symbol": "heart" },
+              { "i": 1, "j": 1, "symbol": "leaf" },
+              { "i": 1, "j": 2, "symbol": "rhombus" }
+            ]
+          }
+        ]
+      },
+      "notes": "Sun opposite rhombus when folded; no answer mark."
+    },
+    {
+      "localId": "q16",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "net_parallelepiped",
+      "purpose": "Развёртка на клетчатой сетке; высота в см — в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q16.svg",
+        "format": "svg",
+        "width": 560,
+        "height": 420,
+        "raster": {
+          "path": "illustrations/q16.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "net_parallelepiped",
+        "width": 560,
+        "height": 420,
+        "grid": { "ox": 40, "oy": 40, "cell": 20, "cols": 22, "rows": 16 },
+        "figures": [
+          {
+            "ox": 40,
+            "oy": 40,
+            "cell": 20,
+            "fillSoft": true,
+            "rects": [
+              { "i": 6, "j": 2, "w": 9, "h": 4 },
+              { "i": 2, "j": 6, "w": 4, "h": 6 },
+              { "i": 6, "j": 6, "w": 9, "h": 6 },
+              { "i": 15, "j": 6, "w": 4, "h": 6 },
+              { "i": 6, "j": 12, "w": 9, "h": 4 }
+            ]
+          }
+        ],
+        "unitLabels": [
+          { "x": 30, "y": 160, "text": "h", "anchor": "middle" },
+          { "x": 30, "y": 200, "text": "6", "anchor": "middle" }
+        ]
+      },
+      "notes": "Height span 6 cells on net; scale 3 cells=1 cm is in stem; answer 2 cm not drawn."
+    },
+    {
+      "localId": "q22",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "parallelepiped",
+      "purpose": "Элементы M/N/P/Q с подписями; верные названия — в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q22.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 400,
+        "raster": {
+          "path": "illustrations/q22.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "parallelepiped",
+        "width": 520,
+        "height": 400,
+        "origin": { "x": 130, "y": 300 },
+        "size": { "a": 200, "b": 100, "c": 140 },
+        "depthAngleDeg": 32,
+        "showHidden": true,
+        "highlightFaces": ["front"],
+        "marks": [
+          { "type": "faceLabel", "face": "front", "text": "M", "dx": -8, "dy": -8 },
+          { "type": "annotation", "x": 220, "y": 248, "text": "грань", "size": 13 },
+          { "type": "edgeLabel", "from": "B", "to": "C", "text": "N", "dx": 16, "dy": 0 },
+          { "type": "annotation", "x": 360, "y": 230, "text": "ребро", "size": 13 },
+          {
+            "type": "point",
+            "at": { "from": "A", "to": "B", "t": 0.5 },
+            "text": "P",
+            "dx": 0,
+            "dy": 20
+          },
+          { "type": "annotation", "x": 250, "y": 330, "text": "вершина", "size": 13 },
+          {
+            "type": "segment",
+            "from": "A",
+            "to": "C",
+            "text": "Q",
+            "dashed": true,
+            "dx": -18,
+            "dy": -6
+          },
+          { "type": "annotation", "x": 175, "y": 200, "text": "измерение", "size": 13 }
+        ]
+      },
+      "notes": "Term-labels are stem stimulus for naming MCQ (mixed correct/incorrect); no highlight of which are correct. Single RU terms, no sentences."
+    },
+    {
+      "localId": "q23",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "net_parallelepiped",
+      "purpose": "Четыре раскладки из 6 квадратов; какие сворачиваются — в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q23.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 400,
+        "raster": {
+          "path": "illustrations/q23.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "net_parallelepiped",
+        "width": 720,
+        "height": 400,
+        "figures": [
+          {
+            "ox": 40,
+            "oy": 60,
+            "cell": 26,
+            "caption": "1",
+            "captionX": 105,
+            "captionY": 40,
+            "cells": [[1, 0], [0, 1], [1, 1], [2, 1], [3, 1], [1, 2]]
+          },
+          {
+            "ox": 220,
+            "oy": 90,
+            "cell": 26,
+            "caption": "2",
+            "captionX": 310,
+            "captionY": 70,
+            "cells": [[0, 0], [1, 0], [2, 0], [3, 0], [4, 0], [5, 0]]
+          },
+          {
+            "ox": 430,
+            "oy": 60,
+            "cell": 26,
+            "caption": "3",
+            "captionX": 495,
+            "captionY": 40,
+            "cells": [[0, 0], [1, 0], [1, 1], [2, 1], [2, 2], [3, 2]]
+          },
+          {
+            "ox": 200,
+            "oy": 240,
+            "cell": 26,
+            "caption": "4",
+            "captionX": 278,
+            "captionY": 220,
+            "cells": [[1, 0], [0, 1], [1, 1], [2, 1], [1, 2], [0, 2]]
+          }
+        ]
+      },
+      "notes": "Valid nets 1 and 3; not highlighted."
+    },
+    {
+      "localId": "q25",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "net_parallelepiped",
+      "purpose": "Развёртка с символами (облако сверху); верные утверждения — в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q25.svg",
+        "format": "svg",
+        "width": 420,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q25.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "net_parallelepiped",
+        "width": 420,
+        "height": 360,
+        "figures": [
+          {
+            "ox": 70,
+            "oy": 50,
+            "cell": 56,
+            "cells": [[1, 0], [0, 1], [1, 1], [2, 1], [3, 1], [1, 2]],
+            "faceMarks": [
+              { "i": 1, "j": 0, "symbol": "cloud" },
+              { "i": 1, "j": 1, "symbol": "lightning" },
+              { "i": 2, "j": 1, "symbol": "drop" },
+              { "i": 1, "j": 2, "symbol": "flower" }
+            ]
+          }
+        ]
+      },
+      "notes": "Cloud opposite flower; no answer highlight."
+    },
+    {
+      "localId": "q26",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "parallelepiped",
+      "purpose": "Измерения a,b,c и пространственная диагональ; рёбра = a — в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q26.svg",
+        "format": "svg",
+        "width": 500,
+        "height": 380,
+        "raster": {
+          "path": "illustrations/q26.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "parallelepiped",
+        "width": 500,
+        "height": 380,
+        "origin": { "x": 120, "y": 290 },
+        "size": { "a": 210, "b": 100, "c": 130 },
+        "depthAngleDeg": 32,
+        "showHidden": true,
+        "edgeLabels": [
+          { "from": "A", "to": "B", "text": "a", "dx": 0, "dy": 18 },
+          { "from": "A", "to": "E", "text": "b", "dx": -18, "dy": 8 },
+          { "from": "A", "to": "D", "text": "c", "dx": -18, "dy": 0 }
+        ],
+        "marks": [
+          {
+            "type": "segment",
+            "from": "A",
+            "to": "G",
+            "dashed": true,
+            "text": "",
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "notes": "a/b/c at one vertex + dashed space diagonal; equal-to-a edges chosen in options."
+    },
+    {
+      "localId": "q27",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "net_parallelepiped",
+      "purpose": "Развёртка с буквами вершин; совмещения точек — в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q27.svg",
+        "format": "svg",
+        "width": 480,
+        "height": 400,
+        "raster": {
+          "path": "illustrations/q27.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "net_parallelepiped",
+        "width": 480,
+        "height": 400,
+        "figures": [
+          {
+            "ox": 80,
+            "oy": 50,
+            "cell": 64,
+            "cells": [[1, 0], [0, 1], [1, 1], [2, 1], [3, 1], [1, 2]],
+            "vertexLabels": [
+              { "i": 1, "j": 0, "corner": "NW", "text": "P", "dx": -10, "dy": -10 },
+              { "i": 1, "j": 0, "corner": "NE", "text": "T", "dx": 10, "dy": -10 },
+              { "i": 0, "j": 1, "corner": "NW", "text": "Q", "dx": -12, "dy": -8 },
+              { "i": 3, "j": 1, "corner": "NE", "text": "R", "dx": 12, "dy": -8 },
+              { "i": 1, "j": 2, "corner": "SW", "text": "S", "dx": -10, "dy": 14 },
+              { "i": 0, "j": 1, "corner": "SW", "text": "", "dx": 0, "dy": 0 },
+              { "i": 2, "j": 1, "corner": "NE", "text": "", "dx": 0, "dy": 0 }
+            ]
+          }
+        ]
+      },
+      "notes": "Vertex letters only; which coincide after folding is in options."
+    }
+  ]
+}

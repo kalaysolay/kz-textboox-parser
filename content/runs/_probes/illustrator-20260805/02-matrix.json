@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "runId": "illustrator-20260805",
+  "typeMixPlanned": { "SCQ": 3, "MCQ": 0, "FILL_IN": 1 },
+  "difficultyMixPlanned": { "1": 1, "2": 2, "3": 1 },
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "questionForm": "compute",
+      "skillFocus": "Прочитать координату точки на луче",
+      "stemIdea": "На луче отмечены A, B, C; найти координату B",
+      "trapIdeas": ["Считать от A, а не от O", "Перепутать с соседней точкой"],
+      "needsIllustration": true,
+      "illustrationReason": "Без луча условие «точка B» бессмысленно",
+      "sourceRuleIds": ["R004"],
+      "sourceExampleRefs": []
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 2,
+      "questionForm": "compare",
+      "skillFocus": "Сравнить положения двух точек на луче",
+      "stemIdea": "Какая точка правее: A или C",
+      "trapIdeas": ["Перепутать направление луча"],
+      "needsIllustration": true,
+      "illustrationReason": "Сравнение по рисунку",
+      "sourceRuleIds": ["R004"],
+      "sourceExampleRefs": []
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "questionForm": "compute",
+      "skillFocus": "Единичный отрезок на луче",
+      "stemIdea": "Сколько единичных отрезков от O до A",
+      "trapIdeas": ["Посчитать деления между A и B"],
+      "needsIllustration": true,
+      "illustrationReason": "Нужен луч с единичным отрезком",
+      "sourceRuleIds": ["R004"],
+      "sourceExampleRefs": []
+    },
+    {
+      "localId": "q04",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "questionForm": "restore",
+      "skillFocus": "Восстановить координату по рисунку",
+      "stemIdea": "Точка M на отметке; вписать число",
+      "trapIdeas": ["Сдвиг на 1 деление"],
+      "needsIllustration": true,
+      "illustrationReason": "Ответ читается с луча",
+      "sourceRuleIds": ["R004"],
+      "sourceExampleRefs": []
+    }
+  ],
+  "notes": "Probe illustrator: все 4 слота с needsIllustration для coordinate_ray."
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "parallelepiped",
+  "width": 500,
+  "height": 380,
+  "origin": { "x": 120, "y": 290 },
+  "size": { "a": 210, "b": 100, "c": 130 },
+  "depthAngleDeg": 32,
+  "showHidden": true,
+  "edgeLabels": [
+    { "from": "A", "to": "B", "text": "a", "dx": 0, "dy": 18 },
+    { "from": "A", "to": "E", "text": "b", "dx": -18, "dy": 8 },
+    { "from": "A", "to": "D", "text": "c", "dx": -18, "dy": 0 }
+  ],
+  "marks": [
+    {
+      "type": "segment",
+      "from": "A",
+      "to": "G",
+      "dashed": true,
+      "text": "",
+      "dx": 0,
+      "dy": 0
+    }
+  ]
+}

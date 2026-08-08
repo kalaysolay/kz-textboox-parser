@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-mnogougolniki-20260808-1400",
+  "reviewedAt": "2026-08-08T16:45:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 30,
+    "fixed": 0,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "многоугольник",
+      "keyAnswer": "B — Многоугольник",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×4, compute×4, predict×4, verify×4, restore×4, word_problem×4, compare×3, inverse×3. Стемы внутри формы разные; не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "сторон = вершин",
+      "keyAnswer": "B — Сторон столько же, сколько вершин",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "3",
+      "keyAnswer": "D — 3",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "пятиугольник и шестиугольник",
+      "keyAnswer": "A — Пятиугольник и шестиугольник",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "4+5+6+7+8=30 см",
+      "keyAnswer": "C — 30 см",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "28:4=7 см",
+      "keyAnswer": "D — 7 см",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "только M",
+      "keyAnswer": "B — Только M",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "6 и 6 (ABCDEF)",
+      "keyAnswer": "C — 6 и 6",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "0 диагоналей",
+      "keyAnswer": "A — 0",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "9+11+8+10+7=45 м",
+      "keyAnswer": "C — 45 м",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "40-(8+9+12)=11 см",
+      "keyAnswer": "B — 11 см",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "P выпуклый, Q невыпуклый",
+      "keyAnswer": "A — P — выпуклый, Q — невыпуклый",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "равны (совмещаются при наложении)",
+      "keyAnswer": "D — Да: они равны, потому что совмещаются при наложении",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "2 диагонали",
+      "keyAnswer": "B — 2",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "AB=12, BC=9, AC=15 (3x=36)",
+      "keyAnswer": "C — 12 см, 9 см, 15 см",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "status": "accepted",
+      "solvedAnswer": "3 стороны, треугольник",
+      "keyAnswer": "A — 3 стороны, треугольник",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "EN и EL (EF — сторона)",
+      "keyAnswer": "C — Только EN и EL",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "34+42+36=112; 112-56=56; BE+BD=28; BE=14 см",
+      "keyAnswer": "B — 14 см",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A,B (C,D ложны)",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "A,B,C (D ложно)",
+      "keyAnswer": "A, B, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "A,C,D (фиг.1△,2 пятиуг.,3 четырёхуг.; B ложно)",
+      "keyAnswer": "A, C, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "A,B,C (D ложно)",
+      "keyAnswer": "A, B, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "A,B (P=39 м)",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "A,B (C,D ложны)",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A,B (AC диагональ; AB сторона)",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "A,B (2 и 5 диагоналей)",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "36+44+40=120; 120-60=60; BE=BD=15 см",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "33",
+      "keyAnswer": "[[1]] = 33",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "accepted",
+      "solvedAnswer": "сторона 8; 3·4·8=96",
+      "keyAnswer": "[[1]] = 96",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "8 (4 малых + 4 из двух)",
+      "keyAnswer": "[[1]] = 8",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="420" viewBox="0 0 480 420">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <polygon points="240,220 376.2554300139567,170.40707921777803 100.6170540889438,180.03258340653505" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="240" y1="220" x2="376.2554300139567" y2="170.40707921777803" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="240" y1="220" x2="100.6170540889438" y2="180.03258340653505" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="240" cy="220" r="3.5" fill="#1a1a1a"/>
+  <line x1="240" y1="220" x2="376.2554300139567" y2="170.40707921777803" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="240" y1="220" x2="100.6170540889438" y2="180.03258340653505" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="240" y1="220" x2="376.2554300139567" y2="170.407079217778" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="240" cy="220" r="3.5" fill="#1a1a1a"/>
+  <path d="M 305.7784834550136 196.0585899672032 A 70 70 0 0 0 172.7116812843177 200.70538509281002" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="236.92884429017994" y="132.05360722231956" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="middle">40%</text>
+  <path d="M 376.2554300139567 170.40707921777803 A 145 145 0 0 0 100.6170540889438 180.03258340653505" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <path d="M 100.6170540889438 180.03258340653505 A 145 145 0 1 0 376.2554300139567 170.407079217778" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="236" y="242" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">O</text>
+</svg>

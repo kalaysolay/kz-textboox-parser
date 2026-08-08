@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-mnozhestvo-elementy-izobrazheniya-20260808-0800",
+  "createdAt": "2026-08-08T08:00:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "Множество. Элементы множества. Изображения множеств",
+  "topicKk": "Жиын. Жиын элементтері. Жиындарды бейнелеу",
+  "topicSlug": "mnozhestvo-elementy-izobrazheniya",
+  "topicCode": "5.1",
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 30,
+  "typeMix": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMix": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "illustrationPolicy": "visual-topics",
+  "illustrationFor": [],
+  "parsedTextbookPath": "Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+  "methodistInstruction": "VISUAL topic 5.1 pages ~92–96. Set theory intro: set, elements, belonging, Euler diagrams. illustrationPolicy visual-topics — mark needsIllustration true where stem needs Euler/set diagram (healthy share, not every slot). Generator stems that need figures must say «на рисунке» / KK equivalent. sceneKinds: set_euler, set_venn. Avoid duplicate stems vs other runs. Reduce count if recommendedMaxCount < 30. pdfOffset=0.",
+  "languageMode": "BOTH"
+}

@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-istor-sistemy-schisleniya-20260808-1900",
+  "reviewedAt": "2026-08-08T19:45:00+05:00",
+  "summary": {
+    "total": 12,
+    "accepted": 9,
+    "fixed": 3,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "Боэций",
+      "keyAnswer": "B — Боэций",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "значение цифры зависит от места",
+      "keyAnswer": "B — Потому что значение цифры зависит от её места в записи",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "16",
+      "keyAnswer": "C — 16",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "fixed",
+      "solvedAnswer": "9",
+      "keyAnswer": "B — 9",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "mixed_script",
+          "severity": "major",
+          "message": "В explanationKk суффикс «X-тің» смешивал латиницу и кириллицу в одном токене"
+        }
+      ],
+      "fixApplied": "explanationKk: Roman numerals вынесены в $...$; «X санының» вместо «X-тің»"
+    },
+    {
+      "localId": "q05",
+      "status": "fixed",
+      "solvedAnswer": "неверно, IV=4",
+      "keyAnswer": "B — Неверно: IV = 4",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "mixed_script",
+          "severity": "major",
+          "message": "bodyKk/explanationKk: IV-тің / V-тің — mixed_script"
+        }
+      ],
+      "fixApplied": "IV/V/I в $...$; формулировки «IV санының», «V белгісінің»; bodyRu унифицирован с KaTeX"
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "2",
+      "keyAnswer": "B — 2",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "Аделард",
+      "keyAnswer": "B — Аделард",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "A,B",
+      "keyAnswer": "A,B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "A,B",
+      "keyAnswer": "A,B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "A,B,C",
+      "keyAnswer": "A,B,C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "A,B,C",
+      "keyAnswer": "A,B,C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "fixed",
+      "solvedAnswer": "19",
+      "keyAnswer": "[[1]] = 19",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "mixed_script",
+          "severity": "major",
+          "message": "explanationKk: X-тің / IX-те / X-ке — mixed_script"
+        }
+      ],
+      "fixApplied": "Roman numerals в $...$; падежные формы без латинско-кириллических токенов («X мәніне»)"
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

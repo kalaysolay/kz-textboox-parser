@@ -1,0 +1,13 @@
+{
+  "kind": "bar_chart",
+  "width": 560,
+  "height": 360,
+  "yMax": 450,
+  "showValues": true,
+  "bars": [
+    { "label": "Көксу", "value": 280 },
+    { "label": "Қаратал", "value": 390 },
+    { "label": "Лепсі", "value": 420 },
+    { "label": "Ақсу", "value": 160 }
+  ]
+}

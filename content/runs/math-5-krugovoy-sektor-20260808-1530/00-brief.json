@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-krugovoy-sektor-20260808-1530",
+  "createdAt": "2026-08-08T15:30:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "Круговой сектор",
+  "topicKk": "Дөңгелек секторы",
+  "topicSlug": "krugovoy-sektor",
+  "topicCode": "8.2",
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 30,
+  "typeMix": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMix": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "illustrationPolicy": "visual-topics",
+  "illustrationFor": [],
+  "parsedTextbookPath": "Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+  "methodistInstruction": "Topic 8.2 pages ~162–164 ONLY. Circular sector: definition, central angle, radius rays, fraction of disk. Формулировки для 5 класса: короткие, однозначные, без двусмысленности и лишних условий. Reduce count if recommendedMaxCount < 30; keep ~60/30/10. visual-topics: renderer has NO pie_chart/sector kind in RENDERERS (only coordinate_ray, number_line_decimals, angle, set_venn, set_euler, bar_chart, polygon). Prefer text-complete stems; for ILL slots try best supported approach (angle for central angle; set_euler disk regions) — do NOT invent unsupported kinds blindly; block after one retry OK. Anti-dup vs math-5-okruzhnost-krug-20260808-1500. pdfOffset=0. Do NOT expand into 8.1 definitions or 8.3 charts as main.",
+  "languageMode": "BOTH"
+}

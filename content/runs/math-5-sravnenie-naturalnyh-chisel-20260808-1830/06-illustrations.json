@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-sravnenie-naturalnyh-chisel-20260808-1830",
+  "sourceFinal": "05-questions.final.json",
+  "styleProfile": "aldamuratova-textbook-simple",
+  "items": [
+    {
+      "localId": "q14",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "coordinate_ray",
+      "purpose": "Показать точки A и B на луче для сравнения координат (ответ в options)",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q14.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": { "path": "illustrations/q14.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "coordinate_ray",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 8,
+        "points": [
+          { "id": "A", "value": 2 },
+          { "id": "B", "value": 6 }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q20",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "coordinate_ray",
+      "purpose": "Показать P, Q, R слева направо для выбора верных неравенств координат",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q20.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": { "path": "illustrations/q20.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "coordinate_ray",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 10,
+        "points": [
+          { "id": "P", "value": 2 },
+          { "id": "Q", "value": 5 },
+          { "id": "R", "value": 8 }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q25",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "coordinate_ray",
+      "purpose": "Показать точки A,B,C,D: отрезки AB и CD с разными длинами (AB короче CD)",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q25.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": { "path": "illustrations/q25.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "coordinate_ray",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 10,
+        "points": [
+          { "id": "A", "value": 1 },
+          { "id": "B", "value": 3 },
+          { "id": "C", "value": 4 },
+          { "id": "D", "value": 9 }
+        ]
+      },
+      "notes": "Длины по шкале AB=2, CD=5; D не на стрелке; на SVG нет подписей «короче/длиннее»"
+    }
+  ]
+}

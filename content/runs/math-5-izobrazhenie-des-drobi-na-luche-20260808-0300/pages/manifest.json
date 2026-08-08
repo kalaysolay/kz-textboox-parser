@@ -1,0 +1,17 @@
+{
+  "parsed": "Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+  "pdfPath": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/Математика Алдамуратова Т. учебник для 5 класса Часть 2.pdf",
+  "pdfOffset": 0,
+  "bookPages": [30, 31, 32, 33, 34, 35],
+  "source": "ocr_cache",
+  "ocrDir": "ocr/ocr_pages_math_aldamuratova_5grade_part2",
+  "pages": [
+    { "bookPage": 30, "png": "page_030.png", "txt": "page_030.txt", "readable": true },
+    { "bookPage": 31, "png": "page_031.png", "txt": "page_031.txt", "readable": true },
+    { "bookPage": 32, "png": "page_032.png", "txt": "page_032.txt", "readable": true },
+    { "bookPage": 33, "png": "page_033.png", "txt": "page_033.txt", "readable": true },
+    { "bookPage": 34, "png": "page_034.png", "txt": "page_034.txt", "readable": true },
+    { "bookPage": 35, "png": "page_035.png", "txt": "page_035.txt", "readable": true }
+  ],
+  "summary": { "allReadable": true, "pageCount": 6, "note": "Copied from OCR cache; read-textbook-pages.js ESM/require crash in this env" }
+}

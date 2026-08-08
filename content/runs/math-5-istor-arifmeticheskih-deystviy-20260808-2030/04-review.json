@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-istor-arifmeticheskih-deystviy-20260808-2030",
+  "reviewedAt": "2026-08-08T18:30:00+05:00",
+  "summary": {
+    "total": 10,
+    "accepted": 8,
+    "fixed": 2,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "от греческого «арифмос» — «число»",
+      "keyAnswer": "C — От греческого «арифмос» — «число»",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "«+», «−», «·» и «:»",
+      "keyAnswer": "B — «+», «−», «·» и «:»",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "fixed",
+      "solvedAnswer": "верно: «+»/«−» — Я. Видман, 1489 (не 1631)",
+      "keyAnswer": "C — Знаки «+» и «−» в 1489 г. использовал Я. Видман",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "kk_calque",
+          "severity": "major",
+          "message": "bodyKk: «не дұрыс емес» — двойное отрицание (калька с «что неверно»)"
+        }
+      ],
+      "fixApplied": "bodyKk: «Бұл жазбада не дұрыс емес?» → «Бұл жазбада қандай қате бар?»"
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "раньше «+» и «−» (1489), чем «×» (1631)",
+      "keyAnswer": "C — Раньше появились знаки «+» и «−» (1489)",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "fixed",
+      "solvedAnswer": "1684",
+      "keyAnswer": "A — 1684",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "kk_calque",
+          "severity": "minor",
+          "message": "bodyKk: «күн өткізілген» для пропуска года — неестественно; нужен «жыл»"
+        }
+      ],
+      "fixApplied": "bodyKk: «Мәлімдемеде күн өткізілген» → «Мәлімдемеде жыл өткізіліп қалған»"
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "Роберт Рекорд",
+      "keyAnswer": "D — Роберт Рекорд",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "A, B, C",
+      "keyAnswer": "A, B, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "A, B, C",
+      "keyAnswer": "A, B, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "A, B, C",
+      "keyAnswer": "A, B, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "1631",
+      "keyAnswer": "[[1]] = 1631",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

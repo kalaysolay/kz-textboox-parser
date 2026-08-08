@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-zadachi-na-mnozhestva-20260808-0930",
+  "reviewedAt": "2026-08-08T11:10:00+05:00",
+  "summary": {
+    "total": 10,
+    "accepted": 10,
+    "fixed": 0,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "D — n(A)+n(B)−n(A∩B)",
+      "keyAnswer": "D — $n(A) + n(B) - n(A \\cap B)$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "35",
+      "keyAnswer": "C — $35$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "18",
+      "keyAnswer": "B — $18$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "7",
+      "keyAnswer": "D — $7$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "Неверно; участников 29+21−14=36",
+      "keyAnswer": "B — Неверно: нужно вычесть общих; участников $29 + 21 - 14 = 36$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "6",
+      "keyAnswer": "B — $6$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "A,B,C — onlyA=17, onlyB=8, ∪=35",
+      "keyAnswer": "A — только A = $17$; B — только B = $8$; C — $n(A \\cup B) = 35$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "A,C — 20 и 23",
+      "keyAnswer": "A — $n(A \\cup B) = 20$; C — $n(A \\cup B) = 23$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "A,B,C — 20>9, 20>12, ∪=сумма зон",
+      "keyAnswer": "A — только A > только B; B — только A > ∩; C — ∪ = сумма трёх зон",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "6",
+      "keyAnswer": "[[1]] = 6",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

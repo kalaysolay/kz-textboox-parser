@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-delenie-des-drobi-na-nat-chislo-20260808-0500",
+  "reviewedAt": "2026-08-08T05:30:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 30,
+    "fixed": 0,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "A — сразу после окончания деления целой части делимого",
+      "keyAnswer": "A — Сразу после окончания деления целой части делимого",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "B — если целая часть делимого меньше делителя",
+      "keyAnswer": "B — Если целая часть делимого меньше делителя",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "C — 3,9",
+      "keyAnswer": "C — 3,9",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "B — 0,24",
+      "keyAnswer": "B — 0,24",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "B — да, потому что целая часть 5 < 7",
+      "keyAnswer": "B — Да, потому что целая часть 5 меньше делителя 7",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "C — 4,56",
+      "keyAnswer": "C — 4,56",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "D — 5,48",
+      "keyAnswer": "D — 5,48",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "Одинаковая оболочка «Вычисли: a : b» (q03/q04/q07/q28); при count=30 — G017 best-effort, слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "B — 16,8 : 4 = 4,2",
+      "keyAnswer": "B — 16,8 : 4 = 4,2",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "B — да, после цифр делимого остаток ≠ 0",
+      "keyAnswer": "B — Да: после цифр делимого остаток не станет нулём, нужно продолжить деление",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "C — 0",
+      "keyAnswer": "C — 0",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "C — 14,4:6 > 12,6:6",
+      "keyAnswer": "C — 14,4 : 6 > 12,6 : 6",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "B — 1,2 кг",
+      "keyAnswer": "B — 1,2 кг",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "D — 17,5",
+      "keyAnswer": "D — 17,5",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "A — 0,45",
+      "keyAnswer": "A — 0,45",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "C — 4/5",
+      "keyAnswer": "C — \\dfrac{4}{5}",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "status": "accepted",
+      "solvedAnswer": "B — не записал 0 целых (должно быть 0,96)",
+      "keyAnswer": "B — Не записал 0 целых: при 4 < 5 частное должно начинаться с 0,…",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "C — 7,4 кг",
+      "keyAnswer": "C — 7,4 кг",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "A — 6",
+      "keyAnswer": "A — 6",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A, C, D",
+      "keyAnswer": "A — Сначала делят целую часть делимого на это число; C — Когда закончится деление целой части, в частном ставят запятую; D — Если остаток не стал нулём, к нему можно приписать нули и продолжить деление",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "A, C",
+      "keyAnswer": "A — 21,6 : 6 = 3,6; C — 0,48 : 6 = 0,08",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "A, C, D",
+      "keyAnswer": "A — 1,8 : 4; C — 0,54 : 9; D — 6,3 : 7",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "A, C",
+      "keyAnswer": "A — Если после цифр делимого остаток ≠ 0, к остатку приписывают нуль(и) и продолжают деление; C — Нули можно приписывать непосредственно к остатку — десятичная дробь от этого не меняется",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "A, C",
+      "keyAnswer": "A — Для 14,7 : 3 после деления целой части 14 сразу ставят запятую в частном; C — Для 25,5 : 5 после деления целой части 25 сразу ставят запятую в частном",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "A, B, D",
+      "keyAnswer": "A — 7,5 : 5 = 1,5; B — 0,36 : 9 = 0,04; D — 18,9 : 7 = 2,7",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A, B, D",
+      "keyAnswer": "A — \\dfrac{7}{20} = 0,35; B — \\dfrac{11}{25} = 0,44; D — 3\\dfrac{1}{4} = 3,25",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "A, C",
+      "keyAnswer": "A — Периметр равностороннего треугольника 28,5 см → сторона 9,5 см; C — Объём 96,6 см³, площадь основания 14 см² → высота 6,9 см",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "A, B",
+      "keyAnswer": "A — Рационально найти частное с помощью обыкновенных дробей; B — 0,4 : 6 = \\dfrac{4}{10} : 6 = \\dfrac{4}{60}",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 3,2",
+      "keyAnswer": "[[1]] = 3,2",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "Одинаковая оболочка «Вычисли: a : b» (q03/q04/q07/q28); при count=30 — G017 best-effort, слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 5",
+      "keyAnswer": "[[1]] = 5",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 44,4",
+      "keyAnswer": "[[1]] = 44,4",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

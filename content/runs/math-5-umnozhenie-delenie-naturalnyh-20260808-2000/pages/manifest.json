@@ -1,0 +1,14 @@
+﻿{
+  "schemaVersion": 1,
+  "bookPages": [24, 25, 26, 27],
+  "pdfOffset": 0,
+  "source": "ocr_cache",
+  "ocrDir": "ocr/ocr_pages_math_aldamuratova_5grade_part1",
+  "pages": [
+    { "bookPage": 24, "pdfPage": 24, "png": "page_024.png", "txt": "page_024.txt", "readable": true, "source": "ocr_cache" },
+    { "bookPage": 25, "pdfPage": 25, "png": "page_025.png", "txt": "page_025.txt", "readable": true, "source": "ocr_cache" },
+    { "bookPage": 26, "pdfPage": 26, "png": "page_026.png", "txt": "page_026.txt", "readable": true, "source": "ocr_cache" },
+    { "bookPage": 27, "pdfPage": 27, "png": "page_027.png", "txt": "page_027.txt", "readable": true, "source": "ocr_cache" }
+  ],
+  "summary": { "allReadable": true, "pageCount": 4 }
+}

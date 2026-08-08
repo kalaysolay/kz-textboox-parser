@@ -1,0 +1,521 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-umnozhenie-delenie-naturalnyh-20260808-2000",
+  "typeMixPlanned": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMixPlanned": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Термины умножения: множители",
+      "stemIdea": "В равенстве a·b=c выбрать, как называют a и b",
+      "trapIdeas": [
+        "Ученик называет a и b делимым и делителем",
+        "Ученик называет a и b слагаемыми",
+        "Ученик путает множители со значением произведения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Термины деления: делитель",
+      "stemIdea": "В примере 54:18=3 выбрать название для числа 18",
+      "trapIdeas": [
+        "Ученик выбирает «делимое»",
+        "Ученик выбирает «значение частного»",
+        "Ученик выбирает «множитель»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_5"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Определение умножения",
+      "stemIdea": "Выбрать, что значит умножить a на натуральное b",
+      "trapIdeas": [
+        "Ученик описывает деление",
+        "Ученик думает, что это сумма a и b",
+        "Ученик описывает вычитание"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_2", "PDF_p24_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Определение деления",
+      "stemIdea": "Выбрать определение деления по учебнику",
+      "trapIdeas": [
+        "Ученик путает с определением умножения",
+        "Ученик думает, что деление — поиск суммы",
+        "Ученик описывает вычитание"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_4"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Запрет деления на нуль",
+      "stemIdea": "Можно ли делить на 0 — выбрать верный ответ",
+      "trapIdeas": [
+        "Ученик считает, что частное равно 0",
+        "Ученик считает, что частное равно делимому",
+        "Ученик думает, что делить на 0 можно, если делимое 0"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_7"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Произведение с нулём",
+      "stemIdea": "При каком условии значение произведения равно 0",
+      "trapIdeas": [
+        "Ученик думает, что оба множителя должны быть нулями",
+        "Ученик думает, что произведение нулевое только при делении",
+        "Ученик путает с суммой нуля"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_3"],
+      "sourceExampleRefs": ["p25#zero"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сумма равных слагаемых → произведение",
+      "stemIdea": "Заменить сумму одинаковых слагаемых произведением и найти значение",
+      "trapIdeas": [
+        "Ученик сложил количество слагаемых с самим числом",
+        "Ученик перепутал множители местами и ошибся в счёте",
+        "Ученик сложил только два слагаемых"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p24_1", "PDF_p27_KF"],
+      "sourceExampleRefs": ["p24#z1", "p27#kf"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Восстановить множитель в сумме→произведении",
+      "stemIdea": "По сумме равных слагаемых вставить пропущенный множитель в □·n",
+      "trapIdeas": [
+        "Ученик вставил количество слагаемых вместо значения слагаемого",
+        "Ученик вставил сумму",
+        "Ученик вставил другое слагаемое"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p24_1", "PDF_p27_KF"],
+      "sourceExampleRefs": ["p24#z1"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Устное умножение на 10/100/1000",
+      "stemIdea": "Найти значение произведения числа на 10, 100 или 1000",
+      "trapIdeas": [
+        "Ученик добавил неверное число нулей",
+        "Ученик умножил только на 10 вместо 100",
+        "Ученик приписал нуль слева"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_1"],
+      "sourceExampleRefs": ["p26#52"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Деление многозначных с целым частным",
+      "stemIdea": "Найти значение частного двух натуральных чисел",
+      "trapIdeas": [
+        "Ученик перепутал делимое и делитель",
+        "Ученик ошибся в разрядном делении",
+        "Ученик нашёл остаток вместо частного"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_5", "PDF_p25_8"],
+      "sourceExampleRefs": ["p26#52"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Основное свойство частного: распознать равенство",
+      "stemIdea": "Какое равенство показывает, что частное не изменилось",
+      "trapIdeas": [
+        "Ученик умножил только делимое",
+        "Ученик разделил только делитель",
+        "Ученик изменил частное, умножив на разные числа"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_6"],
+      "sourceExampleRefs": ["p25#prop"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Упростить частное свойством",
+      "stemIdea": "Вычислить частное, сократив делимое и делитель на одно число",
+      "trapIdeas": [
+        "Ученик сократил только делимое",
+        "Ученик вычел одно и то же число вместо деления",
+        "Ученик умножил вместо деления"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_6"],
+      "sourceExampleRefs": ["p26#53"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Проверка деления умножением",
+      "stemIdea": "Выбрать верную проверку готового частного",
+      "trapIdeas": [
+        "Ученик умножил частное на делимое",
+        "Ученик сложил частное и делитель",
+        "Ученик проверил делением делителя на частное"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_8"],
+      "sourceExampleRefs": ["p25#check"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Найти неизвестный множитель из произведения 0",
+      "stemIdea": "Решить уравнение вида k·(x−n)=0",
+      "trapIdeas": [
+        "Ученик взял x=0",
+        "Ученик взял x=k",
+        "Ученик взял x=n+k"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_3"],
+      "sourceExampleRefs": ["p26#56"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Число «в n раз меньше»",
+      "stemIdea": "Найти число, которое в несколько раз меньше данного",
+      "trapIdeas": [
+        "Ученик вычел множитель вместо деления",
+        "Ученик умножил вместо деления",
+        "Ученик разделил множитель на число"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_4", "PDF_p25_5"],
+      "sourceExampleRefs": ["p24#z2"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 5,
+      "skillFocus": "Сколько цифр в частном (оценка)",
+      "stemIdea": "Не выполняя полного деления, оценить число цифр частного",
+      "trapIdeas": [
+        "Ученик посчитал цифры делимого",
+        "Ученик взял разность числа цифр",
+        "Ученик добавил лишнюю цифру из‑за неверной оценки"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_5"],
+      "sourceExampleRefs": ["p26#51"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Связь деления и умножения",
+      "stemIdea": "По a:b=c выбрать верное равенство с умножением",
+      "trapIdeas": [
+        "Ученик записал a·b=c",
+        "Ученик записал a·c=b",
+        "Ученик записал b:c=a"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_5"],
+      "sourceExampleRefs": [],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Свойство частного: влияние множителя на частное",
+      "stemIdea": "Если x:y=k, чему равно x:(y·n) или (x·n):y",
+      "trapIdeas": [
+        "Ученик оставил частное без изменения",
+        "Ученик умножил частное вместо деления",
+        "Ученик вычел n из частного"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_6"],
+      "sourceExampleRefs": ["p27#59"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Несколько верных записей произведения",
+      "stemIdea": "Отметить все верные записи суммы равных слагаемых произведением",
+      "trapIdeas": [
+        "Ученик принял сумму разных слагаемых за произведение",
+        "Ученик перепутал порядок множителей с неверным значением",
+        "Ученик отверг верную запись a·b = b·a по смыслу суммы"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p24_1", "PDF_p27_KF"],
+      "sourceExampleRefs": ["p27#kf"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные пары терминов деления",
+      "stemIdea": "Отметить все верные утверждения о делимом, делителе и частном",
+      "trapIdeas": [
+        "Ученик перепутал делимое и делитель",
+        "Ученик назвал частным только выражение без значения",
+        "Ученик смешал термины умножения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_5"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Случаи нулевого произведения",
+      "stemIdea": "Отметить все равенства, где значение произведения равно 0",
+      "trapIdeas": [
+        "Ученик отметил сумму с нулём как произведение 0",
+        "Ученик отверг a·0 при a≠0",
+        "Ученик отметил деление на 0"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_3"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Эквивалентные частные по свойству",
+      "stemIdea": "Отметить все частные, равные данному по основному свойству",
+      "trapIdeas": [
+        "Ученик отметил частное с изменённым только делимым",
+        "Ученик отметил пару с разными коэффициентами",
+        "Ученик отверг верное сокращение"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_6"],
+      "sourceExampleRefs": ["p25#prop"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Верные проверки деления",
+      "stemIdea": "Отметить все корректные проверки для данного частного",
+      "trapIdeas": [
+        "Ученик принял проверку с перепутанными множителями результата",
+        "Ученик принял сложение вместо умножения",
+        "Ученик отверг альтернативную проверку делением"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_8"],
+      "sourceExampleRefs": ["p25#check"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Верные упрощения многозначных частных",
+      "stemIdea": "Отметить все верные результаты после сокращения делимого и делителя",
+      "trapIdeas": [
+        "Ученик сократил на число, не делящее оба",
+        "Ученик ошибся в арифметике после сокращения",
+        "Ученик изменил только одно из чисел"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_6"],
+      "sourceExampleRefs": ["p26#53"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Текстовая задача: доли времени",
+      "stemIdea": "Задача про обмен яблок/конфет на минуты катания — верные промежуточные и итог",
+      "trapIdeas": [
+        "Ученик нашёл только время за яблоко",
+        "Ученик сложил данные без приведения к одной единице",
+        "Ученик удвоил итог"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_2", "PDF_p25_5"],
+      "sourceExampleRefs": ["p26#54"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Свойство частного в буквенной форме",
+      "stemIdea": "При известных x:y отметить все верные новые частные",
+      "trapIdeas": [
+        "Ученик не изменил частное при умножении только делителя",
+        "Ученик удвоил частное при умножении делителя",
+        "Ученик перепутал направление изменения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_6"],
+      "sourceExampleRefs": ["p27#59"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Совместная работа: два крана",
+      "stemIdea": "Бассейн и два крана — отметить верные шаги и время наполнения",
+      "trapIdeas": [
+        "Ученик делил объём на один кран",
+        "Ученик сложил часы вместо расходов",
+        "Ученик вычел расходы"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_1", "PDF_p25_5"],
+      "sourceExampleRefs": ["p26#57"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Числовой ответ: частное",
+      "stemIdea": "Вычислить конкретное частное многозначных",
+      "trapIdeas": [
+        "Ошибка в разрядном делении",
+        "Перепутаны делимое и делитель"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_5", "PDF_p25_8"],
+      "sourceExampleRefs": ["p26#52"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "skillFocus": "Числовой ответ: свойство частного",
+      "stemIdea": "Упростить и найти частное после сокращения",
+      "trapIdeas": [
+        "Сократил только одно число",
+        "Арифметическая ошибка"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_6"],
+      "sourceExampleRefs": ["p26#53"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Встречное движение с кратным отношением скоростей",
+      "stemIdea": "Велосипед и мотоцикл навстречу — время встречи",
+      "trapIdeas": [
+        "Учёл только одну скорость",
+        "Не утроил скорость мотоцикла",
+        "Разделил путь на разность скоростей"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p25_1", "PDF_p25_5"],
+      "sourceExampleRefs": ["p27#meet"],
+      "questionForm": "word_problem"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "count=30 при recommendedMaxCount=null. typeMix 18/9/3, difficulty 2/4/15/6/3. Иллюстрации: все false (visual-topics, но stem не требует supported figure; луч рис.1.16 и колесо 1.17 не используем). Антидубль vs C1–C4/B11: нет координатного луча, сравнения, систем счисления, чистого сложения/вычитания. Фокус — умножение/деление и основное свойство частного. Формы переиспользуются (лимит 2× неприменим к пачке 30)."
+}

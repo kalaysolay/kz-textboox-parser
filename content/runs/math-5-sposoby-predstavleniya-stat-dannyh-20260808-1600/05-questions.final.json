@@ -1,0 +1,1228 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "math-5-sposoby-predstavleniya-stat-dannyh-20260808-1600",
+    "generatedAt": "2026-08-08T13:10:00+05:00",
+    "subjectTitleRu": "Математика",
+    "subjectTitleKk": "Математика",
+    "gradeNo": 5,
+    "topicCode": "8.3",
+    "topicTitleRu": "Способы представления статистических данных. Столбчатые, линейные, круговые и графические диаграммы. Таблицы",
+    "topicTitleKk": "Статистикалық деректерді ұсыну тәсілдері. Бағанды, сызықтық, дөңгелек және графикалық диаграммалар. Кестелер",
+    "topicSlug": "sposoby-predstavleniya-stat-dannyh",
+    "atomicSkillTitleRu": null,
+    "textbookRef": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+    "illustrationPolicy": "visual-topics",
+    "sourceReliability": "verbatim"
+  },
+  "questions": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "bodyRu": "Что называют диаграммой?",
+      "bodyKk": "Диаграмма деп нені атайды?",
+      "explanationRu": "Диаграмма — способ наглядного представления числовых данных с помощью геометрических средств.",
+      "explanationKk": "Диаграмма — геометриялық құралдар арқылы сандық деректерді көрнекі ұсыну тәсілі.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Способ наглядного представления числовых данных",
+          "textKk": "Сандық деректерді көрнекі ұсыну тәсілі",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Обычная таблица чисел без рисунка",
+          "textKk": "Суреті жоқ қарапайым сандар кестесі",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Любой геометрический чертёж без данных",
+          "textKk": "Дерексіз кез келген геометриялық сызба",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Только круговая фигура",
+          "textKk": "Тек дөңгелек фигура",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p165_1"
+      ]
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "bodyRu": "Какие виды диаграмм наиболее распространены?",
+      "bodyKk": "Диаграммалардың қай түрлері ең көп таралған?",
+      "explanationRu": "Наиболее распространены столбчатые, линейные, круговые и графические диаграммы.",
+      "explanationKk": "Ең көп таралғандары — бағанды, сызықтық, дөңгелек және графикалық диаграммалар.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Только столбчатые и круговые",
+          "textKk": "Тек бағанды және дөңгелек",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Окружность и круговой сектор",
+          "textKk": "Шеңбер және дөңгелек секторы",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Только таблицы",
+          "textKk": "Тек кестелер",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Столбчатые, линейные, круговые и графические",
+          "textKk": "Бағанды, сызықтық, дөңгелек және графикалық",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p165_1"
+      ]
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "В столбчатой диаграмме столбики одинаковой ширины. Что показывают их высоты?",
+      "bodyKk": "Бағанды диаграммада бағандар ені бірдей. Олардың биіктігі нені көрсетеді?",
+      "explanationRu": "Высоты столбиков соответствуют значениям величин.",
+      "explanationKk": "Бағандардың биіктігі шамалардың мәндеріне сәйкес келеді.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Ширину каждого столбика",
+          "textKk": "Әр бағанның енін",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Расстояние между столбиками",
+          "textKk": "Бағандар арасындағы қашықтықты",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Что все величины равны",
+          "textKk": "Барлық шамалар тең екенін",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Значения величин",
+          "textKk": "Шамалардың мәндерін",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p165_2"
+      ]
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "В круговой диаграмме полный угол равен $360^\\circ$. Чему равен угол сектора, соответствующий $1\\%$?",
+      "bodyKk": "Дөңгелек диаграммада толық бұрыш $360^\\circ$. $1\\%$-ке сәйкес сектор бұрышы неге тең?",
+      "explanationRu": "$360^\\circ : 100 = 3,6^\\circ$. Значит, $1\\%$ соответствует углу $3,6^\\circ$.",
+      "explanationKk": "$360^\\circ : 100 = 3,6^\\circ$. Демек, $1\\%$-ке $3,6^\\circ$ бұрыш сәйкес келеді.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$3,6^\\circ$",
+          "textKk": "$3,6^\\circ$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$36^\\circ$",
+          "textKk": "$36^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$3^\\circ$",
+          "textKk": "$3^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$360^\\circ$",
+          "textKk": "$360^\\circ$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p167_1"
+      ]
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "На рисунке столбчатая диаграмма числа прочитанных книг. У кого книг больше всех?",
+      "bodyKk": "Суретте оқылған кітаптар санының бағанды диаграммасы. Кімде кітап ең көп?",
+      "explanationRu": "Самый высокий столбик — у Сабины. Значит, у неё книг больше всех.",
+      "explanationKk": "Ең биік баған — Сабинанікі. Демек, онда кітап ең көп.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Айгуль",
+          "textKk": "Айгүл",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Бауыржан",
+          "textKk": "Бауыржан",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Тимур",
+          "textKk": "Тимур",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Сабина",
+          "textKk": "Сабина",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p165_2"
+      ]
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "В таблице время записано так: $3$, $5$, $7$, $9$, $11$ (ч). Чему равен шаг таблицы?",
+      "bodyKk": "Кестеде уақыт былай жазылған: $3$, $5$, $7$, $9$, $11$ (сағ). Кесте қадамы неге тең?",
+      "explanationRu": "Шаг таблицы — разность соседних значений времени: $5 - 3 = 2$.",
+      "explanationKk": "Кесте қадамы — көршілес уақыт мәндерінің айырмасы: $5 - 3 = 2$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$2$",
+          "textKk": "$2$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$5$",
+          "textKk": "$5$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$3$",
+          "textKk": "$3$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$4$",
+          "textKk": "$4$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p168_1"
+      ]
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Какое равенство верно переводит $20\\%$ части в угол сектора круговой диаграммы?",
+      "bodyKk": "Қай теңдік бөліктің $20\\%$-ін дөңгелек диаграмма секторының бұрышына дұрыс түрлендіреді?",
+      "explanationRu": "Угол части: $3,6^\\circ \\cdot 20 = 72^\\circ$.",
+      "explanationKk": "Бөлік бұрышы: $3,6^\\circ \\cdot 20 = 72^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$20 \\cdot 360^\\circ = 7200^\\circ$",
+          "textKk": "$20 \\cdot 360^\\circ = 7200^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$3,6^\\circ \\cdot 20 = 72^\\circ$",
+          "textKk": "$3,6^\\circ \\cdot 20 = 72^\\circ$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$20 : 3,6 = 5,\\overline{5}^\\circ$",
+          "textKk": "$20 : 3,6 = 5,\\overline{5}^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$360^\\circ - 20 = 340^\\circ$",
+          "textKk": "$360^\\circ - 20 = 340^\\circ$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p167_1"
+      ]
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Часть целого составляет $25\\%$. Найдите угол сектора круговой диаграммы для этой части.",
+      "bodyKk": "Бүтіннің бір бөлігі $25\\%$. Осы бөлік үшін дөңгелек диаграмма секторының бұрышын табыңыз.",
+      "explanationRu": "Угол: $3,6^\\circ \\cdot 25 = 90^\\circ$.",
+      "explanationKk": "Бұрыш: $3,6^\\circ \\cdot 25 = 90^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$25^\\circ$",
+          "textKk": "$25^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$900^\\circ$",
+          "textKk": "$900^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$335^\\circ$",
+          "textKk": "$335^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$90^\\circ$",
+          "textKk": "$90^\\circ$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p167_1"
+      ]
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Для чего служат линейные диаграммы?",
+      "bodyKk": "Сызықтық диаграммалар не үшін қолданылады?",
+      "explanationRu": "Линейные диаграммы показывают изменения одной или нескольких величин отрезками.",
+      "explanationKk": "Сызықтық диаграммалар бір немесе бірнеше шаманың өзгеруін кесінділермен көрсетеді.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Показать доли целого секторами круга",
+          "textKk": "Бүтіннің үлестерін дөңгелек секторларымен көрсету",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Заменить таблицу списком чисел без рисунка",
+          "textKk": "Кестені суретсіз сандар тізімімен алмастыру",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Показать изменения величин отрезками",
+          "textKk": "Шамалардың өзгеруін кесінділермен көрсету",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Соединить точки ломаной линией",
+          "textKk": "Нүктелерді сынық сызықпен қосу",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p166_1"
+      ]
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Как на графической диаграмме обычно изображают изменение данных?",
+      "bodyKk": "Графикалық диаграммада деректердің өзгеруі әдетте қалай бейнеленеді?",
+      "explanationRu": "Точки, соответствующие данным, соединяют отрезками — получается ломаная.",
+      "explanationKk": "Деректерге сәйкес нүктелер кесінділермен қосылады — сынық сызық шығады.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Точками, соединёнными отрезками (ломаной)",
+          "textKk": "Кесінділермен қосылған нүктелермен (сынық сызық)",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Столбиками одинаковой ширины",
+          "textKk": "Ені бірдей бағандармен",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Секторами круга",
+          "textKk": "Дөңгелек секторларымен",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Точками без соединения",
+          "textKk": "Қосылмаған нүктелермен",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p167_2"
+      ]
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "В сплаве $10\\%$ меди и $50\\%$ цинка, остальное — олово. Найдите угол сектора для олова.",
+      "bodyKk": "Қорытпада $10\\%$ мыс және $50\\%$ мырыш, қалғаны — қалайы. Қалайы үшін сектор бұрышын табыңыз.",
+      "explanationRu": "Медь: $3,6^\\circ \\cdot 10 = 36^\\circ$. Цинк: $3,6^\\circ \\cdot 50 = 180^\\circ$. Олово: $360^\\circ - (36^\\circ + 180^\\circ) = 144^\\circ$.",
+      "explanationKk": "Мыс: $3,6^\\circ \\cdot 10 = 36^\\circ$. Мырыш: $3,6^\\circ \\cdot 50 = 180^\\circ$. Қалайы: $360^\\circ - (36^\\circ + 180^\\circ) = 144^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$40^\\circ$",
+          "textKk": "$40^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$324^\\circ$",
+          "textKk": "$324^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$60^\\circ$",
+          "textKk": "$60^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$144^\\circ$",
+          "textKk": "$144^\\circ$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p167_1"
+      ]
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке столбчатая диаграмма числа мячей в четырёх классах. У каких двух классов числа примерно одинаковы?",
+      "bodyKk": "Суретте төрт сыныптағы доптар санының бағанды диаграммасы. Қай екі сыныпта сандар шамамен бірдей?",
+      "explanationRu": "Столбики 5А и 5В почти одной высоты, значит числа примерно одинаковы.",
+      "explanationKk": "5А және 5В бағандарының биіктігі дерлік бірдей, демек сандар шамамен бірдей.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "5А и 5В",
+          "textKk": "5А және 5В",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "5А и 5Г",
+          "textKk": "5А және 5Г",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "5Б и 5В",
+          "textKk": "5Б және 5В",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "5Б и 5Г",
+          "textKk": "5Б және 5Г",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p165_2"
+      ]
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке таблица: в доме $4$ этажа, на каждом по $3$ квартиры. Мадина живёт на $3$-м этаже во $2$-й квартире этажа. Какой у неё номер квартиры?",
+      "bodyKk": "Суретте кесте: үйде $4$ қабат, әрқайсысында $3$ пәтер. Мадина $3$-қабаттың $2$-пәтерінде тұрады. Оның пәтер нөмірі қандай?",
+      "explanationRu": "Нумерация: $(\\text{этаж}-1)\\cdot 3 + \\text{порядок}$. Для Мадины: $(3-1)\\cdot 3 + 2 = 8$.",
+      "explanationKk": "Нөмірлеу: $(\\text{қабат}-1)\\cdot 3 + \\text{рет}$. Мадина үшін: $(3-1)\\cdot 3 + 2 = 8$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$3$",
+          "textKk": "$3$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$8$",
+          "textKk": "$8$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$5$",
+          "textKk": "$5$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$2$",
+          "textKk": "$2$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p168_1"
+      ]
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Угол сектора круговой диаграммы равен $108^\\circ$. Какой процент части целого он задаёт?",
+      "bodyKk": "Дөңгелек диаграмма секторының бұрышы $108^\\circ$. Ол бүтіннің қандай пайызын береді?",
+      "explanationRu": "Процент: $108^\\circ : 3,6^\\circ = 30\\%$.",
+      "explanationKk": "Пайыз: $108^\\circ : 3,6^\\circ = 30\\%$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$0,3\\%$",
+          "textKk": "$0,3\\%$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$108\\%$",
+          "textKk": "$108\\%$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$30\\%$",
+          "textKk": "$30\\%$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$388,8\\%$",
+          "textKk": "$388,8\\%$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p167_1"
+      ]
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке линейная диаграмма высот четырёх холмов. Какой холм самый высокий?",
+      "bodyKk": "Суретте төрт төбенің биіктігінің сызықтық диаграммасы. Қай төбе ең биік?",
+      "explanationRu": "Самый длинный отрезок — у холма «Боралдай». Он самый высокий.",
+      "explanationKk": "Ең ұзын кесінді — «Боралдай» төбесінікі. Ол ең биік.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Алатау",
+          "textKk": "Алатау",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Көкжота",
+          "textKk": "Көкжота",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Сарытау",
+          "textKk": "Сарытау",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Боралдай",
+          "textKk": "Боралдай",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p166_1"
+      ]
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке столбчатая диаграмма процента воды в продуктах. Какое утверждение верно?",
+      "bodyKk": "Суретте өнімдердегі су пайызының бағанды диаграммасы. Қай тұжырым дұрыс?",
+      "explanationRu": "Самый высокий столбик у огурца, самый низкий у сыра. Верно: в огурце воды больше всего.",
+      "explanationKk": "Ең биік баған қиярдікі, ең аласасы — ірімшіктікі. Дұрысы: қиярда су ең көп.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "В огурце воды больше всего",
+          "textKk": "Қиярда су ең көп",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "В хлебе воды больше, чем в яблоке",
+          "textKk": "Нанда су алмадан көп",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "В сыре воды больше, чем в огурце",
+          "textKk": "Ірімшікте су қиярдан көп",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Во всех продуктах воды поровну",
+          "textKk": "Барлық өнімде су бірдей",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p165_2"
+      ]
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке графическая диаграмма температуры воздуха. В котором часу температура наибольшая?",
+      "bodyKk": "Суретте ауа температурасының графикалық диаграммасы. Сағат нешеде температура ең жоғары?",
+      "explanationRu": "Самая высокая точка ломаной — в $14$ ч.",
+      "explanationKk": "Сынық сызықтың ең жоғары нүктесі — сағат $14$-те.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "В $8$ ч",
+          "textKk": "Сағат $8$-де",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "В $18$ ч",
+          "textKk": "Сағат $18$-де",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "В $14$ ч",
+          "textKk": "Сағат $14$-те",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "В $10$ ч",
+          "textKk": "Сағат $10$-да",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p167_2"
+      ]
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 4,
+      "bodyRu": "На рисунке горизонтальная столбчатая диаграмма скоростей (м/с). На сколько м/с велосипед быстрее самоката?",
+      "bodyKk": "Суретте жылдамдықтардың көлденең бағанды диаграммасы (м/с). Велосипед самокаттан қанша м/с жылдам?",
+      "explanationRu": "По диаграмме: велосипед — $9$, самокат — $5$. Разность: $9 - 5 = 4$.",
+      "explanationKk": "Диаграмма бойынша: велосипед — $9$, самокат — $5$. Айырма: $9 - 5 = 4$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$2$",
+          "textKk": "$2$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$5$",
+          "textKk": "$5$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$14$",
+          "textKk": "$14$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$4$",
+          "textKk": "$4$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p165_2"
+      ]
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Выберите все верные способы представления статистических данных.",
+      "bodyKk": "Статистикалық деректерді ұсынудың барлық дұрыс тәсілдерін таңдаңыз.",
+      "explanationRu": "Верны: столбчатая диаграмма, таблица и графическая диаграмма. Окружность — геометрическая фигура, не способ представления данных.",
+      "explanationKk": "Дұрысы: бағанды диаграмма, кесте және графикалық диаграмма. Шеңбер — геометриялық фигура, дерек ұсыну тәсілі емес.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Столбчатая диаграмма",
+          "textKk": "Бағанды диаграмма",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Окружность",
+          "textKk": "Шеңбер",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Таблица",
+          "textKk": "Кесте",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Графическая диаграмма",
+          "textKk": "Графикалық диаграмма",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p165_1",
+        "PDF_p168_1"
+      ]
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке круговая диаграмма с подписями процентов частей. Выберите все верно найденные углы секторов.",
+      "bodyKk": "Суретте бөліктер пайызы жазылған дөңгелек диаграмма. Дұрыс табылған сектор бұрыштарының барлығын таңдаңыз.",
+      "explanationRu": "Углы: $3,6^\\circ\\cdot 20 = 72^\\circ$; $3,6^\\circ\\cdot 30 = 108^\\circ$; остаток $50\\%$: $3,6^\\circ\\cdot 50 = 180^\\circ$ (или $360^\\circ-72^\\circ-108^\\circ$).",
+      "explanationKk": "Бұрыштар: $3,6^\\circ\\cdot 20 = 72^\\circ$; $3,6^\\circ\\cdot 30 = 108^\\circ$; қалдық $50\\%$: $3,6^\\circ\\cdot 50 = 180^\\circ$ (немесе $360^\\circ-72^\\circ-108^\\circ$).",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Часть $20\\%$ — угол $72^\\circ$",
+          "textKk": "$20\\%$ бөлік — бұрыш $72^\\circ$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Часть $30\\%$ — угол $30^\\circ$",
+          "textKk": "$30\\%$ бөлік — бұрыш $30^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Часть $30\\%$ — угол $108^\\circ$",
+          "textKk": "$30\\%$ бөлік — бұрыш $108^\\circ$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Часть $50\\%$ — угол $180^\\circ$",
+          "textKk": "$50\\%$ бөлік — бұрыш $180^\\circ$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p167_1"
+      ]
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке столбчатая диаграмма числа животных в уголке. Выберите все верные сравнения.",
+      "bodyKk": "Суретте бұрыштағы жануарлар санының бағанды диаграммасы. Барлық дұрыс салыстыруларды таңдаңыз.",
+      "explanationRu": "По высотам: собаки $12$, кошки $8$, кролики $5$, хомяки $3$. Верны: собак больше кошек; хомяков меньше всех; кроликов меньше кошек.",
+      "explanationKk": "Биіктік бойынша: ит $12$, мысық $8$, қоян $5$, аламан $3$. Дұрысы: ит мысықтан көп; аламан ең аз; қоян мысықтан аз.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Собак больше, чем кошек",
+          "textKk": "Иттер мысықтардан көп",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Кроликов больше, чем собак",
+          "textKk": "Қояндар иттерден көп",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Хомяков меньше всех",
+          "textKk": "Аламандар ең аз",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Кроликов меньше, чем кошек",
+          "textKk": "Қояндар мысықтардан аз",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p165_2"
+      ]
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Выберите все верные шаги построения столбчатой диаграммы.",
+      "bodyKk": "Бағанды диаграмманы салудың барлық дұрыс қадамдарын таңдаңыз.",
+      "explanationRu": "Нужны: прямой угол, единичный отрезок (масштаб), столбики равной ширины. Столбики разной ширины — ошибка.",
+      "explanationKk": "Керегі: тік бұрыш, бірлік кесінді (масштаб), ені тең бағандар. Ені әр түрлі бағандар — қате.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Нарисовать прямой угол и подписать оси",
+          "textKk": "Тік бұрыш сызып, өстерге атау қою",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Выбрать единичный отрезок (масштаб)",
+          "textKk": "Бірлік кесіндіні (масштабты) таңдау",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Сделать столбики разной ширины",
+          "textKk": "Бағандарды әр түрлі енмен салу",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Столбики одинаковой ширины на равных расстояниях",
+          "textKk": "Ені бірдей бағандарды тең қашықтықта орналастыру",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p165_2"
+      ]
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "На рисунке таблица температуры воздуха. Выберите все верные утверждения.",
+      "bodyKk": "Суретте ауа температурасы кестесі. Барлық дұрыс тұжырымдарды таңдаңыз.",
+      "explanationRu": "Время: $1,3,5,7,9$ ч; температура: $4,6,9,8,5$. Шаг $2$; максимум $9$ в $5$ ч; минимум $4$ в $1$ ч.",
+      "explanationKk": "Уақыт: $1,3,5,7,9$ сағ; температура: $4,6,9,8,5$. Қадам $2$; максимум $9$ сағат $5$-те; минимум $4$ сағат $1$-де.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Шаг таблицы равен $2$",
+          "textKk": "Кесте қадамы $2$-ге тең",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Наибольшая температура — в $5$ ч",
+          "textKk": "Ең жоғары температура — сағат $5$-те",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Наименьшая температура — в $9$ ч",
+          "textKk": "Ең төмен температура — сағат $9$-да",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Наименьшая температура равна $4$",
+          "textKk": "Ең төмен температура $4$-ке тең",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p168_1"
+      ]
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "На рисунке графическая диаграмма продаж мороженого, чая и зонтов по сезонам. Выберите все верные выводы.",
+      "bodyKk": "Суретте маусым бойынша балмұздақ, шай және қолшатыр сатылымының графикалық диаграммасы. Барлық дұрыс қорытындыларды таңдаңыз.",
+      "explanationRu": "По ломаным: мороженое больше всего летом; чай — зимой; зонты — весной.",
+      "explanationKk": "Сынық сызықтар бойынша: балмұздақ ең көп жазда; шай — қыста; қолшатыр — көктемде.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Мороженого больше всего продают летом",
+          "textKk": "Балмұздақты ең көп жазда сатады",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Чая больше всего продают зимой",
+          "textKk": "Шайды ең көп қыста сатады",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Зонтов меньше всего продают весной",
+          "textKk": "Қолшатырды ең аз көктемде сатады",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Зонтов больше всего продают весной",
+          "textKk": "Қолшатырды ең көп көктемде сатады",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p167_2"
+      ]
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Дневная норма питания: завтрак $30\\%$, обед $40\\%$, ужин $20\\%$, перекус $10\\%$. Выберите все верно найденные углы секторов.",
+      "bodyKk": "Күндік тамақ нормасы: таңғы ас $30\\%$, түскі ас $40\\%$, кешкі ас $20\\%$, тәбет ашар $10\\%$. Дұрыс табылған сектор бұрыштарының барлығын таңдаңыз.",
+      "explanationRu": "Углы: $3,6\\cdot 30=108^\\circ$; $3,6\\cdot 40=144^\\circ$; $3,6\\cdot 20=72^\\circ$; $3,6\\cdot 10=36^\\circ$.",
+      "explanationKk": "Бұрыштар: $3,6\\cdot 30=108^\\circ$; $3,6\\cdot 40=144^\\circ$; $3,6\\cdot 20=72^\\circ$; $3,6\\cdot 10=36^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Завтрак $30\\%$ — $108^\\circ$",
+          "textKk": "Таңғы ас $30\\%$ — $108^\\circ$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Обед $40\\%$ — $40^\\circ$",
+          "textKk": "Түскі ас $40\\%$ — $40^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Ужин $20\\%$ — $72^\\circ$",
+          "textKk": "Кешкі ас $20\\%$ — $72^\\circ$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Перекус $10\\%$ — $36^\\circ$",
+          "textKk": "Тәбет ашар $10\\%$ — $36^\\circ$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p167_1"
+      ]
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "На рисунке столбчатая диаграмма оценок класса. Выберите все верные утверждения.",
+      "bodyKk": "Суретте сынып бағаларының бағанды диаграммасы. Барлық дұрыс тұжырымдарды таңдаңыз.",
+      "explanationRu": "По столбикам: «5» — $6$, «4» — $10$, «3» — $8$, «2» — $1$; всего $25$. Доля «4» и «5»: $(6+10):25=0,64=64\\%$.",
+      "explanationKk": "Бағандар бойынша: «5» — $6$, «4» — $10$, «3» — $8$, «2» — $1$; барлығы $25$. «4» пен «5» үлесі: $(6+10):25=0,64=64\\%$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "На «5» написали $6$ учеников",
+          "textKk": "«5»-ке $6$ оқушы жазды",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "На «4» написали $8$ учеников",
+          "textKk": "«4»-ке $8$ оқушы жазды",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Всего в классе $25$ учеников",
+          "textKk": "Сыныпта барлығы $25$ оқушы",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "На «4» и «5» написали $64\\%$ класса",
+          "textKk": "«4» пен «5»-ке сыныптың $64\\%$-і жазды",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p165_2"
+      ]
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 5,
+      "bodyRu": "На рисунке линейная диаграмма протяжённости четырёх рек. Выберите все верные утверждения.",
+      "bodyKk": "Суретте төрт өзен ұзындығының сызықтық диаграммасы. Барлық дұрыс тұжырымдарды таңдаңыз.",
+      "explanationRu": "По отрезкам: Лепсі наибольшая, Ақсу наименьшая; Қаратал и Лепсі примерно близки по длине.",
+      "explanationKk": "Кесінділер бойынша: Лепсі ең ұзын, Ақсу ең қысқа; Қаратал мен Лепсі ұзындығы шамамен жақын.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Самая длинная река — Лепсі",
+          "textKk": "Ең ұзын өзен — Лепсі",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Самая короткая река — Ақсу",
+          "textKk": "Ең қысқа өзен — Ақсу",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Көксу длиннее Лепсі",
+          "textKk": "Көксу Лепсіден ұзын",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Қаратал и Лепсі примерно близки по длине",
+          "textKk": "Қаратал мен Лепсі ұзындығы шамамен жақын",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p166_1"
+      ]
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "bodyRu": "Часть целого составляет $35\\%$. Найдите угол сектора круговой диаграммы в градусах: [[1]].",
+      "bodyKk": "Бүтіннің бір бөлігі $35\\%$. Дөңгелек диаграмма секторының бұрышын градуспен табыңыз: [[1]].",
+      "explanationRu": "Угол: $3,6^\\circ \\cdot 35 = 126$.",
+      "explanationKk": "Бұрыш: $3,6^\\circ \\cdot 35 = 126$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "126",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p167_1"
+      ]
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "bodyRu": "На рисунке круговая диаграмма. Одна часть подписана как $40\\%$. Найдите угол этого сектора в градусах: [[1]].",
+      "bodyKk": "Суретте дөңгелек диаграмма. Бір бөлікке $40\\%$ деп жазылған. Осы сектор бұрышын градуспен табыңыз: [[1]].",
+      "explanationRu": "Угол сектора: $3,6^\\circ \\cdot 40 = 144$.",
+      "explanationKk": "Сектор бұрышы: $3,6^\\circ \\cdot 40 = 144$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "144",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p167_1"
+      ]
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "bodyRu": "На рисунке таблица температуры воздуха. Найдите наибольшую температуру: [[1]].",
+      "bodyKk": "Суретте ауа температурасы кестесі. Ең жоғары температураны табыңыз: [[1]].",
+      "explanationRu": "В таблице температуры: $2$, $5$, $8$, $12$, $10$, $7$. Наибольшая — $12$.",
+      "explanationKk": "Кестеде температура: $2$, $5$, $8$, $12$, $10$, $7$. Ең жоғарысы — $12$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 165-172",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "12",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p168_1",
+        "PDF_p167_2"
+      ]
+    }
+  ]
+}

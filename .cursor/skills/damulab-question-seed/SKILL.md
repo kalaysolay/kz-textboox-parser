@@ -87,20 +87,20 @@ Gradle `validateSeed` / пакет `kz.damulab.seed` из приложения �
 
 ## Иллюстрации
 
-**В v1 их нет.** В банке вопросов нет ни поля картинки, ни загрузки ассетов (вложения есть
-только у лекций), поэтому любой маркер `{{IMG:...}}` просто отобразится ученику как текст.
+В `05` поле `illustration` **всегда `null`** — бинарники и пути к файлам не живут в seed.
+Флаг `needsIllustration` копируется из матрицы (по `illustrationPolicy`). Картинки пишет
+роль [damulab-question-illustrator](../damulab-question-illustrator/SKILL.md) в
+`06-illustrations.json` + `illustrations/` **после** ревью. Маркеры `{{IMG:...}}` в body
+запрещены — ревьюер ставит `illustration_not_allowed`.
 
-Значит в файле: `illustrationPolicy: "none"`, у всех вопросов `needsIllustration: false`,
-`illustration: null`, никаких маркеров в теле. Ревьюер отклоняет остальное кодами
-`illustration_not_allowed` / политика `illustration_policy_unsupported` на стороне импорта.
-
-Иллюстратор вернётся в v2, после ручки `POST /api/admin/question-assets`.
+При `illustrationPolicy: none` у всех `needsIllustration: false`. Импорт текста вопросов
+в банк и импорт ассетов — разные шаги; ассеты грузит будущий asset-import агент.
 
 ## Чего не делать
 
 - Не ставить `subjectId` / `topicIds` / `gradeIds` / `atomicSkillId` в файл.
 - Не использовать `MATCHING`.
-- Не добавлять картинки и не генерировать бинарники.
+- Не класть пути/base64 картинок в `05` (`illustration` остаётся `null`).
 - Не копировать длинные абзацы учебника дословно — переформулировать в задание.
 - Не подсказывать ответ в тексте задания.
 - Не импортировать в БД и не коммитить, пока пользователь не попросит.

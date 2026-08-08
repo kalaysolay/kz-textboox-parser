@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="400" viewBox="0 0 480 400">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <line x1="220" y1="250" x2="428.4507910184295" y2="152.7977997996391" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="220" y1="250" x2="199.9541791680386" y2="20.87521943889851" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="220" cy="250" r="3.5" fill="#1a1a1a"/>
+  <path d="M 270.7532360740524 226.33337734252083 A 56 56 0 0 0 215.11927840613114 194.21309690686223" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="441.1391000369426" y="146.88114413526932" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">K</text>
+  <text x="198.7339987695714" y="6.9284936656140985" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">M</text>
+  <text x="204" y="258" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="end" dominant-baseline="middle">L</text>
+  <circle cx="340.90145879068905" cy="193.6227238837907" r="4" fill="#1a1a1a"/>
+  <text x="328.90145879068905" y="181.6227238837907" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" dominant-baseline="middle">P</text>
+  <circle cx="268.3" cy="166.34194599442324" r="4" fill="#1a1a1a"/>
+  <text x="268.3" y="152.34194599442324" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Q</text>
+  <circle cx="207.57159108418392" cy="107.94263605211708" r="4" fill="#1a1a1a"/>
+  <text x="219.57159108418392" y="97.94263605211708" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" dominant-baseline="middle">S</text>
+  <circle cx="176.29999999999995" cy="325.6906202907599" r="4" fill="#1a1a1a"/>
+  <text x="176.29999999999995" y="341.6906202907599" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" dominant-baseline="middle">R</text>
+</svg>

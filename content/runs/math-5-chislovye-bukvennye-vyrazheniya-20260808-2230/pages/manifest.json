@@ -1,0 +1,47 @@
+{
+  "pdfOffset": 0,
+  "source": "parser OCR cache",
+  "pages": [
+    {
+      "bookPage": 38,
+      "pdfPage": 38,
+      "png": true,
+      "txt": true,
+      "source": "ocr_cache"
+    },
+    {
+      "bookPage": 39,
+      "pdfPage": 39,
+      "png": true,
+      "txt": true,
+      "source": "ocr_cache"
+    },
+    {
+      "bookPage": 40,
+      "pdfPage": 40,
+      "png": true,
+      "txt": true,
+      "source": "ocr_cache"
+    },
+    {
+      "bookPage": 41,
+      "pdfPage": 41,
+      "png": true,
+      "txt": true,
+      "source": "ocr_cache"
+    },
+    {
+      "bookPage": 42,
+      "pdfPage": 42,
+      "png": true,
+      "txt": true,
+      "source": "ocr_cache"
+    }
+  ],
+  "summary": {
+    "requested": 5,
+    "withPng": 5,
+    "withTxt": 5,
+    "allReadable": true
+  }
+}

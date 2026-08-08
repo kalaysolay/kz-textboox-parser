@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="380" viewBox="0 0 500 380">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <line x1="120" y1="290" x2="204.8048096156426" y2="237.00807357667952" stroke="#555555" stroke-width="1.75" stroke-dasharray="5 4"/>
+  <line x1="204.8048096156426" y1="237.00807357667952" x2="414.8048096156426" y2="237.00807357667952" stroke="#555555" stroke-width="1.75" stroke-dasharray="5 4"/>
+  <line x1="204.8048096156426" y1="237.00807357667952" x2="204.8048096156426" y2="107.00807357667951" stroke="#555555" stroke-width="1.75" stroke-dasharray="5 4"/>
+  <line x1="120" y1="290" x2="330" y2="290" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="330" y1="290" x2="330" y2="160" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="330" y1="160" x2="120" y2="160" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="120" y1="160" x2="120" y2="290" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="330" y1="290" x2="414.8048096156426" y2="237.00807357667952" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="414.8048096156426" y1="237.00807357667952" x2="414.8048096156426" y2="107.00807357667951" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="414.8048096156426" y1="107.00807357667951" x2="330" y2="160" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="120" y1="160" x2="204.8048096156426" y2="107.00807357667951" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="204.8048096156426" y1="107.00807357667951" x2="414.8048096156426" y2="107.00807357667951" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="225" y="308" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" dominant-baseline="middle">a</text>
+  <text x="144.4024048078213" y="271.50403678833976" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" dominant-baseline="middle">b</text>
+  <text x="102" y="225" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" dominant-baseline="middle">c</text>
+  <line x1="120" y1="290" x2="414.8048096156426" y2="107.00807357667951" stroke="#1a1a1a" stroke-width="2.625" stroke-dasharray="6 4"/>
+</svg>

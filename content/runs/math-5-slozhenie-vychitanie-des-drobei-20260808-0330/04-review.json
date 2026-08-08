@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-slozhenie-vychitanie-des-drobei-20260808-0330",
+  "reviewedAt": "2026-08-08T04:45:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 27,
+    "fixed": 3,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "A — уравнять число цифр после запятой",
+      "keyAnswer": "A — Уравнять у дробей число цифр после запятой",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "fixed",
+      "solvedAnswer": "C — под запятыми в данных дробях",
+      "keyAnswer": "C — Под запятыми в данных дробях",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "kk_calque",
+          "severity": "minor",
+          "message": "В textKk варианта B опечатка термина: кемігіш → кеміткіш"
+        }
+      ],
+      "fixApplied": "KK: кемігіш → кеміткіш (уменьшаемое)"
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "C — 6,528",
+      "keyAnswer": "C — 6,528",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "B — 7,244",
+      "keyAnswer": "B — 7,244",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "A — в том же столбце, где запятые слагаемых",
+      "keyAnswer": "A — В том же столбце, где стоят запятые слагаемых",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "D — 5,30",
+      "keyAnswer": "D — 5,30",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "C — 11,52",
+      "keyAnswer": "C — 11,52",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "D — 7,25+1,8=8,05 ошибочно (верно 9,05)",
+      "keyAnswer": "D — 7,25 + 1,8 = 8,05",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "A — 3,4+2,15=5,55 > 4,1+1,28=5,38",
+      "keyAnswer": "A — 3,4 + 2,15 больше",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "B — 209,95 км",
+      "keyAnswer": "B — 209,95 км",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "D — 5,55",
+      "keyAnswer": "D — 5,55",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "C — до 3 знаков",
+      "keyAnswer": "C — До 3 (по более длинной дроби)",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "fixed",
+      "solvedAnswer": "B — 8 (4,58+2,37=6,95)",
+      "keyAnswer": "B — 8",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": "RU: опечатка Соті → Сотые"
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "C — 10",
+      "keyAnswer": "C — 10",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "A — 4,2+1,5=1,5+4,2",
+      "keyAnswer": "A — 4,2 + 1,5 = 1,5 + 4,2",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "status": "fixed",
+      "solvedAnswer": "B — 11−3,6=7,4 > 12−4,75=7,25",
+      "keyAnswer": "B — 11 − 3,6 больше",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "kk_calque",
+          "severity": "minor",
+          "message": "В textKk варианта D: Кемігіші → Кеміткіші"
+        }
+      ],
+      "fixApplied": "KK: Кемігіші → Кеміткіші"
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "D — 16,5 см (стороны 5,2; 6,9; 4,4)",
+      "keyAnswer": "D — 16,5 см",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "A — 9,75",
+      "keyAnswer": "A — 9,75",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A,B,D",
+      "keyAnswer": "A,B,D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "A,D",
+      "keyAnswer": "A,D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "A,B,D",
+      "keyAnswer": "A,B,D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "A,C",
+      "keyAnswer": "A,C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "A,C,D",
+      "keyAnswer": "A,C,D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "A,C",
+      "keyAnswer": "A,C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A,C",
+      "keyAnswer": "A,C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "A,C,D",
+      "keyAnswer": "A,C,D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "A,C — 7,5 / 7,50",
+      "keyAnswer": "A,C — 7,5 и 7,50",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 15,967",
+      "keyAnswer": "[[1]] = 15,967",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 6,28",
+      "keyAnswer": "[[1]] = 6,28",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 14,15",
+      "keyAnswer": "[[1]] = 14,15",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

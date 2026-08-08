@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="360" viewBox="0 0 420 360">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <rect x="126" y="50" width="56" height="56" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <rect x="70" y="106" width="56" height="56" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <rect x="126" y="106" width="56" height="56" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <rect x="182" y="106" width="56" height="56" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <rect x="238" y="106" width="56" height="56" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <rect x="126" y="162" width="56" height="56" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <ellipse cx="148.96" cy="78" rx="7.056" ry="5.544" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <ellipse cx="157.78" cy="78" rx="8.064" ry="6.048" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <ellipse cx="154" cy="74.22" rx="5.544" ry="4.536" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <polyline points="156.268,122.66 152.299,133.433 155.134,133.433 151.165,145.34" fill="none" stroke="#1a1a1a" stroke-width="2.4499999999999997"/>
+  <path d="M 210 123.92 Q 220.08 134, 210 144.08 Q 199.92 134, 210 123.92 Z" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="154" cy="182.944" r="4.032" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="160.7106547789786" cy="187.81957608769036" r="4.032" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="158.1474127401757" cy="195.70842391230963" r="4.032" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="149.8525872598243" cy="195.70842391230963" r="4.032" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="147.2893452210214" cy="187.81957608769036" r="4.032" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="154" cy="190" r="3.024" fill="#1a1a1a"/>
+</svg>

@@ -1,0 +1,536 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-izobrazhenie-des-drobi-na-luche-20260808-0300",
+  "sourceFinal": "05-questions.final.json",
+  "styleProfile": "aldamuratova-textbook-simple",
+  "items": [
+    {
+      "localId": "q02",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "number_line_decimals",
+      "purpose": "Точка A на луче с делениями по 0,1; ученик читает координату",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q02.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": {
+          "path": "illustrations/q02.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "number_line_decimals",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 10,
+        "labels": {
+          "0": "0",
+          "1": "",
+          "2": "",
+          "3": "",
+          "4": "",
+          "5": "",
+          "6": "",
+          "7": "",
+          "8": "",
+          "9": "",
+          "10": "1"
+        },
+        "points": [
+          {
+            "id": "A",
+            "value": 7
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q04",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "number_line_decimals",
+      "purpose": "Точки A и B для сравнения по положению; ответ не подписан числом",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q04.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": {
+          "path": "illustrations/q04.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "number_line_decimals",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 20,
+        "labels": {
+          "0": "0",
+          "1": "",
+          "2": "",
+          "3": "",
+          "4": "",
+          "5": "",
+          "6": "",
+          "7": "",
+          "8": "",
+          "9": "",
+          "10": "1",
+          "11": "",
+          "12": "",
+          "13": "",
+          "14": "",
+          "15": "",
+          "16": "",
+          "17": "",
+          "18": "",
+          "19": "",
+          "20": "2"
+        },
+        "points": [
+          {
+            "id": "A",
+            "value": 6
+          },
+          {
+            "id": "B",
+            "value": 13
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q07",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "number_line_decimals",
+      "purpose": "Точка B между 1 и 2; координата читается по делениям",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q07.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": {
+          "path": "illustrations/q07.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "number_line_decimals",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 30,
+        "labels": {
+          "0": "0",
+          "1": "",
+          "2": "",
+          "3": "",
+          "4": "",
+          "5": "",
+          "6": "",
+          "7": "",
+          "8": "",
+          "9": "",
+          "10": "1",
+          "11": "",
+          "12": "",
+          "13": "",
+          "14": "",
+          "15": "",
+          "16": "",
+          "17": "",
+          "18": "",
+          "19": "",
+          "20": "2",
+          "21": "",
+          "22": "",
+          "23": "",
+          "24": "",
+          "25": "",
+          "26": "",
+          "27": "",
+          "28": "",
+          "29": "",
+          "30": "3"
+        },
+        "points": [
+          {
+            "id": "B",
+            "value": 13
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q11",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "number_line_decimals",
+      "purpose": "Точки A,B,C для выбора верных неравенств по положению",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q11.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": {
+          "path": "illustrations/q11.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "number_line_decimals",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 20,
+        "labels": {
+          "0": "0",
+          "1": "",
+          "2": "",
+          "3": "",
+          "4": "",
+          "5": "",
+          "6": "",
+          "7": "",
+          "8": "",
+          "9": "",
+          "10": "1",
+          "11": "",
+          "12": "",
+          "13": "",
+          "14": "",
+          "15": "",
+          "16": "",
+          "17": "",
+          "18": "",
+          "19": "",
+          "20": "2"
+        },
+        "points": [
+          {
+            "id": "A",
+            "value": 5
+          },
+          {
+            "id": "B",
+            "value": 12
+          },
+          {
+            "id": "C",
+            "value": 18
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q15",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "number_line_decimals",
+      "purpose": "Четыре точки; сопоставить число 2,2 с буквой (число на рисунке не подписано)",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q15.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": {
+          "path": "illustrations/q15.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "number_line_decimals",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 30,
+        "labels": {
+          "0": "0",
+          "1": "",
+          "2": "",
+          "3": "",
+          "4": "",
+          "5": "",
+          "6": "",
+          "7": "",
+          "8": "",
+          "9": "",
+          "10": "1",
+          "11": "",
+          "12": "",
+          "13": "",
+          "14": "",
+          "15": "",
+          "16": "",
+          "17": "",
+          "18": "",
+          "19": "",
+          "20": "2",
+          "21": "",
+          "22": "",
+          "23": "",
+          "24": "",
+          "25": "",
+          "26": "",
+          "27": "",
+          "28": "",
+          "29": "",
+          "30": "3"
+        },
+        "points": [
+          {
+            "id": "A",
+            "value": 6
+          },
+          {
+            "id": "B",
+            "value": 13
+          },
+          {
+            "id": "C",
+            "value": 22
+          },
+          {
+            "id": "D",
+            "value": 28
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q19",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "number_line_decimals",
+      "purpose": "Точка C для FILL_IN координаты; число ответа на рисунке отсутствует",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q19.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": {
+          "path": "illustrations/q19.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "number_line_decimals",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 30,
+        "labels": {
+          "0": "0",
+          "1": "",
+          "2": "",
+          "3": "",
+          "4": "",
+          "5": "",
+          "6": "",
+          "7": "",
+          "8": "",
+          "9": "",
+          "10": "1",
+          "11": "",
+          "12": "",
+          "13": "",
+          "14": "",
+          "15": "",
+          "16": "",
+          "17": "",
+          "18": "",
+          "19": "",
+          "20": "2",
+          "21": "",
+          "22": "",
+          "23": "",
+          "24": "",
+          "25": "",
+          "26": "",
+          "27": "",
+          "28": "",
+          "29": "",
+          "30": "3"
+        },
+        "points": [
+          {
+            "id": "C",
+            "value": 26
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q23",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "number_line_decimals",
+      "purpose": "Точки A–D для двойного неравенства по порядку на луче",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q23.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": {
+          "path": "illustrations/q23.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "number_line_decimals",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 30,
+        "labels": {
+          "0": "0",
+          "1": "",
+          "2": "",
+          "3": "",
+          "4": "",
+          "5": "",
+          "6": "",
+          "7": "",
+          "8": "",
+          "9": "",
+          "10": "1",
+          "11": "",
+          "12": "",
+          "13": "",
+          "14": "",
+          "15": "",
+          "16": "",
+          "17": "",
+          "18": "",
+          "19": "",
+          "20": "2",
+          "21": "",
+          "22": "",
+          "23": "",
+          "24": "",
+          "25": "",
+          "26": "",
+          "27": "",
+          "28": "",
+          "29": "",
+          "30": "3"
+        },
+        "points": [
+          {
+            "id": "A",
+            "value": 6
+          },
+          {
+            "id": "B",
+            "value": 13
+          },
+          {
+            "id": "C",
+            "value": 22
+          },
+          {
+            "id": "D",
+            "value": 28
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q27",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "number_line_decimals",
+      "purpose": "Точки A–D для выбора всех верных неравенств",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q27.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": {
+          "path": "illustrations/q27.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "number_line_decimals",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 30,
+        "labels": {
+          "0": "0",
+          "1": "",
+          "2": "",
+          "3": "",
+          "4": "",
+          "5": "",
+          "6": "",
+          "7": "",
+          "8": "",
+          "9": "",
+          "10": "1",
+          "11": "",
+          "12": "",
+          "13": "",
+          "14": "",
+          "15": "",
+          "16": "",
+          "17": "",
+          "18": "",
+          "19": "",
+          "20": "2",
+          "21": "",
+          "22": "",
+          "23": "",
+          "24": "",
+          "25": "",
+          "26": "",
+          "27": "",
+          "28": "",
+          "29": "",
+          "30": "3"
+        },
+        "points": [
+          {
+            "id": "A",
+            "value": 6
+          },
+          {
+            "id": "B",
+            "value": 13
+          },
+          {
+            "id": "C",
+            "value": 22
+          },
+          {
+            "id": "D",
+            "value": 28
+          }
+        ]
+      },
+      "notes": null
+    }
+  ]
+}

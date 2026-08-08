@@ -1,0 +1,13 @@
+{
+  "kind": "bar_chart",
+  "width": 560,
+  "height": 360,
+  "yMax": 20,
+  "showValues": true,
+  "bars": [
+    { "label": "5А", "value": 18 },
+    { "label": "5Б", "value": 10 },
+    { "label": "5В", "value": 19 },
+    { "label": "5Г", "value": 7 }
+  ]
+}

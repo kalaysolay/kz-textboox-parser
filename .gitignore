@@ -4,6 +4,7 @@
 # Local PDF/OCR tooling (Node scripts + node_modules)
 /tools/
 /tool/
+content/tools/node_modules/
 
 # OS
 Thumbs.db

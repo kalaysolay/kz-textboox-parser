@@ -1,0 +1,809 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-peresechenie-obedinenie-mnozhestv-20260808-0900",
+  "sourceFinal": "05-questions.final.json",
+  "styleProfile": "aldamuratova-textbook-simple",
+  "items": [
+    {
+      "localId": "q07",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_venn",
+      "purpose": "Размещение чисел в зонах A / пересечение / B для чтения A ∩ B",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q07.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q07.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_venn",
+        "width": 520,
+        "height": 360,
+        "radius": 110,
+        "setALabel": "A",
+        "setBLabel": "B",
+        "elements": [
+          {
+            "label": "3",
+            "region": "A"
+          },
+          {
+            "label": "9",
+            "region": "A"
+          },
+          {
+            "label": "6",
+            "region": "AB"
+          },
+          {
+            "label": "12",
+            "region": "AB"
+          },
+          {
+            "label": "18",
+            "region": "AB"
+          },
+          {
+            "label": "24",
+            "region": "B"
+          },
+          {
+            "label": "36",
+            "region": "B"
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q08",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_venn",
+      "purpose": "Размещение чисел в зонах для чтения A ∪ B",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q08.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q08.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_venn",
+        "width": 520,
+        "height": 360,
+        "radius": 110,
+        "setALabel": "A",
+        "setBLabel": "B",
+        "elements": [
+          {
+            "label": "5",
+            "region": "A"
+          },
+          {
+            "label": "15",
+            "region": "A"
+          },
+          {
+            "label": "10",
+            "region": "AB"
+          },
+          {
+            "label": "20",
+            "region": "AB"
+          },
+          {
+            "label": "25",
+            "region": "B"
+          },
+          {
+            "label": "40",
+            "region": "B"
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q11",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_venn",
+      "purpose": "Зоны с числами; пропуск в A ∩ B восстанавливается по общей зоне",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q11.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q11.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_venn",
+        "width": 520,
+        "height": 360,
+        "radius": 110,
+        "setALabel": "A",
+        "setBLabel": "B",
+        "elements": [
+          {
+            "label": "7",
+            "region": "A"
+          },
+          {
+            "label": "14",
+            "region": "A"
+          },
+          {
+            "label": "21",
+            "region": "AB"
+          },
+          {
+            "label": "28",
+            "region": "AB"
+          },
+          {
+            "label": "42",
+            "region": "AB"
+          },
+          {
+            "label": "35",
+            "region": "B"
+          },
+          {
+            "label": "56",
+            "region": "B"
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q14",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_euler",
+      "purpose": "Треугольник A и круг B с общей частью для выбора A ∩ B",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q14.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q14.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_euler",
+        "width": 520,
+        "height": 360,
+        "sets": [
+          {
+            "id": "A",
+            "cx": 230,
+            "cy": 200,
+            "r": 130,
+            "shape": "triangle",
+            "labelX": 230,
+            "labelY": 48
+          },
+          {
+            "id": "B",
+            "cx": 300,
+            "cy": 210,
+            "r": 95,
+            "shape": "circle",
+            "labelX": 390,
+            "labelY": 95
+          }
+        ],
+        "elements": []
+      },
+      "notes": "shape triangle+circle в set_euler"
+    },
+    {
+      "localId": "q15",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_venn",
+      "purpose": "Штриховка только общей части кругов; подпись ответа не на рисунке",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q15.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q15.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_venn",
+        "width": 520,
+        "height": 360,
+        "radius": 110,
+        "setALabel": "A",
+        "setBLabel": "B",
+        "shadeRegion": "AB",
+        "elements": []
+      },
+      "notes": "shadeRegion=AB; ответ в options"
+    },
+    {
+      "localId": "q16",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_venn",
+      "purpose": "Численности зон 6/2/4 как опора к формуле n(C∪D)",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q16.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q16.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_venn",
+        "width": 520,
+        "height": 360,
+        "radius": 110,
+        "setALabel": "C",
+        "setBLabel": "D",
+        "elements": [
+          {
+            "label": "6",
+            "region": "A"
+          },
+          {
+            "label": "2",
+            "region": "AB"
+          },
+          {
+            "label": "4",
+            "region": "B"
+          }
+        ]
+      },
+      "notes": "метки C,D; зоны onlyC=6, ∩=2, onlyD=4"
+    },
+    {
+      "localId": "q18",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_euler",
+      "purpose": "Трёхкруговая диаграмма с точками p..v для чтения ∩ и ∪",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q18.svg",
+        "format": "svg",
+        "width": 560,
+        "height": 420,
+        "raster": {
+          "path": "illustrations/q18.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_euler",
+        "width": 560,
+        "height": 420,
+        "sets": [
+          {
+            "id": "A",
+            "cx": 210,
+            "cy": 175,
+            "r": 110,
+            "shape": "circle",
+            "labelX": 120,
+            "labelY": 70
+          },
+          {
+            "id": "B",
+            "cx": 350,
+            "cy": 175,
+            "r": 110,
+            "shape": "circle",
+            "labelX": 440,
+            "labelY": 70
+          },
+          {
+            "id": "C",
+            "cx": 280,
+            "cy": 275,
+            "r": 110,
+            "shape": "circle",
+            "labelX": 280,
+            "labelY": 400
+          }
+        ],
+        "elements": [
+          {
+            "label": "p",
+            "x": 145,
+            "y": 140
+          },
+          {
+            "label": "q",
+            "x": 415,
+            "y": 140
+          },
+          {
+            "label": "r",
+            "x": 280,
+            "y": 345
+          },
+          {
+            "label": "s",
+            "x": 280,
+            "y": 145
+          },
+          {
+            "label": "t",
+            "x": 350,
+            "y": 255
+          },
+          {
+            "label": "u",
+            "x": 210,
+            "y": 255
+          },
+          {
+            "label": "v",
+            "x": 280,
+            "y": 210
+          }
+        ]
+      },
+      "notes": "три пересекающихся круга"
+    },
+    {
+      "localId": "q19",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_venn",
+      "purpose": "Зоны с числами для проверки нескольких утверждений ∩/∪",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q19.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q19.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_venn",
+        "width": 520,
+        "height": 360,
+        "radius": 110,
+        "setALabel": "A",
+        "setBLabel": "B",
+        "elements": [
+          {
+            "label": "8",
+            "region": "A"
+          },
+          {
+            "label": "16",
+            "region": "A"
+          },
+          {
+            "label": "4",
+            "region": "AB"
+          },
+          {
+            "label": "12",
+            "region": "AB"
+          },
+          {
+            "label": "6",
+            "region": "B"
+          },
+          {
+            "label": "18",
+            "region": "B"
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q20",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_euler",
+      "purpose": "Два непересекающихся круга E и F с элементами",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q20.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q20.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_euler",
+        "width": 520,
+        "height": 360,
+        "sets": [
+          {
+            "id": "E",
+            "cx": 170,
+            "cy": 190,
+            "r": 95,
+            "shape": "circle"
+          },
+          {
+            "id": "F",
+            "cx": 370,
+            "cy": 190,
+            "r": 95,
+            "shape": "circle"
+          }
+        ],
+        "elements": [
+          {
+            "label": "3",
+            "x": 140,
+            "y": 165
+          },
+          {
+            "label": "5",
+            "x": 170,
+            "y": 195
+          },
+          {
+            "label": "7",
+            "x": 200,
+            "y": 165
+          },
+          {
+            "label": "2",
+            "x": 340,
+            "y": 165
+          },
+          {
+            "label": "4",
+            "x": 370,
+            "y": 195
+          },
+          {
+            "label": "8",
+            "x": 400,
+            "y": 165
+          }
+        ]
+      },
+      "notes": "disjoint"
+    },
+    {
+      "localId": "q24",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_euler",
+      "purpose": "Вложенный круг B внутри A с элементами зон",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q24.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q24.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_euler",
+        "width": 520,
+        "height": 360,
+        "sets": [
+          {
+            "id": "A",
+            "cx": 260,
+            "cy": 190,
+            "r": 130,
+            "shape": "circle",
+            "labelX": 260,
+            "labelY": 42
+          },
+          {
+            "id": "B",
+            "cx": 260,
+            "cy": 205,
+            "r": 70,
+            "shape": "circle",
+            "labelX": 260,
+            "labelY": 120
+          }
+        ],
+        "elements": [
+          {
+            "label": "3",
+            "x": 235,
+            "y": 195
+          },
+          {
+            "label": "6",
+            "x": 285,
+            "y": 215
+          },
+          {
+            "label": "9",
+            "x": 175,
+            "y": 150
+          },
+          {
+            "label": "12",
+            "x": 345,
+            "y": 150
+          }
+        ]
+      },
+      "notes": "nested"
+    },
+    {
+      "localId": "q25",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_euler",
+      "purpose": "Квадрат K и треугольник L с пересечением для чтения ∪",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q25.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q25.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_euler",
+        "width": 520,
+        "height": 360,
+        "sets": [
+          {
+            "id": "K",
+            "cx": 230,
+            "cy": 195,
+            "r": 110,
+            "shape": "square",
+            "labelX": 140,
+            "labelY": 80
+          },
+          {
+            "id": "L",
+            "cx": 310,
+            "cy": 200,
+            "r": 120,
+            "shape": "triangle",
+            "labelX": 390,
+            "labelY": 70
+          }
+        ],
+        "elements": []
+      },
+      "notes": "shape square+triangle"
+    },
+    {
+      "localId": "q26",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_venn",
+      "purpose": "Черновик размещения 5,15 в ∩; 7 только A; 9 только B",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q26.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q26.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_venn",
+        "width": 520,
+        "height": 360,
+        "radius": 110,
+        "setALabel": "A",
+        "setBLabel": "B",
+        "elements": [
+          {
+            "label": "7",
+            "region": "A"
+          },
+          {
+            "label": "5",
+            "region": "AB"
+          },
+          {
+            "label": "15",
+            "region": "AB"
+          },
+          {
+            "label": "9",
+            "region": "B"
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q27",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_euler",
+      "purpose": "Трёхкруговая диаграмма с точками m..e и внешней d",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q27.svg",
+        "format": "svg",
+        "width": 560,
+        "height": 420,
+        "raster": {
+          "path": "illustrations/q27.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_euler",
+        "width": 560,
+        "height": 420,
+        "sets": [
+          {
+            "id": "A",
+            "cx": 210,
+            "cy": 175,
+            "r": 110,
+            "shape": "circle",
+            "labelX": 120,
+            "labelY": 70
+          },
+          {
+            "id": "B",
+            "cx": 350,
+            "cy": 175,
+            "r": 110,
+            "shape": "circle",
+            "labelX": 440,
+            "labelY": 70
+          },
+          {
+            "id": "C",
+            "cx": 280,
+            "cy": 275,
+            "r": 110,
+            "shape": "circle",
+            "labelX": 280,
+            "labelY": 400
+          }
+        ],
+        "elements": [
+          {
+            "label": "m",
+            "x": 145,
+            "y": 140
+          },
+          {
+            "label": "n",
+            "x": 415,
+            "y": 140
+          },
+          {
+            "label": "k",
+            "x": 280,
+            "y": 345
+          },
+          {
+            "label": "h",
+            "x": 280,
+            "y": 145
+          },
+          {
+            "label": "g",
+            "x": 350,
+            "y": 255
+          },
+          {
+            "label": "f",
+            "x": 210,
+            "y": 255
+          },
+          {
+            "label": "e",
+            "x": 280,
+            "y": 210
+          },
+          {
+            "label": "d",
+            "x": 70,
+            "y": 60
+          }
+        ]
+      },
+      "notes": "три круга + outside d"
+    },
+    {
+      "localId": "q29",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_venn",
+      "purpose": "Зоны с элементами для подсчёта n(A ∩ B)",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q29.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q29.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_venn",
+        "width": 520,
+        "height": 360,
+        "radius": 110,
+        "setALabel": "A",
+        "setBLabel": "B",
+        "elements": [
+          {
+            "label": "11",
+            "region": "A"
+          },
+          {
+            "label": "22",
+            "region": "A"
+          },
+          {
+            "label": "33",
+            "region": "AB"
+          },
+          {
+            "label": "44",
+            "region": "AB"
+          },
+          {
+            "label": "55",
+            "region": "AB"
+          },
+          {
+            "label": "66",
+            "region": "B"
+          }
+        ]
+      },
+      "notes": null
+    }
+  ]
+}

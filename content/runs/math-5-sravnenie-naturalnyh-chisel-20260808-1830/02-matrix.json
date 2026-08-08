@@ -1,0 +1,523 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-sravnenie-naturalnyh-chisel-20260808-1830",
+  "typeMixPlanned": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMixPlanned": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Знаки неравенства > и <",
+      "stemIdea": "Выбрать, каким знаком заменяют слово «меньше» при записи сравнения",
+      "trapIdeas": [
+        "Ученик выбирает знак >",
+        "Ученик выбирает знак =",
+        "Ученик путает знаки сравнения с арифметическими операциями"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p14_2"],
+      "sourceExampleRefs": ["p14#ex1"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Сравнение при счёте",
+      "stemIdea": "Какое из двух натуральных чисел меньше — то, что при счёте называют раньше или позже",
+      "trapIdeas": [
+        "Ученик считает меньшим число, которое называют позже",
+        "Ученик думает, что порядок счёта не связан со сравнением",
+        "Ученик путает «раньше» с «правее на луче»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p14_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Сравнение по числу разрядов без вычисления",
+      "stemIdea": "Не сравнивая цифры поразрядно: какое больше — трёхзначное или четырёхзначное",
+      "trapIdeas": [
+        "Ученик смотрит только на первую цифру и выбирает трёхзначное с большей старшей цифрой",
+        "Ученик считает, что «длиннее» не значит «больше»",
+        "Ученик сравнивает суммы цифр вместо числа разрядов"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p15_1"],
+      "sourceExampleRefs": ["p15#ex3"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Запись простого неравенства",
+      "stemIdea": "Сравнить два небольших натуральных и выбрать верную запись со знаком > или <",
+      "trapIdeas": [
+        "Ученик переворачивает знак",
+        "Ученик ставит = при разных числах",
+        "Ученик сравнивает по последней цифре"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p14_2"],
+      "sourceExampleRefs": ["p14#ex1"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Чтение неравенства",
+      "stemIdea": "Выбрать верное прочтение готового неравенства вида a < b",
+      "trapIdeas": [
+        "Ученик читает «больше» вместо «меньше»",
+        "Ученик меняет порядок чисел при чтении",
+        "Ученик читает знак как равенство"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p14_2"],
+      "sourceExampleRefs": ["p16#28"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Разное число разрядов",
+      "stemIdea": "Сравнить четырёхзначное и трёхзначное число и выбрать верное неравенство",
+      "trapIdeas": [
+        "Ученик считает трёхзначное больше из‑за большей старшей цифры",
+        "Ученик сравнивает только первые цифры, игнорируя длину",
+        "Ученик ставит равенство"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p15_1"],
+      "sourceExampleRefs": ["p15#ex3", "p16#29"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Поразрядное сравнение одинаковой длины",
+      "stemIdea": "Сравнить два четырёхзначных с равными тысячами/сотнями, отличие в десятках",
+      "trapIdeas": [
+        "Ученик начинает сравнение с разряда единиц",
+        "Ученик смотрит только на последнюю цифру",
+        "Ученик переворачивает знак из‑за соседних цифр"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p15_2"],
+      "sourceExampleRefs": ["p15#ex4", "p16#29"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Правее — больше на луче (координаты даны текстом)",
+      "stemIdea": "Даны точки с координатами текстом: какое число больше по положению на луче",
+      "trapIdeas": [
+        "Ученик считает левое число большим",
+        "Ученик путает координату с порядковым номером деления от 1",
+        "Ученик сравнивает буквы точек вместо координат"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["R003"],
+      "sourceExampleRefs": ["p14#ex2"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Верное/неверное неравенство",
+      "stemIdea": "Определить, верно ли данное неравенство двух многозначных чисел",
+      "trapIdeas": [
+        "Ученик неверно сравнивает поразрядно и принимает ложное за верное",
+        "Ученик смотрит только на число цифр при одинаковой длине",
+        "Ученик путает > и <"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p15_5", "PDF_p15_2"],
+      "sourceExampleRefs": ["p15#theory"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Двойное неравенство: запись по возрастанию",
+      "stemIdea": "Выбрать верную запись двойного неравенства для трёх данных чисел",
+      "trapIdeas": [
+        "Ученик записывает в порядке убывания",
+        "Ученик ставит среднее число не в середину",
+        "Ученик использует один знак неверно"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p15_4"],
+      "sourceExampleRefs": ["p15#ex5", "p16#31"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Чтение двойного неравенства с середины",
+      "stemIdea": "Выбрать верное прочтение a < b < c («b больше a и меньше c»)",
+      "trapIdeas": [
+        "Ученик читает слева направо без середины",
+        "Ученик меняет «больше» и «меньше»",
+        "Ученик читает как равенство трёх чисел"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p15_4"],
+      "sourceExampleRefs": ["p15#ex5"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Любое натуральное больше нуля",
+      "stemIdea": "Выбрать верное сравнение натурального числа и нуля",
+      "trapIdeas": [
+        "Ученик считает 0 больше натурального",
+        "Ученик ставит равенство натурального и 0",
+        "Ученик думает, что 0 — наименьшее натуральное"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p15_3"],
+      "sourceExampleRefs": ["p17#35"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сравнение величин после перевода единиц",
+      "stemIdea": "Сравнить длины/массы в разных единицах после перевода в одну",
+      "trapIdeas": [
+        "Ученик сравнивает числа без перевода единиц",
+        "Ученик ошибается в коэффициенте перевода (см↔м, г↔кг)",
+        "Ученик переворачивает знак после верного перевода"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p15_2", "PDF_p15_1"],
+      "sourceExampleRefs": ["p16#32"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сравнение точек на луче по рисунку",
+      "stemIdea": "По рисунку координатного луча сравнить две отмеченные точки и выбрать неравенство координат",
+      "trapIdeas": [
+        "Ученик считает левую точку большей",
+        "Ученик отсчитывает деления от 1",
+        "Ученик путает имена точек с координатами"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Без рисунка координаты точек неизвестны; stem неполный — coordinate_ray",
+      "sourceRuleIds": ["R003"],
+      "sourceExampleRefs": ["p16#30"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Поразрядное сравнение шестизначных",
+      "stemIdea": "Сравнить два шестизначных с отличием в средних разрядах",
+      "trapIdeas": [
+        "Ученик начинает со младших разрядов",
+        "Ученик сравнивает только крайние цифры",
+        "Ученик теряет разряд при «пропуске» нуля в записи"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p15_2"],
+      "sourceExampleRefs": ["p16#29", "p16#33"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Разное число разрядов у больших чисел",
+      "stemIdea": "Сравнить шестизначное и семизначное: больше то, у которого разрядов больше",
+      "trapIdeas": [
+        "Ученик выбирает шестизначное из‑за больших старших цифр",
+        "Ученик сравнивает первые три цифры, игнорируя длину",
+        "Ученик считает числа равными"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p15_1"],
+      "sourceExampleRefs": ["p16#33"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Наименьшее натуральное число",
+      "stemIdea": "Какое наименьшее натуральное число; связать с сравнением a > 0",
+      "trapIdeas": [
+        "Ученик отвечает 0",
+        "Ученик отвечает 2",
+        "Ученик думает, что наименьшего нет"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p15_3"],
+      "sourceExampleRefs": ["p15#theory"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Проверка чужого поразрядного сравнения",
+      "stemIdea": "Ученик начал сравнивать два четырёхзначных с разряда единиц — найти ошибку и верный знак",
+      "trapIdeas": [
+        "Ученик соглашается с сравнением с единиц",
+        "Ученик исправляет только знак, оставляя неверный метод",
+        "Ученик считает оба числа равными"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p15_2"],
+      "sourceExampleRefs": ["p14#z2"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Способы сравнения: разряды и поразрядное",
+      "stemIdea": "Отметить все верные утверждения о сравнении чисел с разным и одинаковым числом разрядов",
+      "trapIdeas": [
+        "Ученик считает, что одинаковые по длине сравнивают с единиц",
+        "Ученик думает, что больше число с меньшей старшей цифрой при разной длине",
+        "Ученик смешивает правило разной длины с поразрядным"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p15_1", "PDF_p15_2"],
+      "sourceExampleRefs": ["p14#z2", "p16#check"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Неравенства координат по рисунку луча",
+      "stemIdea": "По рисунку с тремя точками на луче отметить все верные неравенства координат",
+      "trapIdeas": [
+        "Ученик отмечает неравенство с перевёрнутым знаком",
+        "Ученик считает левую точку большей",
+        "Ученик отмечает равенство разных точек"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Координаты только на рисунке; без луча нельзя проверить неравенства — coordinate_ray",
+      "sourceRuleIds": ["R003"],
+      "sourceExampleRefs": ["p16#30"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные двойные неравенства",
+      "stemIdea": "Отметить все верно записанные двойные неравенства для наборов из трёх чисел",
+      "trapIdeas": [
+        "Ученик принимает запись в порядке убывания",
+        "Ученик принимает перестановку среднего числа",
+        "Ученик принимает смешанные знаки > и < в одном двойном неравенстве неверно"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p15_4"],
+      "sourceExampleRefs": ["p16#31"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Свойства натуральных и нуля при сравнении",
+      "stemIdea": "Отметить все верные утверждения: a > 0, наименьшее 1, нет наибольшего, трёхзначное < четырёхзначного",
+      "trapIdeas": [
+        "Ученик отмечает «0 больше любого натурального»",
+        "Ученик думает, что есть наибольшее натуральное",
+        "Ученик отрицает, что любое трёхзначное меньше любого четырёхзначного"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p15_3", "PDF_p15_1"],
+      "sourceExampleRefs": ["p17#35"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Пакет поразрядных сравнений",
+      "stemIdea": "Отметить все верные неравенства среди пар многозначных чисел",
+      "trapIdeas": [
+        "Ученик ошибается на паре с близкими средними разрядами",
+        "Ученик путает пары с разной длиной",
+        "Ученик переворачивает знак у одной из близких пар"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p15_2", "PDF_p15_1"],
+      "sourceExampleRefs": ["p16#33"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Сравнение величин в разных единицах",
+      "stemIdea": "Отметить все верные сравнения после перевода единиц (см/м, г/кг, мин/ч)",
+      "trapIdeas": [
+        "Ученик сравнивает «голые» числа без перевода",
+        "Ученик ошибается в 60/100/1000",
+        "Ученик верно переводит, но ставит неверный знак"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p15_1", "PDF_p15_2"],
+      "sourceExampleRefs": ["p16#32"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Сравнение длин отрезков на луче",
+      "stemIdea": "По рисунку луча с отрезками AB и CD отметить все верные сравнения длин / двойное неравенство частей",
+      "trapIdeas": [
+        "Ученик сравнивает координаты концов вместо длин",
+        "Ученик путает порядок частей в двойном неравенстве",
+        "Ученик считает равными отрезки с разными концами"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Длины отрезков видны только на рисунке луча — coordinate_ray",
+      "sourceRuleIds": ["R003", "PDF_p15_4"],
+      "sourceExampleRefs": ["p17#38"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Шаблоны со звёздочками: гарантированное сравнение",
+      "stemIdea": "Отметить все шаблоны, где первое число всегда больше второго при любых цифрах вместо *",
+      "trapIdeas": [
+        "Ученик отмечает шаблон с разной длиной, где исход неочевиден",
+        "Ученик игнорирует старшие фиксированные цифры",
+        "Ученик считает, что звёздочки всегда делают числа несравнимыми"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p15_1", "PDF_p15_2"],
+      "sourceExampleRefs": ["p17#34"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Верные и неверные неравенства в наборе",
+      "stemIdea": "Отметить все верные неравенства в списке (смесь простых и многозначных)",
+      "trapIdeas": [
+        "Ученик отмечает ложное из‑за перепутанного знака",
+        "Ученик пропускает верное с большой разницей разрядов",
+        "Ученик отмечает равенство как неравенство"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p15_5", "PDF_p15_2"],
+      "sourceExampleRefs": ["p16#28"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Подбор цифры для верного неравенства",
+      "stemIdea": "Найти наибольшую цифру вместо * так, чтобы неравенство оставалось верным",
+      "trapIdeas": [
+        "Ученик берёт цифру на 1 больше границы",
+        "Ученик берёт наименьшую вместо наибольшей",
+        "Ученик подставляет в неверный разряд"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p15_2"],
+      "sourceExampleRefs": ["p17#37"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Восстановление двойного неравенства",
+      "stemIdea": "По фразе «b больше a и меньше c» записать среднее число или недостающий край",
+      "trapIdeas": [
+        "Ученик ставит крайнее число в середину",
+        "Ученик записывает в порядке убывания",
+        "Ученик путает a и c"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p15_4"],
+      "sourceExampleRefs": ["p16#31"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Старшая цифра при разной длине шаблонов",
+      "stemIdea": "Подобрать цифру вместо * в старшем разряде, чтобы неравенство с числами разной длины было верным",
+      "trapIdeas": [
+        "Ученик игнорирует разницу в числе разрядов",
+        "Ученик выбирает слишком маленькую старшую цифру",
+        "Ученик сравнивает только видимые фиксированные цифры"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p15_1", "PDF_p15_2"],
+      "sourceExampleRefs": ["p17#37"],
+      "questionForm": "inverse"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "Пачка на 8 primary PDF/R003 (без prerequisite PDF_p10_prereq). Фокус: знаки, разряды, поразрядное, двойное неравенство, a>0; луч — 3 слота с needsIllustration (coordinate_ray), остальные сравнения текстом. Anti-dup vs C1 (не чтение координат «как в 1.2», не A(3)/B(8)) и B11 (не нумерация/разрядные слагаемые как цель). count=30 при recommendedMaxCount=null; questionForm повторяется >2 раз (как в соседних пачках на 30) — иначе 8 форм не покрывают 30 слотов."
+}

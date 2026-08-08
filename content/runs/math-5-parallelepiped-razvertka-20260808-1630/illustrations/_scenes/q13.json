@@ -1,0 +1,14 @@
+{
+  "kind": "parallelepiped",
+  "width": 500,
+  "height": 380,
+  "origin": { "x": 120, "y": 290 },
+  "size": { "a": 210, "b": 105, "c": 125 },
+  "depthAngleDeg": 32,
+  "showHidden": true,
+  "edgeLabels": [
+    { "from": "A", "to": "B", "text": "7 см", "dx": 0, "dy": 18 },
+    { "from": "A", "to": "E", "text": "4 см", "dx": -28, "dy": 4 },
+    { "from": "A", "to": "D", "text": "3 см", "dx": -28, "dy": 0 }
+  ]
+}

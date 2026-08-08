@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Damulab — просмотр вопросов</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">D</div>
+        <div>
+          <div class="brand-title">Question viewer</div>
+          <div class="brand-sub">Damulab packs</div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <label class="panel-label">Открыть</label>
+        <div class="btn-row">
+          <button type="button" id="btn-open-json" class="btn">JSON</button>
+          <button type="button" id="btn-open-folder" class="btn">Папка</button>
+        </div>
+        <input type="file" id="file-json" accept=".json,application/json" hidden />
+        <input type="file" id="file-folder" webkitdirectory directory multiple hidden />
+        <p class="hint">Папка прогона: сам найдёт <code>05-questions.final.json</code> и <code>06-illustrations.json</code>.</p>
+      </div>
+
+      <div class="panel" id="runs-panel" hidden>
+        <label class="panel-label">Прогоны <span id="runs-count"></span></label>
+        <div class="runs-list" id="runs-list"></div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="toolbar">
+        <div class="toolbar-left">
+          <div id="pack-title" class="pack-title">Выберите пачку вопросов</div>
+          <div id="pack-meta" class="pack-meta"></div>
+        </div>
+        <div class="toolbar-right">
+          <div class="seg" role="group" aria-label="Язык">
+            <button type="button" class="seg-btn active" data-lang="ru">RU</button>
+            <button type="button" class="seg-btn" data-lang="kk">KK</button>
+          </div>
+          <label class="check">
+            <input type="checkbox" id="toggle-answers" checked />
+            Ответы
+          </label>
+          <label class="check">
+            <input type="checkbox" id="toggle-explanations" checked />
+            Разбор
+          </label>
+          <select id="filter-type" class="select">
+            <option value="all">Все типы</option>
+            <option value="SCQ">SCQ</option>
+            <option value="MCQ">MCQ</option>
+            <option value="FILL_IN">FILL_IN</option>
+          </select>
+        </div>
+      </header>
+
+      <div id="empty" class="empty">
+        <p>Откройте JSON или папку прогона — либо выберите run слева, если сервер запущен.</p>
+        <pre class="empty-cmd">node content/viewer/server.js</pre>
+      </div>
+
+      <div id="stats" class="stats" hidden></div>
+      <div id="questions" class="questions" hidden></div>
+    </main>
+  </div>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+  <script defer src="./app.js"></script>
+</body>
+</html>

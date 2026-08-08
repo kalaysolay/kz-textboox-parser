@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="360" viewBox="0 0 520 360">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <circle cx="250" cy="195" r="140" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="250" y="41" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="middle" dominant-baseline="middle">M</text>
+  <circle cx="250" cy="210" r="70" fill="rgba(244, 164, 96, 0.28)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="250" y="126" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="middle" dominant-baseline="middle">N</text>
+  <text x="225" y="190" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="middle">4</text>
+  <text x="275" y="200" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="middle">8</text>
+  <text x="245" y="245" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="middle">12</text>
+  <text x="155" y="130" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="middle">2</text>
+  <text x="345" y="130" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="middle">6</text>
+  <text x="350" y="270" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="middle">10</text>
+</svg>

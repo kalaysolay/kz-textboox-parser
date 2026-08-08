@@ -1,0 +1,484 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-arifmeticheskie-deystviya-naturalnye-20260808-2200",
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "math-5-arifmeticheskie-deystviya-naturalnye-20260808-2200",
+    "generatedAt": "2026-08-08T18:55:00+05:00",
+    "subjectTitleRu": "Математика",
+    "subjectTitleKk": "Математика",
+    "gradeNo": 5,
+    "topicCode": "1.7",
+    "topicTitleRu": "Арифметические действия над натуральными числами",
+    "topicTitleKk": "Натурал сандарға арифметикалық амалдар",
+    "topicSlug": "arifmeticheskie-deystviya-naturalnye",
+    "atomicSkillTitleRu": null,
+    "textbookRef": "Алдамуратова, 5 кл, ч.1, стр. 36-37",
+    "illustrationPolicy": "visual-topics",
+    "sourceReliability": "verbatim"
+  },
+  "questions": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "bodyRu": "Какие действия называют действиями первой ступени?",
+      "bodyKk": "Бірінші сатыдағы амалдар деп қандай амалдарды атайды?",
+      "explanationRu": "Сложение и вычитание — действия первой ступени. Умножение и деление — второй ступени; скобки ступенью не являются.",
+      "explanationKk": "Қосу мен азайту — бірінші сатыдағы амалдар. Көбейту мен бөлу — екінші саты; жақшалар саты емес.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 36-37",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Умножение и деление",
+          "textKk": "Көбейту және бөлу",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Только действия в скобках",
+          "textKk": "Тек жақшадағы амалдар",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Сложение и вычитание",
+          "textKk": "Қосу және азайту",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Любые действия слева направо",
+          "textKk": "Кез келген амалдар солдан оңға",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p36_2"]
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "В выражении $24 + 6 \\cdot 5 - 8$ нет скобок. Какое действие выполняют первым?",
+      "bodyKk": "$24 + 6 \\cdot 5 - 8$ өрнегінде жақша жоқ. Қай амалды бірінші орындайды?",
+      "explanationRu": "Есть действия обеих ступеней: сначала выполняют вторую ступень — умножение $6 \\cdot 5$.",
+      "explanationKk": "Екі сатының амалдары бар: алдымен екінші саты — $6 \\cdot 5$ көбейтуі орындалады.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 36-37",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$24 + 6$",
+          "textKk": "$24 + 6$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$6 \\cdot 5$",
+          "textKk": "$6 \\cdot 5$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$5 - 8$",
+          "textKk": "$5 - 8$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Порядок можно выбрать произвольно",
+          "textKk": "Тәртіпті қалағанша таңдауға болады",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p36_4"]
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "В выражении $90 - 35 + 20 - 15$ все действия одной ступени. Какое действие выполняют первым?",
+      "bodyKk": "$90 - 35 + 20 - 15$ өрнегінде барлық амалдар бір сатыда. Қай амалды бірінші орындайды?",
+      "explanationRu": "Без скобок действия одной ступени выполняют слева направо: первым идёт $90 - 35$.",
+      "explanationKk": "Жақшасыз бір сатыдағы амалдарды солдан оңға орындайды: біріншісі — $90 - 35$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 36-37",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$20 - 15$",
+          "textKk": "$20 - 15$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$35 + 20$",
+          "textKk": "$35 + 20$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$90 - 35$",
+          "textKk": "$90 - 35$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Сначала ищут умножение или деление",
+          "textKk": "Алдымен көбейту немесе бөлу ізделеді",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p36_3"]
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Вычисли: $72 - 28 + 15$.",
+      "bodyKk": "Есепте: $72 - 28 + 15$.",
+      "explanationRu": "Действия одной ступени слева направо: $72 - 28 = 44$, затем $44 + 15 = 59$.",
+      "explanationKk": "Бір сатыдағы амалдар солдан оңға: $72 - 28 = 44$, содан $44 + 15 = 59$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 36-37",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$59$",
+          "textKk": "$59$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$29$",
+          "textKk": "$29$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$43$",
+          "textKk": "$43$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$87$",
+          "textKk": "$87$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p36_3"]
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Вычисли: $36 + 4 \\cdot 8 - 12$.",
+      "bodyKk": "Есепте: $36 + 4 \\cdot 8 - 12$.",
+      "explanationRu": "Сначала умножение: $4 \\cdot 8 = 32$. Затем слева направо: $36 + 32 = 68$, $68 - 12 = 56$.",
+      "explanationKk": "Алдымен көбейту: $4 \\cdot 8 = 32$. Содан солдан оңға: $36 + 32 = 68$, $68 - 12 = 56$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 36-37",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$308$",
+          "textKk": "$308$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$224$",
+          "textKk": "$224$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$40$",
+          "textKk": "$40$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$56$",
+          "textKk": "$56$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p36_4"]
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Айдар вычислил $18 + 6 \\cdot 3$ так: 1) $18 + 6 = 24$; 2) $24 \\cdot 3 = 72$. Где нарушен порядок действий?",
+      "bodyKk": "Айдар $18 + 6 \\cdot 3$ өрнегін былай есептеді: 1) $18 + 6 = 24$; 2) $24 \\cdot 3 = 72$. Амалдар тәртібі қай жерде бұзылған?",
+      "explanationRu": "Без скобок сначала выполняют умножение: $6 \\cdot 3 = 18$, затем $18 + 18 = 36$. Ошибка уже на шаге 1.",
+      "explanationKk": "Жақшасыз алдымен көбейту орындалады: $6 \\cdot 3 = 18$, содан $18 + 18 = 36$. Қате 1-қадамда.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 36-37",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Ошибки нет, ответ $72$ верен",
+          "textKk": "Қате жоқ, жауап $72$ дұрыс",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Ошибка на шаге 2: нужно было делить, а не умножать",
+          "textKk": "2-қадамда қате: көбейтпей, бөлу керек еді",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Ошибка на шаге 1: сначала выполняют $6 \\cdot 3$",
+          "textKk": "1-қадамда қате: алдымен $6 \\cdot 3$ орындалады",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Ошибка только в арифметике: $18 + 6$ должно быть $25$",
+          "textKk": "Тек есептеу қатесі: $18 + 6$ мәні $25$ болуы керек",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p36_4", "PDF_p36_1"]
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 4,
+      "bodyRu": "Расставь скобки в $10 + 6 : 2 \\cdot 3$ так, чтобы порядок был: ① сложение, ② деление, ③ умножение. Какой вариант верен?",
+      "bodyKk": "$10 + 6 : 2 \\cdot 3$ өрнегіне жақша қой, тәртіп мынадай болсын: ① қосу, ② бөлу, ③ көбейту. Қай нұсқа дұрыс?",
+      "explanationRu": "Сложение первым — нужны скобки $(10 + 6)$. Далее одна ступень слева направо: $16 : 2 = 8$, $8 \\cdot 3 = 24$.",
+      "explanationKk": "Қосу бірінші — $(10 + 6)$ жақшасы керек. Содан бір саты солдан оңға: $16 : 2 = 8$, $8 \\cdot 3 = 24$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 36-37",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$10 + (6 : 2) \\cdot 3 = 19$",
+          "textKk": "$10 + (6 : 2) \\cdot 3 = 19$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$(10 + 6) : 2 \\cdot 3 = 24$",
+          "textKk": "$(10 + 6) : 2 \\cdot 3 = 24$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$10 + 6 : (2 \\cdot 3) = 11$",
+          "textKk": "$10 + 6 : (2 \\cdot 3) = 11$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$(10 + 6 : 2) \\cdot 3 = 39$",
+          "textKk": "$(10 + 6 : 2) \\cdot 3 = 39$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p36_5"]
+    },
+    {
+      "localId": "q08",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Отметь все верные утверждения о порядке действий.",
+      "bodyKk": "Амалдар тәртібі туралы барлық дұрыс тұжырымдарды белгіле.",
+      "explanationRu": "Верны определение ступеней и правило со скобками. Утверждение «всегда строго слева направо» при смеси ступеней неверно.",
+      "explanationKk": "Сатылардың анықтамасы мен жақшалы ереже дұрыс. Сатылар араласқанда «әрқашан тек солдан оңға» дегені қате.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 36-37",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Сложение и вычитание — действия первой ступени",
+          "textKk": "Қосу мен азайту — бірінші сатыдағы амалдар",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Без скобок при $+$/$-$ и $\\cdot$/$:$ всегда идут строго слева направо",
+          "textKk": "Жақшасыз $+$/$-$ пен $\\cdot$/$:$ әрқашан тек солдан оңға орындалады",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Умножение и деление — действия второй ступени",
+          "textKk": "Көбейту мен бөлу — екінші сатыдағы амалдар",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Если есть скобки, сначала выполняют действия в скобках",
+          "textKk": "Жақша болса, алдымен жақшадағы амалдар орындалады",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p36_1", "PDF_p36_2", "PDF_p36_5"]
+    },
+    {
+      "localId": "q09",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Отметь все равенства, где значение получено с верным порядком действий.",
+      "bodyKk": "Мәні дұрыс амалдар тәртібімен алынған барлық теңдіктерді белгіле.",
+      "explanationRu": "Верно: $12 + 20 = 32$; $40 - 15 + 5 = 30$; $9 \\cdot 4 : 2 = 18$. Равенство с $80$ — ошибка «слева направо».",
+      "explanationKk": "Дұрысы: $12 + 20 = 32$; $40 - 15 + 5 = 30$; $9 \\cdot 4 : 2 = 18$. $80$ бар теңдік — «солдан оңға» қатесі.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 36-37",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$12 + 4 \\cdot 5 = 32$",
+          "textKk": "$12 + 4 \\cdot 5 = 32$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$12 + 4 \\cdot 5 = 80$",
+          "textKk": "$12 + 4 \\cdot 5 = 80$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$40 - 15 + 5 = 30$",
+          "textKk": "$40 - 15 + 5 = 30$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$9 \\cdot 4 : 2 = 18$",
+          "textKk": "$9 \\cdot 4 : 2 = 18$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p36_3", "PDF_p36_4"]
+    },
+    {
+      "localId": "q10",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Отметь все пары выражений, у которых значения равны.",
+      "bodyKk": "Мәндері тең болатын барлық өрнек жұптарын белгіле.",
+      "explanationRu": "Равны $20 - 4 \\cdot 3$ и $20 - 12$ (оба $8$); $(18 : 6) + 4$ и $18 : 6 + 4$ (оба $7$). Скобки вокруг $20 - 4$ и вокруг суммы $8 + 2$ меняют значение.",
+      "explanationKk": "$20 - 4 \\cdot 3$ пен $20 - 12$ тең (екеуі $8$); $(18 : 6) + 4$ пен $18 : 6 + 4$ тең (екеуі $7$). $20 - 4$ мен $8 + 2$ жақшалары мәнді өзгертеді.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 36-37",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$20 - 4 \\cdot 3$ и $(20 - 4) \\cdot 3$",
+          "textKk": "$20 - 4 \\cdot 3$ және $(20 - 4) \\cdot 3$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$20 - 4 \\cdot 3$ и $20 - 12$",
+          "textKk": "$20 - 4 \\cdot 3$ және $20 - 12$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$(8 + 2) \\cdot 5$ и $8 + 2 \\cdot 5$",
+          "textKk": "$(8 + 2) \\cdot 5$ және $8 + 2 \\cdot 5$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$(18 : 6) + 4$ и $18 : 6 + 4$",
+          "textKk": "$(18 : 6) + 4$ және $18 : 6 + 4$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p36_4", "PDF_p36_5"]
+    },
+    {
+      "localId": "q11",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "В магазине купили $4$ набора по $9$ тетрадей и ещё $6$ тетрадей. Отметь все верные утверждения.",
+      "bodyKk": "Дүкеннен әрқайсысында $9$ дәптерден $4$ жиынтық және тағы $6$ дәптер сатып алынды. Барлық дұрыс тұжырымдарды белгіле.",
+      "explanationRu": "Сначала $4 \\cdot 9 = 36$, затем $36 + 6 = 42$. Запись $4 \\cdot 9 + 6$ верна. Сложение $9 + 6$ до умножения даёт неверный итог $60$.",
+      "explanationKk": "Алдымен $4 \\cdot 9 = 36$, содан $36 + 6 = 42$. $4 \\cdot 9 + 6$ жазбасы дұрыс. Көбейтуден бұрын $9 + 6$ қосу қате нәтиже $60$ береді.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 36-37",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Сначала находят $4 \\cdot 9$",
+          "textKk": "Алдымен $4 \\cdot 9$ табылады",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Всего тетрадей $42$",
+          "textKk": "Барлығы $42$ дәптер",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Сначала складывают $9 + 6$, затем умножают на $4$ — так тоже верно",
+          "textKk": "Алдымен $9 + 6$ қосып, содан $4$-ке көбейту де дұрыс",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Запись $4 \\cdot 9 + 6$ подходит к условию",
+          "textKk": "$4 \\cdot 9 + 6$ жазбасы шартқа сай",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p36_4", "PDF_p36_5"]
+    },
+    {
+      "localId": "q12",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "bodyRu": "Составь выражение по программе и найди его значение. 1) сложить $20$ и $16$; 2) сумму разделить на $9$; 3) разделить $14$ на $7$; 4) из результата шага 2 вычесть результат шага 3. Значение: $[[1]]$.",
+      "bodyKk": "Бағдарлама бойынша өрнек құрастырып, мәнін тап. 1) $20$ мен $16$-ны қос; 2) қосындыны $9$-ға бөл; 3) $14$-ті $7$-ге бөл; 4) 2-қадам нәтижесінен 3-қадам нәтижесін азайт. Мәні: $[[1]]$.",
+      "explanationRu": "Получается $((20 + 16) : 9) - (14 : 7) = 4 - 2 = 2$.",
+      "explanationKk": "$((20 + 16) : 9) - (14 : 7) = 4 - 2 = 2$ шығады.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 36-37",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "2",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ],
+      "sourceRuleIds": ["PDF_p36_5"]
+    }
+  ]
+}

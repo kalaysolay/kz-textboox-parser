@@ -1,0 +1,1236 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-ugol-gradusnaya-mera-20260808-1230",
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "math-5-ugol-gradusnaya-mera-20260808-1230",
+    "generatedAt": "2026-08-08T12:50:00+05:00",
+    "subjectTitleRu": "Математика",
+    "subjectTitleKk": "Математика",
+    "gradeNo": 5,
+    "topicCode": "7.1",
+    "topicTitleRu": "Угол. Градусная мера угла",
+    "topicTitleKk": "Бұрыш. Бұрыштың градустық өлшемі",
+    "topicSlug": "ugol-gradusnaya-mera",
+    "atomicSkillTitleRu": null,
+    "textbookRef": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+    "illustrationPolicy": "visual-topics",
+    "sourceReliability": "verbatim"
+  },
+  "questions": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "bodyRu": "Фигура образована двумя лучами с общим началом. Как называется эта фигура?",
+      "bodyKk": "Фигура ортақ басы бар екі сәуледен түзілген. Бұл фигура қалай аталады?",
+      "explanationRu": "Угол — фигура, образованная двумя лучами, имеющими общее начало.",
+      "explanationKk": "Бұрыш — ортақ басы бар екі сәуледен түзілген фигура.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Отрезок",
+          "textKk": "Кесінді",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Угол",
+          "textKk": "Бұрыш",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Треугольник",
+          "textKk": "Үшбұрыш",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Луч",
+          "textKk": "Сәуле",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p133_1"
+      ]
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "bodyRu": "Чем измеряют величину угла и каким знаком обозначают эту единицу?",
+      "bodyKk": "Бұрыштың шамасын немен өлшейді және бұл бірлікті қандай белгімен белгілейді?",
+      "explanationRu": "Единица измерения углов — градус; градусы обозначают знаком «°».",
+      "explanationKk": "Бұрыштарды өлшеу бірлігі — градус; градустар «°» белгісімен белгіленеді.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Сантиметрами, знаком см",
+          "textKk": "Сантиметрмен, см белгісімен",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Процентами, знаком %",
+          "textKk": "Пайызбен, % белгісімен",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Градусами, знаком °",
+          "textKk": "Градуспен, ° белгісімен",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Градус — это название развёрнутого угла",
+          "textKk": "Градус — жазыңқы бұрыштың атауы",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p134_3"
+      ]
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Два дополнительных луча образуют развёрнутый угол. Не выполняя вычислений, укажите его градусную меру.",
+      "bodyKk": "Екі қосымша сәуле жазыңқы бұрыш құрайды. Есептеулер жасамай, оның градустық өлшемін көрсетіңіз.",
+      "explanationRu": "Градусная мера развёрнутого угла равна $180^\\circ$.",
+      "explanationKk": "Жазыңқы бұрыштың градустық өлшемі $180^\\circ$-қа тең.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$360^\\circ$",
+          "textKk": "$360^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$90^\\circ$",
+          "textKk": "$90^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$1^\\circ$",
+          "textKk": "$1^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$180^\\circ$",
+          "textKk": "$180^\\circ$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p134_2"
+      ]
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Угол имеет вершину $M$ и стороны — лучи $MA$ и $MB$. Сравните записи и выберите верное обозначение этого угла знаком $\\angle$.",
+      "bodyKk": "Бұрыштың төбесі — $M$, қабырғалары — $MA$ және $MB$ сәулелері. Жазбаларды салыстырып, осы бұрыштың $\\angle$ белгісімен дұрыс белгіленуін таңдаңыз.",
+      "explanationRu": "При трёхбуквенном обозначении буква вершины пишется в середине: верно $\\angle AMB$ (или $\\angle BMA$).",
+      "explanationKk": "Үш әріппен белгілегенде төбенің әрпі ортада жазылады: дұрысы $\\angle AMB$ (немесе $\\angle BMA$).",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$\\angle MAB$",
+          "textKk": "$\\angle MAB$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$\\angle ABM$",
+          "textKk": "$\\angle ABM$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$\\angle AMB$",
+          "textKk": "$\\angle AMB$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Только однобуквенная запись у вершины; трёхбуквенная недопустима",
+          "textKk": "Тек төбедегі бір әріптік жазба; үш әріптік жазбаға болмайды",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p134_1"
+      ]
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Луч $PK$ — биссектриса угла $MPN$. Известно, что $\\angle MPK = 27^\\circ$. Найдите градусную меру угла $MPN$.",
+      "bodyKk": "$PK$ сәулесі — $MPN$ бұрышының биссектрисасы. $\\angle MPK = 27^\\circ$ белгілі. $MPN$ бұрышының градустық өлшемін табыңыз.",
+      "explanationRu": "Биссектриса делит угол на два равных угла, поэтому $\\angle MPN = 2 \\cdot 27^\\circ = 54^\\circ$.",
+      "explanationKk": "Биссектриса бұрышты екі тең бұрышқа бөледі, сондықтан $\\angle MPN = 2 \\cdot 27^\\circ = 54^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$13{,}5^\\circ$",
+          "textKk": "$13{,}5^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$153^\\circ$",
+          "textKk": "$153^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$54^\\circ$",
+          "textKk": "$54^\\circ$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$27^\\circ$",
+          "textKk": "$27^\\circ$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p134_4"
+      ]
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Точка на прямой разбивает эту прямую на два луча. Как называется угол, который образуют эти лучи, и чему равна его градусная мера?",
+      "bodyKk": "Түзудегі нүкте осы түзуді екі сәулеге бөледі. Бұл сәулелер құрайтын бұрыш қалай аталады және оның градустық өлшемі неге тең?",
+      "explanationRu": "Лучи, на которые точка разбивает прямую, называют дополнительными; они образуют развёрнутый угол $180^\\circ$.",
+      "explanationKk": "Нүкте түзуді бөлетін сәулелер қосымша деп аталады; олар $180^\\circ$-тық жазыңқы бұрыш құрайды.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Прямой угол, $90^\\circ$",
+          "textKk": "Тік бұрыш, $90^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Развёрнутый угол, $180^\\circ$",
+          "textKk": "Жазыңқы бұрыш, $180^\\circ$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Полный оборот, $360^\\circ$",
+          "textKk": "Толық айналым, $360^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Острый угол, меньше $90^\\circ$",
+          "textKk": "Сүйір бұрыш, $90^\\circ$-тан кіші",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p134_2"
+      ]
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке луч $BD$ проходит между сторонами угла $ABC$. Известно, что $\\angle ABD = 36^\\circ$ и $\\angle DBC = 47^\\circ$. Найдите градусную меру угла $ABC$.",
+      "bodyKk": "Суретте $BD$ сәулесі $ABC$ бұрышының қабырғалары арасынан өтеді. $\\angle ABD = 36^\\circ$ және $\\angle DBC = 47^\\circ$ белгілі. $ABC$ бұрышының градустық өлшемін табыңыз.",
+      "explanationRu": "Если луч проходит между сторонами угла, то $\\angle ABC = \\angle ABD + \\angle DBC = 36^\\circ + 47^\\circ = 83^\\circ$.",
+      "explanationKk": "Сәуле бұрыш қабырғаларының арасынан өтсе, $\\angle ABC = \\angle ABD + \\angle DBC = 36^\\circ + 47^\\circ = 83^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$11^\\circ$",
+          "textKk": "$11^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$36^\\circ$",
+          "textKk": "$36^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$263^\\circ$",
+          "textKk": "$263^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$83^\\circ$",
+          "textKk": "$83^\\circ$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p135_1"
+      ]
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке угол $EOF$ — развёрнутый. Из вершины $O$ проведён луч $OD$, причём $\\angle DOE = 65^\\circ$. Найдите градусную меру угла $DOF$.",
+      "bodyKk": "Суретте $EOF$ бұрышы — жазыңқы. $O$ төбесінен $OD$ сәулесі жүргізілген, әрі $\\angle DOE = 65^\\circ$. $DOF$ бұрышының градустық өлшемін табыңыз.",
+      "explanationRu": "Градусная мера развёрнутого угла равна $180^\\circ$, поэтому $\\angle DOF = 180^\\circ - 65^\\circ = 115^\\circ$.",
+      "explanationKk": "Жазыңқы бұрыштың градустық өлшемі $180^\\circ$, сондықтан $\\angle DOF = 180^\\circ - 65^\\circ = 115^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$295^\\circ$",
+          "textKk": "$295^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$115^\\circ$",
+          "textKk": "$115^\\circ$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$245^\\circ$",
+          "textKk": "$245^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$65^\\circ$",
+          "textKk": "$65^\\circ$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p134_2",
+        "PDF_p135_1"
+      ]
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке луч $QD$ проходит между сторонами угла $PQR$. Известно, что $\\angle PQR = 96^\\circ$ и $\\angle PQD = 37^\\circ$. Найдите градусную меру угла $DQR$.",
+      "bodyKk": "Суретте $QD$ сәулесі $PQR$ бұрышының қабырғалары арасынан өтеді. $\\angle PQR = 96^\\circ$ және $\\angle PQD = 37^\\circ$ белгілі. $DQR$ бұрышының градустық өлшемін табыңыз.",
+      "explanationRu": "$\\angle PQR = \\angle PQD + \\angle DQR$, поэтому $\\angle DQR = 96^\\circ - 37^\\circ = 59^\\circ$.",
+      "explanationKk": "$\\angle PQR = \\angle PQD + \\angle DQR$, сондықтан $\\angle DQR = 96^\\circ - 37^\\circ = 59^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$133^\\circ$",
+          "textKk": "$133^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$84^\\circ$",
+          "textKk": "$84^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$59^\\circ$",
+          "textKk": "$59^\\circ$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$48^\\circ$",
+          "textKk": "$48^\\circ$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p135_1"
+      ]
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке изображён угол $KLM$ и отмечены точки $P$, $Q$, $R$ и $S$. Данияр отметил точку, которая углу $KLM$ не принадлежит. Какую точку он отметил верно?",
+      "bodyKk": "Суретте $KLM$ бұрышы және $P$, $Q$, $R$, $S$ нүктелері көрсетілген. Данияр $KLM$ бұрышына тиесілі емес нүктені белгіледі. Ол қай нүктені дұрыс белгіледі?",
+      "explanationRu": "Углу принадлежат точки его сторон и внутренней области. Точка во внешней области (напротив вершины) углу не принадлежит — на чертеже это точка $R$.",
+      "explanationKk": "Бұрышқа оның қабырғалары мен ішкі аймағындағы нүктелер тиесілі. Сыртқы аймақтағы (төбенің қарама-қарсы жағындағы) нүкте тиесілі емес — сызбада бұл $R$ нүктесі.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Точка $P$",
+          "textKk": "$P$ нүктесі",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Точка $Q$",
+          "textKk": "$Q$ нүктесі",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Точка $R$",
+          "textKk": "$R$ нүктесі",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Точка $S$",
+          "textKk": "$S$ нүктесі",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p133_1"
+      ]
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Луч $OF$ назван биссектрисой угла $EOK$. Не вычисляя градусов, выберите равенство, которое обязательно верно.",
+      "bodyKk": "$OF$ сәулесі $EOK$ бұрышының биссектрисасы деп аталған. Градустарды есептемей, міндетті түрде дұрыс болатын теңдікті таңдаңыз.",
+      "explanationRu": "Биссектриса делит угол на два равных угла, поэтому $\\angle EOF = \\angle FOK$.",
+      "explanationKk": "Биссектриса бұрышты екі тең бұрышқа бөледі, сондықтан $\\angle EOF = \\angle FOK$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$\\angle EOF = 90^\\circ$, а $\\angle FOK$ — остаток до целого угла",
+          "textKk": "$\\angle EOF = 90^\\circ$, ал $\\angle FOK$ — бүкіл бұрышқа дейінгі қалдық",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$\\angle EOF = \\angle FOK$",
+          "textKk": "$\\angle EOF = \\angle FOK$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$\\angle EOK$ всегда равен $180^\\circ$",
+          "textKk": "$\\angle EOK$ әрдайым $180^\\circ$-қа тең",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Отрезки на сторонах угла обязательно равны",
+          "textKk": "Бұрыш қабырғаларындағы кесінділер міндетті түрде тең",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p134_4"
+      ]
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке из точки $P$ проведены три луча: $PA$, $PB$ и $PC$. Сравните предложенные списки и выберите верные обозначения углов, сторонами которых являются эти лучи.",
+      "bodyKk": "Суретте $P$ нүктесінен үш сәуле жүргізілген: $PA$, $PB$ және $PC$. Ұсынылған тізімдерді салыстырып, осы сәулелер қабырға болатын бұрыштардың дұрыс белгіленуін таңдаңыз.",
+      "explanationRu": "Три луча с общей вершиной $P$ образуют углы $\\angle APB$, $\\angle BPC$ и $\\angle APC$; буква вершины в каждой записи стоит в середине.",
+      "explanationKk": "Ортақ төбесі $P$ болатын үш сәуле $\\angle APB$, $\\angle BPC$ және $\\angle APC$ бұрыштарын құрайды; әр жазбада төбе әрпі ортада тұрады.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$\\angle PAB$, $\\angle PBC$, $\\angle PAC$",
+          "textKk": "$\\angle PAB$, $\\angle PBC$, $\\angle PAC$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$\\angle APB$, $\\angle BPC$ (угол $\\angle APC$ не образуется)",
+          "textKk": "$\\angle APB$, $\\angle BPC$ ($\\angle APC$ бұрышы түзілмейді)",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$\\angle APB$, $\\angle BPC$, $\\angle APC$",
+          "textKk": "$\\angle APB$, $\\angle BPC$, $\\angle APC$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$\\angle APB$ и $\\angle BPA$ — это разные углы",
+          "textKk": "$\\angle APB$ пен $\\angle BPA$ — әртүрлі бұрыштар",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p134_1",
+        "PDF_p133_2"
+      ]
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Луч $OC$ — биссектриса угла $AOB$, причём $\\angle AOB = 84^\\circ$. Чему равна градусная мера угла $AOC$?",
+      "bodyKk": "$OC$ сәулесі — $AOB$ бұрышының биссектрисасы, әрі $\\angle AOB = 84^\\circ$. $AOC$ бұрышының градустық өлшемі неге тең?",
+      "explanationRu": "Биссектриса делит угол пополам: $\\angle AOC = 84^\\circ : 2 = 42^\\circ$.",
+      "explanationKk": "Биссектриса бұрышты тең екіге бөледі: $\\angle AOC = 84^\\circ : 2 = 42^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$168^\\circ$",
+          "textKk": "$168^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$96^\\circ$",
+          "textKk": "$96^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$84^\\circ$",
+          "textKk": "$84^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$42^\\circ$",
+          "textKk": "$42^\\circ$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p134_4"
+      ]
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Луч $OD$ проходит между сторонами угла $EOF$, причём $\\angle EOF = 75^\\circ$. Угол $EOD$ меньше угла $DOF$ в $2$ раза. Найдите градусные меры углов $EOD$ и $DOF$.",
+      "bodyKk": "$OD$ сәулесі $EOF$ бұрышының қабырғалары арасынан өтеді, әрі $\\angle EOF = 75^\\circ$. $EOD$ бұрышы $DOF$ бұрышынан $2$ есе кіші. $EOD$ және $DOF$ бұрыштарының градустық өлшемдерін табыңыз.",
+      "explanationRu": "Пусть $\\angle EOD = x$, тогда $\\angle DOF = 2x$. Сумма: $x + 2x = 75$, $3x = 75$, $x = 25$. Значит, $\\angle EOD = 25^\\circ$, $\\angle DOF = 50^\\circ$.",
+      "explanationKk": "$\\angle EOD = x$ болсын, онда $\\angle DOF = 2x$. Қосындысы: $x + 2x = 75$, $3x = 75$, $x = 25$. Демек, $\\angle EOD = 25^\\circ$, $\\angle DOF = 50^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$37{,}5^\\circ$ и $37{,}5^\\circ$",
+          "textKk": "$37{,}5^\\circ$ және $37{,}5^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$25^\\circ$ и $50^\\circ$",
+          "textKk": "$25^\\circ$ және $50^\\circ$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$50^\\circ$ и $25^\\circ$",
+          "textKk": "$50^\\circ$ және $25^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$15^\\circ$ и $60^\\circ$",
+          "textKk": "$15^\\circ$ және $60^\\circ$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p135_1"
+      ]
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Даны меры: $\\angle ABD = 33^\\circ$, $\\angle DBC = 41^\\circ$, $\\angle ABC = 74^\\circ$. Луч $BD$ проходит между сторонами угла $ABC$. Какое равенство верно?",
+      "bodyKk": "Өлшемдер берілген: $\\angle ABD = 33^\\circ$, $\\angle DBC = 41^\\circ$, $\\angle ABC = 74^\\circ$. $BD$ сәулесі $ABC$ бұрышының қабырғалары арасынан өтеді. Қай теңдік дұрыс?",
+      "explanationRu": "По правилу суммы частей угла $\\angle ABC = \\angle ABD + \\angle DBC = 33^\\circ + 41^\\circ = 74^\\circ$.",
+      "explanationKk": "Бұрыш бөліктерінің қосындысы ережесі бойынша $\\angle ABC = \\angle ABD + \\angle DBC = 33^\\circ + 41^\\circ = 74^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$\\angle ABC = \\angle ABD - \\angle DBC$",
+          "textKk": "$\\angle ABC = \\angle ABD - \\angle DBC$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$\\angle ABC = \\angle ABD + 180^\\circ$",
+          "textKk": "$\\angle ABC = \\angle ABD + 180^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$\\angle ABC = \\angle ABD + \\angle DBC$",
+          "textKk": "$\\angle ABC = \\angle ABD + \\angle DBC$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$\\angle ABC = \\angle ABD + \\angle ABC$",
+          "textKk": "$\\angle ABC = \\angle ABD + \\angle ABC$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p135_1"
+      ]
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 4,
+      "bodyRu": "Угол $CDE$ равен $136^\\circ$. Из вершины $D$ внутри угла проведён луч $DF$. Угол $CDF$ меньше угла $FDE$ на $48^\\circ$. Найдите градусную меру угла $CDF$.",
+      "bodyKk": "$CDE$ бұрышы $136^\\circ$-қа тең. $D$ төбесінен бұрыш ішінде $DF$ сәулесі жүргізілген. $CDF$ бұрышы $FDE$ бұрышынан $48^\\circ$-қа кіші. $CDF$ бұрышының градустық өлшемін табыңыз.",
+      "explanationRu": "Пусть $\\angle CDF = x$. Тогда $\\angle FDE = x + 48$. Сумма частей: $x + (x + 48) = 136$, откуда $2x = 88$, $x = 44$. Значит, $\\angle CDF = 44^\\circ$.",
+      "explanationKk": "$\\angle CDF = x$ болсын. Онда $\\angle FDE = x + 48$. Бөліктердің қосындысы: $x + (x + 48) = 136$, бұдан $2x = 88$, $x = 44$. Демек, $\\angle CDF = 44^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$68^\\circ$",
+          "textKk": "$68^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$44^\\circ$",
+          "textKk": "$44^\\circ$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$88^\\circ$",
+          "textKk": "$88^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$92^\\circ$",
+          "textKk": "$92^\\circ$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p135_1"
+      ]
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 4,
+      "bodyRu": "На рисунке на прямой $EOF$ отмечены лучи $ON$ и $OP$, причём $\\angle EOP = 100^\\circ$ и $\\angle NOF = 125^\\circ$. Найдите градусную меру угла $NOP$.",
+      "bodyKk": "Суретте $EOF$ түзуінде $ON$ және $OP$ сәулелері белгіленген, әрі $\\angle EOP = 100^\\circ$ және $\\angle NOF = 125^\\circ$. $NOP$ бұрышының градустық өлшемін табыңыз.",
+      "explanationRu": "Углы $EOP$ и $NOF$ вместе покрывают развёрнутый угол $180^\\circ$ и общий угол $NOP$: $\\angle NOP = 100^\\circ + 125^\\circ - 180^\\circ = 45^\\circ$.",
+      "explanationKk": "$EOP$ және $NOF$ бұрыштары бірге $180^\\circ$-тық жазыңқы бұрышты және ортақ $NOP$ бұрышын қамтиды: $\\angle NOP = 100^\\circ + 125^\\circ - 180^\\circ = 45^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$225^\\circ$",
+          "textKk": "$225^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$25^\\circ$",
+          "textKk": "$25^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$80^\\circ$",
+          "textKk": "$80^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$45^\\circ$",
+          "textKk": "$45^\\circ$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p134_2",
+        "PDF_p135_1"
+      ]
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 5,
+      "bodyRu": "На рисунке $\\angle AOB = 40^\\circ$ и $\\angle BOC = 80^\\circ$. Найдите градусную меру угла, образованного биссектрисами углов $AOB$ и $BOC$.",
+      "bodyKk": "Суретте $\\angle AOB = 40^\\circ$ және $\\angle BOC = 80^\\circ$. $AOB$ және $BOC$ бұрыштарының биссектрисалары құрайтын бұрыштың градустық өлшемін табыңыз.",
+      "explanationRu": "Половина $\\angle AOB$ равна $20^\\circ$, половина $\\angle BOC$ равна $40^\\circ$. Угол между биссектрисами равен $20^\\circ + 40^\\circ = 60^\\circ$.",
+      "explanationKk": "$\\angle AOB$-тың жартысы $20^\\circ$, $\\angle BOC$-тың жартысы $40^\\circ$. Биссектрисалар арасындағы бұрыш $20^\\circ + 40^\\circ = 60^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$120^\\circ$",
+          "textKk": "$120^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$60^\\circ$",
+          "textKk": "$60^\\circ$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$20^\\circ$",
+          "textKk": "$20^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$40^\\circ$",
+          "textKk": "$40^\\circ$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p134_4",
+        "PDF_p135_1"
+      ]
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Выберите все верные утверждения об определении угла.",
+      "bodyKk": "Бұрыштың анықтамасы туралы барлық дұрыс тұжырымдарды таңдаңыз.",
+      "explanationRu": "Угол образован двумя лучами с общим началом. Утверждения про два отрезка, лучи без общего начала и «три стороны» неверны.",
+      "explanationKk": "Бұрыш ортақ басы бар екі сәуледен түзіледі. Екі кесінді, ортақ бассыз сәулелер және «үш қабырға» туралы тұжырымдар қате.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Угол образован двумя лучами",
+          "textKk": "Бұрыш екі сәуледен түзіледі",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "У этих двух лучей обязательно есть общее начало",
+          "textKk": "Бұл екі сәуленің міндетті түрде ортақ басы болады",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Угол — это фигура из двух отрезков",
+          "textKk": "Бұрыш — екі кесіндіден тұратын фигура",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Угол всегда имеет три стороны",
+          "textKk": "Бұрыштың әрдайым үш қабырғасы болады",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p133_1"
+      ]
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Для угла с вершиной $T$ и сторонами — лучами $TA$ и $TB$ выберите все верные утверждения.",
+      "bodyKk": "Төбесі $T$, қабырғалары — $TA$ және $TB$ сәулелері болатын бұрыш үшін барлық дұрыс тұжырымдарды таңдаңыз.",
+      "explanationRu": "Стороны — лучи $TA$ и $TB$; вершина — их общее начало $T$. Угол можно записать как $\\angle ATB$ или одной буквой $\\angle T$. Утверждения B и D неверны: вершина не точка на стороне и в трёхбуквенной записи она стоит в середине.",
+      "explanationKk": "Қабырғалары — $TA$ және $TB$ сәулелері; төбесі — олардың ортақ басы $T$. Бұрышты $\\angle ATB$ немесе бір әріппен $\\angle T$ деп жазуға болады. B және D тұжырымдары қате: төбе қабырғадағы нүкте емес, үш әріптік жазбада ол ортада тұрады.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Стороны этого угла — лучи $TA$ и $TB$",
+          "textKk": "Бұл бұрыштың қабырғалары — $TA$ және $TB$ сәулелері",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Вершиной угла может быть любая точка на луче $TA$",
+          "textKk": "Бұрыштың төбесі $TA$ сәулесіндегі кез келген нүкте бола алады",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Этот угол можно обозначить одной буквой: $\\angle T$",
+          "textKk": "Бұл бұрышты бір әріппен белгілеуге болады: $\\angle T$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "В записи $\\angle ATB$ вершина обозначается буквой $A$",
+          "textKk": "$\\angle ATB$ жазбасында төбе $A$ әрпімен белгіленеді",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p133_2",
+        "PDF_p134_1"
+      ]
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Не выполняя измерений, выберите все верные утверждения о градусе и градусной мере угла.",
+      "bodyKk": "Өлшеу жасамай, градус және бұрыштың градустық өлшемі туралы барлық дұрыс тұжырымдарды таңдаңыз.",
+      "explanationRu": "Один градус — $\\frac{1}{180}$ доля развёрнутого угла; градусная мера — величина угла в градусах. Утверждения с $\\frac{1}{360}$ и отождествлением градуса с самим развёрнутым углом неверны.",
+      "explanationKk": "Бір градус — жазыңқы бұрыштың $\\frac{1}{180}$ үлесі; градустық өлшем — бұрыштың градуспен өлшенген шамасы. $\\frac{1}{360}$ және градусты жазыңқы бұрыштың өзімен теңестіру туралы тұжырымдар қате.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$1^\\circ$ — это $\\frac{1}{180}$ доля развёрнутого угла",
+          "textKk": "$1^\\circ$ — жазыңқы бұрыштың $\\frac{1}{180}$ үлесі",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$1^\\circ$ — это $\\frac{1}{360}$ доля развёрнутого угла",
+          "textKk": "$1^\\circ$ — жазыңқы бұрыштың $\\frac{1}{360}$ үлесі",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Градусная мера угла — это его величина, выраженная в градусах",
+          "textKk": "Бұрыштың градустық өлшемі — оның градуспен өрнектелген шамасы",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Один градус равен самому развёрнутому углу",
+          "textKk": "Бір градус жазыңқы бұрыштың өзіне тең",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p134_3"
+      ]
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке луч $OF$ — биссектриса угла $EOK$, причём $\\angle EOK = 68^\\circ$. Выберите все верные равенства.",
+      "bodyKk": "Суретте $OF$ сәулесі — $EOK$ бұрышының биссектрисасы, әрі $\\angle EOK = 68^\\circ$. Барлық дұрыс теңдіктерді таңдаңыз.",
+      "explanationRu": "Половины равны: $\\angle EOF = \\angle FOK = 34^\\circ$. Равенства с неравными «половинами» или вычитанием из $180^\\circ$ неверны.",
+      "explanationKk": "Жартылары тең: $\\angle EOF = \\angle FOK = 34^\\circ$. Тең емес «жартылар» немесе $180^\\circ$-тан азайту туралы теңдіктер қате.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$\\angle EOF = 34^\\circ$",
+          "textKk": "$\\angle EOF = 34^\\circ$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$\\angle FOK = 34^\\circ$",
+          "textKk": "$\\angle FOK = 34^\\circ$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$\\angle EOF = 20^\\circ$ и $\\angle FOK = 48^\\circ$",
+          "textKk": "$\\angle EOF = 20^\\circ$ және $\\angle FOK = 48^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$\\angle EOF = 180^\\circ - 34^\\circ$",
+          "textKk": "$\\angle EOF = 180^\\circ - 34^\\circ$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p134_4"
+      ]
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Из вершины $B$ проведены лучи $BA$, $BD$, $BE$ и $BC$ (луч $BD$ между $BA$ и $BE$, луч $BE$ между $BD$ и $BC$). Известно: $\\angle ABD = 20^\\circ$, $\\angle DBE = 35^\\circ$, $\\angle EBC = 25^\\circ$. Выберите все углы, мера которых верно получается сложением указанных частей.",
+      "bodyKk": "$B$ төбесінен $BA$, $BD$, $BE$ және $BC$ сәулелері жүргізілген ($BD$ сәулесі $BA$ мен $BE$ арасында, $BE$ сәулесі $BD$ мен $BC$ арасында). Белгілі: $\\angle ABD = 20^\\circ$, $\\angle DBE = 35^\\circ$, $\\angle EBC = 25^\\circ$. Көрсетілген бөліктерді қосу арқылы өлшемі дұрыс шығатын барлық бұрыштарды таңдаңыз.",
+      "explanationRu": "$\\angle ABE = 20^\\circ + 35^\\circ = 55^\\circ$, $\\angle DBC = 35^\\circ + 25^\\circ = 60^\\circ$, $\\angle ABC = 20^\\circ + 35^\\circ + 25^\\circ = 80^\\circ$. Разность $35^\\circ - 20^\\circ$ целым углом не является.",
+      "explanationKk": "$\\angle ABE = 20^\\circ + 35^\\circ = 55^\\circ$, $\\angle DBC = 35^\\circ + 25^\\circ = 60^\\circ$, $\\angle ABC = 20^\\circ + 35^\\circ + 25^\\circ = 80^\\circ$. $35^\\circ - 20^\\circ$ айырмасы бүтін бұрыш емес.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$\\angle ABE = 55^\\circ$",
+          "textKk": "$\\angle ABE = 55^\\circ$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$\\angle DBC = 60^\\circ$",
+          "textKk": "$\\angle DBC = 60^\\circ$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$\\angle ABC = 15^\\circ$ (как $35^\\circ - 20^\\circ$)",
+          "textKk": "$\\angle ABC = 15^\\circ$ ($35^\\circ - 20^\\circ$ ретінде)",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$\\angle ABC = 80^\\circ$",
+          "textKk": "$\\angle ABC = 80^\\circ$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p135_1"
+      ]
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Выберите все верные утверждения о дополнительных лучах и развёрнутом угле.",
+      "bodyKk": "Қосымша сәулелер және жазыңқы бұрыш туралы барлық дұрыс тұжырымдарды таңдаңыз.",
+      "explanationRu": "Точка разбивает прямую на два дополнительных луча; они образуют развёрнутый угол $180^\\circ$. Утверждения про $360^\\circ$, $90^\\circ$ и «четыре луча» неверны.",
+      "explanationKk": "Нүкте түзуді екі қосымша сәулеге бөледі; олар $180^\\circ$-тық жазыңқы бұрыш құрайды. $360^\\circ$, $90^\\circ$ және «төрт сәуле» туралы тұжырымдар қате.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Точка на прямой разбивает её на два дополнительных луча",
+          "textKk": "Түзудегі нүкте оны екі қосымша сәулеге бөледі",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Два дополнительных луча образуют развёрнутый угол $180^\\circ$",
+          "textKk": "Екі қосымша сәуле $180^\\circ$-тық жазыңқы бұрыш құрайды",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Развёрнутый угол равен $360^\\circ$",
+          "textKk": "Жазыңқы бұрыш $360^\\circ$-қа тең",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Дополнительные лучи образуют прямой угол $90^\\circ$",
+          "textKk": "Қосымша сәулелер $90^\\circ$-тық тік бұрыш құрайды",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p134_2"
+      ]
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "На рисунке $\\angle POQ = 100^\\circ$, из вершины $O$ проведены лучи $OS$ и $OR$, причём $\\angle POS = 75^\\circ$ и $\\angle ROQ = 40^\\circ$. Выберите все верно указанные градусные меры.",
+      "bodyKk": "Суретте $\\angle POQ = 100^\\circ$, $O$ төбесінен $OS$ және $OR$ сәулелері жүргізілген, әрі $\\angle POS = 75^\\circ$ және $\\angle ROQ = 40^\\circ$. Дұрыс көрсетілген барлық градустық өлшемдерді таңдаңыз.",
+      "explanationRu": "$\\angle SOQ = 100^\\circ - 75^\\circ = 25^\\circ$; $\\angle POR = 100^\\circ - 40^\\circ = 60^\\circ$; $\\angle SOR = 75^\\circ + 40^\\circ - 100^\\circ = 15^\\circ$. Вариант $115^\\circ$ — ошибочная сумма без учёта общей части.",
+      "explanationKk": "$\\angle SOQ = 100^\\circ - 75^\\circ = 25^\\circ$; $\\angle POR = 100^\\circ - 40^\\circ = 60^\\circ$; $\\angle SOR = 75^\\circ + 40^\\circ - 100^\\circ = 15^\\circ$. $115^\\circ$ нұсқасы — ортақ бөлікті есепке алмай қосу қатесі.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$\\angle SOR = 15^\\circ$",
+          "textKk": "$\\angle SOR = 15^\\circ$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$\\angle SOQ = 25^\\circ$",
+          "textKk": "$\\angle SOQ = 25^\\circ$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$\\angle SOR = 115^\\circ$",
+          "textKk": "$\\angle SOR = 115^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$\\angle POR = 60^\\circ$",
+          "textKk": "$\\angle POR = 60^\\circ$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p135_1",
+        "PDF_p134_2"
+      ]
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "На рисунке из точки $O$ проведены лучи $OA$, $OB$ и $OC$. Выберите все пары записей, которые обозначают один и тот же угол.",
+      "bodyKk": "Суретте $O$ нүктесінен $OA$, $OB$ және $OC$ сәулелері жүргізілген. Бір бұрышты белгілейтін барлық жазба жұптарын таңдаңыз.",
+      "explanationRu": "Записи $\\angle AOB$ и $\\angle BOA$ обозначают один угол; то же для $\\angle AOC$ и $\\angle COA$. Запись с другой вершиной или соседний угол — это другой угол.",
+      "explanationKk": "$\\angle AOB$ пен $\\angle BOA$ бір бұрышты белгілейді; $\\angle AOC$ пен $\\angle COA$ үшін де солай. Басқа төбесі бар жазба немесе көрші бұрыш — басқа бұрыш.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$\\angle AOB$ и $\\angle BOA$",
+          "textKk": "$\\angle AOB$ және $\\angle BOA$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$\\angle AOC$ и $\\angle COA$",
+          "textKk": "$\\angle AOC$ және $\\angle COA$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$\\angle AOB$ и $\\angle AOC$",
+          "textKk": "$\\angle AOB$ және $\\angle AOC$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$\\angle AOB$ и $\\angle OAB$",
+          "textKk": "$\\angle AOB$ және $\\angle OAB$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p134_1"
+      ]
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 5,
+      "bodyRu": "На рисунке угол $AOB$ — развёрнутый. Внутри него отмечен угол $EOD$ с градусной мерой $70^\\circ$, причём $\\angle AOE = \\angle DOB$. Выберите все верные выводы.",
+      "bodyKk": "Суретте $AOB$ бұрышы — жазыңқы. Оның ішінде градустық өлшемі $70^\\circ$ болатын $EOD$ бұрышы белгіленген, әрі $\\angle AOE = \\angle DOB$. Барлық дұрыс қорытындыларды таңдаңыз.",
+      "explanationRu": "$2 \\cdot \\angle AOE + 70^\\circ = 180^\\circ$, откуда $\\angle AOE = \\angle DOB = 55^\\circ$. Деление $180^\\circ$ пополам без учёта внутреннего угла и отождествление боковой части с $70^\\circ$ неверны.",
+      "explanationKk": "$2 \\cdot \\angle AOE + 70^\\circ = 180^\\circ$, бұдан $\\angle AOE = \\angle DOB = 55^\\circ$. Ішкі бұрышты есепке алмай $180^\\circ$-ты тең екіге бөлу және бүйір бөлікті $70^\\circ$ деп алу қате.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$\\angle AOE = 55^\\circ$",
+          "textKk": "$\\angle AOE = 55^\\circ$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$\\angle DOB = 55^\\circ$",
+          "textKk": "$\\angle DOB = 55^\\circ$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$\\angle AOE = 90^\\circ$",
+          "textKk": "$\\angle AOE = 90^\\circ$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$\\angle AOE = 70^\\circ$",
+          "textKk": "$\\angle AOE = 70^\\circ$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p134_2",
+        "PDF_p135_1"
+      ]
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "bodyRu": "Луч $BD$ проходит между сторонами угла $ABC$. Известно, что $\\angle ABD = 48^\\circ$ и $\\angle DBC = 27^\\circ$. Найдите градусную меру угла $ABC$. Ответ дайте числом: [[1]].",
+      "bodyKk": "$BD$ сәулесі $ABC$ бұрышының қабырғалары арасынан өтеді. $\\angle ABD = 48^\\circ$ және $\\angle DBC = 27^\\circ$ белгілі. $ABC$ бұрышының градустық өлшемін табыңыз. Жауапты санмен жазыңыз: [[1]].",
+      "explanationRu": "$\\angle ABC = \\angle ABD + \\angle DBC = 48^\\circ + 27^\\circ = 75^\\circ$.",
+      "explanationKk": "$\\angle ABC = \\angle ABD + \\angle DBC = 48^\\circ + 27^\\circ = 75^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "75",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p135_1"
+      ]
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "bodyRu": "Биссектриса угла $RST$ делит его на две равные части. Одна из этих частей равна $41^\\circ$. Найдите градусную меру угла $RST$. Ответ дайте в градусах: [[1]].",
+      "bodyKk": "$RST$ бұрышының биссектрисасы оны тең екі бөлікке бөледі. Осы бөліктердің бірі $41^\\circ$-қа тең. $RST$ бұрышының градустық өлшемін табыңыз. Жауапты градуспен жазыңыз: [[1]].",
+      "explanationRu": "Биссектриса делит угол пополам, поэтому весь угол равен $2 \\cdot 41^\\circ = 82^\\circ$.",
+      "explanationKk": "Биссектриса бұрышты тең екіге бөледі, сондықтан бүкіл бұрыш $2 \\cdot 41^\\circ = 82^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "82",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p134_4"
+      ]
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "bodyRu": "На рисунке развёрнутый угол разбит на три смежных угла: средний равен $96^\\circ$, а два крайних равны между собой. Найдите градусную меру одного крайнего угла. Ответ дайте в градусах: [[1]].",
+      "bodyKk": "Суретте жазыңқы бұрыш үш көршілес бұрышқа бөлінген: ортаңғысы $96^\\circ$-қа тең, ал екі шеткісі бір-біріне тең. Бір шеткі бұрыштың градустық өлшемін табыңыз. Жауапты градуспен жазыңыз: [[1]].",
+      "explanationRu": "Развёрнутый угол равен $180^\\circ$. Пусть крайний угол равен $x$. Тогда $x + 96 + x = 180$, откуда $2x = 84$, $x = 42$.",
+      "explanationKk": "Жазыңқы бұрыш $180^\\circ$-қа тең. Шеткі бұрыш $x$ болсын. Онда $x + 96 + x = 180$, бұдан $2x = 84$, $x = 42$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "42",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p134_2",
+        "PDF_p135_1"
+      ]
+    }
+  ]
+}

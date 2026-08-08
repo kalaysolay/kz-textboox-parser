@@ -1,0 +1,19 @@
+{
+  "kind": "angle",
+  "width": 480,
+  "height": 400,
+  "cx": 200,
+  "cy": 300,
+  "rayLength": 250,
+  "vertexLabel": "O",
+  "rays": [
+    { "label": "D", "deg": 5 },
+    { "label": "C", "deg": 95 }
+  ],
+  "showArc": false,
+  "triangleOverlay": {
+    "legA": { "deg": 5, "t": 0.62 },
+    "legB": { "deg": 95, "t": 0.62 }
+  },
+  "vertexOffset": { "x": -16, "y": 10 }
+}

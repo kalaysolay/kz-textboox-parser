@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-ugol-gradusnaya-mera-20260805-0019",
+  "reviewedAt": "2026-08-05T00:45:00+05:00",
+  "summary": {
+    "total": 15,
+    "accepted": 15,
+    "fixed": 0,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "Угол — фигура из двух лучей с общим началом",
+      "keyAnswer": "C — Угол — это фигура, образованная двумя лучами, имеющими общее начало",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "Стороны — лучи OA и OB, вершина — точка O",
+      "keyAnswer": "A — Стороны — лучи OA и OB, вершина — точка O",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "1/180 развёрнутого угла",
+      "keyAnswer": "D — $\\frac{1}{180}$ развёрнутого угла",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "70° (42 + 28 = 70)",
+      "keyAnswer": "B — $70^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "76° (2 · 38 = 76)",
+      "keyAnswer": "A — $76^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "Верно (точки сторон и внутренней области принадлежат углу; внешняя область — нет)",
+      "keyAnswer": "C — Верно",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "125° (180 − 55 = 125)",
+      "keyAnswer": "D — $125^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "Только ∠AOB (буква вершины в середине)",
+      "keyAnswer": "B — Только $\\angle AOB$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "180°, развёрнутый угол",
+      "keyAnswer": "A — $180^\\circ$, развёрнутый угол",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "30° (x + (x + 40) = 100 → 2x = 60 → x = 30)",
+      "keyAnswer": "C — $30^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "A и C",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "A и C",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "A, B, D (COD = 20°, DOB = 30°, AOC = 60°; COD ≠ 130°)",
+      "keyAnswer": "A, B, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "70 (2 · 35 = 70)",
+      "keyAnswer": "[[1]] = 70",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "50 ((180 − 80) / 2 = 50)",
+      "keyAnswer": "[[1]] = 50",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

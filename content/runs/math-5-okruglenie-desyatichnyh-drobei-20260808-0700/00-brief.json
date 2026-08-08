@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-okruglenie-desyatichnyh-drobei-20260808-0700",
+  "createdAt": "2026-08-08T07:00:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "Округление десятичных дробей",
+  "topicKk": "Ондық бөлшектерді дөңгелектеу",
+  "topicSlug": "okruglenie-desyatichnyh-drobei",
+  "topicCode": "4.11",
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 30,
+  "typeMix": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMix": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "illustrationPolicy": "visual-topics",
+  "illustrationFor": [],
+  "parsedTextbookPath": "Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+  "methodistInstruction": "Topic 4.11, pages ~82–88. pdfOffset=0. If recommendedMaxCount < 30, reduce count keeping ~60/30/10. Avoid duplicate_body vs other runs' 05. Rounding to whole / tenths / hundredths / thousandths; rules of rounding.",
+  "languageMode": "BOTH"
+}

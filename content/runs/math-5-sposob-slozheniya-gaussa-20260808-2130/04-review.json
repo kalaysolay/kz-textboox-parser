@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-sposob-slozheniya-gaussa-20260808-2130",
+  "reviewedAt": "2026-08-08T18:45:00+05:00",
+  "summary": {
+    "total": 10,
+    "accepted": 10,
+    "fixed": 0,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "5050 (50 пар по 101)",
+      "keyAnswer": "B — 5050",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "40 пар по 81",
+      "keyAnswer": "C — 40 пар по 81",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "355 (5 пар по 71)",
+      "keyAnswer": "A — 355",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "5 (число пар)",
+      "keyAnswer": "D — 5",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "нужно 5 пар, а не 10 (верно 33·5=165)",
+      "keyAnswer": "A — Нужно 5 пар, а не 10",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "18 (ряд 14…18, сумма 80)",
+      "keyAnswer": "B — 18",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "A, C",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "A, B (12…21=165; 25…30=165; 15…20=105; 11…20=155)",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "A, B (сумма 45; последняя 11; первая+последняя=18 ≠ 16)",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "1830 (30 пар по 61)",
+      "keyAnswer": "[[1]] = 1830",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

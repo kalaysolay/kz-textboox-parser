@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-umnozhenie-des-drobi-na-nat-chislo-20260808-0400",
+  "createdAt": "2026-08-08T04:00:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "Умножение десятичной дроби на натуральное число",
+  "topicKk": "Ондық бөлшекті натурал санға көбейту",
+  "topicSlug": "umnozhenie-des-drobi-na-nat-chislo",
+  "topicCode": "4.5",
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 30,
+  "typeMix": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMix": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "illustrationPolicy": "visual-topics",
+  "illustrationFor": [],
+  "parsedTextbookPath": "Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+  "pdfOffset": 0,
+  "methodistInstruction": "Новый прогон на 30 (старый math-5-umnozhenie-des-drobi-na-nat-chislo-20260804-1400 был 12 ready-unverified). Предпочитать PDF verbatim. Избегать near-duplicate stems относительно старого 05. Тема вычислительная: needsIllustration обычно false. pdfOffset=0.",
+  "languageMode": "BOTH"
+}

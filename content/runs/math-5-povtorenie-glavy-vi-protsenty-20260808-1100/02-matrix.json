@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-povtorenie-glavy-vi-protsenty-20260808-1100",
+  "typeMixPlanned": { "SCQ": 7, "MCQ": 4, "FILL_IN": 1 },
+  "difficultyMixPlanned": { "1": 1, "2": 2, "3": 6, "4": 2, "5": 1 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Узнавание правила нахождения процентов от числа",
+      "stemIdea": "Выбрать формулировку повторения: чтобы найти P% от a, проценты выражают дробью и умножают данное число на эту дробь (не деление «число по процентам»)",
+      "trapIdeas": [
+        "Ученик выбирает правило нахождения числа по его процентам (деление части на дробь)",
+        "Ученик считает, что достаточно разделить число на 100 и остановиться",
+        "Ученик думает, что проценты прибавляют к числу без перевода в дробь"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["RC_p130_percent_of_number"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Вычисление P% от данного числа",
+      "stemIdea": "Сюжет склада/урожая: найти P% от целой массы или партии (свежие числа, не 28·75% и не сушка груш 80% от 30 кг)",
+      "trapIdeas": [
+        "Ученик умножает a на P и не делит на 100",
+        "Ученик делит a на P/100 (ищет целое по проценту — навык 6.3)",
+        "Ученик берёт (100−P)% вместо запрошенных P%"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["RC_p130_percent_of_number"],
+      "sourceExampleRefs": ["p130#1171"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Выбор действия для числа по его процентам без полного счёта",
+      "stemIdea": "По смыслу «P% числа равны b, найти число» указать нужное действие (b:(P/100) или через 1%), не доводя вычисление до ответа",
+      "trapIdeas": [
+        "Ученик выбирает умножение b на P/100 (правило «проценты от числа»)",
+        "Ученик выбирает умножение b на P без перевода в дробь",
+        "Ученик выбирает деление b на P без последующего ·100"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["RC_p130_number_by_percent"],
+      "sourceExampleRefs": ["p130#1172"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Целое по проценту остатка пути или запаса",
+      "stemIdea": "Пройдено/израсходовано P%; остаток равен b = (100−P)% — найти всю длину или весь запас (контекст музей/поход/топливо; не 90 км после 40% и не 18=60% класса)",
+      "trapIdeas": [
+        "Ученик принимает остаток за P% и делит b на P/100",
+        "Ученик умножает b на (100−P)/100 вместо деления",
+        "Ученик складывает остаток с P как именованной величиной"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["RC_p130_number_by_percent"],
+      "sourceExampleRefs": ["p131#1179"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Проверка однократного изменения цены на P%",
+      "stemIdea": "Среди готовых равенств выбрать верную новую цену после повышения или понижения на P% (цена ≠760 тг; проценты ≠15%/30%)",
+      "trapIdeas": [
+        "Ученик принимает за новую цену только величину P% без прибавления/вычитания",
+        "Ученик путает знак: повышение считает через (1−P/100)",
+        "Ученик принимает a ± P как изменение на P% (P как именованное число)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["RC_p131_percent_change"],
+      "sourceExampleRefs": ["p131#1176"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Восстановление множителя в двухшаговом %−изменении",
+      "stemIdea": "В цепочке «цена ·(1±P₁/100)·(1±P₂/100)» пропущен один множитель — восстановить его (не копировать 600·0,9·0,8)",
+      "trapIdeas": [
+        "Ученик подставляет множитель от исходной цены вместо множителя ко второй новой цене",
+        "Ученик складывает проценты в один суммарный множитель 1±(P₁+P₂)/100",
+        "Ученик путает знак второго изменения (+ вместо − или наоборот)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["RC_p131_successive_percent"],
+      "sourceExampleRefs": ["p131#1178", "p131#1180"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Изменение произведения при +P% и −P% у множителей",
+      "stemIdea": "Сравнить верное утверждение о произведении при увеличении одного множителя на P% и уменьшении другого на тот же P% с ложными «не изменится / изменится на P%» (P≠30% или иной контекст формулировки)",
+      "trapIdeas": [
+        "Ученик считает, что произведение не изменится, потому что +P% и −P% «компенсируют»",
+        "Ученик думает, что произведение изменится ровно на P%",
+        "Ученик путает относительное изменение произведения с изменением суммы множителей"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["RC_p131_product_percent_change"],
+      "sourceExampleRefs": ["p131#1175"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q08",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные утверждения о последовательных процентных изменениях",
+      "stemIdea": "Отметить все верные высказывания: второе изменение применяют к уже изменённой величине; суммирование процентов за один шаг неэквивалентно",
+      "trapIdeas": [
+        "Ученик отмечает как верное «оба процента берут от исходной цены»",
+        "Ученик считает эквивалентным замену двух шагов одним процентом P₁+P₂",
+        "Ученик отвергает верный множитель (1±P₁/100)·(1±P₂/100) как «слишком сложный»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["RC_p131_successive_percent"],
+      "sourceExampleRefs": ["p131#1180", "p131#1181"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q09",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Все верные записи однократного ±P% к величине",
+      "stemIdea": "Отметить все корректные равенства для новой величины после повышения или понижения на P% (через 1±P/100 и через «найти P% и ±»)",
+      "trapIdeas": [
+        "Ученик отмечает a·P/100 как новую цену после повышения",
+        "Ученик отмечает a·(1−P) при P в процентах без /100",
+        "Ученик отмечает деление a:(1+P/100) как прямой путь к повышению"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["RC_p131_percent_change"],
+      "sourceExampleRefs": ["p131#1176"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q10",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Цепочка: процент от остатка (промежуточные остатки)",
+      "stemIdea": "Отметить все верно найденные промежуточные/конечные остатки, когда сначала берут P% всего, затем Q% оставшегося (контекст цистерн/склада иной, чем 30×16½ т и 30%/80%)",
+      "trapIdeas": [
+        "Ученик берёт второй процент от исходного целого, а не от остатка",
+        "Ученик складывает P% и Q% и берёт сумму от исходного",
+        "Ученик после первого дня выдаёт отправленное за остаток"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["RC_p132_remainder_chain"],
+      "sourceExampleRefs": ["p132#1182"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q11",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Обратный ход по цепочке долей остатка",
+      "stemIdea": "После двух (или трёх) последовательных взятий долей/процентов от остатка известен конечный остаток — отметить все верные шаги/множители восстановления исходного или верный конечный остаток при прямом ходе (площадь/делянка, не клон 850 га 60%/70%/⅔)",
+      "trapIdeas": [
+        "Ученик откатывает доли от исходного одним суммарным процентом",
+        "Ученик умножает конечный остаток на долю вместо деления при обратном ходе",
+        "Ученик применяет вторую/третью долю к исходному целому, а не к текущему остатку"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["RC_p132_remainder_chain"],
+      "sourceExampleRefs": ["p132#1183"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q12",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Итоговая цена после двух последовательных %−изменений",
+      "stemIdea": "Вписать последнюю цену товара после двух последовательных понижений или понижения и повышения (числа ≠600/10%/20%, ≠3750/14%/8%, ≠6400/15%/20%)",
+      "trapIdeas": [
+        "Ученик применяет оба процента к исходной цене и складывает изменения",
+        "Ученик заменяет два шага одним процентом P₁+P₂ или |P₁−P₂|",
+        "Ученик верно считает первый шаг, но второй берёт снова от исходной цены"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["RC_p131_successive_percent"],
+      "sourceExampleRefs": ["p131#1180"],
+      "questionForm": "compute"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready_unverified",
+    "unverifiedRuleIds": [
+      "RC_p130_percent_of_number",
+      "RC_p130_number_by_percent",
+      "RC_p131_percent_change",
+      "RC_p131_successive_percent",
+      "RC_p132_remainder_chain",
+      "RC_p131_product_percent_change"
+    ]
+  },
+  "notes": "Supplementary повтор главы VI (стр. 130–132): все слоты на RC_* primary; prerequisite R011–R013 и PDF_p130_kf только в trapIdeas (путаница 6.1–6.3), не в sourceRuleIds. Микс навыков: % от числа (q01–q02), число по % (q03–q04), однократное ±% (q05,q09), successive (q06,q08,q12), remainder-chain (q10–q11), product ±P% (q07). TypeMix SCQ7/MCQ4/FILL_IN1 и difficulty 1:1/2:2/3:6/4:2/5:1 = brief. questionForm ≤2: recall×2, compute×2, predict×1, verify×2, restore×1, compare×1, word_problem×2, inverse×1. illustrationPolicy=visual-topics: needsIllustration везде false — процентный расчёт полон текстом. sliceStatus ready_unverified → unverifiedRuleIds = все шесть RC_*; на финале meta.sourceReliability=unverified_reconstruction. Anti-dup vs …-protsentov-ot-chisla-20260808-1000 и …-chisla-po-protsentam-20260808-1030: свежие числа/контексты; не клонировать 1171–1183 дословно. №1184 usable=false — вне пачки."
+}

@@ -1,0 +1,523 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-protsenty-20260808-1200",
+  "typeMixPlanned": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMixPlanned": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Узнавание определения процента",
+      "stemIdea": "Выбрать верное определение: один процент — одна сотая часть целого (1% = 1/100)",
+      "trapIdeas": [
+        "Ученик считает, что 1% — это одна десятая часть",
+        "Ученик путает процент с половиной целого",
+        "Ученик думает, что процент — любое число со знаком %"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["R011"],
+      "sourceExampleRefs": ["p113#self", "p117#KF"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Целое равно 100%",
+      "stemIdea": "Выбрать верное утверждение: вся величина равна 100%",
+      "trapIdeas": [
+        "Ученик считает, что целое равно 1%",
+        "Ученик думает, что целое равно 10%",
+        "Ученик принимает целое за 50%"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p111_1"],
+      "sourceExampleRefs": ["p111#fig6.1"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Проценты → десятичная дробь (опорные)",
+      "stemIdea": "Записать опорный процент (например 25% или 50%) десятичной дробью",
+      "trapIdeas": [
+        "Ученик делит на 10 вместо 100 (25% → 2,5)",
+        "Ученик пишет числитель без запятой (25% → 25)",
+        "Ученик путает с обратным переводом (0,25 → 25 без деления)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p112_1"],
+      "sourceExampleRefs": ["p113#1087", "p112#table"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Обыкновенная дробь → проценты (опорные)",
+      "stemIdea": "Записать опорную дробь (1/2, 1/4, 1/5) в процентах",
+      "trapIdeas": [
+        "Ученик делит дробь на 100 вместо умножения",
+        "Ученик берёт знаменатель как проценты (1/4 → 4%)",
+        "Ученик путает 1/4 с 40%"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p113_1"],
+      "sourceExampleRefs": ["p113#1088", "p112#table"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Смысл записи P% без вычисления",
+      "stemIdea": "Не вычисляя, указать, что P% означает P сотых частей целого",
+      "trapIdeas": [
+        "Ученик думает, что P% — это P десятых",
+        "Ученик считает, что P% всегда меньше 1",
+        "Ученик путает число процентов с самой дробью P без /100"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["R011"],
+      "sourceExampleRefs": ["p113#1086", "p111#def"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Восстановление формулы 1% = 1/100 = 0,01",
+      "stemIdea": "В равенстве 1% = □/100 = 0,01 восстановить пропущенное число или звено",
+      "trapIdeas": [
+        "Ученик подставляет 10 вместо 1 в числителе",
+        "Ученик пишет 0,1 вместо 0,01",
+        "Ученик меняет местами 1% и 100%"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["R011"],
+      "sourceExampleRefs": ["p111#def", "p117#KF"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Проценты → обыкновенная дробь с сокращением",
+      "stemIdea": "Выразить процент (15%, 20%, 35%) обыкновенной дробью в простейшем виде",
+      "trapIdeas": [
+        "Ученик оставляет дробь несокращённой (15/100)",
+        "Ученик сокращает неверно (15% → 1/5)",
+        "Ученик делит на 10 и получает десятичную вместо обыкновенной"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p112_1"],
+      "sourceExampleRefs": ["p112#ex", "p114#1094"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Доля a/b величины → проценты",
+      "stemIdea": "В сюжете «доля книг/продукта a/b» найти, сколько это процентов от целого",
+      "trapIdeas": [
+        "Ученик умножает a на b вместо (a/b)·100%",
+        "Ученик берёт a% или b% напрямую",
+        "Ученик делит 100 на a без учёта знаменателя"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p113_1"],
+      "sourceExampleRefs": ["p112#task", "p114#1097"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Проверка равенств percent ↔ дробь",
+      "stemIdea": "Среди готовых равенств выбрать верное (например 0,4 = 40% или 7% = 0,07)",
+      "trapIdeas": [
+        "Ученик принимает верным 0,4 = 4% (потеря разряда)",
+        "Ученик принимает верным 7% = 0,7",
+        "Ученик путает направление: считает 40% = 0,004"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p112_1", "PDF_p113_1"],
+      "sourceExampleRefs": ["p113#ex", "p117#KF"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сравнение процента и дроби одной величины",
+      "stemIdea": "Сравнить две записи одной величины (например 0,2 и 25% или 1/5 и 15%) — какая больше",
+      "trapIdeas": [
+        "Ученик сравнивает числа «как написано» без перевода в одну форму",
+        "Ученик считает любой процент больше любой правильной дроби",
+        "Ученик путает 20% с 0,2 при сравнении с 25%"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p112_1", "PDF_p113_1"],
+      "sourceExampleRefs": ["p112#table"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Пропуск в опорной таблице % ↔ дробь",
+      "stemIdea": "В строке опорной таблицы (10%, 20%, 25%, 50%, 75%) восстановить пропущенную дробь или процент",
+      "trapIdeas": [
+        "Ученик подставляет соседнее значение таблицы",
+        "Ученик путает 20% = 1/5 с 25% = 1/4",
+        "Ученик пишет десятичную вместо обыкновенной (или наоборот), не ту форму"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p112_1"],
+      "sourceExampleRefs": ["p112#table"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Дополнение процента до 100%",
+      "stemIdea": "Часть пути/работы выполнена на P%; сколько процентов осталось (100% − P%)",
+      "trapIdeas": [
+        "Ученик складывает P% с 100% вместо вычитания",
+        "Ученик берёт сам P% как ответ на «остаток»",
+        "Ученик делит 100 на P"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p111_1"],
+      "sourceExampleRefs": ["p114#1091", "p111#fig6.1"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Смысл процентов больше 100%",
+      "stemIdea": "Не вычисляя подробно, указать, что запись вида 120% или 200% означает величину больше целого",
+      "trapIdeas": [
+        "Ученик считает, что проценты не бывают больше 100",
+        "Ученик думает, что 200% = 2% ",
+        "Ученик путает 120% с 0,12"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p112_1", "PDF_p113_1"],
+      "sourceExampleRefs": ["p112#ex", "p113#ex"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сравнение десятичной и процентной записи",
+      "stemIdea": "Сравнить десятичную и процент (например 0,08 и 8%; 1,3 и 130%) — равны ли, что больше",
+      "trapIdeas": [
+        "Ученик сравнивает «как написано» без перевода (1,3 < 130)",
+        "Ученик считает 0,08 больше 8%, путая разряд",
+        "Ученик для чисел >1 считает процент всегда меньше десятичной"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p113_1", "PDF_p112_1"],
+      "sourceExampleRefs": ["p113#ex", "p117#KF"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Связь 1% величины и целого (×100)",
+      "stemIdea": "Известен 1% числа (простая дробь или десятичная); восстановить 100% числа",
+      "trapIdeas": [
+        "Ученик делит значение 1% на 100 вместо умножения",
+        "Ученик умножает на 10",
+        "Ученик принимает данный 1% за ответ «целое»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["R011", "PDF_p111_1"],
+      "sourceExampleRefs": ["p114#1089"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Доля объёма → % наполнения и пустоты",
+      "stemIdea": "Сосуд наполнен на a/b; найти процент наполнения и процент пустого объёма; что принято за 100%",
+      "trapIdeas": [
+        "Ученик находит только долю наполнения и забывает пустоту",
+        "Ученик принимает пустую часть за 100%",
+        "Ученик вычитает числители без перевода в проценты"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p113_1", "PDF_p111_1"],
+      "sourceExampleRefs": ["p114#1090"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Итоговый процент при перевыполнении/недовыполнении",
+      "stemIdea": "План выполнен с перевыполнением на P% или недовыполнением на Q%; сколько процентов плана выполнено (100% ± …)",
+      "trapIdeas": [
+        "Ученик отвечает самим P% перевыполнения вместо 100%+P%",
+        "Ученик вычитает при перевыполнении",
+        "Ученик ищет абсолютное значение задания (уходит в 6.2)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p111_1"],
+      "sourceExampleRefs": ["p115#1099"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 5,
+      "skillFocus": "Смысл «увеличить на P%» и кратность",
+      "stemIdea": "По смыслу «площадь увеличили на 200% / чтобы стало в 2 раза» выбрать верную кратность или нужный процент увеличения",
+      "trapIdeas": [
+        "Ученик считает «увеличить на 200%» как «увеличить в 2 раза»",
+        "Ученик думает, что для удвоения нужно увеличить на 200%",
+        "Ученик путает итоговый множитель с самим P%"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p111_1", "PDF_p113_1"],
+      "sourceExampleRefs": ["p116#1105"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные формулировки определения процента",
+      "stemIdea": "Отметить все верные утверждения: 1% = 1/100 = 0,01; знак %; процент — сотая часть целого",
+      "trapIdeas": [
+        "Ученик отмечает 1% = 1/10 как верное",
+        "Ученик отмечает 1% = 0,1",
+        "Ученик отвергает запись со знаком % как равносильную слову «процент»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["R011"],
+      "sourceExampleRefs": ["p113#self", "p117#KF"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Узнавание опорных равенств без полного перевода",
+      "stemIdea": "Отметить все верные опорные равенства из ряда 10%=0,1; 25%=1/4; 50%=1/2; 75%=3/4; 100%=1",
+      "trapIdeas": [
+        "Ученик отмечает 25% = 1/5",
+        "Ученик отмечает 20% = 1/4",
+        "Ученик отмечает 75% = 3/5"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p112_1"],
+      "sourceExampleRefs": ["p112#table"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Чтение и смысл процентных высказываний",
+      "stemIdea": "Отметить все верные толкования фраз вида «в продукте содержится P% воды/сахара» как доли целого",
+      "trapIdeas": [
+        "Ученик понимает P% как P единиц массы без доли",
+        "Ученик считает, что остаток обязательно 100% − P% другого вещества одного вида",
+        "Ученик путает «содержится P%» с «увеличили на P%»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["R011", "PDF_p112_1"],
+      "sourceExampleRefs": ["p113#1086", "p115#1098"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Отбор верных переводов % → дробь/десятичная",
+      "stemIdea": "Отметить все верные записи данного набора процентов обыкновенной и/или десятичной дробью",
+      "trapIdeas": [
+        "Ученик отмечает вариант с делением на 10",
+        "Ученик отмечает несокращённую дробь как единственно верную и отвергает сокращённую",
+        "Ученик для >100% пишет дробь меньше 1"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p112_1"],
+      "sourceExampleRefs": ["p113#1087", "p114#1094"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Состав целого из нескольких процентов",
+      "stemIdea": "В сюжете «части смеси/сухофруктов заданы процентами» отметить верные выводы о доле остатка и о том, что принято за 100%",
+      "trapIdeas": [
+        "Ученик складывает не все данные части и ошибается в остатке",
+        "Ученик принимает одну из частей за 100%",
+        "Ученик ищет килограммы частей (уходит в 6.2)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p111_1"],
+      "sourceExampleRefs": ["p114#1092"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Обратный перевод: по дроби/десятичной найти %",
+      "stemIdea": "Отметить все верно найденные проценты для набора дробей и десятичных (в т.ч. >1)",
+      "trapIdeas": [
+        "Ученик делит на 100 вместо умножения",
+        "Ученик для смешанной числа берёт только дробную часть",
+        "Ученик пишет ответ без знака % или теряет разряд"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p113_1"],
+      "sourceExampleRefs": ["p114#1095", "p113#1088"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Отношение геометрических величин → проценты",
+      "stemIdea": "Отметить верные ответы: радиус от диаметра; сторона квадрата от периметра — в процентах",
+      "trapIdeas": [
+        "Ученик берёт диаметр от радиуса (200%) вместо 50%",
+        "Ученик считает сторону от периметра 50% или 100%",
+        "Ученик путает периметр с площадью"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p113_1"],
+      "sourceExampleRefs": ["p114#1096"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Итоговая цена как процент от исходной",
+      "stemIdea": "Отметить все верные итоговые проценты цены после повышения/понижения на P% от исходных 100%",
+      "trapIdeas": [
+        "Ученик отвечает самим P% вместо 100%±P%",
+        "Ученик при понижении прибавляет процент",
+        "Ученик вычисляет новую цену в тенге (уходит в 6.2)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p111_1"],
+      "sourceExampleRefs": ["p116#1106"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Доли отрезка в процентах от целого",
+      "stemIdea": "По описанию: AD = 75% AB, CB = 60% AB; отметить верный процент длины CD от AB (перекрытие долей)",
+      "trapIdeas": [
+        "Ученик складывает 75% и 60% (135%)",
+        "Ученик вычитает |75−60|=15% вместо 75+60−100",
+        "Ученик отвечает 100% − 75% = 25%"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p111_1"],
+      "sourceExampleRefs": ["p115#1101"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Запись процента десятичной дробью",
+      "stemIdea": "Вписать десятичную запись одного процента из ряда уровня A (6%, 10%, 120%)",
+      "trapIdeas": [
+        "Ученик делит на 10",
+        "Ученик для 120% пишет 0,12",
+        "Ученик оставляет ответ со знаком %"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p112_1"],
+      "sourceExampleRefs": ["p113#1087"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "skillFocus": "Восстановление процента по обыкновенной дроби",
+      "stemIdea": "Вписать процент для дроби уровня B (17/20, 11/25, 21/50) — однозначный числовой ответ",
+      "trapIdeas": [
+        "Ученик умножает числитель на знаменатель",
+        "Ученик делит 100 на знаменатель и забывает числитель",
+        "Ученик оставляет ответ обыкновенной дробью"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p113_1"],
+      "sourceExampleRefs": ["p114#1095", "p117#KF"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Процент → дробь состава в контексте",
+      "stemIdea": "Дан процент состава (соль/океан); вписать, какую часть составляет величина — ответ дробью или десятичной в одной форме",
+      "trapIdeas": [
+        "Ученик умножает процент на 100",
+        "Ученик пишет P/10 вместо P/100",
+        "Ученик отвечает процентом вместо дроби"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p112_1"],
+      "sourceExampleRefs": ["p115#1098"],
+      "questionForm": "inverse"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "Пачка только на 6.1 (стр. 111–117): primary R011 (определение), PDF_p111_1 (целое=100%), PDF_p112_1 (%→дробь), PDF_p113_1 (дробь→%). TypeMix SCQ18/MCQ9/FILL_IN3 и difficulty 1:2/2:4/3:15/4:6/5:3: SCQ q01–q18 (d1×2, d2×4, d3×9, d4×2, d5×1), MCQ q19–q27 (d3×5, d4×3, d5×1), FILL_IN q28–q30 (d3/d4/d5). Scope: определение %, 1%=1/100=0,01, %↔дробь/десятичная, дополнение до 100%, смысл 100%±P% и «увеличить на %» без нахождения P% от числа. Нет skillFocus «найти P% от a» (6.2) и «найти число по %» (6.3). Упр. 1093/1111 не брать. illustrationPolicy=visual-topics: needsIllustration 0/30 — определения и переводы полны текстом; сектора/сетка (1085, 1104) не ставим как stem-рисунок (доли задаём словами). G017: при count=30 лимит ≤2 на форму нереален — recall×4, compute×4, predict×4, verify×4, restore×4, word_problem×4, compare×3, inverse×3. compare: q10 доля vs %, q14 десятичная vs %, q27 доли отрезка. recommendedMaxCount=null — 30 по материалу ок. Свежие числа в стиле 1087–1098; anti-dup vs 6.2/6.3 и повтор гл.VI."
+}

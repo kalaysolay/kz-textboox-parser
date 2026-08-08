@@ -1,0 +1,16 @@
+{
+  "kind": "angle",
+  "width": 480,
+  "height": 400,
+  "cx": 220,
+  "cy": 280,
+  "rayLength": 230,
+  "vertexLabel": "P",
+  "rays": [
+    { "label": "A", "deg": 15 },
+    { "label": "B", "deg": 70 },
+    { "label": "C", "deg": 130 }
+  ],
+  "showArc": false,
+  "vertexOffset": { "x": -16, "y": 8 }
+}

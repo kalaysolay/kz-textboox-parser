@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-parallelepiped-razvertka-20260808-1630",
+  "reviewedAt": "2026-08-08T13:50:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 28,
+    "fixed": 2,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "6",
+      "keyAnswer": "B - 6",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита <=2 - recall x4, predict x4, compare x3, compute x4, restore x4, verify x4, word_problem x4, inverse x3. Стемы внутри формы разные; не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "все измерения одинаковы",
+      "keyAnswer": "C - Тот, у которого все измерения одинаковы",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "8",
+      "keyAnswer": "D - 8",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "противоположные грани равны",
+      "keyAnswer": "C - Противоположные грани равны",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "108 (12*9)",
+      "keyAnswer": "D - $108$ см",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "6 (24:4)",
+      "keyAnswer": "B - $6$ см",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "плоская фигура из прямоугольников-граней определённым образом",
+      "keyAnswer": "C - Плоская фигура из прямоугольников-граней, расположенных определённым образом",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "11",
+      "keyAnswer": "B - 11",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "12 рёбер, 8 вершин, 6 граней",
+      "keyAnswer": "B - 12 рёбер, 8 вершин, 6 граней",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "кирпич",
+      "keyAnswer": "C - Кирпич",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "у куба грань - квадрат; у параллелепипеда - прямоугольник не всегда квадрат",
+      "keyAnswer": "B - У куба грань - квадрат; у параллелепипеда - прямоугольник, не всегда квадрат",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "ребро",
+      "keyAnswer": "C - Ребро",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "fixed",
+      "solvedAnswer": "4 см (ширина по подписи)",
+      "keyAnswer": "D - $4$ см",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "answer_leak_in_body",
+          "severity": "major",
+          "message": "В stem были числа «длина 7, ширина 4, высота 3», а вопрос спрашивал ширину — ответ читался из условия."
+        }
+      ],
+      "fixApplied": "Убраны числовые значения из условия; ответ читается с рисунка (options без изменений)."
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "фигура 2 (по ключу/объяснению; зависит от рисунка)",
+      "keyAnswer": "B - Фигура 2",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "грань с ромбом (противоположная верхней; зависит от рисунка)",
+      "keyAnswer": "C - Грань с ромбом",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "status": "accepted",
+      "solvedAnswer": "2 см (6:3)",
+      "keyAnswer": "C - $2$ см",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "94 (2(20+12+15))",
+      "keyAnswer": "D - $94$ см$^2$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "512 (4(11+7+6)=96; a=8; 8^3)",
+      "keyAnswer": "C - $512$ см$^3$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A и C (6 граней; 12 рёбер)",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "fixed",
+      "solvedAnswer": "A и C (противоположные грани равны; 6 равных квадратов куба)",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "duplicate_body",
+          "severity": "blocker",
+          "message": "Точное совпадение bodyRu «Выберите все верные утверждения.» с принятыми вопросами других тем (G018)."
+        }
+      ],
+      "fixApplied": "Добавлен тематический якорь в stem (грани параллелепипеда и куба); опции и ключ без изменений."
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "A и C (куб - прямоугольный параллелепипед; 6 граней)",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "A и B (M и N верны; зависит от рисунка)",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "A и C (фигуры 1 и 3; зависит от рисунка)",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "A и C (60; 24). B=48!=24; D=40!=36",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A и C (цветок нижняя; капля боковая; зависит от рисунка)",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "A и B (рёбра длины a)",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "A и B (P~R, Q~S; зависит от рисунка)",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "84 (12*7)",
+      "keyAnswer": "[[1]] = 84",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "accepted",
+      "solvedAnswer": "600 (ребро 10; 6*100)",
+      "keyAnswer": "[[1]] = 600",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "416 (a+b+c=25; b=8; c=4; a=13; 13*8*4)",
+      "keyAnswer": "[[1]] = 416",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [
+    {
+      "localId": "q20",
+      "conflictsWith": "content/runs/math-5-desyatichnaya-drob-chtenie-zapis-20260808-0200/05-questions.final.json#q27",
+      "normalizedBody": "выберите все верные утверждения"
+    },
+    {
+      "localId": "q20",
+      "conflictsWith": "content/runs/math-5-izobrazhenie-des-drobi-na-luche-20260808-0300/05-questions.final.json#q30",
+      "normalizedBody": "выберите все верные утверждения"
+    },
+    {
+      "localId": "q20",
+      "conflictsWith": "content/runs/math-5-sravnenie-vidy-uglov-20260808-1330/05-questions.final.json#q27",
+      "normalizedBody": "выберите все верные утверждения"
+    }
+  ],
+  "verdict": "ready_for_import"
+}

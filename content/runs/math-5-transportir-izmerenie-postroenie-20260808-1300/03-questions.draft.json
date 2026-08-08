@@ -1,0 +1,614 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-transportir-izmerenie-postroenie-20260808-1300",
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "math-5-transportir-izmerenie-postroenie-20260808-1300",
+    "generatedAt": "2026-08-08T13:20:00+05:00",
+    "subjectTitleRu": "Математика",
+    "subjectTitleKk": "Математика",
+    "gradeNo": 5,
+    "topicCode": "7.2",
+    "topicTitleRu": "Транспортир. Измерение и построение углов",
+    "topicTitleKk": "Транспортир. Бұрыштарды өлшеу және салу",
+    "topicSlug": "transportir-izmerenie-postroenie",
+    "atomicSkillTitleRu": null,
+    "textbookRef": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+    "illustrationPolicy": "visual-topics",
+    "sourceReliability": "verbatim"
+  },
+  "questions": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "bodyRu": "Для чего служит транспортир?",
+      "bodyKk": "Транспортир не үшін керек?",
+      "explanationRu": "Транспортир применяют для измерения углов и для построения угла с заданной градусной мерой.",
+      "explanationKk": "Транспортир бұрыштарды өлшеуге және берілген градустық өлшемі бар бұрышты салуға қолданылады.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Только для измерения длин отрезков", "textKk": "Тек кесінділердің ұзындығын өлшеу үшін", "correct": false },
+        { "label": "B", "textRu": "Для измерения и построения углов", "textKk": "Бұрыштарды өлшеу және салу үшін", "correct": true },
+        { "label": "C", "textRu": "Только для построения прямого угла угольником", "textKk": "Тек тік бұрышты сызғыш-бұрыштықпен салу үшін", "correct": false },
+        { "label": "D", "textRu": "Только для черчения окружностей", "textKk": "Тек шеңбер сызу үшін", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p139_1"]
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "bodyRu": "Какой диапазон имеет градусная шкала транспортира и чему равно его наименьшее деление?",
+      "bodyKk": "Транспортирдің градустық шкаласының аралығы қандай және оның ең кіші бөлігі неге тең?",
+      "explanationRu": "На полуокружности транспортира шкала от $0^\\circ$ до $180^\\circ$; каждое наименьшее деление равно $1^\\circ$.",
+      "explanationKk": "Транспортирдің жартышеңберінде шкала $0^\\circ$-тан $180^\\circ$-қа дейін; ең кіші бөлік $1^\\circ$-қа тең.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "От $0^\\circ$ до $360^\\circ$, наименьшее деление $1^\\circ$", "textKk": "$0^\\circ$-тан $360^\\circ$-қа дейін, ең кіші бөлік $1^\\circ$", "correct": false },
+        { "label": "B", "textRu": "От $1^\\circ$ до $180^\\circ$, наименьшее деление $5^\\circ$", "textKk": "$1^\\circ$-тан $180^\\circ$-қа дейін, ең кіші бөлік $5^\\circ$", "correct": false },
+        { "label": "C", "textRu": "От $0^\\circ$ до $180^\\circ$, наименьшее деление $1^\\circ$", "textKk": "$0^\\circ$-тан $180^\\circ$-қа дейін, ең кіші бөлік $1^\\circ$", "correct": true },
+        { "label": "D", "textRu": "От $0^\\circ$ до $180^\\circ$, наименьшее деление $10^\\circ$", "textKk": "$0^\\circ$-тан $180^\\circ$-қа дейін, ең кіші бөлік $10^\\circ$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p139_1"]
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Нужно отметить на шкале транспортира $45^\\circ$. Не пересчитывая все штрихи по $1^\\circ$, каким крупным делением удобнее всего воспользоваться?",
+      "bodyKk": "Транспортир шкаласында $45^\\circ$ белгілеу керек. Барлық $1^\\circ$-тық штрихтарды санамай, қай ірі бөлікті пайдаланған ыңғайлы?",
+      "explanationRu": "На транспортире есть деления по $5^\\circ$ и по $10^\\circ$. Число $45$ кратно $5$, но не кратно $10$, поэтому удобны деления по $5^\\circ$.",
+      "explanationKk": "Транспортирде $5^\\circ$ және $10^\\circ$ бойынша бөліктер бар. $45$ саны $5$-ке бөлінеді, бірақ $10$-ға бөлінбейді, сондықтан $5^\\circ$-тық бөліктер ыңғайлы.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Делениями по $10^\\circ$", "textKk": "$10^\\circ$ бойынша бөліктермен", "correct": false },
+        { "label": "B", "textRu": "Делениями по $5^\\circ$", "textKk": "$5^\\circ$ бойынша бөліктермен", "correct": true },
+        { "label": "C", "textRu": "Только делениями по $45^\\circ$", "textKk": "Тек $45^\\circ$ бойынша бөліктермен", "correct": false },
+        { "label": "D", "textRu": "Делениями по $90^\\circ$", "textKk": "$90^\\circ$ бойынша бөліктермен", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p139_1"]
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "На рисунке показаны два способа наложения транспортира на угол $AOB$. На каком из них центр совпал с вершиной $O$, а сторона $OA$ прошла через начало отсчёта шкалы?",
+      "bodyKk": "Суретте транспортирді $AOB$ бұрышына қоюдың екі тәсілі көрсетілген. Қайсында центр $O$ төбесімен сәйкес келген және $OA$ қабырғасы шкаланың есеп басынан өткен?",
+      "explanationRu": "При измерении центр транспортира совмещают с вершиной угла, а одну сторону проводят через начало отсчёта на шкале.",
+      "explanationKk": "Өлшегенде транспортир центрін бұрыш төбесімен сәйкестендіреді, ал бір қабырғаны шкаланың есеп басынан өткізеді.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Только схема 1", "textKk": "Тек 1-схема", "correct": true },
+        { "label": "B", "textRu": "Только схема 2", "textKk": "Тек 2-схема", "correct": false },
+        { "label": "C", "textRu": "Обе схемы верны", "textKk": "Екі схема да дұрыс", "correct": false },
+        { "label": "D", "textRu": "Ни одна схема не верна", "textKk": "Ешбір схема дұрыс емес", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p139_2"]
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Центр транспортира совпал с вершиной $O$, сторона $OA$ прошла через начало отсчёта, а сторона $OB$ указала на штрих $75^\\circ$. Чему равна градусная мера угла $AOB$?",
+      "bodyKk": "Транспортир центрі $O$ төбесімен сәйкес келді, $OA$ қабырғасы есеп басынан өтті, ал $OB$ қабырғасы $75^\\circ$ штрихын көрсетті. $AOB$ бұрышының градустық өлшемі неге тең?",
+      "explanationRu": "Вторая сторона указывает величину угла на шкале, поэтому $\\angle AOB = 75^\\circ$.",
+      "explanationKk": "Екінші қабырға шкалада бұрыш шамасын көрсетеді, сондықтан $\\angle AOB = 75^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$105^\\circ$", "textKk": "$105^\\circ$", "correct": false },
+        { "label": "B", "textRu": "$75^\\circ$", "textKk": "$75^\\circ$", "correct": true },
+        { "label": "C", "textRu": "$15^\\circ$", "textKk": "$15^\\circ$", "correct": false },
+        { "label": "D", "textRu": "$180^\\circ$", "textKk": "$180^\\circ$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p139_2"]
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Часы показывают $3$ ч. Какое время они покажут, если минутная стрелка повернётся на $90^\\circ$?",
+      "bodyKk": "Сағат $3$ сағатты көрсетеді. Минут тілі $90^\\circ$-қа бұрылса, сағат қандай уақытты көрсетеді?",
+      "explanationRu": "Полный оборот минутной стрелки — $360^\\circ$ за $60$ мин, значит $90^\\circ$ — это $15$ мин. Время станет $3$ ч $15$ мин.",
+      "explanationKk": "Минут тілінің толық айналымы — $60$ мин ішінде $360^\\circ$, демек $90^\\circ$ — бұл $15$ мин. Уақыт $3$ сағ $15$ мин болады.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$3$ ч $30$ мин", "textKk": "$3$ сағ $30$ мин", "correct": false },
+        { "label": "B", "textRu": "$4$ ч $30$ мин", "textKk": "$4$ сағ $30$ мин", "correct": false },
+        { "label": "C", "textRu": "$3$ ч $15$ мин", "textKk": "$3$ сағ $15$ мин", "correct": true },
+        { "label": "D", "textRu": "$3$ ч $90$ мин", "textKk": "$3$ сағ $90$ мин", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p139_2"]
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке изображён угол $EOD$. Измерьте его транспортиром (по шкале на рисунке). Какова градусная мера угла $EOD$?",
+      "bodyKk": "Суретте $EOD$ бұрышы көрсетілген. Оны транспортирмен өлшеңіз (суреттегі шкала бойынша). $EOD$ бұрышының градустық өлшемі қандай?",
+      "explanationRu": "При правильном наложении вторая сторона указывает на штрих $45^\\circ$, поэтому $\\angle EOD = 45^\\circ$.",
+      "explanationKk": "Дұрыс қойғанда екінші қабырға $45^\\circ$ штрихын көрсетеді, сондықтан $\\angle EOD = 45^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$135^\\circ$", "textKk": "$135^\\circ$", "correct": false },
+        { "label": "B", "textRu": "$90^\\circ$", "textKk": "$90^\\circ$", "correct": false },
+        { "label": "C", "textRu": "$45^\\circ$", "textKk": "$45^\\circ$", "correct": true },
+        { "label": "D", "textRu": "$60^\\circ$", "textKk": "$60^\\circ$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p139_2"]
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "В алгоритме измерения угла пропущен один шаг: 1) совместить центр транспортира с вершиной угла; 2) … ; 3) прочитать градусную меру по второй стороне. Какой шаг пропущен?",
+      "bodyKk": "Бұрышты өлшеу алгоритмінде бір қадам түсіп қалған: 1) транспортир центрін бұрыш төбесімен сәйкестендіру; 2) … ; 3) екінші қабырға бойынша градустық өлшемді оқу. Қандай қадам түсіп қалған?",
+      "explanationRu": "Одну сторону угла нужно провести через начало отсчёта на шкале; тогда вторая сторона укажет меру угла.",
+      "explanationKk": "Бұрыштың бір қабырғасын шкаланың есеп басынан өткізу керек; сонда екінші қабырға бұрыш өлшемін көрсетеді.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Совместить центр с концом одной стороны", "textKk": "Центрді бір қабырғаның ұшымен сәйкестендіру", "correct": false },
+        { "label": "B", "textRu": "Провести новую сторону через отметку на шкале", "textKk": "Шкаладағы белгі арқылы жаңа қабырға жүргізу", "correct": false },
+        { "label": "C", "textRu": "Совместить одну сторону с началом отсчёта на шкале", "textKk": "Бір қабырғаны шкаланың есеп басымен сәйкестендіру", "correct": true },
+        { "label": "D", "textRu": "Измерить длину стороны линейкой транспортира", "textKk": "Қабырға ұзындығын транспортир сызғышымен өлшеу", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p139_2"]
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке транспортир наложен на угол $KLM$. Верно ли выполнено наложение для измерения? Если нет — в чём ошибка?",
+      "bodyKk": "Суретте транспортир $KLM$ бұрышына қойылған. Өлшеу үшін қою дұрыс па? Жоқ болса — қате неде?",
+      "explanationRu": "На рисунке центр смещён от вершины $L$, поэтому измерение неверно: центр должен совпасть с вершиной.",
+      "explanationKk": "Суретте центр $L$ төбесінен ығысқан, сондықтан өлшеу дұрыс емес: центр төбемен сәйкес келуі керек.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Верно: сторона совпала с $0^\\circ$", "textKk": "Дұрыс: қабырға $0^\\circ$ пен сәйкес келген", "correct": false },
+        { "label": "B", "textRu": "Неверно: центр не совпал с вершиной", "textKk": "Дұрыс емес: центр төбемен сәйкес келмеген", "correct": true },
+        { "label": "C", "textRu": "Неверно: не отмечена точка против штриха для построения", "textKk": "Дұрыс емес: салу үшін штрихқа қарсы нүкте қойылмаған", "correct": false },
+        { "label": "D", "textRu": "Верно при любом положении центра", "textKk": "Центр кез келген жерде тұрса да дұрыс", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p139_2"]
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Угол $DOE$ построен с мерой $150^\\circ$ и лучами разделён на $3$ равных угла. Не выполняя деления «в столбик», укажите градусную меру среднего из этих равных углов.",
+      "bodyKk": "$DOE$ бұрышы $150^\\circ$ өлшемімен салынған және сәулелермен $3$ тең бұрышқа бөлінген. «Бағанға» бөлмей, осы тең бұрыштардың ортаңғысының градустық өлшемін көрсетіңіз.",
+      "explanationRu": "Три равных угла составляют $150^\\circ$, значит каждый равен $150^\\circ : 3 = 50^\\circ$. Средний из них тоже $50^\\circ$.",
+      "explanationKk": "Үш тең бұрыш $150^\\circ$ құрайды, демек әрқайсысы $150^\\circ : 3 = 50^\\circ$. Ортаңғысы да $50^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$75^\\circ$", "textKk": "$75^\\circ$", "correct": false },
+        { "label": "B", "textRu": "$150^\\circ$", "textKk": "$150^\\circ$", "correct": false },
+        { "label": "C", "textRu": "$147^\\circ$", "textKk": "$147^\\circ$", "correct": false },
+        { "label": "D", "textRu": "$50^\\circ$", "textKk": "$50^\\circ$", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p139_3"]
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "После измерения получено: $\\angle AOB = 95^\\circ$. Внутри угла проведён луч $OC$, причём $\\angle BOC = 38^\\circ$. Найдите градусную меру угла $AOC$.",
+      "bodyKk": "Өлшеуден кейін: $\\angle AOB = 95^\\circ$. Бұрыш ішінде $OC$ сәулесі жүргізілген, әрі $\\angle BOC = 38^\\circ$. $AOC$ бұрышының градустық өлшемін табыңыз.",
+      "explanationRu": "Луч внутри угла разбивает его на две части: $\\angle AOC = \\angle AOB - \\angle BOC = 95^\\circ - 38^\\circ = 57^\\circ$.",
+      "explanationKk": "Бұрыш ішіндегі сәуле оны екі бөлікке бөледі: $\\angle AOC = \\angle AOB - \\angle BOC = 95^\\circ - 38^\\circ = 57^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$133^\\circ$", "textKk": "$133^\\circ$", "correct": false },
+        { "label": "B", "textRu": "$57^\\circ$", "textKk": "$57^\\circ$", "correct": true },
+        { "label": "C", "textRu": "$142^\\circ$", "textKk": "$142^\\circ$", "correct": false },
+        { "label": "D", "textRu": "$47{,}5^\\circ$", "textKk": "$47{,}5^\\circ$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p139_2"]
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Строят угол $ABC$ с градусной мерой $75^\\circ$: луч $BA$ уже начерчен, транспортир наложен правильно. Против какого штриха ставят точку для второго луча?",
+      "bodyKk": "$ABC$ бұрышын $75^\\circ$ өлшемімен салады: $BA$ сәулесі сызылған, транспортир дұрыс қойылған. Екінші сәуле үшін нүктені қай штрихқа қарсы қояды?",
+      "explanationRu": "При построении точку ставят против штриха с нужной отметкой на шкале — здесь против $75^\\circ$.",
+      "explanationKk": "Салу кезінде нүктені шкаладағы керекті белгінің штрихына қарсы қояды — мұнда $75^\\circ$-қа қарсы.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Против штриха $105^\\circ$", "textKk": "$105^\\circ$ штрихына қарсы", "correct": false },
+        { "label": "B", "textRu": "Против штриха $90^\\circ$", "textKk": "$90^\\circ$ штрихына қарсы", "correct": false },
+        { "label": "C", "textRu": "Против штриха $75^\\circ$", "textKk": "$75^\\circ$ штрихына қарсы", "correct": true },
+        { "label": "D", "textRu": "На расстоянии $75$ см от вершины", "textKk": "Төбеден $75$ см қашықтықта", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p139_3"]
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Сравните две последовательности построения угла с мерой $110^\\circ$. Какая верна?",
+      "bodyKk": "Өлшемі $110^\\circ$ болатын бұрышты салудың екі тізбегін салыстырыңыз. Қайсысы дұрыс?",
+      "explanationRu": "Сначала чертят луч, совмещают центр с его началом и луч с началом отсчёта, затем отмечают точку против нужной отметки и проводят второй луч.",
+      "explanationKk": "Алдымен сәуле сызылады, центр оның басымен және сәуле есеп басымен сәйкестендіріледі, содан кейін керекті белгіге қарсы нүкте қойылып, екінші сәуле жүргізіледі.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Отметить точку против $110^\\circ$ → наложить транспортир → провести первый луч", "textKk": "$110^\\circ$-қа қарсы нүкте қою → транспортир қою → бірінші сәулені жүргізу", "correct": false },
+        { "label": "B", "textRu": "Начертить луч → центр в начале луча, луч через $0^\\circ$ → точка против $110^\\circ$ → второй луч", "textKk": "Сәуле сызу → центр сәуле басында, сәуле $0^\\circ$ арқылы → $110^\\circ$-қа қарсы нүкте → екінші сәуле", "correct": true },
+        { "label": "C", "textRu": "Начертить луч → центр у свободного конца луча → точка против $110^\\circ$", "textKk": "Сәуле сызу → центр сәуленің еркін ұшында → $110^\\circ$-қа қарсы нүкте", "correct": false },
+        { "label": "D", "textRu": "Измерить уже нарисованный произвольный угол и назвать его $110^\\circ$", "textKk": "Кездейсоқ сызылған бұрышты өлшеп, оны $110^\\circ$ деп атау", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p139_3"]
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Айдос построил транспортиром три угла: $25^\\circ$, $50^\\circ$ и $135^\\circ$. Какой из них наибольший?",
+      "bodyKk": "Айдос транспортирмен үш бұрыш салды: $25^\\circ$, $50^\\circ$ және $135^\\circ$. Қайсысы ең үлкен?",
+      "explanationRu": "Градусная мера сравнивает углы: наибольшая мера — $135^\\circ$, независимо от длины нарисованных сторон.",
+      "explanationKk": "Бұрыштарды градустық өлшем салыстырады: ең үлкені — $135^\\circ$, сызылған қабырғалардың ұзындығына тәуелсіз.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Угол $25^\\circ$", "textKk": "$25^\\circ$ бұрышы", "correct": false },
+        { "label": "B", "textRu": "Угол $50^\\circ$", "textKk": "$50^\\circ$ бұрышы", "correct": false },
+        { "label": "C", "textRu": "Угол $135^\\circ$", "textKk": "$135^\\circ$ бұрышы", "correct": true },
+        { "label": "D", "textRu": "Все три равны, потому что построены одним инструментом", "textKk": "Үшеуі тең, өйткені бір құралмен салынған", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p139_3"]
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке из точки $O$ проведены лучи $OK$, $ON$ и $OL$. Измерено: $\\angle KOL = 80^\\circ$, $\\angle KON = 35^\\circ$, $\\angle NOL = 45^\\circ$. Верно ли утверждение $\\angle KOL - \\angle KON = \\angle NOL$?",
+      "bodyKk": "Суретте $O$ нүктесінен $OK$, $ON$ және $OL$ сәулелері жүргізілген. Өлшенгені: $\\angle KOL = 80^\\circ$, $\\angle KON = 35^\\circ$, $\\angle NOL = 45^\\circ$. $\\angle KOL - \\angle KON = \\angle NOL$ тұжырымы дұрыс па?",
+      "explanationRu": "$80^\\circ - 35^\\circ = 45^\\circ$, что равно мере $\\angle NOL$. Утверждение верно.",
+      "explanationKk": "$80^\\circ - 35^\\circ = 45^\\circ$, бұл $\\angle NOL$ өлшеміне тең. Тұжырым дұрыс.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Верно, потому что $80^\\circ - 35^\\circ = 45^\\circ$", "textKk": "Дұрыс, өйткені $80^\\circ - 35^\\circ = 45^\\circ$", "correct": true },
+        { "label": "B", "textRu": "Неверно: нужно складывать $80^\\circ + 35^\\circ$", "textKk": "Дұрыс емес: $80^\\circ + 35^\\circ$ қосу керек", "correct": false },
+        { "label": "C", "textRu": "Неверно: разность равна $\\angle KON$", "textKk": "Дұрыс емес: айырма $\\angle KON$-ға тең", "correct": false },
+        { "label": "D", "textRu": "Верно без проверки чисел", "textKk": "Сандарды тексермей-ақ дұрыс", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p139_2"]
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 4,
+      "bodyRu": "На рисунке изображён треугольник $ABC$. Измерьте каждый его угол по шкале на чертеже и найдите сумму градусных мер углов треугольника.",
+      "bodyKk": "Суретте $ABC$ үшбұрышы көрсетілген. Әр бұрышын сызбадағы шкала бойынша өлшеп, үшбұрыш бұрыштарының градустық өлшемдерінің қосындысын табыңыз.",
+      "explanationRu": "По чертежу $\\angle A = 55^\\circ$, $\\angle B = 60^\\circ$, $\\angle C = 65^\\circ$. Сумма: $55^\\circ + 60^\\circ + 65^\\circ = 180^\\circ$.",
+      "explanationKk": "Сызба бойынша $\\angle A = 55^\\circ$, $\\angle B = 60^\\circ$, $\\angle C = 65^\\circ$. Қосынды: $55^\\circ + 60^\\circ + 65^\\circ = 180^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$115^\\circ$", "textKk": "$115^\\circ$", "correct": false },
+        { "label": "B", "textRu": "$180^\\circ$", "textKk": "$180^\\circ$", "correct": true },
+        { "label": "C", "textRu": "$360^\\circ$", "textKk": "$360^\\circ$", "correct": false },
+        { "label": "D", "textRu": "$90^\\circ$", "textKk": "$90^\\circ$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p139_2"]
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 4,
+      "bodyRu": "Угол разделили на $3$ равных угла. Один из них равен $35^\\circ$. Какова градусная мера исходного угла?",
+      "bodyKk": "Бұрыш $3$ тең бұрышқа бөлінген. Олардың бірі $35^\\circ$-қа тең. Бастапқы бұрыштың градустық өлшемі қандай?",
+      "explanationRu": "Исходная мера втрое больше одной части: $35^\\circ \\cdot 3 = 105^\\circ$.",
+      "explanationKk": "Бастапқы өлшем бір бөліктен үш есе үлкен: $35^\\circ \\cdot 3 = 105^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$35^\\circ : 3$", "textKk": "$35^\\circ : 3$", "correct": false },
+        { "label": "B", "textRu": "$70^\\circ$", "textKk": "$70^\\circ$", "correct": false },
+        { "label": "C", "textRu": "$145^\\circ$", "textKk": "$145^\\circ$", "correct": false },
+        { "label": "D", "textRu": "$105^\\circ$", "textKk": "$105^\\circ$", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p139_3"]
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 5,
+      "bodyRu": "На рисунке транспортир наложен на прямую $EF$. Соседние углы на шкале: $\\angle EOK = 40^\\circ$, $\\angle KOL = 35^\\circ$, $\\angle LON$ неизвестен, $\\angle NOF = 40^\\circ$. Какова пропущенная мера $\\angle LON$, если сумма всех четырёх равна $180^\\circ$?",
+      "bodyKk": "Суретте транспортир $EF$ түзуіне қойылған. Шкаладағы көрші бұрыштар: $\\angle EOK = 40^\\circ$, $\\angle KOL = 35^\\circ$, $\\angle LON$ белгісіз, $\\angle NOF = 40^\\circ$. Төртеуінің қосындысы $180^\\circ$ болса, түсіп қалған $\\angle LON$ өлшемі қандай?",
+      "explanationRu": "$\\angle LON = 180^\\circ - (40^\\circ + 35^\\circ + 40^\\circ) = 65^\\circ$.",
+      "explanationKk": "$\\angle LON = 180^\\circ - (40^\\circ + 35^\\circ + 40^\\circ) = 65^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$115^\\circ$", "textKk": "$115^\\circ$", "correct": false },
+        { "label": "B", "textRu": "$65^\\circ$", "textKk": "$65^\\circ$", "correct": true },
+        { "label": "C", "textRu": "$180^\\circ$", "textKk": "$180^\\circ$", "correct": false },
+        { "label": "D", "textRu": "$75^\\circ$", "textKk": "$75^\\circ$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p139_2"]
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Какие факты о линейке, полуокружности и градусной шкале транспортира верны? Выберите все подходящие.",
+      "bodyKk": "Транспортирдің сызғышы, жартышеңбері және градустық шкаласы туралы қандай фактілер дұрыс? Барлық сәйкес келетіндерін таңдаңыз.",
+      "explanationRu": "Транспортир состоит из линейки и полуокружности; центр отмечен штрихом; шкала идёт от $0^\\circ$ до $180^\\circ$.",
+      "explanationKk": "Транспортир сызғыш пен жартышеңберден тұрады; центр штрихпен белгіленген; шкала $0^\\circ$-тан $180^\\circ$-қа дейін.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Транспортир состоит из линейки и полуокружности", "textKk": "Транспортир сызғыш пен жартышеңберден тұрады", "correct": true },
+        { "label": "B", "textRu": "Градусная шкала идёт от $0^\\circ$ до $360^\\circ$", "textKk": "Градустық шкала $0^\\circ$-тан $360^\\circ$-қа дейін", "correct": false },
+        { "label": "C", "textRu": "Центр полуокружности отмечен штрихом на линейке", "textKk": "Жартышеңбер центрі сызғышта штрихпен белгіленген", "correct": true },
+        { "label": "D", "textRu": "Шкала транспортира начинается с $0^\\circ$ и доходит до $180^\\circ$", "textKk": "Транспортир шкаласы $0^\\circ$-тан басталып, $180^\\circ$-қа дейін барады", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p139_1"]
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Выберите все верные шаги и условия правильного измерения угла транспортиром.",
+      "bodyKk": "Транспортирмен бұрышты дұрыс өлшеудің барлық дұрыс қадамдары мен шарттарын таңдаңыз.",
+      "explanationRu": "Центр совмещают с вершиной, одну сторону — с началом отсчёта; меру читают по второй стороне, не измеряя длину стороны.",
+      "explanationKk": "Центрді төбемен, бір қабырғаны есеп басымен сәйкестендіреді; өлшемді екінші қабырға бойынша оқиды, қабырға ұзындығын өлшемейді.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Совместить центр транспортира с вершиной угла", "textKk": "Транспортир центрін бұрыш төбесімен сәйкестендіру", "correct": true },
+        { "label": "B", "textRu": "Совместить центр с любой точкой на стороне угла", "textKk": "Центрді бұрыш қабырғасындағы кез келген нүктемен сәйкестендіру", "correct": false },
+        { "label": "C", "textRu": "Провести одну сторону через начало отсчёта на шкале", "textKk": "Бір қабырғаны шкаланың есеп басынан өткізу", "correct": true },
+        { "label": "D", "textRu": "Измерить длину стороны линейкой транспортира и принять её за меру угла", "textKk": "Қабырға ұзындығын транспортир сызғышымен өлшеп, оны бұрыш өлшемі деп алу", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p139_2"]
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке изображены углы $ABC$, $EOD$ и $EOF$. По шкале на чертеже выберите все верно указанные градусные меры.",
+      "bodyKk": "Суретте $ABC$, $EOD$ және $EOF$ бұрыштары көрсетілген. Сызбадағы шкала бойынша барлық дұрыс көрсетілген градустық өлшемдерді таңдаңыз.",
+      "explanationRu": "По чертежу $\\angle ABC = 50^\\circ$, $\\angle EOD = 110^\\circ$; утверждение про $\\angle EOF = 40^\\circ$ неверно (на шкале $70^\\circ$).",
+      "explanationKk": "Сызба бойынша $\\angle ABC = 50^\\circ$, $\\angle EOD = 110^\\circ$; $\\angle EOF = 40^\\circ$ тұжырымы дұрыс емес (шкалада $70^\\circ$).",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$\\angle ABC = 50^\\circ$", "textKk": "$\\angle ABC = 50^\\circ$", "correct": true },
+        { "label": "B", "textRu": "$\\angle EOD = 70^\\circ$", "textKk": "$\\angle EOD = 70^\\circ$", "correct": false },
+        { "label": "C", "textRu": "$\\angle EOD = 110^\\circ$", "textKk": "$\\angle EOD = 110^\\circ$", "correct": true },
+        { "label": "D", "textRu": "$\\angle EOF = 40^\\circ$", "textKk": "$\\angle EOF = 40^\\circ$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p139_2"]
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Выберите все верные утверждения о делениях шкалы транспортира.",
+      "bodyKk": "Транспортир шкаласының бөліктері туралы барлық дұрыс тұжырымдарды таңдаңыз.",
+      "explanationRu": "Наименьшее деление — $1^\\circ$; кроме того, есть деления по $5^\\circ$ и по $10^\\circ$.",
+      "explanationKk": "Ең кіші бөлік — $1^\\circ$; сонымен қатар $5^\\circ$ және $10^\\circ$ бойынша бөліктер бар.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Наименьшее деление шкалы равно $1^\\circ$", "textKk": "Шкаланың ең кіші бөлігі $1^\\circ$-қа тең", "correct": true },
+        { "label": "B", "textRu": "Наименьшее деление шкалы равно $5^\\circ$", "textKk": "Шкаланың ең кіші бөлігі $5^\\circ$-қа тең", "correct": false },
+        { "label": "C", "textRu": "На транспортире есть деления по $5^\\circ$", "textKk": "Транспортирде $5^\\circ$ бойынша бөліктер бар", "correct": true },
+        { "label": "D", "textRu": "На транспортире есть деления по $10^\\circ$", "textKk": "Транспортирде $10^\\circ$ бойынша бөліктер бар", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p139_1"]
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Часы показывают $4$ ч. Выберите все верные новые показания после поворота минутной стрелки.",
+      "bodyKk": "Сағат $4$ сағатты көрсетеді. Минут тілі бұрылғаннан кейінгі барлық дұрыс жаңа көрсеткіштерді таңдаңыз.",
+      "explanationRu": "Поворот на $90^\\circ$ — это $15$ мин ($4$:$15$); на $180^\\circ$ — $30$ мин ($4$:$30$).",
+      "explanationKk": "$90^\\circ$-қа бұрылу — $15$ мин ($4$:$15$); $180^\\circ$-қа — $30$ мин ($4$:$30$).",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "После поворота на $90^\\circ$ часы покажут $4$ ч $15$ мин", "textKk": "$90^\\circ$-қа бұрылған соң сағат $4$ сағ $15$ мин көрсетеді", "correct": true },
+        { "label": "B", "textRu": "После поворота на $90^\\circ$ часы покажут $4$ ч $30$ мин", "textKk": "$90^\\circ$-қа бұрылған соң сағат $4$ сағ $30$ мин көрсетеді", "correct": false },
+        { "label": "C", "textRu": "После поворота на $180^\\circ$ часы покажут $4$ ч $30$ мин", "textKk": "$180^\\circ$-қа бұрылған соң сағат $4$ сағ $30$ мин көрсетеді", "correct": true },
+        { "label": "D", "textRu": "После поворота на $180^\\circ$ часы покажут $5$ ч $00$ мин", "textKk": "$180^\\circ$-қа бұрылған соң сағат $5$ сағ $00$ мин көрсетеді", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p139_2"]
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Не выполняя построения на бумаге, выберите все верные действия алгоритма построения угла с мерой $100^\\circ$.",
+      "bodyKk": "Қағазда салуды орындамай, өлшемі $100^\\circ$ болатын бұрышты салу алгоритмінің барлық дұрыс әрекеттерін таңдаңыз.",
+      "explanationRu": "Нужны: луч от вершины, центр в начале луча, точка против нужной отметки и второй луч через эту точку.",
+      "explanationKk": "Керегі: төбеден сәуле, центр сәуле басында, керекті белгіге қарсы нүкте және сол нүкте арқылы екінші сәуле.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Начертить луч от выбранной вершины", "textKk": "Таңдалған төбеден сәуле сызу", "correct": true },
+        { "label": "B", "textRu": "Совместить центр транспортира с началом этого луча", "textKk": "Транспортир центрін осы сәуленің басымен сәйкестендіру", "correct": true },
+        { "label": "C", "textRu": "Совместить центр с свободным концом стороны", "textKk": "Центрді қабырғаның еркін ұшымен сәйкестендіру", "correct": false },
+        { "label": "D", "textRu": "Поставить точку против штриха $100^\\circ$ и провести луч через неё", "textKk": "$100^\\circ$ штрихына қарсы нүкте қойып, ол арқылы сәуле жүргізу", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p139_3"]
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "На рисунке прямые $a$ и $b$ пересекаются; угол $1$ измерен транспортиром и равен $55^\\circ$. Выберите все верные утверждения.",
+      "bodyKk": "Суретте $a$ және $b$ түзулері қиылысады; $1$ бұрышы транспортирмен өлшеніп, $55^\\circ$-қа тең. Барлық дұрыс тұжырымдарды таңдаңыз.",
+      "explanationRu": "Вертикальные углы равны ($55^\\circ$); смежный равен $180^\\circ - 55^\\circ = 125^\\circ$.",
+      "explanationKk": "Вертикаль бұрыштар тең ($55^\\circ$); іргелес бұрыш $180^\\circ - 55^\\circ = 125^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Угол, вертикальный к углу $1$, равен $55^\\circ$", "textKk": "$1$ бұрышына вертикаль бұрыш $55^\\circ$-қа тең", "correct": true },
+        { "label": "B", "textRu": "Угол, смежный с углом $1$, равен $125^\\circ$", "textKk": "$1$ бұрышына іргелес бұрыш $125^\\circ$-қа тең", "correct": true },
+        { "label": "C", "textRu": "Угол, смежный с углом $1$, равен $55^\\circ$", "textKk": "$1$ бұрышына іргелес бұрыш $55^\\circ$-қа тең", "correct": false },
+        { "label": "D", "textRu": "Угол, вертикальный к углу $1$, равен $305^\\circ$", "textKk": "$1$ бұрышына вертикаль бұрыш $305^\\circ$-қа тең", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p139_2"]
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "На рисунке четырёхугольник $ABCD$. По шкале на чертеже измерено: $\\angle A = 80^\\circ$, $\\angle B = 100^\\circ$, $\\angle C = 70^\\circ$, $\\angle D = 110^\\circ$. Выберите все верные утверждения.",
+      "bodyKk": "Суретте $ABCD$ төртбұрышы. Сызбадағы шкала бойынша өлшенгені: $\\angle A = 80^\\circ$, $\\angle B = 100^\\circ$, $\\angle C = 70^\\circ$, $\\angle D = 110^\\circ$. Барлық дұрыс тұжырымдарды таңдаңыз.",
+      "explanationRu": "Сумма измеренных углов: $80^\\circ + 100^\\circ + 70^\\circ + 110^\\circ = 360^\\circ$; отдельные меры совпадают с данными.",
+      "explanationKk": "Өлшенген бұрыштар қосындысы: $80^\\circ + 100^\\circ + 70^\\circ + 110^\\circ = 360^\\circ$; жеке өлшемдер берілгендермен сәйкес.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$\\angle A + \\angle B + \\angle C + \\angle D = 360^\\circ$", "textKk": "$\\angle A + \\angle B + \\angle C + \\angle D = 360^\\circ$", "correct": true },
+        { "label": "B", "textRu": "$\\angle B = 100^\\circ$", "textKk": "$\\angle B = 100^\\circ$", "correct": true },
+        { "label": "C", "textRu": "$\\angle C = 100^\\circ$", "textKk": "$\\angle C = 100^\\circ$", "correct": false },
+        { "label": "D", "textRu": "Сумма равна $270^\\circ$ (сложили только три угла)", "textKk": "Қосынды $270^\\circ$ (тек үш бұрышты қосқан)", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p139_2"]
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 5,
+      "bodyRu": "На рисунке часы показывают $8$ ч $20$ мин. Выберите все верные утверждения о градусной мере угла между минутной и часовой стрелками.",
+      "bodyKk": "Суретте сағат $8$ сағ $20$ мин көрсетеді. Минут және сағат тілдері арасындағы бұрыштың градустық өлшемі туралы барлық дұрыс тұжырымдарды таңдаңыз.",
+      "explanationRu": "Минутная стрелка: $20 \\cdot 6^\\circ = 120^\\circ$. Часовая: $8 \\cdot 30^\\circ + 20 \\cdot 0{,}5^\\circ = 250^\\circ$. Меньший угол: $|250^\\circ - 120^\\circ| = 130^\\circ$; больший: $360^\\circ - 130^\\circ = 230^\\circ$.",
+      "explanationKk": "Минут тілі: $20 \\cdot 6^\\circ = 120^\\circ$. Сағат тілі: $8 \\cdot 30^\\circ + 20 \\cdot 0{,}5^\\circ = 250^\\circ$. Кіші бұрыш: $|250^\\circ - 120^\\circ| = 130^\\circ$; үлкені: $360^\\circ - 130^\\circ = 230^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Меньший угол между стрелками равен $130^\\circ$", "textKk": "Тілдер арасындағы кіші бұрыш $130^\\circ$-қа тең", "correct": true },
+        { "label": "B", "textRu": "Больший угол между стрелками равен $230^\\circ$", "textKk": "Тілдер арасындағы үлкен бұрыш $230^\\circ$-қа тең", "correct": true },
+        { "label": "C", "textRu": "Угол равен $120^\\circ$ (только по минутной стрелке)", "textKk": "Бұрыш $120^\\circ$-қа тең (тек минут тілі бойынша)", "correct": false },
+        { "label": "D", "textRu": "Угол равен $100^\\circ$", "textKk": "Бұрыш $100^\\circ$-қа тең", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p139_2"]
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "bodyRu": "Построен угол с градусной мерой $90^\\circ$ и лучами разделён на $3$ равных угла. Чему равна градусная мера одного из них? Ответ дайте в градусах: [[1]].",
+      "bodyKk": "Градустық өлшемі $90^\\circ$ болатын бұрыш салынып, сәулелермен $3$ тең бұрышқа бөлінген. Олардың бірінің градустық өлшемі неге тең? Жауапты градуспен жазыңыз: [[1]].",
+      "explanationRu": "$90^\\circ : 3 = 30^\\circ$.",
+      "explanationKk": "$90^\\circ : 3 = 30^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        { "placeholder": "[[1]]", "answer": "30", "matchMode": "NUMERIC_TOLERANCE", "tolerance": 0 }
+      ],
+      "sourceRuleIds": ["PDF_p139_3"]
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "bodyRu": "Часы показывают $5$ ч. Минутная стрелка повернулась на $180^\\circ$. Какое время покажут часы? Запишите в формате ч:мм, например 5:30: [[1]].",
+      "bodyKk": "Сағат $5$ сағатты көрсетеді. Минут тілі $180^\\circ$-қа бұрылды. Сағат қандай уақытты көрсетеді? с:мм түрінде жазыңыз, мысалы 5:30: [[1]].",
+      "explanationRu": "Поворот на $180^\\circ$ — это $30$ минут, поэтому время $5$:$30$.",
+      "explanationKk": "$180^\\circ$-қа бұрылу — $30$ минут, сондықтан уақыт $5$:$30$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        { "placeholder": "[[1]]", "answer": "5:30", "matchMode": "NORMALIZED", "tolerance": null }
+      ],
+      "sourceRuleIds": ["PDF_p139_2"]
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "bodyRu": "На рисунке транспортир наложен на прямую. Соседние углы на шкале: $30^\\circ$, [[1]], $80^\\circ$. Их сумма равна $180^\\circ$. Впишите пропущенную градусную меру среднего угла.",
+      "bodyKk": "Суретте транспортир түзуге қойылған. Шкаладағы көрші бұрыштар: $30^\\circ$, [[1]], $80^\\circ$. Олардың қосындысы $180^\\circ$-қа тең. Ортаңғы бұрыштың түсіп қалған градустық өлшемін жазыңыз.",
+      "explanationRu": "Пропущенная мера: $180^\\circ - 30^\\circ - 80^\\circ = 70^\\circ$.",
+      "explanationKk": "Түсіп қалған өлшем: $180^\\circ - 30^\\circ - 80^\\circ = 70^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 139-142",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        { "placeholder": "[[1]]", "answer": "70", "matchMode": "NUMERIC_TOLERANCE", "tolerance": 0 }
+      ],
+      "sourceRuleIds": ["PDF_p139_2"]
+    }
+  ],
+  "matrixDeviations": []
+}

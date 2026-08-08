@@ -1,0 +1,12 @@
+{
+  "kind": "bar_chart",
+  "width": 480,
+  "height": 360,
+  "yMax": 10,
+  "showValues": true,
+  "bars": [
+    { "label": "велосипед", "value": 9 },
+    { "label": "самокат", "value": 5 },
+    { "label": "бег", "value": 7 }
+  ]
+}

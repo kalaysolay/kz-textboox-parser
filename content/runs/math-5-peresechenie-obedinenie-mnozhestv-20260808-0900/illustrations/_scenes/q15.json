@@ -1,0 +1,10 @@
+{
+  "kind": "set_venn",
+  "width": 520,
+  "height": 360,
+  "radius": 110,
+  "setALabel": "A",
+  "setBLabel": "B",
+  "shadeRegion": "AB",
+  "elements": []
+}

@@ -1,0 +1,13 @@
+{
+  "kind": "bar_chart",
+  "width": 560,
+  "height": 360,
+  "yMax": 16,
+  "showValues": true,
+  "bars": [
+    { "label": "Айгуль", "value": 8 },
+    { "label": "Бауыржан", "value": 12 },
+    { "label": "Сабина", "value": 15 },
+    { "label": "Тимур", "value": 6 }
+  ]
+}

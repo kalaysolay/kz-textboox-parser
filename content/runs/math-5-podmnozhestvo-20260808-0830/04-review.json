@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-podmnozhestvo-20260808-0830",
+  "reviewedAt": "2026-08-08T09:00:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 30,
+    "fixed": 0,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "B — каждый элемент B принадлежит A",
+      "keyAnswer": "B — Множество B — подмножество A, если каждый элемент B принадлежит A",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×3, compute×5, predict×3, verify×4, restore×3, compare×4, word_problem×4, inverse×4 (как в notes матрицы). Стемы внутри формы разные; не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "C — B — подмножество A",
+      "keyAnswer": "C — B — подмножество множества A",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "B — Q ⊂ P (хирурги ⊂ врачи)",
+      "keyAnswer": "B — Q ⊂ P",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "A — {2, 4, 8} ⊂ F",
+      "keyAnswer": "A — A = {2, 4, 8}",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "C — ∅ ⊂ F для любого F",
+      "keyAnswer": "C — Для любого множества F верно ∅ ⊂ F",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "B — Q ⊂ P и 6 ∈ P",
+      "keyAnswer": "B — Q ⊂ P и 6 ∈ P",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "C — N ⊂ M",
+      "keyAnswer": "C — N ⊂ M",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "A — верно: P = Q",
+      "keyAnswer": "A — Утверждение верно: равны P и Q",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "D — F ⊂ F для любого F",
+      "keyAnswer": "D — Для любого множества F верно F ⊂ F",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "16 (= 2^4)",
+      "keyAnswer": "D — 16",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "C — N ⊂ M",
+      "keyAnswer": "C — N ⊂ M",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "A — ⊂, ⊄, ∈, ∉",
+      "keyAnswer": "A — ⊂, ⊄, ∈, ∉",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "C — D = {2, 5, 8}",
+      "keyAnswer": "C — D = {2, 5, 8}",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "B — круг B целиком внутри A",
+      "keyAnswer": "B — Круг B целиком лежит внутри круга A",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "B — A={2,4,5,10,20}, B={2,4,5}, B ⊂ A",
+      "keyAnswer": "B — A = {2, 4, 5, 10, 20}, B = {2, 4, 5}, B ⊂ A",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "status": "accepted",
+      "solvedAnswer": "C — каждый квадрат — прямоугольник",
+      "keyAnswer": "C — Потому что каждый квадрат является прямоугольником",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "A — B={1,2,4,5,10,20}, B ⊂ A",
+      "keyAnswer": "A — B = {1, 2, 4, 5, 10, 20}, B ⊂ A",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "B — C ⊂ B ⊂ A",
+      "keyAnswer": "B — C ⊂ B ⊂ A",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A, B",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "A, B, D",
+      "keyAnswer": "A, B, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "A, C, D",
+      "keyAnswer": "A, C, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "A, B",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "A, B",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "A, B",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A, B",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "A, B",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "A, C, D (C ⊂ B; D ⊂ A; D ⊂ B; не C ⊂ A)",
+      "keyAnswer": "A, C, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "4 (= 2^2)",
+      "keyAnswer": "[[1]] = 4",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "accepted",
+      "solvedAnswer": "S ⊂ R",
+      "keyAnswer": "[[1]] = S ⊂ R",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "{3, 9, 12}",
+      "keyAnswer": "[[1]] = {3, 9, 12}",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

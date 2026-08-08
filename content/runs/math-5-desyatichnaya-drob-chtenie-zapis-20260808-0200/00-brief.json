@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-desyatichnaya-drob-chtenie-zapis-20260808-0200",
+  "createdAt": "2026-08-08T02:00:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "Десятичная дробь. Чтение и запись десятичных дробей",
+  "topicKk": "Ондық бөлшек. Ондық бөлшектерді оқу және жазу",
+  "topicSlug": "desyatichnaya-drob-chtenie-zapis",
+  "topicCode": "4.1",
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 30,
+  "typeMix": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMix": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "illustrationPolicy": "visual-topics",
+  "illustrationFor": [],
+  "parsedTextbookPath": "Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+  "methodistInstruction": "Пачка 30: SCQ 60% / MCQ 30% / FILL_IN 10%. Разнообразие questionForm (не больше 2 слотов на одну форму в матрице). Иллюстрации только если stem без рисунка неполный (для чтения/записи десятичных обычно не нужны). Качество важнее объёма: если slice.recommendedMaxCount < 30 — оркестратор уменьшит count.",
+  "languageMode": "BOTH"
+}

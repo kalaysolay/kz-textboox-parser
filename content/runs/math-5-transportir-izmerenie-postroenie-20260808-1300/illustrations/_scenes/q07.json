@@ -1,0 +1,16 @@
+{
+  "kind": "angle",
+  "width": 420,
+  "height": 360,
+  "cx": 160,
+  "cy": 260,
+  "rayLength": 220,
+  "vertexLabel": "O",
+  "armALabel": "E",
+  "armCLabel": "D",
+  "degrees": 45,
+  "startDegrees": 15,
+  "showArc": true,
+  "showDegree": false,
+  "vertexOffset": { "x": -16, "y": 6 }
+}

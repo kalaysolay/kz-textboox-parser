@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-krugovoy-sektor-20260808-1530",
+  "reviewedAt": "2026-08-08T18:00:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 27,
+    "fixed": 3,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "C — часть круга, ограниченная двумя радиусами и дугой",
+      "keyAnswer": "C — Часть круга, ограниченная двумя радиусами и дугой",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×4, predict×4, compute×4, compare×3, restore×4, verify×4, word_problem×4, inverse×3. Стемы внутри формы разные; не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "B — 360°",
+      "keyAnswer": "B — 360°",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "C — 2 (360:180)",
+      "keyAnswer": "C — 2",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "B — 240° (360−120)",
+      "keyAnswer": "B — 240°",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "D — два радиуса и дуга между их концами",
+      "keyAnswer": "D — Два радиуса и дуга между их концами",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "C — 90° (360:4)",
+      "keyAnswer": "C — 90°",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "B — 70+110+180=360",
+      "keyAnswer": "B — 70°+110°+180°=360°",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "D — 275° (360−85)",
+      "keyAnswer": "D — 275°",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "C — два радиуса и дуга",
+      "keyAnswer": "C — Два радиуса и дуга",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "B — 4 (360:90)",
+      "keyAnswer": "B — 4",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "C — 310° (360−50)",
+      "keyAnswer": "C — 310°",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "fixed",
+      "solvedAnswer": "B — 4 (четыре радиуса делят круг на 4 части)",
+      "keyAnswer": "B — 4",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": "Уточнил stem RU/KK: «на сколько частей (секторов) радиусы делят круг», чтобы не считать составные сектора; ключ B — 4 без изменений."
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "B — сектор B (100>40)",
+      "keyAnswer": "B — Сектор B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "B — 1/4 (90/360)",
+      "keyAnswer": "B — 1/4",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "C — 60° ((1/6)·360)",
+      "keyAnswer": "C — 60°",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "status": "fixed",
+      "solvedAnswer": "C — круговой сектор; угол при O — центральный",
+      "keyAnswer": "C — Это круговой сектор; угол при $O$ — центральный",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": "Rewrite после reject answer_leak_in_body: stem больше не называет «два радиуса и дуга»; верный C про опознание сектора и центрального угла при O; дистракторы — без одного радиуса / угол при окружности / хорда+дуга."
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "B — 75° (только с рисунка; в stem меры нет)",
+      "keyAnswer": "B — 75°",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "C — 270° (0,25·360=90; 360−90)",
+      "keyAnswer": "C — 270°",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A,B",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "A,B,C",
+      "keyAnswer": "A, B, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "A,B — 195° и 360−(70+95)",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "A,B — области AOB и BOC",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "A,B,C",
+      "keyAnswer": "A, B, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "A,B — 160° и 360−(50+80+70)",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A,B — пары с суммой 360°",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "A,D — 110° и 360−250",
+      "keyAnswer": "A, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "fixed",
+      "solvedAnswer": "A,B — 90° и 35+55 (смежные)",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": "Внёс в stem RU/KK углы 35° и 55° (раньше только на чертеже), чтобы ключ решался из текста; needsIllustration оставлен для схемы смежных секторов; ключ A,B без изменений."
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 225 (360−135)",
+      "keyAnswer": "[[1]] = 225",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 174 (0,7·180=126; (2/3)·90=60; 360−126−60)",
+      "keyAnswer": "[[1]] = 174",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 36 (10x=360 ⇒ x=36)",
+      "keyAnswer": "[[1]] = 36",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

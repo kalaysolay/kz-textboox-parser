@@ -2,21 +2,24 @@
 name: damulab-question-pipeline
 description: >-
   Orchestrates the multi-agent Damulab question pipeline: builds the run brief, creates the run
-  folder under content/runs/, and drives analyst → matrix → generator → reviewer to a validated
-  05-questions.final.json (SCQ/MCQ/FILL_IN, bilingual RU/KK, no database ids). Use when the user
-  asks to generate a question batch from a textbook, run the pipeline for a topic or a set of
-  topics, сгенерировать вопросы по теме/классу из учебника, запустить пайплайн, прогнать тему,
-  наполнить банк вопросов, or asks what state a run in content/runs/ is in.
+  folder under content/runs/, and drives analyst → matrix → generator → reviewer → illustrator
+  to a validated 05-questions.final.json (and optional 06-illustrations.json): SCQ/MCQ/FILL_IN,
+  bilingual RU/KK, no database ids. Use when the user asks to generate a question batch from a
+  textbook, run the pipeline for a topic or a set of topics, сгенерировать вопросы по теме/классу
+  из учебника, запустить пайплайн, прогнать тему, наполнить банк вопросов, or asks what state a
+  run in content/runs/ is in.
 ---
 
 # Damulab: оркестратор пайплайна генерации вопросов
 
 Главный скилл. Живёт в **этом** репозитории (`kz-textboox-parser`) рядом с PDF и parsed JSON.
 Ты — **оркестратор**: собираешь заказ, заводишь папку прогона под `content/runs/`, гоняешь роли
-по порядку и доводишь дело до валидного `05-questions.final.json`.
+по порядку и доводишь дело до валидного `05-questions.final.json` (и при необходимости
+`06-illustrations.json`).
 
-**Импорт в БД сюда не входит.** Он запускается отдельно, когда пользователь скажет —
-через админку банка вопросов платформы Damulab, см. [damulab-question-loader](../damulab-question-loader/SKILL.md).
+**Импорт в БД сюда не входит.** Текст вопросов — отдельно через админку,
+см. [damulab-question-loader](../damulab-question-loader/SKILL.md). Картинки — будущий
+asset-import агент по `05`+`06` (скилл пока не реализован; контракт в contracts.md).
 В приложении Damulab нет Gradle-задач `validateSeed` / `seedImport` и пакета `kz.damulab.seed`.
 
 Форматы всех артефактов: [contracts.md](contracts.md). Это единственный источник истины —
@@ -34,6 +37,11 @@ description: >-
 
 > Прогони тему 1.2 из учебника Алдамуратовой, 5 класс, часть 1. Микс: 7 SCQ, 3 MCQ, 2 FILL_IN.
 
+**С иллюстрациями (visual-topics):**
+
+> Прогони тему «Координатный луч» с illustrationPolicy: visual-topics — картинки к слотам,
+> где без рисунка условие неполное.
+
 **Пачка тем** (после того, как первая тема прошла руками):
 
 > Прогони темы 1.4, 1.5, 1.6, 1.7, 1.8 из того же учебника, по 12 вопросов на тему.
@@ -45,8 +53,9 @@ description: >-
 Отдельного Gradle-валидатора в платформе нет; детерминированную проверку при желании
 можно позже вынести в отдельный репо/скрипт (не в Spring).
 
-**Загрузка в БД** (отдельный шаг, по явной просьбе): админ-импорт —
-см. [damulab-question-loader](../damulab-question-loader/SKILL.md).
+**Загрузка в БД** (отдельный шаг, по явной просьбе): админ-импорт текста —
+см. [damulab-question-loader](../damulab-question-loader/SKILL.md). Ассеты из `06` —
+только когда появится asset-import агент и пользователь попросит.
 
 ## Шаг 1. Собрать brief
 
@@ -67,8 +76,8 @@ description: >-
 | `topicKk`       | если пользователь не дал — возьми из учебника или предложи перевод и **подтверди** |
 
 Про иллюстрации: фраза «с иллюстрациями» без деталей → **спросить**: ко всем, к каким `localId`,
-или только к визуальным. И сразу предупредить: в v1 такой прогон не дойдёт до импорта —
-в банке вопросов негде хранить картинки, он остановится на `05`.
+или только к визуальным (`visual-topics`). Предупредить: текст вопросов в банк v1 уходит без
+картинок; ассеты останутся в `06` до отдельного asset-import.
 
 ## Шаг 2. Завести папку прогона
 
@@ -80,12 +89,14 @@ content/runs/{subject}-{grade}-{topicSlug}-{YYYYMMDD-HHMM}/
 `math-5-koordinatnyy-luch-20260804-1015`.
 
 Сразу создай `logs/` и положи `00-brief.json`. `.local/` — опционально, для машинозависимых
-заготовок под админ-импорт (см. loader).
+заготовок под админ-импорт (см. loader). Не путать `.local/06-import-payload.json` с
+артефактом пайплайна `06-illustrations.json`.
 
 ## Шаг 3. Гонять роли по порядку
 
 Каждая роль — отдельный `Task` с узким промптом «прочитай скилл X, входной файл A, запиши B».
 Ревьюер **обязательно** отдельным Task: он не должен видеть рассуждения генератора.
+Иллюстратор — после `05`, отдельным Task; `05` не трогает.
 
 | # | Роль                                                             | Вход              | Выход                              |
 | - | ---------------------------------------------------------------- | ----------------- | ---------------------------------- |
@@ -93,9 +104,13 @@ content/runs/{subject}-{grade}-{topicSlug}-{YYYYMMDD-HHMM}/
 | 2 | [matrix](../damulab-question-matrix/SKILL.md)                    | `00` + `01`       | `02-matrix.json`                   |
 | 3 | [generator](../damulab-question-generator/SKILL.md)              | `01` + `02`       | `03-questions.draft.json`          |
 | 4 | [reviewer](../damulab-question-reviewer/SKILL.md)                | `01` + `02` + `03`| `04-review.json` + `05-…final.json` |
+| 5 | [illustrator](../damulab-question-illustrator/SKILL.md)          | `02` + `04` + `05`| `06-illustrations.json` + `illustrations/*` |
+
+Роль 5 вызывай только если `illustrationPolicy` ≠ `none` и в матрице есть
+`needsIllustration: true`. Иначе пропусти.
 
 Формат экспорта `05` описан в [damulab-question-seed](../damulab-question-seed/SKILL.md) —
-он остаётся финальным контрактом, пайплайн к нему подводит.
+он остаётся финальным текстовым контрактом; картинки — в `06`.
 
 Роль пишет свой журнал в `logs/{роль}.md`: что взяла, что отбросила и почему. Журнал — короткий,
 на несколько абзацев; подробности живут в JSON.
@@ -113,7 +128,8 @@ content/runs/{subject}-{grade}-{topicSlug}-{YYYYMMDD-HHMM}/
 | Ревьюер отклонил > 30 % слотов                                     | `verdict: needs_rework`. Один повтор генератора по отклонённым слотам, потом стоп |
 | Остался хотя бы один issue уровня `blocker`                        | Не писать `05`, вернуть генератору                                |
 | Ревьюер / чеклист seed нашёл блокирующие проблемы контракта        | Чинить `05` до чистого чеклиста; не звать загрузчик               |
-| `illustrationPolicy` ≠ `none`                                      | Довести до `05` и **штатно закончить**: импорт в v1 невозможен     |
+| `illustrationPolicy` ≠ `none`                                      | После `05` вызвать illustrator → `06`. Импорт **текста** в банк v1 без ассетов возможен; импорт картинок — позже (asset-import). Итог: `ready_for_asset_import`, если в `06` есть `ready` items |
+| Иллюстратор: `blocked` item / нет kind в рендерере                 | Один повтор с другим sceneKind или упрощением; второй раз — `pipeline-gaps.md` и стоп по картинкам (текст `05` остаётся валидным) |
 
 Про `blocked` и `ready_unverified`: **«страницы не прочитаны / материала нет»** — стоп;
 **«страницы прочитаны, но текст правила не выписывается надёжно»** — рабочий прогон с
@@ -127,21 +143,23 @@ content/runs/{subject}-{grade}-{topicSlug}-{YYYYMMDD-HHMM}/
 ## Шаг 5. Финал прогона
 
 1. Убедиться, что ревьюер прошёл чеклист контракта (скиллы reviewer + seed) и `05` без id БД.
-2. Дописать строку в [content/runs/_coverage.md](../../../content/runs/_coverage.md).
-3. Записать `logs/orchestrator.md`: brief в двух строчках, какие роли отработали, где спотыкались.
-4. Если всплыл **системный** косяк (повторяется из прогона в прогон или упирается в архитектуру) —
+2. Если нужна иллюстрация — проверить `06` и наличие SVG для всех `status: ready`.
+3. Дописать строку в [content/runs/_coverage.md](../../../content/runs/_coverage.md).
+4. Записать `logs/orchestrator.md`: brief в двух строчках, какие роли отработали, где спотыкались.
+5. Если всплыл **системный** косяк (повторяется из прогона в прогон или упирается в архитектуру) —
    1–3 пункта в `content/pipeline-gaps.md`. Разовая опечатка туда не идёт.
-5. Отчитаться пользователю **по-русски**: сколько принято / отклонено, готов ли прогон к загрузке
-   через админку, что осталось на его решение.
+6. Отчитаться пользователю **по-русски**: сколько принято / отклонено, готов ли текст к загрузке
+   через админку, готовы ли ассеты локально (`ready_for_asset_import`), что осталось на его решение.
 
 Не коммитить и не импортировать, пока пользователь не попросит.
 
 ## Чего не делать
 
 - Не писать вопросы сразу в БД и тем более в прод.
-- Не класть id БД (`subjectId`, `topicIds`, `gradeIds`) в артефакты `00`–`05`.
+- Не класть id БД (`subjectId`, `topicIds`, `gradeIds`) в артефакты `00`–`06`.
 - Не хранить состояние прогона только в чате: следующий шаг читает предыдущий JSON, а не «помнит».
 - Не заводить общую «память роли» вне папки прогона — иначе два прогона одной темы не сравнить.
-- Не использовать `MATCHING`, не генерировать картинки, не создавать темы в БД.
+- Не использовать `MATCHING`, не создавать темы в БД.
+- Не генерировать картинки до `05` и не мутировать `05` иллюстратором.
 - Не сливать несколько тем в один прогон, даже если они соседние по учебнику.
 - Не возвращать Java seed / Gradle `validateSeed` / `seedImport` в приложение.

@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-chislovye-bukvennye-vyrazheniya-20260808-2230",
+  "reviewedAt": "2026-08-08T19:15:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 28,
+    "fixed": 2,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "C — выражение только из чисел, знаков и скобок",
+      "keyAnswer": "C — Выражение только из чисел, знаков действий и скобок (по необходимости)",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "B — выражение, содержащее буквы",
+      "keyAnswer": "B — Выражение, содержащее буквы",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "D — число после выполнения всех действий",
+      "keyAnswer": "D — Число после выполнения всех действий в выражении",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "B — числовой множитель при букве(ах)",
+      "keyAnswer": "B — Числовой множитель при букве (или буквах)",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "B — $54:9+6$ (без букв и без =)",
+      "keyAnswer": "B — $54:9+6$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "C — числовое выражение $5+9·2$ (ещё не значение)",
+      "keyAnswer": "C — Числовое выражение",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "7 (45−33=12; 84:12=7)",
+      "keyAnswer": "A — $7$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "54 (9+15·3 → 9+45=54)",
+      "keyAnswer": "B — $54$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "54 (9x = 9·6 = 54)",
+      "keyAnswer": "C — $54$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "C — ab и a·b — одно произведение",
+      "keyAnswer": "C — Они означают одно и то же произведение",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "C — коэффициент 1",
+      "keyAnswer": "C — $1$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "C — $3(19+a)$ ошибочно помечено как числовое",
+      "keyAnswer": "C — $3(19+a)$ — числовое",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "B — $(11+13)·2$",
+      "keyAnswer": "B — $(11+13)\\cdot 2$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "23 (k=41−18)",
+      "keyAnswer": "C — $23$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "A, C ($2a+7$, $x·y$; кириллица/заглавные нет)",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "status": "accepted",
+      "solvedAnswer": "B — $4+8·2$ (средний шаг — числовое)",
+      "keyAnswer": "B — $4+8\\cdot 2$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "A, C, D ($34-5$, $45:9$, $18·5$)",
+      "keyAnswer": "A, C, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "A, C, D ($18+a$, $34·b$, $x-y$)",
+      "keyAnswer": "A, C, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A, C ($ab$; $4(n+1)$)",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "A, C, D (B ложно: значение буквы ≠ значение выражения)",
+      "keyAnswer": "A, C, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "117 (12+8+97)",
+      "keyAnswer": "[[1]] = 117",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "C — $4(a-b)$",
+      "keyAnswer": "C — $4(a-b)$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "72 (2·(64−28)=2·36)",
+      "keyAnswer": "B — $72$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "7 (8y=56 → y=56:8)",
+      "keyAnswer": "A — $7$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "fixed",
+      "solvedAnswer": "A, B ((9+6)+11=26; 5·18·4=360)",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "duplicate_body",
+          "severity": "major",
+          "message": "Нормализованный bodyRu совпал с slozhenie-vychitanie-naturalnyh#q21 и umn-del-des-drobi-na-10-01#q21; stem уточнён под тему подстановки."
+        }
+      ],
+      "fixApplied": "Анти-дубль: уточнён stem (было точное совпадение bodyRu «Отметь все верные равенства.» с другими прогонами). Ключ и опции без изменений."
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "A, C, D (B ложно: в a+6 коэффициент при a = 1, не 6)",
+      "keyAnswer": "A, C, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "6",
+      "keyAnswer": "[[1]] = 6",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "A, B, C (D сумма 25+x+y неполная)",
+      "keyAnswer": "A, B, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "fixed",
+      "solvedAnswer": "A, C, D (B ложно: 12+14=26 — предложение)",
+      "keyAnswer": "A, C, D",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "duplicate_body",
+          "severity": "major",
+          "message": "Нормализованный bodyRu совпал с naturalnye-chisla-i-nol#q23; stem уточнён под выражения/предложения."
+        }
+      ],
+      "fixApplied": "Анти-дубль: уточнён stem (было точное совпадение bodyRu «Отметь все верные утверждения.» с naturalnye-chisla-i-nol#q23). Ключ и опции без изменений."
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "7 (24n=168 → n=7)",
+      "keyAnswer": "[[1]] = 7",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [
+    {
+      "localId": "q25",
+      "conflictsWith": "content/runs/math-5-slozhenie-vychitanie-naturalnyh-20260808-1930/05-questions.final.json#q21",
+      "normalizedBody": "otmet vse vernye ravenstva"
+    },
+    {
+      "localId": "q29",
+      "conflictsWith": "content/runs/math-5-naturalnye-chisla-i-nol-20260808-1700/05-questions.final.json#q23",
+      "normalizedBody": "otmet vse vernye utverzhdeniya"
+    }
+  ],
+  "verdict": "ready_for_import"
+}

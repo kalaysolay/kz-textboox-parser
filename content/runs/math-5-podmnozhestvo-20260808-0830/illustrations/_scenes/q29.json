@@ -1,0 +1,10 @@
+{
+  "kind": "set_euler",
+  "width": 520,
+  "height": 360,
+  "sets": [
+    { "id": "R", "cx": 260, "cy": 195, "r": 130 },
+    { "id": "S", "cx": 260, "cy": 210, "r": 65 }
+  ],
+  "elements": []
+}

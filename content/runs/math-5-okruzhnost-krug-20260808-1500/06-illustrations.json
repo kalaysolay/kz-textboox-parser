@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-okruzhnost-krug-20260808-1500",
+  "sourceFinal": "05-questions.final.json",
+  "styleProfile": "aldamuratova-textbook-simple",
+  "items": [
+    {
+      "localId": "q12",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_euler",
+      "purpose": "Один диск: P внутри, Q на границе, R вне; ответ только в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q12.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q12.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_euler",
+        "width": 520,
+        "height": 360,
+        "sets": [
+          { "id": "", "cx": 260, "cy": 200, "r": 120 }
+        ],
+        "elements": [
+          { "label": "P", "x": 245, "y": 185 },
+          { "label": "Q", "x": 380, "y": 200 },
+          { "label": "R", "x": 455, "y": 95 }
+        ]
+      },
+      "notes": "Best-effort: set_euler as labeled disk (no sceneKind circle). Positions match stem; no answer highlight."
+    },
+    {
+      "localId": "q22",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_euler",
+      "purpose": "Один диск: M внутри, N на границе, K вне; классификации в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q22.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q22.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_euler",
+        "width": 520,
+        "height": 360,
+        "sets": [
+          { "id": "", "cx": 260, "cy": 200, "r": 120 }
+        ],
+        "elements": [
+          { "label": "M", "x": 250, "y": 190 },
+          { "label": "N", "x": 260, "y": 80 },
+          { "label": "K", "x": 430, "y": 290 }
+        ]
+      },
+      "notes": "Best-effort: set_euler labeled disk. Stem already names regions; figure does not mark correct options."
+    },
+    {
+      "localId": "q24",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_venn",
+      "purpose": "Два пересекающихся диска A/B: M в ∩, N только A, K только B, L вне",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q24.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q24.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_venn",
+        "width": 520,
+        "height": 360,
+        "radius": 110,
+        "setALabel": "A",
+        "setBLabel": "B",
+        "elements": [
+          { "label": "N", "region": "A" },
+          { "label": "M", "region": "AB" },
+          { "label": "K", "region": "B" },
+          { "label": "L", "region": "outside" }
+        ]
+      },
+      "notes": "set_venn as two overlapping disk regions (circles A,B). Stem text already states memberships."
+    },
+    {
+      "localId": "q27",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_venn",
+      "purpose": "Схема перекрытия двух внутренних областей без точек (числа только в условии)",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q27.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q27.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_venn",
+        "width": 520,
+        "height": 360,
+        "radius": 110,
+        "setALabel": "A",
+        "setBLabel": "B",
+        "elements": []
+      },
+      "notes": "Bare set_venn: placing 5 points in correct regions would leak counts (общих 2 / только в первой 2). Retry not needed — schematic without points is the leak-safe supported approach."
+    }
+  ]
+}

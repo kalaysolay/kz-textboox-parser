@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-arifmeticheskie-deystviya-naturalnye-20260808-2200",
+  "typeMixPlanned": { "SCQ": 7, "MCQ": 4, "FILL_IN": 1 },
+  "difficultyMixPlanned": { "1": 1, "2": 2, "3": 6, "4": 2, "5": 1 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Действия первой и второй ступени",
+      "stemIdea": "Выбрать, какие действия относят к первой / второй ступени",
+      "trapIdeas": [
+        "Ученик относит умножение и деление к первой ступени",
+        "Ученик называет скобки отдельной «ступенью»",
+        "Ученик путает ступени и порядок слева направо"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p36_2"],
+      "sourceExampleRefs": ["p37#kq"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Приоритет второй ступени без скобок",
+      "stemIdea": "В выражении без скобок с +/− и ·/: указать, какое действие выполняют первым",
+      "trapIdeas": [
+        "Ученик идёт строго слева направо, игнорируя ·/:",
+        "Ученик сначала делает все +/−, потом ·/:",
+        "Ученик считает, что без скобок порядок произвольный"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p36_4"],
+      "sourceExampleRefs": ["p36#ex2"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Порядок одной ступени слева направо",
+      "stemIdea": "В цепочке только +/− (или только ·/:) без скобок указать первое действие",
+      "trapIdeas": [
+        "Ученик начинает с правого края цепочки",
+        "Ученик «прыгает» к вычитанию раньше сложения слева",
+        "Ученик ищет мнимый приоритет · внутри цепочки одной ступени"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p36_3"],
+      "sourceExampleRefs": ["p36#ex1"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Значение цепочки одной ступени",
+      "stemIdea": "Вычислить значение короткой цепочки только +/− или только ·/: слева направо",
+      "trapIdeas": [
+        "Ученик меняет порядок действий внутри одной ступени",
+        "Ученик группирует «удобные» числа, ломая LTR",
+        "Ученик вставляет приоритет несуществующей второй ступени"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p36_3"],
+      "sourceExampleRefs": ["p36#ex1", "p37#73"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Значение без скобок при обеих ступенях",
+      "stemIdea": "Вычислить выражение без скобок: сначала ·/:, затем +/−",
+      "trapIdeas": [
+        "Ученик считает всё слева направо (ловушка порядка)",
+        "Ученик сначала складывает/вычитает, потом умножает/делит",
+        "Ученик верно начинает со второй ступени, но путает следующий шаг первой"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p36_4"],
+      "sourceExampleRefs": ["p36#ex2", "p37#73"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Поиск ошибки в чужом порядке действий",
+      "stemIdea": "Дан чужой пошаговый расчёт смешанного выражения — указать, на каком шаге нарушен порядок",
+      "trapIdeas": [
+        "Ученик принимает LTR-ошибку за верный ход",
+        "Ученик считает ошибкой верный шаг второй ступени",
+        "Ученик указывает арифметическую описку вместо ошибки порядка"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p36_4", "PDF_p36_1"],
+      "sourceExampleRefs": ["p36#ex2"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Расстановка скобок по заданному порядку",
+      "stemIdea": "По нумерованному порядку действий выбрать верную расстановку скобок и значение",
+      "trapIdeas": [
+        "Ученик ставит скобки вокруг действий с меньшими номерами неверно",
+        "Ученик копирует порядок без скобок и меняет значение",
+        "Ученик вкладывает скобки так, что порядок номеров не соблюдается"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p36_5"],
+      "sourceExampleRefs": ["p37#75"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q08",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные утверждения о правилах порядка",
+      "stemIdea": "Отметить все верные: ступени; порядок без скобок; порядок со скобками",
+      "trapIdeas": [
+        "Ученик отмечает «всё слева направо всегда» как верное",
+        "Ученик путает формулировку для скобок с правилом без скобок",
+        "Ученик включает названия переместительного/сочетательного свойства"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p36_1", "PDF_p36_2", "PDF_p36_5"],
+      "sourceExampleRefs": ["p37#kq"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q09",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные вычисления с учётом порядка",
+      "stemIdea": "Отметить все равенства, где значение получено с верным порядком действий",
+      "trapIdeas": [
+        "Ученик принимает LTR-результат смешанного выражения за верный",
+        "Ученик отвергает верный ответ из‑за другого порядка записи промежуточных",
+        "Ученик путает цепочку одной ступени с приоритетом второй"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p36_3", "PDF_p36_4"],
+      "sourceExampleRefs": ["p37#73"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q10",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Сравнение выражений со скобками и без",
+      "stemIdea": "Отметить все пары/выражения, равные при верном порядке (со скобками vs без)",
+      "trapIdeas": [
+        "Ученик считает a−b·c равным (a−b)·c",
+        "Ученик игнорирует вложенные скобки при сравнении",
+        "Ученик сравнивает записи, а не значения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p36_4", "PDF_p36_5"],
+      "sourceExampleRefs": ["p36#ex3"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q11",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Порядок действий в сюжетной программе",
+      "stemIdea": "Бытовой сюжет в 2–3 шага (купить/разделить/добавить): отметить все верные шаги и итог по порядку",
+      "trapIdeas": [
+        "Ученик складывает до умножения/деления в программе",
+        "Ученик меняет местами шаги «разделить» и «сложить»",
+        "Ученик считает верным итог без учёта скобок в программе"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p36_4", "PDF_p36_5"],
+      "sourceExampleRefs": ["p37#74"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q12",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Значение по схеме/программе со скобками",
+      "stemIdea": "По программе или схеме со скобками составить выражение и вписать одно число — его значение",
+      "trapIdeas": [
+        "Ученик считает без внутренних скобок",
+        "Ученик меняет порядок шагов программы",
+        "Ученик ошибается на последнем действии снаружи скобок"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p36_5"],
+      "sourceExampleRefs": ["p37#74", "p37#77"],
+      "questionForm": "inverse"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "count=12 = recommendedMaxCount; typeMix SCQ7/MCQ4/FILL_IN1 и difficulty 1/2/6/2/1 из brief. Опора на 5 primary PDF_p36_1–5 (verbatim); RC_* нет. Фокус: ступени и порядок ±·/: со скобками и без — не техника столбика (C4/C5), не имена свойств (C7), не Гаусс (C8). questionForm ≤2: recall2 predict2 compute2 verify2 restore1 compare1 word_problem1 inverse1. needsIllustration все false (visual-topics: порядок действий формулируется текстом; схему №77 описываем словами)."
+}

@@ -1,0 +1,1239 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-umnozhenie-delenie-naturalnyh-20260808-2000",
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "math-5-umnozhenie-delenie-naturalnyh-20260808-2000",
+    "generatedAt": "2026-08-08T20:30:00+05:00",
+    "subjectTitleRu": "Математика",
+    "subjectTitleKk": "Математика",
+    "gradeNo": 5,
+    "topicCode": "1.5",
+    "topicTitleRu": "Умножение и деление натуральных чисел. Основное свойство частного",
+    "topicTitleKk": "Натурал сандарды көбейту және бөлу. Жекешенің негізгі қасиеті",
+    "topicSlug": "umnozhenie-delenie-naturalnyh",
+    "atomicSkillTitleRu": null,
+    "textbookRef": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+    "illustrationPolicy": "visual-topics",
+    "sourceReliability": "verbatim"
+  },
+  "questions": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p25_1"
+      ],
+      "bodyRu": "В равенстве $a \\cdot b = c$ числа $a$ и $b$ называют…",
+      "bodyKk": "$a \\cdot b = c$ теңдігінде $a$ және $b$ сандарын қалай атайды?",
+      "explanationRu": "По учебнику $a$ и $b$ — множители, $c$ — значение произведения.",
+      "explanationKk": "Оқулық бойынша $a$ мен $b$ — көбейткіштер, $c$ — көбейтіндінің мәні.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "делимым и делителем",
+          "textKk": "бөлінгіш және бөлгіш",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "множителями",
+          "textKk": "көбейткіштер",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "слагаемыми",
+          "textKk": "қосылғыштар",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "значением произведения",
+          "textKk": "көбейтіндінің мәні",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "illustration": null
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p25_5"
+      ],
+      "bodyRu": "В примере $54 : 18 = 3$ число $18$ называют…",
+      "bodyKk": "$54 : 18 = 3$ мысалында $18$ санын қалай атайды?",
+      "explanationRu": "В делении $54$ — делимое, $18$ — делитель, $3$ — значение частного.",
+      "explanationKk": "Бөлуде $54$ — бөлінгіш, $18$ — бөлгіш, $3$ — жекешенің мәні.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "делимое",
+          "textKk": "бөлінгіш",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "делитель",
+          "textKk": "бөлгіш",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "значение частного",
+          "textKk": "жекешенің мәні",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "множитель",
+          "textKk": "көбейткіш",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "illustration": null
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p25_2",
+        "PDF_p24_1"
+      ],
+      "bodyRu": "Что значит умножить число $a$ на натуральное число $b$?",
+      "bodyKk": "$a$ санын натурал $b$ санына көбейту нені білдіреді?",
+      "explanationRu": "Нужно найти сумму $b$ слагаемых, каждое из которых равно $a$.",
+      "explanationKk": "Әрқайсысы $a$-ға тең $b$ қосылғыштың қосындысын табу керек.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "найти сумму $a$ и $b$",
+          "textKk": "$a$ мен $b$ қосындысын табу",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "найти сумму $b$ слагаемых, равных $a$",
+          "textKk": "әрқайсысы $a$-ға тең $b$ қосылғыштың қосындысын табу",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "найти разность $a$ и $b$",
+          "textKk": "$a$ мен $b$ айырмасын табу",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "найти частное $a : b$",
+          "textKk": "$a : b$ жекешесін табу",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "illustration": null
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p25_4"
+      ],
+      "bodyRu": "Какое определение деления соответствует учебнику?",
+      "bodyKk": "Бөлудің оқулықтағы анықтамасы қайсы?",
+      "explanationRu": "Деление — действие, которым по значению произведения и одному множителю находят другой множитель.",
+      "explanationKk": "Бөлу — көбейтіндінің мәні мен бір көбейткіш бойынша екінші көбейткішті табу әрекеті.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "действие, которым находят сумму равных слагаемых",
+          "textKk": "тең қосылғыштардың қосындысын табу әрекеті",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "действие, которым по значению произведения и одному множителю находят другой множитель",
+          "textKk": "көбейтіндінің мәні мен бір көбейткіш бойынша екінші көбейткішті табу әрекеті",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "действие, которым находят разность двух чисел",
+          "textKk": "екі санның айырмасын табу әрекеті",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "действие, которым сравнивают два числа",
+          "textKk": "екі санды салыстыру әрекеті",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "illustration": null
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p25_7"
+      ],
+      "bodyRu": "Можно ли делить натуральное число на $0$?",
+      "bodyKk": "Натурал санды $0$-ге бөлуге бола ма?",
+      "explanationRu": "По учебнику: на $0$ делить нельзя.",
+      "explanationKk": "Оқулық бойынша: $0$-ге бөлуге болмайды.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "да, частное равно $0$",
+          "textKk": "иә, жекеше $0$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "да, частное равно делимому",
+          "textKk": "иә, жекеше бөлінгішке тең",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "нет, на $0$ делить нельзя",
+          "textKk": "жоқ, $0$-ге бөлуге болмайды",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "да, если делимое тоже равно $0$",
+          "textKk": "иә, егер бөлінгіш те $0$ болса",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "illustration": null
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p25_3"
+      ],
+      "bodyRu": "При каком условии значение произведения равно $0$?",
+      "bodyKk": "Көбейтіндінің мәні қашан $0$-ге тең?",
+      "explanationRu": "Если хотя бы один множитель равен нулю, то $a \\cdot 0 = 0$.",
+      "explanationKk": "Кем дегенде бір көбейткіш нөл болса, $a \\cdot 0 = 0$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "только если оба множителя равны $0$",
+          "textKk": "тек екі көбейткіш те $0$ болса",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "если хотя бы один множитель равен $0$",
+          "textKk": "кем дегенде бір көбейткіш $0$ болса",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "если сумма множителей равна $0$",
+          "textKk": "көбейткіштер қосындысы $0$ болса",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "только при делении на $0$",
+          "textKk": "тек $0$-ге бөлгенде",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "illustration": null
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p24_1",
+        "PDF_p27_KF"
+      ],
+      "bodyRu": "Сумму $8 + 8 + 8 + 8 + 8$ запишите в виде произведения и найдите значение. Чему оно равно?",
+      "bodyKk": "$8 + 8 + 8 + 8 + 8$ қосындысын көбейтінді түрінде жазып, мәнін табыңыз. Ол неге тең?",
+      "explanationRu": "$8 + 8 + 8 + 8 + 8 = 8 \\cdot 5 = 40$.",
+      "explanationKk": "$8 + 8 + 8 + 8 + 8 = 8 \\cdot 5 = 40$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "13",
+          "textKk": "13",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "40",
+          "textKk": "40",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "32",
+          "textKk": "32",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "16",
+          "textKk": "16",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "illustration": null
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p24_1",
+        "PDF_p27_KF"
+      ],
+      "bodyRu": "Дано: $5 + 5 + 5 = 15$, или $\\square \\cdot 3 = 15$. Какое число нужно вставить вместо $\\square$?",
+      "bodyKk": "Берілгені: $5 + 5 + 5 = 15$, немесе $\\square \\cdot 3 = 15$. $\\square$ орнына қандай сан қою керек?",
+      "explanationRu": "Три слагаемых, равных $5$, дают произведение $5 \\cdot 3$, значит $\\square = 5$.",
+      "explanationKk": "Әрқайсысы $5$-ке тең үш қосылғыш $5 \\cdot 3$ береді, демек $\\square = 5$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "3",
+          "textKk": "3",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "15",
+          "textKk": "15",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "5",
+          "textKk": "5",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "8",
+          "textKk": "8",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "illustration": null
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p25_1"
+      ],
+      "bodyRu": "Найдите значение произведения $396 \\cdot 100$.",
+      "bodyKk": "$396 \\cdot 100$ көбейтіндісінің мәнін табыңыз.",
+      "explanationRu": "При умножении на $100$ к числу приписывают два нуля: $39600$.",
+      "explanationKk": "$100$-ге көбейткенде санға екі нөл қосылады: $39600$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "3960",
+          "textKk": "3960",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "39600",
+          "textKk": "39600",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "396000",
+          "textKk": "396000",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "0396",
+          "textKk": "0396",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "illustration": null
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p25_5",
+        "PDF_p25_8"
+      ],
+      "bodyRu": "Найдите значение частного $4848 : 16$.",
+      "bodyKk": "$4848 : 16$ жекешесінің мәнін табыңыз.",
+      "explanationRu": "$4848 : 16 = 303$ (проверка: $303 \\cdot 16 = 4848$).",
+      "explanationKk": "$4848 : 16 = 303$ (тексеру: $303 \\cdot 16 = 4848$).",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "16",
+          "textKk": "16",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "302",
+          "textKk": "302",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "303",
+          "textKk": "303",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "313",
+          "textKk": "313",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "illustration": null
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p25_6"
+      ],
+      "bodyRu": "Известно, что $60 : 15 = 4$. Какое равенство верно по основному свойству частного?",
+      "bodyKk": "$60 : 15 = 4$ екені белгілі. Жекешенің негізгі қасиеті бойынша қай теңдік дұрыс?",
+      "explanationRu": "Делимое и делитель умножили на $2$: $120 : 30 = 4$ — частное не изменилось.",
+      "explanationKk": "Бөлінгіш пен бөлгішті $2$-ге көбейттік: $120 : 30 = 4$ — жекеше өзгермеді.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$120 : 15 = 4$",
+          "textKk": "$120 : 15 = 4$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$60 : 30 = 4$",
+          "textKk": "$60 : 30 = 4$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$120 : 30 = 4$",
+          "textKk": "$120 : 30 = 4$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$120 : 45 = 4$",
+          "textKk": "$120 : 45 = 4$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "illustration": null
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p25_6"
+      ],
+      "bodyRu": "Вычислите, упростив частное: $6060 : 505$.",
+      "bodyKk": "Жекешені жеңілдетіп есептеңіз: $6060 : 505$.",
+      "explanationRu": "Разделим делимое и делитель на $5$: $1212 : 101 = 12$.",
+      "explanationKk": "Бөлінгіш пен бөлгішті $5$-ке бөлеміз: $1212 : 101 = 12$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "10",
+          "textKk": "10",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "12",
+          "textKk": "12",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "15",
+          "textKk": "15",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "505",
+          "textKk": "505",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "illustration": null
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p25_8"
+      ],
+      "bodyRu": "Ученик записал $348 : 29 = 12$. Какая проверка верна?",
+      "bodyKk": "Оқушы $348 : 29 = 12$ деп жазды. Қай тексеру дұрыс?",
+      "explanationRu": "Проверка: $12 \\cdot 29 = 348$ (или $348 : 12 = 29$).",
+      "explanationKk": "Тексеру: $12 \\cdot 29 = 348$ (немесе $348 : 12 = 29$).",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$12 \\cdot 348 = 29$",
+          "textKk": "$12 \\cdot 348 = 29$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$12 + 29 = 348$",
+          "textKk": "$12 + 29 = 348$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$12 \\cdot 29 = 348$",
+          "textKk": "$12 \\cdot 29 = 348$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$29 : 12 = 348$",
+          "textKk": "$29 : 12 = 348$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "illustration": null
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p25_3"
+      ],
+      "bodyRu": "Найдите $x$, если $51 \\cdot (x - 6) = 0$.",
+      "bodyKk": "$51 \\cdot (x - 6) = 0$ болса, $x$ мәнін табыңыз.",
+      "explanationRu": "$51 \\neq 0$, значит $x - 6 = 0$, $x = 6$.",
+      "explanationKk": "$51 \\neq 0$, демек $x - 6 = 0$, $x = 6$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "0",
+          "textKk": "0",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "51",
+          "textKk": "51",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "6",
+          "textKk": "6",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "57",
+          "textKk": "57",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "illustration": null
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p25_4",
+        "PDF_p25_5"
+      ],
+      "bodyRu": "Найдите число, которое меньше, чем $112$, в $7$ раз.",
+      "bodyKk": "$112$-ден $7$ есе кіші санды табыңыз.",
+      "explanationRu": "$112 : 7 = 16$.",
+      "explanationKk": "$112 : 7 = 16$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "105",
+          "textKk": "105",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "16",
+          "textKk": "16",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "784",
+          "textKk": "784",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "7",
+          "textKk": "7",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "illustration": null
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 5,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p25_5"
+      ],
+      "bodyRu": "Не выполняя полного деления, определите, сколько цифр в частном $6** : 14$ (где $*$ — неизвестные цифры делимого, делимое — трёхзначное).",
+      "bodyKk": "Толық бөлусіз $6** : 14$ жекешесінде қанша цифр бар екенін анықтаңыз (делимое үш таңбалы).",
+      "explanationRu": "Трёхзначное, начинающееся с $6$, при делении на $14$ даёт двузначное частное (например, $600:14$ около $42$).",
+      "explanationKk": "$6$-дан басталатын үш таңбалы санды $14$-ке бөлгенде жекеше екі таңбалы болады.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "1",
+          "textKk": "1",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "2",
+          "textKk": "2",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "3",
+          "textKk": "3",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "4",
+          "textKk": "4",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "illustration": null
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p25_5"
+      ],
+      "bodyRu": "Если $a : b = c$, то какое равенство верно?",
+      "bodyKk": "Егер $a : b = c$ болса, қай теңдік дұрыс?",
+      "explanationRu": "По определению $a : b = c$ означает $c \\cdot b = a$.",
+      "explanationKk": "Анықтама бойынша $a : b = c$ дегені $c \\cdot b = a$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$a \\cdot b = c$",
+          "textKk": "$a \\cdot b = c$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$a \\cdot c = b$",
+          "textKk": "$a \\cdot c = b$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$c \\cdot b = a$",
+          "textKk": "$c \\cdot b = a$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$b : c = a$",
+          "textKk": "$b : c = a$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "illustration": null
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 4,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p25_6"
+      ],
+      "bodyRu": "Если $x : y = 12$, то чему равно $x : (y \\cdot 3)$?",
+      "bodyKk": "Егер $x : y = 12$ болса, $x : (y \\cdot 3)$ неге тең?",
+      "explanationRu": "Делитель умножили на $3$, частное уменьшилось в $3$ раза: $12 : 3 = 4$.",
+      "explanationKk": "Бөлгішті $3$-ке көбейткенде жекеше $3$ есе кемиді: $12 : 3 = 4$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "12",
+          "textKk": "12",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "36",
+          "textKk": "36",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "4",
+          "textKk": "4",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "9",
+          "textKk": "9",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "illustration": null
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p24_1",
+        "PDF_p27_KF"
+      ],
+      "bodyRu": "Выберите все верные записи суммы равных слагаемых в виде произведения.",
+      "bodyKk": "Тең қосылғыштар қосындысының көбейтінді түріндегі дұрыс жазбаларын таңдаңыз.",
+      "explanationRu": "Верны $7+7+7+7+7=7\\cdot5$ и $4+4+4=4\\cdot3$. Сумма разных слагаемых произведением одинаковых не является.",
+      "explanationKk": "$7+7+7+7+7=7\\cdot5$ және $4+4+4=4\\cdot3$ дұрыс. Әр түрлі қосылғыштар қосындысы бірдей көбейткіштер көбейтіндісі емес.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$7 + 7 + 7 + 7 + 7 = 7 \\cdot 5$",
+          "textKk": "$7 + 7 + 7 + 7 + 7 = 7 \\cdot 5$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$5 + 6 + 7 = 5 \\cdot 3$",
+          "textKk": "$5 + 6 + 7 = 5 \\cdot 3$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$4 + 4 + 4 = 4 \\cdot 3$",
+          "textKk": "$4 + 4 + 4 = 4 \\cdot 3$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$9 + 9 = 9 + 2$",
+          "textKk": "$9 + 9 = 9 + 2$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "illustration": null
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p25_5"
+      ],
+      "bodyRu": "В равенстве $54 : 18 = 3$ отметьте все верные утверждения.",
+      "bodyKk": "$54 : 18 = 3$ теңдігінде барлық дұрыс тұжырымдарды белгілеңіз.",
+      "explanationRu": "$54$ — делимое, $18$ — делитель, $3$ — значение частного. Выражение $54:18$ — частное.",
+      "explanationKk": "$54$ — бөлінгіш, $18$ — бөлгіш, $3$ — жекешенің мәні. $54:18$ өрнегі — жекеше.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$54$ — делимое",
+          "textKk": "$54$ — бөлінгіш",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$18$ — делитель",
+          "textKk": "$18$ — бөлгіш",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$3$ — делимое",
+          "textKk": "$3$ — бөлінгіш",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$3$ — значение частного",
+          "textKk": "$3$ — жекешенің мәні",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "illustration": null
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p25_3"
+      ],
+      "bodyRu": "Отметьте все равенства, в которых значение произведения равно $0$.",
+      "bodyKk": "Көбейтіндінің мәні $0$ болатын барлық теңдіктерді белгілеңіз.",
+      "explanationRu": "Произведение равно $0$, если хотя бы один множитель равен $0$. Сумма и деление сюда не относятся.",
+      "explanationKk": "Кем дегенде бір көбейткіш $0$ болса, көбейтінді $0$. Қосынды мен бөлу мұнда қатысты емес.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$17 \\cdot 0 = 0$",
+          "textKk": "$17 \\cdot 0 = 0$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$0 \\cdot 25 = 0$",
+          "textKk": "$0 \\cdot 25 = 0$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$8 + 0 = 0$",
+          "textKk": "$8 + 0 = 0$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$0 \\cdot 0 = 0$",
+          "textKk": "$0 \\cdot 0 = 0$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "illustration": null
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p25_6"
+      ],
+      "bodyRu": "Известно, что $60 : 15 = 4$. Отметьте все частные, равные $4$ по основному свойству частного.",
+      "bodyKk": "$60 : 15 = 4$ екені белгілі. Жекешенің негізгі қасиеті бойынша $4$-ке тең барлық жекешелерді белгілеңіз.",
+      "explanationRu": "Верны $120:30$ (×2) и $20:5$ (:3). Неверны случаи, где изменили только одно число или взяли разные коэффициенты.",
+      "explanationKk": "$120:30$ (×2) және $20:5$ (:3) дұрыс. Тек бір сан өзгерсе немесе коэффициенттер әр түрлі болса — қате.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$120 : 30$",
+          "textKk": "$120 : 30$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$20 : 5$",
+          "textKk": "$20 : 5$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$60 : 30$",
+          "textKk": "$60 : 30$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$180 : 45$",
+          "textKk": "$180 : 45$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "illustration": null
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 4,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p25_8"
+      ],
+      "bodyRu": "Для равенства $348 : 29 = 12$ отметьте все корректные проверки.",
+      "bodyKk": "$348 : 29 = 12$ теңдігі үшін барлық дұрыс тексерулерді белгілеңіз.",
+      "explanationRu": "Верны $12\\cdot29=348$ и $348:12=29$. Сложение и перепутанные множители — нет.",
+      "explanationKk": "$12\\cdot29=348$ және $348:12=29$ дұрыс. Қосу мен шатасқан көбейткіштер — қате.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$12 \\cdot 29 = 348$",
+          "textKk": "$12 \\cdot 29 = 348$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$348 : 12 = 29$",
+          "textKk": "$348 : 12 = 29$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$12 + 29 = 348$",
+          "textKk": "$12 + 29 = 348$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$29 \\cdot 12 = 348$",
+          "textKk": "$29 \\cdot 12 = 348$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "illustration": null
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p25_6"
+      ],
+      "bodyRu": "Отметьте все верные равенства (удобно упростить свойством частного).",
+      "bodyKk": "Барлық дұрыс теңдіктерді белгілеңіз (жекешенің қасиетімен жеңілдету ыңғайлы).",
+      "explanationRu": "$7676:404=19$, $4242:202=21$, $9090:606=15$. Равенство $6060:505=10$ неверно ($=12$).",
+      "explanationKk": "$7676:404=19$, $4242:202=21$, $9090:606=15$. $6060:505=10$ қате ($=12$).",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$7676 : 404 = 19$",
+          "textKk": "$7676 : 404 = 19$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$6060 : 505 = 10$",
+          "textKk": "$6060 : 505 = 10$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$4242 : 202 = 21$",
+          "textKk": "$4242 : 202 = 21$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$9090 : 606 = 15$",
+          "textKk": "$9090 : 606 = 15$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "illustration": null
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p25_2",
+        "PDF_p25_5"
+      ],
+      "bodyRu": "За $2$ яблока Жанат даёт кататься $30$ минут, а за $3$ конфеты — $15$ минут. Ербол дал $1$ яблоко и $2$ конфеты. Отметьте все верные утверждения.",
+      "bodyKk": "$2$ алма үшін Жанат $30$ минут, ал $3$ кәмпит үшін $15$ минут сырғанауға береді. Ербол $1$ алма мен $2$ кәмпит берді. Барлық дұрыс тұжырымдарды белгілеңіз.",
+      "explanationRu": "1 яблоко = 15 мин, 1 конфета = 5 мин; за 1 яблоко и 2 конфеты: $15+10=25$ мин.",
+      "explanationKk": "1 алма = 15 мин, 1 кәмпит = 5 мин; 1 алма мен 2 кәмпит: $15+10=25$ мин.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "За одно яблоко дают $15$ минут",
+          "textKk": "Бір алма үшін $15$ минут береді",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "За одну конфету дают $5$ минут",
+          "textKk": "Бір кәмпит үшін $5$ минут береді",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Итого Ербол получит $25$ минут",
+          "textKk": "Қорытындысында Ербол $25$ минут алады",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Итого Ербол получит $45$ минут",
+          "textKk": "Қорытындысында Ербол $45$ минут алады",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "illustration": null
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p25_6"
+      ],
+      "bodyRu": "Если $x : y = 10$, отметьте все верные равенства.",
+      "bodyKk": "Егер $x : y = 10$ болса, барлық дұрыс теңдіктерді белгілеңіз.",
+      "explanationRu": "$(x\\cdot2):y=20$; $x:(y\\cdot2)=5$. Равенства $x:(y\\cdot2)=10$ и $(x\\cdot2):y=10$ неверны.",
+      "explanationKk": "$(x\\cdot2):y=20$; $x:(y\\cdot2)=5$. $x:(y\\cdot2)=10$ және $(x\\cdot2):y=10$ қате.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$(x \\cdot 2) : y = 20$",
+          "textKk": "$(x \\cdot 2) : y = 20$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$x : (y \\cdot 2) = 10$",
+          "textKk": "$x : (y \\cdot 2) = 10$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$x : (y \\cdot 2) = 5$",
+          "textKk": "$x : (y \\cdot 2) = 5$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$(x \\cdot 2) : y = 10$",
+          "textKk": "$(x \\cdot 2) : y = 10$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "illustration": null
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 5,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p25_1",
+        "PDF_p25_5"
+      ],
+      "bodyRu": "Бассейн $620\\ \\text{м}^3$. Первый кран даёт $85\\ \\text{м}^3$ в час, второй — $70\\ \\text{м}^3$ в час. Отметьте все верные утверждения о наполнении двумя кранами одновременно.",
+      "bodyKk": "Бассейн $620\\ \\text{м}^3$. Бірінші кран сағатына $85\\ \\text{м}^3$, екіншісі — $70\\ \\text{м}^3$ береді. Екі кран бірге толтырғандағы барлық дұрыс тұжырымдарды белгілеңіз.",
+      "explanationRu": "Суммарный расход $155\\ \\text{м}^3$/ч; время $620:155=4$ ч. Деление только на один кран неверно.",
+      "explanationKk": "Жалпы шығын $155\\ \\text{м}^3$/сағ; уақыт $620:155=4$ сағ. Тек бір кранға бөлу қате.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "За час оба крана дают $155\\ \\text{м}^3$",
+          "textKk": "Екі кран сағатына $155\\ \\text{м}^3$ береді",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Бассейн наполнится за $4$ часа",
+          "textKk": "Бассейн $4$ сағатта толады",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Бассейн наполнится за $620 : 85$ часов",
+          "textKk": "Бассейн $620 : 85$ сағатта толады",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Время равно сумме $85 + 70$ часов",
+          "textKk": "Уақыт $85 + 70$ сағатқа тең",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "illustration": null
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p25_5",
+        "PDF_p25_8"
+      ],
+      "bodyRu": "Вычислите: $3030 : 15 = [[1]]$.",
+      "bodyKk": "Есептеңіз: $3030 : 15 = [[1]]$.",
+      "explanationRu": "$3030 : 15 = 202$ (проверка: $202 \\cdot 15 = 3030$).",
+      "explanationKk": "$3030 : 15 = 202$ (тексеру: $202 \\cdot 15 = 3030$).",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "202",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ],
+      "illustration": null
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p25_6"
+      ],
+      "bodyRu": "Упростите и вычислите: $21021 : 1001 = [[1]]$.",
+      "bodyKk": "Жеңілдетіп есептеңіз: $21021 : 1001 = [[1]]$.",
+      "explanationRu": "$21021 : 1001 = 21$.",
+      "explanationKk": "$21021 : 1001 = 21$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "21",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ],
+      "illustration": null
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p25_1",
+        "PDF_p25_5"
+      ],
+      "bodyRu": "Расстояние между городами $144$ км. Велосипедист проходит его за $12$ часов, мотоциклист едет в $3$ раза быстрее. Они выехали одновременно навстречу друг другу. Через сколько часов они встретятся? Ответ: [[1]].",
+      "bodyKk": "Қалалар арасы $144$ км. Велосипедші оны $12$ сағатта жүріп өтеді, мотоциклші $3$ есе жылдам. Олар бір мезгілде бір-біріне қарсы шықты. Неше сағаттан кейін кездеседі? Жауап: [[1]].",
+      "explanationRu": "Скорость велосипеда $12$ км/ч, мотоцикла $36$ км/ч; вместе $48$ км/ч; $144:48=3$ ч.",
+      "explanationKk": "Велосипед жылдамдығы $12$ км/сағ, мотоциклдікі $36$ км/сағ; қосылғанда $48$ км/сағ; $144:48=3$ сағ.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "3",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ],
+      "illustration": null
+    }
+  ],
+  "matrixDeviations": []
+}

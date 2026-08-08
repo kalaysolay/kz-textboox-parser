@@ -1,0 +1,25 @@
+{
+  "kind": "net_parallelepiped",
+  "width": 560,
+  "height": 420,
+  "grid": { "ox": 40, "oy": 40, "cell": 20, "cols": 22, "rows": 16 },
+  "figures": [
+    {
+      "ox": 40,
+      "oy": 40,
+      "cell": 20,
+      "fillSoft": true,
+      "rects": [
+        { "i": 6, "j": 2, "w": 9, "h": 4 },
+        { "i": 2, "j": 6, "w": 4, "h": 6 },
+        { "i": 6, "j": 6, "w": 9, "h": 6 },
+        { "i": 15, "j": 6, "w": 4, "h": 6 },
+        { "i": 6, "j": 12, "w": 9, "h": 4 }
+      ]
+    }
+  ],
+  "unitLabels": [
+    { "x": 30, "y": 160, "text": "h", "anchor": "middle" },
+    { "x": 30, "y": 200, "text": "6", "anchor": "middle" }
+  ]
+}

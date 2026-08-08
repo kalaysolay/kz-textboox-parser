@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-umnozhenie-delenie-naturalnyh-20260808-2000",
+  "textbook": {
+    "path": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/parsed/math_aldamuratova_5grade_part1_parsed_v2.json",
+    "pdfPath": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/Математика Алдамуратова Т. учебник для 5 класса Часть 1.pdf",
+    "titleRu": "Математика. Учебник для учащихся 5 класса общеобразовательной школы",
+    "authorsShort": "Алдамуратова",
+    "grade": 5,
+    "part": 1,
+    "publisher": "Атамура",
+    "year": 2017
+  },
+  "unit": {
+    "lessonNo": 6,
+    "section": "I",
+    "sectionTitle": "Натуральные числа и нуль",
+    "topicCode": "1.5",
+    "topicTitle": "Умножение и деление натуральных чисел. Основное свойство частного",
+    "pageStart": 24,
+    "pageEnd": 27,
+    "supplementary": false
+  },
+  "textbookRef": "Алдамуратова, 5 кл, ч.1, стр. 24-27",
+  "rules": [
+    {
+      "ruleId": "PDF_p24_1",
+      "name": "Умножение как сумма равных слагаемых",
+      "statement": "Сумму равных слагаемых можно записать в виде произведения. Умножить число 3 на 7 значит найти сумму 7 слагаемых, каждое из которых равно 3.",
+      "formula": "3 \\cdot 7 = 3+3+3+3+3+3+3 = 21",
+      "sourcePages": [24],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_024.png §I + рис. 1.16 (семь дуг +3 на луче до 21)"
+    },
+    {
+      "ruleId": "PDF_p25_1",
+      "name": "Множители и произведение",
+      "statement": "Умножение с помощью букв записывают так: a · b = c, где a, b и c — натуральные числа, b > 1. Числа a и b называют множителями; выражение a · b — произведение; c — значение произведения.",
+      "formula": "a \\cdot b = c",
+      "sourcePages": [25],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_025.png схема 3·7=21 с подписями «множители» / «произведение» / «значение произведения»"
+    },
+    {
+      "ruleId": "PDF_p25_2",
+      "name": "Определение умножения на натуральное число",
+      "statement": "Умножить число a на натуральное число b значит найти сумму b слагаемых, каждое из которых равно a.",
+      "formula": "a \\cdot b = a + a + \\ldots + a \\ (b\\ \\text{слагаемых})",
+      "sourcePages": [25],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_025.png синяя рамка определения"
+    },
+    {
+      "ruleId": "PDF_p25_3",
+      "name": "Произведение с нулевым множителем",
+      "statement": "Если в произведении хотя бы один множитель равен нулю, то и значение произведения равно нулю: a · 0 = 0.",
+      "formula": "a \\cdot 0 = 0",
+      "sourcePages": [25],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_025.png абзац после определения; пример 16(x−3)=0 → x=3"
+    },
+    {
+      "ruleId": "PDF_p25_4",
+      "name": "Определение деления",
+      "statement": "Действие, с помощью которого по значению произведения и одному из множителей находят другой множитель, называют делением.",
+      "formula": null,
+      "sourcePages": [25],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_025.png §II синяя рамка"
+    },
+    {
+      "ruleId": "PDF_p25_5",
+      "name": "Делимое, делитель, частное",
+      "statement": "Деление с помощью букв записывают так: a : b = c, если c · b = a. Число a — делимое, b — делитель, выражение a : b — частное, c — значение частного.",
+      "formula": "a : b = c \\Leftrightarrow c \\cdot b = a",
+      "sourcePages": [25],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_025.png схема 54:18=3 с подписями терминов"
+    },
+    {
+      "ruleId": "PDF_p25_6",
+      "name": "Основное свойство частного",
+      "statement": "Если делимое и делитель умножить или разделить на одно и то же натуральное число, то значение частного не изменится.",
+      "formula": "a:b = (a\\cdot k):(b\\cdot k) = (a:k):(b:k)",
+      "sourcePages": [25],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_025.png §III + примеры 60:15=4; 120:30=4; 20:5=4; сверка R005"
+    },
+    {
+      "ruleId": "PDF_p25_7",
+      "name": "Деление на нуль невозможно",
+      "statement": "На 0 делить нельзя!",
+      "formula": null,
+      "sourcePages": [25],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_025.png выделенная рамка «На 0 делить нельзя!»"
+    },
+    {
+      "ruleId": "PDF_p25_8",
+      "name": "Проверка деления",
+      "statement": "Правильность выполнения деления проверяется умножением или делением. Например, 348 : 29 = 12; проверка: 12 · 29 = 348 или 348 : 12 = 29.",
+      "formula": "a:b=c \\Rightarrow c\\cdot b=a",
+      "sourcePages": [25],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_025.png абзац после свойства частного"
+    },
+    {
+      "ruleId": "PDF_p27_KF",
+      "name": "Ключевые факты: сумма одинаковых слагаемых",
+      "statement": "Сумму любых одинаковых чисел можно записать в виде произведения: a + a + … + a (b слагаемых) = a · b. Например, 8 + 8 + 8 + 8 + 8 = 8 · 5.",
+      "formula": "a+a+\\ldots+a = a\\cdot b",
+      "sourcePages": [27],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_027.png блок «Ключевые факты»"
+    }
+  ],
+  "verbatimExamples": [
+    {
+      "exactPage": 24,
+      "text": "Задание 1. Вставьте пропущенные числа: 1) 5+5+5=15, или □·3=15; 2) 8+8+8+8=32, или □·4=32; 3) 7+7+7+7+7=35, или □·5=35.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "переход сумма→произведение; ответы 5, 8, 7"
+    },
+    {
+      "exactPage": 24,
+      "text": "Задание 2. Найдите число, которое меньше, чем 112, в 7 раз. Схема: 720 ÷ a = 144; 144 ÷ 3 = b. а) Как называется число a? Чему равно a? б) Если 3 — делитель, как называется b? Чему равно b?",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "112:7=16; a=5 (делитель), b=48 (частное/значение частного)"
+    },
+    {
+      "exactPage": 25,
+      "text": "Пример: 16(x − 3) = 0; 16 ≠ 0, тогда x − 3 = 0; x = 3.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "нулевой множитель"
+    },
+    {
+      "exactPage": 25,
+      "text": "60 : 15 = 4; 120 : 30 = 4; 20 : 5 = 4 (основное свойство частного).",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": null
+    },
+    {
+      "exactPage": 25,
+      "text": "348 : 29 = 12. Проверка: 12 · 29 = 348 или 348 : 12 = 29.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": null
+    },
+    {
+      "exactPage": 25,
+      "text": "Письменное умножение: 2816 × 432 = 1 216 512; 982 × 607 = 596 074. Деление: 1644 : 12 = 137.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "примеры столбиком"
+    },
+    {
+      "exactPage": 26,
+      "text": "51. Сколько цифр в частном: 7**:5; 6**:14; 7***:36; 4***:75; 9****:93; 4****:87?",
+      "taskType": "calculation",
+      "confidence": "medium_ocr",
+      "usable": true,
+      "note": "оценка числа цифр частного"
+    },
+    {
+      "exactPage": 26,
+      "text": "52. Найдите значение: 275·10; 396·100; 1817·1000; 1313:13; 3030:15; 6060:12; 4848:16; 8585:17; 5454:18.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": null
+    },
+    {
+      "exactPage": 26,
+      "text": "53. Вычислите: 7676:404; 6060:505; 9090:606; 4242:202; 21021:1001; 45045:3003; 48048:4004; 84084:7007; 54054:3003.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "удобно через свойство частного / сокращение"
+    },
+    {
+      "exactPage": 26,
+      "text": "54. За 2 яблока Жанат даст Ерболу покататься на санках 30 минут, а за 3 конфеты — 15 минут. Если Ербол даст 1 яблоко и 2 конфеты, на сколько минут Жанат даст санки?",
+      "taskType": "word_problem",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "1 яблоко=15 мин; 1 конфета=5 мин; 15+10=25"
+    },
+    {
+      "exactPage": 26,
+      "text": "56. Найдите x: 51(x−6)=0; (x−3)·84=0; 174(x−8)=0; 46(x−2)=0. Образец: 18(x−7)=0 → x=7.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "x=6;3;8;2"
+    },
+    {
+      "exactPage": 26,
+      "text": "57. Бассейн 620 м³; краны 85 м³/ч и 70 м³/ч. За сколько часов наполнится при одновременной работе?",
+      "taskType": "word_problem",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "(85+70)=155; 620:155=4"
+    },
+    {
+      "exactPage": 27,
+      "text": "Расстояние 144 км; велосипедист за 12 ч; мотоцикл в 3 раза быстрее. Выехали навстречу — через сколько часов встретятся?",
+      "taskType": "word_problem",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "v1=12 км/ч; v2=36; сумма=48; 144:48=3"
+    },
+    {
+      "exactPage": 27,
+      "text": "59. Если x+y=35, то (x+15)+(y−8)=? Если x·y=60, то (x:5)·(y:2)=? Если x:y=12, то x:(y·3)=? Если x:y=10, то (x·2):y=? Варианты: A.4 B.20 C.6 D.42.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "ответы 42;6;4;20 — свойство частного/произведения"
+    },
+    {
+      "exactPage": 27,
+      "text": "Ключевые факты: 8+8+8+8+8 = 8·5.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": null
+    }
+  ],
+  "structuralExamples": [
+    {
+      "taskType": "calculation",
+      "template": "Запишите сумму равных слагаемых в виде произведения и найдите значение.",
+      "expectedSkill": "Умножение как повторное сложение"
+    },
+    {
+      "taskType": "calculation",
+      "template": "Назовите делимое, делитель и значение частного; проверьте умножением.",
+      "expectedSkill": "Термины деления и проверка"
+    },
+    {
+      "taskType": "calculation",
+      "template": "Упростите частное, умножив/разделив делимое и делитель на одно число.",
+      "expectedSkill": "Основное свойство частного"
+    },
+    {
+      "taskType": "word_problem",
+      "template": "Задача на совместную работу / движение навстречу с умножением и делением.",
+      "expectedSkill": "Прикладное умножение и деление"
+    }
+  ],
+  "generatorProfile": {
+    "audience": "Учащиеся 5 класса общеобразовательных школ Республики Казахстан",
+    "taskMixRecommended": { "calculation": 0.4, "word_problem": 0.25, "geometry": 0.1, "sets_logic": 0.15, "measurement": 0.1 },
+    "formatRules": [
+      "Три уровня сложности: А (базовый), В (продвинутый), С (творческий)",
+      "Задания с контекстом Казахстана — по стилю учебника"
+    ],
+    "safetyAndScope": [
+      "Только программа 5 класса части 1",
+      "Не включать десятичные дроби и проценты"
+    ]
+  },
+  "blockStructureNotes": "Стр.24: конец темы 1.4 + старт 1.5 (§I умножение, рис.1.16). Стр.25: термины умножения/деления, a·0=0, основное свойство частного, запрет деления на 0, проверка, примеры столбиком. Стр.26–27: упражнения А/В/С (вычисления, задачи, свойство частного в алгебраической форме) + «Ключевые факты». Рис.1.17 (колесо) — не опора для генерации без supported illustration kind.",
+  "sliceStatus": "ready",
+  "recommendedMaxCount": null,
+  "gaps": [
+    "OCR TXT шумный (формулы/цифры); формулировки сверены по PNG",
+    "read-textbook-pages.cjs упал (access violation) — страницы скопированы из ocr_cache вручную, pdfOffset=0"
+  ],
+  "ocrConfidence": "high"
+}

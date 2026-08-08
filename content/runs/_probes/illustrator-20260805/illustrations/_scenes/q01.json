@@ -1,0 +1,12 @@
+{
+  "kind": "coordinate_ray",
+  "width": 720,
+  "height": 240,
+  "originLabel": "O",
+  "unitCount": 8,
+  "points": [
+    { "id": "A", "value": 2 },
+    { "id": "B", "value": 5 },
+    { "id": "C", "value": 7 }
+  ]
+}

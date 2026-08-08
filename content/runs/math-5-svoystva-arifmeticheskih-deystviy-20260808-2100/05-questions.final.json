@@ -1,0 +1,1232 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "math-5-svoystva-arifmeticheskih-deystviy-20260808-2100",
+    "generatedAt": "2026-08-08T21:30:00+05:00",
+    "subjectTitleRu": "Математика",
+    "subjectTitleKk": "Математика",
+    "gradeNo": 5,
+    "topicCode": "1.6",
+    "topicTitleRu": "Свойства арифметических действий",
+    "topicTitleKk": "Арифметикалық амалдардың қасиеттері",
+    "topicSlug": "svoystva-arifmeticheskih-deystviy",
+    "atomicSkillTitleRu": null,
+    "textbookRef": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+    "illustrationPolicy": "visual-topics",
+    "sourceReliability": "verbatim"
+  },
+  "questions": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p29_1"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Какое свойство записано буквами: $a + b = b + a$?",
+      "bodyKk": "Қай қасиет әріптермен жазылған: $a + b = b + a$?",
+      "explanationRu": "Равенство $a + b = b + a$ — переместительное свойство сложения: от перестановки слагаемых сумма не меняется.",
+      "explanationKk": "$a + b = b + a$ теңдігі — қосудың орын алмастыру қасиеті: қосылғыштардың орнын ауыстырғанда қосынды өзгермейді.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Сочетательное свойство сложения",
+          "textKk": "Қосудың терімділік қасиеті",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Переместительное свойство сложения",
+          "textKk": "Қосудың орын алмастыру қасиеті",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Переместительное свойство умножения",
+          "textKk": "Көбейтудің орын алмастыру қасиеті",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Сумма от перестановки меняется",
+          "textKk": "Орнын ауыстырғанда қосынды өзгереді",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p30_2"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "От перестановки множителей значение произведения не меняется. Как называется это свойство?",
+      "bodyKk": "Көбейткіштердің орнын ауыстырғанда көбейтіндінің мәні өзгермейді. Бұл қасиет қалай аталады?",
+      "explanationRu": "Это переместительное свойство умножения: $a \\cdot b = b \\cdot a$.",
+      "explanationKk": "Бұл көбейтудің орын алмастыру қасиеті: $a \\cdot b = b \\cdot a$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Сочетательное свойство умножения",
+          "textKk": "Көбейтудің терімділік қасиеті",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Переместительное свойство сложения",
+          "textKk": "Қосудың орын алмастыру қасиеті",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Переместительное свойство умножения",
+          "textKk": "Көбейтудің орын алмастыру қасиеті",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Произведение от порядка множителей всегда меняется",
+          "textKk": "Көбейткіштер реті көбейтіндіні әрқашан өзгертеді",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p30_1"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Какая запись выражает сочетательное свойство сложения?",
+      "bodyKk": "Қай жазба қосудың терімділік қасиетін білдіреді?",
+      "explanationRu": "Сочетательное свойство сложения: $(a + b) + c = a + (b + c)$.",
+      "explanationKk": "Қосудың терімділік қасиеті: $(a + b) + c = a + (b + c)$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$a + b = b + a$",
+          "textKk": "$a + b = b + a$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$(a + b) + c = a + (b + c)$",
+          "textKk": "$(a + b) + c = a + (b + c)$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$(a \\cdot b) \\cdot c = a \\cdot (b \\cdot c)$",
+          "textKk": "$(a \\cdot b) \\cdot c = a \\cdot (b \\cdot c)$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$(a + b) \\cdot c = a \\cdot c + b \\cdot c$",
+          "textKk": "$(a + b) \\cdot c = a \\cdot c + b \\cdot c$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p31_1"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Как по распределительному свойству умножить сумму на число?",
+      "bodyKk": "Үлестірімділік қасиеті бойынша қосындыны санға қалай көбейтеді?",
+      "explanationRu": "Каждое слагаемое умножают на это число и полученные произведения складывают: $(a + b) \\cdot c = a \\cdot c + b \\cdot c$.",
+      "explanationKk": "Әр қосылғышты сол санға көбейтіп, шыққан көбейтінділерді қосады: $(a + b) \\cdot c = a \\cdot c + b \\cdot c$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Умножить на число только одно слагаемое",
+          "textKk": "Тек бір қосылғышты санға көбейту",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Сложить слагаемые и множитель не использовать",
+          "textKk": "Қосылғыштарды қосып, көбейткішті қолданбау",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Умножить каждое слагаемое на число и сложить произведения",
+          "textKk": "Әр қосылғышты санға көбейтіп, көбейтінділерді қосу",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Умножить каждое слагаемое и из первого произведения вычесть второе",
+          "textKk": "Әр қосылғышты көбейтіп, бірінші көбейтіндіден екіншісін алу",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p29_1"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Не вычисляя: верно ли равенство $53 + 28 = 28 + 53$?",
+      "bodyKk": "Есептемей: $53 + 28 = 28 + 53$ теңдігі дұрыс па?",
+      "explanationRu": "Да: по переместительному свойству сложения от перестановки слагаемых сумма не меняется.",
+      "explanationKk": "Иә: қосудың орын алмастыру қасиеті бойынша қосылғыштардың орнын ауыстырғанда қосынды өзгермейді.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Да, по переместительному свойству сложения",
+          "textKk": "Иә, қосудың орын алмастыру қасиеті бойынша",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Нет, порядок слагаемых меняет сумму",
+          "textKk": "Жоқ, қосылғыштар реті қосындыны өзгертеді",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Да, но только для круглых чисел",
+          "textKk": "Иә, бірақ тек дөңгелек сандар үшін",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Нет, так бывает лишь при вычитании",
+          "textKk": "Жоқ, бұлай тек азайту кезінде болады",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p30_2"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Не вычисляя: изменится ли значение произведения, если вместо $7 \\cdot 19$ записать $19 \\cdot 7$?",
+      "bodyKk": "Есептемей: $7 \\cdot 19$ орнына $19 \\cdot 7$ жазса, көбейтіндінің мәні өзгере ме?",
+      "explanationRu": "Не изменится: по переместительному свойству умножения $a \\cdot b = b \\cdot a$.",
+      "explanationKk": "Өзгермейді: көбейтудің орын алмастыру қасиеті бойынша $a \\cdot b = b \\cdot a$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Да, произведение станет больше",
+          "textKk": "Иә, көбейтінді үлкейеді",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Нет, значение не изменится",
+          "textKk": "Жоқ, мәні өзгермейді",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Да, потому что при делении порядок важен",
+          "textKk": "Иә, себебі бөлуде рет маңызды",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Нет только если множители одинаковы",
+          "textKk": "Жоқ тек көбейткіштер бірдей болса ғана",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p30_1"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Найди значение суммы, сгруппировав удобную пару: $(48 + 17) + 52$.",
+      "bodyKk": "Ыңғайлы жұпты топтап, қосындының мәнін тап: $(48 + 17) + 52$.",
+      "explanationRu": "По сочетательному свойству: $48 + (17 + 52) = 48 + 69 = 117$, или $(48 + 52) + 17 = 100 + 17 = 117$.",
+      "explanationKk": "Терімділік қасиеті бойынша: $48 + (17 + 52) = 48 + 69 = 117$, немесе $(48 + 52) + 17 = 100 + 17 = 117$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "100",
+          "textKk": "100",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "117",
+          "textKk": "117",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "83",
+          "textKk": "83",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "69",
+          "textKk": "69",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p30_3"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Найди значение произведения удобной группировкой: $5 \\cdot (20 \\cdot 47)$.",
+      "bodyKk": "Ыңғайлы топтаумен көбейтіндінің мәнін тап: $5 \\cdot (20 \\cdot 47)$.",
+      "explanationRu": "По сочетательному свойству: $(5 \\cdot 20) \\cdot 47 = 100 \\cdot 47 = 4700$.",
+      "explanationKk": "Терімділік қасиеті бойынша: $(5 \\cdot 20) \\cdot 47 = 100 \\cdot 47 = 4700$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "4700",
+          "textKk": "4700",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "72",
+          "textKk": "72",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "147",
+          "textKk": "147",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "335",
+          "textKk": "335",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p31_1"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Какое число нужно вставить вместо $\\square$, чтобы равенство выражало распределительное свойство: $(x + 5) \\cdot \\square = 3x + 15$?",
+      "bodyKk": "Теңдік үлестірімділік қасиетін білдіруі үшін $\\square$ орнына қандай сан қою керек: $(x + 5) \\cdot \\square = 3x + 15$?",
+      "explanationRu": "$(x + 5) \\cdot 3 = 3x + 15$, значит $\\square = 3$.",
+      "explanationKk": "$(x + 5) \\cdot 3 = 3x + 15$, демек $\\square = 3$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "5",
+          "textKk": "5",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "3",
+          "textKk": "3",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "15",
+          "textKk": "15",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "8",
+          "textKk": "8",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p33_KF1"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Для суммы $37 + 128 + 63 + 72$ какая группировка удобнее даёт круглые суммы?",
+      "bodyKk": "$37 + 128 + 63 + 72$ қосындысы үшін қай топтау дөңгелек қосындылар береді?",
+      "explanationRu": "$(37 + 63) + (128 + 72) = 100 + 200 = 300$ — круглые пары.",
+      "explanationKk": "$(37 + 63) + (128 + 72) = 100 + 200 = 300$ — дөңгелек жұптар.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$(37 + 128) + (63 + 72)$",
+          "textKk": "$(37 + 128) + (63 + 72)$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$(37 + 63) + (128 + 72)$",
+          "textKk": "$(37 + 63) + (128 + 72)$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$(37 + 72) + (128 - 63)$",
+          "textKk": "$(37 + 72) + (128 - 63)$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$37 + 128 + 63$ (без 72)",
+          "textKk": "$37 + 128 + 63$ (72-сіз)",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p30_1"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Айгуль записала: $(25 + 18) + 32 = 25 + (18 - 32)$. В чём ошибка?",
+      "bodyKk": "Айгүл былай жазды: $(25 + 18) + 32 = 25 + (18 - 32)$. Қате қайда?",
+      "explanationRu": "Сочетательное свойство сложения сохраняет знак «+»: $(25 + 18) + 32 = 25 + (18 + 32)$. Замена плюса на минус неверна.",
+      "explanationKk": "Қосудың терімділік қасиеті «+» белгісін сақтайды: $(25 + 18) + 32 = 25 + (18 + 32)$. Плюсты минусқа ауыстыру — қате.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Внутри скобок нельзя менять «+» на «−»",
+          "textKk": "Жақша ішінде «+»-ты «−»-ке ауыстыруға болмайды",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Ошибки нет: скобки можно ставить как угодно",
+          "textKk": "Қате жоқ: жақшаны қалағанша қоюға болады",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Нужно было применить сочетательное свойство умножения",
+          "textKk": "Көбейтудің терімділік қасиетін қолдану керек еді",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Скобки вообще нельзя переносить",
+          "textKk": "Жақшаны мүлде жылжытуға болмайды",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p31_1"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Вычисли, применив распределительное свойство: $(80 + 7) \\cdot 9$.",
+      "bodyKk": "Үлестірімділік қасиетін қолданып есепте: $(80 + 7) \\cdot 9$.",
+      "explanationRu": "$(80 + 7) \\cdot 9 = 80 \\cdot 9 + 7 \\cdot 9 = 720 + 63 = 783$.",
+      "explanationKk": "$(80 + 7) \\cdot 9 = 80 \\cdot 9 + 7 \\cdot 9 = 720 + 63 = 783$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "143",
+          "textKk": "143",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "720",
+          "textKk": "720",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "783",
+          "textKk": "783",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "727",
+          "textKk": "727",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p29_1"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Алия делала уроки 18 мин, затем читала 14 мин. Бекмат сначала читал 14 мин, затем делал уроки 18 мин. Почему они закончили одновременно, начав вместе?",
+      "bodyKk": "Әлия сабаққа 18 мин, сосын оқуға 14 мин жұмсады. Бекмат алдымен 14 мин оқыды, сосын сабаққа 18 мин жұмсады. Неге олар бірге бастап, бірге бітірді?",
+      "explanationRu": "Суммарное время одинаково: $18 + 14 = 14 + 18$ по переместительному свойству сложения.",
+      "explanationKk": "Жалпы уақыт бірдей: $18 + 14 = 14 + 18$ қосудың орын алмастыру қасиеті бойынша.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Потому что порядок дел меняет сумму минут",
+          "textKk": "Себебі істер реті минут қосындысын өзгертеді",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Потому что $18 + 14 = 14 + 18$",
+          "textKk": "Себебі $18 + 14 = 14 + 18$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Потому что нужно было найти разность времён",
+          "textKk": "Себебі уақыт айырмасын табу керек еді",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Потому что здесь работает переместительное свойство умножения",
+          "textKk": "Себебі мұнда көбейтудің орын алмастыру қасиеті қолданылады",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p31_2"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Какая запись верно раскрывает $(60 - 25) \\cdot 4$ по распределительному свойству?",
+      "bodyKk": "Үлестірімділік қасиеті бойынша $(60 - 25) \\cdot 4$ өрнегін қай жазба дұрыс ашады?",
+      "explanationRu": "$(a - b) \\cdot c = a \\cdot c - b \\cdot c$, поэтому $(60 - 25) \\cdot 4 = 60 \\cdot 4 - 25 \\cdot 4$.",
+      "explanationKk": "$(a - b) \\cdot c = a \\cdot c - b \\cdot c$, сондықтан $(60 - 25) \\cdot 4 = 60 \\cdot 4 - 25 \\cdot 4$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$60 \\cdot 4 + 25 \\cdot 4$",
+          "textKk": "$60 \\cdot 4 + 25 \\cdot 4$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$60 \\cdot 4 - 25 \\cdot 4$",
+          "textKk": "$60 \\cdot 4 - 25 \\cdot 4$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$60 \\cdot 4$",
+          "textKk": "$60 \\cdot 4$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$(25 - 60) \\cdot 4$",
+          "textKk": "$(25 - 60) \\cdot 4$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p30_3"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Какое выражение нужно вставить вместо $\\square$ в равенстве $(a \\cdot \\square) \\cdot c = a \\cdot (b \\cdot c)$?",
+      "bodyKk": "$(a \\cdot \\square) \\cdot c = a \\cdot (b \\cdot c)$ теңдігінде $\\square$ орнына қандай өрнек қою керек?",
+      "explanationRu": "Сочетательное свойство умножения: $(a \\cdot b) \\cdot c = a \\cdot (b \\cdot c)$, значит $\\square = b$.",
+      "explanationKk": "Көбейтудің терімділік қасиеті: $(a \\cdot b) \\cdot c = a \\cdot (b \\cdot c)$, демек $\\square = b$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$a + b$",
+          "textKk": "$a + b$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$b$",
+          "textKk": "$b$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$a \\cdot c$",
+          "textKk": "$a \\cdot c$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$c$",
+          "textKk": "$c$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p33_KF2"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Не считая целиком: какая группировка для $25 \\cdot 8 \\cdot 125 \\cdot 4$ даёт круглые произведения 100 и 1000?",
+      "bodyKk": "Толық есептемей: $25 \\cdot 8 \\cdot 125 \\cdot 4$ үшін қай топтау 100 және 1000 дөңгелек көбейтінділерін береді?",
+      "explanationRu": "$(25 \\cdot 4) \\cdot (8 \\cdot 125) = 100 \\cdot 1000$ — удобные круглые произведения.",
+      "explanationKk": "$(25 \\cdot 4) \\cdot (8 \\cdot 125) = 100 \\cdot 1000$ — ыңғайлы дөңгелек көбейтінділер.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$(25 \\cdot 8) \\cdot (125 \\cdot 4)$",
+          "textKk": "$(25 \\cdot 8) \\cdot (125 \\cdot 4)$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$(25 \\cdot 4) \\cdot (8 \\cdot 125)$",
+          "textKk": "$(25 \\cdot 4) \\cdot (8 \\cdot 125)$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Считать слева направо без перестановки",
+          "textKk": "Орнын ауыстырмай солдан оңға есептеу",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Множители переставлять нельзя",
+          "textKk": "Көбейткіштерді алмастыруға болмайды",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p31_2"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Запиши $12 \\cdot 7 - 5 \\cdot 7$ одним произведением разности.",
+      "bodyKk": "$12 \\cdot 7 - 5 \\cdot 7$ өрнегін айырманың бір көбейтіндісі түрінде жаз.",
+      "explanationRu": "По распределительному свойству: $a \\cdot c - b \\cdot c = (a - b) \\cdot c$, поэтому $(12 - 5) \\cdot 7$.",
+      "explanationKk": "Үлестірімділік қасиеті бойынша: $a \\cdot c - b \\cdot c = (a - b) \\cdot c$, сондықтан $(12 - 5) \\cdot 7$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$(12 - 5) + 7$",
+          "textKk": "$(12 - 5) + 7$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$12 - (5 \\cdot 7)$",
+          "textKk": "$12 - (5 \\cdot 7)$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$(12 - 5) \\cdot 7$",
+          "textKk": "$(12 - 5) \\cdot 7$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$(12 + 5) \\cdot 7$",
+          "textKk": "$(12 + 5) \\cdot 7$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p30_2"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Сравни произведения $6 \\cdot 15$ и $15 \\cdot 6$ (можно не вычислять).",
+      "bodyKk": "$6 \\cdot 15$ және $15 \\cdot 6$ көбейтінділерін салыстыр (есептемей де болады).",
+      "explanationRu": "По переместительному свойству умножения произведения равны: $6 \\cdot 15 = 15 \\cdot 6$.",
+      "explanationKk": "Көбейтудің орын алмастыру қасиеті бойынша көбейтінділер тең: $6 \\cdot 15 = 15 \\cdot 6$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$6 \\cdot 15$ больше",
+          "textKk": "$6 \\cdot 15$ үлкенірек",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$15 \\cdot 6$ больше",
+          "textKk": "$15 \\cdot 6$ үлкенірек",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Произведения равны",
+          "textKk": "Көбейтінділер тең",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Сравнить без вычисления нельзя",
+          "textKk": "Есептемей салыстыруға болмайды",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p29_1",
+        "PDF_p30_2"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Отметь все равенства, верные по переместительному свойству.",
+      "bodyKk": "Орын алмастыру қасиеті бойынша дұрыс барлық теңдіктерді белгіле.",
+      "explanationRu": "Верны перестановки при сложении и умножении. При вычитании и делении порядок меняет результат.",
+      "explanationKk": "Қосу мен көбейтуде орын ауыстыру дұрыс. Азайту мен бөлуде рет нәтижені өзгертеді.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$17 + 9 = 9 + 17$",
+          "textKk": "$17 + 9 = 9 + 17$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$17 - 9 = 9 - 17$",
+          "textKk": "$17 - 9 = 9 - 17$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$8 \\cdot 5 = 5 \\cdot 8$",
+          "textKk": "$8 \\cdot 5 = 5 \\cdot 8$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$20 : 5 = 5 : 20$",
+          "textKk": "$20 : 5 = 5 : 20$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p30_1",
+        "PDF_p30_3"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Отметь все равенства, верные по сочетательному свойству.",
+      "bodyKk": "Терімділік қасиеті бойынша дұрыс барлық теңдіктерді белгіле.",
+      "explanationRu": "Верны $(3+8)+2=3+(8+2)$ и $(4\\cdot5)\\cdot6=4\\cdot(5\\cdot6)$. Смена знака и распределительная запись — не сочетательное свойство.",
+      "explanationKk": "$(3+8)+2=3+(8+2)$ және $(4\\cdot5)\\cdot6=4\\cdot(5\\cdot6)$ дұрыс. Белгіні өзгерту және үлестірімділік жазбасы — терімділік емес.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$(3 + 8) + 2 = 3 + (8 + 2)$",
+          "textKk": "$(3 + 8) + 2 = 3 + (8 + 2)$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$(3 + 8) + 2 = 3 + (8 - 2)$",
+          "textKk": "$(3 + 8) + 2 = 3 + (8 - 2)$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$(4 \\cdot 5) \\cdot 6 = 4 \\cdot (5 \\cdot 6)$",
+          "textKk": "$(4 \\cdot 5) \\cdot 6 = 4 \\cdot (5 \\cdot 6)$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$(3 + 8) \\cdot 2 = 3 \\cdot 2 + 8 \\cdot 2$",
+          "textKk": "$(3 + 8) \\cdot 2 = 3 \\cdot 2 + 8 \\cdot 2$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p31_1",
+        "PDF_p31_2"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Отметь все верные формулировки распределительных свойств.",
+      "bodyKk": "Үлестірімділік қасиеттерінің барлық дұрыс тұжырымдарын белгіле.",
+      "explanationRu": "Верны полные правила для суммы и разности. Умножение только одной части и сочетательная запись — неверны.",
+      "explanationKk": "Қосынды мен айырма үшін толық ережелер дұрыс. Тек бір бөлігін көбейту және терімділік жазбасы — қате.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$(a + b) \\cdot c = a \\cdot c + b \\cdot c$",
+          "textKk": "$(a + b) \\cdot c = a \\cdot c + b \\cdot c$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$(a + b) \\cdot c = a \\cdot c + b$",
+          "textKk": "$(a + b) \\cdot c = a \\cdot c + b$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$(a - b) \\cdot c = a \\cdot c - b \\cdot c$",
+          "textKk": "$(a - b) \\cdot c = a \\cdot c - b \\cdot c$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$(a + b) + c = a + (b + c)$",
+          "textKk": "$(a + b) + c = a + (b + c)$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 4,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p33_KF1"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Отметь все суммы, которые удобно считать перестановкой и группировкой слагаемых в круглые числа.",
+      "bodyKk": "Қосылғыштарды дөңгелек сандарға топтап есептеуге ыңғайлы барлық қосындыларды белгіле.",
+      "explanationRu": "Удобны пары на 100: $(36+64)$, $(75+25)$, $(19+81)$ и $(52+48)$. У $41+17+28$ круглых пар нет.",
+      "explanationKk": "100-ге жұптар ыңғайлы: $(36+64)$, $(75+25)$, $(19+81)$ және $(52+48)$. $41+17+28$ үшін дөңгелек жұп жоқ.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$36 + 89 + 64$",
+          "textKk": "$36 + 89 + 64$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$75 + 123 + 25$",
+          "textKk": "$75 + 123 + 25$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$41 + 17 + 28$",
+          "textKk": "$41 + 17 + 28$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$19 + 52 + 81 + 48$",
+          "textKk": "$19 + 52 + 81 + 48$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 4,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p33_KF2"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Отметь все произведения, которые удобно считать перестановкой и группировкой множителей в круглые числа.",
+      "bodyKk": "Көбейткіштерді дөңгелек сандарға топтап есептеуге ыңғайлы барлық көбейтінділерді белгіле.",
+      "explanationRu": "Удобны $4\\cdot(25\\cdot6)$, $5\\cdot(20\\cdot86)$, $(18\\cdot25)\\cdot4$. У $7\\cdot(11\\cdot13)$ круглого произведения нет.",
+      "explanationKk": "$4\\cdot(25\\cdot6)$, $5\\cdot(20\\cdot86)$, $(18\\cdot25)\\cdot4$ ыңғайлы. $7\\cdot(11\\cdot13)$ үшін дөңгелек көбейтінді жоқ.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$4 \\cdot (25 \\cdot 6)$",
+          "textKk": "$4 \\cdot (25 \\cdot 6)$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$5 \\cdot (20 \\cdot 86)$",
+          "textKk": "$5 \\cdot (20 \\cdot 86)$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$7 \\cdot (11 \\cdot 13)$",
+          "textKk": "$7 \\cdot (11 \\cdot 13)$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$(18 \\cdot 25) \\cdot 4$",
+          "textKk": "$(18 \\cdot 25) \\cdot 4$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p31_1",
+        "PDF_p31_2"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Отметь все верные раскрытия скобок по распределительному свойству.",
+      "bodyKk": "Үлестірімділік қасиеті бойынша жақшаны дұрыс ашатын барлық жазбаларды белгіле.",
+      "explanationRu": "Верны $2(x+3)=2x+6$ и $4(x-3)=4x-12$. Записи без множителя у второго слагаемого и со сменой знака неверны.",
+      "explanationKk": "$2(x+3)=2x+6$ және $4(x-3)=4x-12$ дұрыс. Екінші қосылғышта көбейткішсіз және белгіні өзгерткен жазбалар қате.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$2(x + 3) = 2x + 6$",
+          "textKk": "$2(x + 3) = 2x + 6$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$2(x + 3) = 2x + 3$",
+          "textKk": "$2(x + 3) = 2x + 3$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$4(x - 3) = 4x - 12$",
+          "textKk": "$4(x - 3) = 4x - 12$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$4(x - 3) = 12 - 4x$",
+          "textKk": "$4(x - 3) = 12 - 4x$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p31_1"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Велосипедист едет 12 км/ч, мотоциклист — 28 км/ч. Они выехали из одного пункта в противоположных направлениях. Отметь все верные способы найти расстояние между ними через 3 ч.",
+      "bodyKk": "Велосипедші 12 км/сағ, мотоциклші 28 км/сағ жылдамдықпен бір пункттен қарама-қарсы бағытта шықты. 3 сағаттан кейінгі қашықтықты табудың барлық дұрыс тәсілдерін белгіле.",
+      "explanationRu": "По распределительному свойству: $(12+28)\\cdot 3 = 12\\cdot 3 + 28\\cdot 3$. Разность скоростей и сумма без умножения на время неверны.",
+      "explanationKk": "Үлестірімділік бойынша: $(12+28)\\cdot 3 = 12\\cdot 3 + 28\\cdot 3$. Жылдамдық айырмасы және уақытқа көбейтпей қосу — қате.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$(12 + 28) \\cdot 3$",
+          "textKk": "$(12 + 28) \\cdot 3$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$12 \\cdot 3 + 28 \\cdot 3$",
+          "textKk": "$12 \\cdot 3 + 28 \\cdot 3$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$(28 - 12) \\cdot 3$",
+          "textKk": "$(28 - 12) \\cdot 3$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$12 + 28$",
+          "textKk": "$12 + 28$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p31_1",
+        "PDF_p31_2"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Отметь все варианты заполнения пропусков, при которых равенство выражает распределительное свойство.",
+      "bodyKk": "Теңдік үлестірімділік қасиетін білдіретін барлық толтыру нұсқаларын белгіле.",
+      "explanationRu": "Верны $(x+5)\\cdot 3 = 3x+15$ и $(9-y)\\cdot 2 = 18-2y$. Неверны подстановка слагаемого вместо множителя и раскрытие суммы как разности.",
+      "explanationKk": "$(x+5)\\cdot 3 = 3x+15$ және $(9-y)\\cdot 2 = 18-2y$ дұрыс. Көбейткіш орнына қосылғыш қою және қосындыны айырмадай ашу — қате.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$(x + 5) \\cdot 3 = 3x + 15$",
+          "textKk": "$(x + 5) \\cdot 3 = 3x + 15$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$(x + 5) \\cdot 5 = 3x + 15$",
+          "textKk": "$(x + 5) \\cdot 5 = 3x + 15$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$(9 - y) \\cdot 2 = 18 - 2y$",
+          "textKk": "$(9 - y) \\cdot 2 = 18 - 2y$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$(9 - y) \\cdot 2 = 18 + 2y$",
+          "textKk": "$(9 - y) \\cdot 2 = 18 + 2y$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 5,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p33_KF1",
+        "PDF_p33_KF2"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Отметь все пары выражений, которые равны после допустимой перестановки или группировки.",
+      "bodyKk": "Рұқсат етілген орын ауыстыру немесе топтаудан кейін тең болатын барлық өрнек жұптарын белгіле.",
+      "explanationRu": "Равны перегруппированные суммы и произведения. Сумма не равна произведению тех же чисел; $(6+4)\\cdot 5 \\neq 6+(4\\cdot 5)$.",
+      "explanationKk": "Қайта топталған қосындылар мен көбейтінділер тең. Қосынды сол сандардың көбейтіндісіне тең емес; $(6+4)\\cdot 5 \\neq 6+(4\\cdot 5)$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$23 + 47 + 77$ и $(23 + 77) + 47$",
+          "textKk": "$23 + 47 + 77$ және $(23 + 77) + 47$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$5 \\cdot 8 \\cdot 25$ и $(5 \\cdot 8) + 25$",
+          "textKk": "$5 \\cdot 8 \\cdot 25$ және $(5 \\cdot 8) + 25$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$4 \\cdot (25 \\cdot 9)$ и $(4 \\cdot 25) \\cdot 9$",
+          "textKk": "$4 \\cdot (25 \\cdot 9)$ және $(4 \\cdot 25) \\cdot 9$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$(6 + 4) \\cdot 5$ и $6 + (4 \\cdot 5)$",
+          "textKk": "$(6 + 4) \\cdot 5$ және $6 + (4 \\cdot 5)$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p33_KF1"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Вычисли удобной группировкой: $28 + 156 + 72 + 44 = [[1]]$.",
+      "bodyKk": "Ыңғайлы топтаумен есепте: $28 + 156 + 72 + 44 = [[1]]$.",
+      "explanationRu": "$(28 + 72) + (156 + 44) = 100 + 200 = 300$.",
+      "explanationKk": "$(28 + 72) + (156 + 44) = 100 + 200 = 300$.",
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "300",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p31_1"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Впиши число вместо $\\square$, чтобы равенство выражало распределительное свойство: $(x + 6) \\cdot \\square = 4x + 24$. Ответ: [[1]].",
+      "bodyKk": "Теңдік үлестірімділік қасиетін білдіруі үшін $\\square$ орнына санды жаз: $(x + 6) \\cdot \\square = 4x + 24$. Жауап: [[1]].",
+      "explanationRu": "$(x + 6) \\cdot 4 = 4x + 24$, поэтому $\\square = 4$.",
+      "explanationKk": "$(x + 6) \\cdot 4 = 4x + 24$, демек $\\square = 4$.",
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "4",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p31_2"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 29-33",
+      "bodyRu": "Собака бежит 15 м/с, кошка — 9 м/с в одном направлении. На сколько метров дальше будет собака через 4 с? Ответ: [[1]].",
+      "bodyKk": "Ит 15 м/с, мысық 9 м/с жылдамдықпен бір бағытта жүгіреді. 4 с кейін ит қанша метр алысырақ болады? Жауап: [[1]].",
+      "explanationRu": "По распределительному свойству: $(15 - 9) \\cdot 4 = 6 \\cdot 4 = 24$.",
+      "explanationKk": "Үлестірімділік қасиеті бойынша: $(15 - 9) \\cdot 4 = 6 \\cdot 4 = 24$.",
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "24",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ]
+    }
+  ]
+}

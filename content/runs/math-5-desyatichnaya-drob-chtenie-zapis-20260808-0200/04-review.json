@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-desyatichnaya-drob-chtenie-zapis-20260808-0200",
+  "reviewedAt": "2026-08-08T02:50:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 29,
+    "fixed": 1,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "B",
+      "keyAnswer": "B — Дробь со знаменателем 10, 100, 1000…, записанная без знаменателя через запятую",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "C",
+      "keyAnswer": "C — Разряд десятых",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "B — 2,7",
+      "keyAnswer": "B — 2,7",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "C — 0 целых 3 сотых",
+      "keyAnswer": "C — 0 целых 3 сотых",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "C — 3",
+      "keyAnswer": "C — 3",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "B — отсутствие единиц разряда",
+      "keyAnswer": "B — Отсутствие единиц этого разряда",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "B — 5,07",
+      "keyAnswer": "B — 5,07",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "C — 4,009",
+      "keyAnswer": "C — 4,009",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "B — 0,03",
+      "keyAnswer": "B — 0,03",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "B — 13 целых 547 тысячных",
+      "keyAnswer": "B — 13 целых 547 тысячных",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "C — 8,91",
+      "keyAnswer": "C — 8,91",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "B — 0,70",
+      "keyAnswer": "B — 0,70",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "C — 7,00",
+      "keyAnswer": "C — 7,00",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "B — 2,817",
+      "keyAnswer": "B — 2,817",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "fixed",
+      "solvedAnswer": "A — разряд десятых",
+      "keyAnswer": "A — Разряд десятых",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": "Уточнён KK-дистрактор C: «Ондықтар разряды (бүтін бөлікте)» — чтобы не путать с ондықтар дробной части"
+    },
+    {
+      "localId": "q16",
+      "status": "accepted",
+      "solvedAnswer": "D — 4 9/1000 = 4,09 (неверно)",
+      "keyAnswer": "D — 4\\dfrac{9}{1000} = 4,09",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "B — 5,07 м",
+      "keyAnswer": "B — 5,07 м",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "C — 5,109",
+      "keyAnswer": "C — 5,109",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A,B,D",
+      "keyAnswer": "A,B,D — На первом месте после запятой — разряд десятых | На втором месте после запятой — разряд сотых | На третьем месте после запятой — разряд тысячных",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "A,B,D",
+      "keyAnswer": "A,B,D — 4,9 — «4 целых 9 десятых» | 0,03 — «0 целых 3 сотых» | 35,418 — «35 целых 418 тысячных»",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "A,B,D",
+      "keyAnswer": "A,B,D — 2\\dfrac{7}{10} = 2,7 | \\dfrac{43}{100} = 0,43 | 4\\dfrac{9}{1000} = 4,009",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "A,B",
+      "keyAnswer": "A,B — 0,70 | 0,700",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "A,B,D",
+      "keyAnswer": "A,B,D — 2,817 = 2 + 0,8 + 0,01 + 0,007 | 0,963 = 0,9 + 0,06 + 0,003 | 0,18 = 0,1 + 0,08",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "A,B,D",
+      "keyAnswer": "A,B,D — 0 целых, 4 десятых, 5 сотых, 6 тысячных → 0,456 | 31 целая, 7 сотых, 8 тысячных, 3 десятитысячных → 31,0783 | 6 единиц, 0 десятых, 0 сотых, 7 тысячных → 6,007",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A,B,D",
+      "keyAnswer": "A,B,D — 5 м 8 дм = 5,8 м | 4 м 31 см = 4,31 м | 14 кг 5 г = 14,005 кг",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "A,B,C",
+      "keyAnswer": "A,B,C — 1\\dfrac{9}{100} = 1,09 | \\dfrac{719}{10000} = 0,0719 | 5\\dfrac{81}{10000} = 5,0081",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "A,B,C",
+      "keyAnswer": "A,B,C — 0,7 = 0,70 | 4,9 читают «4 целых 9 десятых» | \\dfrac{43}{100} = 0,43",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "9,0007",
+      "keyAnswer": "[[1]] = 9,0007",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "accepted",
+      "solvedAnswer": "9,207",
+      "keyAnswer": "[[1]] = 9,207",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "5,7084",
+      "keyAnswer": "[[1]] = 5,7084",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

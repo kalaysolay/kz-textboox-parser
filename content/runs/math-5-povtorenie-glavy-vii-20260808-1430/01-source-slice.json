@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-povtorenie-glavy-vii-20260808-1430",
+  "textbook": {
+    "path": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+    "pdfPath": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/Математика Алдамуратова Т. учебник для 5 класса Часть 2.pdf",
+    "titleRu": "Математика. Учебник для учащихся 5 класса общеобразовательной школы",
+    "authorsShort": "Алдамуратова",
+    "grade": 5,
+    "part": 2,
+    "publisher": "Атамура",
+    "year": 2017
+  },
+  "unit": {
+    "lessonNo": null,
+    "section": "VII",
+    "sectionTitle": "Углы. Многоугольники",
+    "topicCode": null,
+    "topicTitle": "Упражнения для повторения главы VII",
+    "pageStart": 155,
+    "pageEnd": 156,
+    "supplementary": true
+  },
+  "textbookRef": "Алдамуратова, 5 кл, ч.2, стр. 155-156",
+  "rules": [
+    {
+      "ruleId": "RC_p155_bisector_halves",
+      "name": "Биссектриса делит угол пополам (повторение)",
+      "statement": "Биссектриса угла делит угол на два равных угла; градусная мера каждого из них равна половине градусной меры данного угла.",
+      "formula": "если луч — биссектриса ∠α, то каждый из полученных углов = α/2",
+      "sourcePages": [155],
+      "origin": "reconstructed",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "low_reconstructed",
+      "needsManualCheck": true,
+      "evidence": "png page_155.png №1248 (биссектриса углов 82°, 110°, 50°); рамок «Правило» в блоке повторения нет — опора PDF_p134_4 (тема 7.1, вне диапазона)"
+    },
+    {
+      "ruleId": "RC_p155_clock_hands_angle",
+      "name": "Угол между стрелками часов в целое число часов",
+      "statement": "На циферблате полный оборот = 360°, между соседними часовыми делениями 30° (360°:12). В целое число часов h (минутная стрелка на 12) градусная мера угла между часовой и минутной стрелками равна min(30°·h, 360°−30°·h).",
+      "formula": "α = \\min(30h^{\\circ},\\,360^{\\circ}-30h^{\\circ})",
+      "sourcePages": [155],
+      "origin": "reconstructed",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "low_reconstructed",
+      "needsManualCheck": true,
+      "evidence": "png page_155.png №1250 (5 ч; 10 ч); навык главы VII (ср. упражнения 7.1 про стрелки), отдельной рамки правила на срезе нет"
+    },
+    {
+      "ruleId": "RC_p155_adjacent_straight",
+      "name": "Смежные углы на прямой (развёрнутый угол)",
+      "statement": "Если два угла с общей вершиной образуют развёрнутый угол (лежат на одной прямой), то сумма их градусных мер равна 180°.",
+      "formula": "∠AOC + ∠BOC = 180° (если AOB — прямая)",
+      "sourcePages": [155],
+      "origin": "reconstructed",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "low_reconstructed",
+      "needsManualCheck": true,
+      "evidence": "png page_155.png рис. 7.59 / №1251: ∠AOC=(x+60)°, ∠BOC=(x−20)° на прямой AB; опора — развёрнутый угол 180° (PDF_p134_2, тема 7.1)"
+    },
+    {
+      "ruleId": "RC_p155_equal_polygons",
+      "name": "Равные многоугольники (наложением)",
+      "statement": "Два многоугольника равны, если их можно совместить при наложении; равные фигуры совпадают по форме и размерам.",
+      "formula": null,
+      "sourcePages": [155],
+      "origin": "reconstructed",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "low_reconstructed",
+      "needsManualCheck": true,
+      "evidence": "png page_155.png №1249 + рис. 7.58 (найти равные четырёхугольники); опора PDF_p151_1 (тема 7.4, вне диапазона)"
+    },
+    {
+      "ruleId": "RC_p156_quad_angle_sum",
+      "name": "Сумма углов четырёхугольника",
+      "statement": "Сумма градусных мер внутренних углов выпуклого четырёхугольника равна 360°. Неизвестный угол находят вычитанием известных углов из 360°.",
+      "formula": "∠A+∠B+∠C+∠D = 360°",
+      "sourcePages": [156],
+      "origin": "reconstructed",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "low_reconstructed",
+      "needsManualCheck": true,
+      "evidence": "png page_156.png №1252 (∠A=50°, ∠B=120°, ∠C=80° → измерить ∠D и сумму); на срезе рамок «Правило» нет; в теме 7.4 явной формулы суммы углов в primary-правилах нет — реконструкция по заданию"
+    },
+    {
+      "ruleId": "RC_p156_perimeter_pairwise",
+      "name": "Периметр по суммам попарно взятых сторон",
+      "statement": "Если даны суммы всех попарно взятых сторон четырёхугольника, то каждая сторона входит в ровно три такие суммы; сумма всех попарных сумм равна утроенному периметру, поэтому P = (сумма всех попарных сумм) : 3.",
+      "formula": "P = (\\sum \\text{попарных сумм})/3",
+      "sourcePages": [156],
+      "origin": "reconstructed",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "low_reconstructed",
+      "needsManualCheck": true,
+      "evidence": "png page_156.png №1253* (суммы 7;8;10;9;11;12 см → MCQ A–D); опора на определение периметра PDF_p151_2"
+    },
+    {
+      "ruleId": "R014",
+      "name": "Градусная мера угла",
+      "statement": "Угол измеряется в градусах; полный угол равен 360°.",
+      "formula": "∠ = n°",
+      "sourcePages": [133],
+      "origin": "verbatim_extracted",
+      "binding": "neighbour_page",
+      "role": "prerequisite",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "parsed rules[].rule_id=R014 (стр. 133, тема 7.1); используется в №1250 (циферблат 360°) и градусных мерах на срезе"
+    },
+    {
+      "ruleId": "PDF_p134_4",
+      "name": "Биссектриса угла",
+      "statement": "Биссектрисой угла называется луч с началом в вершине угла, делящий угол на два равных угла.",
+      "formula": "если OF — биссектриса ∠EOK, то ∠EOF = ∠FOK",
+      "sourcePages": [134],
+      "origin": "verbatim_extracted",
+      "binding": "neighbour_page",
+      "role": "prerequisite",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "тема 7.1 (вне диапазона 155–156); опора №1248; формулировка из run math-5-ugol-gradusnaya-mera-20260808-1230"
+    },
+    {
+      "ruleId": "PDF_p134_2",
+      "name": "Дополнительные лучи и развёрнутый угол",
+      "statement": "Лучи, на которые точка разбивает прямую, называют дополнительными лучами. Два дополнительных друг другу луча образуют развёрнутый угол. Градусная мера развёрнутого угла равна 180°.",
+      "formula": "развёрнутый угол = 180°",
+      "sourcePages": [134],
+      "origin": "verbatim_extracted",
+      "binding": "neighbour_page",
+      "role": "prerequisite",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "тема 7.1; опора №1251 / рис. 7.59"
+    },
+    {
+      "ruleId": "PDF_p151_1",
+      "name": "Равные многоугольники",
+      "statement": "Два многоугольника называют равными, если их можно совместить при наложении.",
+      "formula": null,
+      "sourcePages": [151],
+      "origin": "verbatim_extracted",
+      "binding": "neighbour_page",
+      "role": "prerequisite",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "тема 7.4; опора №1249 / рис. 7.58"
+    },
+    {
+      "ruleId": "PDF_p151_2",
+      "name": "Периметр многоугольника",
+      "statement": "Сумму длин всех сторон многоугольника называют его периметром.",
+      "formula": "P = сумма длин сторон",
+      "sourcePages": [151],
+      "origin": "verbatim_extracted",
+      "binding": "neighbour_page",
+      "role": "prerequisite",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "тема 7.4; опора №1253*"
+    }
+  ],
+  "verbatimExamples": [
+    {
+      "exactPage": 155,
+      "text": "1248. На какие углы делит биссектриса угол, равный: 1) 82°; 2) 110°; 3) 50°?",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "половинки: 41°; 55°; 25°; anti-dup vs 7.1 — менять числа"
+    },
+    {
+      "exactPage": 155,
+      "text": "1249. Найдите на рисунке 7.58 равные четырёхугольники. Рис. 7.58 — шесть четырёхугольников (1)–(6).",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "нужна иллюстрация polygon; пары равенства определять по чертежу, не по OCR"
+    },
+    {
+      "exactPage": 155,
+      "text": "1250. Сейчас часы показывают: 1) 5 ч; 2) 10 ч. Какой угол образовали часовая и минутная стрелки?",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "ожидаемо 150° и 60° (меньший угол); anti-dup vs 7.1 №1191/1196 — другие часы"
+    },
+    {
+      "exactPage": 155,
+      "text": "1251. Найдите градусные меры углов AOC и BOC, изображённых на рисунке 7.59. На прямой AB из точки O проведён луч OC; ∠AOC = (x+60)°, ∠BOC = (x−20)°.",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "(x+60)+(x−20)=180 → x=70 → ∠AOC=130°, ∠BOC=50°; visual-topics sceneKind angle"
+    },
+    {
+      "exactPage": 156,
+      "text": "1252. Начертите четырёхугольник ABCD, у которого ∠A = 50°; ∠B = 120°; ∠C = 80°. 1) Измерьте величину угла D. 2) Найдите сумму: ∠A + ∠B + ∠C + ∠D.",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "∠D=110°, сумма 360°; для SCQ/FILL_IN лучше давать три угла и просить четвёртый/сумму без «начертите+измерьте»"
+    },
+    {
+      "exactPage": 156,
+      "text": "1253*. Суммы попарно взятых сторон четырёхугольника ABCD (рис. 7.60) равны: 7 см; 8 см; 10 см; 9 см; 11 см; 12 см. Найдите периметр четырёхугольника ABCD. A. 20 см; B. 19 см; C. 22 см; D. 18 см.",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "(7+8+10+9+11+12)/3=19 → B; уровень * — 1–2 слота max"
+    },
+    {
+      "exactPage": 156,
+      "text": "1254. Сколько треугольников на рисунке 7.61? A. 20 треугольников; B. 25 треугольников; C. 30 треугольников; D. 28 треугольников. Рис. 7.61 — правильный пятиугольник с проведёнными диагоналями (пентаграмма).",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": false,
+      "note": "визуальный подсчёт без опоры на правило главы VII; не ядро пачки; при необходимости — отдельный visual MCQ"
+    },
+    {
+      "exactPage": 155,
+      "text": "1247. Решите уравнение (два уравнения с обыкновенными дробями). Рамка ответов 1235–1247.",
+      "taskType": "calculation",
+      "confidence": "medium_ocr",
+      "usable": false,
+      "note": "хвост темы 7.4 до заголовка повторения главы VII; вне навыкового ядра углов/многоугольников"
+    },
+    {
+      "exactPage": 156,
+      "text": "Вопросы с иконкой колокольчика: фигуры A–D (окружность, шестиугольник, круг, прямоугольник) — отличие окружности и круга; все точки на одинаковом расстоянии от данной.",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": false,
+      "note": "переход к главе VIII «Окружность. Круг» (8.1 с стр. 157); не навык повторения главы VII"
+    }
+  ],
+  "structuralExamples": [
+    {
+      "taskType": "geometry",
+      "template": "Биссектриса делит угол α; найти меры двух полученных углов (α/2).",
+      "expectedSkill": "Биссектриса угла"
+    },
+    {
+      "taskType": "geometry",
+      "template": "Часы показывают целое число часов h; найти угол между часовой и минутной стрелками (min(30h, 360−30h)).",
+      "expectedSkill": "Градусная мера / циферблат"
+    },
+    {
+      "taskType": "geometry",
+      "template": "На прямой AB луч OC; ∠AOC и ∠BOC заданы линейными выражениями от x; найти x и меры углов из суммы 180°.",
+      "expectedSkill": "Развёрнутый угол / смежные на прямой"
+    },
+    {
+      "taskType": "geometry",
+      "template": "Даны три угла выпуклого четырёхугольника; найти четвёртый и/или сумму всех углов (360°).",
+      "expectedSkill": "Сумма углов четырёхугольника"
+    },
+    {
+      "taskType": "geometry",
+      "template": "Среди нескольких четырёхугольников на рисунке указать равные (совместимые наложением).",
+      "expectedSkill": "Равенство многоугольников"
+    },
+    {
+      "taskType": "geometry",
+      "template": "Даны все суммы попарно взятых сторон четырёхугольника; найти периметр как сумма/3.",
+      "expectedSkill": "Периметр через попарные суммы сторон"
+    },
+    {
+      "taskType": "geometry",
+      "template": "Измерь угол транспортиром. Построй угол 65°. Назови виды углов.",
+      "expectedSkill": "Углы, транспортир, классификация"
+    }
+  ],
+  "generatorProfile": {
+    "audience": "Учащиеся 5 класса общеобразовательных школ Республики Казахстан",
+    "taskMixRecommended": {
+      "calculation": 0.15,
+      "word_problem": 0.1,
+      "measurement": 0.05,
+      "geometry": 0.65,
+      "sets_logic": 0.05
+    },
+    "formatRules": [
+      "Три уровня сложности: А (базовый), В (продвинутый), С (творческий)",
+      "Геометрия — углы в градусах со знаком °, многоугольники",
+      "visual-topics: needsIllustration только если stem без рисунка неполон; supported renderer kinds ONLY: angle, polygon (no protractor)"
+    ],
+    "safetyAndScope": [
+      "Программа 5 класса части 2, глава VII «Углы. Многоугольники»: навыки 7.1–7.4 в режиме повторения",
+      "Не включать переход к 8.1 (окружность/круг на стр. 156) и хвост 7.4 (№1247)",
+      "Не требовать реального транспортира в stem (renderer без protractor)",
+      "Антидубль vs math-5-ugol-gradusnaya-mera-20260808-1230, math-5-transportir-izmerenie-postroenie-20260808-1300, math-5-sravnenie-vidy-uglov-20260808-1330, math-5-mnogougolniki-20260808-1400 — свежие числа/stem, не копировать №1190–1254 дословно"
+    ]
+  },
+  "blockStructureNotes": "Supplementary блок повторения главы VII (topic_code=null, lesson_no=null, supplementary=true). Стр. 155: хвост 7.4 (№1247 + рамка ответов 1235–1247), затем заголовок «Упражнения для повторения главы VII»; №1248–1251 (биссектриса, равные четырёхугольники рис. 7.58, стрелки часов, смежные на прямой рис. 7.59). Стр. 156: №1252–1254* (углы четырёхугольника; периметр по попарным суммам рис. 7.60; подсчёт треугольников рис. 7.61), затем блок с колокольчиком — ввод к главе VIII (окружность/круг). Новых рамок «Правило» / «Ключевые факты» в блоке повторения нет.",
+  "sliceStatus": "ready_unverified",
+  "recommendedMaxCount": 8,
+  "gaps": [
+    "На стр. 155–156 в блоке повторения нет новых формальных правил главы VII — только упражнения; все 6 primary — RC_* реконструкции (needsManualCheck).",
+    "Сумма углов четырёхугольника (RC_p156_quad_angle_sum) явно не выписана в теме 7.4 как правило — выводится из №1252; нужна ручная проверка формулировки.",
+    "OCR TXT обрывает начало №1252 и портит градусы/буквы; опора — PNG. Пары равных фигур на рис. 7.58 не фиксировать без сверки чертежа.",
+    "В parsed: topic_code=null, topic_rule_links отсутствуют для unit; единственное parsed-правило главы VII — R014; остальное — neighbour из 7.1/7.4.",
+    "Brief.count=30 завышен для тонкого 2-страничного supplementary; recommendedMaxCount=8 (~60/30/10 → SCQ 5 / MCQ 2 / FILL_IN 1)."
+  ],
+  "ocrConfidence": "medium"
+}

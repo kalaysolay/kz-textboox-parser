@@ -1,0 +1,364 @@
+{
+    "schemaVersion":  1,
+    "runId":  "math-5-zadachi-na-sovmestnuyu-rabotu-20260808-0130",
+    "reviewedAt":  "2026-08-08T02:05:00+05:00",
+    "summary":  {
+                    "total":  30,
+                    "accepted":  29,
+                    "fixed":  1,
+                    "rejected":  0,
+                    "rejectRate":  0
+                },
+    "items":  [
+                  {
+                      "localId":  "q01",
+                      "status":  "accepted",
+                      "solvedAnswer":  "B — 1 (единицу)",
+                      "keyAnswer":  "B — 1 (единицу)",
+                      "matchesKey":  true,
+                      "issues":  [
+
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q02",
+                      "status":  "accepted",
+                      "solvedAnswer":  "C — 1/t1+1/t2, затем 1:сумма",
+                      "keyAnswer":  "C — 1/t1+1/t2, затем 1:сумма",
+                      "matchesKey":  true,
+                      "issues":  [
+
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q03",
+                      "status":  "accepted",
+                      "solvedAnswer":  "B — 1/12",
+                      "keyAnswer":  "B — 1/12",
+                      "matchesKey":  true,
+                      "issues":  [
+
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q04",
+                      "status":  "accepted",
+                      "solvedAnswer":  "C — 6 мин",
+                      "keyAnswer":  "C — 6 мин",
+                      "matchesKey":  true,
+                      "issues":  [
+
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q05",
+                      "status":  "accepted",
+                      "solvedAnswer":  "B — T \u003c 15 мин",
+                      "keyAnswer":  "B — T \u003c 15 мин",
+                      "matchesKey":  true,
+                      "issues":  [
+
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q06",
+                      "status":  "accepted",
+                      "solvedAnswer":  "B — 1/24",
+                      "keyAnswer":  "B — 1/24",
+                      "matchesKey":  true,
+                      "issues":  [
+
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q07",
+                      "status":  "accepted",
+                      "solvedAnswer":  "C — 12 ч",
+                      "keyAnswer":  "C — 12 ч",
+                      "matchesKey":  true,
+                      "issues":  [
+                                     {
+                                         "message":  "При count=30 форма word_problem встречается \u003e2 раз (G017 best-effort); слот не отклоняем.",
+                                         "code":  "question_form_repeated",
+                                         "severity":  "major"
+                                     }
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q08",
+                      "status":  "accepted",
+                      "solvedAnswer":  "B — 6 дней",
+                      "keyAnswer":  "B — 6 дней",
+                      "matchesKey":  true,
+                      "issues":  [
+                                     {
+                                         "message":  "При count=30 форма word_problem встречается \u003e2 раз (G017 best-effort); слот не отклоняем.",
+                                         "code":  "question_form_repeated",
+                                         "severity":  "major"
+                                     }
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q09",
+                      "status":  "accepted",
+                      "solvedAnswer":  "B — неверно, 12 мин",
+                      "keyAnswer":  "B — неверно, 12 мин",
+                      "matchesKey":  true,
+                      "issues":  [
+
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q10",
+                      "status":  "accepted",
+                      "solvedAnswer":  "A — верно (=1/15)",
+                      "keyAnswer":  "A — верно (=1/15)",
+                      "matchesKey":  true,
+                      "issues":  [
+
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q11",
+                      "status":  "fixed",
+                      "solvedAnswer":  "B — 1/40",
+                      "keyAnswer":  "B — 1/40",
+                      "matchesKey":  true,
+                      "issues":  [
+                                     {
+                                         "message":  "В черновике были [[?]] похожие на fill-placeholder; исправлено до сдачи 05.",
+                                         "code":  "answer_leak_in_body",
+                                         "severity":  "minor"
+                                     }
+                                 ],
+                      "fixApplied":  "Убраны псевдо-плейсхолдеры [[?]] из bodyRu/bodyKk (заменены на дробь с ?), чтобы не путать с FILL_IN."
+                  },
+                  {
+                      "localId":  "q12",
+                      "status":  "accepted",
+                      "solvedAnswer":  "B — 8 ч",
+                      "keyAnswer":  "B — 8 ч",
+                      "matchesKey":  true,
+                      "issues":  [
+
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q13",
+                      "status":  "accepted",
+                      "solvedAnswer":  "A — пара А (4 ч)",
+                      "keyAnswer":  "A — пара А (4 ч)",
+                      "matchesKey":  true,
+                      "issues":  [
+
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q14",
+                      "status":  "accepted",
+                      "solvedAnswer":  "B — Марат",
+                      "keyAnswer":  "B — Марат",
+                      "matchesKey":  true,
+                      "issues":  [
+
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q15",
+                      "status":  "accepted",
+                      "solvedAnswer":  "C — 15 ч",
+                      "keyAnswer":  "C — 15 ч",
+                      "matchesKey":  true,
+                      "issues":  [
+
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q16",
+                      "status":  "accepted",
+                      "solvedAnswer":  "C — 60 мин",
+                      "keyAnswer":  "C — 60 мин",
+                      "matchesKey":  true,
+                      "issues":  [
+
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q17",
+                      "status":  "accepted",
+                      "solvedAnswer":  "B — 15/4 ч",
+                      "keyAnswer":  "B — 15/4 ч",
+                      "matchesKey":  true,
+                      "issues":  [
+                                     {
+                                         "message":  "При count=30 форма word_problem встречается \u003e2 раз (G017 best-effort); слот не отклоняем.",
+                                         "code":  "question_form_repeated",
+                                         "severity":  "major"
+                                     }
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q18",
+                      "status":  "accepted",
+                      "solvedAnswer":  "C — 8 ч",
+                      "keyAnswer":  "C — 8 ч",
+                      "matchesKey":  true,
+                      "issues":  [
+
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q19",
+                      "status":  "accepted",
+                      "solvedAnswer":  "A,B,D",
+                      "keyAnswer":  "A,B,D",
+                      "matchesKey":  true,
+                      "issues":  [
+
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q20",
+                      "status":  "accepted",
+                      "solvedAnswer":  "A,C",
+                      "keyAnswer":  "A,C",
+                      "matchesKey":  true,
+                      "issues":  [
+
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q21",
+                      "status":  "accepted",
+                      "solvedAnswer":  "A,B,D",
+                      "keyAnswer":  "A,B,D",
+                      "matchesKey":  true,
+                      "issues":  [
+
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q22",
+                      "status":  "accepted",
+                      "solvedAnswer":  "A,B,D",
+                      "keyAnswer":  "A,B,D",
+                      "matchesKey":  true,
+                      "issues":  [
+
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q23",
+                      "status":  "accepted",
+                      "solvedAnswer":  "A,C",
+                      "keyAnswer":  "A,C",
+                      "matchesKey":  true,
+                      "issues":  [
+
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q24",
+                      "status":  "accepted",
+                      "solvedAnswer":  "A,B",
+                      "keyAnswer":  "A,B",
+                      "matchesKey":  true,
+                      "issues":  [
+
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q25",
+                      "status":  "accepted",
+                      "solvedAnswer":  "A,B,D",
+                      "keyAnswer":  "A,B,D",
+                      "matchesKey":  true,
+                      "issues":  [
+
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q26",
+                      "status":  "accepted",
+                      "solvedAnswer":  "A,D",
+                      "keyAnswer":  "A,D",
+                      "matchesKey":  true,
+                      "issues":  [
+
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q27",
+                      "status":  "accepted",
+                      "solvedAnswer":  "A,B",
+                      "keyAnswer":  "A,B",
+                      "matchesKey":  true,
+                      "issues":  [
+
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q28",
+                      "status":  "accepted",
+                      "solvedAnswer":  "[[1]]=6",
+                      "keyAnswer":  "[[1]]=6",
+                      "matchesKey":  true,
+                      "issues":  [
+
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q29",
+                      "status":  "accepted",
+                      "solvedAnswer":  "[[1]]=60",
+                      "keyAnswer":  "[[1]]=60",
+                      "matchesKey":  true,
+                      "issues":  [
+
+                                 ],
+                      "fixApplied":  null
+                  },
+                  {
+                      "localId":  "q30",
+                      "status":  "accepted",
+                      "solvedAnswer":  "[[1]]=1/24",
+                      "keyAnswer":  "[[1]]=1/24",
+                      "matchesKey":  true,
+                      "issues":  [
+
+                                 ],
+                      "fixApplied":  null
+                  }
+              ],
+    "duplicates":  [
+
+                   ],
+    "verdict":  "ready_for_import"
+}

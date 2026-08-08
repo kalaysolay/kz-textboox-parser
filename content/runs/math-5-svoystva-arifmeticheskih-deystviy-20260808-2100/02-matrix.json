@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-svoystva-arifmeticheskih-deystviy-20260808-2100",
+  "typeMixPlanned": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMixPlanned": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Узнавание переместительного свойства сложения",
+      "stemIdea": "Какое свойство записано буквой: a + b = b + a",
+      "trapIdeas": [
+        "Ученик называет сочетательное свойство сложения",
+        "Ученик называет переместительное свойство умножения",
+        "Ученик думает, что сумма меняется от перестановки"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p29_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Узнавание переместительного свойства умножения",
+      "stemIdea": "Какое свойство: от перестановки множителей произведение не меняется",
+      "trapIdeas": [
+        "Ученик называет сочетательное свойство умножения",
+        "Ученик путает со сложением a + b = b + a",
+        "Ученик думает, что порядок множителей меняет значение"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p30_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Буквенная запись сочетательного сложения",
+      "stemIdea": "Какая запись — сочетательное свойство сложения",
+      "trapIdeas": [
+        "Ученик выбирает a + b = b + a",
+        "Ученик выбирает (a · b) · c = a · (b · c)",
+        "Ученик выбирает (a + b) · c = a · c + b · c"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p30_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Смысл распределительного относительно сложения",
+      "stemIdea": "Как по правилу умножить сумму на число",
+      "trapIdeas": [
+        "Ученик умножает только одно слагаемое",
+        "Ученик складывает слагаемые и забывает множитель",
+        "Ученик путает с распределительным относительно вычитания"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p31_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Инвариант суммы при перестановке слагаемых",
+      "stemIdea": "Не вычисляя: равны ли две суммы, отличающиеся только порядком слагаемых",
+      "trapIdeas": [
+        "Ученик думает, что порядок слагаемых меняет сумму",
+        "Ученик путает со вычитанием, где порядок важен",
+        "Ученик считает, что свойство работает только для круглых чисел"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p29_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Инвариант произведения при перестановке множителей",
+      "stemIdea": "Не вычисляя: изменится ли произведение при записи множителей в другом порядке",
+      "trapIdeas": [
+        "Ученик думает, что произведение изменится",
+        "Ученик путает с делением, где порядок важен",
+        "Ученик считает свойство верным только для одинаковых множителей"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p30_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Удобная перегруппировка трёх слагаемых",
+      "stemIdea": "Найти значение суммы трёх чисел, сгруппировав пару в круглое",
+      "trapIdeas": [
+        "Ученик считает строго слева направо без круглой пары",
+        "Ученик меняет сложение на вычитание при перестановке",
+        "Ученик складывает не те два слагаемых"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p30_1"],
+      "sourceExampleRefs": ["p30#ex3"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Удобная перегруппировка трёх множителей",
+      "stemIdea": "Найти произведение трёх множителей через группировку в круглое",
+      "trapIdeas": [
+        "Ученик складывает множители вместо умножения",
+        "Ученик группирует пару, которая не даёт круглое",
+        "Ученик применяет распределительное без скобок-суммы"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p30_3"],
+      "sourceExampleRefs": ["p31#ex"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Восстановление множителя в распределительном равенстве",
+      "stemIdea": "В равенстве вида (x + 5) · □ = 3x + 15 подобрать число в □",
+      "trapIdeas": [
+        "Ученик пишет 5 (берёт слагаемое из скобок)",
+        "Ученик пишет 15 (берёт свободный член)",
+        "Ученик пишет коэффициент только при x, игнорируя второе слагаемое"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p31_1"],
+      "sourceExampleRefs": ["p33#70"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сравнение двух группировок четырёх слагаемых",
+      "stemIdea": "Какая группировка четырёх слагаемых удобнее даёт круглые суммы",
+      "trapIdeas": [
+        "Ученик выбирает пары без круглых сумм",
+        "Ученик меняет одно сложение на вычитание",
+        "Ученик опускает одно из четырёх слагаемых"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p33_KF1"],
+      "sourceExampleRefs": ["p33#kf1"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Проверка чужой перегруппировки суммы",
+      "stemIdea": "В готовом «равенстве» со скобками найти ошибку сочетательного сложения",
+      "trapIdeas": [
+        "Ученик принимает замену плюса на минус внутри скобок",
+        "Ученик думает, что скобки можно убрать произвольно",
+        "Ученик путает сочетательное сложения с сочетательным умножения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p30_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Численное раскрытие (a + b) · c",
+      "stemIdea": "Вычислить произведение суммы на число через a·c + b·c",
+      "trapIdeas": [
+        "Ученик считает a + (b · c) вместо a·c + b·c",
+        "Ученик умножает только первое слагаемое",
+        "Ученик складывает a и b после умножения в неверном порядке разрядов"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p31_1"],
+      "sourceExampleRefs": ["p31#ex"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Переместительное сложения в бытовом сюжете",
+      "stemIdea": "Два дела разным порядком — почему суммарное время одинаково",
+      "trapIdeas": [
+        "Ученик думает, что порядок дел меняет сумму минут",
+        "Ученик ищет разность времён вместо суммы",
+        "Ученик применяет переместительное умножения к минутам"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p29_1"],
+      "sourceExampleRefs": ["p29#1"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Проверка раскрытия (a − b) · c",
+      "stemIdea": "Какие шаги верны при умножении разности на число",
+      "trapIdeas": [
+        "Ученик пишет сумму произведений вместо разности",
+        "Ученик умножает только уменьшаемое",
+        "Ученик игнорирует условие a ≥ b"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p31_2"],
+      "sourceExampleRefs": ["p31#ex"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Восстановление множителя в сочетании умножения",
+      "stemIdea": "В равенстве (a · □) · c = a · (b · c) подобрать пропуск",
+      "trapIdeas": [
+        "Ученик пишет сумму a + b",
+        "Ученик пишет произведение a · c",
+        "Ученик меняет место множителя c вместо b"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p30_3"],
+      "sourceExampleRefs": [],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Предсказание удобной пары множителей",
+      "stemIdea": "Не считая целиком: какая группировка четырёх множителей даёт круглое тысячное",
+      "trapIdeas": [
+        "Ученик выбирает пару без круглого произведения",
+        "Ученик думает, что множители переставлять нельзя",
+        "Ученик группирует все четыре слева направо без круглых"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p33_KF2"],
+      "sourceExampleRefs": ["p33#kf2"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Свёртка разности произведений в (a − b) · c",
+      "stemIdea": "Записать a·c − b·c одним произведением разности",
+      "trapIdeas": [
+        "Ученик пишет (a − b) + c",
+        "Ученик пишет a − (b · c)",
+        "Ученик сворачивает в сумму (a + b) · c"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p31_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сравнение произведений после перестановки множителей",
+      "stemIdea": "Сравнить два произведения одних множителей в разном порядке",
+      "trapIdeas": [
+        "Ученик думает, что меньший множитель слева даёт меньшее произведение",
+        "Ученик считает, что порядок всегда меняет результат",
+        "Ученик путает сравнение произведений со сравнением частных"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p30_2"],
+      "sourceExampleRefs": ["p31#ex"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Все верные переместительные равенства + и ·",
+      "stemIdea": "Отметить все равенства, верные по переместительному свойству",
+      "trapIdeas": [
+        "Ученик отмечает перестановку в вычитании a − b = b − a",
+        "Ученик отмечает перестановку в делении a : b = b : a",
+        "Ученик отвергает верную перестановку множителей"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p29_1", "PDF_p30_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Все верные сочетательные равенства + и ·",
+      "stemIdea": "Отметить все равенства, верные по сочетательному свойству",
+      "trapIdeas": [
+        "Ученик принимает смену знака внутри скобок",
+        "Ученик путает сочетательное с распределительным",
+        "Ученик отвергает верную перестановку скобок умножения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p30_1", "PDF_p30_3"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные формулировки двух распределительных свойств",
+      "stemIdea": "Отметить все верные словесные/буквенные формулировки распределительных свойств",
+      "trapIdeas": [
+        "Ученик принимает умножение только одного слагаемого/части разности",
+        "Ученик путает распределительное со сочетательным",
+        "Ученик пишет сумму произведений для разности"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p31_1", "PDF_p31_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Удобные группировки сумм из упражнений",
+      "stemIdea": "Отметить все суммы, которые удобно считать перестановкой и группировкой слагаемых",
+      "trapIdeas": [
+        "Ученик отмечает сумму, где нет удобных круглых пар",
+        "Ученик считает, что группировать можно только два слагаемых из трёх",
+        "Ученик применяет группировку множителей к сумме"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p33_KF1"],
+      "sourceExampleRefs": ["p31#63"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Удобные группировки произведений",
+      "stemIdea": "Отметить все произведения, удобные через перестановку и группировку множителей",
+      "trapIdeas": [
+        "Ученик отмечает набор без круглого произведения",
+        "Ученик группирует как сумму вместо произведения",
+        "Ученик применяет распределительное там, где нет суммы/разности"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p33_KF2"],
+      "sourceExampleRefs": ["p31#64"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Все верные раскрытия скобок (a ± b) · c",
+      "stemIdea": "Отметить все верные записи произведений в виде суммы или разности",
+      "trapIdeas": [
+        "Ученик принимает 2(x + 3) = 2x + 3",
+        "Ученик пишет разность при сложении в скобках",
+        "Ученик меняет местами уменьшаемое и вычитаемое в раскрытии"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p31_1", "PDF_p31_2"],
+      "sourceExampleRefs": ["p32#66"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Два способа в задаче на встречное/противоположное движение",
+      "stemIdea": "Отметить все верные способы найти расстояние через (v1 + v2) · t и v1·t + v2·t",
+      "trapIdeas": [
+        "Ученик отмечает разность скоростей вместо суммы",
+        "Ученик умножает только одну скорость на время",
+        "Ученик складывает скорости без умножения на время"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p31_1"],
+      "sourceExampleRefs": ["p32#67"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Корректное заполнение □ в распределительных равенствах",
+      "stemIdea": "Отметить все варианты заполнения пропусков, сохраняющие распределительное свойство",
+      "trapIdeas": [
+        "Ученик ставит в □ слагаемое вместо множителя",
+        "Ученик заполняет только одну часть равенства согласованно",
+        "Ученик путает раскрытие суммы с раскрытием разности"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p31_1", "PDF_p31_2"],
+      "sourceExampleRefs": ["p33#70"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Синтез: равные выражения после группировки + и ·",
+      "stemIdea": "Отметить все пары выражений, равные после допустимой перестановки/группировки",
+      "trapIdeas": [
+        "Ученик уравнивает сумму с произведением тех же чисел",
+        "Ученик переносит скобки, меняя действие",
+        "Ученик применяет распределительное без общего множителя"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p33_KF1", "PDF_p33_KF2"],
+      "sourceExampleRefs": [],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "skillFocus": "Числовой ответ: сумма после группировки слагаемых",
+      "stemIdea": "Вычислить сумму четырёх слагаемых удобной группировкой — одно число",
+      "trapIdeas": [
+        "Ученик ошибся в круглой паре и получил соседнее круглое",
+        "Ученик сложил не все четыре слагаемых"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p33_KF1"],
+      "sourceExampleRefs": ["p33#kf1"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Подбор множителя для распределительного равенства",
+      "stemIdea": "Вписать одно число в □, чтобы равенство выражало распределительное свойство",
+      "trapIdeas": [
+        "Ученик вписал слагаемое из скобок",
+        "Ученик подобрал число только под одно слагаемое раскрытия"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p31_1"],
+      "sourceExampleRefs": ["p33#70"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Числовой ответ: (v1 − v2) · t в текстовой задаче",
+      "stemIdea": "На сколько дальше уйдёт более быстрый за t с — одно число по разности скоростей",
+      "trapIdeas": [
+        "Ученик умножил сумму скоростей вместо разности",
+        "Ученик нашёл только разность скоростей без умножения на время"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p31_2"],
+      "sourceExampleRefs": ["p32#68"],
+      "questionForm": "word_problem"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "count=30 при recommendedMaxCount=null; typeMix 18/9/3 и difficulty 2/4/15/6/3 из brief. Опора на 8 primary PDF_p* (переместительные/сочетательные +/·, два распределительных, ключевые факты группировки); RC_* нет. Gauss (1.7+) и история знаков исключены. needsIllustration все false (visual-topics: свойства формулируются текстом/формулой; луч рис.1.18–1.19 и рис.1.20 не требуем). G017: при count=30 лимит ≤2 на questionForm нереален — формы: recall×5, predict×3, compute×6, verify×5, restore×3, compare×3, word_problem×3, inverse×2. Anti-dup vs C4 (slozhenie-vychitanie): нет терминов слагаемое/уменьшаемое и чистого +/− без свойства. Anti-dup vs C5 (umnozhenie-delenie): нет терминов множитель/делитель, ÷0, свойства частного. Anti-dup vs C6 (istor-arifmeticheskih-deystviy): нет авторов/годов знаков и этимологии."
+}

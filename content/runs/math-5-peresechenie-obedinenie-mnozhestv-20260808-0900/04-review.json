@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-peresechenie-obedinenie-mnozhestv-20260808-0900",
+  "reviewedAt": "2026-08-08T10:20:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 29,
+    "fixed": 1,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "A — одновременно A и B",
+      "keyAnswer": "A — Множество элементов, принадлежащих одновременно и $A$, и $B$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×2, compute×6, predict×3, verify×4, restore×3, compare×4, word_problem×4, inverse×4 (как в notes матрицы). Стемы внутри формы разные; не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "C — хотя бы одно из A или B",
+      "keyAnswer": "C — Множество элементов, принадлежащих хотя бы одному из множеств $A$ или $B$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "D — {1, 8}",
+      "keyAnswer": "D — $\\{1, 8\\}$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "A — {1, 2, 3, 4, 6, 7, 8, 9}",
+      "keyAnswer": "A — $\\{1, 2, 3, 4, 6, 7, 8, 9\\}$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "C — ∅",
+      "keyAnswer": "C — $\\varnothing$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "C — 9 (=5+4)",
+      "keyAnswer": "C — $9$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "C — {6, 12, 18}",
+      "keyAnswer": "C — $\\{6, 12, 18\\}$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "C — {5, 10, 15, 20, 25, 40}",
+      "keyAnswer": "C — $\\{5, 10, 15, 20, 25, 40\\}$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "C — A ∪ B = {2, 3, 4, 6, 8, 9}",
+      "keyAnswer": "C — $A \\cup B = \\{2, 3, 4, 6, 8, 9\\}$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "A — {е, с, н}",
+      "keyAnswer": "A — $\\{\\text{е}, \\text{с}, \\text{н}\\}$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "A — 28",
+      "keyAnswer": "A — $28$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "C — n(∩)=3 < n(∪)=6",
+      "keyAnswer": "C — $n(A \\cap B) < n(A \\cup B)$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "D — A∩B=B и A∪B=A",
+      "keyAnswer": "D — $A \\cap B = B$ и $A \\cup B = A$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "C — общая часть треугольника и круга",
+      "keyAnswer": "C — Общая (перекрывающаяся) часть треугольника и круга",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "fixed",
+      "solvedAnswer": "C — A ∩ B",
+      "keyAnswer": "C — $A \\cap B$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": "Вариант D textRu: капитализация «Всё множество $A$» (было со строчной буквы)."
+    },
+    {
+      "localId": "q16",
+      "status": "accepted",
+      "solvedAnswer": "A — 12 (=8+6-2)",
+      "keyAnswer": "A — $12$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "C — {1,2,3,4,6,12}; max=12=НОД(48,36)",
+      "keyAnswer": "C — $X \\cap Y = \\{1, 2, 3, 4, 6, 12\\}$; наибольший элемент $12$ — НОД$(48, 36)$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "B — A∩B={s,v}; B∪C={q,r,s,t,u,v}",
+      "keyAnswer": "B — $A \\cap B = \\{s, v\\}$ и $B \\cup C = \\{q, r, s, t, u, v\\}$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A, B",
+      "keyAnswer": "A — $A \\cap B = \\{4, 12\\}$ | B — $A \\cup B = \\{4, 6, 8, 12, 16, 18\\}$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "A, B",
+      "keyAnswer": "A — $E \\cap F = \\varnothing$ | B — $E \\cup F = \\{2, 3, 4, 5, 7, 8\\}$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "A, B",
+      "keyAnswer": "A — $A \\cap B = \\{5, 7\\}$ | B — $A \\cup B = \\{1, 5, 7, 8, 9, 10\\}$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "A, B (8 и 9)",
+      "keyAnswer": "A — Если $n(A)=4$, $n(B)=6$, $n(A \\cap B)=2$, то $n(A \\cup B)=8$ | B — Если $n(A)=7$, $n(B)=5$, $n(A \\cap B)=3$, то $n(A \\cup B)=9$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "A, B (A∩B=B; A∪B=A)",
+      "keyAnswer": "A — $A \\cap B = B$ | B — $A \\cup B = A$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "A, B",
+      "keyAnswer": "A — $A \\cap B = \\{3, 6\\}$ | B — $A \\cup B = \\{3, 6, 9, 12\\}$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A, B",
+      "keyAnswer": "A — $K \\cup L$ включает все точки квадрата и все точки треугольника | B — Общая часть фигур входит в $K \\cup L$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "A, B",
+      "keyAnswer": "A — Числа $5$ и $15$ лежат в общей зоне кругов | B — Число $7$ лежит в зоне только $A$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "A, B",
+      "keyAnswer": "A — $A \\cap B = \\{h, e\\}$ | B — $B \\cup C = \\{n, k, h, g, f, e\\}$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "12",
+      "keyAnswer": "[[1]] = 12",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "accepted",
+      "solvedAnswer": "3",
+      "keyAnswer": "[[1]] = 3",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "24",
+      "keyAnswer": "[[1]] = 24",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-delenie-des-drobi-na-des-drob-20260808-0530",
+  "reviewedAt": "2026-08-08T03:35:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 29,
+    "fixed": 1,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "B — перенос в делимом и делителе на число знаков делителя",
+      "keyAnswer": "B — В делимом и делителе запятую переносят вправо на столько цифр, сколько их после запятой в делителе",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×3, compute×5, predict×3, restore×4, verify×4, compare×4, word_problem×4, inverse×3. Стемы внутри формы разные; не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "C — нули справа к делимому, если знаков меньше, чем в делителе",
+      "keyAnswer": "C — Если в делимом меньше десятичных знаков, чем в делителе, нули приписывают справа к делимому",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "7",
+      "keyAnswer": "A — 7",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "2,5",
+      "keyAnswer": "A — 2,5",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "3 цифры",
+      "keyAnswer": "C — На 3 цифры",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "360 : 45",
+      "keyAnswer": "D — 360 : 45",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "30",
+      "keyAnswer": "C — 30",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "Одинаковая оболочка «Вычисли: a : b» (q03/q04/q07/q10); при count=30 — G017 best-effort, слот не отклоняем (числа и skillFocus разные: 1/2 знака, недостаток нулей, частное <1)."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "меньше делимого 12,6",
+      "keyAnswer": "A — меньше делимого 12,6",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "fixed",
+      "solvedAnswer": "3,78 : 1,4 = 37,8 : 14",
+      "keyAnswer": "B — 3,78 : 1,4 = 37,8 : 14",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": "Уникализирован stem (тема 4.8 / сведение к натуральному делителю); устранение duplicate_body с content/runs/math-5-perevod-des-i-obykn-drobi-20260808-0230/05-questions.final.json#q13. Опции и ключ без изменений."
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "0,4",
+      "keyAnswer": "D — 0,4",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "Одинаковая оболочка «Вычисли: a : b» (q03/q04/q07/q10); при count=30 — G017 best-effort, слот не отклоняем (числа и skillFocus разные: 1/2 знака, недостаток нулей, частное <1)."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "5,4 : 0,9 > 5,4 : 1,8",
+      "keyAnswer": "C — 5,4 : 0,9 > 5,4 : 1,8",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "4,8 км/ч",
+      "keyAnswer": "C — 4,8 км/ч",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "2500",
+      "keyAnswer": "B — 2500",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "3,2",
+      "keyAnswer": "D — 3,2",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "280 тг",
+      "keyAnswer": "A — 280 тг",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "status": "accepted",
+      "solvedAnswer": "не дописал нуль: нужно 480 : 32",
+      "keyAnswer": "C — При сведении не дописал нуль в делимом: нужно было 480 : 32, а не 48 : 32",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "только 630 : 21",
+      "keyAnswer": "B — Только 630 : 21",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "2,4",
+      "keyAnswer": "C — 2,4",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A, C, D",
+      "keyAnswer": "A — Запятую в делимом и делителе переносят вправо на столько цифр, сколько их после запятой в делителе, C — После переноса выполняют деление десятичной дроби на натуральное число, D — Если в делимом не хватает знаков после запятой, справа к нему приписывают нули",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "A, C",
+      "keyAnswer": "A — 2,4 : 0,6 = 24 : 6, C — 3,15 : 1,05 = 315 : 105",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "A, C",
+      "keyAnswer": "A — 7,2 : 0,8, C — 3,5 : 0,07",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "A, C",
+      "keyAnswer": "A — 4,2 : 0,28 = 420 : 28, C — 1,5 : 0,125 = 1500 : 125",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "A, C",
+      "keyAnswer": "A — 8,4 : 2,1 < 8,4, C — 5 : 0,5 > 5",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "A, C",
+      "keyAnswer": "A — Если 0,25 числа равны 18, то всё число равно 72, C — Если 0,6 длины равны 4,8 м, то вся длина равна 8 м",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A, B, C",
+      "keyAnswer": "A — 6,48 : 1,2 = 5,4, B — 0,96 : 0,32 = 3, C — 4,55 : 0,7 = 6,5",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "A, C",
+      "keyAnswer": "A — Если 1,5x = 6,75, то x = 4,5, C — Если делитель 0,8, частное 3,5, то делимое равно 2,8",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "A, C",
+      "keyAnswer": "A — (2,4 · 0,5)/(1,2 · 0,4) = 2,5, C — (1,8 · 0,6)/(0,9 · 0,4) = 3",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "105",
+      "keyAnswer": "[[1]] = 105",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "accepted",
+      "solvedAnswer": "8,4",
+      "keyAnswer": "[[1]] = 8,4",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "2",
+      "keyAnswer": "[[1]] = 2",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

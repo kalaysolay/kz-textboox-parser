@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-povtorenie-glavy-vii-20260808-1430",
+  "reviewedAt": "2026-08-08T12:05:00+05:00",
+  "summary": {
+    "total": 8,
+    "accepted": 6,
+    "fixed": 2,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "градусные меры двух полученных углов равны",
+      "keyAnswer": "C — Их градусные меры равны",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "60° (2·30°; меньший)",
+      "keyAnswer": "D — $60^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "fixed",
+      "solvedAnswer": "48° (96:2)",
+      "keyAnswer": "C — $48^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": "Уточнён stem RU/KK: «угол, равный 96°» вместо телеграфного «делит угол 96°» (однозначность для 5 класса). Опции и ключ без изменений."
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "100° и 80° ((x+40)+(x+20)=180 → x=60)",
+      "keyAnswer": "B — $100^\\circ$ и $80^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "110° (360−(70+95+85)=110)",
+      "keyAnswer": "D — $110^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "A и B (1=3, 2=5; пары для scene illustrator)",
+      "keyAnswer": "A — 1 и 3 равны; B — 2 и 5 равны",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "fixed",
+      "solvedAnswer": "A, C, D (биссектриса; смежные 180°; сумма углов четырёхугольника 360°; не B)",
+      "keyAnswer": "A, C, D",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "duplicate_body",
+          "severity": "major",
+          "message": "Черновик bodyRu «Выберите все верные утверждения.» совпадал с content/runs/math-5-sravnenie-vidy-uglov-20260808-1330/05-questions.final.json#q27 (и др. темами). Stem уникализирован; опции/ключ без изменений."
+        }
+      ],
+      "fixApplied": "Stem RU/KK уточнён предметным якорем (биссектриса, развёрнутый угол, сумма углов четырёхугольника); устранение duplicate_body vs sravnenie-vidy-uglov#q27. Опции и ключ без изменений."
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "19 ((6+9+11+8+10+13):3=57:3)",
+      "keyAnswer": "[[1]] = 19",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [
+    {
+      "localId": "q07",
+      "conflictsWith": "content/runs/math-5-sravnenie-vidy-uglov-20260808-1330/05-questions.final.json#q27",
+      "normalizedBody": "выберите все верные утверждения"
+    }
+  ],
+  "verdict": "ready_for_import"
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-naturalnye-chisla-i-nol-20260808-1700",
+  "createdAt": "2026-08-08T17:00:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "Натуральные числа и нуль",
+  "topicKk": "Натурал сандар және нөл",
+  "topicSlug": "naturalnye-chisla-i-nol",
+  "topicCode": "1.1",
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 30,
+  "typeMix": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMix": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "illustrationPolicy": "visual-topics",
+  "illustrationFor": [],
+  "parsedTextbookPath": "Математика/parsed/math_aldamuratova_5grade_part1_parsed_v2.json",
+  "methodistInstruction": "Формулировки для 5 класса: короткие, однозначные, без двусмысленности и лишних условий. Тема 1.1 ч.1 pages ~4–8. illustrationPolicy visual-topics — обычно мало иллюстраций (не координатный луч 1.2). Reduce count if recommendedMaxCount < 30. Detect pdfOffset via read-textbook-pages.js --detect-offset (do NOT assume 0 for part 1). Anti-dup vs other runs.",
+  "languageMode": "BOTH"
+}

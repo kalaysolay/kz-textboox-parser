@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="440" viewBox="0 0 500 440">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <polygon points="250,230 385.9461680554975,166.6072607388951 211.17714323462187,85.11112605663976" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="250" y1="230" x2="385.9461680554975" y2="166.6072607388951" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="250" y1="230" x2="211.17714323462187" y2="85.11112605663976" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="250" cy="230" r="3.5" fill="#1a1a1a"/>
+  <polygon points="250,230 211.17714323462187,85.11112605663976 120.0961894323342,305" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="250" y1="230" x2="211.17714323462187" y2="85.11112605663976" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="250" y1="230" x2="120.0961894323342" y2="305" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="250" cy="230" r="3.5" fill="#1a1a1a"/>
+  <polygon points="250,230 120.0961894323342,305 385.9461680554975,166.60726073889506" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="250" y1="230" x2="120.0961894323342" y2="305" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="250" y1="230" x2="385.9461680554975" y2="166.60726073889506" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="250" cy="230" r="3.5" fill="#1a1a1a"/>
+  <line x1="250" y1="230" x2="385.9461680554975" y2="166.6072607388951" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="250" y1="230" x2="211.17714323462187" y2="85.11112605663976" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="250" y1="230" x2="120.0961894323342" y2="305" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="250" cy="230" r="3.5" fill="#1a1a1a"/>
+  <path d="M 385.9461680554975 166.6072607388951 A 150 150 0 0 0 211.17714323462187 85.11112605663976" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <path d="M 211.17714323462187 85.11112605663976 A 150 150 0 0 0 120.0961894323342 305" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <path d="M 120.0961894323342 305 A 150 150 0 0 0 385.9461680554975 166.60726073889506" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="398.6344770740106" y="160.6906050745253" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">A</text>
+  <text x="207.55367660318657" y="71.58816448859281" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">B</text>
+  <text x="107.97183377935207" y="312" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">C</text>
+  <text x="246" y="252" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">O</text>
+</svg>

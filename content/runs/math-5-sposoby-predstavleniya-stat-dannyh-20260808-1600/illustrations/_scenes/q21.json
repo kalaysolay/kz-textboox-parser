@@ -1,0 +1,13 @@
+{
+  "kind": "bar_chart",
+  "width": 560,
+  "height": 360,
+  "yMax": 14,
+  "showValues": true,
+  "bars": [
+    { "label": "собака", "value": 12 },
+    { "label": "кошка", "value": 8 },
+    { "label": "кролик", "value": 5 },
+    { "label": "хомяк", "value": 3 }
+  ]
+}

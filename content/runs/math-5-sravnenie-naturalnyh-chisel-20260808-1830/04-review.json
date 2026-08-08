@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-sravnenie-naturalnyh-chisel-20260808-1830",
+  "reviewedAt": "2026-08-08T16:45:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 28,
+    "fixed": 2,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "B — <",
+      "keyAnswer": "B — <",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×5, predict×3, compare×8, verify×7 (restore/word_problem/inverse×2, compute×1). Стемы внутри формы разные; слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "A — раньше",
+      "keyAnswer": "A — раньше",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "B — 1002 (4 разряда > 3)",
+      "keyAnswer": "B — 1002",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "B — 9 < 10",
+      "keyAnswer": "B — 9 < 10",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "B — пятнадцать больше семи",
+      "keyAnswer": "B — пятнадцать больше семи",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "B — 157 > 57",
+      "keyAnswer": "B — 157 > 57",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "B — > (4682>4639: тыс./сотни равны, десятки 8>3)",
+      "keyAnswer": "B — >",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "B — 11 (правее — больше)",
+      "keyAnswer": "B — 11",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "B — неверно: 3993>3939 (десятки 9>3)",
+      "keyAnswer": "B — Неверно: на самом деле 3993 > 3939",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "B — 18 < 25 < 40",
+      "keyAnswer": "B — 18 < 25 < 40",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "B — 25 больше 18 и меньше 40",
+      "keyAnswer": "B — 25 больше 18 и меньше 40",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "B — 12 > 0",
+      "keyAnswer": "B — 12 > 0",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "B — 65 см < 1 м (100 см)",
+      "keyAnswer": "B — 65 см < 1 м",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "B — координата A меньше B (A левее на рисунке)",
+      "keyAnswer": "B — координата A меньше координаты B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "B — > (205205>202505: в разряде тысяч 5>2)",
+      "keyAnswer": "B — >",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "status": "accepted",
+      "solvedAnswer": "B — 1 099 999 > 99 999",
+      "keyAnswer": "B — 1\\,099\\,999 > 99\\,999",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "B — 1",
+      "keyAnswer": "B — 1",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "B — со старшего разряда: 8463 > 8436",
+      "keyAnswer": "B — Надо со старшего разряда: 8463 > 8436",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A, B",
+      "keyAnswer": "A — Из двух чисел с разным числом разрядов больше то, у которого разрядов больше; B — Числа с одинаковым числом разрядов сравнивают поразрядно, начиная со старшего разряда",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "A, B, D (P<Q, Q<R, P<R слева направо)",
+      "keyAnswer": "A — координата P < координата Q; B — координата Q < координата R; D — координата P < координата R",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "fixed",
+      "solvedAnswer": "A, B",
+      "keyAnswer": "A — 5 < 7 < 10; B — 19 < 21 < 35",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": "option D textRu/textKk: убран учебный комментарий в скобках («порядок убывания…»); оставлено только $40 > 25 > 18$."
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "A, C, D",
+      "keyAnswer": "A — Любое трёхзначное число меньше любого четырёхзначного; C — Наибольшее четырёхзначное на 1 меньше наименьшего пятизначного; D — 0 меньше любого натурального числа",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "A, B, D (C ложно: 45315>45135)",
+      "keyAnswer": "A — 1925 < 1952; B — 38\\,576 > 38\\,567; D — 671\\,312 < 5\\,671\\,312",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "A, C, D (B ложно: 45 мин < 1 ч)",
+      "keyAnswer": "A — 1 кг > 950 г; C — 8 дм > 75 см; D — 120 с < 3 мин",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A, C (AB<CD на рис.; двойное по возрастанию допустимо)",
+      "keyAnswer": "A — AB < CD; C — Длины частей можно записать двойным неравенством в порядке возрастания",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "A, C",
+      "keyAnswer": "A — 8** и 2** (одинаковая длина): всегда 8** > 2**; C — Любое четырёхзначное всегда больше любого трёхзначного",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "fixed",
+      "solvedAnswer": "A, C, D (B ложно: 4 < 11)",
+      "keyAnswer": "A — 72 > 68; C — 4836 < 4863; D — 987\\,654 < 1\\,000\\,000",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "duplicate_body",
+          "severity": "blocker",
+          "message": "Исходный черновик: bodyRu совпадал с q23. После rewrite-pass стебель verify-формы и числа заменены; дубль снят."
+        }
+      ],
+      "fixApplied": "Rewrite: verify-stem «Данияр отметил…»; новые числа 72/68, 4>11, 4836/4863, 987654/1000000; ключ A,C,D."
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 2 (нужно 3>* → max 2)",
+      "keyAnswer": "[[1]] = 2",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 21",
+      "keyAnswer": "[[1]] = 21",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 9 (*3204>63204 → *>6 → max 9)",
+      "keyAnswer": "[[1]] = 9",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

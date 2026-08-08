@@ -1,0 +1,1248 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-peresechenie-obedinenie-mnozhestv-20260808-0900",
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "math-5-peresechenie-obedinenie-mnozhestv-20260808-0900",
+    "generatedAt": "2026-08-08T09:30:00+05:00",
+    "subjectTitleRu": "Математика",
+    "subjectTitleKk": "Математика",
+    "gradeNo": 5,
+    "topicCode": "5.3",
+    "topicTitleRu": "Пересечение множеств. Объединение множеств",
+    "topicTitleKk": "Жиындардың қиылысуы. Жиындардың бірігуі",
+    "topicSlug": "peresechenie-obedinenie-mnozhestv",
+    "atomicSkillTitleRu": null,
+    "textbookRef": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+    "illustrationPolicy": "visual-topics",
+    "sourceReliability": "verbatim"
+  },
+  "questions": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "bodyRu": "Какое утверждение верно описывает пересечение множеств $A$ и $B$?",
+      "bodyKk": "$A$ және $B$ жиындарының қиылысуын қай тұжырым дұрыс сипаттайды?",
+      "explanationRu": "По определению $A \\cap B$ содержит те и только те элементы, которые принадлежат одновременно и $A$, и $B$.",
+      "explanationKk": "Анықтама бойынша $A \\cap B$ тек $A$-ға да, $B$-ге де бір мезгілде тиесілі элементтерден тұрады.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p102_1"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Множество элементов, принадлежащих одновременно и $A$, и $B$",
+          "textKk": "$A$-ға да, $B$-ге де бір мезгілде тиесілі элементтер жиыны",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Множество элементов, принадлежащих хотя бы одному из множеств $A$ или $B$",
+          "textKk": "$A$ немесе $B$ жиындарының кемінде біреуіне тиесілі элементтер жиыны",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Множество элементов, принадлежащих $A$, но не принадлежащих $B$",
+          "textKk": "$A$-ға тиесілі, бірақ $B$-ге тиесілі емес элементтер жиыны",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Множество, совпадающее с $A$ и с $B$ одновременно",
+          "textKk": "$A$ мен $B$-ге бірдей сәйкес келетін жиын",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "bodyRu": "Какое утверждение верно описывает объединение множеств $A$ и $B$?",
+      "bodyKk": "$A$ және $B$ жиындарының бірігуін қай тұжырым дұрыс сипаттайды?",
+      "explanationRu": "По определению $A \\cup B$ состоит из тех и только тех элементов, которые принадлежат хотя бы одному из множеств $A$ или $B$.",
+      "explanationKk": "Анықтама бойынша $A \\cup B$ тек $A$ немесе $B$ жиындарының кемінде біреуіне тиесілі элементтерден тұрады.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p104_1"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Множество только общих элементов $A$ и $B$",
+          "textKk": "Тек $A$ мен $B$-нің ортақ элементтерінің жиыны",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Множество элементов $A$ и $B$ без общих элементов",
+          "textKk": "Ортақ элементтері алынбаған $A$ мен $B$ элементтерінің жиыны",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Множество элементов, принадлежащих хотя бы одному из множеств $A$ или $B$",
+          "textKk": "$A$ немесе $B$ жиындарының кемінде біреуіне тиесілі элементтер жиыны",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Объединение возможно только если $A$ и $B$ не пересекаются",
+          "textKk": "Бірігу тек $A$ мен $B$ қиылыспағанда ғана мүмкін",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Пусть $E$ — множество цифр числа $36841$, а $F$ — множество цифр числа $81952$. Чему равно $E \\cap F$?",
+      "bodyKk": "$E$ — $36841$ санының цифрлары жиыны, ал $F$ — $81952$ санының цифрлары жиыны болсын. $E \\cap F$ неге тең?",
+      "explanationRu": "$E = \\{3, 6, 8, 4, 1\\}$, $F = \\{8, 1, 9, 5, 2\\}$. Общие элементы: $1$ и $8$. Значит $E \\cap F = \\{1, 8\\}$.",
+      "explanationKk": "$E = \\{3, 6, 8, 4, 1\\}$, $F = \\{8, 1, 9, 5, 2\\}$. Ортақ элементтер: $1$ және $8$. Демек $E \\cap F = \\{1, 8\\}$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p102_1",
+        "PDF_p102_2"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$\\{1, 2, 3, 4, 5, 6, 8, 9\\}$",
+          "textKk": "$\\{1, 2, 3, 4, 5, 6, 8, 9\\}$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$\\{8, 1, 8\\}$",
+          "textKk": "$\\{8, 1, 8\\}$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$\\{3, 6, 4\\}$",
+          "textKk": "$\\{3, 6, 4\\}$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$\\{1, 8\\}$",
+          "textKk": "$\\{1, 8\\}$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Пусть $A$ — множество цифр числа $4638$, а $B$ — множество цифр числа $7912$. Чему равно $A \\cup B$?",
+      "bodyKk": "$A$ — $4638$ санының цифрлары жиыны, ал $B$ — $7912$ санының цифрлары жиыны болсын. $A \\cup B$ неге тең?",
+      "explanationRu": "$A = \\{4, 6, 3, 8\\}$, $B = \\{7, 9, 1, 2\\}$. Объединение — все элементы без повторов: $A \\cup B = \\{1, 2, 3, 4, 6, 7, 8, 9\\}$.",
+      "explanationKk": "$A = \\{4, 6, 3, 8\\}$, $B = \\{7, 9, 1, 2\\}$. Бірігу — қайталаусыз барлық элементтер: $A \\cup B = \\{1, 2, 3, 4, 6, 7, 8, 9\\}$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p104_1",
+        "PDF_p103_2"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$\\{1, 2, 3, 4, 6, 7, 8, 9\\}$",
+          "textKk": "$\\{1, 2, 3, 4, 6, 7, 8, 9\\}$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$\\{4, 6, 3, 8\\}$",
+          "textKk": "$\\{4, 6, 3, 8\\}$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$\\{4, 6, 3, 8, 7, 9, 1, 2, 4\\}$",
+          "textKk": "$\\{4, 6, 3, 8, 7, 9, 1, 2, 4\\}$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$\\varnothing$",
+          "textKk": "$\\varnothing$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Даны множества $P = \\{11, 13, 15, 17\\}$ и $Q = \\{10, 12, 14, 16\\}$. Не выполняя полного перечисления объединения, определите $P \\cap Q$.",
+      "bodyKk": "$P = \\{11, 13, 15, 17\\}$ және $Q = \\{10, 12, 14, 16\\}$ жиындары берілген. Бірігуді толық тізіп шықпай, $P \\cap Q$ неге тең екенін анықтаңыз.",
+      "explanationRu": "У $P$ и $Q$ нет общих элементов, поэтому пересечение пусто: $P \\cap Q = \\varnothing$.",
+      "explanationKk": "$P$ пен $Q$-ның ортақ элементі жоқ, сондықтан қиылысу бос: $P \\cap Q = \\varnothing$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p103_1"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$\\{10, 11, 12, 13, 14, 15, 16, 17\\}$",
+          "textKk": "$\\{10, 11, 12, 13, 14, 15, 16, 17\\}$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$\\{11\\}$",
+          "textKk": "$\\{11\\}$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$\\varnothing$",
+          "textKk": "$\\varnothing$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$\\{\\}$",
+          "textKk": "$\\{\\}$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Известно, что $n(N) = 5$, $n(P) = 4$ и $N \\cap P = \\varnothing$. Чему равно $n(N \\cup P)$?",
+      "bodyKk": "$n(N) = 5$, $n(P) = 4$ және $N \\cap P = \\varnothing$ екені белгілі. $n(N \\cup P)$ неге тең?",
+      "explanationRu": "Если множества не пересекаются, то $n(N \\cup P) = n(N) + n(P) = 5 + 4 = 9$. Вычитать пересечение не нужно.",
+      "explanationKk": "Жиындар қиылыспаса, $n(N \\cup P) = n(N) + n(P) = 5 + 4 = 9$. Қиылысуды азайтудың қажеті жоқ.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p104_2"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$1$",
+          "textKk": "$1$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$20$",
+          "textKk": "$20$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$9$",
+          "textKk": "$9$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$5$",
+          "textKk": "$5$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке двумя пересекающимися кругами изображены множества $A$ и $B$. В зоне только $A$ отмечены числа $3$ и $9$; в общей зоне — $6$, $12$ и $18$; в зоне только $B$ — $24$ и $36$. Чему равно $A \\cap B$?",
+      "bodyKk": "Суретте екі қиылысатын шеңбермен $A$ және $B$ жиындары көрсетілген. Тек $A$ аймағында $3$ және $9$; ортақ аймақта $6$, $12$ және $18$; тек $B$ аймағында $24$ және $36$ белгіленген. $A \\cap B$ неге тең?",
+      "explanationRu": "Пересечение — элементы общей зоны: $A \\cap B = \\{6, 12, 18\\}$.",
+      "explanationKk": "Қиылысу — ортақ аймақтың элементтері: $A \\cap B = \\{6, 12, 18\\}$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": true,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p102_2",
+        "PDF_p102_1"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$\\{3, 6, 9, 12, 18, 24, 36\\}$",
+          "textKk": "$\\{3, 6, 9, 12, 18, 24, 36\\}$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$\\{3, 9\\}$",
+          "textKk": "$\\{3, 9\\}$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$\\{6, 12, 18\\}$",
+          "textKk": "$\\{6, 12, 18\\}$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$\\{0\\}$",
+          "textKk": "$\\{0\\}$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке двумя пересекающимися кругами изображены множества $A$ и $B$. В зоне только $A$ отмечены числа $5$ и $15$; в общей зоне — $10$ и $20$; в зоне только $B$ — $25$ и $40$. Чему равно $A \\cup B$?",
+      "bodyKk": "Суретте екі қиылысатын шеңбермен $A$ және $B$ жиындары көрсетілген. Тек $A$ аймағында $5$ және $15$; ортақ аймақта $10$ және $20$; тек $B$ аймағында $25$ және $40$ белгіленген. $A \\cup B$ неге тең?",
+      "explanationRu": "Объединение — все элементы внутри хотя бы одного круга: $A \\cup B = \\{5, 10, 15, 20, 25, 40\\}$.",
+      "explanationKk": "Бірігу — кемінде бір шеңбердің ішіндегі барлық элементтер: $A \\cup B = \\{5, 10, 15, 20, 25, 40\\}$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": true,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p103_2",
+        "PDF_p104_1"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$\\{10, 20\\}$",
+          "textKk": "$\\{10, 20\\}$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$\\{5, 15, 25, 40\\}$",
+          "textKk": "$\\{5, 15, 25, 40\\}$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$\\{5, 10, 15, 20, 25, 40\\}$",
+          "textKk": "$\\{5, 10, 15, 20, 25, 40\\}$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$\\{5, 10, 15, 20, 25, 40, 0\\}$",
+          "textKk": "$\\{5, 10, 15, 20, 25, 40, 0\\}$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Даны множества $A = \\{2, 4, 6, 8\\}$ и $B = \\{3, 4, 6, 9\\}$. Какое равенство верно?",
+      "bodyKk": "$A = \\{2, 4, 6, 8\\}$ және $B = \\{3, 4, 6, 9\\}$ жиындары берілген. Қай теңдік дұрыс?",
+      "explanationRu": "$A \\cap B = \\{4, 6\\}$, $A \\cup B = \\{2, 3, 4, 6, 8, 9\\}$. Верно равенство $A \\cup B = \\{2, 3, 4, 6, 8, 9\\}$.",
+      "explanationKk": "$A \\cap B = \\{4, 6\\}$, $A \\cup B = \\{2, 3, 4, 6, 8, 9\\}$. Дұрысы: $A \\cup B = \\{2, 3, 4, 6, 8, 9\\}$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p102_1",
+        "PDF_p104_1"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$A \\cap B = \\{2, 4, 6, 8\\}$",
+          "textKk": "$A \\cap B = \\{2, 4, 6, 8\\}$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$A \\cap B = \\{4, 6, 3\\}$",
+          "textKk": "$A \\cap B = \\{4, 6, 3\\}$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$A \\cup B = \\{2, 3, 4, 6, 8, 9\\}$",
+          "textKk": "$A \\cup B = \\{2, 3, 4, 6, 8, 9\\}$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$A \\cup B = \\{2, 4, 6, 8, 3, 4, 6, 9\\}$",
+          "textKk": "$A \\cup B = \\{2, 4, 6, 8, 3, 4, 6, 9\\}$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Из букв слов «Весна» и «Осень» составили множества $A$ и $B$ (буквы записывают так, как в словах, без повторов). Чему равно $A \\cap B$?",
+      "bodyKk": "«Весна» және «Осень» сөздерінің әріптерінен $A$ және $B$ жиындары құрылған (әріптер сөздегідей жазылады, қайталаусыз). $A \\cap B$ неге тең?",
+      "explanationRu": "$A = \\{\\text{В}, \\text{е}, \\text{с}, \\text{н}, \\text{а}\\}$, $B = \\{\\text{О}, \\text{с}, \\text{е}, \\text{н}, \\text{ь}\\}$. Общие буквы: $\\text{е}$, $\\text{с}$, $\\text{н}$.",
+      "explanationKk": "$A = \\{\\text{В}, \\text{е}, \\text{с}, \\text{н}, \\text{а}\\}$, $B = \\{\\text{О}, \\text{с}, \\text{е}, \\text{н}, \\text{ь}\\}$. Ортақ әріптер: $\\text{е}$, $\\text{с}$, $\\text{н}$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p102_1",
+        "PDF_p104_1"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$\\{\\text{е}, \\text{с}, \\text{н}\\}$",
+          "textKk": "$\\{\\text{е}, \\text{с}, \\text{н}\\}$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$\\{\\text{В}, \\text{е}, \\text{с}, \\text{н}, \\text{а}, \\text{О}, \\text{ь}\\}$",
+          "textKk": "$\\{\\text{В}, \\text{е}, \\text{с}, \\text{н}, \\text{а}, \\text{О}, \\text{ь}\\}$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$\\{\\text{с}, \\text{с}, \\text{н}\\}$",
+          "textKk": "$\\{\\text{с}, \\text{с}, \\text{н}\\}$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$\\{\\text{В}, \\text{О}\\}$",
+          "textKk": "$\\{\\text{В}, \\text{О}\\}$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке двумя пересекающимися кругами изображены множества $A$ и $B$. В зоне только $A$ — числа $7$ и $14$; в общей зоне — $21$, $28$ и $42$; в зоне только $B$ — $35$ и $56$. В тексте записано неполное равенство $A \\cap B = \\{21, \\square, 42\\}$. Какой элемент пропущен?",
+      "bodyKk": "Суретте екі қиылысатын шеңбермен $A$ және $B$ жиындары көрсетілген. Тек $A$ аймағында $7$ және $14$; ортақ аймақта $21$, $28$ және $42$; тек $B$ аймағында $35$ және $56$. Мәтінде толық емес теңдік жазылған: $A \\cap B = \\{21, \\square, 42\\}$. Қандай элемент жетіспейді?",
+      "explanationRu": "Общая зона: $21$, $28$, $42$. В записи пропущен элемент $28$.",
+      "explanationKk": "Ортақ аймақ: $21$, $28$, $42$. Жазбада жетіспейтін элемент — $28$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": true,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p102_2"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$28$",
+          "textKk": "$28$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$7$",
+          "textKk": "$7$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$35$",
+          "textKk": "$35$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$0$",
+          "textKk": "$0$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Даны множества $A = \\{1, 3, 5, 7, 9\\}$ и $B = \\{5, 7, 9, 11\\}$. Сравните $n(A \\cap B)$ и $n(A \\cup B)$. Какое утверждение верно?",
+      "bodyKk": "$A = \\{1, 3, 5, 7, 9\\}$ және $B = \\{5, 7, 9, 11\\}$ жиындары берілген. $n(A \\cap B)$ мен $n(A \\cup B)$-ні салыстырыңыз. Қай тұжырым дұрыс?",
+      "explanationRu": "$A \\cap B = \\{5, 7, 9\\}$, значит $n(A \\cap B) = 3$. $A \\cup B = \\{1, 3, 5, 7, 9, 11\\}$, значит $n(A \\cup B) = 6$. Поэтому $n(A \\cap B) < n(A \\cup B)$.",
+      "explanationKk": "$A \\cap B = \\{5, 7, 9\\}$, демек $n(A \\cap B) = 3$. $A \\cup B = \\{1, 3, 5, 7, 9, 11\\}$, демек $n(A \\cup B) = 6$. Сондықтан $n(A \\cap B) < n(A \\cup B)$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p103_3"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$n(A \\cap B) > n(A \\cup B)$",
+          "textKk": "$n(A \\cap B) > n(A \\cup B)$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$n(A \\cap B) = n(A \\cup B)$",
+          "textKk": "$n(A \\cap B) = n(A \\cup B)$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$n(A \\cap B) < n(A \\cup B)$",
+          "textKk": "$n(A \\cap B) < n(A \\cup B)$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$n(A \\cup B) = n(A) + n(B) = 9$",
+          "textKk": "$n(A \\cup B) = n(A) + n(B) = 9$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Дано $B \\subset A$, где $A = \\{2, 4, 6, 8\\}$ и $B = \\{2, 4\\}$. Какие равенства верны?",
+      "bodyKk": "$B \\subset A$ берілген, мұнда $A = \\{2, 4, 6, 8\\}$ және $B = \\{2, 4\\}$. Қай теңдіктер дұрыс?",
+      "explanationRu": "Если $B \\subset A$, то $A \\cap B = B$ и $A \\cup B = A$. Здесь $A \\cap B = \\{2, 4\\} = B$, $A \\cup B = \\{2, 4, 6, 8\\} = A$.",
+      "explanationKk": "$B \\subset A$ болса, $A \\cap B = B$ және $A \\cup B = A$. Мұнда $A \\cap B = \\{2, 4\\} = B$, $A \\cup B = \\{2, 4, 6, 8\\} = A$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p104_3"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$A \\cap B = A$ и $A \\cup B = B$",
+          "textKk": "$A \\cap B = A$ және $A \\cup B = B$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$A \\cap B = \\varnothing$",
+          "textKk": "$A \\cap B = \\varnothing$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Только $B \\subset A$, а про $\\cap$ и $\\cup$ ничего сказать нельзя",
+          "textKk": "Тек $B \\subset A$, ал $\\cap$ пен $\\cup$ туралы ештеңе айтуға болмайды",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$A \\cap B = B$ и $A \\cup B = A$",
+          "textKk": "$A \\cap B = B$ және $A \\cup B = A$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке треугольник обозначен буквой $A$, а круг — буквой $B$; фигуры пересекаются. Какая область является множеством $A \\cap B$?",
+      "bodyKk": "Суретте үшбұрыш $A$ әрпімен, ал шеңбер $B$ әрпімен белгіленген; фигуралар қиылысады. Қай аймақ $A \\cap B$ жиыны болады?",
+      "explanationRu": "Пересечение — общая часть треугольника и круга (точки, принадлежащие обеим фигурам сразу).",
+      "explanationKk": "Қиылысу — үшбұрыш пен шеңбердің ортақ бөлігі (екі фигураға бірден тиесілі нүктелер).",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": true,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p102_2",
+        "PDF_p102_1"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Вся область внутри треугольника или внутри круга",
+          "textKk": "Үшбұрыштың немесе шеңбердің ішіндегі барлық аймақ",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Только область треугольника без круга",
+          "textKk": "Тек шеңберсіз үшбұрыш аймағы",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Общая (перекрывающаяся) часть треугольника и круга",
+          "textKk": "Үшбұрыш пен шеңбердің ортақ (қабаттасатын) бөлігі",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Область вне обеих фигур",
+          "textKk": "Екі фигураның сыртындағы аймақ",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке двумя пересекающимися кругами изображены множества $A$ и $B$. Заштрихована только общая часть кругов. Какая подпись к заштрихованной области верна?",
+      "bodyKk": "Суретте екі қиылысатын шеңбермен $A$ және $B$ жиындары көрсетілген. Тек шеңберлердің ортақ бөлігі штрихталған. Штрихталған аймаққа қай жазу дұрыс?",
+      "explanationRu": "Общая часть двух кругов — это пересечение: $A \\cap B$.",
+      "explanationKk": "Екі шеңбердің ортақ бөлігі — қиылысу: $A \\cap B$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": true,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p102_2"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$A \\cup B$",
+          "textKk": "$A \\cup B$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$A$ без $B$",
+          "textKk": "$B$-сіз $A$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$A \\cap B$",
+          "textKk": "$A \\cap B$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "всё множество $A$",
+          "textKk": "бүкіл $A$ жиыны",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 4,
+      "bodyRu": "На рисунке кругами Эйлера–Венна показаны два кружка: в одном занимаются $8$ учеников, в другом — $6$, а оба кружка посещают $2$ ученика. Сколько всего учеников занимаются хотя бы в одном кружке?",
+      "bodyKk": "Суретте Эйлер–Венн шеңберлерімен екі үйірме көрсетілген: бірінде $8$ оқушы, екіншісінде $6$ оқушы, ал екі үйірмеге де $2$ оқушы барады. Кемінде бір үйірмеге баратын оқушылар саны қанша?",
+      "explanationRu": "Это $n(C \\cup D) = n(C) + n(D) - n(C \\cap D) = 8 + 6 - 2 = 12$.",
+      "explanationKk": "Бұл $n(C \\cup D) = n(C) + n(D) - n(C \\cap D) = 8 + 6 - 2 = 12$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": true,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p103_3"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$12$",
+          "textKk": "$12$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$14$",
+          "textKk": "$14$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$4$",
+          "textKk": "$4$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$2$",
+          "textKk": "$2$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 4,
+      "bodyRu": "Пусть $X$ — множество делителей числа $48$, а $Y$ — множество делителей числа $36$. Чему равно $X \\cap Y$ и что означает наибольший элемент этого пересечения?",
+      "bodyKk": "$X$ — $48$ санының бөлгіштері жиыны, ал $Y$ — $36$ санының бөлгіштері жиыны болсын. $X \\cap Y$ неге тең және бұл қиылысудың ең үлкен элементі нені білдіреді?",
+      "explanationRu": "$X \\cap Y = \\{1, 2, 3, 4, 6, 12\\}$. Наибольший элемент $12$ — это НОД$(48, 36)$.",
+      "explanationKk": "$X \\cap Y = \\{1, 2, 3, 4, 6, 12\\}$. Ең үлкен элемент $12$ — бұл ЕҮОБ$(48, 36)$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p102_1",
+        "PDF_p102_2"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$X \\cap Y = \\{1, 2, 3, 4, 6, 8, 9, 12, 16, 18, 24, 36, 48\\}$; наибольший элемент — НОК",
+          "textKk": "$X \\cap Y = \\{1, 2, 3, 4, 6, 8, 9, 12, 16, 18, 24, 36, 48\\}$; ең үлкені — ЕКК",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$X \\cap Y = \\{1, 2, 3, 4, 6, 12\\}$; наименьший элемент $1$ — НОД$(48, 36)$",
+          "textKk": "$X \\cap Y = \\{1, 2, 3, 4, 6, 12\\}$; ең кішісі $1$ — ЕҮОБ$(48, 36)$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$X \\cap Y = \\{1, 2, 3, 4, 6, 12\\}$; наибольший элемент $12$ — НОД$(48, 36)$",
+          "textKk": "$X \\cap Y = \\{1, 2, 3, 4, 6, 12\\}$; ең үлкені $12$ — ЕҮОБ$(48, 36)$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$X \\cap Y = \\{48 \\cdot 36\\}$; это НОД",
+          "textKk": "$X \\cap Y = \\{48 \\cdot 36\\}$; бұл ЕҮОБ",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 5,
+      "bodyRu": "На рисунке тремя пересекающимися кругами изображены множества $A$, $B$ и $C$. Точки размещены так: только в $A$ — $p$; только в $B$ — $q$; только в $C$ — $r$; в $A \\cap B$ вне $C$ — $s$; в $B \\cap C$ вне $A$ — $t$; в $A \\cap C$ вне $B$ — $u$; в $A \\cap B \\cap C$ — $v$. Какая пара перечислений верна?",
+      "bodyKk": "Суретте үш қиылысатын шеңбермен $A$, $B$ және $C$ жиындары көрсетілген. Нүктелер орналасуы: тек $A$-да — $p$; тек $B$-де — $q$; тек $C$-де — $r$; $C$-сіз $A \\cap B$-де — $s$; $A$-сыз $B \\cap C$-де — $t$; $B$-сіз $A \\cap C$-де — $u$; $A \\cap B \\cap C$-де — $v$. Қай тізімдер жұбы дұрыс?",
+      "explanationRu": "$A \\cap B = \\{s, v\\}$ (точки, лежащие и в $A$, и в $B$). $B \\cup C = \\{q, r, s, t, u, v\\}$ (все точки внутри $B$ или внутри $C$).",
+      "explanationKk": "$A \\cap B = \\{s, v\\}$ ($A$-да да, $B$-де де жатқан нүктелер). $B \\cup C = \\{q, r, s, t, u, v\\}$ ($B$ немесе $C$ ішіндегі барлық нүктелер).",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": true,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p102_2",
+        "PDF_p103_2"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$A \\cap B = \\{s, u, v\\}$ и $B \\cup C = \\{q, r, s, t, u, v\\}$",
+          "textKk": "$A \\cap B = \\{s, u, v\\}$ және $B \\cup C = \\{q, r, s, t, u, v\\}$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$A \\cap B = \\{s, v\\}$ и $B \\cup C = \\{q, r, s, t, u, v\\}$",
+          "textKk": "$A \\cap B = \\{s, v\\}$ және $B \\cup C = \\{q, r, s, t, u, v\\}$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$A \\cap B = \\{s, v\\}$ и $B \\cup C = \\{q, r, t\\}$",
+          "textKk": "$A \\cap B = \\{s, v\\}$ және $B \\cup C = \\{q, r, t\\}$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$A \\cap B = \\{v\\}$ и $B \\cup C = \\{q, r, s, t, u, v, p\\}$",
+          "textKk": "$A \\cap B = \\{v\\}$ және $B \\cup C = \\{q, r, s, t, u, v, p\\}$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке двумя пересекающимися кругами изображены множества $A$ и $B$. В зоне только $A$ — $8$ и $16$; в общей зоне — $4$ и $12$; в зоне только $B$ — $6$ и $18$. Отметьте все верные утверждения.",
+      "bodyKk": "Суретте екі қиылысатын шеңбермен $A$ және $B$ жиындары көрсетілген. Тек $A$ аймағында — $8$ және $16$; ортақ аймақта — $4$ және $12$; тек $B$ аймағында — $6$ және $18$. Барлық дұрыс тұжырымдарды белгілеңіз.",
+      "explanationRu": "Верно: $A \\cap B = \\{4, 12\\}$; $A \\cup B = \\{4, 6, 8, 12, 16, 18\\}$; $n(A \\cap B) = 2$. Неверно относить к пересечению элементы только из $A$ и путать $n(\\cap)$ с $n(\\cup)$.",
+      "explanationKk": "Дұрысы: $A \\cap B = \\{4, 12\\}$; $A \\cup B = \\{4, 6, 8, 12, 16, 18\\}$; $n(A \\cap B) = 2$. Тек $A$-дағы элементтерді қиылысуға қосу және $n(\\cap)$-ті $n(\\cup)$ деп санау қате.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": true,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p102_2",
+        "PDF_p103_2"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$A \\cap B = \\{4, 12\\}$",
+          "textKk": "$A \\cap B = \\{4, 12\\}$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$A \\cup B = \\{4, 6, 8, 12, 16, 18\\}$",
+          "textKk": "$A \\cup B = \\{4, 6, 8, 12, 16, 18\\}$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$A \\cap B = \\{8, 16, 4, 12\\}$",
+          "textKk": "$A \\cap B = \\{8, 16, 4, 12\\}$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$n(A \\cap B) = 6$",
+          "textKk": "$n(A \\cap B) = 6$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке двумя отдельными кругами без общей части изображены множества $E = \\{3, 5, 7\\}$ и $F = \\{2, 4, 8\\}$. Отметьте все верные утверждения.",
+      "bodyKk": "Суретте ортақ бөлігі жоқ екі бөлек шеңбермен $E = \\{3, 5, 7\\}$ және $F = \\{2, 4, 8\\}$ жиындары көрсетілген. Барлық дұрыс тұжырымдарды белгілеңіз.",
+      "explanationRu": "Круги не пересекаются, поэтому $E \\cap F = \\varnothing$. Объединять такие множества можно: $E \\cup F = \\{2, 3, 4, 5, 7, 8\\}$. Вложенности здесь нет.",
+      "explanationKk": "Шеңберлер қиылыспайды, сондықтан $E \\cap F = \\varnothing$. Мұндай жиындарды біріктіруге болады: $E \\cup F = \\{2, 3, 4, 5, 7, 8\\}$. Мұнда ішкі орналасу жоқ.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": true,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p103_1",
+        "PDF_p104_2"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$E \\cap F = \\varnothing$",
+          "textKk": "$E \\cap F = \\varnothing$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$E \\cup F = \\{2, 3, 4, 5, 7, 8\\}$",
+          "textKk": "$E \\cup F = \\{2, 3, 4, 5, 7, 8\\}$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Непересекающиеся множества нельзя объединять",
+          "textKk": "Қиылыспайтын жиындарды біріктіруге болмайды",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "На рисунке круг $F$ лежит внутри круга $E$",
+          "textKk": "Суретте $F$ шеңбері $E$ шеңберінің ішінде жатыр",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Даны множества $A = \\{1, 5, 7, 9\\}$ и $B = \\{5, 7, 8, 10\\}$. Отметьте все верные записи.",
+      "bodyKk": "$A = \\{1, 5, 7, 9\\}$ және $B = \\{5, 7, 8, 10\\}$ жиындары берілген. Барлық дұрыс жазбаларды белгілеңіз.",
+      "explanationRu": "Верно $A \\cap B = \\{5, 7\\}$ и $A \\cup B = \\{1, 5, 7, 8, 9, 10\\}$. Записи с лишним элементом в $\\cap$ или с дубликатами неверны.",
+      "explanationKk": "Дұрысы: $A \\cap B = \\{5, 7\\}$ және $A \\cup B = \\{1, 5, 7, 8, 9, 10\\}$. $\\cap$-та артық элементі немесе қайталауы бар жазбалар қате.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p102_1",
+        "PDF_p104_1"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$A \\cap B = \\{5, 7\\}$",
+          "textKk": "$A \\cap B = \\{5, 7\\}$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$A \\cup B = \\{1, 5, 7, 8, 9, 10\\}$",
+          "textKk": "$A \\cup B = \\{1, 5, 7, 8, 9, 10\\}$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$A \\cap B = \\{5, 7, 1\\}$",
+          "textKk": "$A \\cap B = \\{5, 7, 1\\}$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$A \\cup B = \\{1, 5, 7, 9, 5, 7, 8, 10\\}$",
+          "textKk": "$A \\cup B = \\{1, 5, 7, 9, 5, 7, 8, 10\\}$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Отметьте все верные применения формулы $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$.",
+      "bodyKk": "$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ формуласының барлық дұрыс қолданылуын белгілеңіз.",
+      "explanationRu": "Для троек $(4, 6, 2)$ получается $8$; для $(7, 5, 3)$ получается $9$. Сумма без вычитания и подмена ответа на $n(A \\cap B)$ неверны.",
+      "explanationKk": "$(4, 6, 2)$ үшеуі үшін $8$; $(7, 5, 3)$ үшін $9$ шығады. Азайтусыз қосынды және жауапты $n(A \\cap B)$ деп алу қате.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p103_3"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Если $n(A)=4$, $n(B)=6$, $n(A \\cap B)=2$, то $n(A \\cup B)=8$",
+          "textKk": "Егер $n(A)=4$, $n(B)=6$, $n(A \\cap B)=2$ болса, онда $n(A \\cup B)=8$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Если $n(A)=7$, $n(B)=5$, $n(A \\cap B)=3$, то $n(A \\cup B)=9$",
+          "textKk": "Егер $n(A)=7$, $n(B)=5$, $n(A \\cap B)=3$ болса, онда $n(A \\cup B)=9$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Если $n(A)=4$, $n(B)=6$, $n(A \\cap B)=2$, то $n(A \\cup B)=10$",
+          "textKk": "Егер $n(A)=4$, $n(B)=6$, $n(A \\cap B)=2$ болса, онда $n(A \\cup B)=10$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Если $n(A)=7$, $n(B)=5$, $n(A \\cap B)=3$, то $n(A \\cup B)=3$",
+          "textKk": "Егер $n(A)=7$, $n(B)=5$, $n(A \\cap B)=3$ болса, онда $n(A \\cup B)=3$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Дано $B \\subset A$. Отметьте все верные равенства.",
+      "bodyKk": "$B \\subset A$ берілген. Барлық дұрыс теңдіктерді белгілеңіз.",
+      "explanationRu": "Из $B \\subset A$ следует $A \\cap B = B$ и $A \\cup B = A$. Равенства $A \\cap B = A$ и $A \\cup B = B$ в общем случае неверны.",
+      "explanationKk": "$B \\subset A$ болса, $A \\cap B = B$ және $A \\cup B = A$. Жалпы жағдайда $A \\cap B = A$ және $A \\cup B = B$ дұрыс емес.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p104_3"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$A \\cap B = B$",
+          "textKk": "$A \\cap B = B$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$A \\cup B = A$",
+          "textKk": "$A \\cup B = A$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$A \\cap B = A$",
+          "textKk": "$A \\cap B = A$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$A \\cup B = B$",
+          "textKk": "$A \\cup B = B$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "На рисунке меньший круг $B$ лежит внутри большего круга $A$. В круге $B$ отмечены числа $3$ и $6$; в круге $A$ вне $B$ — числа $9$ и $12$. Отметьте все верные утверждения.",
+      "bodyKk": "Суретте кіші $B$ шеңбері үлкен $A$ шеңберінің ішінде жатыр. $B$ шеңберінде $3$ және $6$; $B$-сіз $A$ шеңберінде $9$ және $12$ белгіленген. Барлық дұрыс тұжырымдарды белгілеңіз.",
+      "explanationRu": "Здесь $B \\subset A$, поэтому $A \\cap B = B = \\{3, 6\\}$ и $A \\cup B = A = \\{3, 6, 9, 12\\}$. Пересечение непусто, а объединение не равно только $B$.",
+      "explanationKk": "Мұнда $B \\subset A$, сондықтан $A \\cap B = B = \\{3, 6\\}$ және $A \\cup B = A = \\{3, 6, 9, 12\\}$. Қиылысу бос емес, ал бірігу тек $B$-ге тең емес.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": true,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p104_3",
+        "PDF_p102_1",
+        "PDF_p104_1"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$A \\cap B = \\{3, 6\\}$",
+          "textKk": "$A \\cap B = \\{3, 6\\}$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$A \\cup B = \\{3, 6, 9, 12\\}$",
+          "textKk": "$A \\cup B = \\{3, 6, 9, 12\\}$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$A \\cap B = \\varnothing$",
+          "textKk": "$A \\cap B = \\varnothing$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$A \\cup B = \\{3, 6\\}$",
+          "textKk": "$A \\cup B = \\{3, 6\\}$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "На рисунке квадрат обозначен буквой $K$, а треугольник — буквой $L$; фигуры пересекаются. Отметьте все верные утверждения об области $K \\cup L$.",
+      "bodyKk": "Суретте квадрат $K$ әрпімен, ал үшбұрыш $L$ әрпімен белгіленген; фигуралар қиылысады. $K \\cup L$ аймағы туралы барлық дұрыс тұжырымдарды белгілеңіз.",
+      "explanationRu": "Объединение — все точки, принадлежащие хотя бы одной фигуре (включая общую часть). Только общая часть — это $K \\cap L$, а не $K \\cup L$.",
+      "explanationKk": "Бірігу — кемінде бір фигураға тиесілі барлық нүктелер (ортақ бөлікті қоса). Тек ортақ бөлік — бұл $K \\cap L$, $K \\cup L$ емес.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": true,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p103_2",
+        "PDF_p104_1"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$K \\cup L$ включает все точки квадрата и все точки треугольника",
+          "textKk": "$K \\cup L$ квадраттың да, үшбұрыштың да барлық нүктелерін қамтиды",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Общая часть фигур входит в $K \\cup L$",
+          "textKk": "Фигуралардың ортақ бөлігі $K \\cup L$-ге кіреді",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$K \\cup L$ — это только общая часть фигур",
+          "textKk": "$K \\cup L$ — тек фигуралардың ортақ бөлігі",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$K \\cup L$ совпадает только с квадратом $K$",
+          "textKk": "$K \\cup L$ тек $K$ квадратымен сәйкес келеді",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "На рисунке двумя пересекающимися кругами изображены множества $A$ и $B$. Известно: $5 \\in A \\cap B$, $15 \\in A \\cap B$, $7$ принадлежит только $A$, $9$ принадлежит только $B$, и $n(A \\cap B) = 2$. Отметьте все утверждения, согласованные с этими фактами.",
+      "bodyKk": "Суретте екі қиылысатын шеңбермен $A$ және $B$ жиындары көрсетілген. Белгілі: $5 \\in A \\cap B$, $15 \\in A \\cap B$, $7$ тек $A$-ға, $9$ тек $B$-ге тиесілі және $n(A \\cap B) = 2$. Осы деректерге сәйкес келетін барлық тұжырымдарды белгілеңіз.",
+      "explanationRu": "Элементы $5$ и $15$ должны лежать в общей зоне; $7$ — только в $A$; $9$ — только в $B$. Вне обоих кругов элемент объединения быть не может.",
+      "explanationKk": "$5$ және $15$ ортақ аймақта болуы керек; $7$ — тек $A$-да; $9$ — тек $B$-де. Бірігу элементі екі шеңбердің сыртында бола алмайды.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": true,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p102_2",
+        "PDF_p103_3"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Числа $5$ и $15$ лежат в общей зоне кругов",
+          "textKk": "$5$ және $15$ сандары шеңберлердің ортақ аймағында жатыр",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Число $7$ лежит в зоне только $A$",
+          "textKk": "$7$ саны тек $A$ аймағында жатыр",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Число $5$ лежит только в зоне $A$ (вне $B$)",
+          "textKk": "$5$ саны тек $A$ аймағында ($B$-ден тыс) жатыр",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Число $9$ лежит вне обоих кругов, но входит в $A \\cup B$",
+          "textKk": "$9$ саны екі шеңбердің сыртында жатыр, бірақ $A \\cup B$-ге кіреді",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 5,
+      "bodyRu": "На рисунке тремя пересекающимися кругами изображены множества $A$, $B$ и $C$. Точки: только $A$ — $m$; только $B$ — $n$; только $C$ — $k$; $A \\cap B$ вне $C$ — $h$; $B \\cap C$ вне $A$ — $g$; $A \\cap C$ вне $B$ — $f$; тройное пересечение — $e$; вне всех кругов — $d$. Отметьте все верные утверждения.",
+      "bodyKk": "Суретте үш қиылысатын шеңбермен $A$, $B$ және $C$ жиындары көрсетілген. Нүктелер: тек $A$ — $m$; тек $B$ — $n$; тек $C$ — $k$; $C$-сіз $A \\cap B$ — $h$; $A$-сыз $B \\cap C$ — $g$; $B$-сіз $A \\cap C$ — $f$; үштік қиылысу — $e$; барлық шеңберден тыс — $d$. Барлық дұрыс тұжырымдарды белгілеңіз.",
+      "explanationRu": "$A \\cap B = \\{h, e\\}$; $B \\cup C = \\{n, k, h, g, f, e\\}$. Точка $d$ вне всех кругов не входит в $B \\cup C$.",
+      "explanationKk": "$A \\cap B = \\{h, e\\}$; $B \\cup C = \\{n, k, h, g, f, e\\}$. Барлық шеңберден тыс $d$ нүктесі $B \\cup C$-ге кірмейді.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": true,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p102_2",
+        "PDF_p103_2",
+        "PDF_p104_1"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$A \\cap B = \\{h, e\\}$",
+          "textKk": "$A \\cap B = \\{h, e\\}$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$B \\cup C = \\{n, k, h, g, f, e\\}$",
+          "textKk": "$B \\cup C = \\{n, k, h, g, f, e\\}$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$A \\cap B = \\{h, e, f\\}$",
+          "textKk": "$A \\cap B = \\{h, e, f\\}$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$d \\in B \\cup C$",
+          "textKk": "$d \\in B \\cup C$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "bodyRu": "Дано: $n(A) = 9$, $n(B) = 7$, $n(A \\cap B) = 4$. Найдите $n(A \\cup B) = [[1]]$.",
+      "bodyKk": "Берілгені: $n(A) = 9$, $n(B) = 7$, $n(A \\cap B) = 4$. $n(A \\cup B) = [[1]]$ мәнін табыңыз.",
+      "explanationRu": "По формуле $n(A \\cup B) = 9 + 7 - 4 = 12$.",
+      "explanationKk": "Формула бойынша $n(A \\cup B) = 9 + 7 - 4 = 12$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p103_3"
+      ],
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "12",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "bodyRu": "На рисунке двумя пересекающимися кругами изображены множества $A$ и $B$. В зоне только $A$ отмечены числа $11$ и $22$; в общей зоне — $33$, $44$ и $55$; в зоне только $B$ — $66$. Найдите $n(A \\cap B) = [[1]]$.",
+      "bodyKk": "Суретте екі қиылысатын шеңбермен $A$ және $B$ жиындары көрсетілген. Тек $A$ аймағында $11$ және $22$; ортақ аймақта $33$, $44$ және $55$; тек $B$ аймағында $66$ белгіленген. $n(A \\cap B) = [[1]]$ мәнін табыңыз.",
+      "explanationRu": "В общей зоне три элемента, поэтому $n(A \\cap B) = 3$.",
+      "explanationKk": "Ортақ аймақта үш элемент бар, сондықтан $n(A \\cap B) = 3$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": true,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p102_2",
+        "PDF_p103_3"
+      ],
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "3",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "bodyRu": "Пусть $F$ — множество первых шести натуральных чисел, кратных $6$, а $K$ — множество первых пяти натуральных чисел, кратных $8$. Найдите наименьшее число в пересечении $F \\cap K$. Ответ: $[[1]]$.",
+      "bodyKk": "$F$ — $6$-ға еселік алғашқы алты натурал сандар жиыны, ал $K$ — $8$-ге еселік алғашқы бес натурал сандар жиыны болсын. $F \\cap K$ қиылысуындағы ең кіші санды табыңыз. Жауап: $[[1]]$.",
+      "explanationRu": "$F = \\{6, 12, 18, 24, 30, 36\\}$, $K = \\{8, 16, 24, 32, 40\\}$, $F \\cap K = \\{24\\}$. Наименьшее (и единственное) число $24$ — НОК$(6, 8)$.",
+      "explanationKk": "$F = \\{6, 12, 18, 24, 30, 36\\}$, $K = \\{8, 16, 24, 32, 40\\}$, $F \\cap K = \\{24\\}$. Ең кіші (әрі жалғыз) сан $24$ — ЕКК$(6, 8)$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 102-106",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p102_1"
+      ],
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "24",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ]
+    }
+  ],
+  "matrixDeviations": []
+}

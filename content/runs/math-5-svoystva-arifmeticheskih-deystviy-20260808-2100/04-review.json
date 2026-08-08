@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-svoystva-arifmeticheskih-deystviy-20260808-2100",
+  "reviewedAt": "2026-08-08T21:30:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 30,
+    "fixed": 0,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "B — Переместительное свойство сложения",
+      "keyAnswer": "B — Переместительное свойство сложения",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×5, predict×3, compute×6, restore×3, compare×3, verify×5, word_problem×3, inverse×2. Стемы внутри формы разные; слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "C — Переместительное свойство умножения",
+      "keyAnswer": "C — Переместительное свойство умножения",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "B — (a + b) + c = a + (b + c)",
+      "keyAnswer": "B — $(a + b) + c = a + (b + c)$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "C — Умножить каждое слагаемое на число и сложить произведения",
+      "keyAnswer": "C — Умножить каждое слагаемое на число и сложить произведения",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "A — Да, по переместительному свойству сложения",
+      "keyAnswer": "A — Да, по переместительному свойству сложения",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "B — Нет, значение не изменится",
+      "keyAnswer": "B — Нет, значение не изменится",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "B — 117",
+      "keyAnswer": "B — 117",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "A — 4700",
+      "keyAnswer": "A — 4700",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "B — 3",
+      "keyAnswer": "B — 3",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "B — (37 + 63) + (128 + 72)",
+      "keyAnswer": "B — $(37 + 63) + (128 + 72)$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "A — Внутри скобок нельзя менять «+» на «−»",
+      "keyAnswer": "A — Внутри скобок нельзя менять «+» на «−»",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "C — 783",
+      "keyAnswer": "C — 783",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "B — Потому что 18 + 14 = 14 + 18",
+      "keyAnswer": "B — Потому что $18 + 14 = 14 + 18$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "B — 60 · 4 − 25 · 4",
+      "keyAnswer": "B — $60 \\cdot 4 - 25 \\cdot 4$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "B — b",
+      "keyAnswer": "B — $b$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "status": "accepted",
+      "solvedAnswer": "B — (25 · 4) · (8 · 125)",
+      "keyAnswer": "B — $(25 \\cdot 4) \\cdot (8 \\cdot 125)$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "C — (12 − 5) · 7",
+      "keyAnswer": "C — $(12 - 5) \\cdot 7$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "C — Произведения равны",
+      "keyAnswer": "C — Произведения равны",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A+C — 17+9=9+17 и 8·5=5·8",
+      "keyAnswer": "A — $17 + 9 = 9 + 17$ + C — $8 \\cdot 5 = 5 \\cdot 8$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "A+C — сочетательные + и ·",
+      "keyAnswer": "A — $(3 + 8) + 2 = 3 + (8 + 2)$ + C — $(4 \\cdot 5) \\cdot 6 = 4 \\cdot (5 \\cdot 6)$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "A+C — (a+b)·c и (a−b)·c",
+      "keyAnswer": "A — $(a + b) \\cdot c = a \\cdot c + b \\cdot c$ + C — $(a - b) \\cdot c = a \\cdot c - b \\cdot c$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "A+B+D — пары на 100; C без круглых пар",
+      "keyAnswer": "A — $36 + 89 + 64$ + B — $75 + 123 + 25$ + D — $19 + 52 + 81 + 48$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "A+B+D — круглые через 100; C без круглого",
+      "keyAnswer": "A — $4 \\cdot (25 \\cdot 6)$ + B — $5 \\cdot (20 \\cdot 86)$ + D — $(18 \\cdot 25) \\cdot 4$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "A+C — 2(x+3)=2x+6 и 4(x−3)=4x−12",
+      "keyAnswer": "A — $2(x + 3) = 2x + 6$ + C — $4(x - 3) = 4x - 12$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A+B — (12+28)·3 и 12·3+28·3",
+      "keyAnswer": "A — $(12 + 28) \\cdot 3$ + B — $12 \\cdot 3 + 28 \\cdot 3$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "A+C — (x+5)·3=3x+15 и (9−y)·2=18−2y",
+      "keyAnswer": "A — $(x + 5) \\cdot 3 = 3x + 15$ + C — $(9 - y) \\cdot 2 = 18 - 2y$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "A+C — перегруппировка суммы и произведения",
+      "keyAnswer": "A — $23 + 47 + 77$ и $(23 + 77) + 47$ + C — $4 \\cdot (25 \\cdot 9)$ и $(4 \\cdot 25) \\cdot 9$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 300",
+      "keyAnswer": "[[1]] = 300",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 4",
+      "keyAnswer": "[[1]] = 4",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 24",
+      "keyAnswer": "[[1]] = 24",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

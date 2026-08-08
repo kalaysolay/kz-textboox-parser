@@ -1,0 +1,1247 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-chislovye-bukvennye-vyrazheniya-20260808-2230",
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "math-5-chislovye-bukvennye-vyrazheniya-20260808-2230",
+    "generatedAt": "2026-08-08T19:00:00+05:00",
+    "subjectTitleRu": "Математика",
+    "subjectTitleKk": "Математика",
+    "gradeNo": 5,
+    "topicCode": "1.8",
+    "topicTitleRu": "Числовые выражения. Буквенные выражения",
+    "topicTitleKk": "Сандық өрнектер. Әріпті өрнектер",
+    "topicSlug": "chislovye-bukvennye-vyrazheniya",
+    "atomicSkillTitleRu": null,
+    "textbookRef": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+    "illustrationPolicy": "visual-topics",
+    "sourceReliability": "verbatim"
+  },
+  "questions": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "bodyRu": "Какое утверждение верно описывает числовое выражение?",
+      "bodyKk": "Сандық өрнекті дұрыс сипаттайтын қай тұжырым?",
+      "explanationRu": "Числовое выражение содержит только числа, знаки действий и при необходимости скобки — без букв.",
+      "explanationKk": "Сандық өрнекте тек сандар, амал белгілері және қажет болса жақшалар болады — әріптер жоқ.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p39_1"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Любое выражение со скобками, даже если есть буквы",
+          "textKk": "Жақшасы бар кез келген өрнек, тіпті әріп болса да",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Только результат после всех вычислений",
+          "textKk": "Тек барлық есептеулерден кейінгі нәтиже",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Выражение только из чисел, знаков действий и скобок (по необходимости)",
+          "textKk": "Тек сандардан, амал белгілерінен және (қажет болса) жақшалардан тұратын өрнек",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Выражение, в котором обязательно есть все четыре действия",
+          "textKk": "Міндетті түрде барлық төрт амал бар өрнек",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "bodyRu": "Какое утверждение верно описывает буквенное выражение?",
+      "bodyKk": "Әріпті өрнекті дұрыс сипаттайтын қай тұжырым?",
+      "explanationRu": "Буквенное выражение — это выражение, содержащее буквы (рядом могут быть и числа, и знаки действий).",
+      "explanationKk": "Әріпті өрнек — әріптері бар өрнек (қасында сандар мен амал белгілері де болуы мүмкін).",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p39_3"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Выражение только из букв, без чисел",
+          "textKk": "Тек әріптерден тұратын, сансыз өрнек",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Выражение, содержащее буквы",
+          "textKk": "Әріптері бар өрнек",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Запись со знаком «=» между двумя частями",
+          "textKk": "Екі бөлік арасында «=» белгісі бар жазба",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Любая запись только из чисел и знаков действий",
+          "textKk": "Тек сандар мен амал белгілерінен тұратын кез келген жазба",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Что называют значением числового выражения?",
+      "bodyKk": "Сандық өрнектің мәні деп нені атайды?",
+      "explanationRu": "Значение числового выражения — число, полученное после выполнения всех действий в нём.",
+      "explanationKk": "Сандық өрнектің мәні — ондағы барлық амалдар орындалғаннан кейін шыққан сан.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p39_2"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Само числовое выражение до вычислений",
+          "textKk": "Есептеуге дейінгі сандық өрнектің өзі",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Только результат действий внутри скобок",
+          "textKk": "Тек жақша ішіндегі амалдардың нәтижесі",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Число, которым заменяют букву",
+          "textKk": "Әріптің орнына қойылатын сан",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Число после выполнения всех действий в выражении",
+          "textKk": "Өрнектегі барлық амалдар орындалғаннан кейінгі сан",
+          "correct": true
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Что называют коэффициентом в произведении числа и букв?",
+      "bodyKk": "Сан мен әріптердің көбейтіндісінде коэффициентті деп нені атайды?",
+      "explanationRu": "Коэффициент — это числовой множитель перед буквенным множителем (например, в $5a$ коэффициент равен $5$).",
+      "explanationKk": "Коэффициент — әріптік көбейткіштің алдындағы сандық көбейткіш (мысалы, $5a$ өрнегінде коэффициент — $5$).",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p40_1"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Саму букву-множитель",
+          "textKk": "Көбейткіш-әріптің өзін",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Числовой множитель при букве (или буквах)",
+          "textKk": "Әріптің (немесе әріптердің) алдындағы сандық көбейткіш",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Любое слагаемое рядом с буквой",
+          "textKk": "Әріптің қасындағы кез келген қосылғыш",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Всегда число $0$, если перед буквой ничего не написано",
+          "textKk": "Әріптің алдында ештеңе жоқ болса, әрдайым $0$ саны",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Не вычисляя, укажи, какая запись является числовым выражением.",
+      "bodyKk": "Есептемей, қай жазба сандық өрнек екенін көрсет.",
+      "explanationRu": "Числовое выражение — только числа и знаки действий (и скобки). $54:9+6$ подходит. В остальных есть буквы или знак сравнения.",
+      "explanationKk": "Сандық өрнек — тек сандар мен амал белгілері (және жақшалар). $54:9+6$ сәйкес келеді. Қалғандарында әріп немесе салыстыру белгісі бар.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p39_1"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$4b+5$",
+          "textKk": "$4b+5$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$54:9+6$",
+          "textKk": "$54:9+6$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$3(19+a)$",
+          "textKk": "$3(19+a)$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$28-a=10$",
+          "textKk": "$28-a=10$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "В буквенное выражение $n+9\\cdot 2$ вместо $n$ подставили число $5$. Не вычисляя значение, что получится сразу после подстановки?",
+      "bodyKk": "$n+9\\cdot 2$ әріпті өрнегінде $n$ орнына $5$ санын қойды. Мәнді есептемей, ауыстырудан кейін бірден не шығады?",
+      "explanationRu": "После подстановки числа вместо буквы получается числовое выражение $5+9\\cdot 2$ (ещё не его значение).",
+      "explanationKk": "Әріптің орнына сан қойғанда $5+9\\cdot 2$ сандық өрнегі шығады (оның мәні әлі емес).",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p39_5"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Выражение останется буквенным",
+          "textKk": "Өрнек әріпті болып қалады",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Сразу только значение выражения, без числового выражения",
+          "textKk": "Сандық өрнексіз бірден тек өрнектің мәні",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Числовое выражение",
+          "textKk": "Сандық өрнек",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Упрощённая сумма подобных слагаемых",
+          "textKk": "Ұқсас қосылғыштардың ықшамдалған қосындысы",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Найди значение выражения $84:(45-33)$.",
+      "bodyKk": "$84:(45-33)$ өрнегінің мәнін тап.",
+      "explanationRu": "Сначала скобки: $45-33=12$, затем $84:12=7$.",
+      "explanationKk": "Алдымен жақша: $45-33=12$, содан кейін $84:12=7$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p39_2"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$7$",
+          "textKk": "$7$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$12$",
+          "textKk": "$12$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$72$",
+          "textKk": "$72$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$39$",
+          "textKk": "$39$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Найди значение выражения $c+15\\cdot 3$ при $c=9$.",
+      "bodyKk": "$c=9$ болғанда $c+15\\cdot 3$ өрнегінің мәнін тап.",
+      "explanationRu": "Подстановка: $9+15\\cdot 3$. Сначала умножение: $15\\cdot 3=45$, затем $9+45=54$.",
+      "explanationKk": "Ауыстыру: $9+15\\cdot 3$. Алдымен көбейту: $15\\cdot 3=45$, содан кейін $9+45=54$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p39_5"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$72$",
+          "textKk": "$72$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$54$",
+          "textKk": "$54$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$9$",
+          "textKk": "$9$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$27$",
+          "textKk": "$27$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Найди значение записи $9x$ при $x=6$.",
+      "bodyKk": "$x=6$ болғанда $9x$ жазбасының мәнін тап.",
+      "explanationRu": "Запись $9x$ означает $9\\cdot x$. При $x=6$ получаем $9\\cdot 6=54$.",
+      "explanationKk": "$9x$ жазбасы $9\\cdot x$ дегенді білдіреді. $x=6$ болса, $9\\cdot 6=54$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p40_1",
+        "PDF_p39_5"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$15$",
+          "textKk": "$15$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$96$",
+          "textKk": "$96$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$54$",
+          "textKk": "$54$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$6$",
+          "textKk": "$6$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Сравни записи $a\\cdot b$ и $ab$. Какое утверждение верно?",
+      "bodyKk": "$a\\cdot b$ және $ab$ жазбаларын салыстыр. Қай тұжырым дұрыс?",
+      "explanationRu": "В буквенном выражении между буквенными множителями знак умножения можно не писать: $ab$ означает то же, что $a\\cdot b$.",
+      "explanationKk": "Әріпті өрнекте әріптік көбейткіштердің арасында көбейту белгісін жазбауға болады: $ab$ дегені $a\\cdot b$ сияқты.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p40_2"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$ab$ — это сумма $a$ и $b$",
+          "textKk": "$ab$ — бұл $a$ мен $b$ қосындысы",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Без знака $\\cdot$ запись $ab$ недопустима",
+          "textKk": "$\\cdot$ белгісінсіз $ab$ жазбасына болмайды",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Они означают одно и то же произведение",
+          "textKk": "Олар бірдей көбейтіндіні білдіреді",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Опустить $\\cdot$ — то же, что убрать скобки",
+          "textKk": "$\\cdot$ белгісін түсіру — жақшаларды алып тастаумен бірдей",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "В выражении $a+9$ какой коэффициент при $a$?",
+      "bodyKk": "$a+9$ өрнегінде $a$ алдындағы коэффициент қандай?",
+      "explanationRu": "Если перед буквой число не написано, коэффициент равен $1$: в $a+9$ коэффициент при $a$ равен $1$.",
+      "explanationKk": "Әріптің алдында сан жазылмаса, коэффициент $1$ болады: $a+9$ өрнегінде $a$ алдындағы коэффициент — $1$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p40_1"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$9$",
+          "textKk": "$9$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$0$",
+          "textKk": "$0$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$1$",
+          "textKk": "$1$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$a+9$",
+          "textKk": "$a+9$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Айгуль пометила записи так: $17\\cdot 3$ — числовое; $4b+5$ — буквенное; $3(19+a)$ — числовое; $42:6+4$ — числовое. Какая пометка неверна?",
+      "bodyKk": "Айгүл жазбаларды былай белгіледі: $17\\cdot 3$ — сандық; $4b+5$ — әріпті; $3(19+a)$ — сандық; $42:6+4$ — сандық. Қай белгілеу қате?",
+      "explanationRu": "В $3(19+a)$ есть буква $a$, значит это буквенное выражение. Пометка «числовое» неверна.",
+      "explanationKk": "$3(19+a)$ өрнегінде $a$ әрпі бар, сондықтан бұл әріпті өрнек. «Сандық» деген белгілеу қате.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p39_1",
+        "PDF_p39_3"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$17\\cdot 3$ — числовое",
+          "textKk": "$17\\cdot 3$ — сандық",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$4b+5$ — буквенное",
+          "textKk": "$4b+5$ — әріпті",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$3(19+a)$ — числовое",
+          "textKk": "$3(19+a)$ — сандық",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$42:6+4$ — числовое",
+          "textKk": "$42:6+4$ — сандық",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Два велосипедиста выехали из одного пункта в противоположных направлениях со скоростями $11$ км/ч и $13$ км/ч. Какое числовое выражение даёт расстояние между ними через $2$ ч?",
+      "bodyKk": "Екі велосипедші бір пункттен қарама-қарсы бағытта $11$ км/сағ және $13$ км/сағ жылдамдықпен шықты. $2$ сағаттан кейінгі арақашықтықты қай сандық өрнек береді?",
+      "explanationRu": "Удаляются друг от друга: скорости складывают, затем умножают на время: $(11+13)\\cdot 2$.",
+      "explanationKk": "Бір-бірінен алыстайды: жылдамдықтарды қосып, уақытқа көбейтеді: $(11+13)\\cdot 2$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p39_1",
+        "PDF_p40_4"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$13-11$",
+          "textKk": "$13-11$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$(11+13)\\cdot 2$",
+          "textKk": "$(11+13)\\cdot 2$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$11\\cdot 2$",
+          "textKk": "$11\\cdot 2$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$(a+b)\\cdot 2$",
+          "textKk": "$(a+b)\\cdot 2$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Значение выражения $k+18$ равно $41$. Чему равно значение буквы $k$?",
+      "bodyKk": "$k+18$ өрнегінің мәні $41$-ге тең. $k$ әрпінің мәні неге тең?",
+      "explanationRu": "Из $k+18=41$ находим $k=41-18=23$. Здесь $23$ — значение буквы, а $41$ — значение выражения.",
+      "explanationKk": "$k+18=41$ теңдігінен $k=41-18=23$. Мұнда $23$ — әріптің мәні, ал $41$ — өрнектің мәні.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p39_5",
+        "PDF_p39_6"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$59$",
+          "textKk": "$59$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$41$",
+          "textKk": "$41$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$23$",
+          "textKk": "$23$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$18$",
+          "textKk": "$18$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q15",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Не вычисляя, отметь все записи, где для буквенного выражения использованы допустимые строчные латинские буквы.",
+      "bodyKk": "Есептемей, әріпті өрнек үшін рұқсат етілген кіші латин әріптері қолданылған барлық жазбаларды белгіле.",
+      "explanationRu": "По учебнику берут строчные латинские буквы: $a$, $x$, …. Кириллица и заглавные латинские здесь не подходят.",
+      "explanationKk": "Оқулық бойынша кіші латин әріптері алынады: $a$, $x$, …. Кириллица және бас латин әріптері мұнда жарамайды.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p39_4"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$2a+7$",
+          "textKk": "$2a+7$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "5б − 1 (буква «б» кириллицей)",
+          "textKk": "5б − 1 (кирилл «б» әрпі)",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$x\\cdot y$",
+          "textKk": "$x\\cdot y$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$8+P$",
+          "textKk": "$8+P$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Дана схема: буквенное выражение $n+8\\cdot 2$ при $n=4$ → … → значение $20$. Что нужно поставить вместо пропущенного среднего шага?",
+      "bodyKk": "Схема берілген: $n=4$ болғанда $n+8\\cdot 2$ әріпті өрнегі → … → мәні $20$. Жетіспейтін ортаңғы қадамның орнына не қою керек?",
+      "explanationRu": "Средний шаг — числовое выражение после подстановки: $4+8\\cdot 2$. Затем его значение равно $20$.",
+      "explanationKk": "Ортаңғы қадам — ауыстырудан кейінгі сандық өрнек: $4+8\\cdot 2$. Содан кейін оның мәні $20$ болады.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p39_5",
+        "PDF_p39_6"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$20$",
+          "textKk": "$20$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$4+8\\cdot 2$",
+          "textKk": "$4+8\\cdot 2$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$n+8\\cdot 2$",
+          "textKk": "$n+8\\cdot 2$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "значение буквы $4$",
+          "textKk": "$4$ әрпінің мәні",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q17",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Отметь все записи, которые являются числовыми выражениями.",
+      "bodyKk": "Сандық өрнек болып табылатын барлық жазбаларды белгіле.",
+      "explanationRu": "Числовые: $34-5$, $45:9$, $18\\cdot 5$. В $18+a$ есть буква; $m=n$ — математическое предложение.",
+      "explanationKk": "Сандықтары: $34-5$, $45:9$, $18\\cdot 5$. $18+a$ өрнегінде әріп бар; $m=n$ — математикалық сөйлем.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p39_1"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$34-5$",
+          "textKk": "$34-5$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$18+a$",
+          "textKk": "$18+a$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$45:9$",
+          "textKk": "$45:9$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$18\\cdot 5$",
+          "textKk": "$18\\cdot 5$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q18",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Отметь все записи, которые являются буквенными выражениями.",
+      "bodyKk": "Әріпті өрнек болып табылатын барлық жазбаларды белгіле.",
+      "explanationRu": "Буквенные: $18+a$, $34\\cdot b$, $x-y$. Записи $45:9$ и $18\\cdot 5$ — числовые.",
+      "explanationKk": "Әріптілері: $18+a$, $34\\cdot b$, $x-y$. $45:9$ және $18\\cdot 5$ — сандық өрнектер.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p39_3"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$18+a$",
+          "textKk": "$18+a$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$45:9$",
+          "textKk": "$45:9$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$34\\cdot b$",
+          "textKk": "$34\\cdot b$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$x-y$",
+          "textKk": "$x-y$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Отметь все пары, где запись без знака $\\cdot$ равносильна исходной с $\\cdot$.",
+      "bodyKk": "$\\cdot$ белгісінсіз жазба бастапқы $\\cdot$ бар жазбаға тең болатын барлық жұптарды белгіле.",
+      "explanationRu": "Между буквами и перед скобкой $\\cdot$ опускают: $a\\cdot b\\to ab$, $4\\cdot(n+1)\\to 4(n+1)$. Между двумя числами $\\cdot$ не склеивают в одно число; скобки нельзя убирать.",
+      "explanationKk": "Әріптер арасында және жақша алдында $\\cdot$ түсіріледі: $a\\cdot b\\to ab$, $4\\cdot(n+1)\\to 4(n+1)$. Екі санның арасында $\\cdot$ бір санға жабыстырылмайды; жақшаны алып тастауға болмайды.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p40_2"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$a\\cdot b$ и $ab$",
+          "textKk": "$a\\cdot b$ және $ab$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$3\\cdot 5$ и $35$",
+          "textKk": "$3\\cdot 5$ және $35$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$4\\cdot(n+1)$ и $4(n+1)$",
+          "textKk": "$4\\cdot(n+1)$ және $4(n+1)$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$4\\cdot(n+1)$ и $4n+1$",
+          "textKk": "$4\\cdot(n+1)$ және $4n+1$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Отметь все верные утверждения о переменных и значениях буквы.",
+      "bodyKk": "Айнымалылар және әріптің мәні туралы барлық дұрыс тұжырымдарды белгіле.",
+      "explanationRu": "Буквы рассматривают как переменные; числа, которыми их заменяют, — значения буквы; буквенные выражения называют также выражениями с переменными.",
+      "explanationKk": "Әріптер айнымалы ретінде қарастырылады; олардың орнына қойылатын сандар — әріптің мәні; әріпті өрнектерді айнымалылы өрнектер деп те атайды.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p40_3",
+        "PDF_p39_6"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Буквы в буквенных выражениях рассматривают как переменные",
+          "textKk": "Әріпті өрнектердегі әріптерді айнымалы ретінде қарастырады",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Значение буквы — это всегда то же самое, что значение всего выражения",
+          "textKk": "Әріптің мәні әрдайым бүкіл өрнектің мәнімен бірдей",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Числа, которыми заменяют букву, называют значениями этой буквы",
+          "textKk": "Әріптің орнына қойылатын сандарды сол әріптің мәні деп атайды",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Буквенные выражения также называют выражениями с переменными",
+          "textKk": "Әріпті өрнектерді айнымалылы өрнектер деп те атайды",
+          "correct": true
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q21",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "bodyRu": "Найди значение выражения $12+a+97$ при $a=8$. Ответ: $[[1]]$.",
+      "bodyKk": "$a=8$ болғанда $12+a+97$ өрнегінің мәнін тап. Жауап: $[[1]]$.",
+      "explanationRu": "Подстановка: $12+8+97=117$.",
+      "explanationKk": "Ауыстыру: $12+8+97=117$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p39_5"
+      ],
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "117",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "localId": "q22",
+      "type": "SCQ",
+      "difficulty": 4,
+      "bodyRu": "Цена груш — $a$ тг за кг, цена яблок — $b$ тг за кг, причём $a>b$. Какое буквенное выражение показывает, на сколько $4$ кг груш дороже $4$ кг яблок?",
+      "bodyKk": "Алмұрттың бағасы — кг-ы $a$ тг, алманың бағасы — кг-ы $b$ тг, және $a>b$. $4$ кг алмұрт $4$ кг алмадан қаншаға қымбат екенін қай әріпті өрнек көрсетеді?",
+      "explanationRu": "Разница цен за $1$ кг равна $a-b$. За $4$ кг: $4(a-b)$.",
+      "explanationKk": "$1$ кг үшін баға айырмасы $a-b$. $4$ кг үшін: $4(a-b)$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p39_3",
+        "PDF_p40_4"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$b-a$",
+          "textKk": "$b-a$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$4a-b$",
+          "textKk": "$4a-b$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$4(a-b)$",
+          "textKk": "$4(a-b)$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$4\\cdot 200-4\\cdot 150$",
+          "textKk": "$4\\cdot 200-4\\cdot 150$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q23",
+      "type": "SCQ",
+      "difficulty": 4,
+      "bodyRu": "Запиши удвоенную разность чисел $64$ и $28$ числовым выражением и найди его значение.",
+      "bodyKk": "$64$ пен $28$ сандарының екі еселенген айырмасын сандық өрнекпен жазып, оның мәнін тап.",
+      "explanationRu": "Удвоенная разность: $2\\cdot(64-28)=2\\cdot 36=72$.",
+      "explanationKk": "Екі еселенген айырма: $2\\cdot(64-28)=2\\cdot 36=72$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p39_2"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$100$",
+          "textKk": "$100$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$72$",
+          "textKk": "$72$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$36$",
+          "textKk": "$36$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$-72$",
+          "textKk": "$-72$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q24",
+      "type": "SCQ",
+      "difficulty": 4,
+      "bodyRu": "Значение выражения $8y$ равно $56$. Чему равно значение буквы $y$?",
+      "bodyKk": "$8y$ өрнегінің мәні $56$-ға тең. $y$ әрпінің мәні неге тең?",
+      "explanationRu": "Запись $8y$ означает $8\\cdot y$. Из $8\\cdot y=56$ получаем $y=56:8=7$.",
+      "explanationKk": "$8y$ жазбасы $8\\cdot y$ дегенді білдіреді. $8\\cdot y=56$ теңдігінен $y=56:8=7$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p40_1",
+        "PDF_p39_5"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$7$",
+          "textKk": "$7$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$\\dfrac{8}{56}$",
+          "textKk": "$\\dfrac{8}{56}$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$48$",
+          "textKk": "$48$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$8$",
+          "textKk": "$8$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Отметь все верные равенства.",
+      "bodyKk": "Барлық дұрыс теңдіктерді белгіле.",
+      "explanationRu": "Верно: $(9+a)+11$ при $a=6$ даёт $26$; $5b\\cdot 4$ при $b=18$ даёт $360$. Неверно: подстановка без замены буквы и арифметическая ошибка $5\\cdot 4+18$.",
+      "explanationKk": "Дұрысы: $a=6$ болғанда $(9+a)+11$ мәні $26$; $b=18$ болғанда $5b\\cdot 4$ мәні $360$. Қатесі: әріпті ауыстырмау және $5\\cdot 4+18$ арифметикалық қатесі.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p39_5"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$(9+a)+11$ при $a=6$ равно $26$",
+          "textKk": "$a=6$ болғанда $(9+a)+11$ мәні $26$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$5b\\cdot 4$ при $b=18$ равно $360$",
+          "textKk": "$b=18$ болғанда $5b\\cdot 4$ мәні $360$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$(9+a)+11$ при $a=6$ равно $9+a+11$",
+          "textKk": "$a=6$ болғанда $(9+a)+11$ мәні $9+a+11$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$5b\\cdot 4$ при $b=18$ равно $5\\cdot 4+18$",
+          "textKk": "$b=18$ болғанда $5b\\cdot 4$ мәні $5\\cdot 4+18$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Отметь все верные утверждения о коэффициенте.",
+      "bodyKk": "Коэффициент туралы барлық дұрыс тұжырымдарды белгіле.",
+      "explanationRu": "В $5a$ коэффициент равен $5$; в $a+6$ коэффициент при $a$ равен $1$. Число $6$ — слагаемое, не коэффициент при $a$. В $ab$ числовой коэффициент равен $1$.",
+      "explanationKk": "$5a$ өрнегінде коэффициент — $5$; $a+6$ өрнегінде $a$ алдындағы коэффициент — $1$. $6$ саны — қосылғыш, $a$ алдындағы коэффициент емес. $ab$ өрнегінде сандық коэффициент — $1$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p40_1"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "В выражении $5a$ коэффициент равен $5$",
+          "textKk": "$5a$ өрнегінде коэффициент $5$-ке тең",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "В выражении $a+6$ коэффициент при $a$ равен $6$",
+          "textKk": "$a+6$ өрнегінде $a$ алдындағы коэффициент $6$-ға тең",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "В выражении $a+6$ коэффициент при $a$ равен $1$",
+          "textKk": "$a+6$ өрнегінде $a$ алдындағы коэффициент $1$-ге тең",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "В выражении $ab$ числовой коэффициент равен $1$",
+          "textKk": "$ab$ өрнегінде сандық коэффициент $1$-ге тең",
+          "correct": true
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q27",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "bodyRu": "Вместо $6\\cdot(t+2)$ принято писать $6(t+2)$. Какое число стоит перед скобкой в этой краткой записи? Ответ: $[[1]]$.",
+      "bodyKk": "$6\\cdot(t+2)$ орнына $6(t+2)$ деп жазады. Осы қысқа жазбада жақша алдында қандай сан тұрады? Жауап: $[[1]]$.",
+      "explanationRu": "Перед скобкой знак умножения опускают, а число-множитель остаётся: в $6(t+2)$ это число $6$.",
+      "explanationKk": "Жақша алдындағы көбейту белгісі түсіріледі, ал сан-көбейткіш қалады: $6(t+2)$ жазбасында бұл сан — $6$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p40_2"
+      ],
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "6",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "localId": "q28",
+      "type": "MCQ",
+      "difficulty": 5,
+      "bodyRu": "В первом рулоне $25$ м ткани. Это на $x$ м меньше, чем во втором. В третьем на $y$ м больше, чем в первом. Отметь все верные буквенные модели.",
+      "bodyKk": "Бірінші орамада $25$ м мата бар. Бұл екіншіден $x$ м кем. Үшіншіде біріншіден $y$ м артық. Барлық дұрыс әріпті үлгілерді белгіле.",
+      "explanationRu": "Второй рулон: $25+x$; третий: $25+y$; сумма трёх: $25+(25+x)+(25+y)=75+x+y$. Сумма $25+x+y$ учитывает не все три длины.",
+      "explanationKk": "Екінші орама: $25+x$; үшінші: $25+y$; үшеуінің қосындысы: $25+(25+x)+(25+y)=75+x+y$. $25+x+y$ қосындысы үш ұзындықты толық есептемейді.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p40_4",
+        "PDF_p39_3"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Длина второго рулона: $25+x$",
+          "textKk": "Екінші ораманың ұзындығы: $25+x$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Длина третьего рулона: $25+y$",
+          "textKk": "Үшінші ораманың ұзындығы: $25+y$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Сумма длин трёх рулонов: $75+x+y$",
+          "textKk": "Үш орама ұзындығының қосындысы: $75+x+y$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Сумма длин трёх рулонов: $25+x+y$",
+          "textKk": "Үш орама ұзындығының қосындысы: $25+x+y$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q29",
+      "type": "MCQ",
+      "difficulty": 5,
+      "bodyRu": "Отметь все верные утверждения.",
+      "bodyKk": "Барлық дұрыс тұжырымдарды белгіле.",
+      "explanationRu": "Числовые и буквенные выражения — математические выражения. Связь знаками $=$, $\\neq$, $>$, $<$ даёт математическое предложение. Поэтому $12+14$ — выражение, а $12+14=26$ — предложение.",
+      "explanationKk": "Сандық және әріпті өрнектер — математикалық өрнектер. Оларды $=$, $\\neq$, $>$, $<$ белгілерімен байланыстырса, математикалық сөйлем шығады. Сондықтан $12+14$ — өрнек, ал $12+14=26$ — сөйлем.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p40_4"
+      ],
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$12+14$ — числовое выражение",
+          "textKk": "$12+14$ — сандық өрнек",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$12+14=26$ — числовое выражение",
+          "textKk": "$12+14=26$ — сандық өрнек",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$a-b$ — математическое выражение",
+          "textKk": "$a-b$ — математикалық өрнек",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$a>b$ — математическое предложение",
+          "textKk": "$a>b$ — математикалық сөйлем",
+          "correct": true
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "bodyRu": "На прямой посадили $25$ деревьев через каждые $n$ метров. Расстояние между крайними равно $(25-1)\\cdot n$. Оно составляет $168$ м. Найди $n$. Ответ: $[[1]]$.",
+      "bodyKk": "Түзу бойына әр $n$ метр сайын $25$ ағаш отырғызылған. Шеткілерінің арақашықтығы $(25-1)\\cdot n$. Ол $168$ м. $n$ мәнін тап. Жауап: $[[1]]$.",
+      "explanationRu": "Модель: $(25-1)\\cdot n=24n$. Из $24n=168$ получаем $n=168:24=7$.",
+      "explanationKk": "Үлгі: $(25-1)\\cdot n=24n$. $24n=168$ теңдігінен $n=168:24=7$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 38-42",
+      "needsIllustration": false,
+      "illustration": null,
+      "sourceRuleIds": [
+        "PDF_p40_4",
+        "PDF_p39_5"
+      ],
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "7",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ]
+    }
+  ],
+  "matrixDeviations": [
+    {
+      "localId": "q27",
+      "field": "stemIdea",
+      "planned": "Переписать данное выражение с · в принятой краткой записи",
+      "actual": "Спросить число перед скобкой в краткой записи 6(t+2)",
+      "reason": "FILL_IN с NUMERIC_TOLERANCE: полная краткая строка (6(t+2)) не числовой ключ; сохранены rule PDF_p40_2 и форма restore"
+    }
+  ]
+}

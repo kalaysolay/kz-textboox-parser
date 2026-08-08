@@ -1,0 +1,523 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-uproshchenie-vyrazheniy-20260808-2300",
+  "typeMixPlanned": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMixPlanned": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Смысл упрощения выражения",
+      "stemIdea": "Какое утверждение верно описывает упрощение: замена равным выражением с меньшим числом действий",
+      "trapIdeas": [
+        "Ученик путает упрощение с определением буквенного выражения (тема 1.8 / C10)",
+        "Ученик думает, что упрощение меняет значение выражения",
+        "Ученик считает упрощением только подстановку числа вместо буквы без сокращения действий"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p43_1"],
+      "sourceExampleRefs": ["p45#cq1"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Смысл вынесения общего множителя",
+      "stemIdea": "Что означает «вынести общий множитель за скобки» при упрощении суммы или разности",
+      "trapIdeas": [
+        "Ученик отвечает названием распределительного свойства как named fact без связи с упрощением (C7)",
+        "Ученик думает, что вынесение меняет значение выражения",
+        "Ученик считает, что за скобки можно вынести только числовой множитель, но не букву"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p44_3"],
+      "sourceExampleRefs": ["p44#ex"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Распознать упрощённую запись по числу действий",
+      "stemIdea": "Не вычисляя заново: какая запись является упрощённым видом данной суммы или произведения",
+      "trapIdeas": [
+        "Ученик выбирает равную запись с тем же числом действий",
+        "Ученик выбирает запись с меньшим числом действий, но неравную исходной",
+        "Ученик принимает исходное выражение за уже упрощённое"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p47_1"],
+      "sourceExampleRefs": ["p43#scheme"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Группировка числовых слагаемых в сумме",
+      "stemIdea": "Упростить сумму вида 13+x+7 или (9+a)+11, собрав числовые слагаемые",
+      "trapIdeas": [
+        "Ученик складывает число с буквой (13+x → «одно слагаемое»)",
+        "Ученик переносит букву внутрь числовой суммы неверно",
+        "Ученик оставляет сумму без группировки, считая её уже простой"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p43_2"],
+      "sourceExampleRefs": ["p43#2", "p45#92"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Упрощение произведения числа и буквы",
+      "stemIdea": "Упростить произведение вида 2·x·3 или 4a·5, перемножив числовые множители",
+      "trapIdeas": [
+        "Ученик складывает числовые множители вместо умножения",
+        "Ученик теряет букву после умножения чисел",
+        "Ученик пишет коэффициент отдельно, нарушая запись произведения с буквой"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p44_1"],
+      "sourceExampleRefs": ["p43#1", "p45#93"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Алфавитный порядок букв в упрощённом произведении",
+      "stemIdea": "Не перемножая полностью: в каком порядке запишут различные буквенные множители после упрощения произведения",
+      "trapIdeas": [
+        "Ученик оставляет буквы в порядке появления во входе",
+        "Ученик сортирует буквы по величине числовых коэффициентов рядом с ними",
+        "Ученик путает порядок букв в произведении с порядком слагаемых в сумме"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p44_2"],
+      "sourceExampleRefs": ["p44#2"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сумма подобных слагаемых через общий множитель",
+      "stemIdea": "Упростить сумму вида 7x+8x, вынеся общий множитель x",
+      "trapIdeas": [
+        "Ученик перемножает коэффициенты (7·8)x вместо сложения",
+        "Ученик пишет 7x+8=15x, отрывая вторую букву",
+        "Ученик оставляет сумму без вынесения, считая её конечным ответом"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p44_3"],
+      "sourceExampleRefs": ["p44#ex1", "p45#95"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Разность подобных слагаемых",
+      "stemIdea": "Упростить разность вида 10x−6x через вынесение общего множителя",
+      "trapIdeas": [
+        "Ученик складывает коэффициенты вместо вычитания",
+        "Ученик получает верный коэффициент, но теряет букву x",
+        "Ученик пишет 10x−6, отрывая x у второго слагаемого"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p44_3"],
+      "sourceExampleRefs": ["p44#ex2", "p45#95"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Восстановление шага группировки суммы",
+      "stemIdea": "Какое число пропущено в цепочке упрощения 9+a+14=(9+□)+a=…",
+      "trapIdeas": [
+        "Ученик подставляет уже сложенную сумму 23 вместо группируемого слагаемого",
+        "Ученик подставляет букву a в пропуск",
+        "Ученик берёт одно крайнее число (9 или 14) не как пару для скобок"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p43_2"],
+      "sourceExampleRefs": ["p43#ex"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Поиск ошибки в упрощении суммы",
+      "stemIdea": "В каком предложенном равенстве группировка числовых слагаемых выполнена неверно",
+      "trapIdeas": [
+        "Ученик помечает верную перестановку буквы как ошибку",
+        "Ученик не замечает сложение числа с буквой внутри «упрощения»",
+        "Ученик считает ошибкой любое заключение чисел в скобки"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p43_2"],
+      "sourceExampleRefs": ["p45#92"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сравнение двух упрощений произведения",
+      "stemIdea": "Какое из двух предложенных упрощений одного произведения верно (и короче по действиям)",
+      "trapIdeas": [
+        "Ученик выбирает запись, где числовые множители ещё не перемножены",
+        "Ученик принимает неверный коэффициент при верной букве",
+        "Ученик выбирает вариант без буквы, считая его «проще»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p44_1"],
+      "sourceExampleRefs": ["p44#ex1", "p45#93"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Произведение с несколькими буквенными множителями",
+      "stemIdea": "Упростить произведение вида 3n·4k·6m: перемножить числа и записать буквы по алфавиту",
+      "trapIdeas": [
+        "Ученик складывает числовые множители вместо умножения",
+        "Ученик оставляет буквы не в алфавитном порядке",
+        "Ученик теряет одну из букв при записи результата"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p44_1", "PDF_p44_2"],
+      "sourceExampleRefs": ["p44#2"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Восстановление коэффициента при вынесении",
+      "stemIdea": "Какое число пропущено в записи 7x+8x=(□+8)x=15x",
+      "trapIdeas": [
+        "Ученик пишет итоговый коэффициент 15 в пропуск",
+        "Ученик перемножает 7 и 8 и пишет 56",
+        "Ученик копирует второе слагаемое 8 вместо первого коэффициента"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p44_3"],
+      "sourceExampleRefs": ["p44#ex1"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Упрощение суммы одинаковых буквенных частей в сюжете",
+      "stemIdea": "По условию о букетах с a цветками составить сумму и упростить общее число цветков",
+      "trapIdeas": [
+        "Ученик складывает числа букетов без множителя a",
+        "Ученик перемножает количества букетов друг на друга",
+        "Ученик не выносит общий множитель a из суммы"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p44_3"],
+      "sourceExampleRefs": ["p46#97"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Проверка алфавитного порядка букв после упрощения",
+      "stemIdea": "Какая запись упрощённого произведения содержит различные буквы в верном алфавитном порядке",
+      "trapIdeas": [
+        "Ученик принимает исходный порядок множителей как допустимый ответ",
+        "Ученик выбирает верный коэффициент при неверном порядке букв",
+        "Ученик думает, что порядок букв неважен, и берёт любой «похожий» вариант"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p44_2"],
+      "sourceExampleRefs": ["p44#2"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Несколько подобных слагаемых",
+      "stemIdea": "Упростить сумму трёх подобных слагаемых вида 5x+3x+10x",
+      "trapIdeas": [
+        "Ученик складывает только два первых коэффициента",
+        "Ученик перемножает коэффициенты",
+        "Ученик получает верную сумму коэффициентов, но теряет букву x"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p45_1"],
+      "sourceExampleRefs": ["p45#top", "p45#95"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Подбор исходной суммы по упрощённому виду",
+      "stemIdea": "Какая из предложенных сумм подобных слагаемых после упрощения даёт данный вид (например 15x)",
+      "trapIdeas": [
+        "Ученик выбирает сумму, где коэффициенты перемножены, а не сложены",
+        "Ученик выбирает 15+x вместо подобных слагаемых",
+        "Ученик выбирает разность с тем же модулем коэффициента"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p44_3"],
+      "sourceExampleRefs": ["p45#95"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Эквивалентность разных группировок одной суммы",
+      "stemIdea": "Какие две записи равны как разные способы упрощения одной и той же суммы со свойствами сложения",
+      "trapIdeas": [
+        "Ученик считает разными равные записи из-за порядка слагаемых",
+        "Ученик принимает пару с другим числовым итогом",
+        "Ученик путает упрощение суммы с упрощением произведения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p43_2"],
+      "sourceExampleRefs": ["p45#92"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Все верно упрощённые суммы свойствами сложения",
+      "stemIdea": "Выбери все равенства, в которых сумма упрощена верно группировкой числовых слагаемых",
+      "trapIdeas": [
+        "Ученик отмечает равенство, где число сложили с буквой",
+        "Ученик отмечает запись без группировки чисел как «упрощённую»",
+        "Ученик отмечает равенство, где значение суммы изменилось"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p43_2"],
+      "sourceExampleRefs": ["p45#92"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Все верно упрощённые произведения",
+      "stemIdea": "Выбери все верные упрощения произведений со свойствами умножения",
+      "trapIdeas": [
+        "Ученик отмечает вариант, где числа сложили вместо умножения",
+        "Ученик отмечает вариант с потерей буквы",
+        "Ученик отмечает неверный коэффициент при верной букве"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p44_1"],
+      "sourceExampleRefs": ["p45#93"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Все упрощённые произведения с буквами по алфавиту",
+      "stemIdea": "Выбери все упрощённые произведения, где различные буквы записаны в алфавитном порядке",
+      "trapIdeas": [
+        "Ученик отмечает верный коэффициент при неверном порядке букв",
+        "Ученик отмечает исходный порядок множителей",
+        "Ученик отмечает запись с лишней или пропущенной буквой"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p44_2"],
+      "sourceExampleRefs": ["p44#2"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Все верные вынесения общего множителя",
+      "stemIdea": "Выбери все верные записи вынесения общего множителя (в т.ч. 7a+7·3 → 7(a+3))",
+      "trapIdeas": [
+        "Ученик отмечает вынесение множителя, который не общий",
+        "Ученик путает знаки при вынесении из разности",
+        "Ученик отмечает обратное раскрытие скобок как «упрощение», хотя число действий не уменьшилось"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p44_3"],
+      "sourceExampleRefs": ["p46#96"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Все верные упрощения цепочек подобных слагаемых",
+      "stemIdea": "Выбери все верные упрощения цепочек вида 8x+3x−x или 10x+7x−8x",
+      "trapIdeas": [
+        "Ученик игнорирует минус и складывает все коэффициенты",
+        "Ученик вычитает не тот коэффициент из-за порядка слагаемых",
+        "Ученик получает верное число, но теряет букву"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p45_1", "PDF_p44_3"],
+      "sourceExampleRefs": ["p45#95"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Верные упрощённые модели пути по текстовому условию",
+      "stemIdea": "По текстовому описанию участков пути (два отрезка с a и добавка) — какие упрощённые выражения верны",
+      "trapIdeas": [
+        "Ученик пишет a+90 вместо (a+90)+a",
+        "Ученик забывает второе слагаемое a",
+        "Ученик заменяет сумму произведением участков"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p43_2"],
+      "sourceExampleRefs": ["p46#100"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Все выражения, равные данному после упрощения",
+      "stemIdea": "Какие выражения из списка после упрощения равны данному виду (например 18x)",
+      "trapIdeas": [
+        "Ученик отмечает сумму с другой суммой коэффициентов",
+        "Ученик отмечает разность вместо суммы подобных",
+        "Ученик отмечает выражение без общего множителя x"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p45_1"],
+      "sourceExampleRefs": ["p45#top"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Числовое вынесение общего множителя в устных равенствах",
+      "stemIdea": "Какие равенства верны при устном упрощении вида 32·14+14·68 = 14·(32+68) и аналогов с разностью",
+      "trapIdeas": [
+        "Ученик отмечает вынесение множителя, который не общий для обоих произведений",
+        "Ученик для разности ставит плюс внутри скобок",
+        "Ученик отмечает перестановку без общего множителя как достаточное упрощение"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p44_3"],
+      "sourceExampleRefs": ["p45#91"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Составление и упрощение цепочки зависимых буквенных частей",
+      "stemIdea": "По условию гирлянды с кратными цветными частями — какие упрощённые выражения для общего числа верны",
+      "trapIdeas": [
+        "Ученик неверно переводит «в 2 раза / в 3 раза» в коэффициенты",
+        "Ученик забывает слагаемое вида «на 10 меньше»",
+        "Ученик складывает коэффициенты без учёта зависимостей между частями"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p45_1", "PDF_p44_3"],
+      "sourceExampleRefs": ["p47#102"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Коэффициент после упрощения произведения",
+      "stemIdea": "Упростить произведение вида 9·7a·3 и записать получившийся числовой коэффициент",
+      "trapIdeas": [
+        "Ученик складывает числовые множители вместо умножения",
+        "Ученик записывает в ответ всё упрощённое выражение с буквой",
+        "Ученик теряет один из числовых множителей"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p44_1"],
+      "sourceExampleRefs": ["p45#93"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "skillFocus": "Значение после упрощения подобных и подстановки",
+      "stemIdea": "Упростить сумму/разность подобных слагаемых и найти значение при данном значении буквы",
+      "trapIdeas": [
+        "Ученик подставляет до упрощения и ошибается в порядке действий",
+        "Ученик получает неверный коэффициент подобных слагаемых",
+        "Ученик забывает умножить упрощённый коэффициент на значение буквы"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p44_3"],
+      "sourceExampleRefs": ["p46#98"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Числовой ответ после составления и упрощения по сюжету",
+      "stemIdea": "По сюжету маршрута или гирлянды составить выражение, упростить и найти значение при данном параметре",
+      "trapIdeas": [
+        "Ученик теряет одно слагаемое при составлении",
+        "Ученик не упрощает и ошибается в длинной арифметике",
+        "Ученик подставляет параметр не в то место выражения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p43_2", "PDF_p45_1"],
+      "sourceExampleRefs": ["p46#100", "p47#102"],
+      "questionForm": "word_problem"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "Опора: 7 primary PDF-правил 1.9 (упрощение, суммы, произведения, алфавитный порядок букв, вынесение, несколько подобных). Prerequisite 1.8/1.6 только в trapIdeas. Фокус — упростить, не C10-определения и не C7-named facts свойств. recommendedMaxCount null → count 30 оставляем. G017: при 30 слотах лимит ≤2 на questionForm превышен (recall×2, predict×2, compute×7, verify×7, restore×3, compare×4, word_problem×4, inverse×1) — как в соседних пачках C7/C10. illustrationPolicy visual-topics: все needsIllustration false (стемы полны текстом; рис. 1.22 не обязателен). Подстановка в q29 — шаг после simplify, не тема 1.8."
+}

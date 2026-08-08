@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-sravnenie-naturalnyh-chisel-20260808-1830",
+  "createdAt": "2026-08-08T18:30:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "Сравнение натуральных чисел. Двойное неравенство",
+  "topicKk": "Натурал сандарды салыстыру. Қос теңсіздік",
+  "topicSlug": "sravnenie-naturalnyh-chisel",
+  "topicCode": "1.3",
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 30,
+  "typeMix": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMix": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "illustrationPolicy": "visual-topics",
+  "illustrationFor": [],
+  "parsedTextbookPath": "Математика/parsed/math_aldamuratova_5grade_part1_parsed_v2.json",
+  "methodistInstruction": "Формулировки для 5 класса: короткие, однозначные, без двусмысленности и лишних условий. Тема 1.3 pages ~14–17. Reduce count if recommendedMaxCount < 30 (keep ~60/30/10). pdfOffset=0 for part 1. Anti-dup vs C1 math-5-koordinatnyy-luch-20260808-1800 and B11 naturalnye-chisla-i-nol-20260808-1700 (comparison-on-ray stems overlap risk).",
+  "languageMode": "BOTH"
+}

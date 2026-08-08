@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-povtorenie-glavy-vi-protsenty-20260808-1100",
+  "reviewedAt": "2026-08-08T11:45:00+05:00",
+  "summary": {
+    "total": 12,
+    "accepted": 11,
+    "fixed": 1,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "A — выразить проценты дробью и умножить a на эту дробь",
+      "keyAnswer": "A — Выразить проценты дробью и умножить данное число a на эту дробь",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "54 кг",
+      "keyAnswer": "C — 54 кг",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "fixed",
+      "solvedAnswer": "C — разделить часть на дробь процента (56 : 40/100)",
+      "keyAnswer": "C — Разделить 56 на 40/100 (или (56 : 40) · 100)",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "duplicate_body",
+          "severity": "major",
+          "message": "Черновик отличался от math-5-nahozhdenie-chisla-po-protsentam-20260808-1030#q05 только числами (тот же шаблон «Известно, что P% некоторого числа равны b…»). Переписан stem/варианты в rewrite-pass."
+        }
+      ],
+      "fixApplied": "Stem сменён на контекст склада (56 т = 40% запаса); числа и опции обновлены; смысл слота predict / число по % сохранён."
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "80 л",
+      "keyAnswer": "D — 80 л",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "B — 250 · 0,80 = 200",
+      "keyAnswer": "B — 250 · 0,80 = 200 (тг)",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "0,75",
+      "keyAnswer": "A — 0,75",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "Уменьшится на 4% (1,2·0,8=0,96)",
+      "keyAnswer": "C — Уменьшится на 4%",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "A, D",
+      "keyAnswer": "A, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "A, B, D",
+      "keyAnswer": "A, B, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "A, C (остаток 360; финал 216)",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "A, B, C (360; 216; кустарники 54)",
+      "keyAnswer": "A, B, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "4158",
+      "keyAnswer": "[[1]] = 4158",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [
+    {
+      "localId": "q03",
+      "conflictsWith": "content/runs/math-5-nahozhdenie-chisla-po-protsentam-20260808-1030/05-questions.final.json#q05",
+      "normalizedBody": "известно что 35 некоторого числа равны 84 какое действие нужно выполнить чтобы найти это число полный ответ считать не обязательно",
+      "note": "Снят rewrite-pass: новый stem не numstrip-дубль; запись оставлена для трассировки."
+    }
+  ],
+  "verdict": "ready_for_import"
+}

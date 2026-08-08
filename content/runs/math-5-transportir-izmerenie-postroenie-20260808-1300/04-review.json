@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-transportir-izmerenie-postroenie-20260808-1300",
+  "reviewedAt": "2026-08-08T13:45:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 29,
+    "fixed": 1,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "B — Для измерения и построения углов",
+      "keyAnswer": "B — Для измерения и построения углов",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "C — От 0° до 180°, наименьшее деление 1°",
+      "keyAnswer": "C — От $0^\\circ$ до $180^\\circ$, наименьшее деление $1^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "B — Делениями по 5° (45 кратно 5, не 10)",
+      "keyAnswer": "B — Делениями по $5^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "A — Только схема 1 (по ключу/объяснению: верное наложение — схема 1; фигура для illustrator)",
+      "keyAnswer": "A — Только схема 1",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "B — 75°",
+      "keyAnswer": "B — $75^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "C — 3 ч 15 мин (90° = 15 мин)",
+      "keyAnswer": "C — $3$ ч $15$ мин",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "C — 45° (по объяснению/шкале на рисунке; ≠60° примера)",
+      "keyAnswer": "C — $45^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "C — Совместить одну сторону с началом отсчёта на шкале",
+      "keyAnswer": "C — Совместить одну сторону с началом отсчёта на шкале",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "B — Неверно: центр не совпал с вершиной (по объяснению рисунка)",
+      "keyAnswer": "B — Неверно: центр не совпал с вершиной",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "D — 50° (150÷3)",
+      "keyAnswer": "D — $50^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "B — 57° (95−38)",
+      "keyAnswer": "B — $57^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "C — Против штриха 75°",
+      "keyAnswer": "C — Против штриха $75^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "B — Начертить луч → центр в начале луча, луч через 0° → точка против 110° → второй луч",
+      "keyAnswer": "B — Начертить луч → центр в начале луча, луч через $0^\\circ$ → точка против $110^\\circ$ → второй луч",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "C — Угол 135°",
+      "keyAnswer": "C — Угол $135^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "A — Верно (80−35=45)",
+      "keyAnswer": "A — Верно, потому что $80^\\circ - 35^\\circ = 45^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "status": "accepted",
+      "solvedAnswer": "B — 180° (55+60+65 по объяснению чертежа)",
+      "keyAnswer": "B — $180^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "D — 105° (35×3)",
+      "keyAnswer": "D — $105^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "B — 65° (180−40−35−40)",
+      "keyAnswer": "B — $65^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A, C, D",
+      "keyAnswer": "A, C, D — устройство + центр-штрих + шкала 0°–180° (B 360° ложно)",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "A, C",
+      "keyAnswer": "A, C — центр с вершиной; сторона через начало отсчёта",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "A, C — ABC=50°, EOD=110° (по объяснению чертежа)",
+      "keyAnswer": "A, C — $\\angle ABC = 50^\\circ$; $\\angle EOD = 110^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "A, C, D",
+      "keyAnswer": "A, C, D — 1°, 5°, 10° (B наименьшее 5° ложно)",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "A, C — 4:15 после 90°; 4:30 после 180°",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "A, B, D",
+      "keyAnswer": "A, B, D — луч; центр в начале; точка 100° и второй луч",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A, B — вертикальный 55°; смежный 125°",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "A, B — сумма 360°; ∠B=100°",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "A, B — меньший 130°; больший 230° (8:20)",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 30",
+      "keyAnswer": "[[1]] = 30",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "fixed",
+      "solvedAnswer": "[[1]] = 5:30",
+      "keyAnswer": "[[1]] = 5:30",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "kk_calque",
+          "severity": "minor",
+          "message": "В bodyKk формат времени был «с:мм» (калька/опечатка); заменено на «сағ:мм»."
+        }
+      ],
+      "fixApplied": "KK: «с:мм» → «сағ:мм» (формат времени)."
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 70",
+      "keyAnswer": "[[1]] = 70",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

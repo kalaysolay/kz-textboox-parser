@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="360" viewBox="0 0 540 360">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <line x1="270" y1="220" x2="70" y2="219.99999999999997" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="270" y1="220" x2="121.37103490452117" y2="86.17387872822832" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="270" y1="220" x2="418.62896509547886" y2="86.17387872822835" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="270" y1="220" x2="470" y2="220" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="270" cy="220" r="3.5" fill="#1a1a1a"/>
+  <path d="M 308.6435309248245 185.20520846933937 A 52 52 0 0 0 231.3564690751755 185.20520846933937" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="270" y="150" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="middle">96°</text>
+  <text x="56" y="219.99999999999997" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">A</text>
+  <text x="110.96700734783767" y="76.80605023920432" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">E</text>
+  <text x="429.03299265216236" y="76.80605023920432" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">D</text>
+  <text x="484" y="220" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">B</text>
+  <text x="270" y="242" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">O</text>
+</svg>

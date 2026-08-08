@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-sposob-slozheniya-gaussa-20260808-2130",
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "math-5-sposob-slozheniya-gaussa-20260808-2130",
+    "generatedAt": "2026-08-08T18:45:00+05:00",
+    "subjectTitleRu": "Математика",
+    "subjectTitleKk": "Математика",
+    "gradeNo": 5,
+    "topicCode": null,
+    "topicTitleRu": "Способ сложения Гаусса",
+    "topicTitleKk": "Гаусс қосу тәсілі",
+    "topicSlug": "sposob-slozheniya-gaussa",
+    "atomicSkillTitleRu": null,
+    "textbookRef": "Алдамуратова, 5 кл, ч.1, стр. 34–35 (доп. чтение «Способ сложения Гаусса»)",
+    "illustrationPolicy": "visual-topics",
+    "sourceReliability": "verbatim"
+  },
+  "questions": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "bodyRu": "По рассказу о Гауссе: чему равна сумма всех натуральных чисел от 1 до 100?",
+      "bodyKk": "Гаусс туралы әңгіме бойынша: 1-ден 100-ге дейінгі барлық натурал сандардың қосындысы неге тең?",
+      "explanationRu": "Гаусс объединил числа в 50 пар по $101$: $101 \\cdot 50 = 5050$.",
+      "explanationKk": "Гаусс сандарды әрқайсысы $101$ болатын $50$ жұпқа біріктірді: $101 \\cdot 50 = 5050$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 34–35 (доп. чтение «Способ сложения Гаусса»)",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "5000", "textKk": "5000", "correct": false },
+        { "label": "B", "textRu": "5050", "textKk": "5050", "correct": true },
+        { "label": "C", "textRu": "10100", "textKk": "10100", "correct": false },
+        { "label": "D", "textRu": "101", "textKk": "101", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p34_1"]
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Не вычисляя всю сумму: сколько пар и чему равна каждая пара при сложении $1+2+\\ldots+80$ способом Гаусса?",
+      "bodyKk": "Толық қосындыны есептемей: $1+2+\\ldots+80$ қосындысын Гаусс тәсілімен есептегенде қанша жұп болады және әр жұп неге тең?",
+      "explanationRu": "Чисел 80 — чётное; пар $80:2=40$. Каждая пара: первое с последним, $1+80=81$.",
+      "explanationKk": "Сандар $80$ — жұп; жұптар $80:2=40$. Әр жұп: біріншісімен соңғысы, $1+80=81$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 34–35 (доп. чтение «Способ сложения Гаусса»)",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "80 пар по 80", "textKk": "80 жұп, әрқайсысы 80", "correct": false },
+        { "label": "B", "textRu": "40 пар по 80", "textKk": "40 жұп, әрқайсысы 80", "correct": false },
+        { "label": "C", "textRu": "40 пар по 81", "textKk": "40 жұп, әрқайсысы 81", "correct": true },
+        { "label": "D", "textRu": "80 пар по 81", "textKk": "80 жұп, әрқайсысы 81", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p34_2"]
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Найди сумму натуральных чисел от 31 до 40 способом Гаусса.",
+      "bodyKk": "Гаусс тәсілімен 31-ден 40-қа дейінгі натурал сандардың қосындысын тап.",
+      "explanationRu": "Пар: $(31+40)$, $(32+39)$, … — всего 5 пар по 71. Сумма $71 \\cdot 5 = 355$.",
+      "explanationKk": "Жұптар: $(31+40)$, $(32+39)$, … — барлығы 5 жұп, әрқайсысы 71. Қосынды $71 \\cdot 5 = 355$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 34–35 (доп. чтение «Способ сложения Гаусса»)",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "355", "textKk": "355", "correct": true },
+        { "label": "B", "textRu": "350", "textKk": "350", "correct": false },
+        { "label": "C", "textRu": "639", "textKk": "639", "correct": false },
+        { "label": "D", "textRu": "71", "textKk": "71", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p35_1", "PDF_p34_3"]
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "В схеме $25+26+\\ldots+34=(25+34)\\cdot\\square$. Какое число вместо $\\square$?",
+      "bodyKk": "$25+26+\\ldots+34=(25+34)\\cdot\\square$ схемасында $\\square$ орнына қандай сан?",
+      "explanationRu": "От 25 до 34 — 10 чисел, значит 5 пар. Вместо $\\square$ пишут число пар — 5.",
+      "explanationKk": "25-тен 34-ке дейін 10 сан бар, яғни 5 жұп. $\\square$ орнына жұптар саны — 5.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 34–35 (доп. чтение «Способ сложения Гаусса»)",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "10", "textKk": "10", "correct": false },
+        { "label": "B", "textRu": "51", "textKk": "51", "correct": false },
+        { "label": "C", "textRu": "9", "textKk": "9", "correct": false },
+        { "label": "D", "textRu": "5", "textKk": "5", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p34_2", "PDF_p34_3"]
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Айгуль записала: $12+13+\\ldots+21=33\\cdot 10=330$. Где ошибка?",
+      "bodyKk": "Айгүл былай жазды: $12+13+\\ldots+21=33\\cdot 10=330$. Қате қайда?",
+      "explanationRu": "Сумма пары верна: $12+21=33$. Чисел 10, значит пар 5, а не 10. Верно: $33\\cdot 5=165$.",
+      "explanationKk": "Жұп қосындысы дұрыс: $12+21=33$. Сандар 10, яғни жұптар 5, 10 емес. Дұрысы: $33\\cdot 5=165$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 34–35 (доп. чтение «Способ сложения Гаусса»)",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Нужно 5 пар, а не 10", "textKk": "10 емес, 5 жұп керек", "correct": true },
+        { "label": "B", "textRu": "Сумма пары должна быть 32, не 33", "textKk": "Жұп қосындысы 33 емес, 32 болуы керек", "correct": false },
+        { "label": "C", "textRu": "Нужно складывать соседние: $12+13$", "textKk": "Көршілес сандарды қосу керек: $12+13$", "correct": false },
+        { "label": "D", "textRu": "Ошибок нет, ответ 330 верный", "textKk": "Қате жоқ, жауап 330 дұрыс", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p34_2"]
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 5,
+      "bodyRu": "Пять подряд идущих натуральных чисел в сумме дают 80. Наименьшее из них — 14. Чему равно наибольшее?",
+      "bodyKk": "Қатарынан келетін бес натурал санның қосындысы 80. Олардың ең кішісі — 14. Ең үлкені неге тең?",
+      "explanationRu": "Ряд: $14+15+16+17+18$. Пары: $(14+18)$ и $(15+17)$ по 32, плюс среднее 16: $32+32+16=80$. Наибольшее — 18.",
+      "explanationKk": "Қатар: $14+15+16+17+18$. Жұптар: $(14+18)$ және $(15+17)$ әрқайсысы 32, ортасы 16: $32+32+16=80$. Ең үлкені — 18.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 34–35 (доп. чтение «Способ сложения Гаусса»)",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "16", "textKk": "16", "correct": false },
+        { "label": "B", "textRu": "18", "textKk": "18", "correct": true },
+        { "label": "C", "textRu": "22", "textKk": "22", "correct": false },
+        { "label": "D", "textRu": "12", "textKk": "12", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p35_1"]
+    },
+    {
+      "localId": "q07",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Отметь все верные описания способа Гаусса для суммы подряд идущих натуральных чисел.",
+      "bodyKk": "Қатарынан келетін натурал сандар қосындысы үшін Гаусс тәсілінің барлық дұрыс сипаттамаларын белгіле.",
+      "explanationRu": "Верно: первое с последним; полная сумма = (сумма пары)·(число пар). Соседние пары и «разные суммы пар» — неверно.",
+      "explanationKk": "Дұрыс: біріншісімен соңғысы; толық қосынды = (жұп қосындысы)·(жұптар саны). Көршілес жұптар мен «жұптар қосындысы әртүрлі» — қате.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 34–35 (доп. чтение «Способ сложения Гаусса»)",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Первое число объединяют с последним", "textKk": "Бірінші санды соңғысымен біріктіреді", "correct": true },
+        { "label": "B", "textRu": "Пары составляют из соседних чисел подряд", "textKk": "Жұптарды қатарынан көршілес сандардан құрайды", "correct": false },
+        { "label": "C", "textRu": "Полная сумма равна произведению суммы пары на число пар", "textKk": "Толық қосынды жұп қосындысы мен жұптар санының көбейтіндісіне тең", "correct": true },
+        { "label": "D", "textRu": "Суммы разных пар обязаны быть разными", "textKk": "Әртүрлі жұптардың қосындылары міндетті түрде әртүрлі болады", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p34_2"]
+    },
+    {
+      "localId": "q08",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Какие суммы способом Гаусса равны 165? Отметь все верные.",
+      "bodyKk": "Гаусс тәсілімен қай қосындылар 165-ке тең? Барлық дұрысын белгіле.",
+      "explanationRu": "От 12 до 21: 5 пар по 33 → $165$. От 25 до 30: 3 пары по 55 → $165$. Остальные дают другие суммы.",
+      "explanationKk": "12-ден 21-ге: 5 жұп, әрқайсысы 33 → $165$. 25-тен 30-ға: 3 жұп, әрқайсысы 55 → $165$. Қалғандары басқа қосынды береді.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 34–35 (доп. чтение «Способ сложения Гаусса»)",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "От 12 до 21", "textKk": "12-ден 21-ге дейін", "correct": true },
+        { "label": "B", "textRu": "От 25 до 30", "textKk": "25-тен 30-ға дейін", "correct": true },
+        { "label": "C", "textRu": "От 15 до 20", "textKk": "15-тен 20-ға дейін", "correct": false },
+        { "label": "D", "textRu": "От 11 до 20", "textKk": "11-ден 20-ға дейін", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p35_1"]
+    },
+    {
+      "localId": "q09",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "У Айдара 5 коробок с карандашами. В первой 7 карандашей, в каждой следующей на 1 больше. Отметь все верные утверждения.",
+      "bodyKk": "Айдарда қарындаш салынған 5 қорап бар. Біріншісінде 7 қарындаш, әр келесісінде 1-ге артық. Барлық дұрыс тұжырымды белгіле.",
+      "explanationRu": "Ряд $7+8+9+10+11$. Пары: $(7+11)$ и $(8+10)$ по 18, плюс 9 → всего 45. В последней коробке 11.",
+      "explanationKk": "Қатар $7+8+9+10+11$. Жұптар: $(7+11)$ және $(8+10)$ әрқайсысы 18, плюс 9 → барлығы 45. Соңғы қорапта 11.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 34–35 (доп. чтение «Способ сложения Гаусса»)",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Всего карандашей 45", "textKk": "Барлығы 45 қарындаш", "correct": true },
+        { "label": "B", "textRu": "В последней коробке 11 карандашей", "textKk": "Соңғы қорапта 11 қарындаш", "correct": true },
+        { "label": "C", "textRu": "Всего карандашей 40", "textKk": "Барлығы 40 қарындаш", "correct": false },
+        { "label": "D", "textRu": "В первой и последней вместе 16 карандашей", "textKk": "Бірінші мен соңғысында бірге 16 қарындаш", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p35_1"]
+    },
+    {
+      "localId": "q10",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "bodyRu": "Вычисли способом Гаусса: $1+2+\\ldots+60=[[1]]$.",
+      "bodyKk": "Гаусс тәсілімен есепте: $1+2+\\ldots+60=[[1]]$.",
+      "explanationRu": "Пар $60:2=30$, каждая равна $1+60=61$. Сумма $61\\cdot 30=1830$.",
+      "explanationKk": "Жұптар $60:2=30$, әрқайсысы $1+60=61$. Қосынды $61\\cdot 30=1830$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 34–35 (доп. чтение «Способ сложения Гаусса»)",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "1830",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ],
+      "sourceRuleIds": ["PDF_p34_4", "PDF_p34_2"]
+    }
+  ]
+}

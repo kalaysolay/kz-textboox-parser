@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-sravnenie-vidy-uglov-20260808-1330",
+  "reviewedAt": "2026-08-08T16:20:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 29,
+    "fixed": 1,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "90°",
+      "keyAnswer": "A — $90^\\circ$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×4, compute×4, predict×4, verify×4, restore×4, word_problem×4, compare×3, inverse×3. Стемы внутри формы разные; не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "мера < 90°",
+      "keyAnswer": "C — Его градусная мера меньше $90^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "90° (половина 180°)",
+      "keyAnswer": "A — $90^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "∠KLM < ∠PQR (55 < 125)",
+      "keyAnswer": "A — $\\angle KLM < \\angle PQR$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "90° (180:2)",
+      "keyAnswer": "D — $90^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "прямой (90° при 3 ч)",
+      "keyAnswer": "A — Прямой",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "∠AOB < ∠AOC (OB внутри AOC)",
+      "keyAnswer": "B — $\\angle AOB < \\angle AOC$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "прямой, 90°",
+      "keyAnswer": "D — Прямой, $90^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "неверно: при 45° и 50° равенство углов невозможно",
+      "keyAnswer": "B — Неверно: равные углы должны иметь равные меры",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "острый (75 < 90)",
+      "keyAnswer": "D — Острый",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "110° (180 − 70)",
+      "keyAnswer": "A — $110^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "прямой ∠COD = 90°",
+      "keyAnswer": "B — Прямой угол $COD$, равный $90^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "fixed",
+      "solvedAnswer": "развёрнутый (180° при 6 ч)",
+      "keyAnswer": "D — Развёрнутый",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "duplicate_body",
+          "severity": "major",
+          "message": "Черновик отличался от q06 только числом часа при той же формулировке «Часы показывают N ч. Какой вид угла…». Stem уникализирован (циферблат / направления стрелок); ключ D без изменений."
+        }
+      ],
+      "fixApplied": "Уникализирован stem q13 относительно q06: вместо шаблона «Часы показывают 6 ч…» — «На циферблате ровно 6 ч; часовая на 6, минутная на 12…». Варианты и ключ D без изменений."
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "AOB прямой, FNC острый, FNK тупой",
+      "keyAnswer": "B — $AOB$ — прямой, $FNC$ — острый, $FNK$ — тупой",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "градусные меры равны",
+      "keyAnswer": "A — Их градусные меры равны",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "status": "accepted",
+      "solvedAnswer": "55° (90 − 35)",
+      "keyAnswer": "C — $55^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "90°, прямой",
+      "keyAnswer": "B — $90^\\circ$, прямой",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "∠AOC < ∠COB < ∠AOB (40 < 140 < 180)",
+      "keyAnswer": "D — $\\angle AOC < \\angle COB < \\angle AOB$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A,B,D (C ложно: тупой не ≥180°)",
+      "keyAnswer": "A, B, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "A,B,D (25°, 55°, 15°; 90° не острый)",
+      "keyAnswer": "A, B, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "A,B,C (DEF тупой, не развёрнутый)",
+      "keyAnswer": "A, B, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "A,B,C (D ложно: дужки ≠ прямой)",
+      "keyAnswer": "A, B, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "A,B,D (C ложно: центр транспортира не обязателен)",
+      "keyAnswer": "A, B, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "A,C,D (90° не тупой; полный = 360°)",
+      "keyAnswer": "A, C, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A,B (∠A < ∠E < ∠D по чертежу)",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "A,B,C (∠1=∠3=45°; ∠2=∠4; D ложно)",
+      "keyAnswer": "A, B, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "A,C,D (B ложно: биссектриса развёрнутого → два прямых)",
+      "keyAnswer": "A, C, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "90",
+      "keyAnswer": "[[1]] = 90",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "accepted",
+      "solvedAnswer": "120 (4·30°)",
+      "keyAnswer": "[[1]] = 120",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "35 (90 − 20 − 35)",
+      "keyAnswer": "[[1]] = 35",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [
+    {
+      "localId": "q13",
+      "conflictsWith": "content/runs/math-5-sravnenie-vidy-uglov-20260808-1330/03-questions.draft.json#q06",
+      "normalizedBody": "часы показывают 6 ч какой вид угла образуют часовая и минутная стрелки"
+    }
+  ],
+  "verdict": "ready_for_import"
+}

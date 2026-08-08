@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-protsenty-20260808-1200",
+  "reviewedAt": "2026-08-08T13:30:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 28,
+    "fixed": 2,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "B — одна сотая часть целого",
+      "keyAnswer": "B — Одна сотая часть целого",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "D — 100%",
+      "keyAnswer": "D — $100\\%$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "B — 0,25",
+      "keyAnswer": "B — $0{,}25$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "C — 25%",
+      "keyAnswer": "C — $25\\%$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "fixed",
+      "solvedAnswer": "D — 35 сотых частей целого",
+      "keyAnswer": "D — $35$ сотых частей целого",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "kk_calque",
+          "severity": "minor",
+          "message": "Вариант B textKk был калькой «$100$-ге бөлмейтін $35$ саны»; смягчена формулировка без смены смысла."
+        }
+      ],
+      "fixApplied": "option B textKk → «$100$-ге бөлмей алынған $35$ саны»."
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "B — 1",
+      "keyAnswer": "B — $1$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "C — 7/20",
+      "keyAnswer": "C — $\\dfrac{7}{20}$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "B — 85%",
+      "keyAnswer": "B — $85\\%$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "fixed",
+      "solvedAnswer": "B — 0,6 = 60%",
+      "keyAnswer": "B — $0{,}6 = 60\\%$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "duplicate_body",
+          "severity": "major",
+          "message": "Черновик: stem «Какое равенство верно?» совпадал с math-5-perevod-des-i-obykn-drobi-20260808-0230#q13. Rewrite-pass: stem с якорём «десятичная дробь ↔ процент»; дубль снят."
+        }
+      ],
+      "fixApplied": "bodyRu/bodyKk → «Какое равенство между десятичной дробью и процентом верно?» / «Ондық бөлшек пен пайыздың қай теңдігі дұрыс?»; опции обновлены, ключ B: $0{,}6 = 60\\%$."
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "B — 25%",
+      "keyAnswer": "B — $25\\%$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "C — 1/5",
+      "keyAnswer": "C — $\\dfrac{1}{5}$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "C — 30%",
+      "keyAnswer": "C — $30\\%$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "B — величину больше целого",
+      "keyAnswer": "B — Величину, большую целого",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "C — 0,08 = 8%",
+      "keyAnswer": "C — $0{,}08 = 8\\%$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "D — 180",
+      "keyAnswer": "D — $180$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "status": "accepted",
+      "solvedAnswer": "B — 30%",
+      "keyAnswer": "B — $30\\%$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "B — неверно, выполнено 118%",
+      "keyAnswer": "B — Неверно: выполнено $118\\%$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "C — в 3 раза",
+      "keyAnswer": "C — В $3$ раза",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A, C, D",
+      "keyAnswer": "A, C, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "A, C, D",
+      "keyAnswer": "A, C, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "A, C",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "A, C, D",
+      "keyAnswer": "A, C, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "A, B",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "A, B, D",
+      "keyAnswer": "A, B, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A, C",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "A, B",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "A, D",
+      "keyAnswer": "A, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "0,06",
+      "keyAnswer": "[[1]] = 0,06",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "accepted",
+      "solvedAnswer": "42",
+      "keyAnswer": "[[1]] = 42",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "0,05",
+      "keyAnswer": "[[1]] = 0,05",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

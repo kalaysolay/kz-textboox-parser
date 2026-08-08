@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-chisloyye-posledovatelnosti-drobi-20260808-0730",
+  "reviewedAt": "2026-08-08T04:35:00+05:00",
+  "summary": {
+    "total": 10,
+    "accepted": 10,
+    "fixed": 0,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "каждое следующее на 1/4 больше предыдущего",
+      "keyAnswer": "B — Каждое следующее число на $\\dfrac{1}{4}$ больше предыдущего",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "4 5/6; 5 3/6",
+      "keyAnswer": "C — $4\\dfrac{5}{6};\\; 5\\dfrac{3}{6}$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "1,5; 1,8",
+      "keyAnswer": "A — $1,5;\\; 1,8$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "5/72; 5/36",
+      "keyAnswer": "B — $\\dfrac{5}{72};\\; \\dfrac{5}{36}$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "неверно: вместо ×3 Айгуль прибавляла 1/4",
+      "keyAnswer": "B — Неверно: вместо умножения на $3$ Айгуль прибавляла $\\dfrac{1}{4}$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "a_n = n/6",
+      "keyAnswer": "D — $a_n = \\dfrac{n}{6}$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "A, B, D",
+      "keyAnswer": "A, B, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "A, B (пред. 0,8; 1,6; след. 5,6; 6,4)",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "A, C",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "0,08",
+      "keyAnswer": "[[1]] = 0,08",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

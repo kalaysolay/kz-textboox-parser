@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <polygon points="180,95 289.37149937394264,174.46304564688106 247.5953040136344,303.036954353119 112.4046959863656,303.036954353119 70.62850062605733,174.46304564688106" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="180" cy="95" r="3.5" fill="#1a1a1a"/>
+  <circle cx="289.37149937394264" cy="174.46304564688106" r="3.5" fill="#1a1a1a"/>
+  <circle cx="247.5953040136344" cy="303.036954353119" r="3.5" fill="#1a1a1a"/>
+  <circle cx="112.4046959863656" cy="303.036954353119" r="3.5" fill="#1a1a1a"/>
+  <circle cx="70.62850062605733" cy="174.46304564688106" r="3.5" fill="#1a1a1a"/>
+  <text x="180" y="55" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" dominant-baseline="middle">P</text>
+  <polygon points="470,90 620,130 560,210 650,320 450,300" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="470" cy="90" r="3.5" fill="#1a1a1a"/>
+  <circle cx="620" cy="130" r="3.5" fill="#1a1a1a"/>
+  <circle cx="560" cy="210" r="3.5" fill="#1a1a1a"/>
+  <circle cx="650" cy="320" r="3.5" fill="#1a1a1a"/>
+  <circle cx="450" cy="300" r="3.5" fill="#1a1a1a"/>
+  <text x="555" y="55" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Q</text>
+</svg>

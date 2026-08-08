@@ -93,8 +93,12 @@ description: >-
 
 **(д) Иллюстрации**
 
-- при `illustrationPolicy: none` любая картинка или маркер `{{IMG:…}}` — `illustration_not_allowed`;
-- картинка у слота с `needsIllustration: false` — тоже `illustration_not_allowed`.
+- в `03`/`05` поле `illustration` должно быть `null`; маркеры `{{IMG:…}}` в body —
+  `illustration_not_allowed` (файлы рисует illustrator в `06` после ревью);
+- при `illustrationPolicy: none` любой `needsIllustration: true` или ненулевой
+  `illustration` — `illustration_not_allowed`;
+- при политике ≠ `none` флаг `needsIllustration` должен совпадать со слотом матрицы;
+  несоответствие — `matrix_mismatch`.
 
 ## Дедупликация
 

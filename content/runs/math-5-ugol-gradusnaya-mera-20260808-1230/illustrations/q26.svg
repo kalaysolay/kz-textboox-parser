@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="400" viewBox="0 0 480 400">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <line x1="220" y1="280" x2="442.1629400464857" y2="220.47161962642022" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="220" y1="280" x2="298.66463296490383" y2="63.870697219241094" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="220" y1="280" x2="72.15884977209595" y2="103.80977808263506" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="220" cy="280" r="3.5" fill="#1a1a1a"/>
+  <text x="455.68590161453267" y="216.84815299498496" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">A</text>
+  <text x="303.4529149714632" y="50.71500052823836" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">B</text>
+  <text x="63.159823236484385" y="93.08515587896937" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">C</text>
+  <text x="204" y="288" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="end" dominant-baseline="middle">O</text>
+</svg>

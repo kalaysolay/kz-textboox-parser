@@ -1,0 +1,22 @@
+{
+  "kind": "angle",
+  "width": 480,
+  "height": 400,
+  "cx": 220,
+  "cy": 250,
+  "rayLength": 230,
+  "vertexLabel": "L",
+  "rays": [
+    { "label": "K", "deg": 25 },
+    { "label": "M", "deg": 95 }
+  ],
+  "showArc": true,
+  "showDegree": false,
+  "points": [
+    { "id": "P", "deg": 25, "t": 0.58, "labelDx": -12, "labelDy": -12 },
+    { "id": "Q", "deg": 60, "t": 0.42, "labelDx": 0, "labelDy": -14 },
+    { "id": "S", "deg": 95, "t": 0.62, "labelDx": 12, "labelDy": -10 },
+    { "id": "R", "deg": 240, "t": 0.38, "labelDx": 0, "labelDy": 16 }
+  ],
+  "vertexOffset": { "x": -16, "y": 8 }
+}

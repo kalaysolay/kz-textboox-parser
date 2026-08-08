@@ -1,0 +1,15 @@
+{
+  "kind": "polygon",
+  "width": 480,
+  "height": 440,
+  "sides": 5,
+  "cx": 240,
+  "cy": 230,
+  "radius": 145,
+  "rotationDeg": -90,
+  "vertexLabels": ["A", "B", "C", "D", "E"],
+  "segments": [
+    { "from": "B", "to": "E" },
+    { "from": "B", "to": "D" }
+  ]
+}

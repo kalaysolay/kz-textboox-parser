@@ -1,0 +1,677 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-peresechenie-obedinenie-mnozhestv-20260808-0900",
+  "typeMixPlanned": {
+    "SCQ": 18,
+    "MCQ": 9,
+    "FILL_IN": 3
+  },
+  "difficultyMixPlanned": {
+    "1": 2,
+    "2": 4,
+    "3": 15,
+    "4": 6,
+    "5": 3
+  },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Узнавание определения пересечения множеств",
+      "stemIdea": "Выбрать верное определение: A ∩ B содержит те и только те элементы, которые принадлежат одновременно A и B — без диаграммы и без готового списка",
+      "trapIdeas": [
+        "Ученик подменил ∩ на ∪ («хотя бы одно из множеств»)",
+        "Ученик потребовал, чтобы множества совпадали целиком",
+        "Ученик описал разность A \\ B вместо пересечения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": [
+        "PDF_p102_1"
+      ],
+      "sourceExampleRefs": [
+        "p104#повтор1"
+      ],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Узнавание определения объединения множеств",
+      "stemIdea": "Выбрать верное определение: A ∪ B состоит из элементов, принадлежащих хотя бы одному из множеств A или B — без диаграммы",
+      "trapIdeas": [
+        "Ученик подменил ∪ на ∩ («только общие элементы»)",
+        "Ученик исключил общие элементы из объединения",
+        "Ученик потребовал, чтобы множества не пересекались"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": [
+        "PDF_p104_1"
+      ],
+      "sourceExampleRefs": [
+        "p104#повтор2"
+      ],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Перечисление элементов пересечения A ∩ B",
+      "stemIdea": "Даны конечные множества перечислением (цифры двух чисел — структура 1053, другие числа; не клон делителей 12 и 16 из разбора F∩N); выбрать верное A ∩ B",
+      "trapIdeas": [
+        "Ученик записал объединение вместо пересечения",
+        "Ученик оставил дубликаты цифр как разные элементы",
+        "Ученик включил элемент только из одного множества"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": [
+        "PDF_p102_1",
+        "PDF_p102_2"
+      ],
+      "sourceExampleRefs": [
+        "p104#1053"
+      ],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Перечисление элементов объединения A ∪ B",
+      "stemIdea": "Даны конечные множества перечислением (цифры двух чисел — структура задания 2 / 1053, другие числа; не клон A/B цифр 715326 и 827905); выбрать верное A ∪ B",
+      "trapIdeas": [
+        "Ученик записал только пересечение",
+        "Ученик продублировал общие элементы в записи ∪",
+        "Ученик выписал элементы с повторами из исходных записей чисел"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": [
+        "PDF_p104_1",
+        "PDF_p103_2"
+      ],
+      "sourceExampleRefs": [
+        "p104#1053"
+      ],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Распознавание пустого пересечения E ∩ F = ∅",
+      "stemIdea": "Даны два множества перечислением без общих элементов (структура рис. 5.11 / нечётные–чётные цифры, другие наборы); выбрать верную запись пересечения как ∅",
+      "trapIdeas": [
+        "Ученик записал объединение вместо ∅",
+        "Ученик выдумал «общий» элемент по соседству чисел",
+        "Ученик написал {0} или пустые скобки без символа ∅"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": [
+        "PDF_p103_1"
+      ],
+      "sourceExampleRefs": [
+        "p103#рис5.11"
+      ],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Мощность объединения непересекающихся множеств",
+      "stemIdea": "Даны n(N), n(P) и факт N ∩ P = ∅ (структура рис. 5.14, другие численности); выбрать n(N ∪ P) = n(N) + n(P) без вычитания пересечения",
+      "trapIdeas": [
+        "Ученик вычел «лишнее» пересечение, хотя оно пусто",
+        "Ученик перемножил численности",
+        "Ученик взял max(n(N), n(P))"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": [
+        "PDF_p104_2"
+      ],
+      "sourceExampleRefs": [
+        "p104#рис5.14"
+      ],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Чтение A ∩ B по диаграмме Эйлера–Венна",
+      "stemIdea": "На рисунке два пересекающихся круга A и B с числами в трёх зонах (структура 1054/рис. 5.16, другие числа — не клон 1,2,4,5,10,20 / 25,50); выбрать верное перечисление A ∩ B",
+      "trapIdeas": [
+        "Ученик перечислил все элементы A ∪ B",
+        "Ученик взял только зону «A без B»",
+        "Ученик включил внешние точки вне обоих кругов"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Stem «на рисунке»: без set_venn с размещением элементов в зонах нельзя прочитать A ∩ B",
+      "sourceRuleIds": [
+        "PDF_p102_2",
+        "PDF_p102_1"
+      ],
+      "sourceExampleRefs": [
+        "p104#1054"
+      ],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Чтение A ∪ B по диаграмме Эйлера–Венна",
+      "stemIdea": "На рисунке два пересекающихся круга с числами в зонах (структура 1054, другие числа); выбрать верное перечисление A ∪ B — все элементы внутри хотя бы одного круга",
+      "trapIdeas": [
+        "Ученик взял только пересечение",
+        "Ученик пропустил одну из боковых зон",
+        "Ученик включил точку вне обоих кругов"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Stem «на рисунке»: чтение ∪ требует set_venn с элементами в зонах",
+      "sourceRuleIds": [
+        "PDF_p103_2",
+        "PDF_p104_1"
+      ],
+      "sourceExampleRefs": [
+        "p104#1054"
+      ],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Проверка готовых равенств для ∩ и ∪",
+      "stemIdea": "Даны конечные A и B перечислением и несколько готовых равенств вида A ∩ B = {…} / A ∪ B = {…}; выбрать единственное верное равенство",
+      "trapIdeas": [
+        "Ученик принял верное ∩, но с лишним элементом",
+        "Ученик перепутал знак ∩ и ∪ в правой части",
+        "Ученик принял запись с дубликатами как верную"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": [
+        "PDF_p102_1",
+        "PDF_p104_1"
+      ],
+      "sourceExampleRefs": [
+        "p105#1057"
+      ],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Пересечение и объединение множеств букв слов",
+      "stemIdea": "Из букв двух коротких слов (структура 1057 «Марс»/«Уран», другие слова; учесть регистр и отсутствие дублей) выбрать верные A ∩ B и/или A ∪ B",
+      "trapIdeas": [
+        "Ученик оставил повтор буквы как два элемента",
+        "Ученик различил заглавную и строчную как разные элементы вопреки правилу урока",
+        "Ученик записал ∪ вместо ∩"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": [
+        "PDF_p102_1",
+        "PDF_p104_1"
+      ],
+      "sourceExampleRefs": [
+        "p105#1057"
+      ],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Восстановление пропущенного элемента пересечения по Venn",
+      "stemIdea": "На рисунке два пересекающихся круга; в тексте дан неполный A ∩ B = {…, □, …}; по общей зоне выбрать пропущенный элемент",
+      "trapIdeas": [
+        "Ученик взял элемент из зоны «только A»",
+        "Ученик взял элемент из зоны «только B»",
+        "Ученик взял внешнюю точку"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Пропуск в A ∩ B восстанавливается только по общей зоне set_venn",
+      "sourceRuleIds": [
+        "PDF_p102_2"
+      ],
+      "sourceExampleRefs": [
+        "p104#1054"
+      ],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сравнение мощности пересечения и объединения",
+      "stemIdea": "Для одних и тех же конечных A и B сравнить n(A ∩ B) и n(A ∪ B) (или выбрать верное соотношение); множества пересекаются, не клон разбора 6+6−3",
+      "trapIdeas": [
+        "Ученик считает n(∩) ≥ n(∪)",
+        "Ученик приравнивает n(∪) к n(A)+n(B) без вычитания ∩",
+        "Ученик сравнивает сами множества вместо численностей"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": [
+        "PDF_p103_3"
+      ],
+      "sourceExampleRefs": [
+        "p103#рис5.13"
+      ],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Следствия B ⊂ A для ∩ и ∪",
+      "stemIdea": "Дано B ⊂ A (словесно или перечислением без полной диаграммы); выбрать верные равенства A ∩ B = B и A ∪ B = A — опора PDF_p104_3, не чистая проверка ⊂ из темы 5.2",
+      "trapIdeas": [
+        "Ученик записал A ∩ B = A",
+        "Ученик записал A ∪ B = B",
+        "Ученик ответил только про ⊂, игнорируя ∩/∪"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": [
+        "PDF_p104_3"
+      ],
+      "sourceExampleRefs": [
+        "p104#следствие"
+      ],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Геометрическое пересечение фигур на рисунке",
+      "stemIdea": "На рисунке две пересекающиеся геометрические фигуры (структура рис. 5.9 треугольник∩круг или 1051/1052, другие фигуры); выбрать, какая область / фигура является A ∩ B",
+      "trapIdeas": [
+        "Ученик указал объединение фигур",
+        "Ученик указал только одну из исходных фигур",
+        "Ученик назвал внешнюю к обеим фигурам область"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Геометрическое ∩ без рисунка (set_venn / пересечение фигур) неполное",
+      "sourceRuleIds": [
+        "PDF_p102_2",
+        "PDF_p102_1"
+      ],
+      "sourceExampleRefs": [
+        "p102#рис5.9",
+        "p104#1051"
+      ],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Распознавание заштрихованной области A ∩ B на Venn",
+      "stemIdea": "На рисунке два пересекающихся круга; одна зона заштрихована (структура рис. 5.9/5.10); выбрать верную подпись заштрихованной области: A ∩ B (отсечь A ∪ B, A\\B, B\\A)",
+      "trapIdeas": [
+        "Ученик подписал заштриховку как A ∪ B",
+        "Ученик подписал как A \\ B",
+        "Ученик подписал как всё множество A"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Без set_venn с заштриховкой нельзя сопоставить область и знак ∩",
+      "sourceRuleIds": [
+        "PDF_p102_2"
+      ],
+      "sourceExampleRefs": [
+        "p102#рис5.9",
+        "p102#рис5.10"
+      ],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Формула n(A ∪ B) = n(A) + n(B) − n(A ∩ B)",
+      "stemIdea": "Даны n(C), n(D), n(C ∩ D) (структура 1060, другие тройки чисел); выбрать n(C ∪ D); на рисунке — круги Эйлера–Венна с численностями зон как опора",
+      "trapIdeas": [
+        "Ученик сложил n(C)+n(D) без вычитания пересечения",
+        "Ученик вычел пересечение дважды",
+        "Ученик взял n(C ∩ D) как ответ"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Условие 1060 требует изображения кругов Эйлера–Венна (set_venn) при подсчёте мощности ∪",
+      "sourceRuleIds": [
+        "PDF_p103_3"
+      ],
+      "sourceExampleRefs": [
+        "p105#1060"
+      ],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Пересечение делителей и смысл max(X ∩ Y) как НОД",
+      "stemIdea": "X — делители m, Y — делители n (структура 1059, другие m,n ≠ 56 и 32); выбрать X ∩ Y и объяснить, что наибольший элемент пересечения — НОД(m, n)",
+      "trapIdeas": [
+        "Ученик перечислил объединение делителей",
+        "Ученик принял наименьший элемент ∩ за НОД",
+        "Ученик включил само произведение m·n в пересечение"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": [
+        "PDF_p102_1",
+        "PDF_p102_2"
+      ],
+      "sourceExampleRefs": [
+        "p105#1059"
+      ],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 5,
+      "skillFocus": "Чтение ∩ и ∪ на трёхкруговой диаграмме",
+      "stemIdea": "На рисунке три пересекающихся круга A, B, C с точками в разных областях (структура 1067/рис. 5.17, другие метки — не клон x,y,a,b,c,d); выбрать верные A ∩ B и B ∪ C",
+      "trapIdeas": [
+        "Ученик включил в A ∩ B точки только из A∩C без B",
+        "Ученик в B ∪ C пропустил зону только B или только C",
+        "Ученик смешал тройное пересечение с A ∩ B"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Трёхкруговая диаграмма (set_euler / set_venn) обязательна — без рисунка зоны неоднозначны",
+      "sourceRuleIds": [
+        "PDF_p102_2",
+        "PDF_p103_2"
+      ],
+      "sourceExampleRefs": [
+        "p106#1067"
+      ],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Несколько верных чтений зон двухкругового Venn",
+      "stemIdea": "На рисунке два пересекающихся круга A и B с числами в зонах; отметить все верные утверждения о перечислениях A ∩ B, A ∪ B и/или n(A ∩ B) — ответ не подписывать на рисунке",
+      "trapIdeas": [
+        "Ученик принимает верным перечисление ∪ как ∩",
+        "Ученик считает верным список с элементом только из A",
+        "Ученик путает n(∩) с n(∪)"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "MCQ на чтение зон ∩/∪ требует set_venn",
+      "sourceRuleIds": [
+        "PDF_p102_2",
+        "PDF_p103_2"
+      ],
+      "sourceExampleRefs": [
+        "p104#1054"
+      ],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Несколько верных фактов о непересекающихся множествах",
+      "stemIdea": "На рисунке два отдельных круга без общей части (структура рис. 5.11, другие элементы); отметить все верные утверждения: E ∩ F = ∅; вид диаграммы; что ∪ содержит все элементы обоих",
+      "trapIdeas": [
+        "Ученик считает, что непересекающиеся множества нельзя объединять",
+        "Ученик пишет E ∩ F ≠ ∅ при отсутствии общей зоны",
+        "Ученик путает раздельные круги с вложенными"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Распознавание disjoint / E ∩ F = ∅ по рисунку — set_euler (два круга без пересечения)",
+      "sourceRuleIds": [
+        "PDF_p103_1",
+        "PDF_p104_2"
+      ],
+      "sourceExampleRefs": [
+        "p103#рис5.11"
+      ],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Несколько верных перечислений ∩ и ∪ по спискам",
+      "stemIdea": "Даны конечные A и B перечислением (цифры / буквы / делители — свежие наборы); отметить все верные готовые записи A ∩ B и A ∪ B среди вариантов",
+      "trapIdeas": [
+        "Ученик принимает ∪ с пропущенным общим элементом",
+        "Ученик принимает ∩ с элементом только из одного множества",
+        "Ученик принимает запись с дубликатами"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": [
+        "PDF_p102_1",
+        "PDF_p104_1"
+      ],
+      "sourceExampleRefs": [
+        "p104#1053",
+        "p105#1057"
+      ],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Несколько верных следствий формулы мощности ∪",
+      "stemIdea": "Даны несколько троек (n(A), n(B), n(A ∩ B)) и предложенные n(A ∪ B); отметить все верные применения формулы n(A)+n(B)−n(A ∩ B)",
+      "trapIdeas": [
+        "Ученик принимает сумму без вычитания",
+        "Ученик принимает разность n(A)−n(B)",
+        "Ученик принимает n(A ∩ B) как мощность объединения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": [
+        "PDF_p103_3"
+      ],
+      "sourceExampleRefs": [
+        "p105#1060"
+      ],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Несколько верных равенств при B ⊂ A для ∩ и ∪",
+      "stemIdea": "Дано B ⊂ A (и при необходимости короткие перечисления); отметить все верные равенства вида A ∩ B = B, A ∪ B = A и отсечь перевёрнутые",
+      "trapIdeas": [
+        "Ученик отмечает A ∩ B = A как верное",
+        "Ученик отмечает A ∪ B = B как верное",
+        "Ученик отмечает только факт ⊂ без следствий ∩/∪"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": [
+        "PDF_p104_3"
+      ],
+      "sourceExampleRefs": [
+        "p104#следствие"
+      ],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Несколько верных чтений ∩/∪ при вложенных кругах",
+      "stemIdea": "На рисунке меньший круг B внутри большего A (set_euler nested; не чистая проверка ⊂ из 5.2); отметить все верные: A ∩ B = B, A ∪ B = A, перечисления зон",
+      "trapIdeas": [
+        "Ученик читает вложенность как обычное пересечение «частично»",
+        "Ученик считает A ∩ B пустым",
+        "Ученик принимает A ∪ B = B"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Связь ⊂ с ∩/∪ на вложенных кругах — stem неполон без set_euler",
+      "sourceRuleIds": [
+        "PDF_p104_3",
+        "PDF_p102_1",
+        "PDF_p104_1"
+      ],
+      "sourceExampleRefs": [
+        "p104#следствие"
+      ],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Несколько верных утверждений о геометрическом ∪",
+      "stemIdea": "На рисунке две пересекающиеся фигуры (структура рис. 5.12 квадрат∪треугольник или 1052, другие фигуры); отметить все верные описания области A ∪ B и отличия от A ∩ B",
+      "trapIdeas": [
+        "Ученик описывает только общую часть как ∪",
+        "Ученик исключает пересечение из объединения",
+        "Ученик называет ∪ одной из исходных фигур"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Геометрическое ∪ (set_venn / фигуры) без рисунка неполное",
+      "sourceRuleIds": [
+        "PDF_p103_2",
+        "PDF_p104_1"
+      ],
+      "sourceExampleRefs": [
+        "p103#рис5.12",
+        "p104#1052"
+      ],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Несколько согласованных размещений элементов на Venn",
+      "stemIdea": "Даны факты о принадлежности (элемент в ∩ / только в A / только в B) и черновик двухкруговой диаграммы; отметить все размещения/утверждения, согласованные с ∩ и ∪ (структура синтеза 1064, другие численности)",
+      "trapIdeas": [
+        "Ученик помещает элемент ∩ только в одну боковую зону",
+        "Ученик допускает элемент ∪ вне обоих кругов",
+        "Ученик нарушает заданное n(A ∩ B)"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Проверка согласованности размещения с ∩/∪ требует set_venn",
+      "sourceRuleIds": [
+        "PDF_p102_2",
+        "PDF_p103_3"
+      ],
+      "sourceExampleRefs": [
+        "p106#1064"
+      ],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Несколько верных фактов на трёхкруговой диаграмме",
+      "stemIdea": "На рисунке три круга A, B, C с точками (структура 1067, свежие метки); отметить все верные перечисления A ∩ B, B ∪ C и/или принадлежность указанных точек — без подсказки ответа на рисунке",
+      "trapIdeas": [
+        "Ученик смешивает A ∩ B ∩ C с A ∩ B",
+        "Ученик в ∪ пропускает зону только одного множества",
+        "Ученик относит внешнюю точку к объединению"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Трёхкруговой set_euler обязателен для многофактового чтения ∩/∪",
+      "sourceRuleIds": [
+        "PDF_p102_2",
+        "PDF_p103_2",
+        "PDF_p104_1"
+      ],
+      "sourceExampleRefs": [
+        "p106#1067"
+      ],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Вычисление n(A ∪ B) по формуле",
+      "stemIdea": "Даны n(A), n(B), n(A ∩ B) числом (структура 1060, другие значения); вписать n(A ∪ B) — одно число, без обязательного рисунка в stem",
+      "trapIdeas": [
+        "Ученик вписывает n(A)+n(B)",
+        "Ученик вписывает n(A ∩ B)",
+        "Ученик вписывает |n(A)−n(B)|"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": [
+        "PDF_p103_3"
+      ],
+      "sourceExampleRefs": [
+        "p105#1060"
+      ],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "skillFocus": "Запись n(A ∩ B) по двухкруговому Venn",
+      "stemIdea": "На рисунке два пересекающихся круга с элементами в зонах; вписать число элементов пересечения n(A ∩ B)",
+      "trapIdeas": [
+        "Ученик считает все точки внутри A ∪ B",
+        "Ученик считает только зону «A без B»",
+        "Ученик включает внешние точки"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "n(A ∩ B) по рисунку — stem неполон без set_venn",
+      "sourceRuleIds": [
+        "PDF_p102_2",
+        "PDF_p103_3"
+      ],
+      "sourceExampleRefs": [
+        "p102#рис5.10",
+        "p104#1054"
+      ],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Пересечение кратных и смысл min(F ∩ K) как НОК",
+      "stemIdea": "F — первые несколько натуральных, кратных a; K — кратных b (структура 1065, другие a,b ≠ 4 и 6); вписать наименьшее число в F ∩ K (НОК) — одно число",
+      "trapIdeas": [
+        "Ученик вписывает НОД вместо НОК",
+        "Ученик вписывает произведение a·b без проверки вхождения в оба списка",
+        "Ученик вписывает наибольший элемент пересечения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": [
+        "PDF_p102_1"
+      ],
+      "sourceExampleRefs": [
+        "p106#1065"
+      ],
+      "questionForm": "inverse"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "Count 30 сохранён (recommendedMaxCount=null; 8 primary verbatim PDF_p102_1–2, PDF_p103_1–3, PDF_p104_1–3 + плотные упр. 1051–1067*). TypeMix 18/9/3 и difficulty 2/4/15/6/3: SCQ q01–q18 (d1×2, d2×4, d3×9, d4×2, d5×1), MCQ q19–q27 (d3×5, d4×3, d5×1), FILL_IN q28–q30 (d3/d4/d5). В sourceRuleIds только role:primary; R010 (reference) не ставился. Ядро 5.3: определения ∩/∪, перечисление ∩/∪, ∅-пересечение, ∪ непересекающихся, формула n(A∪B), следствия B⊂A⇒∩/∪, чтение Venn/Euler, геометрические ∩/∪, НОД/НОК через ∩. questionForm при count=30: лимит ≤2 нереален (G017) — recall×2, compute×6, predict×3, verify×4, restore×3, compare×4, word_problem×4, inverse×4. needsIllustration true у 14/30 (q07,q08,q11,q14,q15,q16,q18,q19,q20,q24,q25,q26,q27,q29): set_venn — q07,q08,q11,q14,q15,q16,q19,q25,q26,q29; set_euler (nested/disjoint/three) — q18,q20,q24,q27. Anti-dup vs 5.1 (…-0800): нет чистых ∈/∉/n(A)/∅ без ∩∪ и нет «только чтение A,B» без ∩/∪. Anti-dup vs 5.2 (…-0830): нет чистого ⊂/2ⁿ/цепочек ⊂; ⊂ только через PDF_p104_3 (следствия для ∩/∪). RC_* нет — unverifiedRuleIds []."
+}

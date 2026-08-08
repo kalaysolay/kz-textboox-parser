@@ -1,0 +1,523 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-mnogougolniki-20260808-1400",
+  "typeMixPlanned": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMixPlanned": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Термин «многоугольник» по определению",
+      "stemIdea": "Выбрать название фигуры из отрезков, где смежные не лежат на одной прямой, а несмежные не имеют общих точек",
+      "trapIdeas": [
+        "Ученик считает многоугольником любую ломаную",
+        "Ученик допускает самопересекающуюся фигуру",
+        "Ученик путает с кругом или окружностью"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p150_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Равенство числа сторон и вершин",
+      "stemIdea": "Выбрать верное утверждение: у любого многоугольника столько же сторон, сколько вершин",
+      "trapIdeas": [
+        "Ученик думает, что сторон на одну больше, чем вершин",
+        "Ученик путает с числом диагоналей",
+        "Ученик считает равенство верным только для треугольника"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p150_3"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Наименьшее число сторон многоугольника",
+      "stemIdea": "Не строя фигуру: указать наименьшее возможное число сторон многоугольника",
+      "trapIdeas": [
+        "Ученик отвечает 2",
+        "Ученик отвечает 4, считая четырёхугольник «минимальным»",
+        "Ученик путает с числом диагоналей"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p151_4"],
+      "sourceExampleRefs": [],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Названия многоугольников по числу сторон",
+      "stemIdea": "Даны два числа сторон (например 5 и 6, не клон набора рис. 7.50) — выбрать верную пару названий",
+      "trapIdeas": [
+        "Ученик путает пятиугольник с шестиугольником",
+        "Ученик называет фигуру по числу диагоналей",
+        "Ученик меняет названия местами"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p151_4"],
+      "sourceExampleRefs": [],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Периметр как сумма длин сторон",
+      "stemIdea": "Даны длины всех сторон пятиугольника (числа ≠ эталону рис. 7.49) — найти периметр",
+      "trapIdeas": [
+        "Ученик сложил не все стороны",
+        "Ученик умножил длины сторон",
+        "Ученик пропустил одну сторону"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p151_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Сторона квадрата по периметру",
+      "stemIdea": "Периметр квадрата дан (≠16 см из упр. 1234) — восстановить длину стороны",
+      "trapIdeas": [
+        "Ученик разделил периметр на 3",
+        "Ученик взял периметр как сторону",
+        "Ученик разделил периметр на 2"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p151_2"],
+      "sourceExampleRefs": ["p152#1234"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Отличие многоугольника от самопересекающейся фигуры",
+      "stemIdea": "По рисунку двух фигур (замкнутый контур без пересечений и фигура с пересечением несмежных сторон) выбрать, какая является многоугольником",
+      "trapIdeas": [
+        "Ученик выбирает самопересекающуюся фигуру",
+        "Ученик путает условие о смежных отрезках на одной прямой с пересечением",
+        "Ученик смотрит только на «замкнутость» контура"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Без чертежа нельзя увидеть пересечение несмежных сторон (sceneKind: polygon)",
+      "sourceRuleIds": ["PDF_p150_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Подсчёт сторон и вершин по чертежу",
+      "stemIdea": "По рисунку многоугольника с подписанными вершинами выбрать верную пару «число сторон — число вершин»",
+      "trapIdeas": [
+        "Ученик пропустил или удвоил сторону при подсчёте",
+        "Ученик думает, что вершин меньше, чем сторон",
+        "Ученик считает углы отдельно от вершин и получает другое число"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Подсчёт элементов по подписям вершин требует чертежа (sceneKind: polygon)",
+      "sourceRuleIds": ["PDF_p150_2", "PDF_p150_3"],
+      "sourceExampleRefs": [],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Отсутствие диагоналей у треугольника",
+      "stemIdea": "Не проводя построений: сколько диагоналей у треугольника",
+      "trapIdeas": [
+        "Ученик отвечает 1 или 3",
+        "Ученик путает стороны с диагоналями",
+        "Ученик неверно применяет подсчёт «из каждой вершины» для n=3"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p151_4", "PDF_p151_3"],
+      "sourceExampleRefs": [],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Периметр многоугольника в бытовом сюжете",
+      "stemIdea": "Клумба или забор в форме многоугольника; даны длины сторон — найти длину ограждения; сюжет ≠ упр. 1241",
+      "trapIdeas": [
+        "Ученик сложил не все стороны",
+        "Ученик нашёл «площадь» вместо периметра",
+        "Ученик умножил две стороны"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p151_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Пропущенная сторона по периметру",
+      "stemIdea": "Периметр и все стороны кроме одной даны — восстановить длину пропущенной стороны",
+      "trapIdeas": [
+        "Ученик сложил известные стороны и забыл вычесть из периметра",
+        "Ученик вычел одну сторону дважды",
+        "Ученик взял полусумму известных сторон"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p151_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Выпуклый и невыпуклый многоугольник",
+      "stemIdea": "По рисунку двух многоугольников (в духе рис. 7.47, другие буквы) выбрать, какой выпуклый, а какой нет",
+      "trapIdeas": [
+        "Ученик путает выпуклый с невыпуклым",
+        "Ученик оценивает только «ровность» сторон",
+        "Ученик путает невыпуклость с самопересечением"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Признак «по одну сторону от прямых через соседние вершины» без чертежа нечитаем (sceneKind: polygon)",
+      "sourceRuleIds": ["PDF_p150_4"],
+      "sourceExampleRefs": [],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Равенство многоугольников наложением",
+      "stemIdea": "По рисунку двух многоугольников выбрать, равны ли они (совмещаются ли при наложении); не клон ромбов рис. 7.48 один в один",
+      "trapIdeas": [
+        "Ученик судит только по числу сторон",
+        "Ученик считает равными все одинаково названные фигуры",
+        "Ученик путает равенство с равным периметром"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Совместимость при наложении проверяется по виду фигур на чертеже (sceneKind: polygon)",
+      "sourceRuleIds": ["PDF_p151_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Число диагоналей четырёхугольника",
+      "stemIdea": "Сколько диагоналей у четырёхугольника — структура упр. 1236 ч.1, формулировка короткая",
+      "trapIdeas": [
+        "Ученик отвечает 4, считая стороны",
+        "Ученик отвечает 1",
+        "Ученик путает с пятиугольником и отвечает 5"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p151_3"],
+      "sourceExampleRefs": ["p152#1236"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Стороны треугольника по периметру и условиям",
+      "stemIdea": "Периметр треугольника и соотношения сторон (структура 1240, числа ≠24/4/2) — найти стороны",
+      "trapIdeas": [
+        "Ученик делит периметр на три равные части",
+        "Ученик путает «больше на» с «больше в»",
+        "Ученик учитывает только одно из двух условий"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p151_2"],
+      "sourceExampleRefs": ["p153#1240"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Число сторон у многоугольника без диагоналей",
+      "stemIdea": "Известно, что у многоугольника нет ни одной диагонали — указать число сторон и название фигуры",
+      "trapIdeas": [
+        "Ученик отвечает «четырёхугольник»",
+        "Ученик думает, что сторон ноль",
+        "Ученик путает с фигурой без углов"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p151_4", "PDF_p151_3"],
+      "sourceExampleRefs": [],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Отличие диагонали от стороны на чертеже",
+      "stemIdea": "На чертеже многоугольника проведены несколько отрезков; восстановить, какие из них — диагонали (несоседние вершины)",
+      "trapIdeas": [
+        "Ученик называет сторону диагональю",
+        "Ученик пропускает одну диагональ",
+        "Ученик считает диагональю любой отрезок из вершины"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Смежность вершин видна только на фигуре (sceneKind: polygon)",
+      "sourceRuleIds": ["PDF_p151_3"],
+      "sourceExampleRefs": ["p152#1233"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 5,
+      "skillFocus": "Длина равных диагоналей по периметрам частей",
+      "stemIdea": "Пятиугольник разбит двумя равными диагоналями на треугольники; даны P целого и P частей (структура 1246*, другие числа) — найти длину диагонали",
+      "trapIdeas": [
+        "Ученик сложил периметры частей без учёта двойного счёта диагоналей",
+        "Ученик неверно разделил разность периметров",
+        "Ученик принял сторону пятиугольника за диагональ"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Разбиение пятиугольника диагоналями без чертежа неоднозначно (sceneKind: polygon)",
+      "sourceRuleIds": ["PDF_p151_3", "PDF_p151_2"],
+      "sourceExampleRefs": ["p154#1246"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные условия определения многоугольника",
+      "stemIdea": "Выбрать все верные утверждения: смежные отрезки не на одной прямой; несмежные не пересекаются",
+      "trapIdeas": [
+        "Ученик включает вариант «стороны могут пересекаться»",
+        "Ученик путает смежные и несмежные отрезки",
+        "Ученик добавляет «должен быть выпуклым» в само определение"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p150_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные факты о сторонах, вершинах и углах",
+      "stemIdea": "Выбрать все верные утверждения: что называют сторонами, вершинами и углами; сторон столько же, сколько вершин",
+      "trapIdeas": [
+        "Ученик путает сторону с диагональю",
+        "Ученик думает, что углов меньше, чем вершин",
+        "Ученик называет вершиной середину стороны"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p150_2", "PDF_p150_3"],
+      "sourceExampleRefs": ["p151#2"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные названия фигур по числу сторон",
+      "stemIdea": "По рисунку нескольких многоугольников (в духе рис. 7.50, не тот же набор) выбрать все верно указанные названия",
+      "trapIdeas": [
+        "Ученик путает пятиугольник с шестиугольником",
+        "Ученик неверно считает видимые углы",
+        "Ученик называет четырёхугольник треугольником"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Название по числу сторон/углов на чертеже без рисунка невозможно (sceneKind: polygon)",
+      "sourceRuleIds": ["PDF_p151_4"],
+      "sourceExampleRefs": ["p152#1232"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные факты о диагоналях и треугольнике",
+      "stemIdea": "Не строя чертежи: выбрать все верные утверждения — что такое диагональ; у треугольника диагоналей нет; минимум сторон равен трём",
+      "trapIdeas": [
+        "Ученик считает диагональю любую сторону",
+        "Ученик думает, что у треугольника одна диагональ",
+        "Ученик считает минимум сторон равным 4"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p151_3", "PDF_p151_4"],
+      "sourceExampleRefs": ["p151#4"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные записи периметра в сюжетной задаче",
+      "stemIdea": "Сюжет про забор-многоугольник с данными сторонами — выбрать все верные утверждения о длине ограждения и формуле периметра",
+      "trapIdeas": [
+        "Ученик выбирает сумму без одной стороны",
+        "Ученик выбирает произведение сторон",
+        "Ученик путает периметр с площадью"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p151_2"],
+      "sourceExampleRefs": ["p151#3"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Верные свойства выпуклого многоугольника",
+      "stemIdea": "Не выполняя построений: выбрать все верные утверждения о выпуклом многоугольнике и о том, что рассматриваются только выпуклые",
+      "trapIdeas": [
+        "Ученик путает выпуклость с общим определением многоугольника",
+        "Ученик считает невыпуклую фигуру «не многоугольником»",
+        "Ученик требует равные стороны у выпуклого многоугольника"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p150_4"],
+      "sourceExampleRefs": [],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Верные выводы о равенстве и диагоналях на чертеже",
+      "stemIdea": "По рисунку (равные многоугольники и отмеченные отрезки) выбрать все верные утверждения о наложении и о том, какие отрезки — диагонали",
+      "trapIdeas": [
+        "Ученик считает равными лишь фигуры с равным периметром",
+        "Ученик называет сторону диагональю",
+        "Ученик путает наложение с «похожим видом» без совмещения"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Равенство наложением и диагонали проверяются по чертежу (sceneKind: polygon)",
+      "sourceRuleIds": ["PDF_p151_1", "PDF_p151_3"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Сравнение числа диагоналей четырёхугольника и пятиугольника",
+      "stemIdea": "Сравнить число диагоналей четырёхугольника и пятиугольника — выбрать все верные сравнения и числа; структура 1236, не единственный числовой клон",
+      "trapIdeas": [
+        "Ученик путает 2 и 5",
+        "Ученик считает диагонали как стороны",
+        "Ученик думает, что у пятиугольника диагоналей меньше"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Подсчёт и сравнение диагоналей двух фигур надёжнее по чертежу (sceneKind: polygon)",
+      "sourceRuleIds": ["PDF_p151_3"],
+      "sourceExampleRefs": ["p152#1236"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Восстановление длин диагоналей из периметров частей",
+      "stemIdea": "Многоугольник разбит диагоналями на части; даны периметры частей и целого, диагонали равны — выбрать все верные длины диагоналей (синтез в духе 1246*, другие числа)",
+      "trapIdeas": [
+        "Ученик не учитывает, что диагональ входит в два периметра частей",
+        "Ученик делит сумму периметров частей пополам без вычитания P",
+        "Ученик принимает сторону многоугольника за диагональ"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p151_3", "PDF_p151_2"],
+      "sourceExampleRefs": ["p154#1246"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Числовой периметр многоугольника",
+      "stemIdea": "Даны длины сторон шестиугольника — вписать периметр числом",
+      "trapIdeas": [
+        "Ученик сложил не все шесть сторон",
+        "Ученик умножил две стороны",
+        "Ученик пропустил одну сторону при сложении"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p151_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "skillFocus": "Расход проволоки на составную фигуру из квадратов",
+      "stemIdea": "Из равных квадратов из проволоки составлен прямоугольник (структура 1243, другие числа) — вписать расход проволоки в сантиметрах",
+      "trapIdeas": [
+        "Ученик считает только внешний периметр прямоугольника",
+        "Ученик забывает внутренние общие стороны квадратов",
+        "Ученик путает см и м при переводе"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p151_2"],
+      "sourceExampleRefs": ["p154#1243"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Подсчёт треугольников на составном чертеже",
+      "stemIdea": "По рисунку составной фигуры (в духе рис. 7.55, не клон) — вписать, сколько на нём треугольников",
+      "trapIdeas": [
+        "Ученик считает только самые мелкие треугольники",
+        "Ученик пропускает составные треугольники из двух частей",
+        "Ученик считает четырёхугольники как треугольники"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Подсчёт треугольников на составной фигуре без чертежа невозможен (sceneKind: polygon)",
+      "sourceRuleIds": ["PDF_p151_4"],
+      "sourceExampleRefs": ["p154#1242"],
+      "questionForm": "restore"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "Тема 7.4 only (многоугольники). Primary: PDF_p150_1–4, PDF_p151_1–4; углы многоугольника — как элементы фигуры (PDF_p150_2), не виды углов 7.3. Count 30 при recommendedMaxCount null. G017: questionForm ≤2 нереален → recall×4, compute×4, predict×4, verify×4, restore×4, word_problem×4, compare×3, inverse×3. visual-topics: 10 ILL, sceneKind polygon. Anti-dup vs 7.1/7.2/7.3: нет градусной меры, транспортира, видов углов как ядра."
+}

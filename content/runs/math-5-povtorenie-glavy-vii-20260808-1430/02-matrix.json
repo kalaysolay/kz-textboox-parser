@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-povtorenie-glavy-vii-20260808-1430",
+  "typeMixPlanned": { "SCQ": 5, "MCQ": 2, "FILL_IN": 1 },
+  "difficultyMixPlanned": { "1": 1, "2": 1, "3": 4, "4": 1, "5": 1 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Свойство биссектрисы: две равные половины",
+      "stemIdea": "Без чисел: луч назван биссектрисой — выбрать, что обязательно верно про два полученных угла (равенство мер / половина целого)",
+      "trapIdeas": [
+        "Ученик думает, что биссектриса делит угол на прямой и острый",
+        "Ученик путает с дополнением до 180°",
+        "Ученик считает, что половины могут быть разными"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["RC_p155_bisector_halves"],
+      "sourceExampleRefs": ["p155#1248"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Угол между стрелками в целое число часов",
+      "stemIdea": "Часы показывают 2 ч (не 3/4/5/6/10 ч из глав 7.1–7.3) — найти меньший угол между часовой и минутной стрелками; текст без рисунка",
+      "trapIdeas": [
+        "Ученик берёт 360°:12 = 30° и останавливается на одном делении",
+        "Ученик считает полный оборот 180° вместо 360°",
+        "Ученик берёт больший угол 300° вместо меньшего 60°"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["RC_p155_clock_hands_angle"],
+      "sourceExampleRefs": ["p155#1250"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Половина угла по биссектрисе при известном целом",
+      "stemIdea": "Биссектриса делит угол 96° (≠82°/110°/50° из №1248 и ≠70° из 7.1) — найти градусную меру каждого из двух полученных углов",
+      "trapIdeas": [
+        "Ученик вычитает 90° вместо деления пополам",
+        "Ученик дополняет до 180° (96°→84°)",
+        "Ученик удваивает меру вместо деления"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["RC_p155_bisector_halves"],
+      "sourceExampleRefs": ["p155#1248"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Смежные углы на прямой: сумма 180° с неизвестным x",
+      "stemIdea": "На прямой AB луч OC; ∠AOC=(x+40)°, ∠BOC=(x+20)° (≠x+60/x−20 из №1251) — восстановить меры обоих углов по сумме 180°",
+      "trapIdeas": [
+        "Ученик складывает выражения и приравнивает к 360°",
+        "Ученик находит только x и забывает подставить в меры",
+        "Ученик приравнивает два угла друг к другу без суммы 180°"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Stem опирается на конфигурацию прямой AB и луча OC (sceneKind angle); без чертежа обозначения углов неоднозначны",
+      "sourceRuleIds": ["RC_p155_adjacent_straight"],
+      "sourceExampleRefs": ["p155#1251"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Четвёртый угол четырёхугольника по сумме 360°",
+      "stemIdea": "В выпуклом четырёхугольнике даны три угла 70°, 95°, 85° (≠50°/120°/80° из №1252) — найти четвёртый угол",
+      "trapIdeas": [
+        "Ученик вычитает из 180° вместо 360°",
+        "Ученик складывает три угла и выдаёт сумму за ответ",
+        "Ученик вычитает из 270° или 90°"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["RC_p156_quad_angle_sum"],
+      "sourceExampleRefs": ["p156#1252"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q06",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Равные четырёхугольники по чертежу (наложение)",
+      "stemIdea": "По рисунку нескольких четырёхугольников (в духе рис. 7.58, другие буквы/номера, не клон пар) выбрать все пары фигур, которые равны наложением",
+      "trapIdeas": [
+        "Ученик считает равными все фигуры с одинаковым числом сторон",
+        "Ученик путает равенство с «похожестью» без совпадения размеров",
+        "Ученик отмечает только одну пару, пропуская вторую равную"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Равенство наложением проверяется только по чертежу (sceneKind polygon); без рисунка stem неполон",
+      "sourceRuleIds": ["RC_p155_equal_polygons"],
+      "sourceExampleRefs": ["p155#1249"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q07",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Верные факты повторения: биссектриса, развёрнутый угол, сумма углов четырёхугольника",
+      "stemIdea": "Без чертежа: выбрать все верные утверждения — биссектриса даёт две равные половины; смежные на прямой в сумме 180°; сумма углов выпуклого четырёхугольника 360°",
+      "trapIdeas": [
+        "Ученик принимает сумму углов четырёхугольника за 180°",
+        "Ученик путает биссектрису с лучом, делящим угол пополам «на глаз» без равенства мер",
+        "Ученик считает развёрнутый угол равным 360°"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": [
+        "RC_p155_bisector_halves",
+        "RC_p155_adjacent_straight",
+        "RC_p156_quad_angle_sum"
+      ],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q08",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Периметр четырёхугольника по всем попарным суммам сторон",
+      "stemIdea": "Даны шесть попарных сумм сторон 6; 9; 11; 8; 10; 13 см (≠7/8/10/9/11/12 из №1253*) — вписать периметр в сантиметрах",
+      "trapIdeas": [
+        "Ученик складывает все суммы без деления на 3",
+        "Ученик делит сумму попарных сумм на 2 или на 6",
+        "Ученик берёт наибольшую попарную сумму за периметр"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["RC_p156_perimeter_pairwise"],
+      "sourceExampleRefs": ["p156#1253"],
+      "questionForm": "word_problem"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready_unverified",
+    "unverifiedRuleIds": [
+      "RC_p155_bisector_halves",
+      "RC_p155_clock_hands_angle",
+      "RC_p155_adjacent_straight",
+      "RC_p155_equal_polygons",
+      "RC_p156_quad_angle_sum",
+      "RC_p156_perimeter_pairwise"
+    ]
+  },
+  "notes": "Пачка на 6 RC_* primary (ready_unverified) — нужна ручная сверка с бумажным учебником. Mix: биссектриса, стрелки часов, смежные на прямой, равные многоугольники, сумма углов четырёхугольника, периметр по попарным суммам. Anti-dup: часы 2 ч (не 3/4/5/6/10); биссектриса 96° (не 82/110/50/70); смежные x+40/x+20 (не x+60/x−20); углы четырёхугольника 70/95/85 (не 50/120/80); попарные суммы 6/9/11/8/10/13. Иллюстрации только 2/8 (angle + polygon): смежные на прямой и равные четырёхугольники — без protractor. questionForm ≤2: recall/restore/inverse/word_problem по 1, compute/verify по 2. Prerequisite R014/PDF_* только в trapIdeas-смысле, не в sourceRuleIds."
+}

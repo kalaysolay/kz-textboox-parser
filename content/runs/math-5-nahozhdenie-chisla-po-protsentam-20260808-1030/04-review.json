@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-nahozhdenie-chisla-po-protsentam-20260808-1030",
+  "reviewedAt": "2026-08-08T11:45:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 29,
+    "fixed": 1,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "B — найти 100%-ное значение, если известна часть = данное число %",
+      "keyAnswer": "B — Нужно найти 100%-ное значение величины, если известна её часть, составляющая данное число процентов",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "B — выразить % дробью и разделить часть на эту дробь",
+      "keyAnswer": "B — Выразить проценты дробью и разделить данное число (часть) на эту дробь",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "36 (=9:0,25)",
+      "keyAnswer": "A — 36",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "700 (1%=35:5=7; 7·100=700)",
+      "keyAnswer": "D — 700",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "C — 48:(12/100) или (48:12)·100",
+      "keyAnswer": "C — Разделить $48$ на $\\dfrac{12}{100}$ (или выполнить $(48 : 12) \\cdot 100$)",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "D — умножить 2 на 100",
+      "keyAnswer": "D — Умножить $2$ на $100$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "C — (b:P)·100 = b:(P/100)",
+      "keyAnswer": "C — $(b : P) \\cdot 100 = b : \\dfrac{P}{100}$ — один и тот же результат (нахождение числа по процентам)",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "400 (=168:0,42)",
+      "keyAnswer": "A — 400",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "200 (=236:1,18; 236=118% плана)",
+      "keyAnswer": "C — 200",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "8000 тг (=6400:0,8)",
+      "keyAnswer": "D — $8000$ тг",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "C — 96:0,24=400",
+      "keyAnswer": "C — $96 : 0{,}24 = 400$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "B — оба способа дают 300",
+      "keyAnswer": "B — Верны оба: $45 : \\dfrac{15}{100} = 300$ и $45 : 0{,}15 = 300$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "A — первое 240 > второе 41,(6)",
+      "keyAnswer": "A — Первое число больше",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "160 (=56:0,35)",
+      "keyAnswer": "D — 160",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "8 (=64:8)",
+      "keyAnswer": "A — 8",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "status": "accepted",
+      "solvedAnswer": "C — на 28/100 = 0,28",
+      "keyAnswer": "C — На $\\dfrac{28}{100}$ (то есть на $0{,}28$)",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "160 см² (длина 20; 8·20)",
+      "keyAnswer": "C — $160$ см$^2$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "6000 тг (5280:0,8:1,1)",
+      "keyAnswer": "C — $6000$ тг",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A, C",
+      "keyAnswer": "A — Число $21$ составляет $15\\%$ некоторого числа. Найдите это число | C — После уценки на $10\\%$ цена стала $450$ тг. Найдите цену до уценки",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "A, B, C",
+      "keyAnswer": "A — $50 : \\dfrac{20}{100}$ | B — $50 : 0{,}2$ | C — $(50 : 20) \\cdot 100$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "A, B",
+      "keyAnswer": "A — $a$ — искомое число, соответствующее $100\\%$ | B — $P$ — число процентов; $b$ — известная часть, составляющая $P\\%$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "A, B, D (C неверно: 30:0,75=40, не 22,5)",
+      "keyAnswer": "A — Если $15\\%$ длины равны $24$ см, то вся длина равна $160$ см | B — Если $25\\%$ массы равны $9$ кг, то вся масса равна $36$ кг | D — Если $8\\%$ пути равны $56$ км, то весь путь равен $700$ км",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "A, C, D",
+      "keyAnswer": "A — Изготовили на $18\\%$ больше плана: результат составляет $118\\%$ плана | C — После уценки на $10\\%$ новая цена составляет $90\\%$ исходной | D — Проехали $74\\%$ пути: оставшаяся часть составляет $26\\%$ всего пути",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "A, C (5%→120; 75%→32)",
+      "keyAnswer": "A — Если $5\\%$ числа равны $40\\%$ от $15$, то число равно $120$ | C — Если $75\\%$ числа равны $30\\%$ от $80$, то число равно $32$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A, C (третья полка 35%=28 ⇒ всего 80)",
+      "keyAnswer": "A — $\\dfrac{1}{4} + 40\\% = 65\\%$ всех книг, значит на третьей полке $35\\%$ всех книг | C — $28$ книг составляют $35\\%$ всех книг, поэтому всего книг $28 : 0{,}35 = 80$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "fixed",
+      "solvedAnswer": "A, B, D (медь 30%; разность 40%; сумма 100%)",
+      "keyAnswer": "A — Меди в сплаве $30\\%$ | B — Разность масс $240$ г соответствует $40\\%$ сплава | D — Сумма процентов алюминия и меди равна $100\\%$, а не $140\\%$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": "explanationRu/Kk: опечатка «складывать проценты как 100%» → «как 140%» (согласовано с верным D: сумма = 100%, не 140%)."
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "A, C (путь 600 км; сплав 720 г)",
+      "keyAnswer": "A — Автотуристы проехали в 1-й день $40\\%$, во 2-й — $35\\%$ пути, в 3-й — оставшиеся $150$ км. Весь путь равен $600$ км | C — В сплаве $75\\%$ алюминия и $25\\%$ меди; алюминия на $360$ г больше меди. Масса сплава равна $720$ г",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "180 (=28,8:0,16)",
+      "keyAnswer": "[[1]] = 180",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "accepted",
+      "solvedAnswer": "150 км (остаток 32%=48 ⇒ 48:0,32)",
+      "keyAnswer": "[[1]] = 150",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "6 кг (последняя доля 35%=2,1 ⇒ 2,1:0,35)",
+      "keyAnswer": "[[1]] = 6",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

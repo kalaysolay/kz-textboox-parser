@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-istor-arifmeticheskih-deystviy-20260808-2030",
+  "createdAt": "2026-08-08T20:30:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "История возникновения арифметических действий, знаков равенства и неравенства",
+  "topicKk": "Арифметикалық амалдардың, теңдік және теңсіздік белгілерінің пайда болу тарихы",
+  "topicSlug": "istor-arifmeticheskih-deystviy",
+  "topicCode": null,
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 10,
+  "typeMix": { "SCQ": 6, "MCQ": 3, "FILL_IN": 1 },
+  "difficultyMix": { "1": 1, "2": 1, "3": 5, "4": 2, "5": 1 },
+  "illustrationPolicy": "visual-topics",
+  "illustrationFor": [],
+  "parsedTextbookPath": "Математика/parsed/math_aldamuratova_5grade_part1_parsed_v2.json",
+  "methodistInstruction": "Формулировки для 5 класса: короткие, однозначные, без двусмысленности и лишних условий. Supplementary historical topic pages 28–29. Count reduced 30→10 per recommendedMaxCount (SCQ6/MCQ3/FILL_IN1 ≈60/30/10). topicCode null. pdfOffset=0. Anti-dup vs C1–C5 and C3 historical. Avoid inventing glyph/year details beyond slice rules.",
+  "languageMode": "BOTH"
+}

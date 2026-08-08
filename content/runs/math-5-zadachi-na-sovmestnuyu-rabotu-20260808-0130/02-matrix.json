@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-zadachi-na-sovmestnuyu-rabotu-20260808-0130",
+  "typeMixPlanned": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMixPlanned": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Узнавание принципа «объём работы = 1»",
+      "stemIdea": "Выбрать верную формулировку: при решении задач на совместную работу объём работы (бассейна, расстояние) принимают за единицу",
+      "trapIdeas": [
+        "Ученик думает, что объём всегда принимают за сумму времён участников",
+        "Ученик считает, что за единицу берут производительность самого быстрого",
+        "Ученик путает с правилом «дробь от числа» и выбирает умножение на дробь"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p11_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Узнавание формулы совместной производительности",
+      "stemIdea": "Выбрать верное правило: общая производительность равна сумме производительностей; время вместе — единица, делённая на эту сумму",
+      "trapIdeas": [
+        "Ученик выбирает среднее арифметическое времён вместо суммы производительностей",
+        "Ученик думает, что время вместе — сумма времён в одиночку",
+        "Ученик считает, что нужно перемножить времена участников"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p12_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Производительность одного участника 1/t",
+      "stemIdea": "По данному времени в одиночку указать, какую часть работы участник делает за единицу времени",
+      "trapIdeas": [
+        "Ученик берёт само время t вместо 1/t",
+        "Ученик пишет t/1 вместо 1/t",
+        "Ученик делит время пополам «потому что двое»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p12_1"],
+      "sourceExampleRefs": ["p12#z1"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Время двух участников вместе (простые t)",
+      "stemIdea": "Два участника с временами, дающими удобную сумму 1/t₁+1/t₂; найти время совместной работы",
+      "trapIdeas": [
+        "Ученик берёт среднее арифметическое времён",
+        "Ученик складывает времена и делит на 2",
+        "Ученик оставляет сумму производительностей как ответ вместо обращения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p12_1"],
+      "sourceExampleRefs": ["p12#695"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Предсказать, быстрее ли вместе половины большего времени",
+      "stemIdea": "Без полного счёта сказать, будет ли время вместе меньше половины большего из двух времён",
+      "trapIdeas": [
+        "Ученик всегда отвечает «ровно половина большего»",
+        "Ученик думает, что вместе всегда ровно половина суммы времён",
+        "Ученик сравнивает с меньшим временем вместо большего"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p12_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Скорость течения по времени плота",
+      "stemIdea": "По времени плота на участке указать скорость течения как часть расстояния за час (S=1)",
+      "trapIdeas": [
+        "Ученик берёт время плота как скорость",
+        "Ученик вычитает времена вместо обращения",
+        "Ученик делит время лодки на время плота"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p12_2"],
+      "sourceExampleRefs": ["p12#z2"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Двое вместе — сюжет насосы/трубы",
+      "stemIdea": "Текстовая задача: два насоса (трубы) наполняют ёмкость; найти время при одновременной работе",
+      "trapIdeas": [
+        "Ученик складывает минуты и делит на 2",
+        "Ученик вычитает одно время из другого",
+        "Ученик правильно находит сумму производительностей, но забывает обратить"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p12_1"],
+      "sourceExampleRefs": ["p11#z1"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Трое вместе — сумма трёх производительностей",
+      "stemIdea": "Три мастера/участника с разными временами; найти время совместной работы",
+      "trapIdeas": [
+        "Ученик учитывает только двух самых быстрых",
+        "Ученик берёт среднее трёх времён",
+        "Ученик складывает три времени и делит на 3"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p12_1"],
+      "sourceExampleRefs": ["p13#695"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Проверка чужого решения «среднее времён»",
+      "stemIdea": "Дан чужой ответ «время вместе = среднее двух времён»; указать, верно ли и почему",
+      "trapIdeas": [
+        "Ученик соглашается со средним арифметическим",
+        "Ученик думает, что среднее верно только для равных времён",
+        "Ученик отвергает среднее, но предлагает сумму времён"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p12_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Проверка шага сложения производительностей",
+      "stemIdea": "В готовом решении проверить равенство вида 1/a+1/b = … и выбрать верный вывод",
+      "trapIdeas": [
+        "Ученик принимает сложение знаменателей без общего знаменателя",
+        "Ученик путает сумму дробей с произведением",
+        "Ученик принимает обращение суммы без проверки числителя"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p12_1"],
+      "sourceExampleRefs": ["p12#z1"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Восстановить пропущенную производительность в цепочке",
+      "stemIdea": "В образце решения пропущена одна из дробей 1/t; восстановить пропущенное значение",
+      "trapIdeas": [
+        "Ученик подставляет само время t",
+        "Ученик пишет разность времён",
+        "Ученик берёт сумму времён в знаменатель"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p12_1"],
+      "sourceExampleRefs": ["p12#z1"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Восстановить время по известной общей производительности",
+      "stemIdea": "Дана сумма производительностей как одна дробь; найти время совместной работы",
+      "trapIdeas": [
+        "Ученик оставляет дробь без обращения",
+        "Ученик умножает числитель на знаменатель",
+        "Ученик вычитает 1 из знаменателя"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p12_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сравнить время вместе для двух пар участников",
+      "stemIdea": "Две пары с разными временами; какая пара закончит работу раньше при совместной работе",
+      "trapIdeas": [
+        "Ученик сравнивает только меньшие времена в парах",
+        "Ученик сравнивает суммы времён без производительностей",
+        "Ученик выбирает пару с большим разбросом времён"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p12_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сравнить часть работы за час у двух участников",
+      "stemIdea": "Два участника с разными t; кто за 1 час делает большую часть работы",
+      "trapIdeas": [
+        "Ученик выбирает того, у кого больше время t (медленнее)",
+        "Ученик считает части равными, если оба «работают час»",
+        "Ученик сравнивает t−1 вместо 1/t"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p12_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Найти время одного по времени вместе и второго",
+      "stemIdea": "Известны время двоих вместе и время одного в одиночку; найти время второго",
+      "trapIdeas": [
+        "Ученик вычитает времена напрямую",
+        "Ученик делит время вместе на время одного",
+        "Ученик складывает производительности вместо вычитания"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p13_1"],
+      "sourceExampleRefs": ["p13#698"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Найти время сестры/третьего по образцу №699",
+      "stemIdea": "Трое вместе за T; даны t₁ и t₂; найти t₃",
+      "trapIdeas": [
+        "Ученик вычитает t₁ и t₂ из T",
+        "Ученик берёт среднее t₁ и t₂",
+        "Ученик забывает обратить производительность третьего"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p13_1"],
+      "sourceExampleRefs": ["p13#699"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Лодка по течению (сумма скоростей)",
+      "stemIdea": "Плот и лодка по озеру с данными временами; найти время лодки по течению",
+      "trapIdeas": [
+        "Ученик вычитает скорости вместо сложения",
+        "Ученик берёт среднее времён плота и лодки",
+        "Ученик отвечает временем плота"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p12_2"],
+      "sourceExampleRefs": ["p12#z2"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 5,
+      "skillFocus": "Катер по озеру из времён по течению и плота",
+      "stemIdea": "Даны время катера по течению и время плота; найти время катера по озеру (обратная к сумме)",
+      "trapIdeas": [
+        "Ученик складывает времена вместо вычитания скоростей",
+        "Ученик делит время по течению на время плота",
+        "Ученик отвечает разностью времён в часах без скоростей"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p12_2"],
+      "sourceExampleRefs": ["p15#714"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные утверждения о методе совместной работы",
+      "stemIdea": "Выбрать все верные утверждения: объём=1; производительность=1/t; вместе — сумма; время — обращение суммы",
+      "trapIdeas": [
+        "Ученик отмечает «время вместе = сумма времён»",
+        "Ученик отмечает «производительность = t»",
+        "Ученик отвергает принятие объёма за 1"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p11_1", "PDF_p12_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные равенства производительностей",
+      "stemIdea": "Из списка равенств 1/t и сумм выбрать все математически верные для данных времён",
+      "trapIdeas": [
+        "Ученик принимает 1/a+1/b = 1/(a+b)",
+        "Ученик принимает 1/a+1/b = (a+b)/(ab) без упрощения как «неверно»",
+        "Ученик путает сумму с разностью"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p12_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Корректные шаги образца «два насоса»",
+      "stemIdea": "Выбрать все шаги, которые обязаны быть в верном решении задачи на два насоса",
+      "trapIdeas": [
+        "Ученик включает шаг «сложить времена насосов»",
+        "Ученик включает «найти среднее времён»",
+        "Ученик пропускает обращение общей производительности"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p12_1"],
+      "sourceExampleRefs": ["p12#z1"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Какие пары закончат работу за то же время",
+      "stemIdea": "Дано время вместе T; отметить все пары (t₁,t₂), для которых 1/t₁+1/t₂ = 1/T",
+      "trapIdeas": [
+        "Ученик отмечает пары с t₁+t₂ = T",
+        "Ученик отмечает пары с одинаковым средним",
+        "Ученик пропускает пару с переставленными временами"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p12_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Верные следствия из «объём = 1»",
+      "stemIdea": "Выбрать все верные следствия принятия объёма работы за 1 для записи производительностей",
+      "trapIdeas": [
+        "Ученик считает, что тогда время всегда равно 1",
+        "Ученик думает, что производительности складывать нельзя",
+        "Ученик путает единицу объёма с единицей времени"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p11_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Приток и отток: верные выражения за час",
+      "stemIdea": "Две трубы наполняют, одна опустошает; отметить все верные выражения для изменения объёма за час",
+      "trapIdeas": [
+        "Ученик складывает все три производительности со знаком плюс",
+        "Ученик вычитает обе наполняющие из опустошающей",
+        "Ученик пишет разность времён вместо разности 1/t"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p13_2"],
+      "sourceExampleRefs": ["p13#700"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Частичная совместная работа: верные промежуточные факты",
+      "stemIdea": "Работали вместе часть времени, затем один доделал; отметить все верные утверждения о сделанной части",
+      "trapIdeas": [
+        "Ученик считает, что за совместное время сделана вся работа",
+        "Ученик игнорирует работу первого в одиночку в начале",
+        "Ученик складывает времена вместо долей работы"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p12_1"],
+      "sourceExampleRefs": ["p15#711"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Недостающий участник: верные формулы для 1/t₃",
+      "stemIdea": "Даны T_все, t₁, t₂; выбрать все верные записи для производительности третьего",
+      "trapIdeas": [
+        "Ученик пишет 1/t₃ = 1/T + 1/t₁ + 1/t₂",
+        "Ученик пишет t₃ = T − t₁ − t₂",
+        "Ученик меняет местами T и t₁ в формуле"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p13_1"],
+      "sourceExampleRefs": ["p13#699"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Движение: верные скорости из времён",
+      "stemIdea": "По временам плота и лодки по озеру отметить все верные выражения скорости по течению",
+      "trapIdeas": [
+        "Ученик пишет разность времён как скорость",
+        "Ученик вычитает 1/t_озеро − 1/t_плот вместо суммы",
+        "Ученик принимает среднее времён"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p12_2"],
+      "sourceExampleRefs": ["p12#z2"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Вычислить время двоих вместе (число)",
+      "stemIdea": "Два участника с удобными t₁, t₂; вписать время совместной работы числом",
+      "trapIdeas": [
+        "Ученик вписывает среднее времён",
+        "Ученик вписывает сумму производительностей без обращения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p12_1"],
+      "sourceExampleRefs": ["p12#695"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "skillFocus": "Вычислить время недостающего участника",
+      "stemIdea": "T_все и два известных t; вписать время третьего в минутах или часах",
+      "trapIdeas": [
+        "Ученик вписывает T − t₁ − t₂",
+        "Ученик путает часы и минуты"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p13_1"],
+      "sourceExampleRefs": ["p13#699"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Часть объёма за час при притоке и оттоке",
+      "stemIdea": "Две трубы наполняют, одна опустошает; вписать какую часть бассейна наполнят за час (дробь)",
+      "trapIdeas": [
+        "Ученик складывает все три 1/t со знаком плюс",
+        "Ученик вписывает время наполнения вместо части за час"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p13_2"],
+      "sourceExampleRefs": ["p13#700"],
+      "questionForm": "compute"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "count=30: жёсткий лимит «≤2 на questionForm» из скилла невыполним (8 форм ×2 =16); диверсификация best-effort (G017). typeMix 18/9/3, difficultyMix 2/4/15/6/3. needsIllustration везде false (visual-topics: stem полон без рисунка). FILL_IN q28–q30. PDF_p13_2: q24, q30."
+}

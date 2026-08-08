@@ -1,0 +1,680 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-transportir-izmerenie-postroenie-20260808-1300",
+  "sourceFinal": "05-questions.final.json",
+  "styleProfile": "aldamuratova-textbook-simple",
+  "items": [
+    {
+      "localId": "q04",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Две схемы наложения транспортира на ∠AOB (полуокружность+центр); верная не подсвечена",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q04.svg",
+        "format": "svg",
+        "width": 560,
+        "height": 340,
+        "raster": {
+          "path": "illustrations/q04.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 560,
+        "height": 340,
+        "figures": [
+          {
+            "cx": 140,
+            "cy": 210,
+            "rayLength": 130,
+            "vertexLabel": "O",
+            "vertexOffset": { "x": -14, "y": 16 },
+            "rays": [
+              { "label": "A", "deg": 0 },
+              { "label": "B", "deg": 55 }
+            ],
+            "showArc": true,
+            "showDegree": false,
+            "caption": "1",
+            "captionX": 140,
+            "captionY": 310
+          },
+          {
+            "cx": 140,
+            "cy": 210,
+            "rayLength": 110,
+            "vertexLabel": "",
+            "rays": [
+              { "label": "", "deg": 0 },
+              { "label": "", "deg": 180 }
+            ],
+            "arcs": [
+              { "fromDeg": 0, "toDeg": 180, "radius": 95 }
+            ],
+            "points": [
+              { "id": "0°", "deg": 0, "t": 0.92, "labelDx": 10, "labelDy": 16 }
+            ]
+          },
+          {
+            "cx": 400,
+            "cy": 210,
+            "rayLength": 130,
+            "vertexLabel": "O",
+            "vertexOffset": { "x": -14, "y": 16 },
+            "rays": [
+              { "label": "A", "deg": 0 },
+              { "label": "B", "deg": 55 }
+            ],
+            "showArc": true,
+            "showDegree": false,
+            "caption": "2",
+            "captionX": 400,
+            "captionY": 310
+          },
+          {
+            "cx": 430,
+            "cy": 175,
+            "rayLength": 110,
+            "vertexLabel": "",
+            "rays": [
+              { "label": "", "deg": 15 },
+              { "label": "", "deg": 195 }
+            ],
+            "arcs": [
+              { "fromDeg": 15, "toDeg": 195, "radius": 95 }
+            ],
+            "points": [
+              { "id": "0°", "deg": 15, "t": 0.92, "labelDx": 8, "labelDy": 16 }
+            ]
+          }
+        ]
+      },
+      "notes": "protractor unsupported → angle figures: semicircle+diameter as overlay; схема 1 центр=O и 0° на OA, схема 2 смещена"
+    },
+    {
+      "localId": "q07",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Угол EOD для измерения по чертежу; градус ответа не подписан",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q07.svg",
+        "format": "svg",
+        "width": 420,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q07.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 420,
+        "height": 360,
+        "cx": 160,
+        "cy": 260,
+        "rayLength": 220,
+        "vertexLabel": "O",
+        "armALabel": "E",
+        "armCLabel": "D",
+        "degrees": 45,
+        "startDegrees": 15,
+        "showArc": true,
+        "showDegree": false,
+        "vertexOffset": {
+          "x": -16,
+          "y": 6
+        }
+      },
+      "notes": null
+    },
+    {
+      "localId": "q09",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "∠KLM с наложением полуокружности; центр смещён от L",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q09.svg",
+        "format": "svg",
+        "width": 480,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q09.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 480,
+        "height": 360,
+        "figures": [
+          {
+            "cx": 220,
+            "cy": 240,
+            "rayLength": 180,
+            "vertexLabel": "L",
+            "vertexOffset": { "x": -16, "y": 18 },
+            "rays": [
+              { "label": "K", "deg": 10 },
+              { "label": "M", "deg": 70 }
+            ],
+            "showArc": true,
+            "showDegree": false
+          },
+          {
+            "cx": 255,
+            "cy": 200,
+            "rayLength": 150,
+            "vertexLabel": "",
+            "rays": [
+              { "label": "", "deg": 10 },
+              { "label": "", "deg": 190 }
+            ],
+            "arcs": [
+              { "fromDeg": 10, "toDeg": 190, "radius": 120 }
+            ],
+            "points": [
+              { "id": "0°", "deg": 10, "t": 0.9, "labelDx": 12, "labelDy": 14 }
+            ]
+          }
+        ]
+      },
+      "notes": "protractor unsupported → angle: semicircle overlay с центром не в L; мера угла не подписана"
+    },
+    {
+      "localId": "q15",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Лучи OK, ON, OL с данными мерами из stem; проверка разности",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q15.svg",
+        "format": "svg",
+        "width": 480,
+        "height": 400,
+        "raster": {
+          "path": "illustrations/q15.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 480,
+        "height": 400,
+        "cx": 200,
+        "cy": 300,
+        "rayLength": 240,
+        "vertexLabel": "O",
+        "rays": [
+          {
+            "label": "K",
+            "deg": 10
+          },
+          {
+            "label": "N",
+            "deg": 45
+          },
+          {
+            "label": "L",
+            "deg": 90
+          }
+        ],
+        "arcs": [
+          {
+            "fromDeg": 10,
+            "toDeg": 45,
+            "label": "35°",
+            "radius": 52
+          },
+          {
+            "fromDeg": 45,
+            "toDeg": 90,
+            "label": "45°",
+            "radius": 52
+          },
+          {
+            "fromDeg": 10,
+            "toDeg": 90,
+            "label": "80°",
+            "radius": 78
+          }
+        ],
+        "vertexOffset": {
+          "x": -16,
+          "y": 8
+        }
+      },
+      "notes": "Подписаны данные 35°/45°/80°; ответ — вердикт верно/неверно"
+    },
+    {
+      "localId": "q16",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "polygon",
+      "purpose": "Треугольник ABC для измерения углов и суммы; градусы на рисунке не подписаны",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q16.svg",
+        "format": "svg",
+        "width": 480,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q16.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "polygon",
+        "width": 480,
+        "height": 360,
+        "vertices": [
+          {
+            "id": "A",
+            "x": 238,
+            "y": 60
+          },
+          {
+            "id": "B",
+            "x": 100,
+            "y": 300
+          },
+          {
+            "id": "C",
+            "x": 350,
+            "y": 300
+          }
+        ]
+      },
+      "notes": "Углы ~55°/60°/65° геометрией; сумма 180° не подписана"
+    },
+    {
+      "localId": "q18",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Соседние углы на прямой EF; пропущенный ∠LON не подписан",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q18.svg",
+        "format": "svg",
+        "width": 560,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q18.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 560,
+        "height": 360,
+        "cx": 280,
+        "cy": 240,
+        "rayLength": 170,
+        "vertexLabel": "O",
+        "rays": [
+          {
+            "label": "E",
+            "deg": 180
+          },
+          {
+            "label": "K",
+            "deg": 140
+          },
+          {
+            "label": "L",
+            "deg": 105
+          },
+          {
+            "label": "N",
+            "deg": 40
+          },
+          {
+            "label": "F",
+            "deg": 0
+          }
+        ],
+        "arcs": [
+          {
+            "fromDeg": 140,
+            "toDeg": 180,
+            "label": "40°",
+            "radius": 44
+          },
+          {
+            "fromDeg": 105,
+            "toDeg": 140,
+            "label": "35°",
+            "radius": 56
+          },
+          {
+            "fromDeg": 0,
+            "toDeg": 40,
+            "label": "40°",
+            "radius": 44
+          }
+        ],
+        "vertexOffset": {
+          "x": 0,
+          "y": 22
+        },
+        "vertexAnchor": "middle"
+      },
+      "notes": "protractor unsupported → angle; подписаны 40°/35°/40°, не 65°"
+    },
+    {
+      "localId": "q21",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Три угла разных мер без подписи градусов (anti-leak options)",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q21.svg",
+        "format": "svg",
+        "width": 560,
+        "height": 400,
+        "raster": {
+          "path": "illustrations/q21.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 560,
+        "height": 400,
+        "cx": 260,
+        "cy": 280,
+        "rayLength": 220,
+        "vertexLabel": "O",
+        "rays": [
+          {
+            "label": "A",
+            "deg": 5
+          },
+          {
+            "label": "C",
+            "deg": 55
+          },
+          {
+            "label": "E",
+            "deg": 100
+          },
+          {
+            "label": "F",
+            "deg": 170
+          },
+          {
+            "label": "D",
+            "deg": 210
+          }
+        ],
+        "arcs": [
+          {
+            "fromDeg": 5,
+            "toDeg": 55,
+            "radius": 48
+          },
+          {
+            "fromDeg": 100,
+            "toDeg": 210,
+            "radius": 62
+          },
+          {
+            "fromDeg": 100,
+            "toDeg": 170,
+            "radius": 40
+          }
+        ],
+        "vertexOffset": {
+          "x": -14,
+          "y": 8
+        }
+      },
+      "notes": "∠AOC (50°) соответствует ∠ABC условия — одна вершина в kind=angle; ∠EOD=110° и ∠EOF=70° без подписей"
+    },
+    {
+      "localId": "q25",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Пересекающиеся прямые; угол 1 отмечен дугой, мера только в stem",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q25.svg",
+        "format": "svg",
+        "width": 480,
+        "height": 400,
+        "raster": {
+          "path": "illustrations/q25.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 480,
+        "height": 400,
+        "cx": 240,
+        "cy": 220,
+        "rayLength": 200,
+        "vertexLabel": "O",
+        "rays": [
+          {
+            "label": "",
+            "deg": 0
+          },
+          {
+            "label": "",
+            "deg": 55
+          },
+          {
+            "label": "",
+            "deg": 180
+          },
+          {
+            "label": "",
+            "deg": 235
+          }
+        ],
+        "arcs": [
+          {
+            "fromDeg": 0,
+            "toDeg": 55,
+            "label": "1",
+            "radius": 42
+          }
+        ],
+        "vertexOffset": {
+          "x": 12,
+          "y": 18
+        },
+        "vertexAnchor": "start"
+      },
+      "notes": null
+    },
+    {
+      "localId": "q26",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "polygon",
+      "purpose": "Четырёхугольник ABCD; меры даны в stem, на рисунке не подписаны",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q26.svg",
+        "format": "svg",
+        "width": 480,
+        "height": 400,
+        "raster": {
+          "path": "illustrations/q26.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "polygon",
+        "width": 480,
+        "height": 400,
+        "vertices": [
+          {
+            "id": "A",
+            "x": 110,
+            "y": 300
+          },
+          {
+            "id": "B",
+            "x": 390,
+            "y": 280
+          },
+          {
+            "id": "C",
+            "x": 350,
+            "y": 90
+          },
+          {
+            "id": "D",
+            "x": 90,
+            "y": 120
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q27",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Циферблат 8:20 — стрелки без подписи 130°/230°",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q27.svg",
+        "format": "svg",
+        "width": 420,
+        "height": 420,
+        "raster": {
+          "path": "illustrations/q27.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 420,
+        "height": 420,
+        "cx": 210,
+        "cy": 210,
+        "rayLength": 150,
+        "vertexLabel": "O",
+        "rays": [
+          {
+            "label": "12",
+            "deg": 90
+          },
+          {
+            "label": "3",
+            "deg": 0
+          },
+          {
+            "label": "6",
+            "deg": 270
+          },
+          {
+            "label": "9",
+            "deg": 180
+          },
+          {
+            "label": "",
+            "deg": 330
+          },
+          {
+            "label": "",
+            "deg": 200
+          }
+        ],
+        "arcs": [
+          {
+            "fromDeg": 200,
+            "toDeg": 330,
+            "radius": 55
+          }
+        ],
+        "vertexOffset": {
+          "x": 14,
+          "y": 14
+        },
+        "vertexAnchor": "start"
+      },
+      "notes": null
+    },
+    {
+      "localId": "q30",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Три соседних угла на прямой; средний (ответ 70°) не подписан",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q30.svg",
+        "format": "svg",
+        "width": 560,
+        "height": 300,
+        "raster": {
+          "path": "illustrations/q30.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 560,
+        "height": 300,
+        "cx": 280,
+        "cy": 190,
+        "rayLength": 190,
+        "vertexLabel": "O",
+        "rays": [
+          {
+            "label": "",
+            "deg": 180
+          },
+          {
+            "label": "",
+            "deg": 150
+          },
+          {
+            "label": "",
+            "deg": 80
+          },
+          {
+            "label": "",
+            "deg": 0
+          }
+        ],
+        "arcs": [
+          {
+            "fromDeg": 150,
+            "toDeg": 180,
+            "label": "30°",
+            "radius": 48
+          },
+          {
+            "fromDeg": 0,
+            "toDeg": 80,
+            "label": "80°",
+            "radius": 48
+          }
+        ],
+        "vertexOffset": {
+          "x": 0,
+          "y": 22
+        },
+        "vertexAnchor": "middle"
+      },
+      "notes": "protractor unsupported → angle; подписаны 30° и 80°"
+    }
+  ]
+}

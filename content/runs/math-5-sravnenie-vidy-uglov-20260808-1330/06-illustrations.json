@@ -1,0 +1,777 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-sravnenie-vidy-uglov-20260808-1330",
+  "sourceFinal": "05-questions.final.json",
+  "styleProfile": "aldamuratova-textbook-simple",
+  "items": [
+    {
+      "localId": "q07",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Показать угол AOB внутри AOC с общей стороной OA",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q07.svg",
+        "format": "svg",
+        "width": 480,
+        "height": 400,
+        "raster": {
+          "path": "illustrations/q07.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 480,
+        "height": 400,
+        "cx": 200,
+        "cy": 300,
+        "rayLength": 250,
+        "vertexLabel": "O",
+        "rays": [
+          {
+            "label": "A",
+            "deg": 10
+          },
+          {
+            "label": "B",
+            "deg": 45
+          },
+          {
+            "label": "C",
+            "deg": 85
+          }
+        ],
+        "arcs": [
+          {
+            "fromDeg": 10,
+            "toDeg": 45,
+            "radius": 48
+          },
+          {
+            "fromDeg": 10,
+            "toDeg": 85,
+            "radius": 72
+          }
+        ],
+        "vertexOffset": {
+          "x": -16,
+          "y": 10
+        }
+      },
+      "notes": "Сравнение не подписано на рисунке"
+    },
+    {
+      "localId": "q08",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Показать квадратик прямого угла COD на чертеже",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q08.svg",
+        "format": "svg",
+        "width": 420,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q08.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 420,
+        "height": 360,
+        "cx": 180,
+        "cy": 260,
+        "rayLength": 220,
+        "vertexLabel": "O",
+        "rays": [
+          {
+            "label": "C",
+            "deg": 8
+          },
+          {
+            "label": "D",
+            "deg": 98
+          }
+        ],
+        "showArc": false,
+        "rightAngleMarks": [
+          {
+            "fromDeg": 8,
+            "toDeg": 98,
+            "size": 16
+          }
+        ],
+        "vertexOffset": {
+          "x": -16,
+          "y": 10
+        }
+      },
+      "notes": "Квадратик — условие; 90° не подписано числом"
+    },
+    {
+      "localId": "q12",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Показать чертежный треугольник на лучах OD и OC",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q12.svg",
+        "format": "svg",
+        "width": 480,
+        "height": 400,
+        "raster": {
+          "path": "illustrations/q12.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 480,
+        "height": 400,
+        "cx": 200,
+        "cy": 300,
+        "rayLength": 250,
+        "vertexLabel": "O",
+        "rays": [
+          {
+            "label": "D",
+            "deg": 5
+          },
+          {
+            "label": "C",
+            "deg": 95
+          }
+        ],
+        "showArc": false,
+        "triangleOverlay": {
+          "legA": {
+            "deg": 5,
+            "t": 0.62
+          },
+          "legB": {
+            "deg": 95,
+            "t": 0.62
+          }
+        },
+        "vertexOffset": {
+          "x": -16,
+          "y": 10
+        }
+      },
+      "notes": "Без подписи 90°; вид прямого читается по угольнику"
+    },
+    {
+      "localId": "q14",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Показать прямой AOB, острый FNC и тупой FNK",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q14.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q14.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 720,
+        "height": 360,
+        "figures": [
+          {
+            "cx": 160,
+            "cy": 260,
+            "rayLength": 170,
+            "vertexLabel": "O",
+            "rays": [
+              {
+                "label": "A",
+                "deg": 8
+              },
+              {
+                "label": "B",
+                "deg": 98
+              }
+            ],
+            "showArc": false,
+            "rightAngleMarks": [
+              {
+                "fromDeg": 8,
+                "toDeg": 98,
+                "size": 14
+              }
+            ],
+            "vertexOffset": {
+              "x": -14,
+              "y": 10
+            }
+          },
+          {
+            "cx": 480,
+            "cy": 250,
+            "rayLength": 180,
+            "vertexLabel": "N",
+            "rays": [
+              {
+                "label": "F",
+                "deg": 5
+              },
+              {
+                "label": "C",
+                "deg": 48
+              },
+              {
+                "label": "K",
+                "deg": 135
+              }
+            ],
+            "arcs": [
+              {
+                "fromDeg": 5,
+                "toDeg": 48,
+                "radius": 42
+              },
+              {
+                "fromDeg": 5,
+                "toDeg": 135,
+                "radius": 68
+              }
+            ],
+            "vertexOffset": {
+              "x": -14,
+              "y": 10
+            }
+          }
+        ]
+      },
+      "notes": "Виды не подписаны словами"
+    },
+    {
+      "localId": "q16",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Прямой EFN с лучом FK; дана мера KFN=35°, искомая EFK не подписана",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q16.svg",
+        "format": "svg",
+        "width": 480,
+        "height": 400,
+        "raster": {
+          "path": "illustrations/q16.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 480,
+        "height": 400,
+        "cx": 210,
+        "cy": 300,
+        "rayLength": 240,
+        "vertexLabel": "F",
+        "rays": [
+          {
+            "label": "N",
+            "deg": 5
+          },
+          {
+            "label": "K",
+            "deg": 40
+          },
+          {
+            "label": "E",
+            "deg": 95
+          }
+        ],
+        "arcs": [
+          {
+            "fromDeg": 5,
+            "toDeg": 40,
+            "label": "35°",
+            "radius": 52
+          }
+        ],
+        "rightAngleMarks": [
+          {
+            "fromDeg": 5,
+            "toDeg": 95,
+            "size": 16
+          }
+        ],
+        "vertexOffset": {
+          "x": -16,
+          "y": 10
+        }
+      },
+      "notes": "Ответ 55° не подписан"
+    },
+    {
+      "localId": "q18",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Развёрнутый AOB с лучом OC; дана AOC=40°, цепочка сравнений не подписана",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q18.svg",
+        "format": "svg",
+        "width": 560,
+        "height": 320,
+        "raster": {
+          "path": "illustrations/q18.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 560,
+        "height": 320,
+        "cx": 280,
+        "cy": 220,
+        "rayLength": 230,
+        "vertexLabel": "O",
+        "rays": [
+          {
+            "label": "A",
+            "deg": 0
+          },
+          {
+            "label": "C",
+            "deg": 40
+          },
+          {
+            "label": "B",
+            "deg": 180
+          }
+        ],
+        "arcs": [
+          {
+            "fromDeg": 0,
+            "toDeg": 40,
+            "label": "40°",
+            "radius": 50
+          }
+        ],
+        "vertexOffset": {
+          "x": 0,
+          "y": 22
+        },
+        "vertexAnchor": "middle"
+      },
+      "notes": "COB и цепочка сравнений не подписаны"
+    },
+    {
+      "localId": "q21",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Три угла: острый PKN, прямой AOB (квадратик), тупой DEF",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q21.svg",
+        "format": "svg",
+        "width": 840,
+        "height": 340,
+        "raster": {
+          "path": "illustrations/q21.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 840,
+        "height": 340,
+        "figures": [
+          {
+            "cx": 140,
+            "cy": 240,
+            "rayLength": 130,
+            "vertexLabel": "K",
+            "rays": [
+              {
+                "label": "P",
+                "deg": 15
+              },
+              {
+                "label": "N",
+                "deg": 55
+              }
+            ],
+            "showArc": true,
+            "showDegree": false,
+            "vertexOffset": {
+              "x": -14,
+              "y": 10
+            }
+          },
+          {
+            "cx": 400,
+            "cy": 240,
+            "rayLength": 130,
+            "vertexLabel": "O",
+            "rays": [
+              {
+                "label": "A",
+                "deg": 8
+              },
+              {
+                "label": "B",
+                "deg": 98
+              }
+            ],
+            "showArc": false,
+            "rightAngleMarks": [
+              {
+                "fromDeg": 8,
+                "toDeg": 98,
+                "size": 14
+              }
+            ],
+            "vertexOffset": {
+              "x": -14,
+              "y": 10
+            }
+          },
+          {
+            "cx": 680,
+            "cy": 240,
+            "rayLength": 130,
+            "vertexLabel": "E",
+            "rays": [
+              {
+                "label": "D",
+                "deg": 20
+              },
+              {
+                "label": "F",
+                "deg": 145
+              }
+            ],
+            "showArc": true,
+            "showDegree": false,
+            "vertexOffset": {
+              "x": -14,
+              "y": 10
+            }
+          }
+        ]
+      },
+      "notes": "Названия видов не подписаны словами"
+    },
+    {
+      "localId": "q25",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Три угла разного раствора с вершинами A, E, D для сравнения",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q25.svg",
+        "format": "svg",
+        "width": 780,
+        "height": 320,
+        "raster": {
+          "path": "illustrations/q25.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 780,
+        "height": 320,
+        "figures": [
+          {
+            "cx": 130,
+            "cy": 230,
+            "rayLength": 140,
+            "vertexLabel": "A",
+            "rays": [
+              {
+                "label": "",
+                "deg": 20
+              },
+              {
+                "label": "",
+                "deg": 50
+              }
+            ],
+            "showArc": true,
+            "showDegree": false,
+            "vertexOffset": {
+              "x": -14,
+              "y": 10
+            }
+          },
+          {
+            "cx": 390,
+            "cy": 230,
+            "rayLength": 140,
+            "vertexLabel": "E",
+            "rays": [
+              {
+                "label": "",
+                "deg": 15
+              },
+              {
+                "label": "",
+                "deg": 80
+              }
+            ],
+            "showArc": true,
+            "showDegree": false,
+            "vertexOffset": {
+              "x": -14,
+              "y": 10
+            }
+          },
+          {
+            "cx": 650,
+            "cy": 230,
+            "rayLength": 140,
+            "vertexLabel": "D",
+            "rays": [
+              {
+                "label": "",
+                "deg": 5
+              },
+              {
+                "label": "",
+                "deg": 130
+              }
+            ],
+            "showArc": true,
+            "showDegree": false,
+            "vertexOffset": {
+              "x": -14,
+              "y": 10
+            }
+          }
+        ]
+      },
+      "notes": "Знаки < / > не на рисунке"
+    },
+    {
+      "localId": "q26",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Четыре угла с дужками равенства; 45° только у угла 1",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q26.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 520,
+        "raster": {
+          "path": "illustrations/q26.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 720,
+        "height": 520,
+        "figures": [
+          {
+            "cx": 160,
+            "cy": 180,
+            "rayLength": 130,
+            "vertexLabel": "",
+            "rays": [
+              {
+                "label": "",
+                "deg": 15
+              },
+              {
+                "label": "",
+                "deg": 60
+              }
+            ],
+            "arcs": [
+              {
+                "fromDeg": 15,
+                "toDeg": 60,
+                "label": "45°",
+                "radius": 40
+              }
+            ],
+            "caption": "1",
+            "captionX": 160,
+            "captionY": 55
+          },
+          {
+            "cx": 520,
+            "cy": 180,
+            "rayLength": 130,
+            "vertexLabel": "",
+            "rays": [
+              {
+                "label": "",
+                "deg": 15
+              },
+              {
+                "label": "",
+                "deg": 80
+              }
+            ],
+            "arcs": [
+              {
+                "fromDeg": 15,
+                "toDeg": 80,
+                "radius": 36
+              },
+              {
+                "fromDeg": 15,
+                "toDeg": 80,
+                "radius": 48
+              }
+            ],
+            "caption": "2",
+            "captionX": 520,
+            "captionY": 55
+          },
+          {
+            "cx": 160,
+            "cy": 430,
+            "rayLength": 130,
+            "vertexLabel": "",
+            "rays": [
+              {
+                "label": "",
+                "deg": 15
+              },
+              {
+                "label": "",
+                "deg": 60
+              }
+            ],
+            "arcs": [
+              {
+                "fromDeg": 15,
+                "toDeg": 60,
+                "radius": 40
+              }
+            ],
+            "caption": "3",
+            "captionX": 160,
+            "captionY": 305
+          },
+          {
+            "cx": 520,
+            "cy": 430,
+            "rayLength": 130,
+            "vertexLabel": "",
+            "rays": [
+              {
+                "label": "",
+                "deg": 15
+              },
+              {
+                "label": "",
+                "deg": 80
+              }
+            ],
+            "arcs": [
+              {
+                "fromDeg": 15,
+                "toDeg": 80,
+                "radius": 36
+              },
+              {
+                "fromDeg": 15,
+                "toDeg": 80,
+                "radius": 48
+              }
+            ],
+            "caption": "4",
+            "captionX": 520,
+            "captionY": 305
+          }
+        ]
+      },
+      "notes": "∠3=45° не подписан; равные пары по числу дужек"
+    },
+    {
+      "localId": "q30",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Прямой ABC с лучами BD, BE; даны 20° и 35° на крайних частях, средняя не подписана",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q30.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 420,
+        "raster": {
+          "path": "illustrations/q30.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 520,
+        "height": 420,
+        "cx": 220,
+        "cy": 320,
+        "rayLength": 250,
+        "vertexLabel": "B",
+        "rays": [
+          {
+            "label": "C",
+            "deg": 5
+          },
+          {
+            "label": "E",
+            "deg": 40
+          },
+          {
+            "label": "D",
+            "deg": 70
+          },
+          {
+            "label": "A",
+            "deg": 95
+          }
+        ],
+        "arcs": [
+          {
+            "fromDeg": 70,
+            "toDeg": 95,
+            "label": "20°",
+            "radius": 48
+          },
+          {
+            "fromDeg": 5,
+            "toDeg": 40,
+            "label": "35°",
+            "radius": 48
+          }
+        ],
+        "rightAngleMarks": [
+          {
+            "fromDeg": 5,
+            "toDeg": 95,
+            "size": 11
+          }
+        ],
+        "vertexOffset": {
+          "x": -16,
+          "y": 10
+        }
+      },
+      "notes": "∠DBE не подписан"
+    }
+  ]
+}

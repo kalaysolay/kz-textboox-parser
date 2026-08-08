@@ -1,0 +1,789 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-mnozhestvo-elementy-izobrazheniya-20260808-0800",
+  "sourceFinal": "05-questions.final.json",
+  "styleProfile": "aldamuratova-textbook-simple",
+  "items": [
+    {
+      "localId": "q07",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_euler",
+      "purpose": "Показать точки внутри и вне круга A; верное перечисление только в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q07.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q07.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_euler",
+        "width": 520,
+        "height": 360,
+        "sets": [
+          {
+            "id": "A",
+            "cx": 240,
+            "cy": 190,
+            "r": 120
+          }
+        ],
+        "elements": [
+          {
+            "label": "3",
+            "x": 195,
+            "y": 145
+          },
+          {
+            "label": "5",
+            "x": 280,
+            "y": 145
+          },
+          {
+            "label": "9",
+            "x": 195,
+            "y": 235
+          },
+          {
+            "label": "12",
+            "x": 285,
+            "y": 235
+          },
+          {
+            "label": "4",
+            "x": 420,
+            "y": 100
+          },
+          {
+            "label": "8",
+            "x": 420,
+            "y": 280
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q11",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_euler",
+      "purpose": "Показать положение точки 5 вне круга A среди других точек",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q11.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q11.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_euler",
+        "width": 520,
+        "height": 360,
+        "sets": [
+          {
+            "id": "A",
+            "cx": 240,
+            "cy": 190,
+            "r": 120
+          }
+        ],
+        "elements": [
+          {
+            "label": "2",
+            "x": 195,
+            "y": 150
+          },
+          {
+            "label": "6",
+            "x": 280,
+            "y": 150
+          },
+          {
+            "label": "10",
+            "x": 240,
+            "y": 240
+          },
+          {
+            "label": "5",
+            "x": 420,
+            "y": 120
+          },
+          {
+            "label": "b",
+            "x": 420,
+            "y": 260
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q15",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_euler",
+      "purpose": "Показать элементы внутри круга A для сопоставления со списками",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q15.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q15.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_euler",
+        "width": 520,
+        "height": 360,
+        "sets": [
+          {
+            "id": "A",
+            "cx": 240,
+            "cy": 190,
+            "r": 120
+          }
+        ],
+        "elements": [
+          {
+            "label": "4",
+            "x": 195,
+            "y": 150
+          },
+          {
+            "label": "7",
+            "x": 280,
+            "y": 150
+          },
+          {
+            "label": "10",
+            "x": 240,
+            "y": 240
+          },
+          {
+            "label": "5",
+            "x": 420,
+            "y": 110
+          },
+          {
+            "label": "9",
+            "x": 420,
+            "y": 270
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q16",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_euler",
+      "purpose": "Показать все точки A, чтобы восстановить пропуск в перечислении",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q16.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q16.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_euler",
+        "width": 520,
+        "height": 360,
+        "sets": [
+          {
+            "id": "A",
+            "cx": 240,
+            "cy": 190,
+            "r": 120
+          }
+        ],
+        "elements": [
+          {
+            "label": "1",
+            "x": 190,
+            "y": 145
+          },
+          {
+            "label": "8",
+            "x": 285,
+            "y": 145
+          },
+          {
+            "label": "11",
+            "x": 190,
+            "y": 235
+          },
+          {
+            "label": "14",
+            "x": 290,
+            "y": 235
+          },
+          {
+            "label": "6",
+            "x": 420,
+            "y": 180
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q18",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_euler",
+      "purpose": "Четыре варианта размещения точек на кругах A и B; верный вариант не выделен",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q18.svg",
+        "format": "svg",
+        "width": 680,
+        "height": 560,
+        "raster": {
+          "path": "illustrations/q18.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_euler",
+        "width": 680,
+        "height": 560,
+        "sets": [
+          {
+            "id": "A",
+            "cx": 130,
+            "cy": 150,
+            "r": 70
+          },
+          {
+            "id": "B",
+            "cx": 200,
+            "cy": 150,
+            "r": 70
+          },
+          {
+            "id": "A",
+            "cx": 450,
+            "cy": 150,
+            "r": 70
+          },
+          {
+            "id": "B",
+            "cx": 520,
+            "cy": 150,
+            "r": 70
+          },
+          {
+            "id": "A",
+            "cx": 130,
+            "cy": 410,
+            "r": 70
+          },
+          {
+            "id": "B",
+            "cx": 200,
+            "cy": 410,
+            "r": 70
+          },
+          {
+            "id": "A",
+            "cx": 420,
+            "cy": 410,
+            "r": 60
+          },
+          {
+            "id": "B",
+            "cx": 580,
+            "cy": 410,
+            "r": 60
+          }
+        ],
+        "elements": [
+          {
+            "label": "1",
+            "x": 165,
+            "y": 45
+          },
+          {
+            "label": "2",
+            "x": 100,
+            "y": 150
+          },
+          {
+            "label": "4",
+            "x": 165,
+            "y": 150
+          },
+          {
+            "label": "6",
+            "x": 100,
+            "y": 185
+          },
+          {
+            "label": "9",
+            "x": 230,
+            "y": 150
+          },
+          {
+            "label": "2",
+            "x": 485,
+            "y": 45
+          },
+          {
+            "label": "2",
+            "x": 485,
+            "y": 135
+          },
+          {
+            "label": "4",
+            "x": 485,
+            "y": 165
+          },
+          {
+            "label": "6",
+            "x": 550,
+            "y": 150
+          },
+          {
+            "label": "9",
+            "x": 550,
+            "y": 185
+          },
+          {
+            "label": "3",
+            "x": 165,
+            "y": 305
+          },
+          {
+            "label": "2",
+            "x": 150,
+            "y": 395
+          },
+          {
+            "label": "4",
+            "x": 180,
+            "y": 425
+          },
+          {
+            "label": "6",
+            "x": 95,
+            "y": 410
+          },
+          {
+            "label": "9",
+            "x": 235,
+            "y": 410
+          },
+          {
+            "label": "4",
+            "x": 500,
+            "y": 305
+          },
+          {
+            "label": "2",
+            "x": 400,
+            "y": 400
+          },
+          {
+            "label": "4",
+            "x": 430,
+            "y": 430
+          },
+          {
+            "label": "6",
+            "x": 410,
+            "y": 410
+          },
+          {
+            "label": "9",
+            "x": 580,
+            "y": 410
+          }
+        ]
+      },
+      "notes": "Четыре панели в одном set_euler: вариант 3 верный по фактам stem, без подсветки"
+    },
+    {
+      "localId": "q19",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_euler",
+      "purpose": "Показать точки внутри/вне A для проверки нескольких записей ∈/∉",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q19.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q19.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_euler",
+        "width": 520,
+        "height": 360,
+        "sets": [
+          {
+            "id": "A",
+            "cx": 240,
+            "cy": 190,
+            "r": 120
+          }
+        ],
+        "elements": [
+          {
+            "label": "3",
+            "x": 200,
+            "y": 170
+          },
+          {
+            "label": "7",
+            "x": 280,
+            "y": 210
+          },
+          {
+            "label": "5",
+            "x": 420,
+            "y": 120
+          },
+          {
+            "label": "m",
+            "x": 420,
+            "y": 260
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q20",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_euler",
+      "purpose": "Показать элементы A и внешние точки для перечисления, n(A) и ∉",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q20.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q20.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_euler",
+        "width": 520,
+        "height": 360,
+        "sets": [
+          {
+            "id": "A",
+            "cx": 240,
+            "cy": 190,
+            "r": 120
+          }
+        ],
+        "elements": [
+          {
+            "label": "8",
+            "x": 195,
+            "y": 150
+          },
+          {
+            "label": "12",
+            "x": 280,
+            "y": 150
+          },
+          {
+            "label": "16",
+            "x": 240,
+            "y": 240
+          },
+          {
+            "label": "9",
+            "x": 420,
+            "y": 110
+          },
+          {
+            "label": "15",
+            "x": 420,
+            "y": 270
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q25",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_venn",
+      "purpose": "Два круга A и B с точками в трёх зонах для чтения перечислений и n(A)",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q25.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q25.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_venn",
+        "width": 520,
+        "height": 360,
+        "radius": 110,
+        "setALabel": "A",
+        "setBLabel": "B",
+        "elements": [
+          {
+            "label": "8",
+            "region": "A",
+            "x": 145,
+            "y": 165
+          },
+          {
+            "label": "14",
+            "region": "A",
+            "x": 145,
+            "y": 210
+          },
+          {
+            "label": "2",
+            "region": "AB",
+            "x": 250,
+            "y": 165
+          },
+          {
+            "label": "6",
+            "region": "AB",
+            "x": 270,
+            "y": 210
+          },
+          {
+            "label": "10",
+            "region": "B",
+            "x": 375,
+            "y": 165
+          },
+          {
+            "label": "12",
+            "region": "B",
+            "x": 375,
+            "y": 210
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q26",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_venn",
+      "purpose": "Два круга A и B для проверки описаний принадлежности по зонам",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q26.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q26.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_venn",
+        "width": 520,
+        "height": 360,
+        "radius": 110,
+        "setALabel": "A",
+        "setBLabel": "B",
+        "elements": [
+          {
+            "label": "4",
+            "region": "A",
+            "x": 145,
+            "y": 187
+          },
+          {
+            "label": "5",
+            "region": "AB",
+            "x": 250,
+            "y": 165
+          },
+          {
+            "label": "9",
+            "region": "AB",
+            "x": 270,
+            "y": 210
+          },
+          {
+            "label": "11",
+            "region": "B",
+            "x": 375,
+            "y": 187
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q27",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_euler",
+      "purpose": "Кандидатная диаграмма A с нечётными внутри и чётными вне",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q27.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q27.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_euler",
+        "width": 520,
+        "height": 360,
+        "sets": [
+          {
+            "id": "A",
+            "cx": 240,
+            "cy": 190,
+            "r": 120
+          }
+        ],
+        "elements": [
+          {
+            "label": "1",
+            "x": 195,
+            "y": 150
+          },
+          {
+            "label": "3",
+            "x": 280,
+            "y": 150
+          },
+          {
+            "label": "5",
+            "x": 240,
+            "y": 240
+          },
+          {
+            "label": "2",
+            "x": 420,
+            "y": 100
+          },
+          {
+            "label": "4",
+            "x": 420,
+            "y": 190
+          },
+          {
+            "label": "6",
+            "x": 420,
+            "y": 280
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q29",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_euler",
+      "purpose": "Пять точек внутри A и две вне для подсчёта n(A); число ответа не подписано",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q29.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q29.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_euler",
+        "width": 520,
+        "height": 360,
+        "sets": [
+          {
+            "id": "A",
+            "cx": 240,
+            "cy": 190,
+            "r": 120
+          }
+        ],
+        "elements": [
+          {
+            "label": "2",
+            "x": 190,
+            "y": 140
+          },
+          {
+            "label": "4",
+            "x": 285,
+            "y": 140
+          },
+          {
+            "label": "6",
+            "x": 190,
+            "y": 210
+          },
+          {
+            "label": "8",
+            "x": 285,
+            "y": 210
+          },
+          {
+            "label": "10",
+            "x": 240,
+            "y": 255
+          },
+          {
+            "label": "1",
+            "x": 420,
+            "y": 120
+          },
+          {
+            "label": "3",
+            "x": 420,
+            "y": 260
+          }
+        ]
+      },
+      "notes": null
+    }
+  ]
+}

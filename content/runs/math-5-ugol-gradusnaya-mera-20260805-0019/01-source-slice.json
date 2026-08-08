@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-ugol-gradusnaya-mera-20260805-0019",
+  "textbook": {
+    "path": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+    "pdfPath": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/Математика Алдамуратова Т. учебник для 5 класса Часть 2.pdf",
+    "titleRu": "Математика. Учебник для учащихся 5 класса общеобразовательной школы",
+    "authorsShort": "Алдамуратова",
+    "grade": 5,
+    "part": 2,
+    "publisher": "Атамура",
+    "year": 2017
+  },
+  "unit": {
+    "lessonNo": 21,
+    "section": "VII",
+    "sectionTitle": "Углы. Многоугольники",
+    "topicCode": "7.1",
+    "topicTitle": "Угол. Градусная мера угла",
+    "pageStart": 133,
+    "pageEnd": 137,
+    "supplementary": false
+  },
+  "textbookRef": "Алдамуратова, 5 кл, ч.2, стр. 133-137",
+  "rules": [
+    {
+      "ruleId": "PDF_p133_1",
+      "name": "Определение угла",
+      "statement": "Угол — это фигура, образованная двумя лучами, имеющими общее начало.",
+      "formula": null,
+      "sourcePages": [133],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_133.png «Проверьте себя» п.2; key facts p.137 формулируют близко: «Угол — это два луча с общим началом»"
+    },
+    {
+      "ruleId": "PDF_p133_2",
+      "name": "Стороны и вершина угла",
+      "statement": "Лучи, образующие угол, называют сторонами угла. Точку, от которой начинаются лучи, называют вершиной угла. Например, лучи OA и OB — стороны угла AOB; точка O — вершина угла AOB.",
+      "formula": null,
+      "sourcePages": [133, 137],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_133.png «Проверьте себя» п.3–4; сводка «Ключевые факты» page_137.png п.1"
+    },
+    {
+      "ruleId": "PDF_p134_1",
+      "name": "Обозначение угла",
+      "statement": "Обозначить угол можно двумя способами: 1) тремя заглавными буквами, причём буква, обозначающая вершину угла, пишется в середине — угол AOB; 2) одной большой буквой, поставленной у вершины угла, — угол E. При обозначении угла вместо слова «угол» пишут знак «∠». Читают: «угол AOB»; «угол E».",
+      "formula": "∠AOB, ∠E",
+      "sourcePages": [133, 134],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_133.png (начало) + page_134.png (продолжение списка способов и знак ∠)"
+    },
+    {
+      "ruleId": "PDF_p134_2",
+      "name": "Дополнительные лучи и развёрнутый угол",
+      "statement": "Лучи, на которые точка разбивает прямую, называют дополнительными лучами. Два дополнительных друг другу луча образуют развёрнутый угол. Градусная мера развёрнутого угла равна 180°.",
+      "formula": "развёрнутый угол = 180°",
+      "sourcePages": [134],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_134.png рамки у рис. 7.2 + текст о градусной мере развёрнутого угла; key facts p.137: «Противоположные лучи составляют развёрнутый угол»"
+    },
+    {
+      "ruleId": "PDF_p134_3",
+      "name": "Градус и градусная мера угла",
+      "statement": "Угол, равный 1/180 доле развёрнутого угла, принят за единицу измерения угла, называемую градусом. 1 градус — это единица измерения углов. Градусы обозначают знаком «°». Величину угла, выраженную в градусах, называют градусной мерой угла.",
+      "formula": "1° = 1/180 развёрнутого угла",
+      "sourcePages": [134],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_134.png раздел «II. Градусная мера угла»; перекрёстно parsed R014 (см. gaps: в parsed — 360°, в уроке опора на 180°)"
+    },
+    {
+      "ruleId": "PDF_p134_4",
+      "name": "Биссектриса угла",
+      "statement": "Биссектрисой угла называется луч с началом в вершине угла, делящий угол на два равных угла.",
+      "formula": "если OF — биссектриса ∠EOK, то ∠EOF = ∠FOK",
+      "sourcePages": [134],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_134.png рамка у рис. 7.3"
+    },
+    {
+      "ruleId": "PDF_p135_1",
+      "name": "Сумма углов с общей стороной",
+      "statement": "Если луч проходит между сторонами угла, то градусная мера угла равна сумме градусных мер углов, на которые этот луч его разбивает. Пример: углы ABD и DBC имеют общую вершину B и общую сторону BD; ∠ABC = ∠ABD + ∠DBC. Если ∠ABD = 55° и ∠DBC = 30°, то ∠ABC = 55° + 30° = 85°.",
+      "formula": "∠ABC = ∠ABD + ∠DBC",
+      "sourcePages": [135],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_135.png продолжение разбора рис. 7.4"
+    }
+  ],
+  "verbatimExamples": [
+    {
+      "exactPage": 134,
+      "text": "На рисунке 7.3 изображён угол EOK и луч OF, делящий его на два равных угла. ∠EOK = 52°, ∠EOF = 26°, ∠FOK = 26°. Такой луч называется биссектрисой угла. Луч OF — биссектриса угла EOK.",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "Разобранный пример к определению биссектрисы"
+    },
+    {
+      "exactPage": 135,
+      "text": "Углы ABC и DBC имеют общую вершину — точку B и общую сторону BD. Угол ABC является суммой углов ABD и DBC. Пишутся: ∠ABC = ∠ABD + ∠DBC. Если ∠ABD = 55° и ∠DBC = 30°, то ∠ABC = 55° + 30° = 85°, ∠ABC = 85°.",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "Разобранный пример сложения смежных частей угла"
+    },
+    {
+      "exactPage": 135,
+      "text": "1185. Дан угол NOP (рис. 7.5). Назовите точки, принадлежащие углу NOP, и точки, ему не принадлежащие.",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "Нужен рис. 7.5 (точки внутри/вне угла)"
+    },
+    {
+      "exactPage": 135,
+      "text": "1186. Назовите углы, изображённые на рисунке 7.6. Запишите их обозначения.",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "Три угла на рис. 7.6; тренировка обозначения"
+    },
+    {
+      "exactPage": 135,
+      "text": "1187. Начертите лучи PS и ST так, чтобы эти лучи были дополнительными. Обозначьте полученный развёрнутый угол. Назовите стороны угла и его вершину.",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": null
+    },
+    {
+      "exactPage": 135,
+      "text": "1188. Начертите лучи AB, AC и AD. Запишите названия полученных трёх углов, сторонами которых являются эти лучи.",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": null
+    },
+    {
+      "exactPage": 135,
+      "text": "1189. По рисунку 7.7 (а, б) найдите градусную меру угла DOF. а) на развёрнутом ∠EOF луч OD, ∠DOE = 40°; б) на развёрнутом ∠EOF лучи OD, ON, OK, ∠DON = 40°, ∠NOK = 50°, ∠KOF = 20°.",
+      "taskType": "geometry",
+      "confidence": "medium_ocr",
+      "usable": true,
+      "note": "Числа и подписи сверены с png page_135.png (OCR путает буквы); ожидаемо а) 140°, б) 110°"
+    },
+    {
+      "exactPage": 136,
+      "text": "1190. 1) Луч OC — биссектриса угла AOB. ∠AOC = 45°. Определите градусную меру угла AOB (рис. 7.8). 2) Угол, который образует биссектриса с одной стороной угла, равен 35°. Чему равен данный угол?",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "Ответы: 90°; 70°"
+    },
+    {
+      "exactPage": 136,
+      "text": "1191. Какой угол образуют минутная и часовая стрелки часов в 6 часов? Как называется такой угол?",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "180°, развёрнутый угол"
+    },
+    {
+      "exactPage": 136,
+      "text": "1192. Решите задачу с помощью уравнения. Угол MOK равен 120° (рис. 7.9). Внутри угла проведён луч OD. Угол MOD больше угла DOK на 50°. Сколько градусов содержит угол DOK?",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "x + (x+50) = 120 → DOK = 35°"
+    },
+    {
+      "exactPage": 136,
+      "text": "1193. На рисунке 7.10 ∠EOP = 110° и ∠NOF = 130°. Найдите градусную меру угла NOP.",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "Прямая EOF; ответ 60° (110+130−180)"
+    },
+    {
+      "exactPage": 136,
+      "text": "1194. Луч OD проходит между сторонами угла EOF. ∠EOF = 90° (рис. 7.11). ∠EOD меньше угла DOF в 2 раза. Найдите ∠EOD и ∠DOF.",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "30° и 60°"
+    },
+    {
+      "exactPage": 136,
+      "text": "1195. На рисунке 7.12 изображён угол EOD с градусной мерой 80°, ∠AOE = ∠DOB. Найдите градусную меру угла AOE.",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "AOB — развёрнутый; (180−80)/2 = 50°"
+    },
+    {
+      "exactPage": 137,
+      "text": "1196.* Часы показывают время 1 час 25 минут. Сколько градусов составляет угол между часовой и минутной стрелками?",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "Уровень C; нужна формула положения стрелок"
+    },
+    {
+      "exactPage": 137,
+      "text": "1197. На рисунке 7.13 ∠AOB = 50°, ∠BOC = 70°. Найдите градусную меру угла, образованного биссектрисами углов AOB и BOC. A. 55°; B. 48°; C. 60°; D. 65°.",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "Ответ C. 60°"
+    },
+    {
+      "exactPage": 137,
+      "text": "1198. На рисунке 7.14 изображены ∠AOB = 110° и лучи OC, OD. ∠AOD = 80°, ∠COB = 50°. Найдите градусную меру угла COD.",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "20°"
+    },
+    {
+      "exactPage": 137,
+      "text": "1199. Угол DOB составляет 25% угла AOB. Угол EOD больше угла DOB на 15° (рис. 7.15). Найдите градусную меру AOE.",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "AOB развёрнутый 180°; DOB=45°, EOD=60°, AOE=75°"
+    },
+    {
+      "exactPage": 133,
+      "text": "1. Что общего в этих рисунках? 2. Как можно сформулировать определение угла? 3. Что такое сторона угла? 4. Что такое вершина угла?",
+      "taskType": "mixed",
+      "confidence": "high_verbatim",
+      "usable": false,
+      "note": "Наводящие вопросы до формулировки правила; для генерации заданий слабая опора"
+    }
+  ],
+  "structuralExamples": [
+    {
+      "taskType": "geometry",
+      "template": "Назови стороны и вершину угла AOB; запиши обозначение знаком ∠.",
+      "expectedSkill": "Определение угла, стороны, вершина, обозначение"
+    },
+    {
+      "taskType": "geometry",
+      "template": "Луч OC — биссектриса ∠AOB, ∠AOC = 45°. Найди ∠AOB.",
+      "expectedSkill": "Биссектриса удваивает полуугол"
+    },
+    {
+      "taskType": "geometry",
+      "template": "На развёрнутом угле EOF луч OD, ∠DOE = 40°. Найди ∠DOF.",
+      "expectedSkill": "Развёрнутый угол 180°, дополнение до 180°"
+    },
+    {
+      "taskType": "geometry",
+      "template": "∠ABC = ∠ABD + ∠DBC; даны 55° и 30°. Найди ∠ABC.",
+      "expectedSkill": "Сумма частей угла"
+    },
+    {
+      "taskType": "geometry",
+      "template": "Измерь угол транспортиром. Построй угол 65°. Назови виды углов.",
+      "expectedSkill": "Углы, транспортир, классификация (из parsed structural; транспортир — тема 7.2, брать осторожно)"
+    },
+    {
+      "taskType": "geometry",
+      "template": "Угол MOK = 120°. Луч OD внутри угла; ∠MOD на 50° больше ∠DOK. Найди ∠DOK уравнением.",
+      "expectedSkill": "Уравнение на сумму частей угла"
+    }
+  ],
+  "generatorProfile": {
+    "audience": "Учащиеся 5 класса общеобразовательных школ Республики Казахстан",
+    "taskMixRecommended": {
+      "calculation": 0.35,
+      "word_problem": 0.25,
+      "measurement": 0.05,
+      "geometry": 0.2,
+      "sets_logic": 0.15
+    },
+    "formatRules": [
+      "Три уровня сложности: А (базовый), В (продвинутый), С (творческий)",
+      "Десятичные дроби — запись через запятую (0,25)",
+      "Проценты — контекстные задачи (скидки, население, успеваемость)",
+      "Множества — диаграммы Эйлера–Венна, задачи на пересечение/объединение",
+      "Геометрия — транспортир, виды углов, развертки параллелепипеда"
+    ],
+    "safetyAndScope": [
+      "Программа 5 класса части 2: десятичные дроби, множества, проценты, углы, диаграммы, развертки",
+      "Не включать темы за пределами части 2 (алгебра 6+ класса)",
+      "Для темы 7.1: не уходить в измерение/построение транспортиром (это 7.2) и классификацию видов углов (это 7.3), кроме развёрнутого угла как определения урока"
+    ]
+  },
+  "blockStructureNotes": "Стр. 133 — глава VII, определение угла (рис. 7.1) и «Проверьте себя». Стр. 134 — обозначение ∠, дополнительные лучи/развёрнутый угол (рис. 7.2), градус и градусная мера, биссектриса (рис. 7.3–7.4). Стр. 135 — сумма частей угла, вопросы на повторение, упражнения А 1185–1189. Стр. 136 — уровень B 1190–1195 (биссектриса, часы, уравнения, развёрнутый). Стр. 137 — уровень C 1196–1199 и блок «Ключевые факты». Supplementary «Краткие сведения о градусе» (стр. 138) в диапазон не входил.",
+  "sliceStatus": "ready",
+  "recommendedMaxCount": null,
+  "gaps": [
+    "parsed R014 формулирует «полный угол равен 360°»; на стр. 133–137 урока опора — развёрнутый угол 180° и градус как 1/180 его доли; 360° в этом срезе не выписан",
+    "topic_rule_links в parsed отсутствуют — binding только page_in_range",
+    "OCR TXT сильно искажает буквы точек (О/Д/Р); формулировки сверены по PNG",
+    "Задания с чертежами (1185, 1186, 1189, 1193–1195, 1197–1199) для stem без иллюстрации нужно пересказывать данные числами",
+    "Structural-пример parsed про транспортир относится скорее к 7.2 — в пачке 7.1 не делать основным"
+  ],
+  "ocrConfidence": "medium"
+}

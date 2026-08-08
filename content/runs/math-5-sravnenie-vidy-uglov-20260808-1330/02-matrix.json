@@ -1,0 +1,522 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-sravnenie-vidy-uglov-20260808-1330",
+  "typeMixPlanned": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMixPlanned": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Градусная мера прямого угла",
+      "stemIdea": "Выбрать градусную меру прямого угла",
+      "trapIdeas": [
+        "Ученик отвечает 180° (путает с развёрнутым)",
+        "Ученик отвечает 360° (путает с полным)",
+        "Ученик отвечает 45° (путает с половиной прямого)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p144_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Определение острого угла по мере",
+      "stemIdea": "Выбрать верное определение острого угла (мера меньше 90°)",
+      "trapIdeas": [
+        "Ученик берёт определение тупого (больше 90°)",
+        "Ученик считает острым угол ровно 90°",
+        "Ученик путает острый с развёрнутым"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p145_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Прямой угол как половина развёрнутого",
+      "stemIdea": "Не вычисляя «в столбик»: чему равен прямой угол как половина развёрнутого",
+      "trapIdeas": [
+        "Ученик отвечает 180° вместо половины",
+        "Ученик отвечает 360° : 2",
+        "Ученик отвечает 45°"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p144_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Сравнение углов по градусным мерам",
+      "stemIdea": "Даны две градусные меры (≠30°/70° и ≠100°/60°) — выбрать верное неравенство углов",
+      "trapIdeas": [
+        "Ученик перепутал знак сравнения",
+        "Ученик считает углы равными при разных мерах",
+        "Ученик сравнивает «на глаз» и игнорирует данные меры"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p144_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Вычисление половины развёрнутого угла",
+      "stemIdea": "Найти градусную меру половины развёрнутого угла (180° : 2)",
+      "trapIdeas": [
+        "Ученик делит 360° пополам",
+        "Ученик вычитает 2 из 180°",
+        "Ученик умножает 180° на 2"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p144_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Вид угла между стрелками часов в 3 ч",
+      "stemIdea": "В 3 часа стрелки часов образуют угол — назвать вид угла (без измерения транспортиром)",
+      "trapIdeas": [
+        "Ученик называет угол тупым",
+        "Ученик называет угол развёрнутым",
+        "Ученик называет угол острым"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p144_2"],
+      "sourceExampleRefs": ["p146#1220"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сравнение углов наложением «внутри — меньше»",
+      "stemIdea": "По рисунку один угол целиком внутри другого — выбрать верное сравнение",
+      "trapIdeas": [
+        "Ученик считает внутренний угол большим",
+        "Ученик объявляет углы равными без совмещения сторон",
+        "Ученик сравнивает только по длине нарисованных сторон"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Без чертежа наложения «угол внутри угла» условие неполное (sceneKind: angle)",
+      "sourceRuleIds": ["PDF_p144_1", "PDF_p143_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Знак квадратика у прямого угла",
+      "stemIdea": "На чертеже у вершины угла стоит квадратик — восстановить вид и градусную меру угла",
+      "trapIdeas": [
+        "Ученик читает квадратик как острый угол",
+        "Ученик считает меру 180°",
+        "Ученик путает квадратик с дужкой равенства углов"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Знак квадратика на чертеже — часть условия (sceneKind: angle)",
+      "sourceRuleIds": ["PDF_p144_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Равные углы имеют равные градусные меры",
+      "stemIdea": "Даны два угла и утверждение о равенстве — проверить, согласованы ли равенство углов и равенство мер",
+      "trapIdeas": [
+        "Ученик считает равными углы с разными мерами",
+        "Ученик думает, что равные меры не означают равные углы",
+        "Ученик путает равенство с «один внутри другого»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p143_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Вид угла по градусной мере без чертежа",
+      "stemIdea": "Дана мера (≠40°/90°/110° эталона «Проверьте себя») — указать вид: острый, прямой или тупой",
+      "trapIdeas": [
+        "Ученик путает острый и тупой на границе 90°",
+        "Ученик называет тупым угол ровно 90°",
+        "Ученик называет острым угол больше 90°, но меньше 180°"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p145_1", "PDF_p145_2", "PDF_p144_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Дополнение до развёрнутого угла",
+      "stemIdea": "Развёрнутый угол, луч из вершины; дана одна часть (≠50°) — найти градусную меру второй части",
+      "trapIdeas": [
+        "Ученик вычитает из 90° вместо 180°",
+        "Ученик вычитает из 360°",
+        "Ученик складывает данное с 180°"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p144_1"],
+      "sourceExampleRefs": ["p146#1219"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Построение прямого угла чертежным треугольником",
+      "stemIdea": "По схеме: угольник вершиной в O, одна сторона по лучу OD — выбрать верный результат (какой угол прямой)",
+      "trapIdeas": [
+        "Ученик считает прямым угол у другой вершины угольника",
+        "Ученик думает, что нужен транспортир и без него построить нельзя",
+        "Ученик совмещает не прямой угол угольника с вершиной O"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Положение чертежного треугольника на луче без рисунка неоднозначно (sceneKind: angle; не protractor)",
+      "sourceRuleIds": ["PDF_p144_3"],
+      "sourceExampleRefs": [],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Вид угла между стрелками часов в 6 ч",
+      "stemIdea": "В 6 часов стрелки часов образуют угол — назвать вид (развёрнутый), не клон задания про 3 ч",
+      "trapIdeas": [
+        "Ученик называет угол прямым",
+        "Ученик называет угол полным",
+        "Ученик называет угол тупым"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p145_3"],
+      "sourceExampleRefs": ["p146#1220"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Классификация острого, прямого и тупого на чертеже",
+      "stemIdea": "По рисунку с тремя углами выбрать верную тройку названий видов",
+      "trapIdeas": [
+        "Ученик путает острый и тупой на глаз",
+        "Ученик не замечает квадратик прямого угла",
+        "Ученик называет тупой развёрнутым"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Идентификация видов по фигуре без чертежа невозможна (sceneKind: angle)",
+      "sourceRuleIds": ["PDF_p145_1", "PDF_p145_2", "PDF_p144_2"],
+      "sourceExampleRefs": ["p145#1216"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Вывод о мерах из равенства углов наложением",
+      "stemIdea": "Углы совместились при наложении — выбрать обязательный вывод о их градусных мерах",
+      "trapIdeas": [
+        "Ученик считает, что меры могут отличаться при совмещении",
+        "Ученик путает равенство с «один угол меньше»",
+        "Ученик думает, что нужны дужки на чертеже, иначе меры неравны"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p143_1", "PDF_p143_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Часть прямого угла по другой части",
+      "stemIdea": "Прямой угол, внутри луч; дана одна часть (≠55° из упр. 1222) — найти меру другой части",
+      "trapIdeas": [
+        "Ученик вычитает из 180° вместо 90°",
+        "Ученик складывает части вместо вычитания из прямого",
+        "Ученик вычитает из 360°"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Луч внутри прямого угла и знак прямого на чертеже задают условие (sceneKind: angle)",
+      "sourceRuleIds": ["PDF_p144_2"],
+      "sourceExampleRefs": ["p147#1222"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Результат построения прямого угла угольником",
+      "stemIdea": "По сюжету: чертежный треугольник совместили с лучом и провели второй луч — чему равен полученный угол и какой он вид",
+      "trapIdeas": [
+        "Ученик отвечает 45° (путает с биссектрисой прямого)",
+        "Ученик отвечает 180°",
+        "Ученик думает, что без транспортира мера неизвестна"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p144_3", "PDF_p144_2"],
+      "sourceExampleRefs": ["p146#1218"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 5,
+      "skillFocus": "Сравнение части, дополнения и развёрнутого угла",
+      "stemIdea": "Развёрнутый угол с лучом внутри; дана одна часть (≠50°) — выбрать верную цепочку сравнений части, дополнения и развёрнутого",
+      "trapIdeas": [
+        "Ученик ставит дополнение меньше данной части при части < 90°",
+        "Ученик сравнивает с прямым вместо развёрнутого",
+        "Ученик считает обе части равными развёрнутому"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Три угла на одном чертеже развёрнутой конфигурации без рисунка путаются (sceneKind: angle)",
+      "sourceRuleIds": ["PDF_p144_1"],
+      "sourceExampleRefs": ["p146#1219"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные определения видов углов по мере",
+      "stemIdea": "Выбрать все верные утверждения об остром, прямом и тупом угле по градусной мере",
+      "trapIdeas": [
+        "Ученик включает «тупой ≥ 180°»",
+        "Ученик считает прямым любой угол со знаком на чертеже без меры 90°",
+        "Ученик относит 90° к острым"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p145_1", "PDF_p145_2", "PDF_p144_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Отбор острых углов по списку мер",
+      "stemIdea": "Дан список градусных мер (без эталона 40°/90°/110°) — выбрать все меры острых углов",
+      "trapIdeas": [
+        "Ученик включает 90° в острые",
+        "Ученик включает тупые меры меньше 180°",
+        "Ученик исключает малую меру, думая что «слишком маленький — не угол»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p145_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные названия видов углов на одном чертеже",
+      "stemIdea": "По рисунку нескольких углов выбрать все верно указанные виды (острый/прямой/тупой)",
+      "trapIdeas": [
+        "Ученик путает острый и тупой на глаз",
+        "Ученик не учитывает квадратик прямого",
+        "Ученик называет тупой развёрнутым"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Несколько углов на чертеже — без фигуры нельзя проверить названия (sceneKind: angle)",
+      "sourceRuleIds": ["PDF_p145_1", "PDF_p145_2", "PDF_p144_2"],
+      "sourceExampleRefs": ["p145#1216"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные факты о равных углах и дужках",
+      "stemIdea": "Выбрать все верные утверждения: наложение, равные меры, одинаковое число дужек",
+      "trapIdeas": [
+        "Ученик считает, что дужки обозначают прямой угол",
+        "Ученик думает, что равные углы могут иметь разные меры",
+        "Ученик путает дужки равенства с квадратиком прямого"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p143_1", "PDF_p143_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные шаги построения прямого угла угольником",
+      "stemIdea": "Выбрать все верные действия алгоритма построения прямого угла чертежным треугольником",
+      "trapIdeas": [
+        "Ученик включает шаг «совместить центр транспортира» как обязательный",
+        "Ученик совмещает непрямой угол угольника с вершиной",
+        "Ученик проводит луч не по стороне угольника"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p144_3"],
+      "sourceExampleRefs": [],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Отбор тупых мер и факт о полном угле",
+      "stemIdea": "Не вычисляя построений: выбрать все верные пункты — какие меры тупые и чему равна мера полного угла",
+      "trapIdeas": [
+        "Ученик включает 90° или 180° в тупые",
+        "Ученик считает полный угол 180°",
+        "Ученик включает меры ≥ 180° в тупые"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p145_2", "PDF_p145_3"],
+      "sourceExampleRefs": [],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Верные неравенства при сравнении углов на чертеже",
+      "stemIdea": "По рисунку углов разного раствора выбрать все верные сравнения со знаками < и >",
+      "trapIdeas": [
+        "Ученик перепутал знаки, глядя на длины сторон",
+        "Ученик считает равными углы с общим лучом",
+        "Ученик сравнивает с прямым без опоры на рисунок"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Сравнение «на глаз»/наложением нескольких углов требует чертежа (sceneKind: angle)",
+      "sourceRuleIds": ["PDF_p144_1", "PDF_p143_1"],
+      "sourceExampleRefs": ["p147#1221"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Выводы из дужек равенства на чертеже",
+      "stemIdea": "По рисунку с дужками у равных углов выбрать все верные равенства углов и мер",
+      "trapIdeas": [
+        "Ученик уравнивает углы с разным числом дужек",
+        "Ученик игнорирует дужки и сравнивает только «на глаз»",
+        "Ученик путает дужки с обозначением прямого угла"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Дужки равенства на чертеже — носитель условия (sceneKind: angle)",
+      "sourceRuleIds": ["PDF_p143_1", "PDF_p143_2"],
+      "sourceExampleRefs": ["p146#1217"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Верные утверждения о видах углов и биссектрисе развёрнутого",
+      "stemIdea": "Выбрать все верные утверждения в духе упр. 1224: острый < тупого; биссектриса развёрнутого даёт два прямых; определение угла с общим началом",
+      "trapIdeas": [
+        "Ученик принимает «биссектриса развёрнутого даёт острый и тупой»",
+        "Ученик принимает «угол из любых двух лучей без общего начала»",
+        "Ученик отвергает «любой острый меньше любого тупого»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p145_1", "PDF_p145_2", "PDF_p144_2", "PDF_p145_3"],
+      "sourceExampleRefs": ["p147#1224"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Числовая мера половины развёрнутого угла",
+      "stemIdea": "Вписать градусную меру прямого угла как половины развёрнутого числом",
+      "trapIdeas": [
+        "Ученик вписывает 180",
+        "Ученик вписывает 45"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p144_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "skillFocus": "Мера угла между стрелками в 4 ч",
+      "stemIdea": "В 4 часа стрелки образуют угол 120° — вписать градусную меру числом (вид тупой — в объяснении; не клон заданий только на вид)",
+      "trapIdeas": [
+        "Ученик вписывает 90 (как в 3 ч)",
+        "Ученик вписывает 180 (как в 6 ч)",
+        "Ученик ошибочно считает 30°·4 как 150"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p145_2"],
+      "sourceExampleRefs": ["p146#1220"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Мера части при прямом угле и двух данных лучах",
+      "stemIdea": "По рисунку прямой угол разбит лучами; даны две крайние части (числа ≠25°/40° эталона 1223) — вписать меру средней части",
+      "trapIdeas": [
+        "Ученик складывает части вместо вычитания из 90°",
+        "Ученик вычитает только одну часть из 90°",
+        "Ученик вычитает из 180°"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Разбиение прямого угла несколькими лучами без чертежа неоднозначно (sceneKind: angle)",
+      "sourceRuleIds": ["PDF_p144_2"],
+      "sourceExampleRefs": ["p147#1223"],
+      "questionForm": "restore"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "Тема 7.3 only (сравнение, виды, чертежный треугольник). Primary: PDF_p143_1/2, PDF_p144_1/2/3, PDF_p145_1/2/3; prerequisite PDF_p134_2 и R014 не в sourceRuleIds (ловушки: 180↔90↔360). Count 30 при recommendedMaxCount null. G017: questionForm ≤2 нереален → recall×4, compute×4, predict×4, verify×4, restore×4, word_problem×4, compare×3, inverse×3. visual-topics: 10 ILL, только sceneKind angle (угольник как треугольник на лучах; без protractor-оверлеев). Anti-dup vs 7.1/7.2: нет определения угла/обозначения/биссектрисы как ядра, нет измерения/построения транспортиром."
+}

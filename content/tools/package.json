@@ -1,0 +1,9 @@
+{
+  "name": "damulab-content-tools",
+  "private": true,
+  "type": "module",
+  "description": "CLI tools for Damulab question pipeline (textbook pages, illustrations)",
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2"
+  }
+}

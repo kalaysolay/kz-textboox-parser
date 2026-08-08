@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-ugol-gradusnaya-mera-20260805-0019",
+  "createdAt": "2026-08-05T00:19:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "Угол. Градусная мера угла",
+  "topicKk": "Бұрыш. Бұрыштың градустық өлшемі",
+  "topicSlug": "ugol-gradusnaya-mera",
+  "topicCode": "7.1",
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 15,
+  "typeMix": { "SCQ": 10, "MCQ": 3, "FILL_IN": 2 },
+  "difficultyMix": null,
+  "illustrationPolicy": "visual-topics",
+  "illustrationFor": [],
+  "parsedTextbookPath": "Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+  "methodistInstruction": "Большинство SCQ. Иллюстрации только там, где без рисунка stem неполный (угол на чертеже, обозначение лучей/вершины) — целевой диапазон 5–8 слотов. Без декора.",
+  "languageMode": "BOTH"
+}

@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-okruglenie-desyatichnyh-drobei-20260808-0700",
+  "reviewedAt": "2026-08-08T07:45:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 27,
+    "fixed": 3,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "B — нахождение приближённого значения, близкого к точному",
+      "keyAnswer": "B — Нахождение приближённого значения числа, близкого к точному",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×3, compute×5, predict×3, restore×4, verify×4, compare×4, word_problem×4, inverse×3. Стемы внутри формы разные; слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "D — до целых, десятых, сотых, тысячных и т.д.",
+      "keyAnswer": "D — До целых, десятых, сотых, тысячных и т.д.",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "7,1",
+      "keyAnswer": "C — $7,1$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×3, compute×5, predict×3, restore×4, verify×4, compare×4, word_problem×4, inverse×3. Стемы внутри формы разные; слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "8,25",
+      "keyAnswer": "B — $8,25$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "с недостатком (отбрасываемая 3 ≤ 4)",
+      "keyAnswer": "B — С недостатком",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×3, compute×5, predict×3, restore×4, verify×4, compare×4, word_problem×4, inverse×3. Стемы внутри формы разные; слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "с точностью до 0,1",
+      "keyAnswer": "B — С точностью до $0,1$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×3, compute×5, predict×3, restore×4, verify×4, compare×4, word_problem×4, inverse×3. Стемы внутри формы разные; слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "4,563",
+      "keyAnswer": "C — $4,563$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "42",
+      "keyAnswer": "B — $42$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "6,9 (равноудалённость → с избытком)",
+      "keyAnswer": "B — $6,9$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "C — 5,46 ≈ 5,5 (до десятых); A/B/D неверны",
+      "keyAnswer": "C — $5,46 \\approx 5,5$ (до десятых)",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×3, compute×5, predict×3, restore×4, verify×4, compare×4, word_problem×4, inverse×3. Стемы внутри формы разные; слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "8,5 (|8,47−8,5|=0,03 — минимум)",
+      "keyAnswer": "C — $8,47 \\approx 8,5$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×3, compute×5, predict×3, restore×4, verify×4, compare×4, word_problem×4, inverse×3. Стемы внутри формы разные; слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "12,6 м",
+      "keyAnswer": "B — $12,6$ м",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×3, compute×5, predict×3, restore×4, verify×4, compare×4, word_problem×4, inverse×3. Стемы внутри формы разные; слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "до десятых",
+      "keyAnswer": "C — До десятых",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "7 (нужно * ≥ 5)",
+      "keyAnswer": "D — $7$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×3, compute×5, predict×3, restore×4, verify×4, compare×4, word_problem×4, inverse×3. Стемы внутри формы разные; слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "fixed",
+      "solvedAnswer": "320:750=0,4266… м → 42,666… см → ≈43 см",
+      "keyAnswer": "B — $43$ см",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": "Уточнены промежуточные см ($42,666\\ldots$); в explanationKk «ондықтар цифры» → «ондықтардағы цифр» (убрана русская словоформа)."
+    },
+    {
+      "localId": "q16",
+      "status": "accepted",
+      "solvedAnswer": "28,961 ≈ 29,0",
+      "keyAnswer": "B — $28,961 \\approx 29,0$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "6,85 ближе (|Δ|=0,003 < 0,047)",
+      "keyAnswer": "B — $6,85$ — ближе к $6,847$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "5,362 < 5,36284 < 5,363 → ≈5,363",
+      "keyAnswer": "C — $5,362 < 5,36284 < 5,363$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A, B, D",
+      "keyAnswer": "A, B, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "A, C, D",
+      "keyAnswer": "A, C, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "A, C, D",
+      "keyAnswer": "A, C, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "A, B, D",
+      "keyAnswer": "A, B, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "4,312 ≈ 4,31 кг с недостатком → A, B",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "fixed",
+      "solvedAnswer": "A, B, D (десятые: отбр.5; сотые: отбр.2; целые: отбр.6)",
+      "keyAnswer": "A, B, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": "В explanationRu/Kk исправлена первая отбрасываемая при округлении до десятых: $5$ (не $6$); ключ A/B/D без изменений."
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A, C",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "A, B, D",
+      "keyAnswer": "A, B, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "A, C, D (*∈{5,8}; *≥5 → 7,5)",
+      "keyAnswer": "A, C, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "5,85",
+      "keyAnswer": "[[1]] = 5,85",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "fixed",
+      "solvedAnswer": "0,38·72=27,36 ≈ 27",
+      "keyAnswer": "[[1]] = 27",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": "В explanationKk «ондықтар цифры» → «ондықтардағы цифр»."
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "4,68 и 4,65 → большее 4,68",
+      "keyAnswer": "[[1]] = 4,68",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

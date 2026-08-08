@@ -1,0 +1,612 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "math-5-zadachi-na-sovmestnuyu-rabotu-20260808-0130",
+    "generatedAt": "2026-08-08T02:05:00+05:00",
+    "subjectTitleRu": "Математика",
+    "subjectTitleKk": "Математика",
+    "gradeNo": 5,
+    "topicCode": "3.15",
+    "topicTitleRu": "Задачи на совместную работу",
+    "topicTitleKk": "Бірлескен жұмыс есептері",
+    "topicSlug": "zadachi-na-sovmestnuyu-rabotu",
+    "atomicSkillTitleRu": null,
+    "textbookRef": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+    "illustrationPolicy": "visual-topics",
+    "sourceReliability": "verbatim"
+  },
+  "questions": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "bodyRu": "При решении задач на совместную работу объём работы (бассейна, пройденное расстояние) принимают за…",
+      "bodyKk": "Бірлескен жұмыс есептерін шығарғанда жұмыс көлемін (бассейнді, жүрілген қашықтықты) қандай шама деп алады?",
+      "explanationRu": "По правилу учебника объём бассейна, объём работы и расстояние принимают за 1 (единицу).",
+      "explanationKk": "Оқулық ережесі бойынша бассейн көлемі, жұмыс көлемі және қашықтық 1 (бірлік) деп алынады.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "сумму времён участников", "textKk": "қатысушылар уақыттарының қосындысы", "correct": false },
+        { "label": "B", "textRu": "1 (единицу)", "textKk": "1 (бірлік)", "correct": true },
+        { "label": "C", "textRu": "производительность самого быстрого", "textKk": "ең жылдам қатысушының өнімділігі", "correct": false },
+        { "label": "D", "textRu": "разность времён участников", "textKk": "қатысушылар уақыттарының айырмасы", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p11_1"]
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "bodyRu": "Как найти время совместной работы двух участников, если известны их времена $t_1$ и $t_2$ в одиночку?",
+      "bodyKk": "Егер екі қатысушының жеке-жеке жұмыс істеу уақыттары $t_1$ және $t_2$ белгілі болса, бірлесіп жұмыс істеу уақытын қалай табады?",
+      "explanationRu": "Производительности равны $1/t_1$ и $1/t_2$; общая — их сумма; время вместе $T = 1:(1/t_1+1/t_2)$.",
+      "explanationKk": "Өнімділіктер $1/t_1$ және $1/t_2$; ортақ өнімділік — олардың қосындысы; бірге істеу уақыты $T = 1:(1/t_1+1/t_2)$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Взять среднее арифметическое $t_1$ и $t_2$", "textKk": "$t_1$ пен $t_2$-нің арифметикалық ортасын алу", "correct": false },
+        { "label": "B", "textRu": "Сложить $t_1$ и $t_2$", "textKk": "$t_1$ пен $t_2$-ні қосу", "correct": false },
+        { "label": "C", "textRu": "Найти $1/t_1+1/t_2$ и разделить 1 на эту сумму", "textKk": "$1/t_1+1/t_2$ қосындысын тауып, 1-ді сол қосындыға бөлу", "correct": true },
+        { "label": "D", "textRu": "Перемножить $t_1$ и $t_2$", "textKk": "$t_1$ пен $t_2$-ні көбейту", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p12_1"]
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Рабочий выполняет заказ за 12 часов. Какую часть заказа он выполняет за 1 час?",
+      "bodyKk": "Жұмысшы тапсырысты 12 сағатта орындайды. Ол 1 сағатта тапсырыстың қандай бөлігін орындайды?",
+      "explanationRu": "Производительность равна $1:12 = \\frac{1}{12}$ заказа в час.",
+      "explanationKk": "Өнімділік $1:12 = \\frac{1}{12}$ тапсырыс/сағат.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$12$", "textKk": "$12$", "correct": false },
+        { "label": "B", "textRu": "$\\dfrac{1}{12}$", "textKk": "$\\dfrac{1}{12}$", "correct": true },
+        { "label": "C", "textRu": "$\\dfrac{12}{1}$", "textKk": "$\\dfrac{12}{1}$", "correct": false },
+        { "label": "D", "textRu": "$\\dfrac{1}{6}$", "textKk": "$\\dfrac{1}{6}$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p12_1"]
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Первый насос наполняет бак за 10 мин, второй — за 15 мин. За сколько минут наполнится бак, если оба насоса работают одновременно?",
+      "bodyKk": "Бірінші сорғы бакты 10 мин-та, екіншісі — 15 мин-та толтырады. Екі сорғы бірге жұмыс істесе, бак қанша минутта толады?",
+      "explanationRu": "$\\frac{1}{10}+\\frac{1}{15}=\\frac{3+2}{30}=\\frac{1}{6}$; $1:\\frac{1}{6}=6$ (мин).",
+      "explanationKk": "$\\frac{1}{10}+\\frac{1}{15}=\\frac{3+2}{30}=\\frac{1}{6}$; $1:\\frac{1}{6}=6$ (мин).",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "12,5 мин", "textKk": "12,5 мин", "correct": false },
+        { "label": "B", "textRu": "25 мин", "textKk": "25 мин", "correct": false },
+        { "label": "C", "textRu": "6 мин", "textKk": "6 мин", "correct": true },
+        { "label": "D", "textRu": "$\\dfrac{1}{6}$ мин", "textKk": "$\\dfrac{1}{6}$ мин", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p12_1"]
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Айгуль делает работу за 20 мин, Бауыржан — за 30 мин. Не находя точного ответа, выбери верное утверждение о времени их совместной работы $T$.",
+      "bodyKk": "Айгүл жұмысты 20 мин-та, Бауыржан — 30 мин-та орындайды. Нақты жауапты есептемей, олардың бірге істеу уақыты $T$ туралы дұрыс тұжырымды таңда.",
+      "explanationRu": "Вместе всегда быстрее каждого в одиночку, и $T$ меньше половины большего времени: половина от 30 — 15, а $T=12<15$.",
+      "explanationKk": "Бірге әрқашан жеке жұмыстан жылдам, әрі $T$ үлкен уақыттың жартысынан кіші: 30-дың жартысы 15, ал $T=12<15$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$T$ равно половине большего времени, то есть 15 мин", "textKk": "$T$ үлкен уақыттың жартысына тең, яғни 15 мин", "correct": false },
+        { "label": "B", "textRu": "$T$ меньше половины большего времени (меньше 15 мин)", "textKk": "$T$ үлкен уақыттың жартысынан кіші (15 мин-тан кіші)", "correct": true },
+        { "label": "C", "textRu": "$T$ равно среднему арифметическому 25 мин", "textKk": "$T$ арифметикалық ортаға тең — 25 мин", "correct": false },
+        { "label": "D", "textRu": "$T$ равно меньшему времени 20 мин", "textKk": "$T$ кіші уақытқа тең — 20 мин", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p12_1"]
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Плот проплывает участок реки за 24 ч. Если расстояние принять за 1, чему равна скорость течения?",
+      "bodyKk": "Сал өзеннің бір учаскесін 24 сағ-та жүзеді. Қашықтықты 1 деп алса, ағын жылдамдығы неге тең?",
+      "explanationRu": "Скорость плота равна скорости течения: $1:24=\\frac{1}{24}$ расстояния в час.",
+      "explanationKk": "Сал жылдамдығы ағын жылдамдығына тең: $1:24=\\frac{1}{24}$ қашықтық/сағ.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$24$", "textKk": "$24$", "correct": false },
+        { "label": "B", "textRu": "$\\dfrac{1}{24}$", "textKk": "$\\dfrac{1}{24}$", "correct": true },
+        { "label": "C", "textRu": "$\\dfrac{1}{12}$", "textKk": "$\\dfrac{1}{12}$", "correct": false },
+        { "label": "D", "textRu": "$23$", "textKk": "$23$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p12_2"]
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Первая труба наполняет бассейн за 18 ч, вторая — за 36 ч. За сколько часов наполнится бассейн, если обе трубы работают одновременно?",
+      "bodyKk": "Бірінші құбыр бассейнді 18 сағ-та, екіншісі — 36 сағ-та толтырады. Екі құбыр бірге жұмыс істесе, бассейн қанша сағатта толады?",
+      "explanationRu": "$\\frac{1}{18}+\\frac{1}{36}=\\frac{2+1}{36}=\\frac{1}{12}$; $1:\\frac{1}{12}=12$ (ч).",
+      "explanationKk": "$\\frac{1}{18}+\\frac{1}{36}=\\frac{2+1}{36}=\\frac{1}{12}$; $1:\\frac{1}{12}=12$ (сағ).",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "27 ч", "textKk": "27 сағ", "correct": false },
+        { "label": "B", "textRu": "9 ч", "textKk": "9 сағ", "correct": false },
+        { "label": "C", "textRu": "12 ч", "textKk": "12 сағ", "correct": true },
+        { "label": "D", "textRu": "54 ч", "textKk": "54 сағ", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p12_1"]
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Три мастера изготавливают изделие за 12, 18 и 36 дней. За сколько дней они изготовят его, работая вместе?",
+      "bodyKk": "Үш шебер бұйымды 12, 18 және 36 күнде жасайды. Олар бірге жұмыс істесе, бұйымды қанша күнде жасайды?",
+      "explanationRu": "$\\frac{1}{12}+\\frac{1}{18}+\\frac{1}{36}=\\frac{3+2+1}{36}=\\frac{6}{36}=\\frac{1}{6}$; $1:\\frac{1}{6}=6$ (дней).",
+      "explanationKk": "$\\frac{1}{12}+\\frac{1}{18}+\\frac{1}{36}=\\frac{3+2+1}{36}=\\frac{6}{36}=\\frac{1}{6}$; $1:\\frac{1}{6}=6$ (күн).",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "22 дня", "textKk": "22 күн", "correct": false },
+        { "label": "B", "textRu": "6 дней", "textKk": "6 күн", "correct": true },
+        { "label": "C", "textRu": "8 дней", "textKk": "8 күн", "correct": false },
+        { "label": "D", "textRu": "12 дней", "textKk": "12 күн", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p12_1"]
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Айдос сказал: «Если один делает работу за 20 мин, а другой — за 30 мин, то вместе они сделают её за $\\dfrac{20+30}{2}=25$ мин». Верно ли это?",
+      "bodyKk": "Айдос: «Біреуі жұмысты 20 мин-та, екіншісі 30 мин-та істесе, екеуі бірге $\\dfrac{20+30}{2}=25$ мин-та бітіреді» деді. Бұл дұрыс па?",
+      "explanationRu": "Неверно: нужно складывать производительности $\\frac{1}{20}+\\frac{1}{30}=\\frac{1}{12}$, значит вместе за 12 мин, а не среднее времён.",
+      "explanationKk": "Қате: өнімділіктерді қосу керек $\\frac{1}{20}+\\frac{1}{30}=\\frac{1}{12}$, яғни бірге 12 мин, уақыттардың ортасы емес.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Верно: время вместе всегда равно среднему времён", "textKk": "Дұрыс: бірге істеу уақыты әрқашан уақыттардың ортасына тең", "correct": false },
+        { "label": "B", "textRu": "Неверно: верное время вместе — 12 мин", "textKk": "Қате: дұрыс уақыт — 12 мин", "correct": true },
+        { "label": "C", "textRu": "Неверно: верное время вместе — 50 мин", "textKk": "Қате: дұрыс уақыт — 50 мин", "correct": false },
+        { "label": "D", "textRu": "Верно только если времена равны", "textKk": "Тек уақыттар тең болса ғана дұрыс", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p12_1"]
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "В решении записано: $\\dfrac{1}{24}+\\dfrac{1}{40}=\\dfrac{5+3}{120}=\\dfrac{1}{15}$. Верно ли это равенство?",
+      "bodyKk": "Шешімде $\\dfrac{1}{24}+\\dfrac{1}{40}=\\dfrac{5+3}{120}=\\dfrac{1}{15}$ деп жазылған. Бұл теңдік дұрыс па?",
+      "explanationRu": "Общий знаменатель 120: $\\frac{5}{120}+\\frac{3}{120}=\\frac{8}{120}=\\frac{1}{15}$. Равенство верно.",
+      "explanationKk": "Ортақ бөлім 120: $\\frac{5}{120}+\\frac{3}{120}=\\frac{8}{120}=\\frac{1}{15}$. Теңдік дұрыс.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Верно", "textKk": "Дұрыс", "correct": true },
+        { "label": "B", "textRu": "Неверно, сумма равна $\\dfrac{1}{64}$", "textKk": "Қате, қосынды $\\dfrac{1}{64}$", "correct": false },
+        { "label": "C", "textRu": "Неверно, сумма равна $\\dfrac{2}{64}$", "textKk": "Қате, қосынды $\\dfrac{2}{64}$", "correct": false },
+        { "label": "D", "textRu": "Неверно, сумма равна $\\dfrac{1}{32}$", "textKk": "Қате, қосынды $\\dfrac{1}{32}$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p12_1"]
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "В образце решения пропущено число: первый насос за 1 мин наполняет $\\dfrac{1}{24}$ цистерны, второй — $\\dfrac{?}{?}$ цистерны, оба вместе — $\\dfrac{1}{15}$. Чему равен пропуск, если второй насос один наполняет цистерну за 40 мин?",
+      "bodyKk": "Үлгі шешімде сан түсіп қалған: бірінші сорғы 1 мин-та цистернаның $\\dfrac{1}{24}$ бөлігін, екіншісі — $\\dfrac{?}{?}$ бөлігін, екеуі бірге — $\\dfrac{1}{15}$ толтырады. Екінші сорғы жалғыз 40 мин-та толтырса, түсіп қалған сан неге тең?",
+      "explanationRu": "Производительность второго: $1:40=\\frac{1}{40}$.",
+      "explanationKk": "Екіншінің өнімділігі: $1:40=\\frac{1}{40}$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$40$", "textKk": "$40$", "correct": false },
+        { "label": "B", "textRu": "$\\dfrac{1}{40}$", "textKk": "$\\dfrac{1}{40}$", "correct": true },
+        { "label": "C", "textRu": "$\\dfrac{1}{16}$", "textKk": "$\\dfrac{1}{16}$", "correct": false },
+        { "label": "D", "textRu": "$24$", "textKk": "$24$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p12_1"]
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Общая производительность двух рабочих равна $\\dfrac{1}{8}$ работы в час. За сколько часов они выполнят всю работу вместе?",
+      "bodyKk": "Екі жұмысшының ортақ өнімділігі сағатына жұмыстың $\\dfrac{1}{8}$ бөлігі. Олар бірге бүкіл жұмысты қанша сағатта бітіреді?",
+      "explanationRu": "$T=1:\\dfrac{1}{8}=8$ (ч).",
+      "explanationKk": "$T=1:\\dfrac{1}{8}=8$ (сағ).",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$\\dfrac{1}{8}$ ч", "textKk": "$\\dfrac{1}{8}$ сағ", "correct": false },
+        { "label": "B", "textRu": "8 ч", "textKk": "8 сағ", "correct": true },
+        { "label": "C", "textRu": "16 ч", "textKk": "16 сағ", "correct": false },
+        { "label": "D", "textRu": "7 ч", "textKk": "7 сағ", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p12_1"]
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Пара А: рабочие за 6 ч и за 12 ч. Пара В: рабочие за 10 ч и за 15 ч. Какая пара выполнит одну и ту же работу быстрее, работая вместе?",
+      "bodyKk": "А жұбы: жұмысшылар 6 сағ және 12 сағ. В жұбы: 10 сағ және 15 сағ. Бірдей жұмысты бірге істегенде қай жұп тезірек бітіреді?",
+      "explanationRu": "Пара А: $\\frac{1}{6}+\\frac{1}{12}=\\frac{1}{4}$ → 4 ч. Пара В: $\\frac{1}{10}+\\frac{1}{15}=\\frac{1}{6}$ → 6 ч. Быстрее пара А.",
+      "explanationKk": "А жұбы: $\\frac{1}{6}+\\frac{1}{12}=\\frac{1}{4}$ → 4 сағ. В жұбы: $\\frac{1}{10}+\\frac{1}{15}=\\frac{1}{6}$ → 6 сағ. А жұбы тезірек.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Пара А (за 4 ч)", "textKk": "А жұбы (4 сағ-та)", "correct": true },
+        { "label": "B", "textRu": "Пара В (за 6 ч)", "textKk": "В жұбы (6 сағ-та)", "correct": false },
+        { "label": "C", "textRu": "Одинаково", "textKk": "Бірдей", "correct": false },
+        { "label": "D", "textRu": "Пара В, потому что сумма времён меньше", "textKk": "В жұбы, себебі уақыттар қосындысы кіші", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p12_1"]
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Марат выполняет работу за 8 ч, Серик — за 12 ч. Кто за 1 час делает большую часть работы?",
+      "bodyKk": "Марат жұмысты 8 сағ-та, Серік — 12 сағ-та орындайды. 1 сағатта кім жұмыстың үлкен бөлігін істейді?",
+      "explanationRu": "Части за час: $\\frac{1}{8}>\\frac{1}{12}$, значит больше делает Марат.",
+      "explanationKk": "Сағатына бөліктер: $\\frac{1}{8}>\\frac{1}{12}$, яғни Марат көбірек істейді.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Серик, потому что у него больше время", "textKk": "Серік, себебі оның уақыты үлкенірек", "correct": false },
+        { "label": "B", "textRu": "Марат", "textKk": "Марат", "correct": true },
+        { "label": "C", "textRu": "Одинаково", "textKk": "Бірдей", "correct": false },
+        { "label": "D", "textRu": "Нельзя сравнить без совместной работы", "textKk": "Бірге жұмыс істемей салыстыруға болмайды", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p12_1"]
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Два насоса вместе наполняют бак за 6 ч. Первый насос один наполняет бак за 10 ч. За сколько часов наполнит бак второй насос, работая один?",
+      "bodyKk": "Екі сорғы бірге бакты 6 сағ-та толтырады. Бірінші сорғы жалғыз 10 сағ-та толтырады. Екінші сорғы жалғыз қанша сағатта толтырады?",
+      "explanationRu": "$\\frac{1}{6}-\\frac{1}{10}=\\frac{5-3}{30}=\\frac{2}{30}=\\frac{1}{15}$; $t_2=15$ (ч).",
+      "explanationKk": "$\\frac{1}{6}-\\frac{1}{10}=\\frac{5-3}{30}=\\frac{2}{30}=\\frac{1}{15}$; $t_2=15$ (сағ).",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "4 ч", "textKk": "4 сағ", "correct": false },
+        { "label": "B", "textRu": "16 ч", "textKk": "16 сағ", "correct": false },
+        { "label": "C", "textRu": "15 ч", "textKk": "15 сағ", "correct": true },
+        { "label": "D", "textRu": "60 ч", "textKk": "60 сағ", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p13_1"]
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Трое детей слепили снеговика за 12 мин. Старший один слепит его за 24 мин, младший — за 40 мин. За сколько минут слепит снеговика сестра, работая одна?",
+      "bodyKk": "Үш бала аққаланы 12 мин-та мүсіндеді. Үлкені жалғыз 24 мин-та, кішісі — 40 мин-та мүсіндейді. Әпкесі жалғыз қанша минутта мүсіндейді?",
+      "explanationRu": "$\\frac{1}{12}-\\frac{1}{24}-\\frac{1}{40}=\\frac{10-5-3}{120}=\\frac{2}{120}=\\frac{1}{60}$; $t=60$ (мин).",
+      "explanationKk": "$\\frac{1}{12}-\\frac{1}{24}-\\frac{1}{40}=\\frac{10-5-3}{120}=\\frac{2}{120}=\\frac{1}{60}$; $t=60$ (мин).",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "28 мин", "textKk": "28 мин", "correct": false },
+        { "label": "B", "textRu": "32 мин", "textKk": "32 мин", "correct": false },
+        { "label": "C", "textRu": "60 мин", "textKk": "60 мин", "correct": true },
+        { "label": "D", "textRu": "120 мин", "textKk": "120 мин", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p13_1"]
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Плот проплывает путь от А до В за 15 ч. Лодка то же расстояние по озеру — за 5 ч. За сколько часов лодка проплывёт путь от А до В по течению реки?",
+      "bodyKk": "Сал А-дан В-ға 15 сағ-та жетеді. Қайық сол қашықтықты көлде 5 сағ-та жүзеді. Қайық өзен ағысымен А-дан В-ға қанша сағатта жетеді?",
+      "explanationRu": "$\\frac{1}{15}+\\frac{1}{5}=\\frac{1+3}{15}=\\frac{4}{15}$; $T=1:\\frac{4}{15}=\\frac{15}{4}=3\\frac{3}{4}$ (ч).",
+      "explanationKk": "$\\frac{1}{15}+\\frac{1}{5}=\\frac{1+3}{15}=\\frac{4}{15}$; $T=1:\\frac{4}{15}=\\frac{15}{4}=3\\frac{3}{4}$ (сағ).",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "10 ч", "textKk": "10 сағ", "correct": false },
+        { "label": "B", "textRu": "$3\\dfrac{3}{4}$ ч", "textKk": "$3\\dfrac{3}{4}$ сағ", "correct": true },
+        { "label": "C", "textRu": "4 ч", "textKk": "4 сағ", "correct": false },
+        { "label": "D", "textRu": "20 ч", "textKk": "20 сағ", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p12_2"]
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 5,
+      "bodyRu": "Катер проплыл расстояние между пристанями по течению за 6 ч, а плот — за 24 ч. За сколько часов это расстояние проплывёт катер по озеру?",
+      "bodyKk": "Катер пристань арасындағы қашықтықты ағыспен 6 сағ-та, сал — 24 сағ-та жүзді. Катер бұл қашықтықты көлде қанша сағатта жүзеді?",
+      "explanationRu": "Скорость по течению $\\frac{1}{6}$, течение $\\frac{1}{24}$, собственная $\\frac{1}{6}-\\frac{1}{24}=\\frac{1}{8}$; время по озеру 8 ч.",
+      "explanationKk": "Ағыспен жылдамдық $\\frac{1}{6}$, ағын $\\frac{1}{24}$, өз жылдамдығы $\\frac{1}{6}-\\frac{1}{24}=\\frac{1}{8}$; көлде 8 сағ.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "18 ч", "textKk": "18 сағ", "correct": false },
+        { "label": "B", "textRu": "4 ч", "textKk": "4 сағ", "correct": false },
+        { "label": "C", "textRu": "8 ч", "textKk": "8 сағ", "correct": true },
+        { "label": "D", "textRu": "30 ч", "textKk": "30 сағ", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p12_2"]
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Выбери все верные утверждения о решении задач на совместную работу.",
+      "bodyKk": "Бірлескен жұмыс есептерін шығару туралы барлық дұрыс тұжырымдарды таңда.",
+      "explanationRu": "Верны: объём=1; производительность $1/t$; вместе — сумма производительностей. Неверно, что время вместе — сумма времён.",
+      "explanationKk": "Дұрыс: көлем=1; өнімділік $1/t$; бірге — өнімділіктер қосындысы. Бірге істеу уақыты уақыттар қосындысы емес.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Объём работы принимают за 1", "textKk": "Жұмыс көлемін 1 деп алады", "correct": true },
+        { "label": "B", "textRu": "Производительность за единицу времени равна $1/t$", "textKk": "Бірлік уақыттағы өнімділік $1/t$-ке тең", "correct": true },
+        { "label": "C", "textRu": "Время вместе равно сумме времён участников в одиночку", "textKk": "Бірге істеу уақыты жеке уақыттар қосындысына тең", "correct": false },
+        { "label": "D", "textRu": "Общая производительность равна сумме производительностей участников", "textKk": "Ортақ өнімділік қатысушылар өнімділіктерінің қосындысына тең", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p11_1", "PDF_p12_1"]
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Какие из равенств верны?",
+      "bodyKk": "Қай теңдіктер дұрыс?",
+      "explanationRu": "Верны $\\frac{1}{8}+\\frac{1}{24}=\\frac{1}{6}$ и $\\frac{1}{10}+\\frac{1}{15}=\\frac{1}{6}$. Неверно $\\frac{1}{8}+\\frac{1}{24}=\\frac{1}{32}$ и $\\frac{1}{a}+\\frac{1}{b}=\\frac{1}{a+b}$.",
+      "explanationKk": "Дұрыс: $\\frac{1}{8}+\\frac{1}{24}=\\frac{1}{6}$ және $\\frac{1}{10}+\\frac{1}{15}=\\frac{1}{6}$. Қате: $\\frac{1}{8}+\\frac{1}{24}=\\frac{1}{32}$ және $\\frac{1}{a}+\\frac{1}{b}=\\frac{1}{a+b}$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$\\dfrac{1}{8}+\\dfrac{1}{24}=\\dfrac{1}{6}$", "textKk": "$\\dfrac{1}{8}+\\dfrac{1}{24}=\\dfrac{1}{6}$", "correct": true },
+        { "label": "B", "textRu": "$\\dfrac{1}{8}+\\dfrac{1}{24}=\\dfrac{1}{32}$", "textKk": "$\\dfrac{1}{8}+\\dfrac{1}{24}=\\dfrac{1}{32}$", "correct": false },
+        { "label": "C", "textRu": "$\\dfrac{1}{10}+\\dfrac{1}{15}=\\dfrac{1}{6}$", "textKk": "$\\dfrac{1}{10}+\\dfrac{1}{15}=\\dfrac{1}{6}$", "correct": true },
+        { "label": "D", "textRu": "Для любых $a,b>0$: $\\dfrac{1}{a}+\\dfrac{1}{b}=\\dfrac{1}{a+b}$", "textKk": "Кез келген $a,b>0$ үшін: $\\dfrac{1}{a}+\\dfrac{1}{b}=\\dfrac{1}{a+b}$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p12_1"]
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Выбери все шаги, которые должны быть в верном решении задачи про два насоса (времена $t_1$ и $t_2$).",
+      "bodyKk": "Екі сорғы есебінің дұрыс шешімінде болуға тиіс барлық қадамдарды таңда (уақыттар $t_1$ және $t_2$).",
+      "explanationRu": "Нужны: объём=1; производительности $1/t$; сумма; обращение суммы. Сложение самих времён — ошибка.",
+      "explanationKk": "Керек: көлем=1; өнімділіктер $1/t$; қосынды; қосындыны кері айналдыру. Уақыттарды қосу — қате.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Принять объём цистерны за 1", "textKk": "Цистерна көлемін 1 деп алу", "correct": true },
+        { "label": "B", "textRu": "Найти $\\dfrac{1}{t_1}$ и $\\dfrac{1}{t_2}$", "textKk": "$\\dfrac{1}{t_1}$ және $\\dfrac{1}{t_2}$ табу", "correct": true },
+        { "label": "C", "textRu": "Сложить времена $t_1+t_2$ и объявить это ответом", "textKk": "$t_1+t_2$ қосып, оны жауап деп жариялау", "correct": false },
+        { "label": "D", "textRu": "Разделить 1 на сумму производительностей", "textKk": "1-ді өнімділіктер қосындысына бөлу", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p12_1"]
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 5,
+      "bodyRu": "Двое вместе выполняют работу за 12 ч. Какие пары времён $(t_1; t_2)$ в одиночку дают именно это время вместе?",
+      "bodyKk": "Екеуі бірге жұмысты 12 сағ-та орындайды. Жеке уақыттардың қай жұптары $(t_1; t_2)$ дәл осы бірге істеу уақытын береді?",
+      "explanationRu": "Нужно $1/t_1+1/t_2=1/12$. Подходят (20;30), (24;24), (18;36). Пара (10;15) даёт 6 ч.",
+      "explanationKk": "$1/t_1+1/t_2=1/12$ керек. (20;30), (24;24), (18;36) келеді. (10;15) жұбы 6 сағ береді.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$(20; 30)$", "textKk": "$(20; 30)$", "correct": true },
+        { "label": "B", "textRu": "$(24; 24)$", "textKk": "$(24; 24)$", "correct": true },
+        { "label": "C", "textRu": "$(10; 15)$", "textKk": "$(10; 15)$", "correct": false },
+        { "label": "D", "textRu": "$(18; 36)$", "textKk": "$(18; 36)$", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p12_1"]
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Выбери все верные следствия из того, что объём работы принимают за 1.",
+      "bodyKk": "Жұмыс көлемін 1 деп алудан туындайтын барлық дұрыс салдарды таңда.",
+      "explanationRu": "Верно, что производительность записывают как $1/t$ и части работы — обыкновенными дробями. Неверно, что время всегда равно 1 или что производительности нельзя складывать.",
+      "explanationKk": "Өнімділікті $1/t$ деп жазу және жұмыс бөліктерін жай бөлшекпен өрнектеу дұрыс. Уақыт әрқашан 1 емес; өнімділіктерді қосуға болады.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Производительность участника за единицу времени можно записать как $1/t$", "textKk": "Қатысушының бірлік уақыттағы өнімділігін $1/t$ деп жазуға болады", "correct": true },
+        { "label": "B", "textRu": "Время выполнения работы всегда равно 1", "textKk": "Жұмысты орындау уақыты әрқашан 1-ге тең", "correct": false },
+        { "label": "C", "textRu": "Часть работы, выполненную за время $t_0$, можно записать как $t_0\\cdot(1/t)$", "textKk": "$t_0$ уақытта орындалған жұмыс бөлігін $t_0\\cdot(1/t)$ деп жазуға болады", "correct": true },
+        { "label": "D", "textRu": "Производительности участников складывать нельзя", "textKk": "Қатысушылар өнімділігін қосуға болмайды", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p11_1"]
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Первая труба наполняет бассейн за 6 ч, вторая — за 8 ч, третья опустошает полный бассейн за 4 ч. Какие выражения верно дают часть объёма, наполняемую за 1 ч при работе всех трёх труб?",
+      "bodyKk": "Бірінші құбыр бассейнді 6 сағ-та, екіншісі 8 сағ-та толтырады, үшіншісі толық бассейнді 4 сағ-та босатады. Үш құбыр бірге жұмыс істегенде 1 сағ-та толатын көлем бөлігін қай өрнектер дұрыс береді?",
+      "explanationRu": "Приток минус отток: $\\frac{1}{6}+\\frac{1}{8}-\\frac{1}{4}=\\frac{4+3-6}{24}=\\frac{1}{24}$. Сложение всех трёх со знаком «+» неверно.",
+      "explanationKk": "Кіріс минус шығыс: $\\frac{1}{6}+\\frac{1}{8}-\\frac{1}{4}=\\frac{4+3-6}{24}=\\frac{1}{24}$. Үшеуін де «+» белгісімен қосу қате.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$\\dfrac{1}{6}+\\dfrac{1}{8}-\\dfrac{1}{4}$", "textKk": "$\\dfrac{1}{6}+\\dfrac{1}{8}-\\dfrac{1}{4}$", "correct": true },
+        { "label": "B", "textRu": "$\\dfrac{1}{24}$", "textKk": "$\\dfrac{1}{24}$", "correct": true },
+        { "label": "C", "textRu": "$\\dfrac{1}{6}+\\dfrac{1}{8}+\\dfrac{1}{4}$", "textKk": "$\\dfrac{1}{6}+\\dfrac{1}{8}+\\dfrac{1}{4}$", "correct": false },
+        { "label": "D", "textRu": "$\\dfrac{1}{4}-\\dfrac{1}{6}-\\dfrac{1}{8}$", "textKk": "$\\dfrac{1}{4}-\\dfrac{1}{6}-\\dfrac{1}{8}$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p13_2"]
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Мастер выполняет задание за 45 мин, ученик — за 90 мин. Сначала мастер работал один 15 мин, затем они закончили вместе. Какие утверждения верны?",
+      "bodyKk": "Шебер тапсырманы 45 мин-та, шәкірт — 90 мин-та орындайды. Алдымен шебер жалғыз 15 мин істеді, содан кейін екеуі бірге бітірді. Қай тұжырымдар дұрыс?",
+      "explanationRu": "За 15 мин мастер сделал $\\frac{15}{45}=\\frac{1}{3}$. Осталось $\\frac{2}{3}$. Вместе $\\frac{1}{45}+\\frac{1}{90}=\\frac{1}{30}$ в минуту → на остаток 20 мин. Всего 35 мин. Неверно, что за 15 мин сделана вся работа.",
+      "explanationKk": "15 мин-та шебер $\\frac{15}{45}=\\frac{1}{3}$ істеді. Қалды $\\frac{2}{3}$. Бірге минутына $\\frac{1}{45}+\\frac{1}{90}=\\frac{1}{30}$ → қалдыққа 20 мин. Барлығы 35 мин.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "За первые 15 мин сделана $\\dfrac{1}{3}$ задания", "textKk": "Алғашқы 15 мин-та тапсырманың $\\dfrac{1}{3}$ бөлігі орындалды", "correct": true },
+        { "label": "B", "textRu": "Осталось выполнить $\\dfrac{2}{3}$ задания", "textKk": "Тапсырманың $\\dfrac{2}{3}$ бөлігі қалды", "correct": true },
+        { "label": "C", "textRu": "За первые 15 мин задание уже полностью выполнено", "textKk": "Алғашқы 15 мин-та тапсырма толық орындалып қойған", "correct": false },
+        { "label": "D", "textRu": "Полное время выполнения задания равно 35 мин", "textKk": "Тапсырманы орындаудың толық уақыты 35 мин", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p12_1"]
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Трое вместе делают работу за $T$ мин; первый один — за $t_1$ мин, второй — за $t_2$ мин. Какие записи верно выражают производительность третьего?",
+      "bodyKk": "Үшеуі бірге жұмысты $T$ мин-та істейді; біріншісі жалғыз — $t_1$ мин-та, екіншісі — $t_2$ мин-та. Үшіншінің өнімділігін қай жазбалар дұрыс өрнектейді?",
+      "explanationRu": "Верно $\\frac{1}{t_3}=\\frac{1}{T}-\\frac{1}{t_1}-\\frac{1}{t_2}$. Неверно складывать все три или писать $t_3=T-t_1-t_2$.",
+      "explanationKk": "Дұрыс: $\\frac{1}{t_3}=\\frac{1}{T}-\\frac{1}{t_1}-\\frac{1}{t_2}$. Үшеуін қосу немесе $t_3=T-t_1-t_2$ деп жазу қате.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$\\dfrac{1}{t_3}=\\dfrac{1}{T}-\\dfrac{1}{t_1}-\\dfrac{1}{t_2}$", "textKk": "$\\dfrac{1}{t_3}=\\dfrac{1}{T}-\\dfrac{1}{t_1}-\\dfrac{1}{t_2}$", "correct": true },
+        { "label": "B", "textRu": "$\\dfrac{1}{t_3}=\\dfrac{1}{T}+\\dfrac{1}{t_1}+\\dfrac{1}{t_2}$", "textKk": "$\\dfrac{1}{t_3}=\\dfrac{1}{T}+\\dfrac{1}{t_1}+\\dfrac{1}{t_2}$", "correct": false },
+        { "label": "C", "textRu": "$t_3=T-t_1-t_2$", "textKk": "$t_3=T-t_1-t_2$", "correct": false },
+        { "label": "D", "textRu": "$t_3=1:\\left(\\dfrac{1}{T}-\\dfrac{1}{t_1}-\\dfrac{1}{t_2}\\right)$", "textKk": "$t_3=1:\\left(\\dfrac{1}{T}-\\dfrac{1}{t_1}-\\dfrac{1}{t_2}\\right)$", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p13_1"]
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Плот идёт от А до В за 20 ч, лодка по озеру — за 5 ч (расстояние = 1). Какие выражения верно дают скорость лодки по течению?",
+      "bodyKk": "Сал А-дан В-ға 20 сағ-та, қайық көлде — 5 сағ-та жетеді (қашықтық = 1). Қайықтың ағыспен жылдамдығын қай өрнектер дұрыс береді?",
+      "explanationRu": "Скорость по течению — сумма: $\\frac{1}{5}+\\frac{1}{20}=\\frac{1}{4}$. Разность $\\frac{1}{5}-\\frac{1}{20}$ — не скорость по течению.",
+      "explanationKk": "Ағыспен жылдамдық — қосынды: $\\frac{1}{5}+\\frac{1}{20}=\\frac{1}{4}$. $\\frac{1}{5}-\\frac{1}{20}$ ағыспен жылдамдық емес.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$\\dfrac{1}{5}+\\dfrac{1}{20}$", "textKk": "$\\dfrac{1}{5}+\\dfrac{1}{20}$", "correct": true },
+        { "label": "B", "textRu": "$\\dfrac{1}{4}$", "textKk": "$\\dfrac{1}{4}$", "correct": true },
+        { "label": "C", "textRu": "$\\dfrac{1}{5}-\\dfrac{1}{20}$", "textKk": "$\\dfrac{1}{5}-\\dfrac{1}{20}$", "correct": false },
+        { "label": "D", "textRu": "$\\dfrac{20+5}{2}$", "textKk": "$\\dfrac{20+5}{2}$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p12_2"]
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "bodyRu": "Первый рабочий выполняет заказ за 8 ч, второй — за 24 ч. За сколько часов они выполнят заказ вместе? Ответ: [[1]].",
+      "bodyKk": "Бірінші жұмысшы тапсырысты 8 сағ-та, екіншісі — 24 сағ-та орындайды. Олар бірге тапсырысты қанша сағатта орындайды? Жауап: [[1]].",
+      "explanationRu": "$\\frac{1}{8}+\\frac{1}{24}=\\frac{1}{6}$; $1:\\frac{1}{6}=6$.",
+      "explanationKk": "$\\frac{1}{8}+\\frac{1}{24}=\\frac{1}{6}$; $1:\\frac{1}{6}=6$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        { "placeholder": "[[1]]", "answer": "6", "matchMode": "NUMERIC_TOLERANCE", "tolerance": 0 }
+      ],
+      "sourceRuleIds": ["PDF_p12_1"]
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "bodyRu": "Трое вместе выполняют работу за 12 мин. Первый один — за 24 мин, второй — за 40 мин. За сколько минут выполнит работу третий, работая один? Ответ: [[1]].",
+      "bodyKk": "Үшеуі бірге жұмысты 12 мин-та орындайды. Біріншісі жалғыз — 24 мин-та, екіншісі — 40 мин-та. Үшіншісі жалғыз қанша минутта орындайды? Жауап: [[1]].",
+      "explanationRu": "$\\frac{1}{12}-\\frac{1}{24}-\\frac{1}{40}=\\frac{1}{60}$; $t_3=60$.",
+      "explanationKk": "$\\frac{1}{12}-\\frac{1}{24}-\\frac{1}{40}=\\frac{1}{60}$; $t_3=60$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        { "placeholder": "[[1]]", "answer": "60", "matchMode": "NUMERIC_TOLERANCE", "tolerance": 0 }
+      ],
+      "sourceRuleIds": ["PDF_p13_1"]
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "bodyRu": "Первая труба наполняет бассейн за 6 ч, вторая — за 8 ч, третья опустошает полный бассейн за 4 ч. Какую часть объёма бассейна наполнят за 1 ч все три трубы, работая одновременно? Ответ запиши обыкновенной дробью: [[1]].",
+      "bodyKk": "Бірінші құбыр бассейнді 6 сағ-та, екіншісі 8 сағ-та толтырады, үшіншісі толық бассейнді 4 сағ-та босатады. Үш құбыр бірге 1 сағ-та бассейн көлемінің қандай бөлігін толтырады? Жауапты жай бөлшекпен жаз: [[1]].",
+      "explanationRu": "$\\frac{1}{6}+\\frac{1}{8}-\\frac{1}{4}=\\frac{4+3-6}{24}=\\frac{1}{24}$.",
+      "explanationKk": "$\\frac{1}{6}+\\frac{1}{8}-\\frac{1}{4}=\\frac{4+3-6}{24}=\\frac{1}{24}$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 11-15",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        { "placeholder": "[[1]]", "answer": "1/24", "matchMode": "NORMALIZED", "tolerance": null }
+      ],
+      "sourceRuleIds": ["PDF_p13_2"]
+    }
+  ]
+}
+

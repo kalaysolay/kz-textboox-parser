@@ -175,8 +175,8 @@ FILL_IN:
 
 - `source` заполняется **всегда** — обычно `meta.textbookRef` (учебник + страницы из slice).
 - Формулы — KaTeX (`$...$`), в JSON обратные слэши экранировать: `"$\\frac{3}{8}$"`.
-- `needsIllustration` копируется из слота; при `false` — `illustration: null` и никаких
-  маркеров `{{IMG:…}}` в тексте.
+- `needsIllustration` копируется из слота; `illustration` в черновике **всегда `null`**
+  (файлы рисует illustrator в `06` после ревью). Маркеры `{{IMG:…}}` в тексте запрещены.
 
 ## Запреты
 
@@ -184,7 +184,7 @@ FILL_IN:
 - Не подсказывать ответ в теле задания (ни числом, ни «как известно, получится …»).
 - Не выходить за `generatorProfile.safetyAndScope` из slice (например десятичные дроби
   и проценты — часть 2, их в 5 классе части 1 нет).
-- Не добавлять иллюстрации, если в слоте `needsIllustration: false`.
+- Не писать SVG/PNG и не заполнять `illustration` объектом — это роль illustrator.
 - Не ставить `subjectId` / `topicIds` / `gradeIds` и не использовать `MATCHING`.
 - Не проставлять `status`, id БД и `matchingPairs` — это забота загрузчика.
 

@@ -1,0 +1,702 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-ugol-gradusnaya-mera-20260808-1230",
+  "sourceFinal": "05-questions.final.json",
+  "styleProfile": "aldamuratova-textbook-simple",
+  "items": [
+    {
+      "localId": "q07",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Угол ABC с лучом BD; даны 36° и 47°, сумма не подписана",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q07.svg",
+        "format": "svg",
+        "width": 480,
+        "height": 400,
+        "raster": {
+          "path": "illustrations/q07.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 480,
+        "height": 400,
+        "cx": 200,
+        "cy": 310,
+        "rayLength": 250,
+        "vertexLabel": "B",
+        "rays": [
+          {
+            "label": "A",
+            "deg": 18
+          },
+          {
+            "label": "D",
+            "deg": 54
+          },
+          {
+            "label": "C",
+            "deg": 101
+          }
+        ],
+        "arcs": [
+          {
+            "fromDeg": 18,
+            "toDeg": 54,
+            "label": "36°",
+            "radius": 52
+          },
+          {
+            "fromDeg": 54,
+            "toDeg": 101,
+            "label": "47°",
+            "radius": 52
+          }
+        ],
+        "vertexOffset": {
+          "x": -16,
+          "y": 8
+        }
+      },
+      "notes": "На рисунке только данные части; ∠ABC=83° не подписан"
+    },
+    {
+      "localId": "q08",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Развёрнутый угол EOF с лучом OD; дан 65°, искомый ∠DOF не подписан",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q08.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q08.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 520,
+        "height": 360,
+        "cx": 260,
+        "cy": 220,
+        "rayLength": 180,
+        "vertexLabel": "O",
+        "rays": [
+          {
+            "label": "E",
+            "deg": 180
+          },
+          {
+            "label": "D",
+            "deg": 115
+          },
+          {
+            "label": "F",
+            "deg": 0
+          }
+        ],
+        "arcs": [
+          {
+            "fromDeg": 115,
+            "toDeg": 180,
+            "label": "65°",
+            "radius": 48
+          }
+        ],
+        "vertexOffset": {
+          "x": 0,
+          "y": 22
+        },
+        "vertexAnchor": "middle"
+      },
+      "notes": "Подписан только данный ∠DOE=65°; ∠DOF=115° не подписан"
+    },
+    {
+      "localId": "q09",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Угол PQR с лучом QD; даны 96° и 37°, разность не подписана",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q09.svg",
+        "format": "svg",
+        "width": 480,
+        "height": 400,
+        "raster": {
+          "path": "illustrations/q09.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 480,
+        "height": 400,
+        "cx": 200,
+        "cy": 310,
+        "rayLength": 250,
+        "vertexLabel": "Q",
+        "rays": [
+          {
+            "label": "P",
+            "deg": 12
+          },
+          {
+            "label": "D",
+            "deg": 49
+          },
+          {
+            "label": "R",
+            "deg": 108
+          }
+        ],
+        "arcs": [
+          {
+            "fromDeg": 12,
+            "toDeg": 49,
+            "label": "37°",
+            "radius": 48
+          },
+          {
+            "fromDeg": 49,
+            "toDeg": 108,
+            "radius": 48
+          },
+          {
+            "fromDeg": 12,
+            "toDeg": 108,
+            "label": "96°",
+            "radius": 78
+          }
+        ],
+        "vertexOffset": {
+          "x": -16,
+          "y": 8
+        }
+      },
+      "notes": "Подписаны целое 96° и часть 37°; ∠DQR=59° не подписан"
+    },
+    {
+      "localId": "q10",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Угол KLM с точками на сторонах, внутри и во внешней области",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q10.svg",
+        "format": "svg",
+        "width": 480,
+        "height": 400,
+        "raster": {
+          "path": "illustrations/q10.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 480,
+        "height": 400,
+        "cx": 220,
+        "cy": 250,
+        "rayLength": 230,
+        "vertexLabel": "L",
+        "rays": [
+          {
+            "label": "K",
+            "deg": 25
+          },
+          {
+            "label": "M",
+            "deg": 95
+          }
+        ],
+        "showArc": true,
+        "showDegree": false,
+        "points": [
+          {
+            "id": "P",
+            "deg": 25,
+            "t": 0.58,
+            "labelDx": -12,
+            "labelDy": -12
+          },
+          {
+            "id": "Q",
+            "deg": 60,
+            "t": 0.42,
+            "labelDx": 0,
+            "labelDy": -14
+          },
+          {
+            "id": "S",
+            "deg": 95,
+            "t": 0.62,
+            "labelDx": 12,
+            "labelDy": -10
+          },
+          {
+            "id": "R",
+            "deg": 240,
+            "t": 0.38,
+            "labelDx": 0,
+            "labelDy": 16
+          }
+        ],
+        "vertexOffset": {
+          "x": -16,
+          "y": 8
+        }
+      },
+      "notes": "R во внешней области напротив вершины; без подсветки ответа"
+    },
+    {
+      "localId": "q12",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Три луча PA, PB, PC из вершины P для сопоставления обозначений",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q12.svg",
+        "format": "svg",
+        "width": 480,
+        "height": 400,
+        "raster": {
+          "path": "illustrations/q12.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 480,
+        "height": 400,
+        "cx": 220,
+        "cy": 280,
+        "rayLength": 230,
+        "vertexLabel": "P",
+        "rays": [
+          {
+            "label": "A",
+            "deg": 15
+          },
+          {
+            "label": "B",
+            "deg": 70
+          },
+          {
+            "label": "C",
+            "deg": 130
+          }
+        ],
+        "showArc": false,
+        "vertexOffset": {
+          "x": -16,
+          "y": 8
+        }
+      },
+      "notes": null
+    },
+    {
+      "localId": "q17",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Прямая EOF с лучами ON и OP; меры в условии, искомый ∠NOP не выделен",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q17.svg",
+        "format": "svg",
+        "width": 540,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q17.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 540,
+        "height": 360,
+        "cx": 270,
+        "cy": 220,
+        "rayLength": 200,
+        "vertexLabel": "O",
+        "rays": [
+          {
+            "label": "E",
+            "deg": 0
+          },
+          {
+            "label": "N",
+            "deg": 55
+          },
+          {
+            "label": "P",
+            "deg": 100
+          },
+          {
+            "label": "F",
+            "deg": 180
+          }
+        ],
+        "showArc": false,
+        "vertexOffset": {
+          "x": 0,
+          "y": 22
+        },
+        "vertexAnchor": "middle"
+      },
+      "notes": "Меры 100° и 125° только в тексте; дуга на искомом ∠NOP не ставилась"
+    },
+    {
+      "localId": "q18",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Углы AOB и BOC с биссектрисами OD и OE; угол между биссектрисами не подписан",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q18.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 400,
+        "raster": {
+          "path": "illustrations/q18.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 520,
+        "height": 400,
+        "cx": 240,
+        "cy": 300,
+        "rayLength": 240,
+        "vertexLabel": "O",
+        "rays": [
+          {
+            "label": "A",
+            "deg": 10
+          },
+          {
+            "label": "D",
+            "deg": 30
+          },
+          {
+            "label": "B",
+            "deg": 50
+          },
+          {
+            "label": "E",
+            "deg": 90
+          },
+          {
+            "label": "C",
+            "deg": 130
+          }
+        ],
+        "arcs": [
+          {
+            "fromDeg": 10,
+            "toDeg": 50,
+            "radius": 48
+          },
+          {
+            "fromDeg": 50,
+            "toDeg": 130,
+            "radius": 48
+          }
+        ],
+        "vertexOffset": {
+          "x": -16,
+          "y": 8
+        }
+      },
+      "notes": "OD и OE — биссектрисы (середины дуг); искомые 60° не подписаны и не выделены отдельной дугой"
+    },
+    {
+      "localId": "q22",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Угол EOK с биссектрисой OF; половины не подписаны",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q22.svg",
+        "format": "svg",
+        "width": 480,
+        "height": 400,
+        "raster": {
+          "path": "illustrations/q22.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 480,
+        "height": 400,
+        "cx": 200,
+        "cy": 310,
+        "rayLength": 250,
+        "vertexLabel": "O",
+        "rays": [
+          {
+            "label": "E",
+            "deg": 18
+          },
+          {
+            "label": "F",
+            "deg": 52
+          },
+          {
+            "label": "K",
+            "deg": 86
+          }
+        ],
+        "arcs": [
+          {
+            "fromDeg": 18,
+            "toDeg": 86,
+            "radius": 62
+          }
+        ],
+        "vertexOffset": {
+          "x": -16,
+          "y": 8
+        }
+      },
+      "notes": "Без градусных подписей на половинах (ответ в options)"
+    },
+    {
+      "localId": "q25",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Угол POQ с лучами OR и OS; конфигурация без подписи искомых мер",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q25.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 400,
+        "raster": {
+          "path": "illustrations/q25.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 520,
+        "height": 400,
+        "cx": 240,
+        "cy": 300,
+        "rayLength": 240,
+        "vertexLabel": "O",
+        "rays": [
+          {
+            "label": "P",
+            "deg": 10
+          },
+          {
+            "label": "R",
+            "deg": 70
+          },
+          {
+            "label": "S",
+            "deg": 85
+          },
+          {
+            "label": "Q",
+            "deg": 110
+          }
+        ],
+        "arcs": [
+          {
+            "fromDeg": 10,
+            "toDeg": 110,
+            "radius": 70
+          }
+        ],
+        "vertexOffset": {
+          "x": -16,
+          "y": 8
+        }
+      },
+      "notes": "Меры из условия в тексте; на рисунке только конфигурация лучей"
+    },
+    {
+      "localId": "q26",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Три луча OA, OB, OC для пар обозначений одного угла",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q26.svg",
+        "format": "svg",
+        "width": 480,
+        "height": 400,
+        "raster": {
+          "path": "illustrations/q26.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 480,
+        "height": 400,
+        "cx": 220,
+        "cy": 280,
+        "rayLength": 230,
+        "vertexLabel": "O",
+        "rays": [
+          {
+            "label": "A",
+            "deg": 15
+          },
+          {
+            "label": "B",
+            "deg": 70
+          },
+          {
+            "label": "C",
+            "deg": 130
+          }
+        ],
+        "showArc": false,
+        "vertexOffset": {
+          "x": -16,
+          "y": 8
+        }
+      },
+      "notes": null
+    },
+    {
+      "localId": "q27",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Развёрнутый AOB с внутренним ∠EOD=70°; равные боковые части не подписаны",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q27.svg",
+        "format": "svg",
+        "width": 540,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q27.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 540,
+        "height": 360,
+        "cx": 270,
+        "cy": 220,
+        "rayLength": 200,
+        "vertexLabel": "O",
+        "rays": [
+          {
+            "label": "A",
+            "deg": 180
+          },
+          {
+            "label": "E",
+            "deg": 125
+          },
+          {
+            "label": "D",
+            "deg": 55
+          },
+          {
+            "label": "B",
+            "deg": 0
+          }
+        ],
+        "arcs": [
+          {
+            "fromDeg": 55,
+            "toDeg": 125,
+            "label": "70°",
+            "radius": 52
+          }
+        ],
+        "vertexOffset": {
+          "x": 0,
+          "y": 22
+        },
+        "vertexAnchor": "middle"
+      },
+      "notes": "Подписан только средний 70°; боковые 55° не подписаны"
+    },
+    {
+      "localId": "q30",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Развёрнутый угол с средней частью 96°; крайние равны, мера края не подписана",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q30.svg",
+        "format": "svg",
+        "width": 540,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q30.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 540,
+        "height": 360,
+        "cx": 270,
+        "cy": 220,
+        "rayLength": 200,
+        "vertexLabel": "O",
+        "rays": [
+          {
+            "label": "A",
+            "deg": 180
+          },
+          {
+            "label": "E",
+            "deg": 138
+          },
+          {
+            "label": "D",
+            "deg": 42
+          },
+          {
+            "label": "B",
+            "deg": 0
+          }
+        ],
+        "arcs": [
+          {
+            "fromDeg": 42,
+            "toDeg": 138,
+            "label": "96°",
+            "radius": 52
+          }
+        ],
+        "vertexOffset": {
+          "x": 0,
+          "y": 22
+        },
+        "vertexAnchor": "middle"
+      },
+      "notes": "Подписан только средний 96°; крайние 42° не подписаны"
+    }
+  ]
+}

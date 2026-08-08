@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="400" viewBox="0 0 480 400">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <line x1="240" y1="220" x2="440" y2="220" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="240" y1="220" x2="354.7152872702092" y2="56.169591142201654" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="240" y1="220" x2="40" y2="219.99999999999997" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="240" y1="220" x2="125.28471272979073" y2="383.8304088577983" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="240" cy="220" r="3.5" fill="#1a1a1a"/>
+  <path d="M 282 220 A 42 42 0 0 0 264.09021032674394 185.59561413986233" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="293.2206499906933" y="192.29508320589798" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="middle">1</text>
+  <text x="252" y="238" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="start" dominant-baseline="middle">O</text>
+</svg>

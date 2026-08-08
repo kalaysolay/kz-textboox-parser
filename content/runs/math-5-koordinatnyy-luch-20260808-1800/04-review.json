@@ -1,0 +1,346 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-koordinatnyy-luch-20260808-1800",
+  "reviewedAt": "2026-08-08T16:15:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 22,
+    "fixed": 8,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "B — луч с началом отсчёта, единичным отрезком и направлением",
+      "keyAnswer": "B — Луч с началом отсчёта, единичным отрезком и заданным направлением",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×3, predict×2, compute×6, restore×4, compare×3, verify×6, word_problem×4, inverse×2. Стемы внутри формы разные; не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "B — 0",
+      "keyAnswer": "B — $0$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "fixed",
+      "solvedAnswer": "C — отрезок, длина принята за единицу",
+      "keyAnswer": "C — Отрезок, длина которого принята за единицу",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "mixed_script",
+          "severity": "major",
+          "message": "Латинская метка точки склеена с казахским окончанием: option B textKk: O-дан → $O$-дан (mixed_script)"
+        }
+      ],
+      "fixApplied": "option B textKk: O-дан → $O$-дан (mixed_script)"
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "C — вправо",
+      "keyAnswer": "C — Вправо",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "fixed",
+      "solvedAnswer": "B — 5 см (координата 5 × единица 1 см)",
+      "keyAnswer": "B — $5$ см",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "mixed_script",
+          "severity": "major",
+          "message": "Латинская метка точки склеена с казахским окончанием: explanationKk: O-дан → $O$-дан"
+        }
+      ],
+      "fixApplied": "explanationKk: O-дан → $O$-дан"
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "C — 3 (после 2 следует 3)",
+      "keyAnswer": "C — $3$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "C — 6 (сцена: K на делении 6)",
+      "keyAnswer": "C — $6$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "B — R (сцена: R правее P)",
+      "keyAnswer": "B — У точки $R$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "B — неверно; правильно O(0)",
+      "keyAnswer": "B — Неверно; правильно $O(0)$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "B — 9 см (OD = координата D)",
+      "keyAnswer": "B — $9$ см",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "B — 3 (сцена: S между 2 и 4, шаг 2)",
+      "keyAnswer": "B — $3$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "D — 8; (5+11)/2 = 8",
+      "keyAnswer": "D — $8$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "C — 200 м (сцена: T на 5; 5×40)",
+      "keyAnswer": "C — $200$ м",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "B — отсчёт от 1; верно 5 (сцена: N на 5)",
+      "keyAnswer": "B — Отсчёт от $1$, а не от $O(0)$; верно $5$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "C — ровно одной точкой",
+      "keyAnswer": "C — Ровно одной точкой",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "status": "accepted",
+      "solvedAnswer": "C — 4 (сцена: F на нижнем луче = 4)",
+      "keyAnswer": "C — $4$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "fixed",
+      "solvedAnswer": "B — Q (8 > 3)",
+      "keyAnswer": "B — Точка $Q$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "mixed_script",
+          "severity": "major",
+          "message": "Латинская метка точки склеена с казахским окончанием: explanationKk: Latin point labels → math mode"
+        }
+      ],
+      "fixApplied": "explanationKk: Latin point labels → math mode"
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "C — 6; 12∶2 = 6",
+      "keyAnswer": "C — $6$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A, B",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "A, C (сцена: F(3), H(9); G(5) и O(6) ложны)",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "fixed",
+      "solvedAnswer": "A, B (сцена: L–N–T слева направо)",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "mixed_script",
+          "severity": "major",
+          "message": "Латинская метка точки склеена с казахским окончанием: option D textKk: O-дан → $O$-дан"
+        }
+      ],
+      "fixApplied": "option D textKk: O-дан → $O$-дан"
+    },
+    {
+      "localId": "q22",
+      "status": "fixed",
+      "solvedAnswer": "A, B, D",
+      "keyAnswer": "A, B, D",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "mixed_script",
+          "severity": "major",
+          "message": "Латинская метка точки склеена с казахским окончанием: option A textKk: O-мен → $O$-мен"
+        }
+      ],
+      "fixApplied": "option A textKk: O-мен → $O$-мен"
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "C, D (сцена: H(5), J(7) > 4)",
+      "keyAnswer": "C, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "A, B (сцена: B(2), D(6); |6−2|×30 = 120)",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "fixed",
+      "solvedAnswer": "A, B",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "mixed_script",
+          "severity": "major",
+          "message": "Латинская метка точки склеена с казахским окончанием: option D textKk: O-дан → $O$-дан"
+        }
+      ],
+      "fixApplied": "option D textKk: O-дан → $O$-дан"
+    },
+    {
+      "localId": "q26",
+      "status": "fixed",
+      "solvedAnswer": "A, B, D",
+      "keyAnswer": "A, B, D",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "duplicate_body",
+          "severity": "blocker",
+          "message": "Точное совпадение bodyRu «Отметь все верные утверждения.» с content/runs/math-5-naturalnye-chisla-i-nol-20260808-1700/05-questions.final.json#q23 (G018)."
+        }
+      ],
+      "fixApplied": "Добавлен тематический якорь в stem (координатный луч / ключевые факты 1.2); опции и ключ без изменений."
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "A, B, C (путь 4→1→8→5→12→…; 2 недостижима)",
+      "keyAnswer": "A, B, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 8 (сцена: W на делении 8)",
+      "keyAnswer": "[[1]] = 8",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 7; (4+10)/2 = 7",
+      "keyAnswer": "[[1]] = 7",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q30",
+      "status": "fixed",
+      "solvedAnswer": "[[1]] = 240 (сцена: ~4·60)",
+      "keyAnswer": "[[1]] = 240",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "mixed_script",
+          "severity": "major",
+          "message": "Латинская метка точки склеена с казахским окончанием: bodyKk: O-дан/K-ға → $O$-дан/$K$-ға"
+        }
+      ],
+      "fixApplied": "bodyKk: O-дан/K-ға → $O$-дан/$K$-ға"
+    }
+  ],
+  "duplicates": [
+    {
+      "localId": "q26",
+      "conflictsWith": "content/runs/math-5-naturalnye-chisla-i-nol-20260808-1700/05-questions.final.json#q23",
+      "normalizedBody": "отметь все верные утверждения"
+    }
+  ],
+  "verdict": "ready_for_import"
+}

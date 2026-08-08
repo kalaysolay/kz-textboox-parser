@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-uproshchenie-vyrazheniy-20260808-2300",
+  "reviewedAt": "2026-08-08T19:30:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 30,
+    "fixed": 0,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "A — замена равным выражением с меньшим числом действий",
+      "keyAnswer": "A — Замена равным выражением с меньшим числом действий",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×2, predict×2, compute×7, verify×7, restore×3, compare×4, word_problem×4, inverse×1. Стемы внутри формы разные; слот не отклоняем (как C7/C10)."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "B — заменить сумму/разность произведением с общим множителем вне скобок",
+      "keyAnswer": "B — Заменить сумму или разность произведением с общим множителем вне скобок",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "C — 23+a",
+      "keyAnswer": "C — $23+a$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "D — 20+x (13+7=20)",
+      "keyAnswer": "D — $20+x$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "A — 40y (5·8=40)",
+      "keyAnswer": "A — $40y$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "B — abc",
+      "keyAnswer": "B — $abc$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "C — 14y ((5+9)y)",
+      "keyAnswer": "C — $14y$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "A — 5y ((9-4)y)",
+      "keyAnswer": "A — $5y$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "D — 14",
+      "keyAnswer": "D — $14$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "B — 2+7a+8=17a (неверно)",
+      "keyAnswer": "B — $2+7a+8=17a$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "D — 24b (8·3=24)",
+      "keyAnswer": "D — $24b$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "C — 30mnp",
+      "keyAnswer": "C — $30mnp$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "A — 7",
+      "keyAnswer": "A — $7$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "D — 8a",
+      "keyAnswer": "D — $8a$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "C — 72kmn",
+      "keyAnswer": "C — $72kmn$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "status": "accepted",
+      "solvedAnswer": "B — 13x",
+      "keyAnswer": "B — $13x$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "A — 7x+8x",
+      "keyAnswer": "A — $7x+8x$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "C — (9+a)+11 и 20+a",
+      "keyAnswer": "C — $(9+a)+11$ и $20+a$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A, B, D",
+      "keyAnswer": "A — $(9+a)+11=20+a$; B — $13+x+7=20+x$; D — $(16+b)+4=20+b$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "A, C",
+      "keyAnswer": "A — $4a\\cdot 5=20a$; C — $y\\cdot 3\\cdot 16=48y$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "A, C",
+      "keyAnswer": "A — $72kmn$; C — $40abc$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "A, B, C",
+      "keyAnswer": "A — $7a+7\\cdot 3=7(a+3)$; B — $16\\cdot 5+5b=5(16+b)$; C — $14c-14\\cdot 3=14(c-3)$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "A, B, D",
+      "keyAnswer": "A — $8x+3x-x=10x$; B — $10x+7x-8x=9x$; D — $9y+2y-4y=7y$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "A, C",
+      "keyAnswer": "A — $(a+90)+a$; C — $2a+90$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A, B, C",
+      "keyAnswer": "A — $5x+3x+10x$; B — $9x+9x$; C — $20x-2x$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "A, B, D",
+      "keyAnswer": "A — $32\\cdot 14+14\\cdot 68=14\\cdot(32+68)$; B — $83\\cdot 25-73\\cdot 25=25\\cdot(83-73)$; D — $27\\cdot 58+58\\cdot 73=58\\cdot(27+73)$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "A, B (15x-10)",
+      "keyAnswer": "A — $x+2x+6x+(6x-10)$; B — $15x-10$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 189",
+      "keyAnswer": "[[1]] = 189",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 312",
+      "keyAnswer": "[[1]] = 312",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 466",
+      "keyAnswer": "[[1]] = 466",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

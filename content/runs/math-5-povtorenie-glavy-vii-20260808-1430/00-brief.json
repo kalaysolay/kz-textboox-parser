@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-povtorenie-glavy-vii-20260808-1430",
+  "createdAt": "2026-08-08T14:30:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "Упражнения для повторения главы VII",
+  "topicKk": "VII тарауды қайталау жаттығулары",
+  "topicSlug": "povtorenie-glavy-vii",
+  "topicCode": null,
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 8,
+  "typeMix": { "SCQ": 5, "MCQ": 2, "FILL_IN": 1 },
+  "difficultyMix": { "1": 1, "2": 1, "3": 4, "4": 1, "5": 1 },
+  "illustrationPolicy": "visual-topics",
+  "illustrationFor": [],
+  "parsedTextbookPath": "Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+  "methodistInstruction": "SUPPLEMENTARY chapter VII review, pages 155–156. topicCode null. count cut 30→8 by recommendedMaxCount (SCQ5/MCQ2/FILL_IN1 ≈60/30/10). slice ready_unverified with RC_* primary — meta.sourceReliability unverified_reconstruction. Mix angle measure, angle types, polygons from 7.1–7.4. Формулировки для 5 класса: короткие, однозначные, без двусмысленности и лишних условий. Anti-dup vs math-5-ugol-gradusnaya-mera-20260808-1230, math-5-transportir-izmerenie-postroenie-20260808-1300, math-5-sravnenie-vidy-uglov-20260808-1330, math-5-mnogougolniki-20260808-1400. visual-topics: supported kinds ONLY angle, polygon (no protractor). pdfOffset=0.",
+  "languageMode": "BOTH"
+}

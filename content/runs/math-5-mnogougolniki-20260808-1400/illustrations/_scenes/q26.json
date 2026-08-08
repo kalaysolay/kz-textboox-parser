@@ -1,0 +1,23 @@
+{
+  "kind": "polygon",
+  "width": 720,
+  "height": 360,
+  "figures": [
+    {
+      "sides": 4,
+      "cx": 200,
+      "cy": 200,
+      "radius": 120,
+      "rotationDeg": -45,
+      "vertexLabels": ["", "", "", ""]
+    },
+    {
+      "sides": 5,
+      "cx": 520,
+      "cy": 200,
+      "radius": 120,
+      "rotationDeg": -90,
+      "vertexLabels": ["", "", "", "", ""]
+    }
+  ]
+}

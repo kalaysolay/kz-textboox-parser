@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-parallelepiped-razvertka-20260808-1630",
+  "createdAt": "2026-08-08T16:30:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "Прямоугольный параллелепипед и его развертка",
+  "topicKk": "Тік бұрышты параллелепипед және оның жазбасы",
+  "topicSlug": "parallelepiped-razvertka",
+  "topicCode": "9.1",
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 30,
+  "typeMix": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMix": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "illustrationPolicy": "visual-topics",
+  "illustrationFor": [],
+  "parsedTextbookPath": "Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+  "methodistInstruction": "Формулировки для 5 класса: короткие, однозначные, без двусмысленности и лишних условий. VISUAL topic 9.1 pages ~173–176. Use parallelepiped / net_parallelepiped where stem needs figure. illustrationPolicy visual-topics — mark needsIllustration true where stem incomplete without solid/net (healthy share). Generator stems that need figures must say «на рисунке» / KK equivalent. Prefer REAL solid/net kinds. Avoid duplicate stems vs other runs. Reduce count if recommendedMaxCount < 30. pdfOffset=0 for part2.",
+  "languageMode": "BOTH"
+}

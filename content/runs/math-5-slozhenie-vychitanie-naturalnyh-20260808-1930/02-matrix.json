@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-slozhenie-vychitanie-naturalnyh-20260808-1930",
+  "typeMixPlanned": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMixPlanned": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Термины сложения: слагаемые и сумма",
+      "stemIdea": "В равенстве a+b=c выбрать, как называют a и b",
+      "trapIdeas": [
+        "Ученик называет a и b уменьшаемым и вычитаемым",
+        "Ученик называет a и b разностью",
+        "Ученик путает слагаемые с суммой"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p20_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Термины вычитания",
+      "stemIdea": "В равенстве a−b=c выбрать название для a",
+      "trapIdeas": [
+        "Ученик выбирает «вычитаемое»",
+        "Ученик выбирает «слагаемое»",
+        "Ученик выбирает «разность»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p21_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Определение вычитания",
+      "stemIdea": "Выбрать верное определение действия вычитания по учебнику",
+      "trapIdeas": [
+        "Ученик путает с определением сложения",
+        "Ученик думает, что вычитание — поиск суммы",
+        "Ученик описывает умножение"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p21_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Направление сложения на луче",
+      "stemIdea": "Чтобы сложить, точку на луче перемещают в какую сторону",
+      "trapIdeas": [
+        "Ученик выбирает влево",
+        "Ученик думает, что направление не важно",
+        "Ученик путает с вычитанием"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p20_3"],
+      "sourceExampleRefs": ["p20#ex2"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Направление вычитания на луче",
+      "stemIdea": "Чтобы вычесть, точку на луче перемещают в какую сторону",
+      "trapIdeas": [
+        "Ученик выбирает вправо",
+        "Ученик считает, что нужно двигаться к нулю всегда на любое расстояние",
+        "Ученик путает с чтением координаты без перемещения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p21_4"],
+      "sourceExampleRefs": ["p21#self"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Поразрядное сложение: с чего начинать",
+      "stemIdea": "С какого разряда начинают сложение натуральных чисел",
+      "trapIdeas": [
+        "Ученик начинает со старшего разряда",
+        "Ученик складывает цифры в любом порядке",
+        "Ученик думает, что начинают с десятков"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p20_1"],
+      "sourceExampleRefs": ["p20#ex1"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Вычисление суммы столбиком",
+      "stemIdea": "Найти значение суммы двух многозначных с переносом",
+      "trapIdeas": [
+        "Ученик забыл перенос в следующий разряд",
+        "Ученик сложил цифры без выравнивания разрядов",
+        "Ученик сделал лишний перенос"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p20_1", "KF_p23_assembled"],
+      "sourceExampleRefs": ["p20#ex1"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Вычисление разности столбиком",
+      "stemIdea": "Найти значение разности с займом разряда",
+      "trapIdeas": [
+        "Ученик вычел «верх из низа» без займа",
+        "Ученик забыл уменьшить соседний разряд после займа",
+        "Ученик ошибся в выравнивании разрядов"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p21_3"],
+      "sourceExampleRefs": ["p21#ex3"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сумма на координатном луче",
+      "stemIdea": "По описанию перемещения вправо от A(n) на k найти координату и равенство",
+      "trapIdeas": [
+        "Ученик вычел вместо сложения",
+        "Ученик отсчитал k от нуля, игнорируя старт A",
+        "Ученик ошибся на 1 при отсчёте"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Без луча с точкой A и стрелкой +k условие неполное",
+      "sourceRuleIds": ["PDF_p20_3"],
+      "sourceExampleRefs": ["p20#ex2"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Разность на координатном луче",
+      "stemIdea": "По лучу с перемещением влево найти разность и равенство",
+      "trapIdeas": [
+        "Ученик сложил вместо вычитания",
+        "Ученик перепутал уменьшаемое и вычитаемое",
+        "Ученик отсчитал вправо"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Без луча с A и стрелкой влево условие неполное",
+      "sourceRuleIds": ["PDF_p21_4"],
+      "sourceExampleRefs": ["p21#self"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Связь a−b=c и a=b+c",
+      "stemIdea": "По известным вычитаемому и разности восстановить уменьшаемое",
+      "trapIdeas": [
+        "Ученик вычел вместо сложения",
+        "Ученик сложил разность с уменьшаемым",
+        "Ученик перепутал роли b и c"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["KF_p23_assembled"],
+      "sourceExampleRefs": [],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Условие a≥b для вычитания натуральных",
+      "stemIdea": "Какое из равенств a−b допустимо для натуральных (включая нуль разности)",
+      "trapIdeas": [
+        "Ученик допускает b>a в натуральных",
+        "Ученик запрещает a=b",
+        "Ученик путает с правилом для суммы"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p21_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Текстовая задача: одно сложение",
+      "stemIdea": "Спидометр/пробег: показание плюс пройденный путь",
+      "trapIdeas": [
+        "Ученик вычел пробег",
+        "Ученик ошибся в переносе при сложении",
+        "Ученик сложил только часть разрядов"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p20_1", "PDF_p20_2"],
+      "sourceExampleRefs": ["p20#task1"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Устное вычитание с опорой на 100",
+      "stemIdea": "Найти 100−n из ряда устных заданий учебника",
+      "trapIdeas": [
+        "Ученик вычислил 100+n",
+        "Ученик ошибся в разряде десятков",
+        "Ученик взял ответ соседнего примера из списка"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p21_3"],
+      "sourceExampleRefs": ["p22#40"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сравнение двух сумм/разностей",
+      "stemIdea": "Сравнить значения двух выражений со сложением/вычитанием без полного раскрытия всех",
+      "trapIdeas": [
+        "Ученик сравнил только первые слагаемые",
+        "Ученик перепутал знаки при сравнении",
+        "Ученик вычислил одно выражение неверно"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p20_1", "PDF_p21_3"],
+      "sourceExampleRefs": [],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 5,
+      "skillFocus": "Проверка чужого столбика сложения",
+      "stemIdea": "Дан неверный столбик суммы — выбрать, в каком разряде ошибка",
+      "trapIdeas": [
+        "Ученик указал верный разряд как ошибочный",
+        "Ученик думает, что ошибка в выравнивании, хотя она в переносе",
+        "Ученик принимает неверный итог"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p20_1", "KF_p23_assembled"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Восстановить пропущенное слагаемое",
+      "stemIdea": "В равенстве □ + b = c найти пропущенное слагаемое",
+      "trapIdeas": [
+        "Ученик сложил b и c",
+        "Ученик вычел c из b",
+        "Ученик взял само c"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p20_2", "PDF_p21_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 5,
+      "skillFocus": "Чтение луча: несколько перемещений от одной точки",
+      "stemIdea": "По рис. с A и стрелками ± найти одну из координат B/C/D/E",
+      "trapIdeas": [
+        "Ученик применил не ту стрелку",
+        "Ученик перепутал знак операции",
+        "Ученик отсчитал от нуля"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Рис. с несколькими стрелками от A обязателен",
+      "sourceRuleIds": ["PDF_p20_3", "PDF_p21_4"],
+      "sourceExampleRefs": ["p22#42"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные утверждения о сложении",
+      "stemIdea": "Выбрать все верные утверждения: разряды, термины, c>a и c>b",
+      "trapIdeas": [
+        "Ученик отмечает «сумма меньше слагаемого»",
+        "Ученик думает, что начинают со старшего разряда",
+        "Ученик путает сумму со слагаемым"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p20_1", "PDF_p20_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные утверждения о вычитании",
+      "stemIdea": "Выбрать все верные: определение, a≥b, поразрядность",
+      "trapIdeas": [
+        "Ученик отмечает, что при натуральных можно b>a",
+        "Ученик путает уменьшаемое с вычитаемым",
+        "Ученик думает, что вычитание — поиск суммы двух слагаемых"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p21_1", "PDF_p21_2", "PDF_p21_3"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные равенства сложения/вычитания",
+      "stemIdea": "Отметить все верно вычисленные равенства из короткого списка",
+      "trapIdeas": [
+        "Ученик принял равенство с ошибкой переноса",
+        "Ученик отверг верное равенство",
+        "Ученик перепутал знаки + и −"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p20_1", "PDF_p21_3"],
+      "sourceExampleRefs": ["p22#40"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Свойства перемещения на луче",
+      "stemIdea": "Выбрать все верные: вправо увеличивает, влево уменьшает; + вправо, − влево",
+      "trapIdeas": [
+        "Ученик отмечает, что вправо координата уменьшается",
+        "Ученик путает направление для вычитания",
+        "Ученик думает, что сложение всегда к нулю"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p20_3", "PDF_p21_4"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Ключевые факты: связь сложения и вычитания",
+      "stemIdea": "Выбрать все следствия из a−b=c (в т.ч. a=b+c)",
+      "trapIdeas": [
+        "Ученик выбирает a=b−c",
+        "Ученик выбирает c=a+b",
+        "Ученик путает роли слагаемых"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["KF_p23_assembled"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Разложение и сложение по разрядам",
+      "stemIdea": "Отметить все верные свёртки разложений в одно число",
+      "trapIdeas": [
+        "Ученик склеил цифры без учёта разрядов",
+        "Ученик пропустил нули в промежуточных разрядах",
+        "Ученик сложил коэффициенты как одноразрядные"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["KF_p23_assembled", "PDF_p20_1"],
+      "sourceExampleRefs": ["p22#41"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Текстовая задача в два действия: маршрут",
+      "stemIdea": "Расстояния Астана–Кокшетау–Петропавловск: выбрать верные промежуточные и итог",
+      "trapIdeas": [
+        "Ученик вычел 110 от итога вместо второго участка",
+        "Ученик сложил 297+110",
+        "Ученик забыл сложить два участка"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p20_2", "PDF_p21_2"],
+      "sourceExampleRefs": ["p22#45"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Несколько верных координат на одном луче",
+      "stemIdea": "По рис. с A(27) и стрелками ± отметить все верные координаты точек",
+      "trapIdeas": [
+        "Ученик отметил координату с неверным знаком",
+        "Ученик ошибся на величину стрелки",
+        "Ученик отсчитал от 0"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Несколько точек на одном луче без рисунка не задаются однозначно",
+      "sourceRuleIds": ["PDF_p20_3", "PDF_p21_4"],
+      "sourceExampleRefs": ["p22#42"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Отсев ошибок в столбиках",
+      "stemIdea": "Из нескольких готовых столбиков сложения/вычитания выбрать все верные",
+      "trapIdeas": [
+        "Ученик принял столбик с забытым переносом",
+        "Ученик отверг верный столбик из‑за «некрасивого» переноса",
+        "Ученик спутал сумму и разность"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p20_1", "PDF_p21_3"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Числовой ответ: сумма",
+      "stemIdea": "Вычислить конкретную сумму многозначных",
+      "trapIdeas": [
+        "Ошибка переноса",
+        "Неверное выравнивание"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p20_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "skillFocus": "Числовой ответ: двухшаговая текстовая",
+      "stemIdea": "Задача про деревья/количества: итоговое число",
+      "trapIdeas": [
+        "Ученик нашёл только часть слагаемых",
+        "Ученик забыл третье слагаемое"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p20_2", "PDF_p21_2"],
+      "sourceExampleRefs": ["p23#47"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Рациональный путь: система сумм линий",
+      "stemIdea": "По суммам пар трамвайных линий найти число остановок на первой",
+      "trapIdeas": [
+        "Ученик вычел не те пары",
+        "Ученик сложил все суммы подряд"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["KF_p23_assembled", "PDF_p21_2"],
+      "sourceExampleRefs": ["p23#48"],
+      "questionForm": "inverse"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "count=30 при recommendedMaxCount=null. typeMix 18/9/3, difficulty 2/4/15/6/3. Иллюстрации visual-topics: q09,q10,q18,q26 (лучи). Антидубль: нет чистого сравнения, систем счисления и «что такое натуральное». Формы переиспользуются (лимит 2× неприменим к пачке 30) — как в соседних C-прогонах."
+}

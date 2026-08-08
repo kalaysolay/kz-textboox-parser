@@ -1,0 +1,1246 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-slozhenie-vychitanie-naturalnyh-20260808-1930",
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "math-5-slozhenie-vychitanie-naturalnyh-20260808-1930",
+    "generatedAt": "2026-08-08T19:45:00+05:00",
+    "subjectTitleRu": "Математика",
+    "subjectTitleKk": "Математика",
+    "gradeNo": 5,
+    "topicCode": "1.4",
+    "topicTitleRu": "Сложение и вычитание натуральных чисел",
+    "topicTitleKk": "Натурал сандарды қосу және азайту",
+    "topicSlug": "slozhenie-vychitanie-naturalnyh",
+    "atomicSkillTitleRu": null,
+    "textbookRef": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+    "illustrationPolicy": "visual-topics",
+    "sourceReliability": "verbatim"
+  },
+  "questions": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p20_2"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "В равенстве $a + b = c$ числа $a$ и $b$ называют…",
+      "bodyKk": "$a + b = c$ теңдігінде $a$ және $b$ сандарын қалай атайды?",
+      "explanationRu": "В сумме $a$ и $b$ — слагаемые, $c$ — сумма (значение суммы).",
+      "explanationKk": "Қосындыда $a$ мен $b$ — қосылғыштар, $c$ — қосынды (қосындының мәні).",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "уменьшаемым и вычитаемым",
+          "textKk": "кеміткіш және азайтқыш",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "слагаемыми",
+          "textKk": "қосылғыштар",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "разностью",
+          "textKk": "айырма",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "частным и делителем",
+          "textKk": "өзіндік және бөлгіш",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p21_2"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "В равенстве $a - b = c$ число $a$ называют…",
+      "bodyKk": "$a - b = c$ теңдігінде $a$ санын қалай атайды?",
+      "explanationRu": "$a$ — уменьшаемое, $b$ — вычитаемое, $c$ — разность.",
+      "explanationKk": "$a$ — кеміткіш, $b$ — азайтқыш, $c$ — айырма.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "вычитаемым",
+          "textKk": "азайтқыш",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "слагаемым",
+          "textKk": "қосылғыш",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "уменьшаемым",
+          "textKk": "кеміткіш",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "суммой",
+          "textKk": "қосынды",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p21_1"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "Какое действие называют вычитанием?",
+      "bodyKk": "Азайту деп қандай амалды атайды?",
+      "explanationRu": "Вычитание — действие, которым по значению суммы и одному слагаемому находят другое слагаемое.",
+      "explanationKk": "Азайту — қосындының мәні мен бір қосылғыш бойынша екінші қосылғышты табу амалы.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Действие, которым по сумме и одному слагаемому находят другое слагаемое",
+          "textKk": "Қосынды мен бір қосылғыш бойынша екінші қосылғышты табу амалы",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Действие, которым по двум слагаемым находят сумму",
+          "textKk": "Екі қосылғыш бойынша қосындыны табу амалы",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Действие, которым числа сравнивают по разрядам",
+          "textKk": "Сандарды разряд бойынша салыстыру амалы",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Действие, которым число записывают в другой системе счисления",
+          "textKk": "Санды басқа санау жүйесінде жазу амалы",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p20_3"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "Чтобы найти сумму двух натуральных чисел на координатном луче, точку перемещают…",
+      "bodyKk": "Координаталық сәуледе екі натурал санның қосындысын табу үшін нүктені қайда жылжытады?",
+      "explanationRu": "При сложении координата увеличивается — точку перемещают вправо.",
+      "explanationKk": "Қосқанда координата артады — нүктені оңға жылжытады.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "влево",
+          "textKk": "солға",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "вправо",
+          "textKk": "оңға",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "к началу луча O",
+          "textKk": "сәуленің O басына",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "вверх от луча",
+          "textKk": "сәуледен жоғары",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p21_4"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "Чтобы найти разность двух натуральных чисел на координатном луче, точку перемещают…",
+      "bodyKk": "Координаталық сәуледе екі натурал санның айырмасын табу үшін нүктені қайда жылжытады?",
+      "explanationRu": "При вычитании точку перемещают влево на число единиц вычитаемого.",
+      "explanationKk": "Азайтқанда нүктені азайтқыш бірліктерінің санына солға жылжытады.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "вправо",
+          "textKk": "оңға",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "влево",
+          "textKk": "солға",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "только к точке с координатой 1",
+          "textKk": "тек 1 координаталы нүктеге",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "по окружности",
+          "textKk": "шеңбер бойымен",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p20_1"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "Сложение натуральных чисел выполняют поразрядно, начиная с разряда…",
+      "bodyKk": "Натурал сандарды қосу разряд бойынша орындалады, қай разрядтан бастап?",
+      "explanationRu": "Сложение начинают с разряда единиц.",
+      "explanationKk": "Қосу бірліктер разрядынан басталады.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "тысяч",
+          "textKk": "мыңдықтар",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "единиц",
+          "textKk": "бірліктер",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "сотен",
+          "textKk": "жүздіктер",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "десятков",
+          "textKk": "ондықтар",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p20_1",
+        "KF_p23_assembled"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "Вычисли: $3847 + 2569$. Чему равна сумма?",
+      "bodyKk": "Есепте: $3847 + 2569$. Қосынды неге тең?",
+      "explanationRu": "Поразрядно с переносами: $3847 + 2569 = 6416$.",
+      "explanationKk": "Разряд бойынша тасымалмен: $3847 + 2569 = 6416$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$6316$",
+          "textKk": "$6316$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$6416$",
+          "textKk": "$6416$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$6406$",
+          "textKk": "$6406$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$5416$",
+          "textKk": "$5416$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p21_3"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "Вычисли: $8050 - 2763$. Чему равна разность?",
+      "bodyKk": "Есепте: $8050 - 2763$. Айырма неге тең?",
+      "explanationRu": "Поразрядно с займом: $8050 - 2763 = 5287$.",
+      "explanationKk": "Разряд бойынша қарызбен: $8050 - 2763 = 5287$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$5387$",
+          "textKk": "$5387$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$5297$",
+          "textKk": "$5297$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$5287$",
+          "textKk": "$5287$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$6287$",
+          "textKk": "$6287$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": true,
+      "sourceRuleIds": [
+        "PDF_p20_3"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "На координатном луче отмечена точка $A(5)$. Её переместили вправо на $7$ единиц в точку $B$. Какое равенство соответствует этому перемещению?",
+      "bodyKk": "Координаталық сәуледе $A(5)$ нүктесі белгіленген. Оны оңға $7$ бірлікке $B$ нүктесіне жылжытты. Осы жылжуға қай теңдік сәйкес?",
+      "explanationRu": "Вправо на $7$: $5 + 7 = 12$, точка $B(12)$.",
+      "explanationKk": "Оңға $7$: $5 + 7 = 12$, $B(12)$ нүктесі.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$5 + 7 = 12$",
+          "textKk": "$5 + 7 = 12$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$5 - 7 = 12$",
+          "textKk": "$5 - 7 = 12$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$7 - 5 = 2$",
+          "textKk": "$7 - 5 = 2$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$5 + 7 = 11$",
+          "textKk": "$5 + 7 = 11$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": true,
+      "sourceRuleIds": [
+        "PDF_p21_4"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "На координатном луче отмечена точка $A(14)$. Её переместили влево на $9$ единиц в точку $B$. Какое равенство соответствует этому перемещению?",
+      "bodyKk": "Координаталық сәуледе $A(14)$ нүктесі белгіленген. Оны солға $9$ бірлікке $B$ нүктесіне жылжытты. Осы жылжуға қай теңдік сәйкес?",
+      "explanationRu": "Влево на $9$: $14 - 9 = 5$, точка $B(5)$.",
+      "explanationKk": "Солға $9$: $14 - 9 = 5$, $B(5)$ нүктесі.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$14 + 9 = 23$",
+          "textKk": "$14 + 9 = 23$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$14 - 9 = 5$",
+          "textKk": "$14 - 9 = 5$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$9 - 14 = 5$",
+          "textKk": "$9 - 14 = 5$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$14 - 9 = 6$",
+          "textKk": "$14 - 9 = 6$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "KF_p23_assembled"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "Известно, что $a - 28 = 17$. Чему равно уменьшаемое $a$?",
+      "bodyKk": "$a - 28 = 17$ екені белгілі. Кеміткіш $a$ неге тең?",
+      "explanationRu": "Если $a - b = c$, то $a = b + c$. Значит $a = 28 + 17 = 45$.",
+      "explanationKk": "$a - b = c$ болса, $a = b + c$. Демек $a = 28 + 17 = 45$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$11$",
+          "textKk": "$11$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$45$",
+          "textKk": "$45$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$28$",
+          "textKk": "$28$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$17$",
+          "textKk": "$17$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p21_2"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "Для натуральных чисел (и нуля в разности) какое равенство допустимо?",
+      "bodyKk": "Натурал сандар үшін (айырмада нөл болуы мүмкін) қай теңдік рұқсат етіледі?",
+      "explanationRu": "При вычитании нужно $a > b$ или $a = b$. Равенство $15 - 15 = 0$ допустимо.",
+      "explanationKk": "Азайтуда $a > b$ немесе $a = b$ керек. $15 - 15 = 0$ рұқсат.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$8 - 12 = 4$",
+          "textKk": "$8 - 12 = 4$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$15 - 15 = 0$",
+          "textKk": "$15 - 15 = 0$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$9 - 20 = 11$",
+          "textKk": "$9 - 20 = 11$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$3 - 10 = 7$",
+          "textKk": "$3 - 10 = 7$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p20_1",
+        "PDF_p20_2"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "Перед поездкой спидометр показывал $6480$ км. Автомобиль проехал ещё $275$ км. Какое показание будет на спидометре?",
+      "bodyKk": "Сапар алдында спидометр $6480$ км көрсетті. Автомобиль тағы $275$ км жүрді. Спидометрде қандай көрсеткіш болады?",
+      "explanationRu": "Нужно сложить: $6480 + 275 = 6755$.",
+      "explanationKk": "Қосу керек: $6480 + 275 = 6755$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$6205$",
+          "textKk": "$6205$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$6755$",
+          "textKk": "$6755$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$6655$",
+          "textKk": "$6655$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$6750$",
+          "textKk": "$6750$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p21_3"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "Найди значение выражения: $100 - 33$.",
+      "bodyKk": "Өрнектің мәнін тап: $100 - 33$.",
+      "explanationRu": "$100 - 33 = 67$.",
+      "explanationKk": "$100 - 33 = 67$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$67$",
+          "textKk": "$67$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$77$",
+          "textKk": "$77$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$133$",
+          "textKk": "$133$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$63$",
+          "textKk": "$63$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p20_1",
+        "PDF_p21_3"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "Какое выражение имеет большее значение: $48 + 12$ или $70 - 47$?",
+      "bodyKk": "Қай өрнектің мәні үлкен: $48 + 12$ әлде $70 - 47$?",
+      "explanationRu": "$48 + 12 = 60$, $70 - 47 = 23$, значит больше сумма $48 + 12$.",
+      "explanationKk": "$48 + 12 = 60$, $70 - 47 = 23$, демек $48 + 12$ үлкен.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$70 - 47$",
+          "textKk": "$70 - 47$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$48 + 12$",
+          "textKk": "$48 + 12$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "значения равны",
+          "textKk": "мәндері тең",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "сравнить нельзя",
+          "textKk": "салыстыруға болмайды",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 5,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p20_1",
+        "KF_p23_assembled"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "Ученик записал столбиком: $456 + 378 = 724$. В каком разряде допущена ошибка, если правильно $456 + 378 = 834$?",
+      "bodyKk": "Оқушы бағанмен жазды: $456 + 378 = 724$. Дұрысы $456 + 378 = 834$ болса, қай разрядта қате жіберілген?",
+      "explanationRu": "Единицы: $6+8=14$ (пишем 4, перенос 1). Десятки: $5+7+1=13$ (пишем 3, перенос 1). Сотни: $4+3+1=8$. Ученик потерял перенос в сотни и получил $724$.",
+      "explanationKk": "Бірлік: $6+8=14$. Ондық: $5+7+1=13$. Жүздік: $4+3+1=8$. Оқушы жүздікке тасымалды жоғалтқан.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "только в разряде единиц (без переноса)",
+          "textKk": "тек бірліктерде (тасымалсыз)",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "потерян перенос в разряд сотен",
+          "textKk": "жүздіктер разрядына тасымал жоғалған",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "ошибки нет, ответ $724$ верный",
+          "textKk": "қате жоқ, $724$ дұрыс",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "неверно выровнены разряды слагаемых",
+          "textKk": "қосылғыштар разрядтары теңестірілмеген",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p20_2",
+        "PDF_p21_1"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "Какое число пропущено в равенстве $\\square + 346 = 901$?",
+      "bodyKk": "$\\square + 346 = 901$ теңдігінде қандай сан жіберілген?",
+      "explanationRu": "Пропущенное слагаемое: $901 - 346 = 555$.",
+      "explanationKk": "Жіберілген қосылғыш: $901 - 346 = 555$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$1247$",
+          "textKk": "$1247$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$555$",
+          "textKk": "$555$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$655$",
+          "textKk": "$655$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$346$",
+          "textKk": "$346$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 5,
+      "needsIllustration": true,
+      "sourceRuleIds": [
+        "PDF_p20_3",
+        "PDF_p21_4"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "На координатном луче отмечена точка $A(27)$. От неё влево отложено $9$ единиц до точки $C$. Чему равна координата точки $C$?",
+      "bodyKk": "Координаталық сәуледе $A(27)$ нүктесі бар. Одан солға $9$ бірлікке $C$ нүктесіне дейін өлшенген. $C$ нүктесінің координатасы неге тең?",
+      "explanationRu": "$27 - 9 = 18$, значит $C(18)$.",
+      "explanationKk": "$27 - 9 = 18$, демек $C(18)$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$36$",
+          "textKk": "$36$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$18$",
+          "textKk": "$18$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$19$",
+          "textKk": "$19$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$12$",
+          "textKk": "$12$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p20_1",
+        "PDF_p20_2"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "Выбери все верные утверждения о сложении натуральных чисел.",
+      "bodyKk": "Натурал сандарды қосу туралы барлық дұрыс тұжырымдарды таңда.",
+      "explanationRu": "Верно: складывают поразрядно с единиц; $a$ и $b$ — слагаемые; при $a+b=c$ верно $c>a$ и $c>b$ (для натуральных слагаемых). Неверно начинать со старшего разряда.",
+      "explanationKk": "Дұрыс: бірліктен разряд бойынша қосады; $a$, $b$ — қосылғыштар; $c>a$ және $c>b$. Жоғары разрядтан бастау дұрыс емес.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Сложение выполняют поразрядно, начиная с разряда единиц",
+          "textKk": "Қосу бірліктер разрядынан бастап разряд бойынша орындалады",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "В равенстве $a + b = c$ числа $a$ и $b$ называют слагаемыми",
+          "textKk": "$a + b = c$ теңдігінде $a$ мен $b$ — қосылғыштар",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Сложение всегда начинают со старшего разряда",
+          "textKk": "Қосу әрдайым жоғары разрядтан басталады",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Если $a + b = c$, то $c > a$ и $c > b$",
+          "textKk": "$a + b = c$ болса, $c > a$ және $c > b$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p21_1",
+        "PDF_p21_2",
+        "PDF_p21_3"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "Выбери все верные утверждения о вычитании натуральных чисел.",
+      "bodyKk": "Натурал сандарды азайту туралы барлық дұрыс тұжырымдарды таңда.",
+      "explanationRu": "Верны определение вычитания, условие $a \\ge b$ и поразрядность как у сложения. Неверно, что при натуральных всегда можно вычитать большее из меньшего.",
+      "explanationKk": "Азайту анықтамасы, $a \\ge b$ шарты және разряд бойынша орындау дұрыс. Кішіден үлкенді азайтуға болады деген дұрыс емес.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Вычитание — действие, которым по сумме и одному слагаемому находят другое слагаемое",
+          "textKk": "Азайту — қосынды мен бір қосылғыш бойынша екінші қосылғышты табу",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Для $a - b$ нужно $a > b$ или $a = b$",
+          "textKk": "$a - b$ үшін $a > b$ немесе $a = b$ керек",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Вычитание выполняют поразрядно, так же как сложение",
+          "textKk": "Азайту қосу сияқты разряд бойынша орындалады",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "В натуральных числах всегда можно вычислить $5 - 9$",
+          "textKk": "Натурал сандарда $5 - 9$ әрдайым есептеледі",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p20_1",
+        "PDF_p21_3"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "Отметь все верные равенства.",
+      "bodyKk": "Барлық дұрыс теңдіктерді белгіле.",
+      "explanationRu": "Верны $50-27=23$, $48+12=60$, $75+25=100$. Неверно $100-55=55$ (должно быть $45$).",
+      "explanationKk": "$50-27=23$, $48+12=60$, $75+25=100$ дұрыс. $100-55=55$ қате ($45$ болу керек).",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$50 - 27 = 23$",
+          "textKk": "$50 - 27 = 23$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$48 + 12 = 60$",
+          "textKk": "$48 + 12 = 60$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$100 - 55 = 55$",
+          "textKk": "$100 - 55 = 55$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$75 + 25 = 100$",
+          "textKk": "$75 + 25 = 100$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p20_3",
+        "PDF_p21_4"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "Выбери все верные утверждения о перемещении точки на координатном луче.",
+      "bodyKk": "Координаталық сәуледе нүктені жылжыту туралы барлық дұрыс тұжырымдарды таңда.",
+      "explanationRu": "Вправо координата растёт (сложение), влево — уменьшается (вычитание). Утверждение «сложение — всегда влево» неверно.",
+      "explanationKk": "Оңға — координата артады (қосу), солға — кемиді (азайту). «Қосу әрдайым солға» дұрыс емес.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "При перемещении вправо координата точки увеличивается",
+          "textKk": "Оңға жылжытқанда нүкте координатасы артады",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "При перемещении влево координата точки уменьшается",
+          "textKk": "Солға жылжытқанда нүкте координатасы кемиді",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Сложение на луче выполняют перемещением вправо",
+          "textKk": "Сәуледе қосу оңға жылжу арқылы орындалады",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Сложение на луче выполняют перемещением влево",
+          "textKk": "Сәуледе қосу солға жылжу арқылы орындалады",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 4,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "KF_p23_assembled"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "Известно, что $a - b = c$. Выбери все верные следствия.",
+      "bodyKk": "$a - b = c$ екені белгілі. Барлық дұрыс салдарларды таңда.",
+      "explanationRu": "Из ключевого факта: $a = b + c$; уменьшаемое — сумма вычитаемого и разности. Неверно $a = b - c$ и $c = a + b$.",
+      "explanationKk": "Негізгі факті бойынша: $a = b + c$. $a = b - c$ және $c = a + b$ дұрыс емес.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$a = b + c$",
+          "textKk": "$a = b + c$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Уменьшаемое равно сумме вычитаемого и значения разности",
+          "textKk": "Кеміткіш азайтқыш пен айырма мәнінің қосындысына тең",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$a = b - c$",
+          "textKk": "$a = b - c$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$c = a + b$",
+          "textKk": "$c = a + b$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "KF_p23_assembled",
+        "PDF_p20_1"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "Отметь все верные свёртки разложений в одно число.",
+      "bodyKk": "Разрядтық жіктеудің бір санға дұрыс жинақтауларын белгіле.",
+      "explanationRu": "Верны $796$, $6543$ и $28603$. Разложение $400\\,000+30\\,000+5000+90+8$ даёт $435\\,098$, а не $435\\,908$.",
+      "explanationKk": "$796$, $6543$ және $28603$ дұрыс. $400\\,000+30\\,000+5000+90+8 = 435\\,098$, ал $435\\,908$ қате.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$700 + 90 + 6 = 796$",
+          "textKk": "$700 + 90 + 6 = 796$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$6000 + 500 + 40 + 3 = 6543$",
+          "textKk": "$6000 + 500 + 40 + 3 = 6543$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$20\\,000 + 8000 + 600 + 3 = 28\\,603$",
+          "textKk": "$20\\,000 + 8000 + 600 + 3 = 28\\,603$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$400\\,000 + 30\\,000 + 5000 + 90 + 8 = 435\\,908$",
+          "textKk": "$400\\,000 + 30\\,000 + 5000 + 90 + 8 = 435\\,908$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p20_2",
+        "PDF_p21_2"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "От Астаны до Кокшетау $297$ км, а от Кокшетау до Петропавловска на $110$ км меньше. Выбери все верные утверждения.",
+      "bodyKk": "Астанадан Көкшетауға $297$ км, ал Көкшетаудан Петропавлға $110$ км кем. Барлық дұрыс тұжырымдарды таңда.",
+      "explanationRu": "Второй участок: $297-110=187$. Весь путь: $297+187=484$. Утверждение «второй участок $110$ км» неверно.",
+      "explanationKk": "Екінші учаске: $297-110=187$. Бүкіл жол: $297+187=484$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "От Кокшетау до Петропавловска $187$ км",
+          "textKk": "Көкшетаудан Петропавлға $187$ км",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "От Астаны до Петропавловска через Кокшетау $484$ км",
+          "textKk": "Астанадан Петропавлға Көкшетау арқылы $484$ км",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "От Кокшетау до Петропавловска $110$ км",
+          "textKk": "Көкшетаудан Петропавлға $110$ км",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Весь путь равен $297 + 110 = 407$ км",
+          "textKk": "Бүкіл жол $297 + 110 = 407$ км",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "needsIllustration": true,
+      "sourceRuleIds": [
+        "PDF_p20_3",
+        "PDF_p21_4"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "На луче точка $A(27)$. От неё: влево $15$ до $B$, влево $9$ до $C$, вправо $8$ до $D$, вправо $13$ до $E$. Отметь все верные координаты.",
+      "bodyKk": "Сәуледе $A(27)$ нүктесі. Одан: солға $15$ — $B$, солға $9$ — $C$, оңға $8$ — $D$, оңға $13$ — $E$. Барлық дұрыс координаталарды белгіле.",
+      "explanationRu": "$B=12$, $C=18$, $D=35$, $E=40$. Координата $B(18)$ неверна.",
+      "explanationKk": "$B=12$, $C=18$, $D=35$, $E=40$. $B(18)$ қате.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$B(12)$",
+          "textKk": "$B(12)$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$C(18)$",
+          "textKk": "$C(18)$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$D(35)$",
+          "textKk": "$D(35)$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$B(18)$",
+          "textKk": "$B(18)$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 4,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p20_1",
+        "PDF_p21_3"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "Отметь все верно выполненные вычисления.",
+      "bodyKk": "Барлық дұрыс орындалған есептеулерді белгіле.",
+      "explanationRu": "Верны $4517+895=5412$, $64357-2583=61774$, $8050-2763=5287$. Неверно $3847+2569=6406$ (верно $6416$).",
+      "explanationKk": "$4517+895=5412$, $64357-2583=61774$, $8050-2763=5287$ дұрыс. $3847+2569=6406$ қате ($6416$).",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$4517 + 895 = 5412$",
+          "textKk": "$4517 + 895 = 5412$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$64357 - 2583 = 61774$",
+          "textKk": "$64357 - 2583 = 61774$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$3847 + 2569 = 6406$",
+          "textKk": "$3847 + 2569 = 6406$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$8050 - 2763 = 5287$",
+          "textKk": "$8050 - 2763 = 5287$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": []
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p20_1"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "Вычисли: $3628 + 1745 = [[1]]$.",
+      "bodyKk": "Есепте: $3628 + 1745 = [[1]]$.",
+      "explanationRu": "Поразрядно: $3628 + 1745 = 5373$.",
+      "explanationKk": "Разряд бойынша: $3628 + 1745 = 5373$.",
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "5373",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "PDF_p20_2",
+        "PDF_p21_2"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "В роще $24$ дуба, тополей на $9$ больше, а берёз столько, сколько дубов и тополей вместе. Сколько всего деревьев? Ответ: [[1]].",
+      "bodyKk": "Тоғайда $24$ емен, терек $9$-ға артық, қайың емен мен терек қосындысындай. Барлығы қанша ағаш? Жауап: [[1]].",
+      "explanationRu": "Тополей $33$, берёз $57$, всего $24+33+57=114$.",
+      "explanationKk": "Терек $33$, қайың $57$, барлығы $24+33+57=114$.",
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "114",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "needsIllustration": false,
+      "sourceRuleIds": [
+        "KF_p23_assembled",
+        "PDF_p21_2"
+      ],
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 20-23",
+      "illustration": null,
+      "bodyRu": "Четыре трамвайные линии: на 1-й и 2-й вместе $47$ остановок, на 2-й и 3-й — $60$, на 3-й и 4-й — $64$. На 4-й линии $30$ остановок. Сколько остановок на 1-й линии? Ответ: [[1]].",
+      "bodyKk": "Төрт трамвай жолы: 1-ші мен 2-шіде бірге $47$ аялдама, 2-ші мен 3-шіде — $60$, 3-ші мен 4-шіде — $64$. 4-ші жолда $30$ аялдама. 1-ші жолда қанша аялдама? Жауап: [[1]].",
+      "explanationRu": "4-я: $30$ ⇒ 3-я: $64-30=34$ ⇒ 2-я: $60-34=26$ ⇒ 1-я: $47-26=21$.",
+      "explanationKk": "4-ші: $30$ ⇒ 3-ші: $34$ ⇒ 2-ші: $26$ ⇒ 1-ші: $21$.",
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "21",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ]
+    }
+  ],
+  "matrixDeviations": []
+}

@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-slozhenie-vychitanie-naturalnyh-20260808-1930",
+  "sourceFinal": "05-questions.final.json",
+  "styleProfile": "aldamuratova-textbook-simple",
+  "items": [
+    {
+      "localId": "q09",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "coordinate_ray",
+      "purpose": "Луч с A(5) и B после смещения вправо; равенство в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q09.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": {
+          "path": "illustrations/q09.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "coordinate_ray",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 14,
+        "tickStart": 0,
+        "points": [
+          {
+            "id": "A",
+            "value": 5
+          },
+          {
+            "id": "B",
+            "value": 12
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q10",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "coordinate_ray",
+      "purpose": "Луч с A(14) и B после смещения влево; равенство в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q10.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": {
+          "path": "illustrations/q10.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "coordinate_ray",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 16,
+        "tickStart": 0,
+        "points": [
+          {
+            "id": "A",
+            "value": 14
+          },
+          {
+            "id": "B",
+            "value": 5
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q18",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "coordinate_ray",
+      "purpose": "Луч с A(27) и C после смещения влево на 9; координата C в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q18.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": {
+          "path": "illustrations/q18.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "coordinate_ray",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 20,
+        "tickStart": 15,
+        "points": [
+          {
+            "id": "A",
+            "value": 27
+          },
+          {
+            "id": "C",
+            "value": 18
+          }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q26",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "coordinate_ray",
+      "purpose": "Луч A(27) и точки B,C,D,E по стрелкам ±; верные координаты в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q26.svg",
+        "format": "svg",
+        "width": 780,
+        "height": 260,
+        "raster": {
+          "path": "illustrations/q26.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "coordinate_ray",
+        "width": 780,
+        "height": 260,
+        "originLabel": "O",
+        "unitCount": 32,
+        "tickStart": 10,
+        "points": [
+          {
+            "id": "A",
+            "value": 27
+          },
+          {
+            "id": "B",
+            "value": 12
+          },
+          {
+            "id": "C",
+            "value": 18
+          },
+          {
+            "id": "D",
+            "value": 35
+          },
+          {
+            "id": "E",
+            "value": 40
+          }
+        ]
+      },
+      "notes": "Шкала 10..42; координаты читаются со шкалы, без подсветки верных options"
+    }
+  ]
+}

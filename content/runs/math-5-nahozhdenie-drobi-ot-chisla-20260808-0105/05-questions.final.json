@@ -1,0 +1,1237 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "math-5-nahozhdenie-drobi-ot-chisla-20260808-0105",
+    "generatedAt": "2026-08-08T01:20:00+05:00",
+    "subjectTitleRu": "Математика",
+    "subjectTitleKk": "Математика",
+    "gradeNo": 5,
+    "topicCode": "3.14",
+    "topicTitleRu": "Нахождение дроби от числа. Нахождение числа по его дроби",
+    "topicTitleKk": "Санның бөлшегін табу. Бөлшегі бойынша санды табу",
+    "topicSlug": "nahozhdenie-drobi-ot-chisla",
+    "atomicSkillTitleRu": null,
+    "textbookRef": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+    "illustrationPolicy": "visual-topics",
+    "sourceReliability": "verbatim"
+  },
+  "questions": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "bodyRu": "Какое утверждение верно формулирует правило нахождения дроби от числа?",
+      "bodyKk": "Қай тұжырым санның бөлшегін табу ережесін дұрыс тұжырымдайды?",
+      "explanationRu": "По правилу учебника: чтобы найти дробь от числа, нужно умножить число на эту дробь.",
+      "explanationKk": "Оқулық ережесі бойынша: санның бөлшегін табу үшін санды сол бөлшекке көбейту керек.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Нужно разделить данное число на эту дробь",
+          "textKk": "Берілген санды сол бөлшекке бөлу керек",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Нужно разделить число только на знаменатель дроби",
+          "textKk": "Санды тек бөлшектің бөліміне бөлу керек",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Нужно умножить число на эту дробь",
+          "textKk": "Санды сол бөлшекке көбейту керек",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Нужно умножить число только на числитель дроби",
+          "textKk": "Санды тек бөлшектің алымына көбейту керек",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p4_1"
+      ]
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "bodyRu": "Какое утверждение верно формулирует правило нахождения числа по его дроби?",
+      "bodyKk": "Қай тұжырым бөлшегі бойынша санды табу ережесін дұрыс тұжырымдайды?",
+      "explanationRu": "По правилу учебника: чтобы найти число по его дроби, нужно разделить на эту дробь число, ей соответствующее.",
+      "explanationKk": "Оқулық ережесі бойынша: бөлшегі бойынша санды табу үшін оған сәйкес келетін санды сол бөлшекке бөлу керек.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Нужно умножить данное значение на эту дробь",
+          "textKk": "Берілген мәнді сол бөлшекке көбейту керек",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Нужно разделить на эту дробь число, ей соответствующее",
+          "textKk": "Оған сәйкес келетін санды сол бөлшекке бөлу керек",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Нужно умножить данное значение на числитель дроби",
+          "textKk": "Берілген мәнді бөлшектің алымына көбейту керек",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Нужно разделить данное значение только на знаменатель дроби",
+          "textKk": "Берілген мәнді тек бөлшектің бөліміне бөлу керек",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p5_1"
+      ]
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Найдите $\\frac{3}{5}$ от $45$, выполнив действия: сначала разделите число на знаменатель, затем умножьте результат на числитель.",
+      "bodyKk": "$45$ санының $\\frac{3}{5}$ бөлігін табыңыз: алдымен санды бөлімге бөліңіз, содан кейін нәтижені алымға көбейтіңіз.",
+      "explanationRu": "$45 : 5 = 9$, затем $9 \\cdot 3 = 27$. Это равно $45 \\cdot \\frac{3}{5}$.",
+      "explanationKk": "$45 : 5 = 9$, содан кейін $9 \\cdot 3 = 27$. Бұл $45 \\cdot \\frac{3}{5}$ тең.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "9",
+          "textKk": "9",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "75",
+          "textKk": "75",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "15",
+          "textKk": "15",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "27",
+          "textKk": "27",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p3_1"
+      ]
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Вычислите: $\\frac{2}{3}$ от $84$.",
+      "bodyKk": "Есептеңіз: $84$ санының $\\frac{2}{3}$ бөлігі.",
+      "explanationRu": "$84 \\cdot \\frac{2}{3} = 56$.",
+      "explanationKk": "$84 \\cdot \\frac{2}{3} = 56$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "56",
+          "textKk": "56",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "126",
+          "textKk": "126",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "168",
+          "textKk": "168",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "28",
+          "textKk": "28",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p4_1"
+      ]
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Нужно найти $\\frac{5}{8}$ от числа $48$. Какое действие следует выполнить? Ответ вычислять не требуется.",
+      "bodyKk": "$48$ санының $\\frac{5}{8}$ бөлігін табу керек. Қандай амал орындау керек? Жауапты есептеудің қажеті жоқ.",
+      "explanationRu": "Чтобы найти дробь от числа, число умножают на эту дробь: $48 \\cdot \\frac{5}{8}$.",
+      "explanationKk": "Санның бөлшегін табу үшін санды сол бөлшекке көбейтеді: $48 \\cdot \\frac{5}{8}$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Разделить $48$ на $\\frac{5}{8}$",
+          "textKk": "$48$-ді $\\frac{5}{8}$-ке бөлу",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Разделить $48$ на $5$",
+          "textKk": "$48$-ді $5$-ке бөлу",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Умножить $48$ на $\\frac{5}{8}$",
+          "textKk": "$48$-ді $\\frac{5}{8}$-ке көбейту",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Умножить $48$ на $8$",
+          "textKk": "$48$-ді $8$-ге көбейту",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p4_1"
+      ]
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Чтобы найти $\\frac{3}{7}$ от $56$, записали: $56 : 7 = 8$, затем $\\square$. Какое действие должно стоять вместо $\\square$?",
+      "bodyKk": "$56$ санының $\\frac{3}{7}$ бөлігін табу үшін былай жазды: $56 : 7 = 8$, содан кейін $\\square$. $\\square$ орнына қандай амал тұруы керек?",
+      "explanationRu": "После нахождения $\\frac{1}{7}$ числа результат умножают на числитель: $8 \\cdot 3 = 24$.",
+      "explanationKk": "Санның $\\frac{1}{7}$ бөлігін тапқаннан кейін нәтижені алымға көбейтеді: $8 \\cdot 3 = 24$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$8 : \\frac{3}{7}$",
+          "textKk": "$8 : \\frac{3}{7}$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$8 \\cdot 3$",
+          "textKk": "$8 \\cdot 3$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$8 : 3$",
+          "textKk": "$8 : 3$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$8 \\cdot 7$",
+          "textKk": "$8 \\cdot 7$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p3_1"
+      ]
+    },
+    {
+      "localId": "q07",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "bodyRu": "Вычислите: $\\frac{5}{6}$ от $54$ равно [[1]].",
+      "bodyKk": "Есептеңіз: $54$ санының $\\frac{5}{6}$ бөлігі [[1]]-ге тең.",
+      "explanationRu": "$54 \\cdot \\frac{5}{6} = 45$.",
+      "explanationKk": "$54 \\cdot \\frac{5}{6} = 45$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "45",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p4_1"
+      ]
+    },
+    {
+      "localId": "q08",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "bodyRu": "Найдите число, если $\\frac{4}{9}$ его равны $36$. Ответ: [[1]].",
+      "bodyKk": "Егер санның $\\frac{4}{9}$ бөлігі $36$-ға тең болса, сол санды табыңыз. Жауап: [[1]].",
+      "explanationRu": "$36 : \\frac{4}{9} = 36 \\cdot \\frac{9}{4} = 81$.",
+      "explanationKk": "$36 : \\frac{4}{9} = 36 \\cdot \\frac{9}{4} = 81$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "81",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p5_1"
+      ]
+    },
+    {
+      "localId": "q09",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "bodyRu": "Чтобы найти число, $\\frac{3}{5}$ которого равны $48$, записали: $48 : 3 \\cdot [[1]] = 80$. Какое число пропущено?",
+      "bodyKk": "$\\frac{3}{5}$ бөлігі $48$-ге тең болатын санды табу үшін былай жазды: $48 : 3 \\cdot [[1]] = 80$. Қандай сан түсіп қалған?",
+      "explanationRu": "Делят данное на числитель и умножают на знаменатель: $(48 : 3) \\cdot 5 = 80$. Пропущен знаменатель $5$.",
+      "explanationKk": "Берілгенді алымға бөліп, бөлімге көбейтеді: $(48 : 3) \\cdot 5 = 80$. Түсіп қалғаны — бөлім $5$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "5",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p5_2"
+      ]
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "В саду собрали $90$ кг яблок. Продали $\\frac{2}{5}$ всего урожая. Сколько килограммов яблок продали?",
+      "bodyKk": "Бақтан $90$ кг алма жиналды. Бүкіл өнімнің $\\frac{2}{5}$ бөлігі сатылды. Қанша килограмм алма сатылды?",
+      "explanationRu": "Нужна дробь от числа: $90 \\cdot \\frac{2}{5} = 36$ (кг).",
+      "explanationKk": "Санның бөлшегі керек: $90 \\cdot \\frac{2}{5} = 36$ (кг).",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "225 кг",
+          "textKk": "225 кг",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "54 кг",
+          "textKk": "54 кг",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "36 кг",
+          "textKk": "36 кг",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "18 кг",
+          "textKk": "18 кг",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p4_1"
+      ]
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Велосипедист проехал $42$ км, что составляет $\\frac{3}{7}$ всего намеченного пути. Какова длина всего пути?",
+      "bodyKk": "Велосипедші $42$ км жүрді, бұл бүкіл жоспарлы жолдың $\\frac{3}{7}$ бөлігі. Бүкіл жолдың ұзындығы қандай?",
+      "explanationRu": "Ищем число по его дроби: $42 : \\frac{3}{7} = 42 \\cdot \\frac{7}{3} = 98$ (км).",
+      "explanationKk": "Бөлшегі бойынша санды табамыз: $42 : \\frac{3}{7} = 42 \\cdot \\frac{7}{3} = 98$ (км).",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "18 км",
+          "textKk": "18 км",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "98 км",
+          "textKk": "98 км",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "6 км",
+          "textKk": "6 км",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "14 км",
+          "textKk": "14 км",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p5_1"
+      ]
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Какое равенство верно находит $\\frac{4}{5}$ от числа $60$?",
+      "bodyKk": "Қай теңдік $60$ санының $\\frac{4}{5}$ бөлігін дұрыс табады?",
+      "explanationRu": "Дробь от числа: $60 \\cdot \\frac{4}{5} = 48$, или $60 : 5 \\cdot 4 = 48$.",
+      "explanationKk": "Санның бөлшегі: $60 \\cdot \\frac{4}{5} = 48$, немесе $60 : 5 \\cdot 4 = 48$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$60 : \\frac{4}{5} = 75$",
+          "textKk": "$60 : \\frac{4}{5} = 75$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$60 : 5 = 12$",
+          "textKk": "$60 : 5 = 12$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$60 \\cdot \\frac{5}{4} = 75$",
+          "textKk": "$60 \\cdot \\frac{5}{4} = 75$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$60 \\cdot \\frac{4}{5} = 48$",
+          "textKk": "$60 \\cdot \\frac{4}{5} = 48$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p4_1",
+        "PDF_p3_1"
+      ]
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Какое равенство верно находит число, если $\\frac{2}{5}$ его равны $40$?",
+      "bodyKk": "Егер санның $\\frac{2}{5}$ бөлігі $40$-қа тең болса, қай теңдік сол санды дұрыс табады?",
+      "explanationRu": "Число по дроби: $40 : \\frac{2}{5} = 100$, или $(40 : 2) \\cdot 5 = 100$.",
+      "explanationKk": "Бөлшегі бойынша сан: $40 : \\frac{2}{5} = 100$, немесе $(40 : 2) \\cdot 5 = 100$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$40 \\cdot \\frac{2}{5} = 16$",
+          "textKk": "$40 \\cdot \\frac{2}{5} = 16$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$(40 : 5) \\cdot 2 = 16$",
+          "textKk": "$(40 : 5) \\cdot 2 = 16$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$40 : \\frac{2}{5} = 100$",
+          "textKk": "$40 : \\frac{2}{5} = 100$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$40 \\cdot \\frac{2}{5} = 100$",
+          "textKk": "$40 \\cdot \\frac{2}{5} = 100$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p5_1",
+        "PDF_p5_2"
+      ]
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Что больше: $\\frac{3}{4}$ от $80$ или $\\frac{2}{5}$ от $80$?",
+      "bodyKk": "Қайсысы үлкен: $80$ санының $\\frac{3}{4}$ бөлігі ме, әлде $\\frac{2}{5}$ бөлігі ме?",
+      "explanationRu": "$\\frac{3}{4}$ от $80$ равно $60$, а $\\frac{2}{5}$ от $80$ равно $32$. Значит, больше $\\frac{3}{4}$ от $80$.",
+      "explanationKk": "$80$ санының $\\frac{3}{4}$ бөлігі $60$, ал $\\frac{2}{5}$ бөлігі $32$. Демек, үлкені — $\\frac{3}{4}$ бөлігі.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$\\frac{2}{5}$ от $80$",
+          "textKk": "$80$ санының $\\frac{2}{5}$ бөлігі",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Они равны",
+          "textKk": "Олар тең",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$\\frac{3}{4}$ от $80$",
+          "textKk": "$80$ санының $\\frac{3}{4}$ бөлігі",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Сравнить нельзя, потому что знаменатели разные",
+          "textKk": "Бөлімдері әртүрлі болғандықтан салыстыруға болмайды",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p4_1"
+      ]
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Число $A$: $\\frac{1}{4}$ его равны $20$. Число $B$: $\\frac{2}{5}$ его равны $30$. Какое число больше?",
+      "bodyKk": "$A$ саны: оның $\\frac{1}{4}$ бөлігі $20$-ға тең. $B$ саны: оның $\\frac{2}{5}$ бөлігі $30$-ға тең. Қай сан үлкен?",
+      "explanationRu": "$A = 20 : \\frac{1}{4} = 80$, $B = 30 : \\frac{2}{5} = 75$. Значит, $A > B$.",
+      "explanationKk": "$A = 20 : \\frac{1}{4} = 80$, $B = 30 : \\frac{2}{5} = 75$. Демек, $A > B$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Число $B$",
+          "textKk": "$B$ саны",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Числа равны",
+          "textKk": "Сандар тең",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Число $A$",
+          "textKk": "$A$ саны",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Сравнить нельзя: части $20$ и $30$ разные",
+          "textKk": "Салыстыруға болмайды: $20$ және $30$ бөліктері әртүрлі",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p5_1"
+      ]
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "$\\frac{5}{8}$ некоторого числа равны $40$. Найдите это число.",
+      "bodyKk": "Белгісіз санның $\\frac{5}{8}$ бөлігі $40$-қа тең. Сол санды табыңыз.",
+      "explanationRu": "Обратный переход к целому: $40 : \\frac{5}{8} = 40 \\cdot \\frac{8}{5} = 64$.",
+      "explanationKk": "Бүтінге кері өту: $40 : \\frac{5}{8} = 40 \\cdot \\frac{8}{5} = 64$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "25",
+          "textKk": "25",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "64",
+          "textKk": "64",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "32",
+          "textKk": "32",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "45",
+          "textKk": "45",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p5_1",
+        "PDF_p5_3"
+      ]
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Чтобы найти число, $\\frac{3}{5}$ которого равны $90$, записали: $90 : 3 = 30$, затем $30 \\cdot \\square = 150$. Какое число должно стоять вместо $\\square$?",
+      "bodyKk": "$\\frac{3}{5}$ бөлігі $90$-ға тең болатын санды табу үшін былай жазды: $90 : 3 = 30$, содан кейін $30 \\cdot \\square = 150$. $\\square$ орнына қандай сан тұруы керек?",
+      "explanationRu": "После деления на числитель результат умножают на знаменатель: $30 \\cdot 5 = 150$.",
+      "explanationKk": "Алымға бөлгеннен кейін нәтижені бөлімге көбейтеді: $30 \\cdot 5 = 150$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "3",
+          "textKk": "3",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "90",
+          "textKk": "90",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "5",
+          "textKk": "5",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "2",
+          "textKk": "2",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p5_2"
+      ]
+    },
+    {
+      "localId": "q18",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Отметьте все формулировки, в которых нужно найти дробь от известного целого числа.",
+      "bodyKk": "Берілген бүтін санның бөлшегін табу керек болатын барлық тұжырымдарды белгілеңіз.",
+      "explanationRu": "«Дробь от числа» — когда целое известно, а ищут часть. Вариант про «24 составляет 3/8 числа» — это поиск целого по дроби.",
+      "explanationKk": "«Санның бөлшегі» — бүтін белгілі, ал бөлік ізделеді. «24 санының 3/8 бөлігі» деген нұсқа — бөлшегі бойынша бүтінді іздеу.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Найдите $\\frac{3}{5}$ от $60$",
+          "textKk": "$60$ санының $\\frac{3}{5}$ бөлігін табыңыз",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "В классе $40$ учеников, из них $\\frac{2}{5}$ — девочки. Сколько девочек?",
+          "textKk": "Сыныпта $40$ оқушы бар, оның $\\frac{2}{5}$ бөлігі — қыздар. Қанша қыз бар?",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Число $24$ составляет $\\frac{3}{8}$ некоторого числа. Найдите это число",
+          "textKk": "$24$ саны белгісіз санның $\\frac{3}{8}$ бөлігі. Сол санды табыңыз",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Найдите $\\frac{1}{4}$ от $100$ кг",
+          "textKk": "$100$ кг-ның $\\frac{1}{4}$ бөлігін табыңыз",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p4_1"
+      ]
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Отметьте все верные способы найти $\\frac{3}{7}$ от числа $42$.",
+      "bodyKk": "$42$ санының $\\frac{3}{7}$ бөлігін табудың барлық дұрыс тәсілдерін белгілеңіз.",
+      "explanationRu": "Верны умножение на дробь и двухшаговый путь: $42 \\cdot \\frac{3}{7}$ и $42 : 7 \\cdot 3$. Деление на дробь и схема $(42 : 3) \\cdot 7$ дают другое значение.",
+      "explanationKk": "Бөлшекке көбейту және екі қадамды жол дұрыс: $42 \\cdot \\frac{3}{7}$ және $42 : 7 \\cdot 3$. Бөлшекке бөлу мен $(42 : 3) \\cdot 7$ схемасы басқа мән береді.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$42 \\cdot \\frac{3}{7}$",
+          "textKk": "$42 \\cdot \\frac{3}{7}$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$42 : \\frac{3}{7}$",
+          "textKk": "$42 : \\frac{3}{7}$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$42 : 7 \\cdot 3$",
+          "textKk": "$42 : 7 \\cdot 3$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$42 : 3 \\cdot 7$",
+          "textKk": "$42 : 3 \\cdot 7$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p4_1",
+        "PDF_p3_1"
+      ]
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Отметьте все формулировки, в которых по известной части, равной дроби целого, нужно найти само целое.",
+      "bodyKk": "Бүтіннің бөлшегіне тең белгілі бөлік бойынша бүтінді табу керек болатын барлық тұжырымдарды белгілеңіз.",
+      "explanationRu": "«Число по дроби» — когда известна часть $b = \\frac{m}{n}$ целого. Найти дробь от известного целого и простое сравнение частей — другие типы задач.",
+      "explanationKk": "«Бөлшегі бойынша сан» — бөлік $b = \\frac{m}{n}$ бүтіннің белгілі бөлігі. Белгілі бүтіннің бөлшегін табу және бөліктерді салыстыру — басқа типтегі есептер.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$\\frac{1}{5}$ числа равны $12$. Найдите это число",
+          "textKk": "Санның $\\frac{1}{5}$ бөлігі $12$-ге тең. Сол санды табыңыз",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Найдите $\\frac{2}{3}$ от $90$",
+          "textKk": "$90$ санының $\\frac{2}{3}$ бөлігін табыңыз",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$15$ м составляют $\\frac{3}{4}$ длины отрезка. Найдите длину отрезка",
+          "textKk": "$15$ м кесінді ұзындығының $\\frac{3}{4}$ бөлігі. Кесіндінің ұзындығын табыңыз",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Что больше: $\\frac{1}{2}$ от $40$ или $\\frac{1}{3}$ от $40$?",
+          "textKk": "Қайсысы үлкен: $40$ санының $\\frac{1}{2}$ бөлігі ме, әлде $\\frac{1}{3}$ бөлігі ме?",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p5_1"
+      ]
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Отметьте все верные утверждения об уравнении для нахождения числа по его дроби.",
+      "bodyKk": "Бөлшегі бойынша санды табуға арналған теңдеу туралы барлық дұрыс тұжырымдарды белгілеңіз.",
+      "explanationRu": "Если $\\frac{m}{n} \\cdot x = b$, то $x = b : \\frac{m}{n}$. Такое уравнение используют для числа по дроби; его можно заменить делением на дробь. Утверждение $x = b \\cdot \\frac{m}{n}$ неверно.",
+      "explanationKk": "Егер $\\frac{m}{n} \\cdot x = b$ болса, онда $x = b : \\frac{m}{n}$. Мұндай теңдеу бөлшегі бойынша санды табуға қолданылады; оны бөлшекке бөлумен алмастыруға болады. $x = b \\cdot \\frac{m}{n}$ тұжырымы қате.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Если $\\frac{3}{5} \\cdot x = 24$, то $x = 24 : \\frac{3}{5}$",
+          "textKk": "Егер $\\frac{3}{5} \\cdot x = 24$ болса, онда $x = 24 : \\frac{3}{5}$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Из уравнения $\\frac{m}{n} \\cdot x = b$ следует, что $x = b \\cdot \\frac{m}{n}$",
+          "textKk": "$\\frac{m}{n} \\cdot x = b$ теңдеуінен $x = b \\cdot \\frac{m}{n}$ шығады",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Уравнение $\\frac{m}{n} \\cdot x = b$ используют, чтобы найти число по его дроби",
+          "textKk": "$\\frac{m}{n} \\cdot x = b$ теңдеуі бөлшегі бойынша санды табу үшін қолданылады",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Уравнение $\\frac{m}{n} \\cdot x = b$ можно заменить делением числа $b$ на дробь $\\frac{m}{n}$",
+          "textKk": "$\\frac{m}{n} \\cdot x = b$ теңдеуін $b$ санын $\\frac{m}{n}$ бөлшегіне бөлумен алмастыруға болады",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p5_3"
+      ]
+    },
+    {
+      "localId": "q22",
+      "type": "SCQ",
+      "difficulty": 4,
+      "bodyRu": "Айгерим потратила $\\frac{3}{5}$ имевшихся у неё денег. У неё осталось $80$ тенге. Сколько денег было у Айгерим первоначально?",
+      "bodyKk": "Айгерім қолда бар ақшасының $\\frac{3}{5}$ бөлігін жұмсады. Онда $80$ теңге қалды. Айгерімде бастапқыда қанша ақша болған?",
+      "explanationRu": "Остаток составляет $1 - \\frac{3}{5} = \\frac{2}{5}$ первоначальной суммы. Тогда $80 : \\frac{2}{5} = 200$ (тенге).",
+      "explanationKk": "Қалдық бастапқы соманың $1 - \\frac{3}{5} = \\frac{2}{5}$ бөлігі. Онда $80 : \\frac{2}{5} = 200$ (теңге).",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$\\frac{400}{3}$ тенге",
+          "textKk": "$\\frac{400}{3}$ теңге",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "48 тенге",
+          "textKk": "48 теңге",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "200 тенге",
+          "textKk": "200 теңге",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "133 тенге",
+          "textKk": "133 теңге",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p5_1"
+      ]
+    },
+    {
+      "localId": "q23",
+      "type": "SCQ",
+      "difficulty": 4,
+      "bodyRu": "Какая пара выражений даёт одно и то же значение — $\\frac{2}{3}$ от числа $48$?",
+      "bodyKk": "Қай өрнектер жұбы бірдей мән береді — $48$ санының $\\frac{2}{3}$ бөлігін?",
+      "explanationRu": "$48 \\cdot \\frac{2}{3}$ и $48 : 3 \\cdot 2$ оба равны $32$. Остальные пары смешивают умножение на дробь с делением на дробь или с переставленными числителем и знаменателем.",
+      "explanationKk": "$48 \\cdot \\frac{2}{3}$ және $48 : 3 \\cdot 2$ екеуі де $32$-ге тең. Қалған жұптар бөлшекке көбейтуді бөлшекке бөлумен немесе алым мен бөлімді орын ауыстырумен араластырады.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$48 : \\frac{2}{3}$ и $48 \\cdot \\frac{2}{3}$",
+          "textKk": "$48 : \\frac{2}{3}$ және $48 \\cdot \\frac{2}{3}$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$48 : 2 \\cdot 3$ и $48 \\cdot \\frac{2}{3}$",
+          "textKk": "$48 : 2 \\cdot 3$ және $48 \\cdot \\frac{2}{3}$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$48 \\cdot \\frac{2}{3}$ и $48 : 3 \\cdot 2$",
+          "textKk": "$48 \\cdot \\frac{2}{3}$ және $48 : 3 \\cdot 2$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$48 \\cdot \\frac{3}{2}$ и $48 \\cdot \\frac{2}{3}$",
+          "textKk": "$48 \\cdot \\frac{3}{2}$ және $48 \\cdot \\frac{2}{3}$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p3_1",
+        "PDF_p4_1"
+      ]
+    },
+    {
+      "localId": "q24",
+      "type": "SCQ",
+      "difficulty": 4,
+      "bodyRu": "$\\frac{3}{8}$ длины отрезка равны $21$ см. Составьте уравнение и найдите длину отрезка.",
+      "bodyKk": "Кесінді ұзындығының $\\frac{3}{8}$ бөлігі $21$ см-ге тең. Теңдеу құрып, кесіндінің ұзындығын табыңыз.",
+      "explanationRu": "Пусть $x$ — длина отрезка. Тогда $\\frac{3}{8} x = 21$, откуда $x = 21 : \\frac{3}{8} = 56$ (см).",
+      "explanationKk": "$x$ — кесінді ұзындығы болсын. Онда $\\frac{3}{8} x = 21$, бұдан $x = 21 : \\frac{3}{8} = 56$ (см).",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "56 см",
+          "textKk": "56 см",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$\\frac{63}{8}$ см",
+          "textKk": "$\\frac{63}{8}$ см",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "7 см",
+          "textKk": "7 см",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "24 см",
+          "textKk": "24 см",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p5_3"
+      ]
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Находят число, $\\frac{4}{7}$ которого равны $28$, по схеме $(b : m) \\cdot n$. Отметьте все верно восстановленные числа в решении.",
+      "bodyKk": "$\\frac{4}{7}$ бөлігі $28$-ге тең болатын санды $(b : m) \\cdot n$ схемасымен табады. Шешімдегі барлық дұрыс қалпына келтірілген сандарды белгілеңіз.",
+      "explanationRu": "Верно: $28 : 4 = 7$ (деление на числитель) и $7 \\cdot 7 = 49$ (умножение на знаменатель). Неверно: деление на знаменатель $28 : 7$ и конечный ответ $28 \\cdot \\frac{4}{7}$.",
+      "explanationKk": "Дұрысы: $28 : 4 = 7$ (алымға бөлу) және $7 \\cdot 7 = 49$ (бөлімге көбейту). Қатесі: бөлімге бөлу $28 : 7$ және соңғы жауап $28 \\cdot \\frac{4}{7}$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Промежуточное значение: $28 : 4 = 7$",
+          "textKk": "Аралық мән: $28 : 4 = 7$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Промежуточное значение: $28 : 7 = 4$",
+          "textKk": "Аралық мән: $28 : 7 = 4$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Итог: $7 \\cdot 7 = 49$",
+          "textKk": "Қорытынды: $7 \\cdot 7 = 49$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Итог: $28 \\cdot \\frac{4}{7} = 16$",
+          "textKk": "Қорытынды: $28 \\cdot \\frac{4}{7} = 16$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p5_2"
+      ]
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Отметьте все верные сопоставления «тип вопроса → нужное правило».",
+      "bodyKk": "«Сұрақ түрі → қажетті ереже» барлық дұрыс сәйкестіктерін белгілеңіз.",
+      "explanationRu": "Часть от известного целого ищут умножением на дробь; целое по известной части — делением на дробь. Обратные сопоставления неверны.",
+      "explanationKk": "Белгілі бүтіннің бөлігін бөлшекке көбейтумен табады; белгілі бөлік бойынша бүтінді бөлшекке бөлумен табады. Кері сәйкестіктер қате.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Найти часть от известного целого → умножить число на дробь",
+          "textKk": "Белгілі бүтіннің бөлігін табу → санды бөлшекке көбейту",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Найти целое по известной части → разделить данное значение на дробь",
+          "textKk": "Белгілі бөлік бойынша бүтінді табу → берілген мәнді бөлшекке бөлу",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Найти часть от известного целого → разделить число на дробь",
+          "textKk": "Белгілі бүтіннің бөлігін табу → санды бөлшекке бөлу",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Найти целое по известной части → умножить данное значение на дробь",
+          "textKk": "Белгілі бөлік бойынша бүтінді табу → берілген мәнді бөлшекке көбейту",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p4_1",
+        "PDF_p5_1"
+      ]
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Известно, что $\\frac{2}{5}$ числа равны $30$. Отметьте все верные равенства для нахождения этого числа.",
+      "bodyKk": "Санның $\\frac{2}{5}$ бөлігі $30$-ға тең екені белгілі. Сол санды табуға арналған барлық дұрыс теңдіктерді белгілеңіз.",
+      "explanationRu": "Верны $30 : \\frac{2}{5} = 75$ и $(30 : 2) \\cdot 5 = 75$. Умножение на дробь и схема $(30 : 5) \\cdot 2$ дают $12$, а не целое.",
+      "explanationKk": "$30 : \\frac{2}{5} = 75$ және $(30 : 2) \\cdot 5 = 75$ дұрыс. Бөлшекке көбейту мен $(30 : 5) \\cdot 2$ схемасы $12$ береді, бүтін емес.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$30 : \\frac{2}{5} = 75$",
+          "textKk": "$30 : \\frac{2}{5} = 75$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$30 \\cdot \\frac{2}{5} = 12$",
+          "textKk": "$30 \\cdot \\frac{2}{5} = 12$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$(30 : 2) \\cdot 5 = 75$",
+          "textKk": "$(30 : 2) \\cdot 5 = 75$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$(30 : 5) \\cdot 2 = 12$",
+          "textKk": "$(30 : 5) \\cdot 2 = 12$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p5_1",
+        "PDF_p5_2"
+      ]
+    },
+    {
+      "localId": "q28",
+      "type": "SCQ",
+      "difficulty": 5,
+      "bodyRu": "В кружках занимаются $\\frac{2}{3}$ всех учеников класса. Из них $\\frac{3}{4}$ занимаются спортом. Сколько всего учеников в классе, если спортом занимаются $18$ учеников?",
+      "bodyKk": "Сынып оқушыларының $\\frac{2}{3}$ бөлігі үйірмелерге қатысады. Олардың $\\frac{3}{4}$ бөлігі спортпен айналысады. Спортпен $18$ оқушы айналысса, сыныпта барлығы қанша оқушы бар?",
+      "explanationRu": "Сначала находим число кружковцев: $18 : \\frac{3}{4} = 24$. Затем число учеников класса: $24 : \\frac{2}{3} = 36$.",
+      "explanationKk": "Алдымен үйірмеге қатысушыларды табамыз: $18 : \\frac{3}{4} = 24$. Содан кейін сынып оқушыларының санын: $24 : \\frac{2}{3} = 36$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "24",
+          "textKk": "24",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "9",
+          "textKk": "9",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "36",
+          "textKk": "36",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "12",
+          "textKk": "12",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p5_1",
+        "PDF_p5_2",
+        "PDF_p5_3"
+      ]
+    },
+    {
+      "localId": "q29",
+      "type": "MCQ",
+      "difficulty": 5,
+      "bodyRu": "В упражнении $60$ слов. Из них $\\frac{1}{5}$ — имена существительные, $\\frac{1}{4}$ — глаголы, а остальную часть — другие части речи. Отметьте все верные утверждения.",
+      "bodyKk": "Жаттығуда $60$ сөз бар. Оның $\\frac{1}{5}$ бөлігі — зат есімдер, $\\frac{1}{4}$ бөлігі — етістіктер, қалған бөлігі — басқа сөз таптары. Барлық дұрыс тұжырымдарды белгілеңіз.",
+      "explanationRu": "Существительные: $60 \\cdot \\frac{1}{5} = 12$. Глаголы: $60 \\cdot \\frac{1}{4} = 15$. Остальные: $60 - 12 - 15 = 33$. Утверждение «остальные $= 60 \\cdot (\\frac{1}{5}+\\frac{1}{4})$» неверно: сумма дробей — это доля существительных и глаголов вместе, а не «других».",
+      "explanationKk": "Зат есімдер: $60 \\cdot \\frac{1}{5} = 12$. Етістіктер: $60 \\cdot \\frac{1}{4} = 15$. Қалғандары: $60 - 12 - 15 = 33$. «Қалғандары $= 60 \\cdot (\\frac{1}{5}+\\frac{1}{4})$» тұжырымы қате: бөлшектер қосындысы — зат есім мен етістіктің бірге үлесі, «басқалардың» емес.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Имён существительных $12$",
+          "textKk": "Зат есім $12$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Глаголов $15$",
+          "textKk": "Етістік $15$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Других частей речи $33$",
+          "textKk": "Басқа сөз таптары $33$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Других частей речи $27$, потому что $60 \\cdot \\left(\\frac{1}{5}+\\frac{1}{4}\\right) = 27$",
+          "textKk": "Басқа сөз таптары $27$, өйткені $60 \\cdot \\left(\\frac{1}{5}+\\frac{1}{4}\\right) = 27$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p4_1",
+        "PDF_p3_1"
+      ]
+    },
+    {
+      "localId": "q30",
+      "type": "MCQ",
+      "difficulty": 5,
+      "bodyRu": "В первый день переплели $\\frac{2}{7}$ всех книг, во второй день — $\\frac{1}{3}$ всех книг, а в третий день — остальные $40$ книг. Отметьте все верные утверждения о том, как решать эту задачу.",
+      "bodyKk": "Бірінші күні барлық кітаптың $\\frac{2}{7}$ бөлігін, екінші күні — $\\frac{1}{3}$ бөлігін, ал үшінші күні — қалған $40$ кітапты түптеді. Бұл есепті қалай шығару керектігі туралы барлық дұрыс тұжырымдарды белгілеңіз.",
+      "explanationRu": "Доля третьего дня: $1 - \\frac{2}{7} - \\frac{1}{3} = \\frac{8}{21}$. Целое находят делением $40$ на эту дробь. После нахождения целого количества первого и второго дней считают умножением на $\\frac{2}{7}$ и $\\frac{1}{3}$. Неверно брать $40 \\cdot \\frac{2}{7}$ или $40 : \\frac{2}{7}$ как полное решение.",
+      "explanationKk": "Үшінші күннің үлесі: $1 - \\frac{2}{7} - \\frac{1}{3} = \\frac{8}{21}$. Бүтінді $40$-ты осы бөлшекке бөлумен табады. Бүтін табылғаннан кейін бірінші және екінші күндерді $\\frac{2}{7}$ және $\\frac{1}{3}$-ке көбейтумен есептейді. $40 \\cdot \\frac{2}{7}$ немесе $40 : \\frac{2}{7}$ толық шешім емес.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 3-10",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Сначала находят долю третьего дня $1 - \\frac{2}{7} - \\frac{1}{3}$, затем делят $40$ на эту дробь, чтобы найти всё количество книг",
+          "textKk": "Алдымен үшінші күннің үлесін $1 - \\frac{2}{7} - \\frac{1}{3}$ табады, содан кейін барлық кітап санын табу үшін $40$-ты сол бөлшекке бөледі",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "После нахождения всего количества книг число книг первого дня находят умножением этого количества на $\\frac{2}{7}$",
+          "textKk": "Барлық кітап санын тапқаннан кейін бірінші күнгі кітап санын сол санды $\\frac{2}{7}$-ге көбейтумен табады",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Всего книг было $40 \\cdot \\frac{2}{7}$",
+          "textKk": "Барлық кітап $40 \\cdot \\frac{2}{7}$ болған",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Всего книг было $40 : \\frac{2}{7}$ — этого достаточно, промежуточные дроби не нужны",
+          "textKk": "Барлық кітап $40 : \\frac{2}{7}$ болған — бұның өзі жеткілікті, аралық бөлшектер керек емес",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": [
+        "PDF_p4_1",
+        "PDF_p5_1"
+      ]
+    }
+  ]
+}

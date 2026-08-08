@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "parsed": "Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+  "pdfPath": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/Математика Алдамуратова Т. учебник для 5 класса Часть 2.pdf",
+  "pdfOffset": 0,
+  "pageRange": "102-106",
+  "note": "read-textbook-pages.js blocked by content/tools/package.json type:module vs CJS require. PNG copied from ocr/ocr_pages_math_aldamuratova_5grade_part2. Cache TXT is OKULYK watermark — analyst uses PNG.",
+  "pages": [
+    {
+      "bookPage": 102,
+      "pdfPage": 102,
+      "png": "page_102.png",
+      "txt": null,
+      "source": "ocr_cache",
+      "readable": true
+    },
+    {
+      "bookPage": 103,
+      "pdfPage": 103,
+      "png": "page_103.png",
+      "txt": null,
+      "source": "ocr_cache",
+      "readable": true
+    },
+    {
+      "bookPage": 104,
+      "pdfPage": 104,
+      "png": "page_104.png",
+      "txt": null,
+      "source": "ocr_cache",
+      "readable": true
+    },
+    {
+      "bookPage": 105,
+      "pdfPage": 105,
+      "png": "page_105.png",
+      "txt": null,
+      "source": "ocr_cache",
+      "readable": true
+    },
+    {
+      "bookPage": 106,
+      "pdfPage": 106,
+      "png": "page_106.png",
+      "txt": null,
+      "source": "ocr_cache",
+      "readable": true
+    }
+  ],
+  "summary": {
+    "requested": 5,
+    "copied": 5,
+    "allReadable": true
+  }
+}

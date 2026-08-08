@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-zadachi-na-mnozhestva-20260808-0930",
+  "createdAt": "2026-08-08T09:30:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "Задачи на множества",
+  "topicKk": "Жиындарға есептер",
+  "topicSlug": "zadachi-na-mnozhestva",
+  "topicCode": "5.4",
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 10,
+  "typeMix": { "SCQ": 6, "MCQ": 3, "FILL_IN": 1 },
+  "difficultyMix": { "1": 1, "2": 1, "3": 5, "4": 2, "5": 1 },
+  "illustrationPolicy": "visual-topics",
+  "illustrationFor": [],
+  "parsedTextbookPath": "Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+  "methodistInstruction": "VISUAL topic 5.4 THIN (~2 pages, 107–108). Word problems on sets / Venn. count cut 30→10 by recommendedMaxCount (keep ~60/30/10). illustrationPolicy visual-topics: illustrate where stem needs Venn/Euler. Anti-dup vs math-5-mnozhestvo-elementy-izobrazheniya-20260808-0800, math-5-podmnozhestvo-20260808-0830, math-5-peresechenie-obedinenie-mnozhestv-20260808-0900. Stay on 5.4 pages only. pdfOffset=0. difficultyMix scaled for 10: 1:1,2:1,3:5,4:2,5:1.",
+  "languageMode": "BOTH"
+}

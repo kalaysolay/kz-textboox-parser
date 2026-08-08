@@ -1,0 +1,523 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-naturalnye-chisla-i-nol-20260808-1700",
+  "typeMixPlanned": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMixPlanned": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Определение натуральных чисел",
+      "stemIdea": "Выбрать верное: для счёта предметов применяют натуральные числа, счёт начинается с 1",
+      "trapIdeas": [
+        "Ученик включает нуль в натуральные числа",
+        "Ученик считает натуральными только однозначные",
+        "Ученик думает, что счёт начинается с нуля"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p4_1"],
+      "sourceExampleRefs": ["p4#prep", "p5#check"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Нуль не относится к натуральным числам",
+      "stemIdea": "Ответить, является ли число нуль натуральным",
+      "trapIdeas": [
+        "Ученик считает нуль натуральным, потому что им записывают числа",
+        "Ученик путает «нуль применяют в записи» и «нуль применяют при счёте»",
+        "Ученик относит нуль к натуральным «для удобства»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p4_2"],
+      "sourceExampleRefs": ["p5#check"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Следующее натуральное на 1 больше",
+      "stemIdea": "Не вычисляя длинную сумму, сказать, насколько последующее число при счёте больше предыдущего",
+      "trapIdeas": [
+        "Ученик отвечает «на 2» или «на 10» по аналогии с разрядами",
+        "Ученик путает со следующим разрядом",
+        "Ученик думает, что шаг зависит от величины числа"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p4_1", "PDF_p8_1"],
+      "sourceExampleRefs": ["p4#prep"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Разрядные единицы и переход ×10",
+      "stemIdea": "Выбрать верное равенство: 10 единиц = 1 десяток (или 10 десятков = 1 сотня)",
+      "trapIdeas": [
+        "Ученик пишет 10 единиц = 1 сотня",
+        "Ученик путает направление: 10 сотен = 1 десяток",
+        "Ученик считает, что следующий разряд больше в 2 раза"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p5_1"],
+      "sourceExampleRefs": ["p5#check"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Количество разрядных единиц в числе",
+      "stemIdea": "По записи четырёхзначного числа сказать, сколько в нём тысяч / сотен / десятков / единиц",
+      "trapIdeas": [
+        "Ученик путает разряд цифры с её значением (7 сотен vs 700)",
+        "Ученик считает слева направо без учёта разрядов",
+        "Ученик называет число цифр вместо разрядного состава"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p4_3"],
+      "sourceExampleRefs": ["p4#prep", "p4#ex"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Значение цифры зависит от позиции",
+      "stemIdea": "По трём коротким числам с одной и той же цифрой предсказать, в каком числе она означает десятки (или сотни)",
+      "trapIdeas": [
+        "Ученик считает, что одинаковая цифра всегда значит одно и то же",
+        "Ученик смотрит на абсолютное место слева, а не на разряд",
+        "Ученик путает единицы и десятки"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p5_3"],
+      "sourceExampleRefs": ["p5#check"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сумма разрядных слагаемых",
+      "stemIdea": "Выбрать верную запись многозначного числа в виде суммы разрядных слагаемых",
+      "trapIdeas": [
+        "Ученик пишет цифры подряд без нулей разряда (3+5+7+4+9)",
+        "Ученик путает разряд: 5 тысяч как 500",
+        "Ученик переставляет слагаемые с неверной величиной"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p4_3"],
+      "sourceExampleRefs": ["p4#ex", "p7#9"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Восстановление разрядного слагаемого",
+      "stemIdea": "В незаконченном разложении числа восстановить пропущенное разрядное слагаемое",
+      "trapIdeas": [
+        "Ученик подставляет саму цифру без разрядного множителя",
+        "Ученик берёт соседний разряд",
+        "Ученик добавляет лишний нуль"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p4_3"],
+      "sourceExampleRefs": ["p7#9"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q09",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Отбор натуральных чисел среди предложенных",
+      "stemIdea": "Выбрать все натуральные числа из набора, где есть 0, однозначные и многозначные",
+      "trapIdeas": [
+        "Ученик отмечает нуль как натуральное",
+        "Ученик исключает многозначные",
+        "Ученик считает натуральными только числа без нуля в записи"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p4_1", "PDF_p4_2"],
+      "sourceExampleRefs": ["p5#check"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Запись числа прописью цифрами",
+      "stemIdea": "Выбрать цифровую запись числа, данного словами (с нулями в середине классов)",
+      "trapIdeas": [
+        "Ученик пропускает нули в пустых разрядах",
+        "Ученик ставит лишний нуль между классами",
+        "Ученик путает класс тысяч и класс единиц"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p6_1"],
+      "sourceExampleRefs": ["p6#3"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Значение цифры в конкретном разряде",
+      "stemIdea": "Для данного многозначного числа сказать, что означает указанная цифра (десятки тысяч, сотни и т.п.)",
+      "trapIdeas": [
+        "Ученик называет только цифру без разряда",
+        "Ученик смещает разряд на одну позицию",
+        "Ученик путает класс тысяч с классом единиц"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p5_3", "PDF_p6_1"],
+      "sourceExampleRefs": ["p6#4"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q12",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Запись многозначного числа цифрами",
+      "stemIdea": "Записать цифрами число, прочитанное словами (один короткий ответ)",
+      "trapIdeas": [
+        "Ученик опускает нули в пустых разрядах",
+        "Ученик пишет пробелы как лишние нули",
+        "Ученик путает порядок классов"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p6_1"],
+      "sourceExampleRefs": ["p6#3"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q13",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные равенства разрядных единиц",
+      "stemIdea": "Отметить все верные равенства вида 10 десятков = 1 сотня, 10 сотен = 1 тысяча и т.п.",
+      "trapIdeas": [
+        "Ученик принимает равенство со сдвигом на два разряда",
+        "Ученик путает единицы соседних классов",
+        "Ученик считает верным «10 тысяч = 1 сотня»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p5_1"],
+      "sourceExampleRefs": ["p5#check"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q14",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Сравнение значений одной цифры в разных разрядах",
+      "stemIdea": "Выбрать все верные сравнения: одно и то же значение цифры в разных позициях двух чисел",
+      "trapIdeas": [
+        "Ученик сравнивает цифры, а не их разрядные значения",
+        "Ученик игнорирует класс (тысячи vs единицы)",
+        "Ученик считает большими цифры левее без учёта разряда"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p5_3", "PDF_p6_1"],
+      "sourceExampleRefs": ["p6#4"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q15",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Признаки десятичной системы счисления",
+      "stemIdea": "Выбрать все верные объяснения, почему система называется десятичной",
+      "trapIdeas": [
+        "Ученик связывает название только с десятью пальцами без правила разрядов",
+        "Ученик путает с «десятичной дробью»",
+        "Ученик думает, что десятичная = «только цифры 1…10»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p5_2", "PDF_p5_1"],
+      "sourceExampleRefs": ["p5#check"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q16",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Позиционность десятичной записи",
+      "stemIdea": "Отметить все верные утверждения о том, что значение цифры зависит от места в записи",
+      "trapIdeas": [
+        "Ученик считает систему непозиционной",
+        "Ученик думает, что позиция важна только для нуля",
+        "Ученик путает «позиционная» с «прописью»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p5_3"],
+      "sourceExampleRefs": ["p5#check"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Цифра в заданном разряде класса",
+      "stemIdea": "По записи числа восстановить, какая цифра стоит в указанном разряде (напр. сотни тысяч)",
+      "trapIdeas": [
+        "Ученик берёт цифру соседнего разряда",
+        "Ученик путает класс тысяч и миллионов",
+        "Ученик отвечает значением разряда вместо цифры"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p6_1"],
+      "sourceExampleRefs": ["p6#4"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Число из произведений разрядных единиц",
+      "stemIdea": "По выражению a·10000+b·1000+… выбрать получившееся число",
+      "trapIdeas": [
+        "Ученик складывает только коэффициенты",
+        "Ученик теряет нуль в пустом разряде",
+        "Ученик умножает коэффициент не на тот разряд"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p4_3"],
+      "sourceExampleRefs": ["p6#5"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные разложения числа",
+      "stemIdea": "Отметить все верные записи числа суммой разрядных слагаемых (оба способа учебника)",
+      "trapIdeas": [
+        "Ученик принимает разложение с неверным разрядом",
+        "Ученик считает верным способ «цифры через плюс»",
+        "Ученик путает 7·100 и 7·1000"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p4_3"],
+      "sourceExampleRefs": ["p6#5", "p7#9"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q20",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Сборка числа по разрядным слагаемым",
+      "stemIdea": "Записать одно число, представленное суммой разрядных слагаемых (или произведениями)",
+      "trapIdeas": [
+        "Ученик пропускает нуль в отсутствующем разряде",
+        "Ученик меняет порядок цифр",
+        "Ученик складывает коэффициенты без разрядов"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p4_3"],
+      "sourceExampleRefs": ["p6#5"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q21",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Границы n-значных натуральных чисел",
+      "stemIdea": "Выбрать наименьшее четырёхзначное или наибольшее шестизначное натуральное число",
+      "trapIdeas": [
+        "Ученик пишет 0001 или начинает с нуля",
+        "Ученик путает наименьшее и наибольшее",
+        "Ученик даёт число с неверным количеством цифр"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p6_1", "PDF_p4_1"],
+      "sourceExampleRefs": ["p7#8"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q22",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Предыдущее число в натуральном ряду",
+      "stemIdea": "Проверить утверждение: для каждого натурального существует меньшее на 1 — найти ошибку/верно ли",
+      "trapIdeas": [
+        "Ученик забывает исключение для числа 1",
+        "Ученик считает, что у нуля есть предыдущее натуральное",
+        "Ученик думает, что ряд обрывается на больших числах"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p8_1", "PDF_p4_1"],
+      "sourceExampleRefs": ["p7#11"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Утверждения о натуральном ряде и старшем разряде",
+      "stemIdea": "Выбрать все верные утверждения из набора про предыдущее число и запись старшего разряда",
+      "trapIdeas": [
+        "Ученик принимает «для каждого натурального есть меньшее на 1» без исключения 1",
+        "Ученик считает, что старший разряд может быть нулём",
+        "Ученик думает, что старший разряд — любая цифра без ограничений"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p8_1", "PDF_p6_1"],
+      "sourceExampleRefs": ["p7#11"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q24",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Обратный поиск разряда по значению цифры",
+      "stemIdea": "Дано, что цифра означает, например, 5 тысяч; выбрать, в каком разряде/числе это возможно",
+      "trapIdeas": [
+        "Ученик путает «5 тысяч» и «5 десятков тысяч»",
+        "Ученик указывает класс вместо разряда",
+        "Ученик смотрит только на саму цифру 5"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p5_3", "PDF_p6_1"],
+      "sourceExampleRefs": ["p6#4"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Чтение многозначных чисел по классам",
+      "stemIdea": "Отметить все верные прочтения чисел с промежутками между классами",
+      "trapIdeas": [
+        "Ученик читает по три цифры справа налево неверно",
+        "Ученик пропускает название класса тысяч/миллионов",
+        "Ученик читает нули класса как отдельное слово «нуль»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p6_1"],
+      "sourceExampleRefs": ["p6#6"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q26",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "skillFocus": "Наибольшее n-значное натуральное число",
+      "stemIdea": "Записать цифрами наибольшее семизначное (или восьмизначное — по выбору генератора) натуральное число",
+      "trapIdeas": [
+        "Ученик начинает с 9, но ставит нули внутри",
+        "Ученик даёт число с неверным числом девяток",
+        "Ученик путает с наименьшим n-значным"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p6_1", "PDF_p4_1"],
+      "sourceExampleRefs": ["p7#8"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q27",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Интерпретация многозначного числа в сюжете",
+      "stemIdea": "По короткому сюжету с большим натуральным числом (расстояние/площадь) выбрать верное прочтение или класс старших цифр",
+      "trapIdeas": [
+        "Ученик ошибается в названии класса миллионов",
+        "Ученик путает метры и километры как разряды",
+        "Ученик пропускает класс при чтении"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p6_1"],
+      "sourceExampleRefs": ["p6#6"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q28",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Классы, нули в записи и старший разряд",
+      "stemIdea": "Выбрать все верные утверждения: когда класс тысяч «не читается», роль нуля в середине, запрет нуля в старшем разряде",
+      "trapIdeas": [
+        "Ученик думает, что нуль в середине можно выбросить при чтении числа как цифр",
+        "Ученик считает допустимым старший разряд 0 у натурального",
+        "Ученик путает «класс не называется» с «цифр нет в записи»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p6_1", "PDF_p5_3", "PDF_p4_1"],
+      "sourceExampleRefs": ["p6#4", "p7#10", "p7#11"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q29",
+      "type": "SCQ",
+      "difficulty": 5,
+      "skillFocus": "Подсчёт цифр при нумерации объектов",
+      "stemIdea": "Короткий сюжет: сколько цифр нужно, чтобы пронумеровать квартиры/страницы с 1 до N (упрощённый вариант упр. 13)",
+      "trapIdeas": [
+        "Ученик считает, что на каждое число уходит одинаковое число цифр",
+        "Ученик забывает двузначный/трёхзначный переход",
+        "Ученик считает номера, а не цифры"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p4_1", "PDF_p6_1"],
+      "sourceExampleRefs": ["p7#13"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q30",
+      "type": "SCQ",
+      "difficulty": 5,
+      "skillFocus": "Составление наибольшего/наименьшего числа из данных цифр",
+      "stemIdea": "Из данного набора цифр (с нулём) составить наибольшее или наименьшее натуральное; учесть запрет нуля в старшем разряде",
+      "trapIdeas": [
+        "Ученик ставит нуль в старший разряд у «наименьшего»",
+        "Ученик повторяет цифру или теряет одну",
+        "Ученик сортирует цифры без учёта натуральности записи"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p6_1", "PDF_p4_1", "PDF_p5_3"],
+      "sourceExampleRefs": ["p7#10", "p8#14"],
+      "questionForm": "inverse"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "Тема 1.1 only (стр. 4–8): натуральные числа, нуль, разрядные единицы, десятичная/позиционная запись, классы, бесконечность ряда. Координатный луч 1.2 исключён. recommendedMaxCount=null → count 30 сохранён; 8 primary verbatim-правил. questionForm best-effort при count=30 (лимит ≤2 нереален; G017). needsIllustration: все false (visual-topics; таблица разрядов и числа задаются текстом). Anti-dup: других прогонов 1.1 в coverage/runs нет; не пересекать с 1.2 и с десятичными разрядами ч.2. Устный счёт p5#1 и смекалка упр.12/16* не брались как ядро. FILL_IN: запись цифрами, сборка по разрядным, наибольшее n-значное."
+}

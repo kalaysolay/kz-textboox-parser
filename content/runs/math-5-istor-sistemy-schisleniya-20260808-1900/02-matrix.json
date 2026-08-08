@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-istor-sistemy-schisleniya-20260808-1900",
+  "typeMixPlanned": { "SCQ": 7, "MCQ": 4, "FILL_IN": 1 },
+  "difficultyMixPlanned": { "1": 1, "2": 2, "3": 6, "4": 2, "5": 1 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Боэций и термин «натуральные числа»",
+      "stemIdea": "Кто первым назвал числа, используемые при счёте, натуральными",
+      "trapIdeas": [
+        "Ученик называет Аделарда вместо Боэция",
+        "Ученик относит термин к египетской или римской нумерации",
+        "Ученик путает века и думает, что термин появился в Индии вместе с нулём"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p18_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Почему десятичная система позиционная",
+      "stemIdea": "По историческому тексту: почему систему называют десятичной позиционной",
+      "trapIdeas": [
+        "Ученик думает, что «позиционная» значит «пишут только прописью»",
+        "Ученик связывает название только с пальцами, без зависимости значения от места",
+        "Ученик путает с непозиционной римской системой"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p18_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Римская запись: меньшая справа — прибавить",
+      "stemIdea": "Перевести XVI в десятичную запись по правилу сложения",
+      "trapIdeas": [
+        "Ученик вычитает I из XV и получает 14",
+        "Ученик считает только X+V=15, забывая I",
+        "Ученик читает слева направо как X−V+I=6"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p19_2"],
+      "sourceExampleRefs": ["p19#1"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Римская запись: меньшая слева — вычесть",
+      "stemIdea": "Перевести IX в десятичную запись по правилу вычитания",
+      "trapIdeas": [
+        "Ученик складывает I+X=11",
+        "Ученик путает с IV и отвечает 4",
+        "Ученик отвечает 10, игнорируя I слева"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p19_2"],
+      "sourceExampleRefs": ["p19#2"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Проверка чужой римской расшифровки",
+      "stemIdea": "Ученик записал IV = 6; найти ошибку и верное значение",
+      "trapIdeas": [
+        "Ученик соглашается с 6 (складывает I+V)",
+        "Ученик думает, что IV = 5",
+        "Ученик путает с VI и отвечает, что верно 6"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p19_2"],
+      "sourceExampleRefs": ["p19#2"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Египетская запись числа 123 по описанию знаков",
+      "stemIdea": "По словесному описанию (спираль, дуги, черты) восстановить, сколько знаков десятков в записи 123",
+      "trapIdeas": [
+        "Ученик путает дуги с единицами и отвечает 3",
+        "Ученик считает, что дуг столько же, сколько сотен — 1",
+        "Ученик отвечает 123, думая про само число"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p19_1"],
+      "sourceExampleRefs": ["p19#3"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Аделард и введение десятичной системы в Европе",
+      "stemIdea": "Кто и в каком году впервые ввёл десятичную систему в использование в Европе",
+      "trapIdeas": [
+        "Ученик называет Боэция V–VI вв.",
+        "Ученик указывает Индию VI века вместо Европы 1120",
+        "Ученик путает с широким использованием в XVI веке"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p18_3"],
+      "sourceExampleRefs": ["p18#1"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q08",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Путь распространения десятичной системы",
+      "stemIdea": "Выбрать все верные факты о возникновении и распространении десятичной системы",
+      "trapIdeas": [
+        "Ученик относит возникновение к Риму или Египту",
+        "Ученик ставит Европу раньше Индии",
+        "Ученик путает века: Испания X с Индией VI"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p18_3"],
+      "sourceExampleRefs": [],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q09",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Почему современные цифры называют арабскими",
+      "stemIdea": "Отметить верные утверждения о пути цифр 0–9: Индия → арабские страны → Европа",
+      "trapIdeas": [
+        "Ученик думает, что цифры изобрели в Аравии, а не в Индии",
+        "Ученик считает, что название «арабские» значит «придумали арабы»",
+        "Ученик относит появление цифр к Риму"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p19_4"],
+      "sourceExampleRefs": [],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q10",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Признаки римской непозиционной системы",
+      "stemIdea": "Выбрать все верные свойства римской нумерации (нет 0, правила слева/справа, современное использование)",
+      "trapIdeas": [
+        "Ученик считает римскую систему позиционной",
+        "Ученик думает, что у римлян была цифра 0",
+        "Ученик отрицает современное использование (века, главы)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p19_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q11",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Славянская буквенная нумерация с титлом",
+      "stemIdea": "Выбрать верные утверждения о записи чисел в Древней Руси и появлении десятичной системы в России",
+      "trapIdeas": [
+        "Ученик думает, что в Древней Руси сразу писали арабскими цифрами",
+        "Ученик путает принцип 9+9+9 с позиционной десятичной записью",
+        "Ученик относит распространение десятичной системы в России к VI веку"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p19_3"],
+      "sourceExampleRefs": [],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q12",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Синтез двух римских правил в одной записи",
+      "stemIdea": "Перевести XIX, где есть и вычитание IX, и прибавление к X",
+      "trapIdeas": [
+        "Ученик складывает X+I+X=21",
+        "Ученик вычитает всё подряд и получает 8",
+        "Ученик отвечает 11 (только XI) или 9 (только IX)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p19_2"],
+      "sourceExampleRefs": ["p19#1", "p19#2"],
+      "questionForm": "restore"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "Count 12 = recommendedMaxCount; typeMix SCQ7/MCQ4/FILL_IN1 и difficulty 1/2/6/2/1 как в brief. Опора на primary PDF_p18_* / PDF_p19_* (verbatim); PDF_p19_1 (египтяне) — origin reconstructed, глифы не требуем, только словесный пример 123. RC_p19_table (supporting) и R002 (prerequisite) в sourceRuleIds не ставились. needsIllustration все false: visual-topics, история текстом без обязательной фигуры, глифы OCR ненадёжны. Anti-dup: не дублировать разрядные/позиционные drills темы 1.1 и сравнение/луч — фокус на истории систем и римских примерах учебника. questionForm: recall×2, compute×2, verify×2, restore×2 (q06 египетский счёт знаков; q12 FILL_IN XIX), word_problem/compare/predict/inverse по одному."
+}

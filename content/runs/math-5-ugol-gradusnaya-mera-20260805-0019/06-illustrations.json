@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-ugol-gradusnaya-mera-20260805-0019",
+  "sourceFinal": "05-questions.final.json",
+  "styleProfile": "aldamuratova-textbook-simple",
+  "items": [
+    {
+      "localId": "q02",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Показать угол AOB с лучами OA, OB и вершиной O; ответ про стороны/вершину в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q02.svg",
+        "format": "svg",
+        "width": 420,
+        "height": 360,
+        "raster": { "path": "illustrations/q02.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 420,
+        "height": 360,
+        "cx": 170,
+        "cy": 250,
+        "rayLength": 220,
+        "vertexLabel": "O",
+        "armALabel": "A",
+        "armCLabel": "B",
+        "degrees": 55,
+        "startDegrees": 18,
+        "showArc": true,
+        "showDegree": false,
+        "vertexOffset": { "x": -16, "y": 6 }
+      },
+      "notes": null
+    },
+    {
+      "localId": "q04",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Угол ABC с лучом BD между сторонами; даны 42° и 28°, сумма 70° не подписана",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q04.svg",
+        "format": "svg",
+        "width": 480,
+        "height": 400,
+        "raster": { "path": "illustrations/q04.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 480,
+        "height": 400,
+        "cx": 200,
+        "cy": 310,
+        "rayLength": 250,
+        "vertexLabel": "B",
+        "rays": [
+          { "label": "A", "deg": 18 },
+          { "label": "D", "deg": 60 },
+          { "label": "C", "deg": 88 }
+        ],
+        "arcs": [
+          { "fromDeg": 18, "toDeg": 60, "label": "42°", "radius": 52 },
+          { "fromDeg": 60, "toDeg": 88, "label": "28°", "radius": 52 }
+        ],
+        "vertexOffset": { "x": -16, "y": 8 }
+      },
+      "notes": "На рисунке только данные части; искомый ∠ABC=70° не подписан"
+    },
+    {
+      "localId": "q06",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Угол NOP с точками на сторонах, внутри и во внешней области напротив вершины",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q06.svg",
+        "format": "svg",
+        "width": 480,
+        "height": 400,
+        "raster": { "path": "illustrations/q06.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 480,
+        "height": 400,
+        "cx": 220,
+        "cy": 250,
+        "rayLength": 230,
+        "vertexLabel": "O",
+        "rays": [
+          { "label": "N", "deg": 25 },
+          { "label": "P", "deg": 95 }
+        ],
+        "showArc": true,
+        "showDegree": false,
+        "points": [
+          { "id": "A", "deg": 25, "t": 0.58, "labelDx": -12, "labelDy": -12 },
+          { "id": "B", "deg": 60, "t": 0.42, "labelDx": 0, "labelDy": -14 },
+          { "id": "C", "deg": 95, "t": 0.62, "labelDx": 12, "labelDy": -10 },
+          { "id": "D", "deg": 240, "t": 0.38, "labelDx": 0, "labelDy": 16 }
+        ],
+        "vertexOffset": { "x": -16, "y": 8 }
+      },
+      "notes": "Принадлежность точек не помечена — ответ «Верно» про общее правило"
+    },
+    {
+      "localId": "q07",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Развёрнутый угол EOF с лучом OD; дан ∠DOE=55°, искомый ∠DOF не подписан",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q07.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": { "path": "illustrations/q07.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 520,
+        "height": 360,
+        "cx": 260,
+        "cy": 220,
+        "rayLength": 180,
+        "vertexLabel": "O",
+        "rays": [
+          { "label": "E", "deg": 180 },
+          { "label": "D", "deg": 125 },
+          { "label": "F", "deg": 0 }
+        ],
+        "arcs": [
+          { "fromDeg": 125, "toDeg": 180, "label": "55°", "radius": 48 }
+        ],
+        "vertexOffset": { "x": 0, "y": 22 },
+        "vertexAnchor": "middle"
+      },
+      "notes": "125° на рисунке нет"
+    },
+    {
+      "localId": "q13",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Лучи OA, OB, OC, OD с данными ∠AOB=110°, ∠AOD=80°, ∠COB=50°; искомые меры не подписаны",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q13.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 400,
+        "raster": { "path": "illustrations/q13.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 520,
+        "height": 400,
+        "cx": 220,
+        "cy": 300,
+        "rayLength": 250,
+        "vertexLabel": "O",
+        "rays": [
+          { "label": "A", "deg": 10 },
+          { "label": "C", "deg": 70 },
+          { "label": "D", "deg": 90 },
+          { "label": "B", "deg": 120 }
+        ],
+        "arcs": [
+          { "fromDeg": 10, "toDeg": 120, "label": "110°", "radius": 78 },
+          { "fromDeg": 10, "toDeg": 90, "label": "80°", "radius": 54 },
+          { "fromDeg": 70, "toDeg": 120, "label": "50°", "radius": 36 }
+        ],
+        "vertexOffset": { "x": -16, "y": 10 }
+      },
+      "notes": "Не подписаны COD=20°, DOB=30°, AOC=60° (ответы MCQ)"
+    },
+    {
+      "localId": "q15",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "angle",
+      "purpose": "Развёрнутый AOB с лучами OE, OD; дан ∠EOD=80°, равные боковые части без числовой подписи",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q15.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": { "path": "illustrations/q15.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "angle",
+        "width": 520,
+        "height": 360,
+        "cx": 260,
+        "cy": 220,
+        "rayLength": 180,
+        "vertexLabel": "O",
+        "rays": [
+          { "label": "A", "deg": 180 },
+          { "label": "E", "deg": 130 },
+          { "label": "D", "deg": 50 },
+          { "label": "B", "deg": 0 }
+        ],
+        "arcs": [
+          { "fromDeg": 50, "toDeg": 130, "label": "80°", "radius": 52 }
+        ],
+        "vertexOffset": { "x": 0, "y": 22 },
+        "vertexAnchor": "middle"
+      },
+      "notes": "Искомый ∠AOE=50° не подписан"
+    }
+  ]
+}

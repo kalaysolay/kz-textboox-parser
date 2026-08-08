@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-podmnozhestvo-20260808-0830",
+  "sourceFinal": "05-questions.final.json",
+  "styleProfile": "aldamuratova-textbook-simple",
+  "items": [
+    {
+      "localId": "q07",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_euler",
+      "purpose": "Nested Euler M⊃N with elements; соотношение ⊂ только в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q07.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q07.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_euler",
+        "width": 520,
+        "height": 360,
+        "sets": [
+          { "id": "M", "cx": 250, "cy": 195, "r": 140 },
+          { "id": "N", "cx": 250, "cy": 210, "r": 70 }
+        ],
+        "elements": [
+          { "label": "4", "x": 225, "y": 190 },
+          { "label": "8", "x": 275, "y": 200 },
+          { "label": "12", "x": 245, "y": 245 },
+          { "label": "2", "x": 155, "y": 130 },
+          { "label": "6", "x": 345, "y": 130 },
+          { "label": "10", "x": 350, "y": 270 }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q14",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_euler",
+      "purpose": "Четыре схемы A–D (пересечение / B⊂A / раздельные / A⊂B); верная панель не выделена",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q14.svg",
+        "format": "svg",
+        "width": 680,
+        "height": 560,
+        "raster": {
+          "path": "illustrations/q14.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_euler",
+        "width": 680,
+        "height": 560,
+        "sets": [
+          { "id": "A", "cx": 140, "cy": 160, "r": 75 },
+          { "id": "B", "cx": 220, "cy": 160, "r": 75 },
+          { "id": "A", "cx": 500, "cy": 170, "r": 95 },
+          { "id": "B", "cx": 500, "cy": 185, "r": 48 },
+          { "id": "A", "cx": 120, "cy": 430, "r": 55 },
+          { "id": "B", "cx": 250, "cy": 430, "r": 55 },
+          { "id": "B", "cx": 500, "cy": 430, "r": 95 },
+          { "id": "A", "cx": 500, "cy": 445, "r": 48 }
+        ],
+        "elements": [
+          { "label": "A", "x": 55, "y": 50 },
+          { "label": "B", "x": 415, "y": 50 },
+          { "label": "C", "x": 55, "y": 320 },
+          { "label": "D", "x": 415, "y": 320 }
+        ]
+      },
+      "notes": "Четыре панели в одном set_euler; панель B = B внутри A без подсветки"
+    },
+    {
+      "localId": "q15",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_euler",
+      "purpose": "Nested Euler A⊃B с элементами для перечисления и B⊂A",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q15.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q15.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_euler",
+        "width": 520,
+        "height": 360,
+        "sets": [
+          { "id": "A", "cx": 250, "cy": 195, "r": 140 },
+          { "id": "B", "cx": 250, "cy": 210, "r": 70 }
+        ],
+        "elements": [
+          { "label": "2", "x": 225, "y": 190 },
+          { "label": "4", "x": 275, "y": 200 },
+          { "label": "5", "x": 245, "y": 245 },
+          { "label": "10", "x": 155, "y": 130 },
+          { "label": "20", "x": 345, "y": 140 },
+          { "label": "7", "x": 450, "y": 280 }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q16",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_euler",
+      "purpose": "Nested Euler A⊃B (прямоугольники/квадраты в stem); обоснование ⊂ только в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q16.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q16.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_euler",
+        "width": 520,
+        "height": 360,
+        "sets": [
+          { "id": "A", "cx": 260, "cy": 195, "r": 130 },
+          { "id": "B", "cx": 260, "cy": 210, "r": 65 }
+        ],
+        "elements": []
+      },
+      "notes": "Признаки множеств только в тексте stem, не на SVG"
+    },
+    {
+      "localId": "q18",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_euler",
+      "purpose": "Три вложенных круга A⊃B⊃C; цепочка ⊂ только в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q18.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 400,
+        "raster": {
+          "path": "illustrations/q18.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_euler",
+        "width": 520,
+        "height": 400,
+        "sets": [
+          { "id": "A", "cx": 260, "cy": 210, "r": 155 },
+          { "id": "B", "cx": 260, "cy": 225, "r": 100 },
+          { "id": "C", "cx": 260, "cy": 240, "r": 50 }
+        ],
+        "elements": []
+      },
+      "notes": "Признаки кратных только в stem"
+    },
+    {
+      "localId": "q19",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_euler",
+      "purpose": "Nested Euler A⊃B с элементами для нескольких верных утверждений",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q19.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q19.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_euler",
+        "width": 520,
+        "height": 360,
+        "sets": [
+          { "id": "A", "cx": 250, "cy": 195, "r": 140 },
+          { "id": "B", "cx": 250, "cy": 210, "r": 70 }
+        ],
+        "elements": [
+          { "label": "1", "x": 225, "y": 190 },
+          { "label": "2", "x": 275, "y": 200 },
+          { "label": "3", "x": 245, "y": 245 },
+          { "label": "9", "x": 155, "y": 130 },
+          { "label": "18", "x": 340, "y": 140 },
+          { "label": "25", "x": 450, "y": 280 }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q24",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_euler",
+      "purpose": "Nested Euler A⊃B с делителями 30; признак и ⊂ читаются с диаграммы и stem",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q24.svg",
+        "format": "svg",
+        "width": 560,
+        "height": 400,
+        "raster": {
+          "path": "illustrations/q24.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_euler",
+        "width": 560,
+        "height": 400,
+        "sets": [
+          { "id": "A", "cx": 270, "cy": 215, "r": 155 },
+          { "id": "B", "cx": 270, "cy": 230, "r": 85 }
+        ],
+        "elements": [
+          { "label": "1", "x": 235, "y": 195 },
+          { "label": "2", "x": 295, "y": 195 },
+          { "label": "3", "x": 235, "y": 245 },
+          { "label": "5", "x": 295, "y": 245 },
+          { "label": "6", "x": 265, "y": 275 },
+          { "label": "10", "x": 160, "y": 140 },
+          { "label": "15", "x": 380, "y": 145 },
+          { "label": "30", "x": 480, "y": 320 }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q26",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_euler",
+      "purpose": "Nested Euler A⊃B с точками X/Y/Z для чтения зон при B⊂A",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q26.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q26.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_euler",
+        "width": 520,
+        "height": 360,
+        "sets": [
+          { "id": "A", "cx": 250, "cy": 195, "r": 140 },
+          { "id": "B", "cx": 250, "cy": 210, "r": 70 }
+        ],
+        "elements": [
+          { "label": "X", "x": 250, "y": 210 },
+          { "label": "Y", "x": 155, "y": 140 },
+          { "label": "Z", "x": 450, "y": 280 }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q29",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "set_euler",
+      "purpose": "Nested Euler R⊃S; запись S⊂R только в FILL_IN, не на рисунке",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q29.svg",
+        "format": "svg",
+        "width": 520,
+        "height": 360,
+        "raster": {
+          "path": "illustrations/q29.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "set_euler",
+        "width": 520,
+        "height": 360,
+        "sets": [
+          { "id": "R", "cx": 260, "cy": 195, "r": 130 },
+          { "id": "S", "cx": 260, "cy": 210, "r": 65 }
+        ],
+        "elements": []
+      },
+      "notes": null
+    }
+  ]
+}

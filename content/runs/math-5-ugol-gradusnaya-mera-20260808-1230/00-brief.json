@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-ugol-gradusnaya-mera-20260808-1230",
+  "createdAt": "2026-08-08T12:30:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "Угол. Градусная мера угла",
+  "topicKk": "Бұрыш. Бұрыштың градустық өлшемі",
+  "topicSlug": "ugol-gradusnaya-mera",
+  "topicCode": "7.1",
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 30,
+  "typeMix": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMix": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "illustrationPolicy": "visual-topics",
+  "illustrationFor": [],
+  "parsedTextbookPath": "Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+  "methodistInstruction": "Topic 7.1 pages ~133–137 ONLY. Angle definition, sides/vertex, degree measure, reading angle size. NEW 30-pack — avoid near-dup stems vs old run math-5-ugol-gradusnaya-mera-20260805-0019 (15 Q). Формулировки для 5 класса: короткие, однозначные, без двусмысленности и лишних условий. Numbers from textbook-style exercises. visual-topics: set needsIllustration for stems that need angle/protractor figure. Do NOT expand into 7.2 (protractor construction as main skill) or 7.3 (angle types comparison as main). Reduce count if recommendedMaxCount < 30; keep ~60/30/10. pdfOffset=0.",
+  "languageMode": "BOTH"
+}

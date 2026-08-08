@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-sposoby-predstavleniya-stat-dannyh-20260808-1600",
+  "createdAt": "2026-08-08T16:00:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "Способы представления статистических данных. Столбчатые, линейные, круговые и графические диаграммы. Таблицы",
+  "topicKk": "Статистикалық деректерді ұсыну тәсілдері. Бағанды, сызықтық, дөңгелек және графикалық диаграммалар. Кестелер",
+  "topicSlug": "sposoby-predstavleniya-stat-dannyh",
+  "topicCode": "8.3",
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 30,
+  "typeMix": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMix": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "illustrationPolicy": "visual-topics",
+  "illustrationFor": [],
+  "parsedTextbookPath": "Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+  "methodistInstruction": "Формулировки для 5 класса: короткие, однозначные, без двусмысленности и лишних условий. VISUAL topic 8.3 pages ~165–172. Charts/tables: bar_chart, line_chart, pie_chart, table where stem needs figure. illustrationPolicy visual-topics — mark needsIllustration true where stem incomplete without diagram/table (healthy share). Generator stems that need figures must say «на рисунке» / KK equivalent. Prefer REAL chart/solid kinds. Avoid duplicate stems vs other runs (esp. 8.1/8.2). Reduce count if recommendedMaxCount < 30. pdfOffset=0 for part2.",
+  "languageMode": "BOTH"
+}

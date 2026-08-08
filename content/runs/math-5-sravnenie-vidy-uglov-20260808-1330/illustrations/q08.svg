@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="360" viewBox="0 0 420 360">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <line x1="180" y1="260" x2="397.85897512314546" y2="229.38191778878561" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="180" y1="260" x2="149.38191778878561" y2="42.141024876854516" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="180" cy="260" r="3.5" fill="#1a1a1a"/>
+  <polyline points="195.84428909986514,257.77323038463896 193.6175194845041,241.92894128477383 177.77323038463896,244.15571090013486" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="411.7227280855275" y="227.43349437534468" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">C</text>
+  <text x="147.4334943753447" y="28.27727191447252" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">D</text>
+  <text x="164" y="270" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="end" dominant-baseline="middle">O</text>
+</svg>

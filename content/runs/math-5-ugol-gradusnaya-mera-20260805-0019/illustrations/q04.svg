@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="400" viewBox="0 0 480 400">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <line x1="200" y1="310" x2="437.76412907378835" y2="232.74575140626314" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="200" y1="310" x2="325" y2="93.49364905389035" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="200" y1="310" x2="208.72487417562527" y2="60.15229324522605" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="200" cy="310" r="3.5" fill="#1a1a1a"/>
+  <path d="M 249.454938847348 293.93111629250274 A 52 52 0 0 0 226 264.9666790032092" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="254.40021730198796" y="265.9475726265114" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="middle">42°</text>
+  <path d="M 226 264.9666790032092 A 52 52 0 0 0 201.81477382853006 258.03167699500705" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="219.29461490718995" y="242.71168128431768" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="middle">28°</text>
+  <text x="451.07892030192056" y="228.4195134850139" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">A</text>
+  <text x="332" y="81.36929340090822" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">D</text>
+  <text x="209.2134671294603" y="46.160821666958725" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">C</text>
+  <text x="184" y="318" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="end" dominant-baseline="middle">B</text>
+</svg>

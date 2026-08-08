@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-izobrazhenie-des-drobi-na-luche-20260808-0300",
+  "createdAt": "2026-08-08T03:00:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "Изображение десятичной дроби на координатном луче. Сравнение десятичных дробей",
+  "topicKk": "Ондық бөлшекті координаталық сәуледе бейнелеу. Ондық бөлшектерді салыстыру",
+  "topicSlug": "izobrazhenie-des-drobi-na-luche",
+  "topicCode": "4.3",
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 30,
+  "typeMix": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMix": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "illustrationPolicy": "visual-topics",
+  "illustrationFor": [],
+  "parsedTextbookPath": "Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+  "methodistInstruction": "Визуальная тема: слоты с координатным лучом / числовой прямой для десятичных — needsIllustration:true; сравнение без рисунка допускается текстом. Stem с рисунком должен явно ссылаться на фигуру («на рисунке»).",
+  "languageMode": "BOTH"
+}

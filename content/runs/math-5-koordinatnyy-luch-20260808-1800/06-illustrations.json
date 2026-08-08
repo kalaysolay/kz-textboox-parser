@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-koordinatnyy-luch-20260808-1800",
+  "sourceFinal": "05-questions.final.json",
+  "styleProfile": "aldamuratova-textbook-simple",
+  "items": [
+    {
+      "localId": "q07",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "coordinate_ray",
+      "purpose": "Показать точку K на луче; координата читается со шкалы, ответ в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q07.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": { "path": "illustrations/q07.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "coordinate_ray",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 8,
+        "points": [{ "id": "K", "value": 6 }]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q08",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "coordinate_ray",
+      "purpose": "Показать P и R для сравнения положения; кто правее — в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q08.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": { "path": "illustrations/q08.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "coordinate_ray",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 8,
+        "points": [
+          { "id": "P", "value": 3 },
+          { "id": "R", "value": 7 }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q11",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "coordinate_ray",
+      "purpose": "Частичная шкала 0/2/4; точка S на неподписанном делении",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q11.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": { "path": "illustrations/q11.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "coordinate_ray",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 6,
+        "labels": {
+          "0": "0",
+          "1": "",
+          "2": "2",
+          "3": "",
+          "4": "4",
+          "5": "",
+          "6": ""
+        },
+        "points": [{ "id": "S", "value": 3 }]
+      },
+      "notes": "Подписаны только 0, 2, 4; S между 2 и 4"
+    },
+    {
+      "localId": "q13",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "coordinate_ray",
+      "purpose": "Точка T (остановка); расстояние с масштабом 40 м — в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q13.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": { "path": "illustrations/q13.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "coordinate_ray",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 8,
+        "points": [{ "id": "T", "value": 5 }]
+      },
+      "notes": "Метры не на рисунке — только деление; масштаб в stem"
+    },
+    {
+      "localId": "q14",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "coordinate_ray",
+      "purpose": "Точка N для проверки чужого чтения координаты",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q14.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": { "path": "illustrations/q14.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "coordinate_ray",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 8,
+        "points": [{ "id": "N", "value": 5 }]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q16",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "coordinate_ray",
+      "purpose": "Точка F на луче (упрощение: один луч — нижний из stem)",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q16.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": { "path": "illustrations/q16.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "coordinate_ray",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 8,
+        "points": [{ "id": "F", "value": 4 }]
+      },
+      "notes": "Рендерер не рисует два луча на одном кадре; упрощено до нижнего луча с F(4). Stem упоминает два луча — координата всё ещё читается."
+    },
+    {
+      "localId": "q20",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "coordinate_ray",
+      "purpose": "Точки F, G, H; верные записи K(n) — в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q20.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": { "path": "illustrations/q20.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "coordinate_ray",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 10,
+        "points": [
+          { "id": "F", "value": 3 },
+          { "id": "G", "value": 6 },
+          { "id": "H", "value": 9 }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q21",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "coordinate_ray",
+      "purpose": "Точки L, N, T слева направо; сравнения положений в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q21.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": { "path": "illustrations/q21.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "coordinate_ray",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 8,
+        "points": [
+          { "id": "L", "value": 2 },
+          { "id": "N", "value": 5 },
+          { "id": "T", "value": 7 }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q23",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "coordinate_ray",
+      "purpose": "Точки E, G, H, J; отбор по порогу координаты — в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q23.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": { "path": "illustrations/q23.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "coordinate_ray",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 8,
+        "points": [
+          { "id": "E", "value": 2 },
+          { "id": "G", "value": 3 },
+          { "id": "H", "value": 5 },
+          { "id": "J", "value": 7 }
+        ]
+      },
+      "notes": null
+    },
+    {
+      "localId": "q24",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "coordinate_ray",
+      "purpose": "Точки B и D; масштаб 30 м и расстояние — в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q24.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": { "path": "illustrations/q24.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "coordinate_ray",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 8,
+        "points": [
+          { "id": "B", "value": 2 },
+          { "id": "D", "value": 6 }
+        ]
+      },
+      "notes": "Метры не подписаны на SVG"
+    },
+    {
+      "localId": "q28",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "coordinate_ray",
+      "purpose": "Точка W; число для FILL_IN читается со шкалы",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q28.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": { "path": "illustrations/q28.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "coordinate_ray",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 10,
+        "points": [{ "id": "W", "value": 8 }]
+      },
+      "notes": "Положение W необходимо для FILL_IN; ответ отдельно на рисунке не выделен"
+    },
+    {
+      "localId": "q30",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "coordinate_ray",
+      "purpose": "Город K на ~4-м делении; расстояние ×60 км — в FILL_IN",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q30.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 240,
+        "raster": { "path": "illustrations/q30.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "coordinate_ray",
+        "width": 720,
+        "height": 240,
+        "originLabel": "O",
+        "unitCount": 8,
+        "points": [{ "id": "K", "value": 4 }]
+      },
+      "notes": "240 км не подписано; масштаб в stem"
+    }
+  ]
+}

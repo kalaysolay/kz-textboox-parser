@@ -1,0 +1,1234 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "math-5-desyatichnaya-drob-chtenie-zapis-20260808-0200",
+    "generatedAt": "2026-08-08T02:50:00+05:00",
+    "subjectTitleRu": "Математика",
+    "subjectTitleKk": "Математика",
+    "gradeNo": 5,
+    "topicCode": "4.1",
+    "topicTitleRu": "Десятичная дробь. Чтение и запись десятичных дробей",
+    "topicTitleKk": "Ондық бөлшек. Ондық бөлшектерді оқу және жазу",
+    "topicSlug": "desyatichnaya-drob-chtenie-zapis",
+    "atomicSkillTitleRu": null,
+    "textbookRef": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+    "illustrationPolicy": "visual-topics",
+    "sourceReliability": "verbatim"
+  },
+  "questions": [
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "bodyRu": "Какое утверждение верно описывает десятичную дробь?",
+      "bodyKk": "Ондық бөлшекті қай тұжырым дұрыс сипаттайды?",
+      "explanationRu": "Обыкновенные дроби со знаменателями 10, 100, 1000 и т. д. условились записывать без знаменателя через запятую и называть десятичными.",
+      "explanationKk": "Бөлімі 10, 100, 1000 және т.б. болатын жай бөлшектерді бөлімсіз үтір арқылы жазып, ондық бөлшек деп атауға келіскен.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Любая обыкновенная дробь — это десятичная дробь",
+          "textKk": "Кез келген жай бөлшек — ондық бөлшек",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Дробь со знаменателем 10, 100, 1000…, записанная без знаменателя через запятую",
+          "textKk": "Бөлімі 10, 100, 1000… болатын, бөлімсіз үтір арқылы жазылған бөлшек",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Только число, меньшее единицы",
+          "textKk": "Тек бірден кіші сан",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Число, записанное со знаком процента",
+          "textKk": "Пайыз белгісімен жазылған сан",
+          "correct": false
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p16_1"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "bodyRu": "Какой разряд стоит на первом месте после запятой в десятичной дроби?",
+      "bodyKk": "Ондық бөлшекте үтірден кейінгі бірінші орында қай разряд тұрады?",
+      "explanationRu": "На первом месте после запятой — разряд десятых, на втором — сотых, на третьем — тысячных.",
+      "explanationKk": "Үтірден кейін бірінші орында — ондықтар разряды, екіншіде — жүздіктер, үшіншіде — мыңдықтар.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Разряд сотых",
+          "textKk": "Жүздіктер разряды",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Разряд единиц",
+          "textKk": "Бірліктер разряды",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Разряд десятых",
+          "textKk": "Ондықтар разряды",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Разряд тысячных",
+          "textKk": "Мыңдықтар разряды",
+          "correct": false
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p16_2"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Запишите в виде десятичной дроби число $2\\dfrac{7}{10}$.",
+      "bodyKk": "$2\\dfrac{7}{10}$ санын ондық бөлшек түрінде жазыңыз.",
+      "explanationRu": "Целая часть 2, знаменатель 10 — один знак после запятой: $2,7$.",
+      "explanationKk": "Бүтін бөлігі 2, бөлімі 10 — үтірден кейін бір таңба: $2,7$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$2,07$",
+          "textKk": "$2,07$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$2,7$",
+          "textKk": "$2,7$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$27$",
+          "textKk": "$27$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$7,2$",
+          "textKk": "$7,2$",
+          "correct": false
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p18_1"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Как правильно прочитать число $0,03$?",
+      "bodyKk": "$0,03$ санын қалай дұрыс оқиды?",
+      "explanationRu": "Два знака после запятой — сотые: «0 целых 3 сотых».",
+      "explanationKk": "Үтірден кейін екі таңба — жүздіктер: «0 бүтін 3 жүздік».",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "0 целых 3 десятых",
+          "textKk": "0 бүтін 3 ондық",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "3 десятых",
+          "textKk": "3 ондық",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "0 целых 3 сотых",
+          "textKk": "0 бүтін 3 жүздік",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "0 целых 3 тысячных",
+          "textKk": "0 бүтін 3 мыңдық",
+          "correct": false
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p17_2"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Не записывая дробь полностью, определите: сколько десятичных знаков будет у числа $\\dfrac{9}{1000}$ в десятичной записи?",
+      "bodyKk": "Бөлшекті толық жазбай анықтаңыз: $\\dfrac{9}{1000}$ санының ондық жазбасында үтірден кейін қанша таңба болады?",
+      "explanationRu": "Число десятичных знаков равно числу нулей в знаменателе: у 1000 три нуля → три знака.",
+      "explanationKk": "Ондық таңбалар саны бөлімдегі нөлдер санына тең: 1000-да үш нөл → үш таңба.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "1",
+          "textKk": "1",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "2",
+          "textKk": "2",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "3",
+          "textKk": "3",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "4",
+          "textKk": "4",
+          "correct": false
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p18_1"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Что означает цифра 0 в записи десятичной дроби (например, в числе $5,109$ на месте сотых)?",
+      "bodyKk": "Ондық бөлшек жазбасындағы 0 цифры нені білдіреді (мысалы, $5,109$ санындағы жүздіктер орнында)?",
+      "explanationRu": "Цифра 0 показывает отсутствие единиц соответствующего разряда.",
+      "explanationKk": "0 цифры тиісті разряд бірліктерінің жоқтығын көрсетеді.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Что число можно уменьшить, отбросив этот ноль",
+          "textKk": "Бұл нөлді алып тастап, санды кішірейтуге болады",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Отсутствие единиц этого разряда",
+          "textKk": "Осы разряд бірліктерінің жоқтығы",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Что дробь обязательно меньше единицы",
+          "textKk": "Бөлшек міндетті түрде бірден кіші",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Что запятая поставлена ошибочно",
+          "textKk": "Үтір қате қойылған",
+          "correct": false
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p17_1"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Запишите в виде десятичной дроби число $5\\dfrac{7}{100}$.",
+      "bodyKk": "$5\\dfrac{7}{100}$ санын ондық бөлшек түрінде жазыңыз.",
+      "explanationRu": "Знаменатель 100 — два знака; числитель 7 — одна цифра, поэтому $5,07$.",
+      "explanationKk": "Бөлімі 100 — екі таңба; алымы 7 — бір цифр, сондықтан $5,07$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$5,7$",
+          "textKk": "$5,7$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$5,07$",
+          "textKk": "$5,07$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$5,007$",
+          "textKk": "$5,007$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$0,57$",
+          "textKk": "$0,57$",
+          "correct": false
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p18_1"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Запишите в виде десятичной дроби число $4\\dfrac{9}{1000}$.",
+      "bodyKk": "$4\\dfrac{9}{1000}$ санын ондық бөлшек түрінде жазыңыз.",
+      "explanationRu": "Знаменатель 1000 — три знака; перед 9 нужны два нуля: $4,009$.",
+      "explanationKk": "Бөлімі 1000 — үш таңба; 9-дың алдында екі нөл керек: $4,009$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$4,9$",
+          "textKk": "$4,9$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$4,09$",
+          "textKk": "$4,09$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$4,009$",
+          "textKk": "$4,009$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$4,900$",
+          "textKk": "$4,900$",
+          "correct": false
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p18_1"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Какая запись соответствует чтению: «нуль целых три сотых»?",
+      "bodyKk": "«Нөл бүтін үш жүздік» деп оқылатын жазба қайсы?",
+      "explanationRu": "«Три сотых» — два знака после запятой, цифра 3 на месте сотых: $0,03$.",
+      "explanationKk": "«Үш жүздік» — үтірден кейін екі таңба, 3 жүздіктер орнында: $0,03$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$0,3$",
+          "textKk": "$0,3$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$0,03$",
+          "textKk": "$0,03$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$0,003$",
+          "textKk": "$0,003$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$3,0$",
+          "textKk": "$3,0$",
+          "correct": false
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p17_2",
+        "PDF_p18_1"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Как правильно прочитать число $13,547$?",
+      "bodyKk": "$13,547$ санын қалай дұрыс оқиды?",
+      "explanationRu": "Три десятичных знака — тысячные: «13 целых 547 тысячных».",
+      "explanationKk": "Үш ондық таңба — мыңдықтар: «13 бүтін 547 мыңдық».",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "13 целых 547 сотых",
+          "textKk": "13 бүтін 547 жүздік",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "13 целых 547 тысячных",
+          "textKk": "13 бүтін 547 мыңдық",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "13547 тысячных",
+          "textKk": "13547 мыңдық",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "13 целых 54 десятых 7 сотых",
+          "textKk": "13 бүтін 54 ондық 7 жүздік",
+          "correct": false
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p17_2"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Запишите в виде десятичной дроби частное $891:100$.",
+      "bodyKk": "$891:100$ бөліндісін ондық бөлшек түрінде жазыңыз.",
+      "explanationRu": "$891:100 = \\dfrac{891}{100} = 8\\dfrac{91}{100} = 8,91$.",
+      "explanationKk": "$891:100 = \\dfrac{891}{100} = 8\\dfrac{91}{100} = 8,91$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$0,891$",
+          "textKk": "$0,891$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$89,1$",
+          "textKk": "$89,1$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$8,91$",
+          "textKk": "$8,91$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$891$",
+          "textKk": "$891$",
+          "correct": false
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p18_1"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Какое из чисел равно $0,7$?",
+      "bodyKk": "Қай сан $0,7$-ге тең?",
+      "explanationRu": "Приписывание нулей справа не меняет значения: $0,7 = 0,70 = 0,700$.",
+      "explanationKk": "Оң жақтан нөлдер қосу мәнді өзгертпейді: $0,7 = 0,70 = 0,700$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$0,07$",
+          "textKk": "$0,07$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$0,70$",
+          "textKk": "$0,70$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$7,0$",
+          "textKk": "$7,0$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$0,007$",
+          "textKk": "$0,007$",
+          "correct": false
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p19_2"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Какая запись числа 7 в виде десятичной дроби верна?",
+      "bodyKk": "7 санының ондық бөлшек түріндегі қай жазбасы дұрыс?",
+      "explanationRu": "Любое натуральное число можно записать с запятой и нулями справа: $7 = 7,0 = 7,00$.",
+      "explanationKk": "Кез келген натурал санды үтір мен оң жақтағы нөлдермен жазуға болады: $7 = 7,0 = 7,00$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$0,7$",
+          "textKk": "$0,7$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$70,0$",
+          "textKk": "$70,0$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$7,00$",
+          "textKk": "$7,00$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$0,07$",
+          "textKk": "$0,07$",
+          "correct": false
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p19_2"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Какому числу равна сумма разрядных слагаемых $2 + 0,8 + 0,01 + 0,007$?",
+      "bodyKk": "$2 + 0,8 + 0,01 + 0,007$ разрядтық қосылғыштар қосындысы қай санға тең?",
+      "explanationRu": "Собираем цифры по разрядам: $2,817$.",
+      "explanationKk": "Цифрларды разряд бойынша жинаймыз: $2,817$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$2,87$",
+          "textKk": "$2,87$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$2,817$",
+          "textKk": "$2,817$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$2,807$",
+          "textKk": "$2,807$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$28,17$",
+          "textKk": "$28,17$",
+          "correct": false
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p19_1"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Какой разряд в 10 раз меньше разряда единиц?",
+      "bodyKk": "Қай разряд бірліктер разрядынан 10 есе кіші?",
+      "explanationRu": "Слева направо каждая следующая единица в 10 раз меньше: после единиц идут десятые.",
+      "explanationKk": "Солдан оңға қарай әр келесі бірлік 10 есе кіші: бірліктерден кейін ондықтар келеді.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Разряд десятых",
+          "textKk": "Ондықтар разряды",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Разряд сотых",
+          "textKk": "Жүздіктер разряды",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Разряд десятков",
+          "textKk": "Ондықтар разряды (бүтін бөлікте)",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Разряд тысячных",
+          "textKk": "Мыңдықтар разряды",
+          "correct": false
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p16_2"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Какое равенство записано неверно?",
+      "bodyKk": "Қай теңдік дұрыс емес?",
+      "explanationRu": "$4\\dfrac{9}{1000} = 4,009$, а не $4,09$ (нужны три знака после запятой).",
+      "explanationKk": "$4\\dfrac{9}{1000} = 4,009$, ал $4,09$ емес (үтірден кейін үш таңба керек).",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$2\\dfrac{7}{10} = 2,7$",
+          "textKk": "$2\\dfrac{7}{10} = 2,7$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$5\\dfrac{19}{100} = 5,19$",
+          "textKk": "$5\\dfrac{19}{100} = 5,19$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$\\dfrac{43}{100} = 0,43$",
+          "textKk": "$\\dfrac{43}{100} = 0,43$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$4\\dfrac{9}{1000} = 4,09$",
+          "textKk": "$4\\dfrac{9}{1000} = 4,09$",
+          "correct": true
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p18_1"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Выразите $5$ м $7$ см в метрах и запишите ответ десятичной дробью.",
+      "bodyKk": "$5$ м $7$ см-ді метрмен өрнектеп, жауабын ондық бөлшекпен жазыңыз.",
+      "explanationRu": "$7$ см $= \\dfrac{7}{100}$ м, значит $5\\dfrac{7}{100}$ м $= 5,07$ м.",
+      "explanationKk": "$7$ см $= \\dfrac{7}{100}$ м, демек $5\\dfrac{7}{100}$ м $= 5,07$ м.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$5,7$ м",
+          "textKk": "$5,7$ м",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$5,07$ м",
+          "textKk": "$5,07$ м",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$5,007$ м",
+          "textKk": "$5,007$ м",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$57$ м",
+          "textKk": "$57$ м",
+          "correct": false
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p18_1",
+        "PDF_p16_1"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Запишите десятичную дробь, в которой $5$ целых, $1$ десятая и $9$ тысячных.",
+      "bodyKk": "$5$ бүтіні, $1$ ондығы және $9$ мыңдығы бар ондық бөлшекті жазыңыз.",
+      "explanationRu": "Сотые отсутствуют → ставим 0: $5,109$.",
+      "explanationKk": "Жүздіктер жоқ → 0 қоямыз: $5,109$.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$5,19$",
+          "textKk": "$5,19$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$5,019$",
+          "textKk": "$5,019$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$5,109$",
+          "textKk": "$5,109$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$5,190$",
+          "textKk": "$5,190$",
+          "correct": false
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p16_2",
+        "PDF_p17_1"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Выберите все верные утверждения о разрядах десятичной дроби.",
+      "bodyKk": "Ондық бөлшек разрядтары туралы барлық дұрыс тұжырымдарды таңдаңыз.",
+      "explanationRu": "После запятой: 1-е — десятые, 2-е — сотые, 3-е — тысячные. Разрядная единица сотых — $0,01$, не $0,1$.",
+      "explanationKk": "Үтірден кейін: 1-ші — ондықтар, 2-ші — жүздіктер, 3-ші — мыңдықтар. Жүздіктер бірлігі — $0,01$, $0,1$ емес.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "На первом месте после запятой — разряд десятых",
+          "textKk": "Үтірден кейінгі бірінші орында — ондықтар разряды",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "На втором месте после запятой — разряд сотых",
+          "textKk": "Үтірден кейінгі екінші орында — жүздіктер разряды",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Разрядная единица сотых равна $0,1$",
+          "textKk": "Жүздіктердің разрядтық бірлігі $0,1$-ге тең",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "На третьем месте после запятой — разряд тысячных",
+          "textKk": "Үтірден кейінгі үшінші орында — мыңдықтар разряды",
+          "correct": true
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p16_2"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Выберите все варианты, где чтение соответствует записи числа.",
+      "bodyKk": "Оқу жазбаға сәйкес келетін барлық нұсқаларды таңдаңыз.",
+      "explanationRu": "Верно: $4,9$ — «4 целых 9 десятых»; $0,03$ — «0 целых 3 сотых»; $35,418$ — «35 целых 418 тысячных».",
+      "explanationKk": "Дұрыс: $4,9$ — «4 бүтін 9 ондық»; $0,03$ — «0 бүтін 3 жүздік»; $35,418$ — «35 бүтін 418 мыңдық».",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$4,9$ — «4 целых 9 десятых»",
+          "textKk": "$4,9$ — «4 бүтін 9 ондық»",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$0,03$ — «0 целых 3 сотых»",
+          "textKk": "$0,03$ — «0 бүтін 3 жүздік»",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$0,03$ — «0 целых 3 десятых»",
+          "textKk": "$0,03$ — «0 бүтін 3 ондық»",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$35,418$ — «35 целых 418 тысячных»",
+          "textKk": "$35,418$ — «35 бүтін 418 мыңдық»",
+          "correct": true
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p17_2"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Выберите все верные равенства.",
+      "bodyKk": "Барлық дұрыс теңдіктерді таңдаңыз.",
+      "explanationRu": "$5\\dfrac{7}{100} = 5,07$, а не $5,7$. Остальные равенства верны.",
+      "explanationKk": "$5\\dfrac{7}{100} = 5,07$, ал $5,7$ емес. Қалған теңдіктер дұрыс.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$2\\dfrac{7}{10} = 2,7$",
+          "textKk": "$2\\dfrac{7}{10} = 2,7$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$\\dfrac{43}{100} = 0,43$",
+          "textKk": "$\\dfrac{43}{100} = 0,43$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$5\\dfrac{7}{100} = 5,7$",
+          "textKk": "$5\\dfrac{7}{100} = 5,7$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$4\\dfrac{9}{1000} = 4,009$",
+          "textKk": "$4\\dfrac{9}{1000} = 4,009$",
+          "correct": true
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p18_1"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Выберите все записи, равные числу $0,7$.",
+      "bodyKk": "$0,7$ санына тең барлық жазбаларды таңдаңыз.",
+      "explanationRu": "Нули справа не меняют значения: $0,7 = 0,70 = 0,700$. Записи $0,07$ и $7,0$ — другие числа.",
+      "explanationKk": "Оң жақтағы нөлдер мәнді өзгертпейді: $0,7 = 0,70 = 0,700$. $0,07$ және $7,0$ — басқа сандар.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$0,70$",
+          "textKk": "$0,70$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$0,700$",
+          "textKk": "$0,700$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$0,07$",
+          "textKk": "$0,07$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$7,0$",
+          "textKk": "$7,0$",
+          "correct": false
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p19_2"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Выберите все верные разложения в сумму разрядных слагаемых.",
+      "bodyKk": "Разрядтық қосылғыштар қосындысына дұрыс жіктелгендердің барлығын таңдаңыз.",
+      "explanationRu": "В $5,7084$ сотых нет: $5 + 0,7 + 0,008 + 0,0004$, а не $0,08 + 0,004$.",
+      "explanationKk": "$5,7084$-те жүздік жоқ: $5 + 0,7 + 0,008 + 0,0004$, ал $0,08 + 0,004$ емес.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$2,817 = 2 + 0,8 + 0,01 + 0,007$",
+          "textKk": "$2,817 = 2 + 0,8 + 0,01 + 0,007$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$0,963 = 0,9 + 0,06 + 0,003$",
+          "textKk": "$0,963 = 0,9 + 0,06 + 0,003$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$5,7084 = 5 + 0,7 + 0,08 + 0,004$",
+          "textKk": "$5,7084 = 5 + 0,7 + 0,08 + 0,004$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$0,18 = 0,1 + 0,08$",
+          "textKk": "$0,18 = 0,1 + 0,08$",
+          "correct": true
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p19_1"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Выберите все верные записи чисел по составу разрядов.",
+      "bodyKk": "Разряд құрамы бойынша барлық дұрыс жазбаларды таңдаңыз.",
+      "explanationRu": "При отсутствии разряда ставят 0. «5 целых, 1 десятая, 9 тысячных» → $5,109$, не $5,19$.",
+      "explanationKk": "Разряд жоқ болса 0 қойылады. «5 бүтін, 1 ондық, 9 мыңдық» → $5,109$, $5,19$ емес.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "0 целых, 4 десятых, 5 сотых, 6 тысячных → $0,456$",
+          "textKk": "0 бүтін, 4 ондық, 5 жүздік, 6 мыңдық → $0,456$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "31 целая, 7 сотых, 8 тысячных, 3 десятитысячных → $31,0783$",
+          "textKk": "31 бүтін, 7 жүздік, 8 мыңдық, 3 он мыңдық → $31,0783$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "5 целых, 1 десятая, 9 тысячных → $5,19$",
+          "textKk": "5 бүтін, 1 ондық, 9 мыңдық → $5,19$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "6 единиц, 0 десятых, 0 сотых, 7 тысячных → $6,007$",
+          "textKk": "6 бірлік, 0 ондық, 0 жүздік, 7 мыңдық → $6,007$",
+          "correct": true
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p16_2",
+        "PDF_p17_1"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Выберите все верные выражения мер десятичной дробью.",
+      "bodyKk": "Шамаларды ондық бөлшекпен дұрыс өрнектегендердің барлығын таңдаңыз.",
+      "explanationRu": "$7$ см — сотые метра ($5,07$ м), не десятые. $5$ г — тысячные килограмма ($14,005$ кг).",
+      "explanationKk": "$7$ см — метрдің жүздігі ($5,07$ м), ондығы емес. $5$ г — килограммның мыңдығы ($14,005$ кг).",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$5$ м $8$ дм $= 5,8$ м",
+          "textKk": "$5$ м $8$ дм $= 5,8$ м",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$4$ м $31$ см $= 4,31$ м",
+          "textKk": "$4$ м $31$ см $= 4,31$ м",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$5$ м $7$ см $= 5,7$ м",
+          "textKk": "$5$ м $7$ см $= 5,7$ м",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$14$ кг $5$ г $= 14,005$ кг",
+          "textKk": "$14$ кг $5$ г $= 14,005$ кг",
+          "correct": true
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p18_1"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Выберите все верно восстановленные равенства.",
+      "bodyKk": "Дұрыс қалпына келтірілген барлық теңдіктерді таңдаңыз.",
+      "explanationRu": "$1\\dfrac{9}{100}=1,09$; $\\dfrac{719}{10000}=0,0719$; $5\\dfrac{81}{10000}=5,0081$. Знаменатель 1000 для $5,0081$ неверен.",
+      "explanationKk": "$1\\dfrac{9}{100}=1,09$; $\\dfrac{719}{10000}=0,0719$; $5\\dfrac{81}{10000}=5,0081$. $5,0081$ үшін бөлімі 1000 дұрыс емес.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$1\\dfrac{9}{100} = 1,09$",
+          "textKk": "$1\\dfrac{9}{100} = 1,09$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$\\dfrac{719}{10000} = 0,0719$",
+          "textKk": "$\\dfrac{719}{10000} = 0,0719$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$5\\dfrac{81}{10000} = 5,0081$",
+          "textKk": "$5\\dfrac{81}{10000} = 5,0081$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$5\\dfrac{81}{1000} = 5,0081$",
+          "textKk": "$5\\dfrac{81}{1000} = 5,0081$",
+          "correct": false
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p18_1"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Выберите все верные утверждения.",
+      "bodyKk": "Барлық дұрыс тұжырымдарды таңдаңыз.",
+      "explanationRu": "$0,03$ читают как «0 целых 3 сотых», а не «3 десятых». Остальные утверждения верны.",
+      "explanationKk": "$0,03$ «0 бүтін 3 жүздік» деп оқылады, «3 ондық» емес. Қалған тұжырымдар дұрыс.",
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$0,7 = 0,70$",
+          "textKk": "$0,7 = 0,70$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$4,9$ читают «4 целых 9 десятых»",
+          "textKk": "$4,9$ «4 бүтін 9 ондық» деп оқылады",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$\\dfrac{43}{100} = 0,43$",
+          "textKk": "$\\dfrac{43}{100} = 0,43$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$0,03$ читают «3 десятых»",
+          "textKk": "$0,03$ «3 ондық» деп оқылады",
+          "correct": false
+        }
+      ],
+      "sourceRuleIds": [
+        "PDF_p17_2",
+        "PDF_p18_1",
+        "PDF_p19_2"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "9,0007",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "bodyRu": "Запишите в виде десятичной дроби: $9\\dfrac{7}{10000} = [[1]]$.",
+      "bodyKk": "Ондық бөлшек түрінде жазыңыз: $9\\dfrac{7}{10000} = [[1]]$.",
+      "explanationRu": "Знаменатель 10000 — четыре знака; перед 7 три нуля: $9,0007$.",
+      "explanationKk": "Бөлімі 10000 — төрт таңба; 7-нің алдында үш нөл: $9,0007$.",
+      "options": [],
+      "sourceRuleIds": [
+        "PDF_p18_1"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "9,207",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "bodyRu": "Запишите десятичную дробь: девять целых двести семь тысячных. Ответ: $[[1]]$.",
+      "bodyKk": "Ондық бөлшекті жазыңыз: тоғыз бүтін екі жүз жеті мыңдық. Жауап: $[[1]]$.",
+      "explanationRu": "Целая часть 9, дробная 207 при трёх знаках (тысячные): $9,207$.",
+      "explanationKk": "Бүтін бөлігі 9, бөлшек бөлігі 207 үш таңбада (мыңдықтар): $9,207$.",
+      "options": [],
+      "sourceRuleIds": [
+        "PDF_p17_2",
+        "PDF_p18_1"
+      ]
+    },
+    {
+      "needsIllustration": false,
+      "illustration": null,
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "5,7084",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ],
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 16-23",
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "bodyRu": "Вычислите и запишите результат десятичной дробью: $5 + \\dfrac{7}{10} + \\dfrac{8}{1000} + \\dfrac{4}{10000} = [[1]]$.",
+      "bodyKk": "Есептеп, нәтижені ондық бөлшекпен жазыңыз: $5 + \\dfrac{7}{10} + \\dfrac{8}{1000} + \\dfrac{4}{10000} = [[1]]$.",
+      "explanationRu": "Сотые отсутствуют (0): $5 + 0,7 + 0,008 + 0,0004 = 5,7084$.",
+      "explanationKk": "Жүздіктер жоқ (0): $5 + 0,7 + 0,008 + 0,0004 = 5,7084$.",
+      "options": [],
+      "sourceRuleIds": [
+        "PDF_p19_1",
+        "PDF_p17_1"
+      ]
+    }
+  ]
+}

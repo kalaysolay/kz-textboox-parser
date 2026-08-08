@@ -1,0 +1,523 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-podmnozhestvo-20260808-0830",
+  "typeMixPlanned": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMixPlanned": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Узнавание определения подмножества",
+      "stemIdea": "Выбрать верное определение: множество B — подмножество A, если каждый элемент B принадлежит A — без диаграммы и без готового списка",
+      "trapIdeas": [
+        "Ученик перепутал направление: «каждый элемент A принадлежит B»",
+        "Ученик подменил ⊂ на ∈ («B — элемент A»)",
+        "Ученик требует, чтобы множества совпадали целиком"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p97_1"],
+      "sourceExampleRefs": ["p98#q1"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Чтение записи B ⊂ A и B ⊄ A",
+      "stemIdea": "Выбрать верный смысл готовой записи B ⊂ A (или отличить от B ⊄ A) — опора на ключевые факты урока, без перечисления элементов",
+      "trapIdeas": [
+        "Ученик читает B ⊂ A как «B и A равны»",
+        "Ученик путает ⊂ с ∈ («B принадлежит A»)",
+        "Ученик считает ⊄ тем же, что ⊂"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p97_1", "PDF_p101_1"],
+      "sourceExampleRefs": ["p99#1033"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Запись ⊂ для концептуальных множеств",
+      "stemIdea": "Среди пар множеств (роль/объект: скрипачи–музыканты, областные центры–города и т.п.; свежие пары, не копипаст трёх пунктов 1034 подряд) выбрать единственную верную запись со знаком ⊂",
+      "trapIdeas": [
+        "Ученик перевернул ⊂ (музыканты ⊂ скрипачи)",
+        "Ученик поставил знак равенства вместо ⊂",
+        "Ученик выбрал пару несвязанных множеств как ⊂"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p97_1"],
+      "sourceExampleRefs": ["p99#1034"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Проверка ⊂ по перечислению элементов",
+      "stemIdea": "Даны несколько конечных множеств перечислением и эталон F; выбрать единственное множество, которое является подмножеством F (структура 1035, другие числа; ловушка частичного пересечения)",
+      "trapIdeas": [
+        "Ученик принял частичное пересечение за ⊂",
+        "Ученик проверил один элемент и обобщил",
+        "Ученик перепутал ⊂ с «есть хотя бы один общий элемент»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p97_1"],
+      "sourceExampleRefs": ["p99#1035"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Пустое множество как подмножество любого",
+      "stemIdea": "Не перечисляя элементы конкретного F, выбрать верное утверждение: ∅ ⊂ F для любого множества F",
+      "trapIdeas": [
+        "Ученик считает, что ∅ ⊂ F только если F пустое",
+        "Ученик пишет ∅ ∈ F вместо ∅ ⊂ F",
+        "Ученик отвергает ∅ ⊂ F, потому что «в ∅ нет элементов»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p98_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Различение символов ⊂ и ∈",
+      "stemIdea": "Сравнить две ситуации: соотношение двух множеств vs принадлежность элемента множеству; выбрать пару символов (⊂/⊄ и ∈/∉), подходящую к обеим (структура 1046, другие множества)",
+      "trapIdeas": [
+        "Ученик ставит ∈ между двумя множествами",
+        "Ученик ставит ⊂ между элементом и множеством",
+        "Ученик путает ⊄ и ∉"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p97_1"],
+      "sourceExampleRefs": ["p100#1046"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Чтение соотношения ⊂ по nested Euler",
+      "stemIdea": "На рисунке большой круг содержит меньший (структура рис. 5.5 / K⊂L, другие метки и элементы); выбрать верную запись соотношения подмножества",
+      "trapIdeas": [
+        "Ученик перевернул ⊂ по размеру подписей",
+        "Ученик прочитал вложенность как равенство",
+        "Ученик ответил через ∈ элемента вместо ⊂ множеств"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Соотношение ⊂ читается по вложенным кругам Эйлера; без рисунка stem неполный",
+      "sourceRuleIds": ["PDF_p97_1"],
+      "sourceExampleRefs": ["p98#self"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Равенство множеств при разном порядке элементов",
+      "stemIdea": "Даны несколько записей в {}; выбрать единственную верную пару равных множеств (порядок не важен; структура 1037, другие буквы/числа)",
+      "trapIdeas": [
+        "Ученик считает разный порядок разными множествами",
+        "Ученик уравнял множества с общим элементом, но разным составом",
+        "Ученик принял за равенство одностороннее ⊂"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p98_1"],
+      "sourceExampleRefs": ["p99#1037"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Множество как подмножество самого себя",
+      "stemIdea": "Выбрать верный факт: всякое множество является подмножеством самого себя (F ⊂ F)",
+      "trapIdeas": [
+        "Ученик считает F ⊂ F ложным («подмножество — только часть»)",
+        "Ученик путает F ⊂ F с F ∈ F",
+        "Ученик допускает F ⊂ F только для пустого множества"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p98_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Число подмножеств 2ⁿ без полного перечисления",
+      "stemIdea": "Для конечного множества из n элементов (n=2 или 3; не дословный клон A={a,b,c} учебника) выбрать, сколько всего подмножеств, не выписывая список",
+      "trapIdeas": [
+        "Ученик ответил n или n−1 вместо 2ⁿ",
+        "Ученик забыл учесть ∅ и/или само множество",
+        "Ученик посчитал только одноэлементные подмножества"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p98_3"],
+      "sourceExampleRefs": ["p99#1038"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Концептуальный ⊂ без полного списка элементов",
+      "stemIdea": "По бытовому/математическому описанию (делители меньшего числа среди делителей большего; фигуры; живые множества — свежие объекты, не три примера стр. 98 подряд) выбрать верную запись ⊂",
+      "trapIdeas": [
+        "Ученик перевернул ⊂ по «большему» названию",
+        "Ученик выбрал равенство вместо ⊂",
+        "Ученик принял пересекающиеся, но не вложенные, множества за ⊂"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p97_1", "PDF_p101_1"],
+      "sourceExampleRefs": ["p98#ex"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Восстановление символа ⊂ / ⊄ / ∈ / ∉",
+      "stemIdea": "В коротких записях с пропуском □ (множество–множество и элемент–множество; структура 1046, другие данные) выбрать верный символ для каждого пропуска — один правильный вариант-комплект",
+      "trapIdeas": [
+        "Ученик везде ставит ⊂",
+        "Ученик путает ⊄ и ∉ на одном и том же пропуске",
+        "Ученик ставит ∈ между множествами"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p97_1"],
+      "sourceExampleRefs": ["p100#1046"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Восстановление множества по полному списку подмножеств",
+      "stemIdea": "Дан полный список подмножеств (включая ∅ и само множество); выбрать верное перечисление исходного D (структура 1043, другие элементы)",
+      "trapIdeas": [
+        "Ученик взял объединение только одноэлементных и забыл элемент",
+        "Ученик включил ∅ как элемент D",
+        "Ученик выписал все подмножества вместо D"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p98_3"],
+      "sourceExampleRefs": ["p100#1043"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Выбор диаграммы, изображающей подмножество",
+      "stemIdea": "Сравнить несколько схем кругов (вложенные vs пересекающиеся vs раздельные); выбрать ту, которая изображает B ⊂ A — без формальной проверки ∩/∪",
+      "trapIdeas": [
+        "Ученик выбрал пересекающиеся круги как «часть общая = подмножество»",
+        "Ученик выбрал равные по размеру круги как ⊂",
+        "Ученик перепутал, какой круг вложен в какой"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Нужно сравнить готовые диаграммы Эйлера/Венна; без рисунков условие неполное",
+      "sourceRuleIds": ["PDF_p97_1"],
+      "sourceExampleRefs": ["p97#fig5.4"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Перечисление множеств и ⊂ по nested Euler",
+      "stemIdea": "На рисунке большой круг A и меньший B с помеченными числами (структура 1041/рис. 5.7, другие числа); выбрать верные перечисления A, B и запись B ⊂ A",
+      "trapIdeas": [
+        "Ученик включил в B элементы только из A вне B",
+        "Ученик забыл элементы B при перечислении A",
+        "Ученик записал A ⊂ B по подписям"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Элементы A и B заданы только положением на nested Euler",
+      "sourceRuleIds": ["PDF_p97_1"],
+      "sourceExampleRefs": ["p100#1041"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Обоснование ⊂ по признаку на диаграмме",
+      "stemIdea": "На рисунке большой круг (класс фигур) содержит меньший (частный вид; структура 1036/рис. 5.6, другие пары признаков); выбрать верное объяснение, почему B — подмножество A",
+      "trapIdeas": [
+        "Ученик обосновал ⊂ тем, что круги пересекаются",
+        "Ученик сослался только на размер круга, без признака элементов",
+        "Ученик перевернул признак (A ⊂ B)"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Признаки множеств и вложенность читаются с рис. nested Euler",
+      "sourceRuleIds": ["PDF_p97_1"],
+      "sourceExampleRefs": ["p99#1036"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Выделение подмножества по свойству из носителя",
+      "stemIdea": "Из элементов данного A составить B — делители числа k (структура 1042, другие A и k); выбрать верное B и соотношение B ⊂ A",
+      "trapIdeas": [
+        "Ученик включил в B делители k, которых нет в A",
+        "Ученик выписал все делители k и забыл проверить принадлежность A",
+        "Ученик записал A ⊂ B"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p97_1"],
+      "sourceExampleRefs": ["p100#1042"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 5,
+      "skillFocus": "Цепочка трёх вложенных множеств по диаграмме",
+      "stemIdea": "На рисунке три вложенных круга с признаками (структура 1048*/рис. 5.8, другие остатки/кратные — не ∩/∪); восстановить верный порядок C ⊂ B ⊂ A",
+      "trapIdeas": [
+        "Ученик переставил звенья цепочки по подписям признаков",
+        "Ученик ответил двумя независимыми ⊂ без общей цепи",
+        "Ученик ввёл пересечение/объединение вместо ⊂"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Три вложенных круга — носитель условия; без рисунка цепочку не восстановить",
+      "sourceRuleIds": ["PDF_p97_1"],
+      "sourceExampleRefs": ["p101#1048"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Несколько верных утверждений по nested Euler",
+      "stemIdea": "На рисунке меньший круг B внутри A с помеченными элементами; отметить все верные утверждения: перечисления, B ⊂ A, кто вне B но в A (не подсказывать ответ подписью ⊂ на рисунке)",
+      "trapIdeas": [
+        "Ученик отметил утверждение с перевёрнутым ⊂",
+        "Ученик включил внешние к A точки в перечисление A",
+        "Ученик принял «есть общие элементы» за полный ⊂"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Все проверяемые факты опираются на размещение элементов на nested Euler",
+      "sourceRuleIds": ["PDF_p97_1"],
+      "sourceExampleRefs": ["p100#1041"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Несколько верных концептуальных ⊂",
+      "stemIdea": "Отметить все верные записи ⊂ среди концептуальных пар (структура 1034/1040: профессии, география, числа, фигуры — свежие пары, не клон списка учебника)",
+      "trapIdeas": [
+        "Ученик отметил перевёрнутые ⊂",
+        "Ученик отметил пару равных по смыслу множеств как единственный ⊂ и пропустил другие",
+        "Ученик отметил пересекающиеся, но не вложенные, классы"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p97_1", "PDF_p101_1"],
+      "sourceExampleRefs": ["p99#1034", "p100#1040"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Несколько верных чтений ⊂ / ⊄ / ∈ / ∉",
+      "stemIdea": "Даны готовые записи C ⊂ D, E ⊄ F, a ∈ B, b ∉ L (структура 1033, другие буквы); отметить все верно прочитанные/верно истолкованные",
+      "trapIdeas": [
+        "Ученик смешал чтение ⊂ с ∈",
+        "Ученик принял ⊄ за «множества равны»",
+        "Ученик отметил верным перевёрнутый смысл одной из записей"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p97_1"],
+      "sourceExampleRefs": ["p99#1033"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Несколько конечных множеств ⊂ F",
+      "stemIdea": "Даны кандидаты A,B,C,… и эталон F перечислением; отметить все множества, являющиеся подмножествами F (структура 1035, другие наборы; отсечь частичное пересечение)",
+      "trapIdeas": [
+        "Ученик отметил множество с одним лишним элементом",
+        "Ученик отметил только «самое маленькое» и пропустил другое верное ⊂",
+        "Ученик отметил множество, пересекающееся с F, но не ⊂ F"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p97_1"],
+      "sourceExampleRefs": ["p99#1035"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Несколько верных фактов о равенстве множеств",
+      "stemIdea": "Отметить все верные утверждения: взаимное ⊂ ⇒ равенство; порядок элементов в {} на равенство не влияет; отсечь ложные отождествления",
+      "trapIdeas": [
+        "Ученик отметил «разный порядок ⇒ разные множества»",
+        "Ученик отметил одностороннее ⊂ как достаточное для равенства",
+        "Ученик уравнял множества с общим элементом при разном составе"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p98_1"],
+      "sourceExampleRefs": ["p99#1037"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Несколько верных фактов о признаке и ⊂ на диаграмме",
+      "stemIdea": "На рисунке nested Euler с элементами и/или подписанными классами (структура 1040–1041, свежие числа/признаки); отметить все верные утверждения о признаке A/B и о B ⊂ A",
+      "trapIdeas": [
+        "Ученик отметил неверный признак по внешним элементам",
+        "Ученик отметил A ⊂ B",
+        "Ученик смешал признак множества с перечислением одного элемента"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Признак и соотношение ⊂ одновременно читаются с диаграммы",
+      "sourceRuleIds": ["PDF_p97_1"],
+      "sourceExampleRefs": ["p100#1041", "p100#1040"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Несколько верных следствий ∅ ⊂ F и F ⊂ F",
+      "stemIdea": "Без полного перечисления элементов отметить все верные утверждения о пустом множестве как подмножестве любого и о самоподмножестве (опора PDF_p98_2; не дублировать чистый «что такое ∅» из темы 5.1)",
+      "trapIdeas": [
+        "Ученик отметил ∅ ∈ F как верное следствие ⊂",
+        "Ученик отверг F ⊂ F",
+        "Ученик ограничил ∅ ⊂ F только конечными F"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p98_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Несколько размещений, согласованных с B ⊂ A",
+      "stemIdea": "На рисунке вложенные круги A⊃B; отметить все верные утверждения о принадлежности помеченных точек / зон, совместимые с B ⊂ A (только чтение вложенности, без ∩/∪ как объекта проверки)",
+      "trapIdeas": [
+        "Ученик отметил точку вне A как элемент B",
+        "Ученик потребовал, чтобы все элементы A лежали в B",
+        "Ученик описал зоны через ∩/∪ вместо ⊂/∈"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Проверяются зоны nested Euler; без рисунка утверждения о точках бессодержательны",
+      "sourceRuleIds": ["PDF_p97_1"],
+      "sourceExampleRefs": ["p97#fig5.4", "p100#1041"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Цепочки ⊂ для множеств кратных",
+      "stemIdea": "Даны множества кратных (структура 1049*: 5n/3n/6n/15n или сдвиг параметров); отметить все верные включения ⊂ между ними — без диаграммы ∩/∪",
+      "trapIdeas": [
+        "Ученик перевернул ⊂ у кратных (большее число ⊂ меньшего)",
+        "Ученик отметил A ⊂ C там, где только пересечение",
+        "Ученик пропустил одно из верных вложений (например только C ⊂ A, забыв C ⊂ B)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p97_1"],
+      "sourceExampleRefs": ["p101#1049"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Вычисление числа подмножеств 2ⁿ",
+      "stemIdea": "Для множества из n элементов (конкретное n≠3 или с иной записью множества, чем дословный пример {a,b,c}) вписать число всех подмножеств",
+      "trapIdeas": [
+        "Ученик вписал n вместо 2ⁿ",
+        "Ученик вписал 2n или n²",
+        "Ученик забыл ∅ и ответил 2ⁿ−1"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p98_3"],
+      "sourceExampleRefs": ["p100#1044", "p99#1038"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "skillFocus": "Запись соотношения ⊂ по nested Euler",
+      "stemIdea": "На рисунке большой круг и меньший с метками множеств (не клон чисел рис. 5.5/5.7); вписать соотношение вида B ⊂ A (короткая символьная запись)",
+      "trapIdeas": [
+        "Ученик вписал перевёрнутое A ⊂ B",
+        "Ученик вписал A = B",
+        "Ученик вписал принадлежность элемента вместо ⊂ множеств"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Какое множество внутри какого читается только с рисунка nested Euler",
+      "sourceRuleIds": ["PDF_p97_1"],
+      "sourceExampleRefs": ["p98#self", "p100#1041"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Восстановление множества по списку всех подмножеств",
+      "stemIdea": "Дан полный список подмножеств (структура 1043, другие элементы); вписать перечисление исходного множества D",
+      "trapIdeas": [
+        "Ученик вписал ∅ в состав D как элемент",
+        "Ученик выписал объединение не всех одноэлементных подмножеств",
+        "Ученик вписал сам список подмножеств вместо D"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p98_3"],
+      "sourceExampleRefs": ["p100#1043"],
+      "questionForm": "inverse"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "Count 30 сохранён (recommendedMaxCount=null; 5 primary verbatim PDF_p97_1, PDF_p98_1–3, PDF_p101_1 + плотные упр. 1033–1049*). TypeMix 18/9/3 и difficulty 2/4/15/6/3: SCQ q01–q18 (d1×2, d2×4, d3×9, d4×2, d5×1), MCQ q19–q27 (d3×5, d4×3, d5×1), FILL_IN q28–q30 (d3/d4/d5). В sourceRuleIds только role:primary; PDF_p97_0 (prerequisite) и R009 (reference) не ставились. Ядро 5.2: определение ⊂/⊄, концептуальный и списочный ⊂, равенство через взаимное ⊂, ∅⊂F и F⊂F, 2ⁿ, nested Euler, цепочки ⊂; формальные ∩/∪ не skillFocus. questionForm при count=30: лимит ≤2 нереален (G017) — recall×3, compute×5, predict×3, verify×4, restore×3, compare×4, word_problem×4, inverse×4. needsIllustration true у 9/30 (q07,q14,q15,q16,q18,q19,q24,q26,q29): stem неполон без nested Euler / сравнения диаграмм (set_euler/set_venn); остальные — текст/символы/2ⁿ. Anti-dup vs math-5-mnozhestvo-elementy-izobrazheniya-20260808-0800: другие stemIdea (⊂/равенство/2ⁿ/цепочки), не чистые ∈/∉/n(A)/∅ без ⊂. RC_* нет — unverifiedRuleIds []."
+}

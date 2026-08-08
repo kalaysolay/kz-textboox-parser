@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-perevod-des-i-obykn-drobi-20260808-0230",
+  "reviewedAt": "2026-08-08T03:10:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 30,
+    "fixed": 0,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "A",
+      "keyAnswer": "A — Любую десятичную дробь можно записать в виде обыкновенной дроби или смешанного числа",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: recall=3, compute=10, inverse=4, verify=5"
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "A",
+      "keyAnswer": "A — Знаменатель содержит лишь простые множители 2 или 5",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "A",
+      "keyAnswer": "A — \\frac{6}{10}",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "C",
+      "keyAnswer": "C — 1000",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "B",
+      "keyAnswer": "B — 3\\frac{5}{100}",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "A",
+      "keyAnswer": "A — Можно",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "B",
+      "keyAnswer": "B — \\frac{125}{1000}",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "B",
+      "keyAnswer": "B — 0,36",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "B",
+      "keyAnswer": "B — 2",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "B",
+      "keyAnswer": "B — 2,06",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "B",
+      "keyAnswer": "B — \\frac{5}{12}",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "B",
+      "keyAnswer": "B — \\frac{2}{5}",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "B",
+      "keyAnswer": "B — \\dfrac{1}{4} = 0,25",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "B",
+      "keyAnswer": "B — 0,625",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "B",
+      "keyAnswer": "B — \\dfrac{3}{4}",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "status": "accepted",
+      "solvedAnswer": "B",
+      "keyAnswer": "B — 4,32",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "C",
+      "keyAnswer": "C — 1000",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "B",
+      "keyAnswer": "B — 0,25",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A,C",
+      "keyAnswer": "A,C — \\frac{3}{8}; \\frac{5}{16}",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "B,D",
+      "keyAnswer": "B,D — \\frac{4}{9}; \\frac{5}{14}",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "A,C",
+      "keyAnswer": "A,C — 0,08 = \\dfrac{8}{100}; 0,08 = \\dfrac{2}{25}",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "A,C",
+      "keyAnswer": "A,C — \\dfrac{1}{5} = 0,2; \\dfrac{1}{25} = 0,04",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "A,C",
+      "keyAnswer": "A,C — 3\\dfrac{1}{20} = 3,05; 2\\dfrac{5}{8} = 2,625",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "A,C",
+      "keyAnswer": "A,C — \\dfrac{18}{90}; \\dfrac{21}{35}",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A,C",
+      "keyAnswer": "A,C — 0,06 = \\dfrac{3}{50}; 0,08 = \\dfrac{2}{25}",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "A,B",
+      "keyAnswer": "A,B — Мальчики составляют 0,4 всей группы; Девочки составляют 0,6 всей группы",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "A,C,D",
+      "keyAnswer": "A,C,D — Любую десятичную дробь можно записать обыкновенной или смешанным числом; \\dfrac{3}{25} = 0,12; Несократимую обыкновенную дробь можно записать конечной десятичной, если её знаменатель кратен только числам 2 и 5",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "3,05",
+      "keyAnswer": "[[1]] = 3,05",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "accepted",
+      "solvedAnswer": "0,9",
+      "keyAnswer": "[[1]] = 0,9",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "1/8",
+      "keyAnswer": "[[1]] = 1/8",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-umn-del-des-drobi-na-10-01-20260808-0600",
+  "reviewedAt": "2026-08-08T06:40:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 27,
+    "fixed": 3,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "A — вправо на столько цифр, сколько нулей в множителе после единицы",
+      "keyAnswer": "A — Вправо на столько цифр, сколько нулей в множителе после единицы",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×3, compute×5, predict×3, restore×4, verify×4, compare×4, word_problem×4, inverse×3. Стемы внутри формы разные; не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "C — влево на число нулей перед единицей; при нехватке цифр нули слева",
+      "keyAnswer": "C — Влево на столько цифр, сколько нулей перед единицей в множителе; при нехватке цифр нули приписывают слева",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "57,93",
+      "keyAnswer": "D — $57,93$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "Одинаковая оболочка «Вычисли: a · / : b» (q03/q04/q07/q08/q28); при count=30 — G017 best-effort, слот не отклоняем (числа и skillFocus разные: ×10, :10, ×0,001, :0,01, ×1000)."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "8,43",
+      "keyAnswer": "A — $8,43$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "влево на 2 цифры",
+      "keyAnswer": "B — Влево на $2$ цифры",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "100",
+      "keyAnswer": "C — $100$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "0,0065",
+      "keyAnswer": "A — $0,0065$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "467",
+      "keyAnswer": "D — $467$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "влево на 1 цифру (право 2 − лево 3)",
+      "keyAnswer": "B — Влево на $1$ цифру",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "fixed",
+      "solvedAnswer": "6,42 : 0,1 = 64,2",
+      "keyAnswer": "C — $6,42 : 0,1 = 64,2$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": "Уникализирован stem (тема 4.9 / сдвиг при :0,1 ≡ ·10); устранение duplicate_body с content/runs/math-5-perevod-des-i-obykn-drobi-20260808-0230/05-questions.final.json#q13. Опции и ключ без изменений."
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "0,01",
+      "keyAnswer": "A — $0,01$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "5,67 · 10 = 5,67 : 0,1",
+      "keyAnswer": "D — $5,67 \\cdot 10 = 5,67 : 0,1$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "364 ц",
+      "keyAnswer": "B — $364$ ц",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "сдвиг вправо вместо влево; верно 4,86",
+      "keyAnswer": "C — Запятую сдвинул вправо вместо влево; верный ответ $4,86$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "4,5 : 0,1 больше",
+      "keyAnswer": "A — $4,5 : 0,1$ больше",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "status": "accepted",
+      "solvedAnswer": "7,54 кг",
+      "keyAnswer": "D — $7,54$ кг",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "0,583",
+      "keyAnswer": "B — $0,583$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "4,8 (99x = 475,2)",
+      "keyAnswer": "A — $4,8$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A, C, D",
+      "keyAnswer": "A, C, D — ·10ⁿ вправо; :0,01 вправо на 2; :100 влево на 2",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "A, B — ·0,01 и :100",
+      "keyAnswer": "A, B — $9,648 \\cdot 0,01$; $9,648 : 100$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "A, C, D",
+      "keyAnswer": "A, C, D — $45,6:10=4,56$; $18,3\\cdot0,1=1,83$; $72:100=0,72$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "A, C, D",
+      "keyAnswer": "A, C, D — □=100; □=0,1; □=10",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "A, C",
+      "keyAnswer": "A, C — a·10≡a:0,1; a·0,01≡a:100",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "A, B, D (C даёт 0,48 ≠ 48)",
+      "keyAnswer": "A, B, D — $3,6:100·1000=36$; $0,48·100:10=4,8$; $5,2:10·100=52$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A, B",
+      "keyAnswer": "A, B — следующее $0,4$ и $0,642$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "A, C, D",
+      "keyAnswer": "A, C, D — 3500; 800000; 2150000",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "A, C, D",
+      "keyAnswer": "A, C, D — ·10; :0,001; увеличить в 1000 раз",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "7850",
+      "keyAnswer": "[[1]] = 7850",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "fixed",
+      "solvedAnswer": "36,8",
+      "keyAnswer": "[[1]] = 36,8",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": "KK: «үкейтті» → «үлкейтті» в bodyKk."
+    },
+    {
+      "localId": "q30",
+      "status": "fixed",
+      "solvedAnswer": "0,735",
+      "keyAnswer": "[[1]] = 0,735",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": "KK: «үкейтті» → «үлкейтті» в bodyKk."
+    }
+  ],
+  "duplicates": [
+    {
+      "localId": "q10",
+      "conflictsWith": "content/runs/math-5-perevod-des-i-obykn-drobi-20260808-0230/05-questions.final.json#q13",
+      "normalizedBody": "какое равенство верно"
+    }
+  ],
+  "verdict": "ready_for_import"
+}

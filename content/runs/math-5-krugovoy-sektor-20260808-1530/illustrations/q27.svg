@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="420" viewBox="0 0 500 420">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <line x1="250" y1="250" x2="427.26539554219744" y2="218.74332801995254" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="250" y1="250" x2="377.27922061357856" y2="122.72077938642146" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="250" y1="250" x2="218.74332801995254" y2="72.73460445780256" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="250" cy="250" r="3.5" fill="#1a1a1a"/>
+  <path d="M 299.2403876506104 241.3175911166535 A 50 50 0 0 0 285.3553390593274 214.64466094067262" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="310.3167366561191" y="218.60109430001768" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="middle">35°</text>
+  <path d="M 285.3553390593274 214.64466094067262 A 50 50 0 0 0 241.3175911166535 200.7596123493896" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="270.4479943662906" y="185.14724734912056" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="middle">55°</text>
+  <path d="M 427.26539554219744 218.74332801995254 A 180 180 0 0 0 377.27922061357856 122.72077938642146" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <path d="M 377.27922061357856 122.72077938642146 A 180 180 0 0 0 218.74332801995254 72.73460445780256" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <path d="M 218.74332801995254 72.73460445780256 A 180 180 0 1 0 427.26539554219744 218.74332801995263" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="441.0527040843683" y="216.3122535326155" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">M</text>
+  <text x="387.1787155501902" y="112.82128444980978" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">P</text>
+  <text x="216.31225353261553" y="58.947295915631656" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">R</text>
+  <text x="246" y="272" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">O</text>
+</svg>

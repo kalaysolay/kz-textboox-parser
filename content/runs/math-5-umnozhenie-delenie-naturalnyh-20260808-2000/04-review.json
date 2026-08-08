@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-umnozhenie-delenie-naturalnyh-20260808-2000",
+  "reviewedAt": "2026-08-08T21:00:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 29,
+    "fixed": 1,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "B — множителями",
+      "keyAnswer": "B — множителями",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×6, predict×2, compute×7, restore×2, verify×6, inverse×2, compare×2, word_problem×3. Стемы внутри формы разные; слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "fixed",
+      "solvedAnswer": "B — делитель",
+      "keyAnswer": "B — делитель",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "duplicate_body",
+          "severity": "blocker",
+          "message": "Черновик совпал с C4#q02 после нормализации (оператор съедался). Переписан stem на пример 54:18=3."
+        }
+      ],
+      "fixApplied": "Stem → «В примере 54:18=3 число 18 называют…» (делитель); антидубль vs C4."
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "B — сумма b слагаемых, равных a",
+      "keyAnswer": "B — найти сумму $b$ слагаемых, равных $a$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "B — по произведению и одному множителю найти другой",
+      "keyAnswer": "B — действие, которым по значению произведения и одному множителю находят другой множитель",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "C — нет, на 0 делить нельзя",
+      "keyAnswer": "C — нет, на $0$ делить нельзя",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "B — хотя бы один множитель = 0",
+      "keyAnswer": "B — если хотя бы один множитель равен $0$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "B — 40 (8·5)",
+      "keyAnswer": "B — 40",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "C — 5",
+      "keyAnswer": "C — 5",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "B — 39600",
+      "keyAnswer": "B — 39600",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "C — 303",
+      "keyAnswer": "C — 303",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "C — 120:30=4",
+      "keyAnswer": "C — $120 : 30 = 4$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "B — 12",
+      "keyAnswer": "B — 12",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "C — 12·29=348",
+      "keyAnswer": "C — $12 \\cdot 29 = 348$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "C — 6",
+      "keyAnswer": "C — 6",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "B — 16",
+      "keyAnswer": "B — 16",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "status": "accepted",
+      "solvedAnswer": "B — 2",
+      "keyAnswer": "B — 2",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "C — c·b=a",
+      "keyAnswer": "C — $c \\cdot b = a$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "C — 4",
+      "keyAnswer": "C — 4",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A,C",
+      "keyAnswer": "A — $7 + 7 + 7 + 7 + 7 = 7 \\cdot 5$; C — $4 + 4 + 4 = 4 \\cdot 3$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "A,B,D",
+      "keyAnswer": "A — $54$ — делимое; B — $18$ — делитель; D — $3$ — значение частного",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "A,B,D",
+      "keyAnswer": "A — $17 \\cdot 0 = 0$; B — $0 \\cdot 25 = 0$; D — $0 \\cdot 0 = 0$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "A,B,D",
+      "keyAnswer": "A — $120 : 30$; B — $20 : 5$; D — $180 : 45$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "A,B,D",
+      "keyAnswer": "A — $12 \\cdot 29 = 348$; B — $348 : 12 = 29$; D — $29 \\cdot 12 = 348$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "A,C,D",
+      "keyAnswer": "A — $7676 : 404 = 19$; C — $4242 : 202 = 21$; D — $9090 : 606 = 15$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A,B,C",
+      "keyAnswer": "A — За одно яблоко дают $15$ минут; B — За одну конфету дают $5$ минут; C — Итого Ербол получит $25$ минут",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "A,C",
+      "keyAnswer": "A — $(x \\cdot 2) : y = 20$; C — $x : (y \\cdot 2) = 5$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "A,B",
+      "keyAnswer": "A — За час оба крана дают $155\\ \\text{м}^3$; B — Бассейн наполнится за $4$ часа",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "[[1]]=202",
+      "keyAnswer": "[[1]]=202",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "accepted",
+      "solvedAnswer": "[[1]]=21",
+      "keyAnswer": "[[1]]=21",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "[[1]]=3",
+      "keyAnswer": "[[1]]=3",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

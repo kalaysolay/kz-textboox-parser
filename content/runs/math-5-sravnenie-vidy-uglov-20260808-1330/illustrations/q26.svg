@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="520" viewBox="0 0 720 520">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <line x1="160" y1="180" x2="285.57035741757886" y2="146.35352413667232" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="160" y1="180" x2="225" y2="67.41669750802298" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="160" cy="180" r="3.5" fill="#1a1a1a"/>
+  <path d="M 198.63703305156272 169.64723819589918 A 40 40 0 0 0 180 145.35898384862247" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="206.01449373689164" y="144.6918371174942" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="middle">45°</text>
+  <text x="160" y="55" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" dominant-baseline="middle">1</text>
+  <line x1="520" y1="180" x2="645.5703574175789" y2="146.35352413667232" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="520" y1="180" x2="542.574263096701" y2="51.97499210841295" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="520" cy="180" r="3.5" fill="#1a1a1a"/>
+  <path d="M 554.7733297464065 170.68251437630926 A 36 36 0 0 0 526.2513343960095 144.54692089156052" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <path d="M 566.3644396618753 167.576685835079 A 48 48 0 0 0 528.3351125280127 132.72922785541402" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="520" y="55" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" dominant-baseline="middle">2</text>
+  <line x1="160" y1="430" x2="285.57035741757886" y2="396.3535241366723" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="160" y1="430" x2="225" y2="317.416697508023" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="160" cy="430" r="3.5" fill="#1a1a1a"/>
+  <path d="M 198.63703305156272 419.64723819589915 A 40 40 0 0 0 180 395.3589838486225" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="160" y="305" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" dominant-baseline="middle">3</text>
+  <line x1="520" y1="430" x2="645.5703574175789" y2="396.3535241366723" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="520" y1="430" x2="542.574263096701" y2="301.97499210841295" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="520" cy="430" r="3.5" fill="#1a1a1a"/>
+  <path d="M 554.7733297464065 420.68251437630926 A 36 36 0 0 0 526.2513343960095 394.5469208915605" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <path d="M 566.3644396618753 417.576685835079 A 48 48 0 0 0 528.3351125280127 382.729227855414" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="520" y="305" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" dominant-baseline="middle">4</text>
+</svg>

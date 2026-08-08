@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "illustrator-20260805",
+  "createdAt": "2026-08-05T00:10:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "Координатный луч. Изображение натуральных чисел и числа нуль на координатном луче",
+  "topicKk": "Координаталық сәуле. Натурал сандарды және нөл санын координаталық сәулеге салу",
+  "topicSlug": "koordinatnyy-luch-illustrator-probe",
+  "topicCode": "1.2",
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 4,
+  "typeMix": { "SCQ": 3, "MCQ": 0, "FILL_IN": 1 },
+  "difficultyMix": { "1": 1, "2": 2, "3": 1 },
+  "illustrationPolicy": "visual-topics",
+  "illustrationFor": [],
+  "parsedTextbookPath": "Математика/parsed/math_aldamuratova_5grade_part1_parsed_v2.json",
+  "methodistInstruction": "Probe illustrator only; PNG optional.",
+  "languageMode": "BOTH"
+}

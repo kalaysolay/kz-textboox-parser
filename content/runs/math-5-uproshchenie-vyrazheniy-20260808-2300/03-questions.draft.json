@@ -1,0 +1,669 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-uproshchenie-vyrazheniy-20260808-2300",
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "math-5-uproshchenie-vyrazheniy-20260808-2300",
+    "generatedAt": "2026-08-08T19:20:00+05:00",
+    "subjectTitleRu": "Математика",
+    "subjectTitleKk": "Математика",
+    "gradeNo": 5,
+    "topicCode": "1.9",
+    "topicTitleRu": "Упрощение выражений",
+    "topicTitleKk": "Өрнектерді ықшамдау",
+    "topicSlug": "uproshchenie-vyrazheniy",
+    "atomicSkillTitleRu": null,
+    "textbookRef": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+    "illustrationPolicy": "visual-topics",
+    "sourceReliability": "verbatim"
+  },
+  "questions": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "bodyRu": "Какое утверждение верно описывает упрощение выражения?",
+      "bodyKk": "Өрнекті ықшамдауды дұрыс сипаттайтын қай тұжырым?",
+      "explanationRu": "При упрощении выражение заменяют равным ему, но с меньшим числом действий. Значение при этом не меняется.",
+      "explanationKk": "Ықшамдауда өрнек оған тең, бірақ амалдар саны азырақ өрнекпен ауыстырылады. Мәні өзгермейді.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Замена равным выражением с меньшим числом действий",
+          "textKk": "Амалдар саны азырақ тең өрнекпен ауыстыру",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Любая запись, в которой есть буквы",
+          "textKk": "Әріптері бар кез келген жазба",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Замена выражения другим с другим значением",
+          "textKk": "Өрнекті мәні басқа өрнекпен ауыстыру",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Только подстановка числа вместо буквы без сокращения действий",
+          "textKk": "Тек әріптің орнына сан қою, амалдарды қысқартпай",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p43_1"]
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "bodyRu": "Что значит «вынести общий множитель за скобки» при упрощении суммы или разности?",
+      "bodyKk": "Қосындыны немесе айырманы ықшамдауда «ортақ көбейткішті жақшаның сыртына шығару» нені білдіреді?",
+      "explanationRu": "Сумму или разность вида $ac+bc$ записывают как произведение $(a+b)c$: общий множитель выносят за скобки, действий становится меньше.",
+      "explanationKk": "$ac+bc$ түріндегі қосындыны немесе айырманы $(a+b)c$ көбейтіндісі түрінде жазады: ортақ көбейткіш жақша сыртына шығады, амалдар азаяды.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Назвать распределительное свойство, не упрощая выражение",
+          "textKk": "Өрнекті ықшамдамай, үлестірімділік қасиетін атау",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Заменить сумму или разность произведением с общим множителем вне скобок",
+          "textKk": "Қосындыны немесе айырманы ортақ көбейткіші жақша сыртындағы көбейтіндімен ауыстыру",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Изменить значение выражения",
+          "textKk": "Өрнектің мәнін өзгерту",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Вынести за скобки можно только число, но не букву",
+          "textKk": "Жақша сыртына тек санды шығаруға болады, әріпті емес",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p44_3"]
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Не вычисляя заново: какая запись — упрощённый вид суммы $9+a+14$?",
+      "bodyKk": "Қайта есептемей: қай жазба $9+a+14$ қосындысының ықшамдалған түрі?",
+      "explanationRu": "Числовые слагаемые группируют: $9+14=23$, поэтому упрощённый вид — $23+a$ (меньше действий).",
+      "explanationKk": "Сандық қосылғыштар топталады: $9+14=23$, сондықтан ықшамдалған түрі — $23+a$ (амалдар азырақ).",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$9+a+14$", "textKk": "$9+a+14$", "correct": false },
+        { "label": "B", "textRu": "$9+14a$", "textKk": "$9+14a$", "correct": false },
+        { "label": "C", "textRu": "$23+a$", "textKk": "$23+a$", "correct": true },
+        { "label": "D", "textRu": "$a+9+14$", "textKk": "$a+9+14$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p47_1"]
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Упрости сумму: $13+x+7$.",
+      "bodyKk": "Қосындыны ықшамда: $13+x+7$.",
+      "explanationRu": "Числовые слагаемые: $13+7=20$. Упрощённо: $20+x$.",
+      "explanationKk": "Сандық қосылғыштар: $13+7=20$. Ықшамдалған түрі: $20+x$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$13x+7$", "textKk": "$13x+7$", "correct": false },
+        { "label": "B", "textRu": "$20x$", "textKk": "$20x$", "correct": false },
+        { "label": "C", "textRu": "$13+x+7$", "textKk": "$13+x+7$", "correct": false },
+        { "label": "D", "textRu": "$20+x$", "textKk": "$20+x$", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p43_2"]
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Упрости произведение: $5\\cdot y\\cdot 8$.",
+      "bodyKk": "Көбейтіндіні ықшамда: $5\\cdot y\\cdot 8$.",
+      "explanationRu": "Числовые множители: $5\\cdot 8=40$. Упрощённо: $40y$.",
+      "explanationKk": "Сандық көбейткіштер: $5\\cdot 8=40$. Ықшамдалған түрі: $40y$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$40y$", "textKk": "$40y$", "correct": true },
+        { "label": "B", "textRu": "$13y$", "textKk": "$13y$", "correct": false },
+        { "label": "C", "textRu": "$40$", "textKk": "$40$", "correct": false },
+        { "label": "D", "textRu": "$5+y+8$", "textKk": "$5+y+8$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p44_1"]
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Не перемножая полностью: в каком порядке запишут буквы после упрощения произведения $2c\\cdot 5a\\cdot 3b$?",
+      "bodyKk": "Толық көбейтпей: $2c\\cdot 5a\\cdot 3b$ көбейтіндісін ықшамдағаннан кейін әріптер қандай ретпен жазылады?",
+      "explanationRu": "Различные буквенные множители пишут в алфавитном порядке: $a$, $b$, $c$ → $abc$.",
+      "explanationKk": "Әртүрлі әріпті көбейткіштер әліпби ретімен жазылады: $a$, $b$, $c$ → $abc$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$cab$", "textKk": "$cab$", "correct": false },
+        { "label": "B", "textRu": "$abc$", "textKk": "$abc$", "correct": true },
+        { "label": "C", "textRu": "$cba$", "textKk": "$cba$", "correct": false },
+        { "label": "D", "textRu": "$bac$", "textKk": "$bac$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p44_2"]
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Упрости сумму: $5y+9y$.",
+      "bodyKk": "Қосындыны ықшамда: $5y+9y$.",
+      "explanationRu": "Общий множитель $y$: $5y+9y=(5+9)y=14y$.",
+      "explanationKk": "Ортақ көбейткіш $y$: $5y+9y=(5+9)y=14y$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$45y$", "textKk": "$45y$", "correct": false },
+        { "label": "B", "textRu": "$5y+9$", "textKk": "$5y+9$", "correct": false },
+        { "label": "C", "textRu": "$14y$", "textKk": "$14y$", "correct": true },
+        { "label": "D", "textRu": "$14$", "textKk": "$14$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p44_3"]
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Упрости разность: $9y-4y$.",
+      "bodyKk": "Айырманы ықшамда: $9y-4y$.",
+      "explanationRu": "Общий множитель $y$: $9y-4y=(9-4)y=5y$.",
+      "explanationKk": "Ортақ көбейткіш $y$: $9y-4y=(9-4)y=5y$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$5y$", "textKk": "$5y$", "correct": true },
+        { "label": "B", "textRu": "$13y$", "textKk": "$13y$", "correct": false },
+        { "label": "C", "textRu": "$5$", "textKk": "$5$", "correct": false },
+        { "label": "D", "textRu": "$9y-4$", "textKk": "$9y-4$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p44_3"]
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Какое число пропущено: $9+a+14=(9+\\square)+a=\\ldots$?",
+      "bodyKk": "Қандай сан жіберілген: $9+a+14=(9+\\square)+a=\\ldots$?",
+      "explanationRu": "В скобки группируют оба числовых слагаемых: рядом с $9$ ставят $14$.",
+      "explanationKk": "Жақшаға екі сандық қосылғыш топталады: $9$-дың қасына $14$ қойылады.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$23$", "textKk": "$23$", "correct": false },
+        { "label": "B", "textRu": "$a$", "textKk": "$a$", "correct": false },
+        { "label": "C", "textRu": "$9$", "textKk": "$9$", "correct": false },
+        { "label": "D", "textRu": "$14$", "textKk": "$14$", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p43_2"]
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "В каком равенстве упрощение суммы выполнено неверно?",
+      "bodyKk": "Қай теңдікте қосындыны ықшамдау дұрыс емес?",
+      "explanationRu": "В $2+7a+8=17a$ числа сложили с буквой — это ошибка. Верно: $2+7a+8=10+7a$.",
+      "explanationKk": "$2+7a+8=17a$ жазбасында сандарды әріппен қосып қойған — қате. Дұрысы: $2+7a+8=10+7a$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$(9+a)+11=20+a$", "textKk": "$(9+a)+11=20+a$", "correct": false },
+        { "label": "B", "textRu": "$2+7a+8=17a$", "textKk": "$2+7a+8=17a$", "correct": true },
+        { "label": "C", "textRu": "$13+x+7=20+x$", "textKk": "$13+x+7=20+x$", "correct": false },
+        { "label": "D", "textRu": "$(18+x)+12=30+x$", "textKk": "$(18+x)+12=30+x$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p43_2"]
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Какое упрощение произведения $8b\\cdot 3$ верно и короче по числу действий?",
+      "bodyKk": "$8b\\cdot 3$ көбейтіндісінің қай ықшамдауы дұрыс және амалдар саны бойынша қысқарақ?",
+      "explanationRu": "Числовые множители: $8\\cdot 3=24$. Верно и короче: $24b$.",
+      "explanationKk": "Сандық көбейткіштер: $8\\cdot 3=24$. Дұрыс әрі қысқа: $24b$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$8\\cdot 3\\cdot b$", "textKk": "$8\\cdot 3\\cdot b$", "correct": false },
+        { "label": "B", "textRu": "$11b$", "textKk": "$11b$", "correct": false },
+        { "label": "C", "textRu": "$24$", "textKk": "$24$", "correct": false },
+        { "label": "D", "textRu": "$24b$", "textKk": "$24b$", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p44_1"]
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Упрости произведение: $2p\\cdot 5m\\cdot 3n$.",
+      "bodyKk": "Көбейтіндіні ықшамда: $2p\\cdot 5m\\cdot 3n$.",
+      "explanationRu": "Числа: $2\\cdot 5\\cdot 3=30$. Буквы по алфавиту: $mnp$. Ответ: $30mnp$.",
+      "explanationKk": "Сандар: $2\\cdot 5\\cdot 3=30$. Әріптер әліпби бойынша: $mnp$. Жауап: $30mnp$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$10mnp$", "textKk": "$10mnp$", "correct": false },
+        { "label": "B", "textRu": "$30pmn$", "textKk": "$30pmn$", "correct": false },
+        { "label": "C", "textRu": "$30mnp$", "textKk": "$30mnp$", "correct": true },
+        { "label": "D", "textRu": "$30mn$", "textKk": "$30mn$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p44_1", "PDF_p44_2"]
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Какое число пропущено: $7x+8x=(\\square+8)x=15x$?",
+      "bodyKk": "Қандай сан жіберілген: $7x+8x=(\\square+8)x=15x$?",
+      "explanationRu": "При вынесении $x$ в скобках складывают коэффициенты: первый коэффициент — $7$.",
+      "explanationKk": "$x$-ті шығарғанда жақшада коэффициенттер қосылады: бірінші коэффициент — $7$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$7$", "textKk": "$7$", "correct": true },
+        { "label": "B", "textRu": "$15$", "textKk": "$15$", "correct": false },
+        { "label": "C", "textRu": "$56$", "textKk": "$56$", "correct": false },
+        { "label": "D", "textRu": "$8$", "textKk": "$8$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p44_3"]
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Составили $3$ букета из роз и $5$ букетов из гвоздик; в каждом по $a$ цветков. Сколько всего цветков после упрощения?",
+      "bodyKk": "$3$ раушан гүл шоғы мен $5$ қалампыр шоғы жасалды; әрқайсысында $a$ гүл. Ықшамдағаннан кейін барлығы қанша гүл?",
+      "explanationRu": "Всего: $3a+5a=(3+5)a=8a$.",
+      "explanationKk": "Барлығы: $3a+5a=(3+5)a=8a$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$8$", "textKk": "$8$", "correct": false },
+        { "label": "B", "textRu": "$15a$", "textKk": "$15a$", "correct": false },
+        { "label": "C", "textRu": "$3a+5a$", "textKk": "$3a+5a$", "correct": false },
+        { "label": "D", "textRu": "$8a$", "textKk": "$8a$", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p44_3"]
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Какая запись упрощённого произведения содержит различные буквы в верном алфавитном порядке?",
+      "bodyKk": "Ықшамдалған көбейтіндінің қай жазбасында әртүрлі әріптер дұрыс әліпби ретімен тұр?",
+      "explanationRu": "После упрощения $3n\\cdot 4k\\cdot 6m$ буквы пишут как $kmn$: $72kmn$.",
+      "explanationKk": "$3n\\cdot 4k\\cdot 6m$ ықшамдалғанда әріптер $kmn$ болады: $72kmn$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$72nmk$", "textKk": "$72nmk$", "correct": false },
+        { "label": "B", "textRu": "$3n\\cdot 4k\\cdot 6m$", "textKk": "$3n\\cdot 4k\\cdot 6m$", "correct": false },
+        { "label": "C", "textRu": "$72kmn$", "textKk": "$72kmn$", "correct": true },
+        { "label": "D", "textRu": "$72km$", "textKk": "$72km$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p44_2"]
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Упрости сумму: $4x+2x+7x$.",
+      "bodyKk": "Қосындыны ықшамда: $4x+2x+7x$.",
+      "explanationRu": "$4x+2x+7x=(4+2+7)x=13x$.",
+      "explanationKk": "$4x+2x+7x=(4+2+7)x=13x$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$6x$", "textKk": "$6x$", "correct": false },
+        { "label": "B", "textRu": "$13x$", "textKk": "$13x$", "correct": true },
+        { "label": "C", "textRu": "$56x$", "textKk": "$56x$", "correct": false },
+        { "label": "D", "textRu": "$13$", "textKk": "$13$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p45_1"]
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Какая сумма подобных слагаемых после упрощения даёт $15x$?",
+      "bodyKk": "Қай ұқсас қосылғыштар қосындысы ықшамдалғаннан кейін $15x$ береді?",
+      "explanationRu": "$7x+8x=(7+8)x=15x$.",
+      "explanationKk": "$7x+8x=(7+8)x=15x$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$7x+8x$", "textKk": "$7x+8x$", "correct": true },
+        { "label": "B", "textRu": "$3x\\cdot 5$", "textKk": "$3x\\cdot 5$", "correct": false },
+        { "label": "C", "textRu": "$15+x$", "textKk": "$15+x$", "correct": false },
+        { "label": "D", "textRu": "$10x-5x$", "textKk": "$10x-5x$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p44_3"]
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 4,
+      "bodyRu": "Какие две записи равны как разные способы упрощения одной суммы?",
+      "bodyKk": "Бір қосындыны ықшамдаудың әртүрлі тәсілдері ретінде қай екі жазба тең?",
+      "explanationRu": "$(9+a)+11$ и $20+a$ — одна и та же сумма после группировки чисел $9+11$.",
+      "explanationKk": "$(9+a)+11$ пен $20+a$ — $9+11$ сандарын топтағаннан кейінгі бір қосынды.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$(9+a)+11$ и $20x$", "textKk": "$(9+a)+11$ және $20x$", "correct": false },
+        { "label": "B", "textRu": "$13+x+7$ и $20\\cdot x$", "textKk": "$13+x+7$ және $20\\cdot x$", "correct": false },
+        { "label": "C", "textRu": "$(9+a)+11$ и $20+a$", "textKk": "$(9+a)+11$ және $20+a$", "correct": true },
+        { "label": "D", "textRu": "$8a\\cdot 7$ и $15+a$", "textKk": "$8a\\cdot 7$ және $15+a$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p43_2"]
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Выбери все равенства, в которых сумма упрощена верно.",
+      "bodyKk": "Қосынды дұрыс ықшамдалған барлық теңдіктерді таңда.",
+      "explanationRu": "Верно группировать числа: $(9+a)+11=20+a$, $13+x+7=20+x$, $(16+b)+4=20+b$. Равенство $2+7a+8=17a$ неверно.",
+      "explanationKk": "Сандарды дұрыс топтау: $(9+a)+11=20+a$, $13+x+7=20+x$, $(16+b)+4=20+b$. $2+7a+8=17a$ теңдігі қате.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$(9+a)+11=20+a$", "textKk": "$(9+a)+11=20+a$", "correct": true },
+        { "label": "B", "textRu": "$13+x+7=20+x$", "textKk": "$13+x+7=20+x$", "correct": true },
+        { "label": "C", "textRu": "$2+7a+8=17a$", "textKk": "$2+7a+8=17a$", "correct": false },
+        { "label": "D", "textRu": "$(16+b)+4=20+b$", "textKk": "$(16+b)+4=20+b$", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p43_2"]
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Выбери все верные упрощения произведений.",
+      "bodyKk": "Көбейтінділердің барлық дұрыс ықшамдауларын таңда.",
+      "explanationRu": "$4a\\cdot 5=20a$, $y\\cdot 3\\cdot 16=48y$. Неверно: $8b\\cdot 3=11b$ (сложили) и $5c\\cdot 2=10$ (потеряна буква).",
+      "explanationKk": "$4a\\cdot 5=20a$, $y\\cdot 3\\cdot 16=48y$. Қате: $8b\\cdot 3=11b$ (қосылған) және $5c\\cdot 2=10$ (әріп жоғалған).",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$4a\\cdot 5=20a$", "textKk": "$4a\\cdot 5=20a$", "correct": true },
+        { "label": "B", "textRu": "$8b\\cdot 3=11b$", "textKk": "$8b\\cdot 3=11b$", "correct": false },
+        { "label": "C", "textRu": "$y\\cdot 3\\cdot 16=48y$", "textKk": "$y\\cdot 3\\cdot 16=48y$", "correct": true },
+        { "label": "D", "textRu": "$5c\\cdot 2=10$", "textKk": "$5c\\cdot 2=10$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p44_1"]
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Выбери все упрощённые произведения, где различные буквы записаны в алфавитном порядке.",
+      "bodyKk": "Әртүрлі әріптері әліпби ретімен жазылған барлық ықшамдалған көбейтінділерді таңда.",
+      "explanationRu": "Верный порядок: $72kmn$, $40abc$. Неверно: $72nmk$, $24cba$.",
+      "explanationKk": "Дұрыс рет: $72kmn$, $40abc$. Қате: $72nmk$, $24cba$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$72kmn$", "textKk": "$72kmn$", "correct": true },
+        { "label": "B", "textRu": "$72nmk$", "textKk": "$72nmk$", "correct": false },
+        { "label": "C", "textRu": "$40abc$", "textKk": "$40abc$", "correct": true },
+        { "label": "D", "textRu": "$24cba$", "textKk": "$24cba$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p44_2"]
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Выбери все верные записи вынесения общего множителя.",
+      "bodyKk": "Ортақ көбейткішті шығарудың барлық дұрыс жазбаларын таңда.",
+      "explanationRu": "Верно: $7a+7\\cdot 3=7(a+3)$, $16\\cdot 5+5b=5(16+b)$, $14c-14\\cdot 3=14(c-3)$. В $8d-8\\cdot 5=8(d+5)$ неверный знак.",
+      "explanationKk": "Дұрыс: $7a+7\\cdot 3=7(a+3)$, $16\\cdot 5+5b=5(16+b)$, $14c-14\\cdot 3=14(c-3)$. $8d-8\\cdot 5=8(d+5)$ жазбасында таңба қате.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$7a+7\\cdot 3=7(a+3)$", "textKk": "$7a+7\\cdot 3=7(a+3)$", "correct": true },
+        { "label": "B", "textRu": "$16\\cdot 5+5b=5(16+b)$", "textKk": "$16\\cdot 5+5b=5(16+b)$", "correct": true },
+        { "label": "C", "textRu": "$14c-14\\cdot 3=14(c-3)$", "textKk": "$14c-14\\cdot 3=14(c-3)$", "correct": true },
+        { "label": "D", "textRu": "$8d-8\\cdot 5=8(d+5)$", "textKk": "$8d-8\\cdot 5=8(d+5)$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p44_3"]
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Выбери все верные упрощения цепочек подобных слагаемых.",
+      "bodyKk": "Ұқсас қосылғыштар тізбегінің барлық дұрыс ықшамдауларын таңда.",
+      "explanationRu": "$8x+3x-x=10x$, $10x+7x-8x=9x$, $9y+2y-4y=7y$. Неверно $8x+3x-x=12x$ (минус проигнорирован).",
+      "explanationKk": "$8x+3x-x=10x$, $10x+7x-8x=9x$, $9y+2y-4y=7y$. $8x+3x-x=12x$ қате (минус еленбеген).",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$8x+3x-x=10x$", "textKk": "$8x+3x-x=10x$", "correct": true },
+        { "label": "B", "textRu": "$10x+7x-8x=9x$", "textKk": "$10x+7x-8x=9x$", "correct": true },
+        { "label": "C", "textRu": "$8x+3x-x=12x$", "textKk": "$8x+3x-x=12x$", "correct": false },
+        { "label": "D", "textRu": "$9y+2y-4y=7y$", "textKk": "$9y+2y-4y=7y$", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p45_1", "PDF_p44_3"]
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Участок пути: $a$ км и ещё $90$ км, затем ещё $a$ км. Какие упрощённые выражения пути верны?",
+      "bodyKk": "Жол учаскесі: $a$ км және тағы $90$ км, содан кейін тағы $a$ км. Жолдың қай ықшамдалған өрнектері дұрыс?",
+      "explanationRu": "Путь: $(a+90)+a$. После упрощения: $2a+90$. Варианты $a+90$ и $a\\cdot a+90$ неверны.",
+      "explanationKk": "Жол: $(a+90)+a$. Ықшамдағаннан кейін: $2a+90$. $a+90$ және $a\\cdot a+90$ нұсқалары қате.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$(a+90)+a$", "textKk": "$(a+90)+a$", "correct": true },
+        { "label": "B", "textRu": "$a+90$", "textKk": "$a+90$", "correct": false },
+        { "label": "C", "textRu": "$2a+90$", "textKk": "$2a+90$", "correct": true },
+        { "label": "D", "textRu": "$a\\cdot a+90$", "textKk": "$a\\cdot a+90$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p43_2"]
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Какие выражения после упрощения равны $18x$?",
+      "bodyKk": "Ықшамдағаннан кейін қай өрнектер $18x$-ке тең?",
+      "explanationRu": "$5x+3x+10x=18x$, $9x+9x=18x$, $20x-2x=18x$. Сумма $10x+8$ не даёт $18x$.",
+      "explanationKk": "$5x+3x+10x=18x$, $9x+9x=18x$, $20x-2x=18x$. $10x+8$ қосындысы $18x$ бермейді.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$5x+3x+10x$", "textKk": "$5x+3x+10x$", "correct": true },
+        { "label": "B", "textRu": "$9x+9x$", "textKk": "$9x+9x$", "correct": true },
+        { "label": "C", "textRu": "$20x-2x$", "textKk": "$20x-2x$", "correct": true },
+        { "label": "D", "textRu": "$10x+8$", "textKk": "$10x+8$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p45_1"]
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 5,
+      "bodyRu": "Какие равенства верны при устном упрощении с вынесением общего множителя?",
+      "bodyKk": "Ортақ көбейткішті шығарып ауызша ықшамдауда қай теңдіктер дұрыс?",
+      "explanationRu": "Общий множитель выносят: $14\\cdot(32+68)$, $25\\cdot(83-73)$, $58\\cdot(27+73)$. Вариант с минусом внутри скобок для суммы неверен.",
+      "explanationKk": "Ортақ көбейткіш шығарылады: $14\\cdot(32+68)$, $25\\cdot(83-73)$, $58\\cdot(27+73)$. Қосынды үшін жақша ішіндегі минус нұсқасы қате.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$32\\cdot 14+14\\cdot 68=14\\cdot(32+68)$", "textKk": "$32\\cdot 14+14\\cdot 68=14\\cdot(32+68)$", "correct": true },
+        { "label": "B", "textRu": "$83\\cdot 25-73\\cdot 25=25\\cdot(83-73)$", "textKk": "$83\\cdot 25-73\\cdot 25=25\\cdot(83-73)$", "correct": true },
+        { "label": "C", "textRu": "$32\\cdot 14+14\\cdot 68=14\\cdot(32-68)$", "textKk": "$32\\cdot 14+14\\cdot 68=14\\cdot(32-68)$", "correct": false },
+        { "label": "D", "textRu": "$27\\cdot 58+58\\cdot 73=58\\cdot(27+73)$", "textKk": "$27\\cdot 58+58\\cdot 73=58\\cdot(27+73)$", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p44_3"]
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 5,
+      "bodyRu": "В гирлянде $x$ красных шаров; синих в $2$ раза больше красных; зелёных в $3$ раза больше синих; жёлтых на $10$ меньше зелёных. Какие упрощённые выражения общего числа шаров верны?",
+      "bodyKk": "Гирляндада $x$ қызыл шар; көктер қызылдардан $2$ есе көп; жасылдар көктерден $3$ есе көп; сарылар жасылдардан $10$-ға аз. Шарлардың жалпы санының қай ықшамдалған өрнектері дұрыс?",
+      "explanationRu": "Синих $2x$, зелёных $6x$, жёлтых $6x-10$. Всего $x+2x+6x+(6x-10)=15x-10$.",
+      "explanationKk": "Көктер $2x$, жасылдар $6x$, сарылар $6x-10$. Барлығы $x+2x+6x+(6x-10)=15x-10$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$x+2x+6x+(6x-10)$", "textKk": "$x+2x+6x+(6x-10)$", "correct": true },
+        { "label": "B", "textRu": "$15x-10$", "textKk": "$15x-10$", "correct": true },
+        { "label": "C", "textRu": "$x+2x+6x+6x$", "textKk": "$x+2x+6x+6x$", "correct": false },
+        { "label": "D", "textRu": "$x+2x+3x+(3x-10)$", "textKk": "$x+2x+3x+(3x-10)$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p45_1", "PDF_p44_3"]
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "bodyRu": "Упрости произведение $9\\cdot 7a\\cdot 3$. Числовой коэффициент ответа: [[1]].",
+      "bodyKk": "$9\\cdot 7a\\cdot 3$ көбейтіндісін ықшамда. Жауаптағы сандық коэффициент: [[1]].",
+      "explanationRu": "$9\\cdot 7\\cdot 3=189$, упрощённо $189a$. Коэффициент — $189$.",
+      "explanationKk": "$9\\cdot 7\\cdot 3=189$, ықшамдалған түрі $189a$. Коэффициент — $189$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "189",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ],
+      "sourceRuleIds": ["PDF_p44_1"]
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "bodyRu": "Упрости $23b+16b$ и найди значение при $b=8$. Ответ: [[1]].",
+      "bodyKk": "$23b+16b$ ықшамдап, $b=8$ болғандағы мәнін тап. Жауап: [[1]].",
+      "explanationRu": "$23b+16b=39b$. При $b=8$: $39\\cdot 8=312$.",
+      "explanationKk": "$23b+16b=39b$. $b=8$ кезінде: $39\\cdot 8=312$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "312",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ],
+      "sourceRuleIds": ["PDF_p44_3"]
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "bodyRu": "Путь: $a$ км и ещё $90$ км, затем ещё $a$ км. Упрости выражение пути и найди значение при $a=188$. Ответ в км: [[1]].",
+      "bodyKk": "Жол: $a$ км және тағы $90$ км, содан кейін тағы $a$ км. Жол өрнегін ықшамдап, $a=188$ болғандағы мәнін тап. Жауап км-мен: [[1]].",
+      "explanationRu": "Путь $(a+90)+a=2a+90$. При $a=188$: $2\\cdot 188+90=466$.",
+      "explanationKk": "Жол $(a+90)+a=2a+90$. $a=188$ кезінде: $2\\cdot 188+90=466$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 43-47",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "466",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ],
+      "sourceRuleIds": ["PDF_p43_2", "PDF_p45_1"]
+    }
+  ],
+  "matrixDeviations": []
+}

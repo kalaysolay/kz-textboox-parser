@@ -1,0 +1,16 @@
+{
+  "kind": "polygon",
+  "width": 520,
+  "height": 460,
+  "sides": 6,
+  "cx": 260,
+  "cy": 240,
+  "radius": 150,
+  "rotationDeg": -90,
+  "vertexLabels": ["D", "E", "F", "K", "L", "N"],
+  "segments": [
+    { "from": "E", "to": "N" },
+    { "from": "E", "to": "L" },
+    { "from": "E", "to": "F" }
+  ]
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="400" viewBox="0 0 480 400">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <polygon points="200,300 354.41017820422053,286.49085987411297 186.49085987411297,145.58982179577944" fill="rgba(100, 149, 237, 0.22)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="200" y1="300" x2="449.0486745229364" y2="278.21106431308544" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="200" y1="300" x2="178.21106431308544" y2="50.95132547706362" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="200" cy="300" r="3.5" fill="#1a1a1a"/>
+  <text x="462.99540029622085" y="276.9908839146182" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">D</text>
+  <text x="176.99088391461822" y="37.00459970377915" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">C</text>
+  <text x="184" y="310" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="end" dominant-baseline="middle">O</text>
+</svg>

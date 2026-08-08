@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-delenie-des-drobi-na-des-drob-20260808-0530",
+  "createdAt": "2026-08-08T05:30:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "Деление десятичной дроби на десятичную дробь",
+  "topicKk": "Ондық бөлшекті ондық бөлшекке бөлу",
+  "topicSlug": "delenie-des-drobi-na-des-drob",
+  "topicCode": "4.8",
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 30,
+  "typeMix": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMix": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "illustrationPolicy": "visual-topics",
+  "illustrationFor": [],
+  "parsedTextbookPath": "Математика/parsed/math_aldamuratova_5grade_part2_parsed_v2.json",
+  "pdfOffset": 0,
+  "methodistInstruction": "Тема вычислительная: деление десятичной дроби на десятичную дробь (умножение делимого и делителя на 10/100/… чтобы делитель стал натуральным). needsIllustration обычно false. Не смешивать с 4.7 (÷ натуральное) и 4.9 (÷10/0,1…). Ориентир страниц ~65–71. pdfOffset=0. Избегать duplicate_body с другими content/runs/*/05-questions.final.json, особенно с 4.7 20260808-0500.",
+  "languageMode": "BOTH"
+}

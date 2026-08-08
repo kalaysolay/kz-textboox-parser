@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="400" viewBox="0 0 560 400">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <line x1="260" y1="280" x2="479.16283358018404" y2="260.8257365955152" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="260" y1="280" x2="386.18681599723016" y2="99.7865502564218" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="260" y1="280" x2="221.79740091327534" y2="63.34229433731423" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="260" y1="280" x2="43.34229433731423" y2="241.79740091327534" stroke="#1a1a1a" stroke-width="1.75"/>
+  <line x1="260" y1="280" x2="69.47441116742351" y2="390" stroke="#1a1a1a" stroke-width="1.75"/>
+  <circle cx="260" cy="280" r="3.5" fill="#1a1a1a"/>
+  <path d="M 307.8173455084038 275.8165243481124 A 48 48 0 0 0 287.5316689448502 240.6807018741284" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <path d="M 249.2338129846503 218.9419193132431 A 62 62 0 0 0 206.3064249653648 311" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <path d="M 253.0540728933228 240.60768987951167 A 40 40 0 0 0 220.60768987951167 273.05407289332277" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="493.10955935346846" y="259.605556197048" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">A</text>
+  <text x="394.2168861061448" y="88.31842163637592" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">C</text>
+  <text x="219.36632642593833" y="49.554985795143324" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">E</text>
+  <text x="29.554985795143324" y="239.36632642593833" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">F</text>
+  <text x="57.35005551444138" y="397" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">D</text>
+  <text x="246" y="288" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="end" dominant-baseline="middle">O</text>
+</svg>

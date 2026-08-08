@@ -1,0 +1,13 @@
+{
+  "kind": "bar_chart",
+  "width": 560,
+  "height": 360,
+  "yMax": 100,
+  "showValues": true,
+  "bars": [
+    { "label": "огурец", "value": 95 },
+    { "label": "хлеб", "value": 40 },
+    { "label": "яблоко", "value": 85 },
+    { "label": "сыр", "value": 35 }
+  ]
+}

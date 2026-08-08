@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-okruzhnost-krug-20260808-1500",
+  "reviewedAt": "2026-08-08T17:20:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 28,
+    "fixed": 2,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "B — фигура из всех точек плоскости на одинаковом расстоянии от данной точки",
+      "keyAnswer": "B — Фигура из всех точек плоскости на одинаковом расстоянии от данной точки",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×4, predict×4, compare×3, compute×4, restore×4, verify×4, word_problem×4, inverse×3. Стемы внутри формы разные; не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "C — часть плоскости внутри окружности вместе с самой окружностью",
+      "keyAnswer": "C — Часть плоскости внутри окружности вместе с самой окружностью",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "C — в 2 раза (D=2R)",
+      "keyAnswer": "C — В $2$ раза",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "fixed",
+      "solvedAnswer": "B — OA",
+      "keyAnswer": "B — Отрезок $OA$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": "Сократил stem RU/KK для 5 класса: те же точки O,A,B,C,D и тот же вопрос про радиус; ключ B — OA без изменений."
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "D — 28 см (2·14)",
+      "keyAnswer": "D — $28$ см",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "C — 13 мм (26:2)",
+      "keyAnswer": "C — $13$ мм",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "C — неверно: от центра все точки окружности равноудалены",
+      "keyAnswer": "C — Неверно: от центра все точки окружности равноудалены",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "D — AB",
+      "keyAnswer": "D — Отрезок $AB$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "B — окружность линия; круг — часть плоскости с этой линией",
+      "keyAnswer": "B — Окружность — линия; круг — часть плоскости вместе с этой линией",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "fixed",
+      "solvedAnswer": "B — да: круг включает окружность",
+      "keyAnswer": "B — Да: круг включает саму окружность",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "kk_calque",
+          "severity": "minor",
+          "message": "В KK было неестественное «шеңберлі дөңгелекке»; RU «кругу с той же окружностью» звучало двусмысленно."
+        }
+      ],
+      "fixApplied": "Уточнил stem: RU «кругу, образованному этой окружностью»; KK «осы шеңбермен берілген дөңгелекке». Ключ B без изменений."
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "D — 8 м (D=2R=8)",
+      "keyAnswer": "D — $8$ м",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "C — Q",
+      "keyAnswer": "C — Точка $Q$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "B — полукруга",
+      "keyAnswer": "B — полукруга",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "C — круга с тем же центром",
+      "keyAnswer": "C — круга с тем же центром",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "D — часть окружности между двумя точками",
+      "keyAnswer": "D — Часть окружности между двумя её точками",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "status": "accepted",
+      "solvedAnswer": "C — 3200 км (6400:2)",
+      "keyAnswer": "C — $3200$ км",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "D — 4 см (R_A=4; R_B=6−4=2; D_B=4)",
+      "keyAnswer": "D — $4$ см",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "D — 20 см (7+4+9)",
+      "keyAnswer": "D — $20$ см",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A,B,C",
+      "keyAnswer": "A,B,C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "A,B,C",
+      "keyAnswer": "A,B,C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "A,B,C",
+      "keyAnswer": "A,B,C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "A,B,D",
+      "keyAnswer": "A,B,D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "A,B",
+      "keyAnswer": "A,B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "A,B,C",
+      "keyAnswer": "A,B,C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A,B,C",
+      "keyAnswer": "A,B,C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "A,B,D",
+      "keyAnswer": "A,B,D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "A,C (общих 2; только в первой 2)",
+      "keyAnswer": "A,C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "36",
+      "keyAnswer": "[[1]] = 36",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "accepted",
+      "solvedAnswer": "64000",
+      "keyAnswer": "[[1]] = 64000",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "300",
+      "keyAnswer": "[[1]] = 300",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

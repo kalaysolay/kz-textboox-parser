@@ -1,0 +1,13 @@
+{
+  "kind": "bar_chart",
+  "width": 520,
+  "height": 360,
+  "yMax": 12,
+  "showValues": true,
+  "bars": [
+    { "label": "5", "value": 6 },
+    { "label": "4", "value": 10 },
+    { "label": "3", "value": 8 },
+    { "label": "2", "value": 1 }
+  ]
+}

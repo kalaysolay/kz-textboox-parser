@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-slozhenie-vychitanie-naturalnyh-20260808-1930",
+  "createdAt": "2026-08-08T19:30:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "Сложение и вычитание натуральных чисел",
+  "topicKk": "Натурал сандарды қосу және азайту",
+  "topicSlug": "slozhenie-vychitanie-naturalnyh",
+  "topicCode": "1.4",
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 30,
+  "typeMix": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMix": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "illustrationPolicy": "visual-topics",
+  "illustrationFor": [],
+  "parsedTextbookPath": "Математика/parsed/math_aldamuratova_5grade_part1_parsed_v2.json",
+  "methodistInstruction": "Формулировки для 5 класса: короткие, однозначные, без двусмысленности и лишних условий. Тема 1.4 pages ~20–23. Reduce count if recommendedMaxCount < 30 (keep ~60/30/10). pdfOffset=0. Anti-dup vs C1–C3 and B11. Usually few illustrations.",
+  "languageMode": "BOTH"
+}

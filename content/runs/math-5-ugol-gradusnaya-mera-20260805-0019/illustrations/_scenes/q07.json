@@ -1,0 +1,19 @@
+{
+  "kind": "angle",
+  "width": 520,
+  "height": 360,
+  "cx": 260,
+  "cy": 220,
+  "rayLength": 180,
+  "vertexLabel": "O",
+  "rays": [
+    { "label": "E", "deg": 180 },
+    { "label": "D", "deg": 125 },
+    { "label": "F", "deg": 0 }
+  ],
+  "arcs": [
+    { "fromDeg": 125, "toDeg": 180, "label": "55°", "radius": 48 }
+  ],
+  "vertexOffset": { "x": 0, "y": 22 },
+  "vertexAnchor": "middle"
+}

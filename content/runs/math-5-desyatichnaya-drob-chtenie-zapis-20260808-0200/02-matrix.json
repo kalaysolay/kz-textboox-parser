@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-desyatichnaya-drob-chtenie-zapis-20260808-0200",
+  "typeMixPlanned": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMixPlanned": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Узнавание определения десятичной дроби",
+      "stemIdea": "Выбрать верное определение: дроби со знаменателем 10, 100, 1000… записывают без знаменателя через запятую",
+      "trapIdeas": [
+        "Ученик считает десятичной любую обыкновенную дробь",
+        "Ученик думает, что десятичная дробь — только числа меньше 1",
+        "Ученик путает с записью процентов"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p16_1"],
+      "sourceExampleRefs": ["p23#KF"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Название разряда после запятой",
+      "stemIdea": "Указать, какой разряд стоит на первом месте после запятой",
+      "trapIdeas": [
+        "Ученик путает десятые и сотые",
+        "Ученик называет разряд целой части",
+        "Ученик считает, что сразу после запятой идут тысячные"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p16_2"],
+      "sourceExampleRefs": ["p17#table"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Запись обыкновенной дроби со знаменателем 10",
+      "stemIdea": "Записать m/10 или смешанное n m/10 десятичной дробью",
+      "trapIdeas": [
+        "Ученик пишет числитель в целую часть",
+        "Ученик добавляет лишний ноль после запятой",
+        "Ученик ставит запятую не после целой части"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p18_1"],
+      "sourceExampleRefs": ["p18#check", "p20#716"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Чтение десятичной дроби с десятыми/сотыми",
+      "stemIdea": "Выбрать правильное чтение числа вида a,b или 0,0c",
+      "trapIdeas": [
+        "Ученик читает сотые как десятые",
+        "Ученик опускает слово «целых» и путает разряд",
+        "Ученик читает 0,03 как «три десятых»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p17_2"],
+      "sourceExampleRefs": ["p18#read"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Число десятичных знаков по знаменателю",
+      "stemIdea": "По знаменателю 10/100/1000 предсказать число знаков после запятой без полной записи",
+      "trapIdeas": [
+        "Ученик считает знаки по числу цифр числителя",
+        "Ученик путает число нулей в 100 и 1000",
+        "Ученик думает, что всегда один знак"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p18_1"],
+      "sourceExampleRefs": ["p18#note"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Роль нуля в разряде",
+      "stemIdea": "Выбрать верный смысл цифры 0 в дробной части",
+      "trapIdeas": [
+        "Ученик думает, что ноль в середине всегда можно отбросить",
+        "Ученик считает, что любой 0 после запятой не влияет на значение",
+        "Ученик путает нуль в разряде с конечным нулём справа"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p17_1"],
+      "sourceExampleRefs": ["p17#zero"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Запись со знаменателем 100 с добиванием нуля",
+      "stemIdea": "Записать m/100 или смешанное с однозначным числителем (добить ноль)",
+      "trapIdeas": [
+        "Ученик пишет 5 7/100 как 5,7 вместо 5,07",
+        "Ученик пишет 0,7 вместо 0,07 для 7/100",
+        "Ученик добавляет ноль справа вместо слева в дробной части"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p18_1"],
+      "sourceExampleRefs": ["p20#716", "p21#724"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Запись со знаменателем 1000",
+      "stemIdea": "Записать обыкновенную/смешанную со знаменателем 1000 с добиванием нулей",
+      "trapIdeas": [
+        "Ученик пишет 4 9/1000 как 4,9 или 4,09",
+        "Ученик пропускает ведущие нули в дробной части",
+        "Ученик сдвигает цифры числителя вправо"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p18_1"],
+      "sourceExampleRefs": ["p18#check", "p22#730"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Запись по словесному чтению",
+      "stemIdea": "По фразе «нуль целых … сотых/тысячных» выбрать верную запись",
+      "trapIdeas": [
+        "Ученик путает сотые и тысячные",
+        "Ученик пишет 0,3 вместо 0,03 для «трёх сотых»",
+        "Ученик ставит цифры в целую часть"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p17_2", "PDF_p18_1"],
+      "sourceExampleRefs": ["p20#717"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Чтение числа с тысячными",
+      "stemIdea": "Выбрать верное чтение числа с тремя десятичными знаками",
+      "trapIdeas": [
+        "Ученик читает как сотые при трёх знаках",
+        "Ученик читает цифры по одной без названия разряда",
+        "Ученик меняет местами целую и дробную части в речи"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p17_2"],
+      "sourceExampleRefs": ["p17#read", "p23#ex2"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Частное a:10^n как десятичная дробь",
+      "stemIdea": "Записать частное вида a:100 или a:1000 десятичной дробью по образцу",
+      "trapIdeas": [
+        "Ученик сдвигает запятую как при умножении",
+        "Ученик забывает целую часть при делимом больше знаменателя",
+        "Ученик не добивает знаки в дробной части"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p18_1"],
+      "sourceExampleRefs": ["p20#718"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Равенство дробей с нулями справа",
+      "stemIdea": "Выбрать число, равное данной дроби после приписывания/отбрасывания конечных нулей",
+      "trapIdeas": [
+        "Ученик считает 0,70 больше 0,7",
+        "Ученик отбрасывает ноль в середине дробной части",
+        "Ученик думает, что 0,30 ≠ 0,3"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p19_2"],
+      "sourceExampleRefs": ["p19#zeros"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Натуральное число как десятичная дробь",
+      "stemIdea": "Выбрать верную запись натурального числа с запятой и нулями справа",
+      "trapIdeas": [
+        "Ученик считает 7,000 другим числом",
+        "Ученик ставит нули перед запятой",
+        "Ученик думает, что натуральное нельзя записать десятичной дробью"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p19_2"],
+      "sourceExampleRefs": ["p19#nat"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сумма разрядных слагаемых → десятичная",
+      "stemIdea": "По сумме 2+0,8+0,01+0,007 выбрать исходную десятичную дробь",
+      "trapIdeas": [
+        "Ученик пропускает разряд с нулём и сдвигает цифры",
+        "Ученик складывает без учёта разрядов",
+        "Ученик путает сотые и тысячные"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p19_1"],
+      "sourceExampleRefs": ["p19#2817", "p21#726"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Разряд в 10 раз меньше соседнего",
+      "stemIdea": "Назвать разряд, который в 10 раз меньше разряда единиц или десятых",
+      "trapIdeas": [
+        "Ученик называет разряд в 10 раз больше",
+        "Ученик уходит в целую часть не в ту сторону",
+        "Ученик называет неверный соседний разряд"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p16_2"],
+      "sourceExampleRefs": ["p21#723"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Проверка чужой записи из обыкновенной",
+      "stemIdea": "Найти ошибочное равенство среди записей смешанное = десятичная",
+      "trapIdeas": [
+        "Ученик не замечает пропущенный ноль в дробной части",
+        "Ученик принимает запись с лишним знаком",
+        "Ученик путает верный и неверный из-за похожих цифр"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p18_1"],
+      "sourceExampleRefs": ["p18#check"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Меры длины → десятичная в метрах",
+      "stemIdea": "Выразить м+дм или м+см десятичной дробью метров",
+      "trapIdeas": [
+        "Ученик пишет см как десятые вместо сотых",
+        "Ученик забывает нули при 5 м 7 см → 5,07",
+        "Ученик переводит в см и теряет запятую"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p18_1", "PDF_p16_1"],
+      "sourceExampleRefs": ["p16#meters", "p21#727"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Состав числа по разрядам → запись",
+      "stemIdea": "По описанию «N целых, a десятых, b сотых…» выбрать запись",
+      "trapIdeas": [
+        "Ученик пропускает отсутствующий разряд без нуля",
+        "Ученик ставит цифры не в те позиции",
+        "Ученик пишет только дробную часть"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p16_2", "PDF_p17_1"],
+      "sourceExampleRefs": ["p21#725"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные утверждения о разрядах",
+      "stemIdea": "Выбрать все верные утверждения о разрядах десятых/сотых/тысячных",
+      "trapIdeas": [
+        "Ученик принимает перепутанный порядок разрядов",
+        "Ученик считает, что после запятой сразу идут единицы",
+        "Ученик путает разрядную единицу 0,01 с 0,1"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p16_2"],
+      "sourceExampleRefs": ["p17#table"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные чтения десятичных дробей",
+      "stemIdea": "Отметить все варианты, где чтение соответствует записи",
+      "trapIdeas": [
+        "Ученик принимает чтение с неверным названием последнего разряда",
+        "Ученик путает «три сотых» и «три десятых»",
+        "Ученик принимает чтение без учёта числа знаков"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p17_2"],
+      "sourceExampleRefs": ["p18#read"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные записи из обыкновенных дробей",
+      "stemIdea": "Выбрать все верные равенства обыкновенная/смешанная → десятичная",
+      "trapIdeas": [
+        "Ученик принимает запись без добивания нулей",
+        "Ученик путает 43/100 и 43/1000",
+        "Ученик принимает лишний обязательный ноль справа"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p18_1"],
+      "sourceExampleRefs": ["p18#check", "p20#716"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Равные записи с конечными нулями",
+      "stemIdea": "Выбрать все записи, равные данной дроби за счёт нулей справа",
+      "trapIdeas": [
+        "Ученик включает запись с нулём не справа",
+        "Ученик отвергает 0,70 = 0,7",
+        "Ученик принимает изменение значащих цифр"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p19_2"],
+      "sourceExampleRefs": ["p19#zeros"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Верные разложения по разрядам",
+      "stemIdea": "Отметить все верные представления числа суммой разрядных слагаемых",
+      "trapIdeas": [
+        "Ученик принимает разложение с пропуском разряда",
+        "Ученик принимает 0,08 вместо 0,008",
+        "Ученик путает целую часть с десятыми"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p19_1"],
+      "sourceExampleRefs": ["p19#2817", "p20#720"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Запись по описанию разрядов (с нулями)",
+      "stemIdea": "Выбрать все дроби, соответствующие описаниям состава разрядов с пропуском разряда",
+      "trapIdeas": [
+        "Ученик принимает запись без нуля в пропущенном разряде",
+        "Ученик сдвигает цифры влево",
+        "Ученик путает десятитысячные и тысячные"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p16_2", "PDF_p17_1"],
+      "sourceExampleRefs": ["p21#725"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Меры → верные десятичные записи",
+      "stemIdea": "Выбрать все верные выражения мер десятичной дробью",
+      "trapIdeas": [
+        "Ученик принимает 5 м 7 см = 5,7 м",
+        "Ученик принимает 14 кг 5 г = 14,5 кг",
+        "Ученик путает дм и см"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p18_1"],
+      "sourceExampleRefs": ["p16#meters", "p21#727"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Восстановление пропусков в равенствах записи",
+      "stemIdea": "Выбрать все верно восстановленные равенства вида смешанное/? = десятичная (как упр. 719)",
+      "trapIdeas": [
+        "Ученик неверно считает нули в знаменателе",
+        "Ученик путает числитель и знаменатель",
+        "Ученик восстанавливает не ту часть числа"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p18_1"],
+      "sourceExampleRefs": ["p20#719"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Комплекс чтение + запись + нули",
+      "stemIdea": "Выбрать все одновременно верные утверждения для данного набора чисел",
+      "trapIdeas": [
+        "Ученик принимает верное чтение при неверной записи",
+        "Ученик отвергает равные формы с нулями",
+        "Ученик путает название разряда при верных цифрах"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p17_2", "PDF_p18_1", "PDF_p19_2"],
+      "sourceExampleRefs": ["p23#KF"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Запись дроби со знаменателем 10000",
+      "stemIdea": "Вписать десятичную дробь для смешанного/обыкновенного со знаменателем 10000",
+      "trapIdeas": [
+        "Ученик ставит неверное число ведущих нулей",
+        "Ученик путает с тысячными"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p18_1"],
+      "sourceExampleRefs": ["p22#730"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Запись по полной словесной формулировке",
+      "stemIdea": "Вписать десятичную дробь по чтению с тысячными/сотыми и нулями",
+      "trapIdeas": [
+        "Ученик путает сотые и тысячные",
+        "Ученик опускает нули в середине"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p17_2", "PDF_p18_1"],
+      "sourceExampleRefs": ["p20#717"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Сумма разрядных слагаемых → число",
+      "stemIdea": "Вписать десятичную дробь, равную сумме разрядных слагаемых с пропуском разряда",
+      "trapIdeas": [
+        "Ученик сдвигает цифры из-за пропущенного разряда",
+        "Ученик теряет нуль в середине"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p19_1", "PDF_p17_1"],
+      "sourceExampleRefs": ["p21#726"],
+      "questionForm": "compute"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "Count 30 сохранён (recommendedMaxCount=null). TypeMix 18/9/3 и difficulty 2/4/15/6/3: SCQ q01–q18 (d1×2, d2×4, d3×12), MCQ q19–q27 (d3×3, d4×6), FILL_IN q28–q30 (d5×3). questionForm: при count=30 лимит ≤2 на форму нереален (G017, как в 3.14/3.15) — формы максимально разведены. needsIllustration все false (visual-topics: stem чтения/записи полон без рисунка)."
+}

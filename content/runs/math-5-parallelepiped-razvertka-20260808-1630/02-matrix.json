@@ -1,0 +1,523 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-parallelepiped-razvertka-20260808-1630",
+  "typeMixPlanned": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMixPlanned": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Число граней прямоугольного параллелепипеда",
+      "stemIdea": "Сколько граней у прямоугольного параллелепипеда",
+      "trapIdeas": [
+        "Ученик отвечает 8 (путает с вершинами)",
+        "Ученик отвечает 12 (путает с рёбрами)",
+        "Ученик отвечает 4 (считает только боковые грани)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p173_3"],
+      "sourceExampleRefs": ["p174#2"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Определение куба",
+      "stemIdea": "Какой прямоугольный параллелепипед называют кубом",
+      "trapIdeas": [
+        "Ученик думает, что куб — любой параллелепипед с квадратными основаниями",
+        "Ученик требует только равные рёбра основания, но не высоту",
+        "Ученик путает куб с прямоугольником"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p174_1"],
+      "sourceExampleRefs": ["p174#4"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Число вершин прямоугольного параллелепипеда",
+      "stemIdea": "Не считая по рисунку: сколько вершин у прямоугольного параллелепипеда",
+      "trapIdeas": [
+        "Ученик отвечает 6 (путает с гранями)",
+        "Ученик отвечает 12 (путает с рёбрами)",
+        "Ученик отвечает 4 (считает только нижнее основание)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p173_3"],
+      "sourceExampleRefs": ["p174#3"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Равенство противоположных граней",
+      "stemIdea": "Какое утверждение верно для прямоугольного параллелепипеда: про противоположные грани",
+      "trapIdeas": [
+        "Ученик считает, что все шесть граней всегда равны",
+        "Ученик думает, что равны только основания",
+        "Ученик путает противоположные грани со смежными"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p173_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Сумма длин рёбер куба",
+      "stemIdea": "Какой длины проволока нужна для каркаса куба с ребром ≠15 см (не клон 1303)",
+      "trapIdeas": [
+        "Ученик умножил ребро на 6 (число граней)",
+        "Ученик умножил ребро на 8 (число вершин)",
+        "Ученик умножил ребро на 4 (одно «кольцо» рёбер)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p173_3", "PDF_p174_1"],
+      "sourceExampleRefs": ["p174#1303"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Ребро куба по периметру грани",
+      "stemIdea": "Периметр грани куба дан (≠32 см из 1305) — найти длину ребра",
+      "trapIdeas": [
+        "Ученик разделил периметр на 6",
+        "Ученик разделил периметр на 3",
+        "Ученик взял периметр за ребро"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p174_2"],
+      "sourceExampleRefs": ["p175#1305"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Определение развёртки параллелепипеда",
+      "stemIdea": "Что называют развёрткой прямоугольного параллелепипеда",
+      "trapIdeas": [
+        "Ученик путает развёртку с самим пространственным телом",
+        "Ученик думает, что развёртка — один прямоугольник без граней",
+        "Ученик считает развёрткой любую плоскую фигуру из квадратов"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p173_5"],
+      "sourceExampleRefs": ["p174#5"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Число развёрток куба",
+      "stemIdea": "Сколько различных развёрток имеет куб (факт из урока)",
+      "trapIdeas": [
+        "Ученик отвечает 6 (как число граней)",
+        "Ученик отвечает 1 (одна «стандартная» крестовина)",
+        "Ученик отвечает 8 (угадывание)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p174_3"],
+      "sourceExampleRefs": [],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Проверка тройки 12 рёбер / 8 вершин / 6 граней",
+      "stemIdea": "Какое из готовых утверждений о числе рёбер, вершин и граней верно",
+      "trapIdeas": [
+        "Ученик принимает перестановку: 8 рёбер, 12 вершин",
+        "Ученик принимает 6 рёбер, 12 граней",
+        "Ученик принимает «все числа по 6»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p173_3"],
+      "sourceExampleRefs": ["p174#2", "p174#3"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Бытовые модели параллелепипеда",
+      "stemIdea": "Какой из предметов имеет форму прямоугольного параллелепипеда (короткий бытовой сюжет)",
+      "trapIdeas": [
+        "Ученик выбирает шар или мяч",
+        "Ученик выбирает цилиндрическую банку",
+        "Ученик выбирает конус / пирамидку"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p173_1"],
+      "sourceExampleRefs": ["p174#1"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Грань куба vs грань параллелепипеда",
+      "stemIdea": "Чем грань куба отличается от грани прямоугольного параллелепипеда в общем случае",
+      "trapIdeas": [
+        "Ученик думает, что у куба грани — прямоугольники, не обязательно квадраты",
+        "Ученик считает, что у параллелепипеда все грани — квадраты",
+        "Ученик путает грань с ребром"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p174_2", "PDF_p173_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Грань, ребро и вершина на чертеже",
+      "stemIdea": "На рисунке параллелепипеда с пометками — какой элемент (грань / ребро / вершина) выделен",
+      "trapIdeas": [
+        "Ученик путает ребро с гранью",
+        "Ученик путает вершину с концом ребра на середине грани",
+        "Ученик называет грань ребром из‑за подписи длины"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Без чертежа solid нельзя однозначно указать выделенный элемент",
+      "sourceRuleIds": ["PDF_p173_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Чтение измерений по рисунку",
+      "stemIdea": "На рисунке параллелепипеда подписаны три ребра у одной вершины — выбрать длину / ширину / высоту",
+      "trapIdeas": [
+        "Ученик меняет местами длину и высоту",
+        "Ученик берёт диагональ грани за измерение",
+        "Ученик складывает два ребра вместо одного измерения"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Измерения заданы подписями на solid; без рисунка stem неполный",
+      "sourceRuleIds": ["PDF_p173_4"],
+      "sourceExampleRefs": [],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Отбор допустимой развёртки куба",
+      "stemIdea": "На рисунке несколько раскладок из квадратов — какая является развёрткой куба (не клон 9.8 один в один)",
+      "trapIdeas": [
+        "Ученик выбирает цепочку из 7 квадратов",
+        "Ученик выбирает раскладку, где при сворачивании грани пересекаются",
+        "Ученик выбирает фигуру из прямоугольников разного размера"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Отбор развёртки возможен только по чертежу вариантов",
+      "sourceRuleIds": ["PDF_p174_3"],
+      "sourceExampleRefs": ["p175#1309"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Противоположные грани при сворачивании развёртки куба",
+      "stemIdea": "На развёртке куба закрашена верхняя грань — какая грань станет нижней (символы ≠ эталону 9.6)",
+      "trapIdeas": [
+        "Ученик выбирает соседнюю грань на развёртке как «нижнюю»",
+        "Ученик путает левую боковую с нижней",
+        "Ученик считает нижнюю той же гранью, что верхняя"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Положение граней после сворачивания читается только с net",
+      "sourceRuleIds": ["PDF_p174_3", "PDF_p173_2"],
+      "sourceExampleRefs": ["p174#1304"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Измерения по сетке развёртки",
+      "stemIdea": "По развёртке на клеточной сетке (масштаб ≠1 клетка=1 см из 1306) восстановить одно из измерений",
+      "trapIdeas": [
+        "Ученик перепутал масштаб клеток",
+        "Ученик взял длину «креста» развёртки целиком за одно ребро",
+        "Ученик сложил два соседних отрезка сетки"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Длины на развёртке видны только на чертеже сетки",
+      "sourceRuleIds": ["PDF_p173_4", "PDF_p173_5"],
+      "sourceExampleRefs": ["p175#1306"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Площадь поверхности прямоугольного параллелепипеда",
+      "stemIdea": "Даны три измерения (≠ паре из 1306) — найти площадь поверхности через площади граней",
+      "trapIdeas": [
+        "Ученик нашёл только площадь одного основания",
+        "Ученик сложил ab+bc+ac без умножения на 2",
+        "Ученик нашёл объём abc вместо площади"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p173_5", "PDF_p173_2"],
+      "sourceExampleRefs": ["p175#1306"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 5,
+      "skillFocus": "Объём куба по равенству сумм рёбер",
+      "stemIdea": "Сумма длин всех рёбер параллелепипеда равна сумме рёбер куба; даны измерения параллелепипеда ≠13×8×6 — найти объём куба",
+      "trapIdeas": [
+        "Ученик взял сумму измерений a+b+c за ребро куба",
+        "Ученик нашёл объём параллелепипеда вместо куба",
+        "Ученик разделил сумму рёбер на 8, а не на 12"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p173_3", "PDF_p174_1"],
+      "sourceExampleRefs": ["p175#1308"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные факты о гранях, рёбрах и вершинах",
+      "stemIdea": "Выбрать все верные утверждения о числе граней, рёбер и вершин прямоугольного параллелепипеда",
+      "trapIdeas": [
+        "Ученик отмечает «8 граней» как верное",
+        "Ученик отмечает «6 рёбер» как верное",
+        "Ученик пропускает верное «12 рёбер»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p173_3", "PDF_p173_1"],
+      "sourceExampleRefs": ["p174#2", "p174#3"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Свойства граней параллелепипеда и куба",
+      "stemIdea": "Выбрать все верные утверждения: противоположные грани; грани куба — равные квадраты",
+      "trapIdeas": [
+        "Ученик отмечает «все грани параллелепипеда всегда квадраты»",
+        "Ученик отвергает равенство противоположных граней",
+        "Ученик думает, что у куба грани — разные прямоугольники"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p173_2", "PDF_p174_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Куб как частный случай параллелепипеда",
+      "stemIdea": "Выбрать все верные сравнения куба и прямоугольного параллелепипеда",
+      "trapIdeas": [
+        "Ученик считает, что куб не является параллелепипедом",
+        "Ученик думает, что у куба 4 грани",
+        "Ученик отмечает «у куба измерения могут быть разными»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p174_1", "PDF_p173_3"],
+      "sourceExampleRefs": ["p174#4"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Подписи элементов на чертеже параллелепипеда",
+      "stemIdea": "На рисунке solid с несколькими пометками — выбрать все верно названные элементы (грань / ребро / вершина / измерение)",
+      "trapIdeas": [
+        "Ученик отмечает неверно подписанное ребро как верное",
+        "Ученик путает вершину с серединой ребра",
+        "Ученик принимает диагональ грани за измерение"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Проверка подписей возможна только по чертежу solid",
+      "sourceRuleIds": ["PDF_p173_1", "PDF_p173_4"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Несколько допустимых развёрток куба",
+      "stemIdea": "На рисунке набор раскладок из 6 квадратов — выбрать все, из которых можно сложить куб",
+      "trapIdeas": [
+        "Ученик отмечает длинную «змейку», которая не сворачивается",
+        "Ученик пропускает допустимую крестовину",
+        "Ученик отмечает раскладку с ветвлением, дающим наложение граней"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Допустимость развёрток куба оценивается по чертежам",
+      "sourceRuleIds": ["PDF_p174_3"],
+      "sourceExampleRefs": ["p175#1309"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Длина каркаса для разных рёбер",
+      "stemIdea": "Для нескольких кубов/параллелепипедов с данными рёбрами выбрать все верные длины проволоки каркаса",
+      "trapIdeas": [
+        "Ученик считает каркас как 6·ребро",
+        "Ученик для параллелепипеда берёт 12·одно ребро вместо 4(a+b+c)",
+        "Ученик забывает множитель 4 у суммы измерений"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p173_3", "PDF_p174_1"],
+      "sourceExampleRefs": ["p174#1303"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Боковые и противоположные грани на развёртке",
+      "stemIdea": "На развёртке куба задана верхняя грань — выбрать все верные утверждения о нижней и боковых гранях",
+      "trapIdeas": [
+        "Ученик помечает смежную на развёртке грань как противоположную",
+        "Ученик путает левую и правую боковые",
+        "Ученик считает, что нижняя грань совпадает с верхней"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Соответствие граней после сворачивания видно только на net",
+      "sourceRuleIds": ["PDF_p174_3", "PDF_p173_2"],
+      "sourceExampleRefs": ["p174#1304"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Рёбра, равные одному измерению",
+      "stemIdea": "На рисунке параллелепипеда с измерениями a, b, c выбрать все рёбра, равные заданному измерению",
+      "trapIdeas": [
+        "Ученик отмечает ребро другого измерения",
+        "Ученик думает, что равны только рёбра одного основания",
+        "Ученик отмечает пространственную диагональ"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Какие рёбра равны a/b/c, видно по подписанному solid",
+      "sourceRuleIds": ["PDF_p173_4", "PDF_p173_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Совмещение вершин при сворачивании развёртки куба",
+      "stemIdea": "На развёртке куба с буквами в вершинах — выбрать все верные совмещения точек при складывании (не клон 9.9)",
+      "trapIdeas": [
+        "Ученик совмещает соседние точки развёртки, которые на кубе разные",
+        "Ученик пропускает верное совмещение противоположных концов",
+        "Ученик путает сторону, образующую ребро, с диагональю грани"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Совмещение вершин читается только по net (+ опционально solid)",
+      "sourceRuleIds": ["PDF_p174_3"],
+      "sourceExampleRefs": ["p176#1311"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Числовое значение длины каркаса куба",
+      "stemIdea": "Вписать длину проволоки для каркаса куба с данным ребром (одно число)",
+      "trapIdeas": [
+        "Ученик умножил на 6 вместо 12",
+        "Ученик умножил на 8",
+        "Ученик записал площадь грани"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p173_3", "PDF_p174_1"],
+      "sourceExampleRefs": ["p174#1303"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "skillFocus": "Площадь поверхности куба по периметру грани",
+      "stemIdea": "Периметр грани куба дан (≠32 см) — вписать площадь поверхности куба",
+      "trapIdeas": [
+        "Ученик нашёл только площадь одной грани",
+        "Ученик нашёл объём вместо площади поверхности",
+        "Ученик взял ребро = периметр/2"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p174_2"],
+      "sourceExampleRefs": ["p175#1305"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Объём параллелепипеда по сумме рёбер и парам измерений",
+      "stemIdea": "Даны сумма всех рёбер и две суммы пар измерений (числа ≠112 / 19 / 13) — вписать объём",
+      "trapIdeas": [
+        "Ученик принял a+b+c за одно измерение",
+        "Ученик перепутал, какую пару вычитать из суммы трёх",
+        "Ученик нашёл площадь поверхности вместо объёма"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p173_4", "PDF_p173_3"],
+      "sourceExampleRefs": ["p176#1310"],
+      "questionForm": "inverse"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "Тема 9.1 only; 8 primary verbatim-правил PDF_p173_1…PDF_p174_3. Count 30 kept (recommendedMaxCount null). G017: при count=30 формы 3–4× (recall/compute/predict/verify/restore/word_problem×4, compare/inverse×3). ILL 10/30 visual-topics: parallelepiped q12,q13,q22,q26; net_parallelepiped q14,q15,q16,q23,q25,q27. S и V — через упражнения slice, не как verbatim-рамки. Не 9.2; не usable:false 1302/1312."
+}

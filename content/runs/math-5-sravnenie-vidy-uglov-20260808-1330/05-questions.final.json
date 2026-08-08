@@ -1,0 +1,611 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "math-5-sravnenie-vidy-uglov-20260808-1330",
+    "generatedAt": "2026-08-08T16:20:00+05:00",
+    "subjectTitleRu": "Математика",
+    "subjectTitleKk": "Математика",
+    "gradeNo": 5,
+    "topicCode": "7.3",
+    "topicTitleRu": "Сравнение углов. Виды углов. Чертежный треугольник",
+    "topicTitleKk": "Бұрыштарды салыстыру. Бұрыш түрлері. Сызғыш үшбұрыш",
+    "topicSlug": "sravnenie-vidy-uglov",
+    "atomicSkillTitleRu": null,
+    "textbookRef": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+    "illustrationPolicy": "visual-topics",
+    "sourceReliability": "verbatim"
+  },
+  "questions": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "bodyRu": "Чему равна градусная мера прямого угла?",
+      "bodyKk": "Тік бұрыштың градустық өлшемі неге тең?",
+      "explanationRu": "Прямой угол имеет градусную меру $90^\\circ$.",
+      "explanationKk": "Тік бұрыштың градустық өлшемі $90^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$90^\\circ$", "textKk": "$90^\\circ$", "correct": true },
+        { "label": "B", "textRu": "$180^\\circ$", "textKk": "$180^\\circ$", "correct": false },
+        { "label": "C", "textRu": "$360^\\circ$", "textKk": "$360^\\circ$", "correct": false },
+        { "label": "D", "textRu": "$45^\\circ$", "textKk": "$45^\\circ$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p144_2"]
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "bodyRu": "Какое утверждение верно описывает острый угол?",
+      "bodyKk": "Қай тұжырым сүйір бұрышты дұрыс сипаттайды?",
+      "explanationRu": "Угол называется острым, если его градусная мера меньше $90^\\circ$.",
+      "explanationKk": "Бұрыш сүйір деп аталады, егер оның градустық өлшемі $90^\\circ$-тан кіші болса.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Его градусная мера больше $90^\\circ$, но меньше $180^\\circ$", "textKk": "Оның градустық өлшемі $90^\\circ$-тан үлкен, бірақ $180^\\circ$-тан кіші", "correct": false },
+        { "label": "B", "textRu": "Его градусная мера равна $90^\\circ$", "textKk": "Оның градустық өлшемі $90^\\circ$-қа тең", "correct": false },
+        { "label": "C", "textRu": "Его градусная мера меньше $90^\\circ$", "textKk": "Оның градустық өлшемі $90^\\circ$-тан кіші", "correct": true },
+        { "label": "D", "textRu": "Его градусная мера равна $180^\\circ$", "textKk": "Оның градустық өлшемі $180^\\circ$-қа тең", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p145_1"]
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Прямой угол — это половина развёрнутого. Не выполняя деления «в столбик», укажите градусную меру прямого угла.",
+      "bodyKk": "Тік бұрыш — жазыңқы бұрыштың жартысы. Бағанмен бөлусіз тік бұрыштың градустық өлшемін көрсетіңіз.",
+      "explanationRu": "Развёрнутый угол равен $180^\\circ$, его половина — $90^\\circ$; это и есть прямой угол.",
+      "explanationKk": "Жазыңқы бұрыш $180^\\circ$-қа тең, оның жартысы — $90^\\circ$; бұл тік бұрыш.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$90^\\circ$", "textKk": "$90^\\circ$", "correct": true },
+        { "label": "B", "textRu": "$180^\\circ$", "textKk": "$180^\\circ$", "correct": false },
+        { "label": "C", "textRu": "$45^\\circ$", "textKk": "$45^\\circ$", "correct": false },
+        { "label": "D", "textRu": "$180^\\circ$ (как $360^\\circ:2$)", "textKk": "$180^\\circ$ ($360^\\circ:2$ ретінде)", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p144_2"]
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Дано: $\\angle KLM = 55^\\circ$, $\\angle PQR = 125^\\circ$. Какое сравнение верно?",
+      "bodyKk": "Берілгені: $\\angle KLM = 55^\\circ$, $\\angle PQR = 125^\\circ$. Қай салыстыру дұрыс?",
+      "explanationRu": "Из двух углов больше тот, у которого больше градусная мера: $55^\\circ < 125^\\circ$, значит $\\angle KLM < \\angle PQR$.",
+      "explanationKk": "Екі бұрыштың үлкені — градустық өлшемі үлкені: $55^\\circ < 125^\\circ$, демек $\\angle KLM < \\angle PQR$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$\\angle KLM < \\angle PQR$", "textKk": "$\\angle KLM < \\angle PQR$", "correct": true },
+        { "label": "B", "textRu": "$\\angle KLM > \\angle PQR$", "textKk": "$\\angle KLM > \\angle PQR$", "correct": false },
+        { "label": "C", "textRu": "$\\angle KLM = \\angle PQR$", "textKk": "$\\angle KLM = \\angle PQR$", "correct": false },
+        { "label": "D", "textRu": "$\\angle PQR < \\angle KLM$", "textKk": "$\\angle PQR < \\angle KLM$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p144_1"]
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Вычислите градусную меру половины развёрнутого угла: $180^\\circ : 2 = \\,?$",
+      "bodyKk": "Жазыңқы бұрыштың жартысының градустық өлшемін есептеңіз: $180^\\circ : 2 = \\,?$",
+      "explanationRu": "$180^\\circ : 2 = 90^\\circ$. Половина развёрнутого угла — прямой угол.",
+      "explanationKk": "$180^\\circ : 2 = 90^\\circ$. Жазыңқы бұрыштың жартысы — тік бұрыш.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$360^\\circ$", "textKk": "$360^\\circ$", "correct": false },
+        { "label": "B", "textRu": "$178^\\circ$", "textKk": "$178^\\circ$", "correct": false },
+        { "label": "C", "textRu": "$180^\\circ$", "textKk": "$180^\\circ$", "correct": false },
+        { "label": "D", "textRu": "$90^\\circ$", "textKk": "$90^\\circ$", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p144_2"]
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Часы показывают $3$ ч. Какой вид угла образуют часовая и минутная стрелки?",
+      "bodyKk": "Сағат $3$ сағатты көрсетеді. Сағат тілі мен минут тілі қандай түрдегі бұрыш құрайды?",
+      "explanationRu": "В $3$ ч стрелки образуют прямой угол ($90^\\circ$).",
+      "explanationKk": "$3$ сағатта тілдер тік бұрыш құрайды ($90^\\circ$).",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Прямой", "textKk": "Тік", "correct": true },
+        { "label": "B", "textRu": "Тупой", "textKk": "Доғал", "correct": false },
+        { "label": "C", "textRu": "Развёрнутый", "textKk": "Жазыңқы", "correct": false },
+        { "label": "D", "textRu": "Острый", "textKk": "Сүйір", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p144_2"]
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке углы $AOB$ и $AOC$ имеют общую вершину $O$ и общую сторону $OA$. Луч $OB$ проходит внутри угла $AOC$. Какое сравнение верно?",
+      "bodyKk": "Суретте $AOB$ және $AOC$ бұрыштарының ортақ төбесі $O$ және ортақ қабырғасы $OA$. $OB$ сәулесі $AOC$ бұрышының ішінде өтеді. Қай салыстыру дұрыс?",
+      "explanationRu": "Если при наложении один угол полностью оказывается внутри другого, то он меньше: $\\angle AOB < \\angle AOC$.",
+      "explanationKk": "Қабаттағанда бір бұрыш екіншісінің ішінде толық жатса, ол кішірек: $\\angle AOB < \\angle AOC$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$\\angle AOB > \\angle AOC$", "textKk": "$\\angle AOB > \\angle AOC$", "correct": false },
+        { "label": "B", "textRu": "$\\angle AOB < \\angle AOC$", "textKk": "$\\angle AOB < \\angle AOC$", "correct": true },
+        { "label": "C", "textRu": "$\\angle AOB = \\angle AOC$", "textKk": "$\\angle AOB = \\angle AOC$", "correct": false },
+        { "label": "D", "textRu": "Сравнить нельзя: стороны на рисунке разной длины", "textKk": "Салыстыруға болмайды: суретте қабырғалар ұзындығы әртүрлі", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p144_1", "PDF_p143_1"]
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "На чертеже у вершины угла $COD$ стоит знак в виде квадратика. Какой это угол и чему равна его градусная мера?",
+      "bodyKk": "Сызбада $COD$ бұрышының төбесінде шаршы белгісі тұр. Бұл қандай бұрыш және оның градустық өлшемі неге тең?",
+      "explanationRu": "Квадратик на чертеже обозначает прямой угол; его мера $90^\\circ$.",
+      "explanationKk": "Сызбадағы шаршы белгісі тік бұрышты білдіреді; оның өлшемі $90^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Острый, $45^\\circ$", "textKk": "Сүйір, $45^\\circ$", "correct": false },
+        { "label": "B", "textRu": "Развёрнутый, $180^\\circ$", "textKk": "Жазыңқы, $180^\\circ$", "correct": false },
+        { "label": "C", "textRu": "Равные углы (дужки), мера неизвестна", "textKk": "Тең бұрыштар (доғашалар), өлшемі белгісіз", "correct": false },
+        { "label": "D", "textRu": "Прямой, $90^\\circ$", "textKk": "Тік, $90^\\circ$", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p144_2"]
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Айгуль записала: $\\angle 1 = \\angle 2$, при этом $\\angle 1 = 45^\\circ$, а $\\angle 2 = 50^\\circ$. Верно ли это? Почему?",
+      "bodyKk": "Айгүл былай жазды: $\\angle 1 = \\angle 2$, әрі $\\angle 1 = 45^\\circ$, ал $\\angle 2 = 50^\\circ$. Бұл дұрыс па? Неге?",
+      "explanationRu": "Равные углы имеют равные градусные меры. При $45^\\circ$ и $50^\\circ$ равенство углов невозможно.",
+      "explanationKk": "Тең бұрыштардың градустық өлшемдері тең. $45^\\circ$ пен $50^\\circ$ болса, бұрыштар тең бола алмайды.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Верно: углы могут быть равны при разных мерах", "textKk": "Дұрыс: өлшемдері әртүрлі болса да бұрыштар тең болуы мүмкін", "correct": false },
+        { "label": "B", "textRu": "Неверно: равные углы должны иметь равные меры", "textKk": "Дұрыс емес: тең бұрыштардың өлшемдері тең болуы керек", "correct": true },
+        { "label": "C", "textRu": "Верно, если один угол лежит внутри другого", "textKk": "Дұрыс, егер бір бұрыш екіншісінің ішінде жатса", "correct": false },
+        { "label": "D", "textRu": "Неверно только потому, что нет дужек на чертеже", "textKk": "Тек сызбада доғашалар жоқ болғандықтан дұрыс емес", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p143_2"]
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Угол имеет градусную меру $75^\\circ$. Какой это угол по виду?",
+      "bodyKk": "Бұрыштың градустық өлшемі $75^\\circ$. Түрі бойынша бұл қандай бұрыш?",
+      "explanationRu": "$75^\\circ < 90^\\circ$, значит угол острый.",
+      "explanationKk": "$75^\\circ < 90^\\circ$, демек бұрыш сүйір.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Прямой", "textKk": "Тік", "correct": false },
+        { "label": "B", "textRu": "Тупой", "textKk": "Доғал", "correct": false },
+        { "label": "C", "textRu": "Развёрнутый", "textKk": "Жазыңқы", "correct": false },
+        { "label": "D", "textRu": "Острый", "textKk": "Сүйір", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p145_1", "PDF_p145_2", "PDF_p144_2"]
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Угол $AOB$ — развёрнутый. Луч $OC$ проходит между его сторонами, причём $\\angle AOC = 70^\\circ$. Найдите градусную меру угла $COB$.",
+      "bodyKk": "$AOB$ бұрышы — жазыңқы. $OC$ сәулесі оның қабырғаларының арасынан өтеді, әрі $\\angle AOC = 70^\\circ$. $COB$ бұрышының градустық өлшемін табыңыз.",
+      "explanationRu": "Развёрнутый угол равен $180^\\circ$, поэтому $\\angle COB = 180^\\circ - 70^\\circ = 110^\\circ$.",
+      "explanationKk": "Жазыңқы бұрыш $180^\\circ$-қа тең, сондықтан $\\angle COB = 180^\\circ - 70^\\circ = 110^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$110^\\circ$", "textKk": "$110^\\circ$", "correct": true },
+        { "label": "B", "textRu": "$20^\\circ$", "textKk": "$20^\\circ$", "correct": false },
+        { "label": "C", "textRu": "$290^\\circ$", "textKk": "$290^\\circ$", "correct": false },
+        { "label": "D", "textRu": "$250^\\circ$", "textKk": "$250^\\circ$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p144_1"]
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке чертежный треугольник расположен так: вершина его прямого угла совпала с точкой $O$, одна сторона прошла по лучу $OD$, по другой стороне проведён луч $OC$. Какой угол получился и чему он равен?",
+      "bodyKk": "Суретте сызғыш үшбұрыш былай орналасқан: тік бұрышының төбесі $O$ нүктесімен сәйкес келді, бір қабырғасы $OD$ сәулесі бойымен өтті, екінші қабырғасы бойынша $OC$ сәулесі жүргізілді. Қандай бұрыш шықты және ол неге тең?",
+      "explanationRu": "Так строят прямой угол: $\\angle COD = 90^\\circ$.",
+      "explanationKk": "Осылай тік бұрыш салынады: $\\angle COD = 90^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Острый угол при другой вершине угольника", "textKk": "Үшбұрыштың басқа төбесіндегі сүйір бұрыш", "correct": false },
+        { "label": "B", "textRu": "Прямой угол $COD$, равный $90^\\circ$", "textKk": "Тік бұрыш $COD$, $90^\\circ$-қа тең", "correct": true },
+        { "label": "C", "textRu": "Угол построить нельзя: нужен только транспортир", "textKk": "Бұрыш салуға болмайды: тек транспортир керек", "correct": false },
+        { "label": "D", "textRu": "Развёрнутый угол $COD$, равный $180^\\circ$", "textKk": "Жазыңқы бұрыш $COD$, $180^\\circ$-қа тең", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p144_3"]
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "На циферблате ровно $6$ ч: часовая стрелка на делении $6$, минутная — на $12$. Какой вид угла образуют стрелки?",
+      "bodyKk": "Циферблатта дәл $6$ сағат: сағат тілі $6$ бөлігінде, минут тілі — $12$ бөлігінде. Тілдер қандай түрдегі бұрыш құрайды?",
+      "explanationRu": "В $6$ ч стрелки образуют развёрнутый угол ($180^\\circ$).",
+      "explanationKk": "$6$ сағатта тілдер жазыңқы бұрыш құрайды ($180^\\circ$).",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Прямой", "textKk": "Тік", "correct": false },
+        { "label": "B", "textRu": "Полный", "textKk": "Толық", "correct": false },
+        { "label": "C", "textRu": "Тупой", "textKk": "Доғал", "correct": false },
+        { "label": "D", "textRu": "Развёрнутый", "textKk": "Жазыңқы", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p145_3"]
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке отмечены углы $AOB$, $FNC$ и $FNK$. Какая тройка названий видов верна?",
+      "bodyKk": "Суретте $AOB$, $FNC$ және $FNK$ бұрыштары белгіленген. Қай атаулар үштігі дұрыс?",
+      "explanationRu": "По чертежу: у $AOB$ квадратик — прямой; $FNC$ уже прямого — острый; $FNK$ шире прямого и уже развёрнутого — тупой.",
+      "explanationKk": "Сызба бойынша: $AOB$-та шаршы — тік; $FNC$ тіктен тар — сүйір; $FNK$ тіктен кең және жазыңқыдан тар — доғал.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$AOB$ — острый, $FNC$ — прямой, $FNK$ — тупой", "textKk": "$AOB$ — сүйір, $FNC$ — тік, $FNK$ — доғал", "correct": false },
+        { "label": "B", "textRu": "$AOB$ — прямой, $FNC$ — острый, $FNK$ — тупой", "textKk": "$AOB$ — тік, $FNC$ — сүйір, $FNK$ — доғал", "correct": true },
+        { "label": "C", "textRu": "$AOB$ — прямой, $FNC$ — тупой, $FNK$ — острый", "textKk": "$AOB$ — тік, $FNC$ — доғал, $FNK$ — сүйір", "correct": false },
+        { "label": "D", "textRu": "$AOB$ — прямой, $FNC$ — острый, $FNK$ — развёрнутый", "textKk": "$AOB$ — тік, $FNC$ — сүйір, $FNK$ — жазыңқы", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p145_1", "PDF_p145_2", "PDF_p144_2"]
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "При наложении углы $1$ и $2$ совместились. Какой вывод о их градусных мерах обязателен?",
+      "bodyKk": "Қабаттағанда $1$ және $2$ бұрыштары сәйкес келді. Олардың градустық өлшемдері туралы қай қорытынды міндетті?",
+      "explanationRu": "Совместившиеся углы равны, а равные углы имеют равные градусные меры.",
+      "explanationKk": "Сәйкес келген бұрыштар тең, ал тең бұрыштардың градустық өлшемдері тең.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Их градусные меры равны", "textKk": "Олардың градустық өлшемдері тең", "correct": true },
+        { "label": "B", "textRu": "Меры могут отличаться", "textKk": "Өлшемдері әртүрлі болуы мүмкін", "correct": false },
+        { "label": "C", "textRu": "Один угол обязательно меньше другого", "textKk": "Бір бұрыш міндетті түрде екіншісінен кіші", "correct": false },
+        { "label": "D", "textRu": "Меры равны только если на чертеже есть дужки", "textKk": "Өлшемдер тек сызбада доғашалар болса ғана тең", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p143_1", "PDF_p143_2"]
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 4,
+      "bodyRu": "На рисунке угол $EFN$ — прямой. Луч $FK$ проходит между его сторонами, причём $\\angle KFN = 35^\\circ$. Найдите градусную меру угла $EFK$.",
+      "bodyKk": "Суретте $EFN$ бұрышы — тік. $FK$ сәулесі оның қабырғаларының арасынан өтеді, әрі $\\angle KFN = 35^\\circ$. $EFK$ бұрышының градустық өлшемін табыңыз.",
+      "explanationRu": "Прямой угол равен $90^\\circ$, поэтому $\\angle EFK = 90^\\circ - 35^\\circ = 55^\\circ$.",
+      "explanationKk": "Тік бұрыш $90^\\circ$-қа тең, сондықтан $\\angle EFK = 90^\\circ - 35^\\circ = 55^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$145^\\circ$", "textKk": "$145^\\circ$", "correct": false },
+        { "label": "B", "textRu": "$125^\\circ$", "textKk": "$125^\\circ$", "correct": false },
+        { "label": "C", "textRu": "$55^\\circ$", "textKk": "$55^\\circ$", "correct": true },
+        { "label": "D", "textRu": "$325^\\circ$", "textKk": "$325^\\circ$", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p144_2"]
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 4,
+      "bodyRu": "Сабина совместила вершину прямого угла чертежного треугольника с точкой $O$, одну сторону — с лучом $OD$ и провела второй луч $OC$. Чему равен полученный угол $COD$ и какой он по виду?",
+      "bodyKk": "Сабина сызғыш үшбұрыштың тік бұрыш төбесін $O$ нүктесімен, бір қабырғасын $OD$ сәулесімен сәйкестендіріп, екінші $OC$ сәулесін жүргізді. Алынған $COD$ бұрышы неге тең және түрі бойынша қандай?",
+      "explanationRu": "Построение чертежным треугольником даёт прямой угол: $\\angle COD = 90^\\circ$.",
+      "explanationKk": "Сызғыш үшбұрышпен салу тік бұрыш береді: $\\angle COD = 90^\\circ$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$45^\\circ$, острый", "textKk": "$45^\\circ$, сүйір", "correct": false },
+        { "label": "B", "textRu": "$90^\\circ$, прямой", "textKk": "$90^\\circ$, тік", "correct": true },
+        { "label": "C", "textRu": "$180^\\circ$, развёрнутый", "textKk": "$180^\\circ$, жазыңқы", "correct": false },
+        { "label": "D", "textRu": "Мера неизвестна без транспортира", "textKk": "Транспортирсіз өлшемі белгісіз", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p144_3", "PDF_p144_2"]
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 5,
+      "bodyRu": "На рисунке угол $AOB$ — развёрнутый, луч $OC$ проходит между его сторонами, $\\angle AOC = 40^\\circ$. Какая цепочка сравнений верна?",
+      "bodyKk": "Суретте $AOB$ бұрышы — жазыңқы, $OC$ сәулесі оның қабырғаларының арасынан өтеді, $\\angle AOC = 40^\\circ$. Қай салыстыру тізбегі дұрыс?",
+      "explanationRu": "$\\angle COB = 180^\\circ - 40^\\circ = 140^\\circ$. Тогда $\\angle AOC < \\angle COB < \\angle AOB$.",
+      "explanationKk": "$\\angle COB = 180^\\circ - 40^\\circ = 140^\\circ$. Сонда $\\angle AOC < \\angle COB < \\angle AOB$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$\\angle COB < \\angle AOC < \\angle AOB$", "textKk": "$\\angle COB < \\angle AOC < \\angle AOB$", "correct": false },
+        { "label": "B", "textRu": "$\\angle AOC < \\angle AOB < \\angle COB$", "textKk": "$\\angle AOC < \\angle AOB < \\angle COB$", "correct": false },
+        { "label": "C", "textRu": "$\\angle AOC = \\angle COB = \\angle AOB$", "textKk": "$\\angle AOC = \\angle COB = \\angle AOB$", "correct": false },
+        { "label": "D", "textRu": "$\\angle AOC < \\angle COB < \\angle AOB$", "textKk": "$\\angle AOC < \\angle COB < \\angle AOB$", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p144_1"]
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Выберите все верные утверждения о видах углов по градусной мере.",
+      "bodyKk": "Градустық өлшем бойынша бұрыш түрлері туралы барлық дұрыс тұжырымдарды таңдаңыз.",
+      "explanationRu": "Острый: меньше $90^\\circ$; прямой: ровно $90^\\circ$; тупой: больше $90^\\circ$ и меньше $180^\\circ$. Утверждение про тупой $\\ge 180^\\circ$ неверно.",
+      "explanationKk": "Сүйір: $90^\\circ$-тан кіші; тік: дәл $90^\\circ$; доғал: $90^\\circ$-тан үлкен және $180^\\circ$-тан кіші. Доғал $\\ge 180^\\circ$ деген тұжырым қате.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Острый угол имеет меру меньше $90^\\circ$", "textKk": "Сүйір бұрыштың өлшемі $90^\\circ$-тан кіші", "correct": true },
+        { "label": "B", "textRu": "Прямой угол имеет меру $90^\\circ$", "textKk": "Тік бұрыштың өлшемі $90^\\circ$", "correct": true },
+        { "label": "C", "textRu": "Тупой угол имеет меру не меньше $180^\\circ$", "textKk": "Доғал бұрыштың өлшемі $180^\\circ$-тан кем емес", "correct": false },
+        { "label": "D", "textRu": "Тупой угол имеет меру больше $90^\\circ$, но меньше $180^\\circ$", "textKk": "Доғал бұрыштың өлшемі $90^\\circ$-тан үлкен, бірақ $180^\\circ$-тан кіші", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p145_1", "PDF_p145_2", "PDF_p144_2"]
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Даны градусные меры: $25^\\circ$, $55^\\circ$, $90^\\circ$, $125^\\circ$, $15^\\circ$. Выберите все меры острых углов.",
+      "bodyKk": "Градустық өлшемдер берілген: $25^\\circ$, $55^\\circ$, $90^\\circ$, $125^\\circ$, $15^\\circ$. Сүйір бұрыштардың барлық өлшемдерін таңдаңыз.",
+      "explanationRu": "Острый угол — меньше $90^\\circ$: это $25^\\circ$, $55^\\circ$ и $15^\\circ$. Мера $90^\\circ$ — прямой, $125^\\circ$ — тупой.",
+      "explanationKk": "Сүйір бұрыш — $90^\\circ$-тан кіші: $25^\\circ$, $55^\\circ$ және $15^\\circ$. $90^\\circ$ — тік, $125^\\circ$ — доғал.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$25^\\circ$", "textKk": "$25^\\circ$", "correct": true },
+        { "label": "B", "textRu": "$55^\\circ$", "textKk": "$55^\\circ$", "correct": true },
+        { "label": "C", "textRu": "$90^\\circ$", "textKk": "$90^\\circ$", "correct": false },
+        { "label": "D", "textRu": "$15^\\circ$", "textKk": "$15^\\circ$", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p145_1"]
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "На рисунке отмечены углы $PKN$, $AOB$ и $DEF$. Выберите все верные названия видов.",
+      "bodyKk": "Суретте $PKN$, $AOB$ және $DEF$ бұрыштары белгіленген. Барлық дұрыс атауларды таңдаңыз.",
+      "explanationRu": "По чертежу: $PKN$ — острый, $AOB$ — прямой (квадратик), $DEF$ — тупой. Назвать тупой развёрнутым нельзя.",
+      "explanationKk": "Сызба бойынша: $PKN$ — сүйір, $AOB$ — тік (шаршы), $DEF$ — доғал. Доғалды жазыңқы деп атауға болмайды.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$\\angle PKN$ — острый", "textKk": "$\\angle PKN$ — сүйір", "correct": true },
+        { "label": "B", "textRu": "$\\angle AOB$ — прямой", "textKk": "$\\angle AOB$ — тік", "correct": true },
+        { "label": "C", "textRu": "$\\angle DEF$ — тупой", "textKk": "$\\angle DEF$ — доғал", "correct": true },
+        { "label": "D", "textRu": "$\\angle DEF$ — развёрнутый", "textKk": "$\\angle DEF$ — жазыңқы", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p145_1", "PDF_p145_2", "PDF_p144_2"]
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Выберите все верные факты о равных углах.",
+      "bodyKk": "Тең бұрыштар туралы барлық дұрыс фактілерді таңдаңыз.",
+      "explanationRu": "Равные углы совмещаются при наложении, имеют равные меры и обозначаются одинаковым числом дужек. Дужки — не знак прямого угла.",
+      "explanationKk": "Тең бұрыштар қабаттағанда сәйкес келеді, өлшемдері тең және бірдей санды доғашамен белгіленеді. Доғашалар — тік бұрыш белгісі емес.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Если углы совместились при наложении, они равны", "textKk": "Қабаттағанда сәйкес келсе, бұрыштар тең", "correct": true },
+        { "label": "B", "textRu": "Равные углы имеют равные градусные меры", "textKk": "Тең бұрыштардың градустық өлшемдері тең", "correct": true },
+        { "label": "C", "textRu": "Равные углы обозначают одинаковым числом дужек", "textKk": "Тең бұрыштарды бірдей санды доғашамен белгілейді", "correct": true },
+        { "label": "D", "textRu": "Дужки на сторонах угла означают, что угол прямой", "textKk": "Бұрыш қабырғаларындағы доғашалар бұрыштың тік екенін білдіреді", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p143_1", "PDF_p143_2"]
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Нужно построить прямой угол с вершиной $O$ и стороной по лучу $OD$ чертежным треугольником. Выберите все верные действия.",
+      "bodyKk": "Төбесі $O$, бір қабырғасы $OD$ сәулесі бойымен болатын тік бұрышты сызғыш үшбұрышпен салу керек. Барлық дұрыс әрекеттерді таңдаңыз.",
+      "explanationRu": "Вершину прямого угла угольника совмещают с $O$, одну сторону — с лучом $OD$, вторую сторону проводят по стороне угольника. Центр транспортира для этого алгоритма не обязателен.",
+      "explanationKk": "Үшбұрыштың тік бұрыш төбесін $O$-мен, бір қабырғасын $OD$ сәулесімен сәйкестендіреді, екінші қабырғасын үшбұрыш қабырғасы бойынша жүргізеді. Бұл алгоритмге транспортир центрі міндетті емес.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Совместить вершину прямого угла угольника с точкой $O$", "textKk": "Үшбұрыштың тік бұрыш төбесін $O$ нүктесімен сәйкестендіру", "correct": true },
+        { "label": "B", "textRu": "Одну сторону угольника провести по лучу $OD$", "textKk": "Үшбұрыштың бір қабырғасын $OD$ сәулесі бойымен қою", "correct": true },
+        { "label": "C", "textRu": "Обязательно совместить центр транспортира с точкой $O$", "textKk": "Міндетті түрде транспортир центрін $O$ нүктесімен сәйкестендіру", "correct": false },
+        { "label": "D", "textRu": "Провести второй луч по другой стороне угольника", "textKk": "Екінші сәулені үшбұрыштың екінші қабырғасы бойынша жүргізу", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p144_3"]
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Не выполняя построений, выберите все верные пункты.",
+      "bodyKk": "Салусыз барлық дұрыс пункттерді таңдаңыз.",
+      "explanationRu": "Тупой: больше $90^\\circ$ и меньше $180^\\circ$ (здесь $120^\\circ$ и $150^\\circ$). Полный угол равен $360^\\circ$. Меры $90^\\circ$ и $180^\\circ$ к тупым не относятся.",
+      "explanationKk": "Доғал: $90^\\circ$-тан үлкен және $180^\\circ$-тан кіші (мұнда $120^\\circ$ және $150^\\circ$). Толық бұрыш $360^\\circ$-қа тең. $90^\\circ$ пен $180^\\circ$ доғалға жатпайды.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$120^\\circ$ — мера тупого угла", "textKk": "$120^\\circ$ — доғал бұрыштың өлшемі", "correct": true },
+        { "label": "B", "textRu": "$90^\\circ$ — мера тупого угла", "textKk": "$90^\\circ$ — доғал бұрыштың өлшемі", "correct": false },
+        { "label": "C", "textRu": "$150^\\circ$ — мера тупого угла", "textKk": "$150^\\circ$ — доғал бұрыштың өлшемі", "correct": true },
+        { "label": "D", "textRu": "Градусная мера полного угла равна $360^\\circ$", "textKk": "Толық бұрыштың градустық өлшемі $360^\\circ$-қа тең", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p145_2", "PDF_p145_3"]
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "На рисунке изображены углы с вершинами $A$, $E$ и $D$. Выберите все верные сравнения.",
+      "bodyKk": "Суретте төбелері $A$, $E$ және $D$ болатын бұрыштар көрсетілген. Барлық дұрыс салыстыруларды таңдаңыз.",
+      "explanationRu": "По чертежу угол при $A$ самый узкий, при $E$ — средний, при $D$ — самый широкий: $\\angle A < \\angle E < \\angle D$. Общий луч сам по себе равенства не даёт.",
+      "explanationKk": "Сызба бойынша $A$-дағы ең тар, $E$-дегі орташа, $D$-дағы ең кең: $\\angle A < \\angle E < \\angle D$. Ортақ сәуле теңдік бермейді.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$\\angle A < \\angle E$", "textKk": "$\\angle A < \\angle E$", "correct": true },
+        { "label": "B", "textRu": "$\\angle E < \\angle D$", "textKk": "$\\angle E < \\angle D$", "correct": true },
+        { "label": "C", "textRu": "$\\angle D < \\angle A$", "textKk": "$\\angle D < \\angle A$", "correct": false },
+        { "label": "D", "textRu": "$\\angle A = \\angle D$, потому что у них есть общий луч на рисунке", "textKk": "$\\angle A = \\angle D$, өйткені суретте ортақ сәуле бар", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p144_1", "PDF_p143_1"]
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "На рисунке у углов $1$ и $3$ — по одной дужке, у углов $2$ и $4$ — по две дужки. Известно также $\\angle 1 = 45^\\circ$. Выберите все верные выводы.",
+      "bodyKk": "Суретте $1$ және $3$ бұрыштарында бір-бір доғаша, $2$ және $4$ бұрыштарында екі-екіден доғаша бар. Сонымен қатар $\\angle 1 = 45^\\circ$. Барлық дұрыс қорытындыларды таңдаңыз.",
+      "explanationRu": "Одинаковое число дужек означает равенство углов; равные углы имеют равные меры. Углы с разным числом дужек не обязаны быть равны. Дужки — не знак прямого угла.",
+      "explanationKk": "Бірдей санды доғаша теңдікті білдіреді; тең бұрыштардың өлшемдері тең. Әртүрлі санды доғашалы бұрыштар міндетті түрде тең емес. Доғашалар — тік бұрыш белгісі емес.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "$\\angle 1 = \\angle 3$", "textKk": "$\\angle 1 = \\angle 3$", "correct": true },
+        { "label": "B", "textRu": "$\\angle 2 = \\angle 4$", "textKk": "$\\angle 2 = \\angle 4$", "correct": true },
+        { "label": "C", "textRu": "$\\angle 3 = 45^\\circ$", "textKk": "$\\angle 3 = 45^\\circ$", "correct": true },
+        { "label": "D", "textRu": "$\\angle 1 = \\angle 2$, потому что оба угла острые на вид", "textKk": "$\\angle 1 = \\angle 2$, өйткені екеуі де көзге сүйір", "correct": false }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p143_1", "PDF_p143_2"]
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 5,
+      "bodyRu": "Выберите все верные утверждения.",
+      "bodyKk": "Барлық дұрыс тұжырымдарды таңдаңыз.",
+      "explanationRu": "Верны: любой острый меньше любого тупого; биссектриса развёрнутого даёт два прямых; угол — два луча с общим началом. Ложно: биссектриса развёрнутого даёт острый и тупой; угол из любых двух лучей без общего начала.",
+      "explanationKk": "Дұрыс: кез келген сүйір кез келген доғалдан кіші; жазыңқының биссектрисасы екі тік береді; бұрыш — ортақ басы бар екі сәуле. Қате: жазыңқының биссектрисасы сүйір мен доғал береді; ортақ бассыз кез келген екі сәуледен бұрыш.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        { "label": "A", "textRu": "Любой острый угол меньше любого тупого угла", "textKk": "Кез келген сүйір бұрыш кез келген доғал бұрыштан кіші", "correct": true },
+        { "label": "B", "textRu": "Биссектриса развёрнутого угла делит его на острый и тупой углы", "textKk": "Жазыңқы бұрыштың биссектрисасы оны сүйір және доғал бұрыштарға бөледі", "correct": false },
+        { "label": "C", "textRu": "Биссектриса развёрнутого угла делит его на два прямых угла", "textKk": "Жазыңқы бұрыштың биссектрисасы оны екі тік бұрышқа бөледі", "correct": true },
+        { "label": "D", "textRu": "Угол — фигура из двух лучей с общим началом", "textKk": "Бұрыш — ортақ басы бар екі сәуледен түзілген фигура", "correct": true }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p145_1", "PDF_p145_2", "PDF_p144_2", "PDF_p145_3"]
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "bodyRu": "Прямой угол — половина развёрнутого. Найдите его градусную меру. Ответ дайте числом (без знака градуса): [[1]].",
+      "bodyKk": "Тік бұрыш — жазыңқының жартысы. Оның градустық өлшемін табыңыз. Жауапты санмен беріңіз (градус белгісінсіз): [[1]].",
+      "explanationRu": "$180^\\circ : 2 = 90$. Градусная мера прямого угла равна $90$.",
+      "explanationKk": "$180^\\circ : 2 = 90$. Тік бұрыштың градустық өлшемі $90$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        { "placeholder": "[[1]]", "answer": "90", "matchMode": "NUMERIC_TOLERANCE", "tolerance": 0 }
+      ],
+      "sourceRuleIds": ["PDF_p144_2"]
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "bodyRu": "Часы показывают $4$ ч. Найдите градусную меру угла между часовой и минутной стрелками. Ответ дайте числом (без знака градуса): [[1]].",
+      "bodyKk": "Сағат $4$ сағатты көрсетеді. Сағат тілі мен минут тілі арасындағы бұрыштың градустық өлшемін табыңыз. Жауапты санмен беріңіз (градус белгісінсіз): [[1]].",
+      "explanationRu": "Каждый час на циферблате — $30^\\circ$, поэтому в $4$ ч угол равен $4 \\cdot 30^\\circ = 120^\\circ$ (тупой).",
+      "explanationKk": "Циферблатта әр сағат — $30^\\circ$, сондықтан $4$ сағатта бұрыш $4 \\cdot 30^\\circ = 120^\\circ$ (доғал).",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        { "placeholder": "[[1]]", "answer": "120", "matchMode": "NUMERIC_TOLERANCE", "tolerance": 0 }
+      ],
+      "sourceRuleIds": ["PDF_p145_2"]
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "bodyRu": "На рисунке угол $ABC$ — прямой. Лучи $BD$ и $BE$ проходят между его сторонами так, что луч $BD$ лежит между $BA$ и $BE$, а луч $BE$ — между $BD$ и $BC$. Известно: $\\angle ABD = 20^\\circ$, $\\angle EBC = 35^\\circ$. Найдите градусную меру угла $DBE$. Ответ дайте числом (без знака градуса): [[1]].",
+      "bodyKk": "Суретте $ABC$ бұрышы — тік. $BD$ және $BE$ сәулелері оның қабырғаларының арасынан өтеді: $BD$ сәулесі $BA$ мен $BE$ арасында, ал $BE$ сәулесі $BD$ мен $BC$ арасында жатыр. Берілгені: $\\angle ABD = 20^\\circ$, $\\angle EBC = 35^\\circ$. $DBE$ бұрышының градустық өлшемін табыңыз. Жауапты санмен беріңіз (градус белгісінсіз): [[1]].",
+      "explanationRu": "Прямой угол равен $90^\\circ$: $\\angle DBE = 90^\\circ - 20^\\circ - 35^\\circ = 35$.",
+      "explanationKk": "Тік бұрыш $90^\\circ$-қа тең: $\\angle DBE = 90^\\circ - 20^\\circ - 35^\\circ = 35$.",
+      "source": "Алдамуратова, 5 кл, ч.2, стр. 143-149",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        { "placeholder": "[[1]]", "answer": "35", "matchMode": "NUMERIC_TOLERANCE", "tolerance": 0 }
+      ],
+      "sourceRuleIds": ["PDF_p144_2"]
+    }
+  ]
+}

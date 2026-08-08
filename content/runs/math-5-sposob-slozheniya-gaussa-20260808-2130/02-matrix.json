@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-sposob-slozheniya-gaussa-20260808-2130",
+  "typeMixPlanned": { "SCQ": 6, "MCQ": 3, "FILL_IN": 1 },
+  "difficultyMixPlanned": { "1": 1, "2": 1, "3": 5, "4": 2, "5": 1 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Факт: сумма 1…100 способом Гаусса",
+      "stemIdea": "По рассказу о Гауссе выбрать верный результат суммы всех натуральных от 1 до 100",
+      "trapIdeas": [
+        "Ученик путает с 100·50=5000 без прибавления 1 в паре",
+        "Ученик берёт 101·100 вместо 101·50",
+        "Ученик называет сумму пар (101), а не полную сумму"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p34_1"],
+      "sourceExampleRefs": ["p34#ex2"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Число пар и сумма пары без полного сложения",
+      "stemIdea": "Для суммы 1…n (n чётное) не вычисляя всю сумму выбрать верное: сколько пар и чему равна каждая пара",
+      "trapIdeas": [
+        "Ученик считает число пар равным n, а не n/2",
+        "Ученик берёт сумму пары n вместо n+1",
+        "Ученик путает сумму пары с числом пар"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p34_2"],
+      "sourceExampleRefs": ["p34#ex2"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сумма отрезка ряда через пары Гаусса",
+      "stemIdea": "Найти сумму натуральных от a до b (чётная длина отрезка, свежие границы — не клон 11…20/41…50) как (первое+последнее)·(число пар)",
+      "trapIdeas": [
+        "Ученик ошибся в числе пар (взял b−a вместо (b−a+1)/2)",
+        "Ученик взял сумму пары a+b±1",
+        "Ученик сложил только крайние и забыл умножить на число пар"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p35_1", "PDF_p34_3"],
+      "sourceExampleRefs": ["p35#1"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Восстановление пропущенного шага пар",
+      "stemIdea": "В готовой схеме пар для короткого отрезка ряда восстановить пропущенную сумму пары или пропущенное число пар",
+      "trapIdeas": [
+        "Ученик восстанавливает число членов отрезка вместо числа пар",
+        "Ученик берёт сумму соседних подряд идущих вместо первого с последним",
+        "Ученик пишет разность крайних вместо их суммы"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p34_2", "PDF_p34_3"],
+      "sourceExampleRefs": ["p34#ex1"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Поиск ошибки в чужом парном сложении",
+      "stemIdea": "Дан чужой расчёт суммы отрезка «способом Гаусса» с одной ошибкой — выбрать, где ошибка (пары / сумма пары / умножение)",
+      "trapIdeas": [
+        "Ученик принимает неверное число пар как верное",
+        "Ученик считает верной сумму пары первого со вторым",
+        "Ученик не замечает, что забыли умножить сумму пары на число пар"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p34_2"],
+      "sourceExampleRefs": ["p34#ex1"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 5,
+      "skillFocus": "Обратная задача: край ряда по сумме подряд",
+      "stemIdea": "Даны сумма k подряд идущих натуральных (шаг 1), одно из крайних и k; найти другое крайнее через пары / сумму прогрессии — структура №5–7, другие числа",
+      "trapIdeas": [
+        "Ученик делит сумму на k и берёт среднее как ответ без учёта крайних",
+        "Ученик строит ряд с шагом 2 вместо 1",
+        "Ученик находит первое/последнее, перепутав направление «на один больше/меньше»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p35_1"],
+      "sourceExampleRefs": ["p35#5", "p35#7"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q07",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные утверждения о методе пар Гаусса",
+      "stemIdea": "Отметить все верные описания метода: первое с последним, равные суммы пар, сумма = (сумма пары)·(число пар) — без названий свойств 1.6",
+      "trapIdeas": [
+        "Ученик отмечает «пары — соседние подряд» как верное",
+        "Ученик считает, что суммы разных пар обязаны быть разными",
+        "Ученик путает метод пар с переместительным/сочетательным свойством сложения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p34_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q08",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Сравнение нескольких сумм отрезков через пары",
+      "stemIdea": "Дано несколько коротких сумм «от … до …»; отметить все, чья сумма парным способом равна заданному числу (или все верно посчитанные)",
+      "trapIdeas": [
+        "Ученик отмечает отрезок с неверной длиной (нечётное число членов без оговорки)",
+        "Ученик сравнивает только суммы пар, игнорируя число пар",
+        "Ученик отмечает отрезок с той же суммой пары, но другим числом пар"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p35_1"],
+      "sourceExampleRefs": ["p35#1"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q09",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Сюжетные суммы подряд через пары",
+      "stemIdea": "Бытовой сюжет: несколько кучек/букетов с разными подряд количествами (шаг ±1 или ±2); отметить все верные выводы о сумме / крайнем — структура №5–8, свежие числа",
+      "trapIdeas": [
+        "Ученик складывает как арифметическую сумму без учёта шага",
+        "Ученик верно находит пары, но ошибается в числе пар для нечётного k",
+        "Ученик путает наименьшее и наибольшее количество"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p35_1"],
+      "sourceExampleRefs": ["p35#6", "p35#8"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q10",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "skillFocus": "Числовой ответ: сумма 1…n или a…b парами",
+      "stemIdea": "Вычислить одну конкретную сумму натуральных отрезка способом Гаусса — одно число (не копия 5050/455)",
+      "trapIdeas": [
+        "Ученик записал (n+1)·n вместо (n+1)·(n/2)",
+        "Ученик ошибся в числе пар на ±1",
+        "Ученик взял сумму пары a+b и остановился"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p34_4", "PDF_p34_2"],
+      "sourceExampleRefs": ["p34#ex2"],
+      "questionForm": "compute"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "count=10 = recommendedMaxCount; typeMix SCQ6/MCQ3/FILL_IN1 и difficulty 1/1/5/2/1 из brief. Опора на primary PDF_p34_1–4 и PDF_p35_1 (verbatim); RC_* нет. Фокус: пары первого с последним и суммы отрезков/прогрессий; №2–4 (группировка a·b−b·c) и названия свойств 1.6 не в слотах — anti-dup vs C7. Anti-dup vs C4: нет терминов слагаемое/уменьшаемое, столбика и луча. questionForm ≤2: recall1 predict1 compute2 restore1 verify2 inverse1 compare1 word_problem1. needsIllustration все false (visual-topics: парное сложение чисел формулируется текстом)."
+}

@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-nahozhdenie-protsentov-ot-chisla-20260808-1000",
+  "reviewedAt": "2026-08-08T11:20:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 29,
+    "fixed": 1,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "A — выразить % дробью и умножить число на дробь",
+      "keyAnswer": "A — Нужно выразить проценты дробью и умножить данное число на эту дробь",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "B — b = a·P/100",
+      "keyAnswer": "B — $b = a \\cdot \\dfrac{P}{100}$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "40 (=160·1/4)",
+      "keyAnswer": "A — 40",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "28 (1%=0,8; 0,8·35=28)",
+      "keyAnswer": "B — 28",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "D — умножить 75 на 40/100",
+      "keyAnswer": "D — Умножить $75$ на $\\dfrac{40}{100}$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "B — 5:100=0,05 (1%)",
+      "keyAnswer": "B — $5 : 100 = 0{,}05$ ($1\\%$)",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "45 (=250·0,18)",
+      "keyAnswer": "[[1]] = 45",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "3,6 (=40·0,09)",
+      "keyAnswer": "[[1]] = 3,6",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "16 (=64·0,25)",
+      "keyAnswer": "[[1]] = 16",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "22 (6+16)",
+      "keyAnswer": "B — 22",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "7,8 кг (=12·0,65)",
+      "keyAnswer": "B — 7,8 кг",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "B — 80·0,15=12",
+      "keyAnswer": "B — $80 \\cdot 0{,}15 = 12$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "A — 40%=2/5; 50·2/5=20",
+      "keyAnswer": "A — $40\\% = \\dfrac{2}{5}$; $50 \\cdot \\dfrac{2}{5} = 20$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "D — 30% от 80 больше (24>16)",
+      "keyAnswer": "D — $30\\%$ от $80$ больше",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "30 (=75·0,4)",
+      "keyAnswer": "B — 30",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "status": "accepted",
+      "solvedAnswer": "4,5 (=450:100)",
+      "keyAnswer": "A — 4,5",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "0,45",
+      "keyAnswer": "D — 0,45",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "fixed",
+      "solvedAnswer": "A — (a:100)·P = a·P/100",
+      "keyAnswer": "A — $(a : 100) \\cdot P = a \\cdot \\dfrac{P}{100}$ — один и тот же результат",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "duplicate_body",
+          "severity": "major",
+          "message": "Исходный bodyRu «Какое утверждение верно?» совпадал с content/runs/math-5-perevod-des-i-obykn-drobi-20260804-1752/05-questions.final.json#q01; stem расширен до смысла слота (равноценность 1% и ·P/100)."
+        }
+      ],
+      "fixApplied": "Расширены bodyRu/bodyKk: явно указана связь пути через 1% и умножения на P/100; ключ A и варианты без изменений."
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A,C",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "A,B,C",
+      "keyAnswer": "A, B, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "A,B",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "A — 180 > 30",
+      "keyAnswer": "A — Число на $20\\%$ больше $150$ больше, чем $20\\%$ от $150$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "3780 (=3500·1,08)",
+      "keyAnswer": "B — 3780 тг",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "0,85",
+      "keyAnswer": "B — 0,85",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A,C",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "A,C",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "A,B,C (медь 6, олово 2, разность 4)",
+      "keyAnswer": "A, B, C",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "A,B (Pn/100=0,12; S3=2 240 000)",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "accepted",
+      "solvedAnswer": "A,B,D (автобус 60, остаток 140, пешком 28; C неверно)",
+      "keyAnswer": "A, B, D",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "A,B (100; 40% от 100 = 40)",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

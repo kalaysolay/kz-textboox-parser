@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-istor-arifmeticheskih-deystviy-20260808-2030",
+  "typeMixPlanned": { "SCQ": 6, "MCQ": 3, "FILL_IN": 1 },
+  "difficultyMixPlanned": { "1": 1, "2": 1, "3": 5, "4": 2, "5": 1 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Этимология слова «арифметика»",
+      "stemIdea": "Коротко: от какого греческого слова произошло «арифметика» и что оно значит",
+      "trapIdeas": [
+        "Ученик думает, что «арифмос» значит «действие» или «вычисление»",
+        "Ученик относит происхождение к латыни (plus/minus) вместо греческого",
+        "Ученик путает с геометрией и отвечает, что слово значит «земля»/«фигура»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p28_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Знаки арифметических действий vs равенства/неравенства",
+      "stemIdea": "Не вычисляя: среди перечисленных символов выбрать, какие именно учебник называет знаками арифметических действий (+, −, ·, :)",
+      "trapIdeas": [
+        "Ученик включает = в список знаков арифметических действий",
+        "Ученик включает > или < как знаки действий",
+        "Ученик забывает · или : и оставляет только + и −"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p28_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Проверка факта о Видмане и знаках +/−",
+      "stemIdea": "Дано чужое утверждение про автора/год знаков + и −; найти ошибку (год, учёный или «знаков не было до XV в.»)",
+      "trapIdeas": [
+        "Ученик принимает год/автора Оутреда (×, 1631) для знаков + и −",
+        "Ученик считает, что общепринятые знаки +/− были уже до XV века",
+        "Ученик приписывает +/− Лейбницу вместо Я. Видмана"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p28_4"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Хронология появления +/− и ×",
+      "stemIdea": "Сравнить по учебнику: что появилось раньше — современные знаки +/− (Видман) или знак × (Оутред)",
+      "trapIdeas": [
+        "Ученик путает века XV и XVII и ставит × раньше",
+        "Ученик меняет местами годы 1489 и 1631",
+        "Ученик думает, что знак умножения «должен» быть раньше сложения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p28_4", "PDF_p28_6"],
+      "sourceExampleRefs": [],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Годы Лейбница для знаков : и ·",
+      "stemIdea": "В коротком утверждении о Лейбнице пропущена одна дата (1684 для : или 1698 для ·) — восстановить пропуск",
+      "trapIdeas": [
+        "Ученик путает 1684 и 1698 местами",
+        "Ученик подставляет 1631 (Оутред, ×) вместо года Лейбница",
+        "Ученик подставляет 1557 (Рекорд, =) как год введения :"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p28_7"],
+      "sourceExampleRefs": [],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Автор знака равенства =",
+      "stemIdea": "Дан знак = и намёк «английский врач и математик, XVI век» — кто ввёл обозначение (не путать с тем, кто позже распространил)",
+      "trapIdeas": [
+        "Ученик называет Лейбница, потому что тот позднее распространил знак",
+        "Ученик называет Т. Гарриота (знаки неравенства)",
+        "Ученик называет Видмана или Оутреда"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p28_8"],
+      "sourceExampleRefs": [],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q07",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Этимология plus / minus и арифмос",
+      "stemIdea": "Отметить все верные утверждения: арифмос = число; plus = больше; minus = меньше (без лишних биографий)",
+      "trapIdeas": [
+        "Ученик принимает «plus = меньше» или «minus = больше»",
+        "Ученик думает, что «арифмос» значит «плюс» или «сложение»",
+        "Ученик относит plus/minus к греческому, а арифмос — к латыни"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p28_1", "PDF_p28_3"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q08",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Этапы истории способа сложения",
+      "stemIdea": "По краткому «историческому рассказу» отметить все верные этапы: Индия слева направо; Франция, сер. XIII в., справа налево; современный способ — XV в.",
+      "trapIdeas": [
+        "Ученик меняет направления сложения у Индии и Франции местами",
+        "Ученик относит современный способ к XIII веку",
+        "Ученик думает, что слева направо впервые применили во Франции"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p28_5"],
+      "sourceExampleRefs": [],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q09",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Сопоставление знак ↔ автор (равенство, неравенство, таблицы)",
+      "stemIdea": "Отметить все верные пары/факты: = — Р. Рекорд (1557); >/ < — Т. Гарриот (1-я пол. XVII в.); таблица 1–10 — Никомах «Арифметика» (I–II вв.)",
+      "trapIdeas": [
+        "Ученик приписывает >/ < Рекорду или = Гарриоту",
+        "Ученик думает, что знаки неравенства ввёл Лейбниц",
+        "Ученик относит таблицу 1–10 только к Вавилону без Никомаха или путает века"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p28_8", "PDF_p29_1", "PDF_p29_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q10",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Год введения знака × Оутредом",
+      "stemIdea": "Вписать год, когда В. Оутред ввёл обозначение знака умножения × — однозначный числовой ответ",
+      "trapIdeas": [
+        "Ученик пишет 1489 (Видман, +/−)",
+        "Ученик пишет 1684 или 1698 (Лейбниц)",
+        "Ученик пишет 1557 (Рекорд, =)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p28_6"],
+      "sourceExampleRefs": [],
+      "questionForm": "restore"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "Count 10 = recommendedMaxCount; typeMix SCQ6/MCQ3/FILL_IN1 и difficulty 1/1/5/2/1 как в brief. Опора только на primary PDF_p28_1–8 и PDF_p29_1–2 (verbatim); RC_* нет. Тема — доп. чтение: факты знак↔автор↔год/век и этимология, без техники действий. needsIllustration все false (visual-topics: текст истории полон без диаграммы). questionForm ≤2: recall×2, predict×1, verify×1, compare×2, restore×2, inverse×1, word_problem×1. Anti-dup vs C3 istor-sistemy-schisleniya: нет Боэция, позиционных систем, римских/египетских цифр. Anti-dup vs C1–C5: нет вычислений +/−/·/:, сравнения чисел, луча, разрядов — только история знаков и терминов из среза."
+}

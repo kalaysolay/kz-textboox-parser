@@ -1,0 +1,352 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-ugol-gradusnaya-mera-20260808-1230",
+  "reviewedAt": "2026-08-08T12:50:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 30,
+    "fixed": 0,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "Угол",
+      "keyAnswer": "B — Угол",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "Градусами, знаком °",
+      "keyAnswer": "C — Градусами, знаком °",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "180°",
+      "keyAnswer": "D — $180^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "∠AMB",
+      "keyAnswer": "C — $\\angle AMB$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "54° (2·27)",
+      "keyAnswer": "C — $54^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "Развёрнутый угол, 180°",
+      "keyAnswer": "B — Развёрнутый угол, $180^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "83° (36+47)",
+      "keyAnswer": "D — $83^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "115° (180−65)",
+      "keyAnswer": "B — $115^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "59° (96−37)",
+      "keyAnswer": "C — $59^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "Точка R (внешняя область; фигура illustrator)",
+      "keyAnswer": "C — Точка $R$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "∠EOF = ∠FOK",
+      "keyAnswer": "B — $\\angle EOF = \\angle FOK$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "∠APB, ∠BPC, ∠APC",
+      "keyAnswer": "C — $\\angle APB$, $\\angle BPC$, $\\angle APC$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "42° (84:2)",
+      "keyAnswer": "D — $42^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "25° и 50° (x+2x=75)",
+      "keyAnswer": "B — $25^\\circ$ и $50^\\circ$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "∠ABC = ∠ABD + ∠DBC (33+41=74)",
+      "keyAnswer": "C — $\\angle ABC = \\angle ABD + \\angle DBC$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "solvedAnswer": "44° (x+(x+48)=136 → 2x=88 → x=44)",
+      "keyAnswer": "B — $44^\\circ$",
+      "matchesKey": true,
+      "status": "accepted",
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "45° (100+125−180)",
+      "keyAnswer": "D — $45^\\circ$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×4, predict×4, compare×3, compute×4, word_problem×4, restore×4, verify×4, inverse×3. Стемы внутри формы разные; слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "60° (20+40)",
+      "keyAnswer": "B — $60^\\circ$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×4, predict×4, compare×3, compute×4, word_problem×4, restore×4, verify×4, inverse×3. Стемы внутри формы разные; слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A, B",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×4, predict×4, compare×3, compute×4, word_problem×4, restore×4, verify×4, inverse×3. Стемы внутри формы разные; слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "solvedAnswer": "A, C (стороны TA/TB; ∠T; не B и не D)",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "status": "accepted",
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "A, C",
+      "keyAnswer": "A, C",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×4, predict×4, compare×3, compute×4, word_problem×4, restore×4, verify×4, inverse×3. Стемы внутри формы разные; слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "A, B (34° и 34°)",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×4, predict×4, compare×3, compute×4, word_problem×4, restore×4, verify×4, inverse×3. Стемы внутри формы разные; слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "A, B, D (55°, 60°, 80°)",
+      "keyAnswer": "A, B, D",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×4, predict×4, compare×3, compute×4, word_problem×4, restore×4, verify×4, inverse×3. Стемы внутри формы разные; слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "A, B",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×4, predict×4, compare×3, compute×4, word_problem×4, restore×4, verify×4, inverse×3. Стемы внутри формы разные; слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A, B, D (15°, 25°, 60°)",
+      "keyAnswer": "A, B, D",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×4, predict×4, compare×3, compute×4, word_problem×4, restore×4, verify×4, inverse×3. Стемы внутри формы разные; слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "A, B",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×4, predict×4, compare×3, compute×4, word_problem×4, restore×4, verify×4, inverse×3. Стемы внутри формы разные; слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "A, B (55° и 55°; 2x+70=180)",
+      "keyAnswer": "A, B",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×4, predict×4, compare×3, compute×4, word_problem×4, restore×4, verify×4, inverse×3. Стемы внутри формы разные; слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "75 (48+27)",
+      "keyAnswer": "[[1]] = 75",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — recall×4, predict×4, compare×3, compute×4, word_problem×4, restore×4, verify×4, inverse×3. Стемы внутри формы разные; слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "solvedAnswer": "82 (2·41)",
+      "keyAnswer": "[[1]] = 82",
+      "matchesKey": true,
+      "status": "accepted",
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q30",
+      "solvedAnswer": "42 ((180−96)/2)",
+      "keyAnswer": "[[1]] = 42",
+      "matchesKey": true,
+      "status": "accepted",
+      "issues": [],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}
