@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <polygon points="80,120 640,120" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <polygon points="360,120 320,200 400,200" fill="rgba(100, 149, 237, 0.35)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <polygon points="180,120 180,170" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <polygon points="540,120 540,170" fill="none" stroke="#1a1a1a" stroke-width="1.75"/>
+  <polygon points="110,170 250,170 250,220 110,220" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  <polygon points="470,170 610,170 610,220 470,220" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  <polygon points="120,185 155,185 155,215 120,215" fill="rgba(100, 149, 237, 0.28)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="137" y="200" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" dominant-baseline="middle">x</text>
+  <polygon points="165,185 200,185 200,215 165,215" fill="rgba(100, 149, 237, 0.28)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="182" y="200" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" dominant-baseline="middle">x</text>
+  <polygon points="210,190 240,190 240,215 210,215" fill="rgba(160, 160, 160, 0.35)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="225" y="203" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" dominant-baseline="middle">1</text>
+  <polygon points="510,185 570,185 570,215 510,215" fill="rgba(160, 160, 160, 0.35)" stroke="#1a1a1a" stroke-width="1.75"/>
+  <text x="540" y="200" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" dominant-baseline="middle">5</text>
+</svg>

@@ -1,0 +1,523 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-uravnenie-20260809-1515",
+  "typeMixPlanned": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMixPlanned": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Определение уравнения",
+      "stemIdea": "Какое утверждение верно определяет уравнение (равенство с буквой, значение которой надо найти)",
+      "trapIdeas": [
+        "Ученик путает уравнение с числовым/буквенным выражением без знака равенства (тема 1.8)",
+        "Ученик считает уравнением любое верное числовое равенство без неизвестного",
+        "Ученик думает, что уравнение — это упрощённая запись выражения (тема 1.9)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p48_1"],
+      "sourceExampleRefs": ["p53#facts"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Определение корня уравнения",
+      "stemIdea": "Что называют корнем уравнения (значение неизвестного, дающее верное равенство)",
+      "trapIdeas": [
+        "Ученик путает корень с самой буквой-неизвестным",
+        "Ученик считает корнем любое число из уравнения (коэффициент или свободный член)",
+        "Ученик думает, что корень — это левая или правая часть уравнения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p48_3"],
+      "sourceExampleRefs": ["p53#facts"],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Отличить уравнение от выражения и числового равенства",
+      "stemIdea": "Не решая: какая из записей является уравнением",
+      "trapIdeas": [
+        "Ученик выбирает буквенное выражение без равенства (1.8)",
+        "Ученик выбирает верное числовое равенство без неизвестного",
+        "Ученик выбирает упрощённое выражение вместо уравнения (1.9)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p48_1"],
+      "sourceExampleRefs": ["p48#def"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Неизвестное слагаемое в одношаговом уравнении",
+      "stemIdea": "Найти корень уравнения вида x+a=b (или a+y=c)",
+      "trapIdeas": [
+        "Ученик складывает вместо вычитания известного слагаемого",
+        "Ученик вычитает уменьшаемое и вычитаемое в обратном порядке",
+        "Ученик делит сумму на слагаемое вместо вычитания"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p49_5"],
+      "sourceExampleRefs": ["p50#104"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Неизвестный множитель в уравнении kx=m",
+      "stemIdea": "Найти корень уравнения вида 12x=60 (произведение = число)",
+      "trapIdeas": [
+        "Ученик умножает вместо деления произведения на известный множитель",
+        "Ученик делит известный множитель на произведение",
+        "Ученик вычитает множитель из произведения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p48_5"],
+      "sourceExampleRefs": ["p50#105"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Узнать корень подстановкой без полного решения",
+      "stemIdea": "Не решая уравнение целиком: какое из чисел при подстановке даёт верное равенство",
+      "trapIdeas": [
+        "Ученик подставляет в одну часть и сравнивает с другой без вычисления",
+        "Ученик выбирает коэффициент уравнения вместо корня",
+        "Ученик проверяет только левую часть и игнорирует правую"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p48_3"],
+      "sourceExampleRefs": ["p48#9x"],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Неизвестное вычитаемое",
+      "stemIdea": "Найти корень уравнения вида 46−y=24 или a−x=c",
+      "trapIdeas": [
+        "Ученик складывает уменьшаемое и разность вместо вычитания",
+        "Ученик вычитает разность из уменьшаемого неверно (меняет порядок)",
+        "Ученик делит уменьшаемое на разность"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p49_1"],
+      "sourceExampleRefs": ["p50#104"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Двухшаговое уравнение с умножением",
+      "stemIdea": "Найти корень уравнения вида 2x−15=13 или 7y−25=45",
+      "trapIdeas": [
+        "Ученик сначала делит, не восстановив слагаемое/вычитаемое",
+        "Ученик переносит число с неправильным знаком",
+        "Ученик делит только одно слагаемое, забыв второе действие"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p48_4", "PDF_p48_5"],
+      "sourceExampleRefs": ["p50#105"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Пропущенный шаг в решении линейного уравнения",
+      "stemIdea": "В цепочке решения 9x+5=41 восстановить пропущенное равенство/число",
+      "trapIdeas": [
+        "Ученик вычитает 5 из 9x вместо переноса к 41",
+        "Ученик делит 41 на 9, забыв вычесть 5",
+        "Ученик складывает 41 и 5 вместо вычитания"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p48_4"],
+      "sourceExampleRefs": ["p48#9x"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Проверка: является ли число корнем",
+      "stemIdea": "Проверить подстановкой, верно ли утверждение «число N — корень данного уравнения»",
+      "trapIdeas": [
+        "Ученик путает проверку корня с упрощением выражения без равенства",
+        "Ученик считает верным равенство при арифметической ошибке в подстановке",
+        "Ученик проверяет только одну часть уравнения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p48_3"],
+      "sourceExampleRefs": ["p53#facts"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Левая и правая части уравнения",
+      "stemIdea": "Для данного уравнения указать, что является левой частью, правой частью и неизвестным",
+      "trapIdeas": [
+        "Ученик меняет местами левую и правую части",
+        "Ученик называет неизвестным коэффициент, а не букву",
+        "Ученик считает «частью» всё равенство целиком"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p48_2"],
+      "sourceExampleRefs": ["p48#scheme"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Неизвестное делимое в скобках",
+      "stemIdea": "Найти корень уравнения вида (x−13):7=2",
+      "trapIdeas": [
+        "Ученик делит вместо умножения частного на делитель",
+        "Ученик вычитает 13 после деления в неверном порядке",
+        "Ученик находит делитель вместо делимого"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p49_2", "PDF_p49_3"],
+      "sourceExampleRefs": ["p49#ex2"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Восстановить неизвестное уменьшаемое",
+      "stemIdea": "В решении уравнения вида x−13=14 указать пропущенное значение x или шаг x=14+13",
+      "trapIdeas": [
+        "Ученик вычитает вычитаемое из разности",
+        "Ученик умножает разность на вычитаемое",
+        "Ученик путает правило уменьшаемого с правилом вычитаемого"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p49_3"],
+      "sourceExampleRefs": ["p49#ex2"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Составить уравнение по рисунку весов",
+      "stemIdea": "По рисунку весов (пакеты и гири) выбрать верное уравнение и/или массу одного пакета",
+      "trapIdeas": [
+        "Ученик составляет уравнение без учёта гири на одной чаше",
+        "Ученик пишет 2+x вместо 2x",
+        "Ученик уравнивает число предметов, а не массы"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Без рисунка весов (пакеты/гири) условие неполное — нельзя однозначно составить модель",
+      "sourceRuleIds": ["PDF_p48_1", "PDF_p49_7"],
+      "sourceExampleRefs": ["p48#2"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Проверка шагов для неизвестного делителя",
+      "stemIdea": "Какая цепочка решения уравнения вида 72:(x+12)=4 верна",
+      "trapIdeas": [
+        "Ученик умножает делимое на частное вместо деления",
+        "Ученик вычитает 12 до нахождения делителя",
+        "Ученик путает правило делителя с правилом делимого"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p49_4", "PDF_p49_5"],
+      "sourceExampleRefs": ["p49#ex3"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Неизвестный делитель и слагаемое",
+      "stemIdea": "Найти корень уравнения вида 72:(x+12)=4 или 144:(x−3)=36",
+      "trapIdeas": [
+        "Ученик делит частное на делимое",
+        "Ученик после нахождения делителя вычитает/складывает с неверным знаком",
+        "Ученик оставляет ответ равным найденному делителю, не выделив x"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p49_4"],
+      "sourceExampleRefs": ["p51#109"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Обратный отбор уравнения по известному корню",
+      "stemIdea": "Дан корень; какое из уравнений имеет именно этот корень",
+      "trapIdeas": [
+        "Ученик выбирает уравнение, где это число — коэффициент, а не корень",
+        "Ученик не проверяет подстановкой и ориентируется на «похожие» числа",
+        "Ученик путает корень с правой частью равенства"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p48_3", "PDF_p48_4"],
+      "sourceExampleRefs": ["p53#facts"],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Уравнение по схеме отрезков",
+      "stemIdea": "По схеме отрезков (AB, AC, CD, DB) — какая длина AC / какое уравнение согласованы с данными соотношениями",
+      "trapIdeas": [
+        "Ученик выбирает уравнение без учёта «в 2 раза меньше/больше»",
+        "Ученик складывает длины, игнорируя разбиение AB",
+        "Ученик выбирает длину другого отрезка вместо AC"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Без схемы отрезков (рис. 1.26) соотношения длин в условии неполны",
+      "sourceRuleIds": ["PDF_p49_7"],
+      "sourceExampleRefs": ["p52#111.2"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные ключевые факты об уравнении и корне",
+      "stemIdea": "Какие утверждения о уравнении, корне и «решить уравнение» верны",
+      "trapIdeas": [
+        "Ученик отмечает, что уравнение — выражение без равенства",
+        "Ученик отмечает, что решить уравнение = упростить выражение (1.9)",
+        "Ученик отмечает, что корень — любая буква в записи"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p48_1", "PDF_p48_3", "PDF_p48_4"],
+      "sourceExampleRefs": ["p53#facts"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Несколько верных корней для набора уравнений",
+      "stemIdea": "Какие пары «уравнение — число» являются верными (число — корень)",
+      "trapIdeas": [
+        "Ученик отмечает пару с арифметической ошибкой подстановки",
+        "Ученик отмечает число, удовлетворяющее только одной части",
+        "Ученик путает корень с известным слагаемым/множителем"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p48_3"],
+      "sourceExampleRefs": ["p50#104", "p50#105"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верно решённые одношаговые уравнения",
+      "stemIdea": "Какие из готовых решений уравнений вида x±a=b, a±x=c, m:n=k верны",
+      "trapIdeas": [
+        "Ученик отмечает решение с перепутанным правилом слагаемого/вычитаемого",
+        "Ученик отмечает деление вместо умножения для делимого",
+        "Ученик отмечает ответ без проверки подстановкой при явной ошибке"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p49_5", "PDF_p49_1", "PDF_p48_5"],
+      "sourceExampleRefs": ["p50#104"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Верные решения уравнений со скобками",
+      "stemIdea": "Какие решения уравнений вида (x−16)·9=126 или 28·(x+5)=224 верны",
+      "trapIdeas": [
+        "Ученик отмечает шаг, где неизвестный множитель найден сложением, а не делением",
+        "Ученик отмечает перенос числа через скобку с неверным знаком",
+        "Ученик отмечает ответ, равный содержимому скобок, а не x"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p48_5", "PDF_p49_2"],
+      "sourceExampleRefs": ["p51#109"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Шаги алгоритма решения текстовой задачи уравнением",
+      "stemIdea": "Какие шаги из списка входят в алгоритм решения задачи с помощью уравнений",
+      "trapIdeas": [
+        "Ученик отмечает «упростить выражение» как отдельную цель без уравнения (1.9)",
+        "Ученик пропускает проверку решения задачи",
+        "Ученик считает достаточным только найти x без ответа на вопросы задачи"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p49_7"],
+      "sourceExampleRefs": ["p49#algo"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Верные уравнения-модели по текстовому условию",
+      "stemIdea": "По сюжету (рыба/вагоны/ткань) — какие уравнения корректно моделируют условие",
+      "trapIdeas": [
+        "Ученик составляет модель без «половины» или «на 2 меньше»",
+        "Ученик пишет выражение без знака равенства",
+        "Ученик путает, что обозначено за x"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p49_7"],
+      "sourceExampleRefs": ["p50#106", "p50#107"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Упрощение подобных внутри уравнения как шаг к корню",
+      "stemIdea": "Для уравнений вида (12m−5m)·4=252 — какие следующие шаги/корни верны (цель — корень, не «голое» упрощение)",
+      "trapIdeas": [
+        "Ученик отмечает только упрощение скобок без поиска корня (дубль 1.9)",
+        "Ученик ошибается в коэффициенте подобных и получает неверный корень",
+        "Ученик делит/умножает до упрощения скобок и ломает равенство"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p48_4"],
+      "sourceExampleRefs": ["p51#110"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Проверка корней уравнений с повторным умножением",
+      "stemIdea": "Какие значения являются корнями уравнений вида x·x+60=85 или (x·x−23)·9=117",
+      "trapIdeas": [
+        "Ученик путает x·x с 2x",
+        "Ученик отмечает корень без проверки подстановкой после извлечения",
+        "Ученик делит на 9 до вычитания 23 внутри скобок"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p48_3", "PDF_p48_4"],
+      "sourceExampleRefs": ["p52#115"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Несколько верных следствий модели «сад / рыбаки»",
+      "stemIdea": "По условию с несколькими видами (кусты или рыбы) — какие уравнения и/или ответы согласованы с моделью",
+      "trapIdeas": [
+        "Ученик неверно переводит «в 2 раза больше/меньше» в коэффициент",
+        "Ученик забывает одно слагаемое в сумме частей",
+        "Ученик отвечает на другой вопрос задачи (другой вид)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p49_7"],
+      "sourceExampleRefs": ["p51#111", "p52#112"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Числовой корень одношагового уравнения",
+      "stemIdea": "Решить уравнение вида x−61=17 или m:21=10 и записать корень",
+      "trapIdeas": [
+        "Ученик применяет правило слагаемого к вычитаемому",
+        "Ученик для частного делит делитель на делимое",
+        "Ученик записывает в ответ правую часть уравнения вместо корня"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p49_5", "PDF_p49_1"],
+      "sourceExampleRefs": ["p50#104"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "skillFocus": "Корень уравнения со скобками (множитель + вычитаемое)",
+      "stemIdea": "Решить уравнение вида (45−x)·3=93 и записать корень",
+      "trapIdeas": [
+        "Ученик умножает 93 на 3 вместо деления",
+        "Ученик после 45−x=31 складывает вместо вычитания",
+        "Ученик останавливается на значении (45−x), не найдя x"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p48_5", "PDF_p49_1"],
+      "sourceExampleRefs": ["p48#ex1"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Числовой ответ текстовой задачи через уравнение",
+      "stemIdea": "По сюжету (возраста / сын–отец / покупка в тенге) составить уравнение, найти требуемую величину",
+      "trapIdeas": [
+        "Ученик не приводит единицы (месяцы/годы) к одной системе (PDF_p49_6)",
+        "Ученик теряет одно слагаемое в сумме возрастов/стоимостей",
+        "Ученик находит x, но отвечает не на тот вопрос задачи"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p49_7", "PDF_p49_6"],
+      "sourceExampleRefs": ["p50#ages", "p52#113"],
+      "questionForm": "word_problem"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "Опора: 12 primary PDF-правил 1.10 (определение, части, корень, решить, компоненты действий, единицы, алгоритм задачи). Prerequisite PDF_p43_prereq только в trapIdeas (q01/q03/q19/q25). Anti-dup vs pack C 1.8/1.9: фокус на уравнение/корень/решение; упрощение — лишь шаг внутри уравнения (q25), не «голое» упрощение/вычисление выражения. recommendedMaxCount null → count 30. G017: при 30 слотах лимит ≤2 на questionForm превышен (recall×2, predict×2, compute×7, restore×3, verify×7, compare×4, word_problem×4, inverse×1). illustrationPolicy visual-topics: needsIllustration true только у q14 (весы) и q18 (схема отрезков). Не брать s=v·t (1.11). Методист: короткие однозначные стемы 5 класса."
+}

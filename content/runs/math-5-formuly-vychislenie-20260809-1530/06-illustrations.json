@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-formuly-vychislenie-20260809-1530",
+  "sourceFinal": "05-questions.final.json",
+  "styleProfile": "aldamuratova-textbook-simple",
+  "items": [
+    {
+      "localId": "q16",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "polygon",
+      "purpose": "Треугольник ABC в прямоугольнике с высотой 6 и отрезками основания 4 и 8 (рис. 1.31); площади 72/36 только в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q16.svg",
+        "format": "svg",
+        "width": 600,
+        "height": 400,
+        "raster": {
+          "path": "illustrations/q16.png",
+          "format": "png"
+        }
+      },
+      "scene": {
+        "kind": "polygon",
+        "width": 600,
+        "height": 400,
+        "figures": [
+          {
+            "fill": false,
+            "showVertices": false,
+            "strokeWidth": 1.75,
+            "vertices": [
+              { "id": "D", "x": 100, "y": 128 },
+              { "id": "E", "x": 484, "y": 128 },
+              { "id": "C", "x": 484, "y": 320 },
+              { "id": "A", "x": 100, "y": 320 }
+            ]
+          },
+          {
+            "fillSoft": "rgba(100, 149, 237, 0.22)",
+            "showVertices": true,
+            "cx": 292,
+            "cy": 224,
+            "vertices": [
+              { "id": "A", "x": 100, "y": 320 },
+              { "id": "B", "x": 228, "y": 128 },
+              { "id": "C", "x": 484, "y": 320 }
+            ],
+            "labelOffsets": {
+              "A": { "x": -18, "y": 18 },
+              "B": { "x": 0, "y": -22 },
+              "C": { "x": 18, "y": 18 }
+            }
+          },
+          {
+            "fill": false,
+            "showVertices": false,
+            "vertices": [{ "id": "H", "x": 228, "y": 320 }]
+          },
+          {
+            "fill": false,
+            "showVertices": false,
+            "vertices": [
+              { "id": "", "x": 163, "y": 352 },
+              { "id": "", "x": 165, "y": 352 }
+            ],
+            "caption": "4",
+            "captionX": 164,
+            "captionY": 352
+          },
+          {
+            "fill": false,
+            "showVertices": false,
+            "vertices": [
+              { "id": "", "x": 355, "y": 352 },
+              { "id": "", "x": 357, "y": 352 }
+            ],
+            "caption": "8",
+            "captionX": 356,
+            "captionY": 352
+          },
+          {
+            "fill": false,
+            "showVertices": false,
+            "vertices": [
+              { "id": "", "x": 198, "y": 224 },
+              { "id": "", "x": 200, "y": 224 }
+            ],
+            "caption": "6",
+            "captionX": 199,
+            "captionY": 224
+          }
+        ],
+        "globalSegments": [{ "from": "B", "to": "H", "dashed": true }]
+      },
+      "notes": "Stem already has h=6, base 4+8 after reviewer fix; figure mirrors рис. 1.31 + completed rectangle. Areas 72/36 not drawn."
+    }
+  ]
+}

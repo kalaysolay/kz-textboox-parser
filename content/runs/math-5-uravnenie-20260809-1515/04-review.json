@@ -1,0 +1,436 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-uravnenie-20260809-1515",
+  "reviewedAt": "2026-08-09T15:35:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 30,
+    "fixed": 0,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "C — равенство с буквой, значение которой надо найти",
+      "keyAnswer": "C — Равенство, содержащее букву, значение которой надо найти",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "B — значение неизвестного, дающее верное равенство",
+      "keyAnswer": "B — Значение неизвестного, дающее верное равенство",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "C — $7x-3=18$ (равенство с неизвестным)",
+      "keyAnswer": "C — $7x-3=18$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "18 (47−29)",
+      "keyAnswer": "B — $18$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Стемы внутри формы разные (разные уравнения/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "5 (75:15)",
+      "keyAnswer": "B — $5$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Стемы внутри формы разные (разные уравнения/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "4 (8·4+5=37; 8,5,37 не корни)",
+      "keyAnswer": "C — $4$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "27 (58−31)",
+      "keyAnswer": "B — $27$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Стемы внутри формы разные (разные уравнения/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "10 (4x=40; x=10)",
+      "keyAnswer": "A — $10$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Стемы внутри формы разные (разные уравнения/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "$9x=41-5$",
+      "keyAnswer": "C — $9x=41-5$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Стемы внутри формы разные (разные уравнения/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "Нет: 5·5−8=17≠22",
+      "keyAnswer": "A — Нет: при $x=5$ получается $17\\neq 22$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Стемы внутри формы разные (разные уравнения/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "B — левая $7y-4$, правая $24$, неизвестное $y$",
+      "keyAnswer": "B — Левая часть — $7y-4$, правая — $24$, неизвестное — $y$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Стемы внутри формы разные (разные уравнения/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "35 (x−15=20; x=35)",
+      "keyAnswer": "D — $35$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Стемы внутри формы разные (разные уравнения/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "$x=26+17$",
+      "keyAnswer": "B — $x=26+17$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Стемы внутри формы разные (разные уравнения/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "$2x+1=5$ (2 пакета +1 кг = 5 кг)",
+      "keyAnswer": "C — $2x+1=5$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Стемы внутри формы разные (разные уравнения/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "C — x+12=72:4; …; x=6",
+      "keyAnswer": "C — $x+12=72:4$; $x+12=18$; $x=18-12$; $x=6$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Стемы внутри формы разные (разные уравнения/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "status": "accepted",
+      "solvedAnswer": "4 (x+8=12; x=4)",
+      "keyAnswer": "B — $4$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Стемы внутри формы разные (разные уравнения/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "B — $3x+2=17$ (при x=5)",
+      "keyAnswer": "B — $3x+2=17$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "7 см (x+(x+4)+2(x+4)=40 ⇒ x=7)",
+      "keyAnswer": "A — $7$ см",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Стемы внутри формы разные (разные уравнения/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "A,C",
+      "keyAnswer": "A,C",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Стемы внутри формы разные (разные уравнения/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "A,B,D (C: 46−70≠24)",
+      "keyAnswer": "A,B,D",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Стемы внутри формы разные (разные уравнения/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "A,B,D (C: x=28−54 неверно)",
+      "keyAnswer": "A,B,D",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Стемы внутри формы разные (разные уравнения/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "A,C (корни 30 и 3)",
+      "keyAnswer": "A,C",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Стемы внутри формы разные (разные уравнения/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "A,C,D",
+      "keyAnswer": "A,C,D",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Стемы внутри формы разные (разные уравнения/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "A,B (половина=5 ⇒ сумма=10)",
+      "keyAnswer": "A,B",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Стемы внутри формы разные (разные уравнения/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A,C (m=9)",
+      "keyAnswer": "A,C",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Стемы внутри формы разные (разные уравнения/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "A,B (x=5 и x=6)",
+      "keyAnswer": "A,B",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Стемы внутри формы разные (разные уравнения/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "A,B (x=5; 8; 16)",
+      "keyAnswer": "A,B",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Стемы внутри формы разные (разные уравнения/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "82 (28+54)",
+      "keyAnswer": "[[1]] = 82",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Стемы внутри формы разные (разные уравнения/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "accepted",
+      "solvedAnswer": "20 (52−32)",
+      "keyAnswer": "[[1]] = 20",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Стемы внутри формы разные (разные уравнения/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "4 (отец 48 лет; сын 48 мес = 4 года)",
+      "keyAnswer": "[[1]] = 4",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Стемы внутри формы разные (разные уравнения/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

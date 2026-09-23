@@ -1,0 +1,1000 @@
+[
+  {
+    "id": "C1",
+    "name": "math-5-koordinatnyy-luch-20260808-1800",
+    "dirExists": true,
+    "files": {
+      "00": true,
+      "01": true,
+      "02": true,
+      "03": true,
+      "04": true,
+      "05": true,
+      "06": true
+    },
+    "qCount": 30,
+    "typeCounts": {
+      "SCQ": 18,
+      "MCQ": 9,
+      "FILL_IN": 3,
+      "other": 0
+    },
+    "accepted": 22,
+    "fixed": 8,
+    "rejected": 0,
+    "verdict": "ready_for_import",
+    "rejectRate": 0,
+    "summary": {
+      "total": 30,
+      "accepted": 22,
+      "fixed": 8,
+      "rejected": 0,
+      "rejectRate": 0
+    },
+    "reviewTop": [
+      "schemaVersion",
+      "runId",
+      "reviewedAt",
+      "summary",
+      "items",
+      "duplicates",
+      "verdict"
+    ],
+    "sourceReliability": null,
+    "sliceTop": [
+      "schemaVersion",
+      "runId",
+      "textbook",
+      "unit",
+      "textbookRef",
+      "rules",
+      "verbatimExamples",
+      "structuralExamples",
+      "generatorProfile",
+      "blockStructureNotes",
+      "sliceStatus",
+      "recommendedMaxCount",
+      "gaps",
+      "ocrConfidence"
+    ],
+    "needIll": 12,
+    "slotSample": [
+      "localId",
+      "type",
+      "difficulty",
+      "skillFocus",
+      "stemIdea",
+      "trapIdeas",
+      "needsIllustration",
+      "illustrationReason",
+      "sourceRuleIds",
+      "sourceExampleRefs",
+      "questionForm"
+    ],
+    "ill": {
+      "ready": 12,
+      "blocked": [],
+      "missingSvg": [],
+      "missingPng": [],
+      "statuses": {
+        "ready": 12
+      },
+      "itemCount": 12
+    },
+    "illTop": [
+      "schemaVersion",
+      "runId",
+      "sourceFinal",
+      "styleProfile",
+      "items"
+    ],
+    "illItemKeys": [
+      "localId",
+      "status",
+      "role",
+      "sceneKind",
+      "purpose",
+      "answerLeakCheck",
+      "asset",
+      "scene",
+      "notes"
+    ],
+    "illOnDisk": [
+      "q07.png",
+      "q07.svg",
+      "q08.png",
+      "q08.svg",
+      "q11.png",
+      "q11.svg",
+      "q13.png",
+      "q13.svg",
+      "q14.png",
+      "q14.svg",
+      "q16.png",
+      "q16.svg",
+      "q20.png",
+      "q20.svg",
+      "q21.png",
+      "q21.svg",
+      "q23.png",
+      "q23.svg",
+      "q24.png",
+      "q24.svg",
+      "q28.png",
+      "q28.svg",
+      "q30.png",
+      "q30.svg",
+      "_scenes"
+    ]
+  },
+  {
+    "id": "C2",
+    "name": "math-5-sravnenie-naturalnyh-chisel-20260808-1830",
+    "dirExists": true,
+    "files": {
+      "00": true,
+      "01": true,
+      "02": true,
+      "03": true,
+      "04": true,
+      "05": true,
+      "06": true
+    },
+    "qCount": 30,
+    "typeCounts": {
+      "SCQ": 18,
+      "MCQ": 9,
+      "FILL_IN": 3,
+      "other": 0
+    },
+    "accepted": 28,
+    "fixed": 2,
+    "rejected": 0,
+    "verdict": "ready_for_import",
+    "rejectRate": 0,
+    "summary": {
+      "total": 30,
+      "accepted": 28,
+      "fixed": 2,
+      "rejected": 0,
+      "rejectRate": 0
+    },
+    "reviewTop": [
+      "schemaVersion",
+      "runId",
+      "reviewedAt",
+      "summary",
+      "items",
+      "duplicates",
+      "verdict"
+    ],
+    "sourceReliability": null,
+    "sliceTop": [
+      "schemaVersion",
+      "runId",
+      "textbook",
+      "unit",
+      "textbookRef",
+      "rules",
+      "verbatimExamples",
+      "structuralExamples",
+      "generatorProfile",
+      "blockStructureNotes",
+      "sliceStatus",
+      "recommendedMaxCount",
+      "gaps",
+      "ocrConfidence"
+    ],
+    "needIll": 3,
+    "slotSample": [
+      "localId",
+      "type",
+      "difficulty",
+      "skillFocus",
+      "stemIdea",
+      "trapIdeas",
+      "needsIllustration",
+      "illustrationReason",
+      "sourceRuleIds",
+      "sourceExampleRefs",
+      "questionForm"
+    ],
+    "ill": {
+      "ready": 3,
+      "blocked": [],
+      "missingSvg": [],
+      "missingPng": [],
+      "statuses": {
+        "ready": 3
+      },
+      "itemCount": 3
+    },
+    "illTop": [
+      "schemaVersion",
+      "runId",
+      "sourceFinal",
+      "styleProfile",
+      "items"
+    ],
+    "illItemKeys": [
+      "localId",
+      "status",
+      "role",
+      "sceneKind",
+      "purpose",
+      "answerLeakCheck",
+      "asset",
+      "scene",
+      "notes"
+    ],
+    "illOnDisk": [
+      "q14.png",
+      "q14.svg",
+      "q20.png",
+      "q20.svg",
+      "q25.png",
+      "q25.svg",
+      "_scenes"
+    ]
+  },
+  {
+    "id": "C3",
+    "name": "math-5-istor-sistemy-schisleniya-20260808-1900",
+    "dirExists": true,
+    "files": {
+      "00": true,
+      "01": true,
+      "02": true,
+      "03": true,
+      "04": true,
+      "05": true,
+      "06": false
+    },
+    "qCount": 12,
+    "typeCounts": {
+      "SCQ": 7,
+      "MCQ": 4,
+      "FILL_IN": 1,
+      "other": 0
+    },
+    "accepted": 9,
+    "fixed": 3,
+    "rejected": 0,
+    "verdict": "ready_for_import",
+    "rejectRate": 0,
+    "summary": {
+      "total": 12,
+      "accepted": 9,
+      "fixed": 3,
+      "rejected": 0,
+      "rejectRate": 0
+    },
+    "reviewTop": [
+      "schemaVersion",
+      "runId",
+      "reviewedAt",
+      "summary",
+      "items",
+      "duplicates",
+      "verdict"
+    ],
+    "sourceReliability": null,
+    "sliceTop": [
+      "schemaVersion",
+      "runId",
+      "textbook",
+      "unit",
+      "textbookRef",
+      "rules",
+      "verbatimExamples",
+      "structuralExamples",
+      "generatorProfile",
+      "blockStructureNotes",
+      "sliceStatus",
+      "recommendedMaxCount",
+      "gaps",
+      "ocrConfidence"
+    ],
+    "needIll": 0,
+    "slotSample": [
+      "localId",
+      "type",
+      "difficulty",
+      "skillFocus",
+      "stemIdea",
+      "trapIdeas",
+      "needsIllustration",
+      "illustrationReason",
+      "sourceRuleIds",
+      "sourceExampleRefs",
+      "questionForm"
+    ],
+    "ill": {
+      "ready": 0,
+      "blocked": [],
+      "missingSvg": [],
+      "missingPng": [],
+      "statuses": {},
+      "itemCount": 0
+    }
+  },
+  {
+    "id": "C4",
+    "name": "math-5-slozhenie-vychitanie-naturalnyh-20260808-1930",
+    "dirExists": true,
+    "files": {
+      "00": true,
+      "01": true,
+      "02": true,
+      "03": true,
+      "04": true,
+      "05": true,
+      "06": true
+    },
+    "qCount": 30,
+    "typeCounts": {
+      "SCQ": 18,
+      "MCQ": 9,
+      "FILL_IN": 3,
+      "other": 0
+    },
+    "accepted": 30,
+    "fixed": 0,
+    "rejected": 0,
+    "verdict": "ready_for_import",
+    "rejectRate": 0,
+    "summary": {
+      "total": 30,
+      "accepted": 30,
+      "fixed": 0,
+      "rejected": 0,
+      "rejectRate": 0
+    },
+    "reviewTop": [
+      "schemaVersion",
+      "runId",
+      "reviewedAt",
+      "summary",
+      "items",
+      "duplicates",
+      "verdict"
+    ],
+    "sourceReliability": null,
+    "sliceTop": [
+      "schemaVersion",
+      "runId",
+      "textbook",
+      "unit",
+      "textbookRef",
+      "rules",
+      "verbatimExamples",
+      "structuralExamples",
+      "generatorProfile",
+      "blockStructureNotes",
+      "sliceStatus",
+      "recommendedMaxCount",
+      "gaps",
+      "ocrConfidence"
+    ],
+    "needIll": 4,
+    "slotSample": [
+      "localId",
+      "type",
+      "difficulty",
+      "skillFocus",
+      "stemIdea",
+      "trapIdeas",
+      "needsIllustration",
+      "illustrationReason",
+      "sourceRuleIds",
+      "sourceExampleRefs",
+      "questionForm"
+    ],
+    "ill": {
+      "ready": 4,
+      "blocked": [],
+      "missingSvg": [],
+      "missingPng": [],
+      "statuses": {
+        "ready": 4
+      },
+      "itemCount": 4
+    },
+    "illTop": [
+      "schemaVersion",
+      "runId",
+      "sourceFinal",
+      "styleProfile",
+      "items"
+    ],
+    "illItemKeys": [
+      "localId",
+      "status",
+      "role",
+      "sceneKind",
+      "purpose",
+      "answerLeakCheck",
+      "asset",
+      "scene",
+      "notes"
+    ],
+    "illOnDisk": [
+      "q09.png",
+      "q09.svg",
+      "q10.png",
+      "q10.svg",
+      "q18.png",
+      "q18.svg",
+      "q26.png",
+      "q26.svg",
+      "_scenes"
+    ]
+  },
+  {
+    "id": "C5",
+    "name": "math-5-umnozhenie-delenie-naturalnyh-20260808-2000",
+    "dirExists": true,
+    "files": {
+      "00": true,
+      "01": true,
+      "02": true,
+      "03": true,
+      "04": true,
+      "05": true,
+      "06": false
+    },
+    "qCount": 30,
+    "typeCounts": {
+      "SCQ": 18,
+      "MCQ": 9,
+      "FILL_IN": 3,
+      "other": 0
+    },
+    "accepted": 29,
+    "fixed": 1,
+    "rejected": 0,
+    "verdict": "ready_for_import",
+    "rejectRate": 0,
+    "summary": {
+      "total": 30,
+      "accepted": 29,
+      "fixed": 1,
+      "rejected": 0,
+      "rejectRate": 0
+    },
+    "reviewTop": [
+      "schemaVersion",
+      "runId",
+      "reviewedAt",
+      "summary",
+      "items",
+      "duplicates",
+      "verdict"
+    ],
+    "sourceReliability": null,
+    "sliceTop": [
+      "schemaVersion",
+      "runId",
+      "textbook",
+      "unit",
+      "textbookRef",
+      "rules",
+      "verbatimExamples",
+      "structuralExamples",
+      "generatorProfile",
+      "blockStructureNotes",
+      "sliceStatus",
+      "recommendedMaxCount",
+      "gaps",
+      "ocrConfidence"
+    ],
+    "needIll": 0,
+    "slotSample": [
+      "localId",
+      "type",
+      "difficulty",
+      "skillFocus",
+      "stemIdea",
+      "trapIdeas",
+      "needsIllustration",
+      "illustrationReason",
+      "sourceRuleIds",
+      "sourceExampleRefs",
+      "questionForm"
+    ],
+    "ill": {
+      "ready": 0,
+      "blocked": [],
+      "missingSvg": [],
+      "missingPng": [],
+      "statuses": {},
+      "itemCount": 0
+    }
+  },
+  {
+    "id": "C6",
+    "name": "math-5-istor-arifmeticheskih-deystviy-20260808-2030",
+    "dirExists": true,
+    "files": {
+      "00": true,
+      "01": true,
+      "02": true,
+      "03": true,
+      "04": true,
+      "05": true,
+      "06": false
+    },
+    "qCount": 10,
+    "typeCounts": {
+      "SCQ": 6,
+      "MCQ": 3,
+      "FILL_IN": 1,
+      "other": 0
+    },
+    "accepted": 8,
+    "fixed": 2,
+    "rejected": 0,
+    "verdict": "ready_for_import",
+    "rejectRate": 0,
+    "summary": {
+      "total": 10,
+      "accepted": 8,
+      "fixed": 2,
+      "rejected": 0,
+      "rejectRate": 0
+    },
+    "reviewTop": [
+      "schemaVersion",
+      "runId",
+      "reviewedAt",
+      "summary",
+      "items",
+      "duplicates",
+      "verdict"
+    ],
+    "sourceReliability": null,
+    "sliceTop": [
+      "schemaVersion",
+      "runId",
+      "textbook",
+      "unit",
+      "textbookRef",
+      "rules",
+      "verbatimExamples",
+      "structuralExamples",
+      "generatorProfile",
+      "blockStructureNotes",
+      "sliceStatus",
+      "recommendedMaxCount",
+      "gaps",
+      "ocrConfidence"
+    ],
+    "needIll": 0,
+    "slotSample": [
+      "localId",
+      "type",
+      "difficulty",
+      "skillFocus",
+      "stemIdea",
+      "trapIdeas",
+      "needsIllustration",
+      "illustrationReason",
+      "sourceRuleIds",
+      "sourceExampleRefs",
+      "questionForm"
+    ],
+    "ill": {
+      "ready": 0,
+      "blocked": [],
+      "missingSvg": [],
+      "missingPng": [],
+      "statuses": {},
+      "itemCount": 0
+    }
+  },
+  {
+    "id": "C7",
+    "name": "math-5-svoystva-arifmeticheskih-deystviy-20260808-2100",
+    "dirExists": true,
+    "files": {
+      "00": true,
+      "01": true,
+      "02": true,
+      "03": true,
+      "04": true,
+      "05": true,
+      "06": false
+    },
+    "qCount": 30,
+    "typeCounts": {
+      "SCQ": 18,
+      "MCQ": 9,
+      "FILL_IN": 3,
+      "other": 0
+    },
+    "accepted": 30,
+    "fixed": 0,
+    "rejected": 0,
+    "verdict": "ready_for_import",
+    "rejectRate": 0,
+    "summary": {
+      "total": 30,
+      "accepted": 30,
+      "fixed": 0,
+      "rejected": 0,
+      "rejectRate": 0
+    },
+    "reviewTop": [
+      "schemaVersion",
+      "runId",
+      "reviewedAt",
+      "summary",
+      "items",
+      "duplicates",
+      "verdict"
+    ],
+    "sourceReliability": null,
+    "sliceTop": [
+      "schemaVersion",
+      "runId",
+      "textbook",
+      "unit",
+      "textbookRef",
+      "rules",
+      "verbatimExamples",
+      "structuralExamples",
+      "generatorProfile",
+      "blockStructureNotes",
+      "sliceStatus",
+      "recommendedMaxCount",
+      "gaps",
+      "ocrConfidence"
+    ],
+    "needIll": 0,
+    "slotSample": [
+      "localId",
+      "type",
+      "difficulty",
+      "skillFocus",
+      "stemIdea",
+      "trapIdeas",
+      "needsIllustration",
+      "illustrationReason",
+      "sourceRuleIds",
+      "sourceExampleRefs",
+      "questionForm"
+    ],
+    "ill": {
+      "ready": 0,
+      "blocked": [],
+      "missingSvg": [],
+      "missingPng": [],
+      "statuses": {},
+      "itemCount": 0
+    }
+  },
+  {
+    "id": "C8",
+    "name": "math-5-sposob-slozheniya-gaussa-20260808-2130",
+    "dirExists": true,
+    "files": {
+      "00": true,
+      "01": true,
+      "02": true,
+      "03": true,
+      "04": true,
+      "05": true,
+      "06": false
+    },
+    "qCount": 10,
+    "typeCounts": {
+      "SCQ": 6,
+      "MCQ": 3,
+      "FILL_IN": 1,
+      "other": 0
+    },
+    "accepted": 10,
+    "fixed": 0,
+    "rejected": 0,
+    "verdict": "ready_for_import",
+    "rejectRate": 0,
+    "summary": {
+      "total": 10,
+      "accepted": 10,
+      "fixed": 0,
+      "rejected": 0,
+      "rejectRate": 0
+    },
+    "reviewTop": [
+      "schemaVersion",
+      "runId",
+      "reviewedAt",
+      "summary",
+      "items",
+      "duplicates",
+      "verdict"
+    ],
+    "sourceReliability": null,
+    "sliceTop": [
+      "schemaVersion",
+      "runId",
+      "textbook",
+      "unit",
+      "textbookRef",
+      "rules",
+      "verbatimExamples",
+      "structuralExamples",
+      "generatorProfile",
+      "blockStructureNotes",
+      "sliceStatus",
+      "recommendedMaxCount",
+      "gaps",
+      "ocrConfidence"
+    ],
+    "needIll": 0,
+    "slotSample": [
+      "localId",
+      "type",
+      "difficulty",
+      "skillFocus",
+      "stemIdea",
+      "trapIdeas",
+      "needsIllustration",
+      "illustrationReason",
+      "sourceRuleIds",
+      "sourceExampleRefs",
+      "questionForm"
+    ],
+    "ill": {
+      "ready": 0,
+      "blocked": [],
+      "missingSvg": [],
+      "missingPng": [],
+      "statuses": {},
+      "itemCount": 0
+    }
+  },
+  {
+    "id": "C9",
+    "name": "math-5-arifmeticheskie-deystviya-naturalnye-20260808-2200",
+    "dirExists": true,
+    "files": {
+      "00": true,
+      "01": true,
+      "02": true,
+      "03": true,
+      "04": true,
+      "05": true,
+      "06": false
+    },
+    "qCount": 12,
+    "typeCounts": {
+      "SCQ": 7,
+      "MCQ": 4,
+      "FILL_IN": 1,
+      "other": 0
+    },
+    "accepted": 12,
+    "fixed": 0,
+    "rejected": 0,
+    "verdict": "ready_for_import",
+    "rejectRate": 0,
+    "summary": {
+      "total": 12,
+      "accepted": 12,
+      "fixed": 0,
+      "rejected": 0,
+      "rejectRate": 0
+    },
+    "reviewTop": [
+      "schemaVersion",
+      "runId",
+      "reviewedAt",
+      "summary",
+      "items",
+      "duplicates",
+      "verdict"
+    ],
+    "sourceReliability": null,
+    "sliceTop": [
+      "schemaVersion",
+      "runId",
+      "textbook",
+      "unit",
+      "textbookRef",
+      "rules",
+      "verbatimExamples",
+      "structuralExamples",
+      "generatorProfile",
+      "blockStructureNotes",
+      "sliceStatus",
+      "recommendedMaxCount",
+      "gaps",
+      "ocrConfidence"
+    ],
+    "needIll": 0,
+    "slotSample": [
+      "localId",
+      "type",
+      "difficulty",
+      "skillFocus",
+      "stemIdea",
+      "trapIdeas",
+      "needsIllustration",
+      "illustrationReason",
+      "sourceRuleIds",
+      "sourceExampleRefs",
+      "questionForm"
+    ],
+    "ill": {
+      "ready": 0,
+      "blocked": [],
+      "missingSvg": [],
+      "missingPng": [],
+      "statuses": {},
+      "itemCount": 0
+    }
+  },
+  {
+    "id": "C10",
+    "name": "math-5-chislovye-bukvennye-vyrazheniya-20260808-2230",
+    "dirExists": true,
+    "files": {
+      "00": true,
+      "01": true,
+      "02": true,
+      "03": true,
+      "04": true,
+      "05": true,
+      "06": false
+    },
+    "qCount": 30,
+    "typeCounts": {
+      "SCQ": 18,
+      "MCQ": 9,
+      "FILL_IN": 3,
+      "other": 0
+    },
+    "accepted": 28,
+    "fixed": 2,
+    "rejected": 0,
+    "verdict": "ready_for_import",
+    "rejectRate": 0,
+    "summary": {
+      "total": 30,
+      "accepted": 28,
+      "fixed": 2,
+      "rejected": 0,
+      "rejectRate": 0
+    },
+    "reviewTop": [
+      "schemaVersion",
+      "runId",
+      "reviewedAt",
+      "summary",
+      "items",
+      "duplicates",
+      "verdict"
+    ],
+    "sourceReliability": null,
+    "sliceTop": [
+      "schemaVersion",
+      "runId",
+      "textbook",
+      "unit",
+      "textbookRef",
+      "rules",
+      "verbatimExamples",
+      "structuralExamples",
+      "generatorProfile",
+      "blockStructureNotes",
+      "sliceStatus",
+      "recommendedMaxCount",
+      "gaps",
+      "ocrConfidence"
+    ],
+    "needIll": 0,
+    "slotSample": [
+      "localId",
+      "type",
+      "difficulty",
+      "skillFocus",
+      "stemIdea",
+      "trapIdeas",
+      "needsIllustration",
+      "illustrationReason",
+      "sourceRuleIds",
+      "sourceExampleRefs",
+      "questionForm"
+    ],
+    "ill": {
+      "ready": 0,
+      "blocked": [],
+      "missingSvg": [],
+      "missingPng": [],
+      "statuses": {},
+      "itemCount": 0
+    }
+  },
+  {
+    "id": "C11",
+    "name": "math-5-uproshchenie-vyrazheniy-20260808-2300",
+    "dirExists": true,
+    "files": {
+      "00": true,
+      "01": true,
+      "02": true,
+      "03": true,
+      "04": true,
+      "05": true,
+      "06": false
+    },
+    "qCount": 30,
+    "typeCounts": {
+      "SCQ": 18,
+      "MCQ": 9,
+      "FILL_IN": 3,
+      "other": 0
+    },
+    "accepted": 30,
+    "fixed": 0,
+    "rejected": 0,
+    "verdict": "ready_for_import",
+    "rejectRate": 0,
+    "summary": {
+      "total": 30,
+      "accepted": 30,
+      "fixed": 0,
+      "rejected": 0,
+      "rejectRate": 0
+    },
+    "reviewTop": [
+      "schemaVersion",
+      "runId",
+      "reviewedAt",
+      "summary",
+      "items",
+      "duplicates",
+      "verdict"
+    ],
+    "sourceReliability": null,
+    "sliceTop": [
+      "schemaVersion",
+      "runId",
+      "textbook",
+      "unit",
+      "textbookRef",
+      "rules",
+      "verbatimExamples",
+      "structuralExamples",
+      "generatorProfile",
+      "blockStructureNotes",
+      "sliceStatus",
+      "recommendedMaxCount",
+      "gaps",
+      "ocrConfidence"
+    ],
+    "needIll": 0,
+    "slotSample": [
+      "localId",
+      "type",
+      "difficulty",
+      "skillFocus",
+      "stemIdea",
+      "trapIdeas",
+      "needsIllustration",
+      "illustrationReason",
+      "sourceRuleIds",
+      "sourceExampleRefs",
+      "questionForm"
+    ],
+    "ill": {
+      "ready": 0,
+      "blocked": [],
+      "missingSvg": [],
+      "missingPng": [],
+      "statuses": {},
+      "itemCount": 0
+    }
+  }
+]

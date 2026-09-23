@@ -1,0 +1,166 @@
+# Пачка C: Математика 5 — глава I ч.1 (координатный луч → упрощение выражений)
+
+**Дата старта:** 2026-08-08 (тот же журнал; отдельная пачка после закрытия B)  
+**Учебник:** Алдамуратова, 5 кл., **часть 1** (`Математика/parsed/math_aldamuratova_5grade_part1_parsed_v2.json`)  
+**Цель на тему:** 30 вопросов — **SCQ 18 (60%) / MCQ 9 (30%) / FILL_IN 3 (10%)**  
+**Язык:** BOTH · **Иллюстрации:** `visual-topics` (особенно координатный луч)  
+**Качество:** формулировки для 5 класса — короткие, однозначные, без двусмысленности  
+**Импорт в БД:** не входит  
+**План этапов:** **этап 1 = C1–C5** (закрыт) · **этап 2 = C6–C11** (закрыт) · в пачке 11 тем  
+**Статус этапа 1:** закрыт (C1–C5) · **этап 2:** закрыт (C6–C11)  
+
+## Сводка пачки C
+
+| # | Код | Тема | Прогон | SCQ | MCQ | FILL_IN | Илл. (план/готово) | Статус | Проверено | Примечания |
+| - | --- | ---- | ------ | --- | --- | ------- | ------------------ | ------ | --------- | ---------- |
+| C1 | 1.2 | Координатный луч. Изображение натуральных чисел и числа нуль на координатном луче | `math-5-koordinatnyy-luch-20260808-1800` | 18 | 9 | 3 | 12 / 12 | `ready_for_asset_import` | да | **этап 1** · стр. 9–13; 30/30 (8 fixed); coordinate_ray |
+| C2 | 1.3 | Сравнение натуральных чисел. Двойное неравенство | `math-5-sravnenie-naturalnyh-chisel-20260808-1830` | 18 | 9 | 3 | 3 / 3 | `ready_for_asset_import` | да | **этап 1** · стр. 14–17; 30/30 (rewrite q27); coordinate_ray |
+| C3 | — | Исторические сведения о системах счисления и записи чисел | `math-5-istor-sistemy-schisleniya-20260808-1900` | 7 | 4 | 1 | 0 / 0 | `ready` | да | **этап 1** · стр. 18–19; count 30→12; 12/12 (3 fixed); illustrator skip |
+| C4 | 1.4 | Сложение и вычитание натуральных чисел | `math-5-slozhenie-vychitanie-naturalnyh-20260808-1930` | 18 | 9 | 3 | 4 / 4 | `ready_for_asset_import` | да | **этап 1** · стр. 20–23; 30/30; 4 SVG/PNG |
+| C5 | 1.5 | Умножение и деление натуральных чисел. Основное свойство частного | `math-5-umnozhenie-delenie-naturalnyh-20260808-2000` | 18 | 9 | 3 | 0 / 0 | `ready` | да | **этап 1** · стр. 24–27; 30/30 (1 fixed q02); illustrator skip |
+| C6 | — | История возникновения арифметических действий, знаков равенства и неравенства | `math-5-istor-arifmeticheskih-deystviy-20260808-2030` | 6 | 3 | 1 | 0 / 0 | `ready` | да | **этап 2** · стр. 28–29; count 30→10; 10/10 (2 fixed KK); illustrator skip |
+| C7 | 1.6 | Свойства арифметических действий | `math-5-svoystva-arifmeticheskih-deystviy-20260808-2100` | 18 | 9 | 3 | 0 / 0 | `ready` | да | **этап 2** · стр. 29–33; 30/30; illustrator skip |
+| C8 | — | Способ сложения Гаусса | `math-5-sposob-slozheniya-gaussa-20260808-2130` | 6 | 3 | 1 | 0 / 0 | `ready` | да | **этап 2** · стр. 34–35; count 30→10; 10/10; illustrator skip |
+| C9 | 1.7 | Арифметические действия над натуральными числами | `math-5-arifmeticheskie-deystviya-naturalnye-20260808-2200` | 7 | 4 | 1 | 0 / 0 | `ready` | да | **этап 2** · стр. 36–37; count 30→12; 12/12; illustrator skip |
+| C10 | 1.8 | Числовые выражения. Буквенные выражения | `math-5-chislovye-bukvennye-vyrazheniya-20260808-2230` | 18 | 9 | 3 | 0 / 0 | `ready` | да | **этап 2** · стр. 38–42; 30/30 (2 fixed anti-dup); illustrator skip |
+| C11 | 1.9 | Упрощение выражений | `math-5-uproshchenie-vyrazheniy-20260808-2300` | 18 | 9 | 3 | 0 / 0 | `ready` | да | **этап 2** · стр. 43–47; 30/30; illustrator skip |
+
+## Журнал пачки C
+
+### 2026-08-08 — этап 1 старт (C1–C5)
+
+- Пачка B закрыта; C разбита на 2 этапа.
+- Этап 1: C1–C5. Этап 2 (C6–C11) не трогаем, пока этап 1 не закрыт.
+- В пачке 11 тем → этап 2 = 6 тем.
+- Старт с **C1 1.2 Координатный луч**.
+
+### C1 1.2 Координатный луч — готово
+
+- Прогон: `math-5-koordinatnyy-luch-20260808-1800`
+- Срез: `ready`, pages 9–13, pdfOffset=0, 6 primary verbatim; recommendedMaxCount=null
+- Матрица/черновик/ревью: 30 → 22 accepted + 8 fixed, rejectRate 0; anti-dup vs probe + B11
+- Иллюстрации: план 12 / готово 12 (`coordinate_ray`, SVG+PNG)
+- Статус: `ready_for_asset_import`
+
+### C2 1.3 Сравнение натуральных чисел — готово
+
+- Прогон: `math-5-sravnenie-naturalnyh-chisel-20260808-1830`
+- Срез: `ready`, pages 14–17, pdfOffset=0, 8 primary verbatim; recommendedMaxCount=null
+- Матрица/черновик/ревью: 30 → 1 rejected q27 dup → rewrite → 28 accepted + 2 fixed; rejectRate 0
+- Иллюстрации: план 3 / готово 3 (`coordinate_ray`)
+- Статус: `ready_for_asset_import`
+
+### C3 Исторические сведения о системах счисления — готово (cap)
+
+- Прогон: `math-5-istor-sistemy-schisleniya-20260808-1900`
+- Срез: `ready`, pages 18–19 supplementary, pdfOffset=0, 8 primary; recommendedMaxCount=12 → count 30→12 (SCQ7/MCQ4/FILL_IN1)
+- Матрица/черновик/ревью: 12 → 9 accepted + 3 fixed (KK mixed_script), rejectRate 0
+- Иллюстрации: не требуются
+- Статус: `ready` (текст к админ-импорту; thin reading-only)
+
+### C4 1.4 Сложение и вычитание натуральных чисел — готово
+
+- Прогон: `math-5-slozhenie-vychitanie-naturalnyh-20260808-1930`
+- Срез: `ready`, pages 20–23, pdfOffset=0; recommendedMaxCount=null (count 30)
+- Матрица/черновик/ревью: 30 → 30 accepted, rejectRate 0
+- Иллюстрации: план 4 / готово 4 (`coordinate_ray`)
+- Статус: `ready_for_asset_import`
+
+### C5 1.5 Умножение и деление натуральных чисел — готово
+
+- Прогон: `math-5-umnozhenie-delenie-naturalnyh-20260808-2000`
+- Срез: `ready`, pages 24–27, pdfOffset=0; recommendedMaxCount=null (count 30)
+- Матрица/черновик/ревью: 30 → 29 accepted + 1 fixed (q02 anti-dup vs C4), rejectRate 0
+- Иллюстрации: не требуются
+- Статус: `ready` (текст к админ-импорту)
+
+## Итог этапа 1 пачки C
+
+| Метрика | Значение |
+| ------- | -------- |
+| Темы этапа 1 | **5/5** (C1–C5) |
+| Принято вопросов | **132** (30+30+12+30+30) |
+| Илл. ready | **19** (12+3+0+4+0) `coordinate_ray` |
+| Статусы | C1/C2/C4 — `ready_for_asset_import`; C3/C5 — `ready` |
+| pdfOffset ч.1 | **0** |
+| Этап 2 | **C6–C11** — закрыт (см. итог этапа 2 ниже) |
+
+### 2026-08-08 — этап 2 старт (C6–C11)
+
+- Этап 1 закрыт; стартуем C6–C11.
+- C3-паттерн: thin supplementary → уважать `recommendedMaxCount`.
+
+### C6 История арифметических действий/знаков — готово (cap)
+
+- Прогон: `math-5-istor-arifmeticheskih-deystviy-20260808-2030`
+- Срез: `ready`, pages 28–29 supplementary, pdfOffset=0, 10 primary verbatim; recommendedMaxCount=**10** → count 30→10 (SCQ6/MCQ3/FILL_IN1)
+- Матрица/черновик/ревью: 10 → 8 accepted + 2 fixed (q03/q05 KK), rejectRate 0
+- Иллюстрации: не требуются
+- Статус: `ready` (текст к админ-импорту; thin reading-only)
+
+### C7 1.6 Свойства арифметических действий — готово
+
+- Прогон: `math-5-svoystva-arifmeticheskih-deystviy-20260808-2100`
+- Срез: `ready`, pages 29–33, pdfOffset=0, 8 primary verbatim; recommendedMaxCount=null (count 30)
+- Матрица/черновик/ревью: 30 → 30 accepted, rejectRate 0; G017; anti-dup vs C4–C6
+- Иллюстрации: не требуются
+- Статус: `ready` (текст к админ-импорту)
+
+### C8 Способ сложения Гаусса — готово (cap)
+
+- Прогон: `math-5-sposob-slozheniya-gaussa-20260808-2130`
+- Срез: `ready`, pages 34–35 supplementary, pdfOffset=0, 5 primary verbatim; recommendedMaxCount=**10** → count 30→10 (SCQ6/MCQ3/FILL_IN1)
+- Матрица/черновик/ревью: 10 → 10 accepted, rejectRate 0
+- Иллюстрации: не требуются
+- Статус: `ready` (текст к админ-импорту; thin pairing method)
+
+### C9 1.7 Арифметические действия над натуральными числами — готово (cap)
+
+- Прогон: `math-5-arifmeticheskie-deystviya-naturalnye-20260808-2200`
+- Срез: `ready`, pages 36–37, pdfOffset=0, 5 primary verbatim (order of ops); recommendedMaxCount=**12** → count 30→12 (SCQ7/MCQ4/FILL_IN1)
+- Матрица/черновик/ревью: 12 → 12 accepted, rejectRate 0; anti-dup vs C4–C8
+- Иллюстрации: не требуются
+- Статус: `ready` (текст к админ-импорту)
+
+### C10 1.8 Числовые выражения. Буквенные выражения — готово
+
+- Прогон: `math-5-chislovye-bukvennye-vyrazheniya-20260808-2230`
+- Срез: `ready`, pages 38–42, pdfOffset=0, 10 primary verbatim; recommendedMaxCount=null (count 30)
+- Матрица/черновик/ревью: 30 → 28 accepted + 2 fixed (q25/q29 anti-dup), rejectRate 0; G017; anti-dup vs C9
+- Иллюстрации: не требуются
+- Статус: `ready` (текст к админ-импорту)
+
+### C11 1.9 Упрощение выражений — готово
+
+- Прогон: `math-5-uproshchenie-vyrazheniy-20260808-2300`
+- Срез: `ready`, pages 43–47, pdfOffset=0, 7 primary verbatim; recommendedMaxCount=null (count 30)
+- Матрица/черновик/ревью: 30 → 30 accepted, rejectRate 0; G017; anti-dup vs C7/C10
+- Иллюстрации: не требуются
+- Статус: `ready` (текст к админ-импорту)
+
+## Итог этапа 2 пачки C
+
+| Метрика | Значение |
+| ------- | -------- |
+| Темы этапа 2 | **6/6** (C6–C11) |
+| Принято вопросов | **122** (10+30+10+12+30+30) |
+| Илл. ready | **0** (все illustrator skip / stem полон текстом) |
+| Cap (thin) | C6→10, C8→10, C9→12 |
+| Полные 30 | C7, C10, C11 |
+| Статусы | все `ready` |
+| Этап 2 | **закрыт** |
+
+## Итог пачки C
+
+Пачка C **закрыта** (11/11 тем, этапы 1+2).
+
+| Метрика | Значение |
+| ------- | -------- |
+| Тем готово | **11** |
+| Вопросов принято (сумма `05`) | **254** (этап 1: 132 + этап 2: 122) |
+| Иллюстраций ready (сумма `06`) | **19** (только этап 1: C1/C2/C4 `coordinate_ray`) |
+| Cap / thin | C3→12, C6→10, C8→10, C9→12 |
+| Нужна ручная сверка | **0** (все verbatim `ready` / `ready_for_asset_import`) |
+| pdfOffset ч.1 | **0** |
+
+Импорт в БД и asset-import — по отдельной просьбе.

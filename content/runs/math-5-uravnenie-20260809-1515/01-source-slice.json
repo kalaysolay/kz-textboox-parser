@@ -1,0 +1,460 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-uravnenie-20260809-1515",
+  "textbook": {
+    "path": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/parsed/math_aldamuratova_5grade_part1_parsed_v2.json",
+    "pdfPath": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/Математика Алдамуратова Т. учебник для 5 класса Часть 1.pdf",
+    "titleRu": "Математика. Учебник для учащихся 5 класса общеобразовательной школы",
+    "authorsShort": "Алдамуратова",
+    "grade": 5,
+    "part": 1,
+    "publisher": "Атамура",
+    "year": 2017
+  },
+  "unit": {
+    "lessonNo": 11,
+    "section": "I",
+    "sectionTitle": "Натуральные числа и нуль",
+    "topicCode": "1.10",
+    "topicTitle": "Уравнение",
+    "pageStart": 48,
+    "pageEnd": 53,
+    "supplementary": false
+  },
+  "textbookRef": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+  "rules": [
+    {
+      "ruleId": "PDF_p48_1",
+      "name": "Определение уравнения",
+      "statement": "Уравнением называют равенство, содержащее букву, значение которой надо найти.",
+      "formula": "9x + 5 = 41",
+      "sourcePages": [48, 53],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_048.png определение после заголовка «1.10. Уравнение»; дубль в «Ключевые факты» page_053.png («Равенство, содержащее неизвестное число, обозначенное буквой, называют уравнением»)"
+    },
+    {
+      "ruleId": "PDF_p48_2",
+      "name": "Левая и правая части; неизвестное",
+      "statement": "В уравнении выделяют левую и правую части (например, в 9x+5=41 левая часть — 9x+5, правая — 41). x — неизвестное число (буква, значение которой надо найти).",
+      "formula": "9x + 5 = 41",
+      "sourcePages": [48],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_048.png схема подписи «уравнение / левая часть / правая часть» к примеру 9x+5=41"
+    },
+    {
+      "ruleId": "PDF_p48_3",
+      "name": "Корень уравнения",
+      "statement": "Корнем уравнения называется значение буквы (неизвестного), при подстановке которого в уравнение получается верное числовое равенство.",
+      "formula": "9x + 5 = 41 \\Rightarrow x = 4",
+      "sourcePages": [48, 53],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_048.png синяя рамка «Корнем уравнения называется…»; page_053.png ключевые факты + пример 5x=45, x=9"
+    },
+    {
+      "ruleId": "PDF_p48_4",
+      "name": "Решить уравнение",
+      "statement": "Решить уравнение — значит найти все его корни или убедиться, что корней нет.",
+      "formula": null,
+      "sourcePages": [48, 53],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_048.png рамка справа от решения 9x+5=41; повтор в ключевых фактах page_053.png"
+    },
+    {
+      "ruleId": "PDF_p48_5",
+      "name": "Неизвестный множитель",
+      "statement": "Чтобы найти неизвестный множитель, нужно значение произведения разделить на известный множитель.",
+      "formula": "(45 - x) \\cdot 3 = 93 \\Rightarrow 45 - x = 93 : 3",
+      "sourcePages": [48],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_048.png Пример 1, синяя пояснительная рамка"
+    },
+    {
+      "ruleId": "PDF_p49_1",
+      "name": "Неизвестное вычитаемое",
+      "statement": "Чтобы найти неизвестное вычитаемое, нужно из уменьшаемого вычесть значение разности.",
+      "formula": "45 - x = 31 \\Rightarrow x = 45 - 31",
+      "sourcePages": [48, 49],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_049.png продолжение Примера 1 (после 45−x=31)"
+    },
+    {
+      "ruleId": "PDF_p49_2",
+      "name": "Неизвестное делимое",
+      "statement": "Чтобы найти неизвестное делимое, нужно значение частного умножить на делитель.",
+      "formula": "(x - 13) : 7 = 2 \\Rightarrow x - 13 = 7 \\cdot 2",
+      "sourcePages": [49],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_049.png Пример 2, пояснительная рамка"
+    },
+    {
+      "ruleId": "PDF_p49_3",
+      "name": "Неизвестное уменьшаемое",
+      "statement": "Чтобы найти неизвестное уменьшаемое, нужно сложить значение разности и вычитаемое.",
+      "formula": "x - 13 = 14 \\Rightarrow x = 14 + 13",
+      "sourcePages": [49],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_049.png Пример 2, вторая часть рамки"
+    },
+    {
+      "ruleId": "PDF_p49_4",
+      "name": "Неизвестный делитель",
+      "statement": "Чтобы найти неизвестный делитель, нужно делимое разделить на значение частного.",
+      "formula": "72 : (x + 12) = 4 \\Rightarrow x + 12 = 72 : 4",
+      "sourcePages": [49],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_049.png Пример 3, пояснительная рамка"
+    },
+    {
+      "ruleId": "PDF_p49_5",
+      "name": "Неизвестное слагаемое",
+      "statement": "Чтобы найти неизвестное слагаемое, нужно из значения суммы вычесть известное слагаемое.",
+      "formula": "x + 12 = 18 \\Rightarrow x = 18 - 12",
+      "sourcePages": [49],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_049.png Пример 3, вторая часть рамки; контрольный вопрос 4 на page_050.png"
+    },
+    {
+      "ruleId": "PDF_p49_6",
+      "name": "Единицы измерения перед составлением уравнения",
+      "statement": "Прежде чем составить уравнение по условию задачи, необходимо единицы измерения в ней привести к единой системе единиц.",
+      "formula": null,
+      "sourcePages": [49],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_049.png абзац перед нумерованным списком шагов решения задач"
+    },
+    {
+      "ruleId": "PDF_p49_7",
+      "name": "Алгоритм решения задач с помощью уравнений",
+      "statement": "При решении задач с помощью уравнений надо: 1) выбрать неизвестную величину, которую обозначим буквой x (или какой-нибудь другой строчной буквой латинского алфавита); 2) составить математическую модель в виде уравнения; 3) решить уравнение; 4) ответить на вопросы задачи; 5) проверить правильность решения задачи.",
+      "formula": null,
+      "sourcePages": [49, 50, 51],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_049.png нумерованный список 1)–5); образцы решений page_050.png (возраста) и page_051.png (№111 сад)"
+    },
+    {
+      "ruleId": "PDF_p43_prereq",
+      "name": "Упрощение выражений (предпосылка 1.9)",
+      "statement": "Выражения в результате упрощения заменяются равными выражениями, имеющими меньшее число действий; при решении уравнений упрощение левой/правой части (например, 12m−5m) используется как вспомогательный шаг.",
+      "formula": null,
+      "sourcePages": [43, 51],
+      "origin": "verbatim_from_pdf",
+      "binding": "neighbour_page",
+      "role": "prerequisite",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "тема 1.9 стр. 43–47; на page_051.png №110 уравнения вида (12m−5m)·4=252 требуют упрощения перед поиском корня — не primary темы 1.10"
+    }
+  ],
+  "verbatimExamples": [
+    {
+      "exactPage": 48,
+      "text": "Задание 2 / рис. 1.24: на левой чаше — 2 пакета муки и гиря 1 кг, на правой — гиря 5 кг. Составьте уравнение, найдите массу одного пакета муки.",
+      "taskType": "word_problem",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "Модель 2x+1=5; визуальная опора (весы)"
+    },
+    {
+      "exactPage": 48,
+      "text": "Задание 3 / рис. 1.25а–б: по рис. 1.25а составьте уравнение, найдите его решение по рис. 1.25б (OCR ошибочно «2.25»; на PNG — 1.25).",
+      "taskType": "mixed",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "Схематическая модель x+24=52"
+    },
+    {
+      "exactPage": 48,
+      "text": "Пример: 9x+5=41. Решение: 9x=41−5; 9x=36; x=36:9; x=4 — корень уравнения.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "Разобранный образец на стр. 48"
+    },
+    {
+      "exactPage": 48,
+      "text": "Пример 1: (45−x)·3=93. Решение: 45−x=93:3; 45−x=31; x=45−31; x=14. Проверка: (45−14)·3=93.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "Неизвестный множитель + неизвестное вычитаемое"
+    },
+    {
+      "exactPage": 49,
+      "text": "Пример 2: (x−13):7=2. Решение: x−13=7·2; x−13=14; x=14+13; x=27.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "Неизвестное делимое / уменьшаемое"
+    },
+    {
+      "exactPage": 49,
+      "text": "Пример 3: 72:(x+12)=4. Решение: x+12=72:4; x+12=18; x=18−12; x=6.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "Неизвестный делитель / слагаемое"
+    },
+    {
+      "exactPage": 49,
+      "text": "Задача: Брат на 5 лет старше сестры. Через 4 года сумма возрастов будет равна 19 годам. Сколько лет сестре? Сколько лет брату?",
+      "taskType": "word_problem",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "Образец решения на стр. 50: x+(x+5+4)=19 → x=3, брат 8"
+    },
+    {
+      "exactPage": 50,
+      "text": "104. Решите уравнение: 1) x+23=41; 2) 36+y=74; 3) 85+z=97; 4) x−61=17; 5) 46−y=24; 6) 53−z=25; 7) m:21=10; 8) 192:n=16; 9) k:44=20.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "Уровень A; одношаговые уравнения"
+    },
+    {
+      "exactPage": 50,
+      "text": "105. Решите уравнение: 1) 12x=60; 2) 33y=132; 3) 51z=357; 4) 2x−15=13; 5) 7y−25=45; 6) 130−4x=70; 7) 49−3x=34; 8) 9y−89=55; 9) 74−8z=2.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "A; умножение и двухшаговые; OCR «180»→PNG «130» в п.6"
+    },
+    {
+      "exactPage": 50,
+      "text": "106. После обеда Марат поймал на 2 рыбы меньше, чем до обеда. Оставив половину всей выловленной рыбы у дедушки, у него осталось 5 рыб. Сколько рыб поймал Марат до обеда?",
+      "taskType": "word_problem",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "A; модель с половиной суммы"
+    },
+    {
+      "exactPage": 50,
+      "text": "107. Асем села в 7-й вагон с начала поезда, Марина — в 7-й вагон с конца; оказались в одном вагоне. Сколько вагонов в поезде?",
+      "taskType": "word_problem",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "A; логика + уравнение"
+    },
+    {
+      "exactPage": 51,
+      "text": "108. 1) В рулоне продано 16 м ткани; из оставшейся сшили 8 платьев по 3 м. Сколько метров было в рулоне? А. 36 м; В. 40 м; С. 42 м; D. 41 м. 2) Со склада продали 165 т муки; остаток погрузили на 14 машин по 3 т. Что неизвестно? Сформулируйте вопрос.",
+      "taskType": "word_problem",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "OCR «по 8 м»→PNG «по 3 м»; SCQ-форма в учебнике"
+    },
+    {
+      "exactPage": 51,
+      "text": "109. Решите уравнение: 1) (x−16)·9=126; 2) 28·(x+5)=224; 3) (x+76):7=15; 4) 144:(x−3)=36; 5) 21·(y−8)=84; 6) (x+67):18=4. Ответы (выборочно): 30; 29; 12.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "Уровень B; скобки + одно действие"
+    },
+    {
+      "exactPage": 51,
+      "text": "110. Решите уравнение: 1) (12m−5m)·4=252; 2) (4n+3n)·11=154; 3) 45:(4m−m)=3; 4) (19n−6n):4=26; 5) (16m+5m):18=7; 6) (17n−8n)·13=351.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "B; сначала упростить скобки (стык с 1.9), затем найти корень"
+    },
+    {
+      "exactPage": 51,
+      "text": "111. В саду 37 кустов: крыжовника на 3 больше смородины и в 2 раза меньше малины. Сколько каждого вида? Образец: x+(x+3)+2(x+3)=37 → x=7, 10, 20.",
+      "taskType": "word_problem",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "B; разобранный образец + схема отрезков"
+    },
+    {
+      "exactPage": 52,
+      "text": "111.2) / рис. 1.26: AB=40 см; CD на 4 см больше AC, но в 2 раза меньше DB. Найдите длину AC. Ответ (ответы учебника): AC=7 см.",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "Продолжение №111 на стр. 52"
+    },
+    {
+      "exactPage": 52,
+      "text": "112. Рыбаки выловили 324 рыбы: окуней в 3 раза больше щук, но на 17 меньше лещей; сазанов в 2 раза больше лещей. Сколько щук? сазанов? Ответ: 21 щука, 160 сазанов.",
+      "taskType": "word_problem",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "B/C стык"
+    },
+    {
+      "exactPage": 52,
+      "text": "113°. Сыну столько месяцев, сколько лет отцу. Сумма возрастов 39 лет. Сколько лет сыну? Ответ: 3 года.",
+      "taskType": "word_problem",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "OCR «89»→PNG «39»"
+    },
+    {
+      "exactPage": 52,
+      "text": "115 (C). Найдите корни: 1) x·x+60=85; 2) (x·x−23)·9=117; 3) (x·x·x+38):13=5; 4) (149−x·x·x)·7=168.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "Уровень C; степени через повторное умножение"
+    },
+    {
+      "exactPage": 52,
+      "text": "116. Найдите корень: 1) (63−5x):a=6 при a=3; 2) b:(38x−95)=7 при b=133; 3) 15·(c−8x)=75 при c=53; 4) (6x−d)·8=104 при d=29. Ответы: 9; 3; 6; 7.",
+      "taskType": "calculation",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "C; подстановка параметра, затем уравнение"
+    },
+    {
+      "exactPage": 52,
+      "text": "118. На 19 200 тг купили 2 попугаев, щенка и котёнка. Щенок в 3 раза дороже котёнка, но в 2 раза дешевле попугая. Сколько стоит котёнок? попугай? Ответ: 1200 тг; 7200 тг.",
+      "taskType": "word_problem",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "C; контекст РК (тенге)"
+    },
+    {
+      "exactPage": 53,
+      "text": "119. Суммы сторон треугольника: 1+2=37 см, 2+3=41 см, 1+3=32 см. Периметр? Длина второй стороны? Ответ: периметр 55 см; вторая сторона 23 см.",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "C; система через уравнение/суммы"
+    },
+    {
+      "exactPage": 53,
+      "text": "Ключевые факты: равенство с неизвестным — уравнение; значение неизвестного, удовлетворяющее равенству — корень; решить уравнение — найти все корни или убедиться, что корней нет. Пример: 5x=45, x=9, т.к. 5·9=45.",
+      "taskType": "mixed",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "Сводка определений; OCR «5+9»→PNG «5·9»"
+    },
+    {
+      "exactPage": 53,
+      "text": "Низ стр. 53: задача про путь автомобиля и формула s=v·t — задел темы 1.11 «Формулы».",
+      "taskType": "mixed",
+      "confidence": "high_verbatim",
+      "usable": false,
+      "note": "out of scope — primary 1.11 (стр. 54+); не брать в матрицу 1.10"
+    }
+  ],
+  "structuralExamples": [
+    {
+      "taskType": "calculation",
+      "template": "Реши уравнение вида x+a=b или a−x=c; укажи корень и сделай проверку подстановкой.",
+      "expectedSkill": "Одношаговые уравнения (слагаемое / вычитаемое)"
+    },
+    {
+      "taskType": "calculation",
+      "template": "Реши уравнение вида kx=m или 2x−15=13; найди корень и проверь.",
+      "expectedSkill": "Уравнения с умножением и двумя шагами"
+    },
+    {
+      "taskType": "calculation",
+      "template": "Реши уравнение со скобками: (x−16)·9=126 или 72:(x+12)=4, используя правило неизвестного множителя/делителя.",
+      "expectedSkill": "Уравнения со скобками; компоненты действий"
+    },
+    {
+      "taskType": "calculation",
+      "template": "Реши уравнение: 3x+15=42. Сделай проверку.",
+      "expectedSkill": "Линейные уравнения"
+    },
+    {
+      "taskType": "word_problem",
+      "template": "По условию обозначь неизвестное x, составь уравнение, реши, ответь на вопросы задачи и проверь (возраста, сад, рыба).",
+      "expectedSkill": "Математическая модель задачи → уравнение"
+    },
+    {
+      "taskType": "calculation",
+      "template": "Сначала упрости скобки (12m−5m), затем найди корень уравнения (12m−5m)·4=252.",
+      "expectedSkill": "Упрощение внутри уравнения (стык с 1.9)"
+    },
+    {
+      "taskType": "geometry",
+      "template": "По схеме отрезков / весов составь уравнение и найди неизвестную величину.",
+      "expectedSkill": "Уравнение по рисунку"
+    }
+  ],
+  "generatorProfile": {
+    "audience": "Учащиеся 5 класса общеобразовательных школ Республики Казахстан",
+    "taskMixRecommended": {
+      "calculation": 0.5,
+      "word_problem": 0.35,
+      "geometry": 0.1,
+      "sets_logic": 0.05
+    },
+    "formatRules": [
+      "Три уровня сложности: А (базовый), В (продвинутый), С (творческий)",
+      "Для уравнений — поиск корня и проверка подстановкой",
+      "Формулировки короткие, однозначные; без лишних условий",
+      "Не дублировать темы 1.8 (выражения) и 1.9 (упрощение) как основную цель — упрощение только как шаг внутри уравнения",
+      "Задания с контекстом Казахстана — по стилю учебника"
+    ],
+    "safetyAndScope": [
+      "Только программа 5 класса части 1, тема 1.10 Уравнение (стр. 48–53)",
+      "Фокус: определение уравнения, корень, решение простых уравнений, модель задачи",
+      "Не включать формулу пути s=v·t и вычисления по формулам (тема 1.11)",
+      "Не сводить задания к «голому» упрощению/вычислению выражения без уравнения"
+    ]
+  },
+  "blockStructureNotes": "Стр. 48: вводные задания 2–3 (весы, схемы) → определение уравнения, корень, «решить уравнение», образец 9x+5=41, Пример 1. Стр. 49: Примеры 2–3 (делимое/делитель) + 5 шагов решения задач уравнением + задача про возраста. Стр. 50: образец возрастов → контрольные вопросы → упражнения A №104–107. Стр. 51: №108–111 (B), образец сада. Стр. 52: №111.2–118 (B/C). Стр. 53: №119–121, «Ключевые факты», ответы; низ страницы — переход к 1.11 (s=v·t), не в scope.",
+  "sliceStatus": "ready",
+  "recommendedMaxCount": null,
+  "gaps": [
+    "В parsed v2 нет отдельного rules[]/topic_rule_links для 1.10 — все primary взяты с PNG (verbatim_from_pdf).",
+    "OCR TXT часто путает цифры и знаки (· vs +, 130↔180, 39↔89, 3 м↔8 м); формулировки сверены с PNG.",
+    "В задании 3 на стр. 48 в тексте ссылка «рис. 2.25» — на PNG/контексте это рис. 1.25б.",
+    "Низ стр. 53 (формула s=v·t) относится к теме 1.11 — помечен usable:false, в primary не включён.",
+    "Anti-dup: пересечение с 1.8/1.9 только через упрощение внутри уравнений (№110) и prerequisite PDF_p43_prereq."
+  ],
+  "ocrConfidence": "high"
+}

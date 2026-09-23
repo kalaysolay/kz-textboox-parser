@@ -1,0 +1,436 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-formuly-vychislenie-20260809-1530",
+  "reviewedAt": "2026-08-09T16:00:00+05:00",
+  "summary": {
+    "total": 30,
+    "accepted": 29,
+    "fixed": 1,
+    "rejected": 0,
+    "rejectRate": 0
+  },
+  "items": [
+    {
+      "localId": "q01",
+      "status": "accepted",
+      "solvedAnswer": "C — правило равенством с буквами",
+      "keyAnswer": "C — Правило, записанное равенством, содержащим буквы",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q02",
+      "status": "accepted",
+      "solvedAnswer": "B — сумма длин всех сторон",
+      "keyAnswer": "B — Сумму длин всех сторон фигуры",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q03",
+      "status": "accepted",
+      "solvedAnswer": "B — $s=v\\cdot t$",
+      "keyAnswer": "B — $s=v\\cdot t$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q04",
+      "status": "accepted",
+      "solvedAnswer": "C — 24 см (2·(7+5)=24)",
+      "keyAnswer": "C — $24$ см",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Слот q04 form=compute; стемы внутри формы разные (разные формулы/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q05",
+      "status": "accepted",
+      "solvedAnswer": "C — 36 см (4·9=36)",
+      "keyAnswer": "C — $36$ см",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Слот q05 form=compute; стемы внутри формы разные (разные формулы/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q06",
+      "status": "accepted",
+      "solvedAnswer": "D — 40 дм² (8·5=40)",
+      "keyAnswer": "D — $40$ дм$^2$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Слот q06 form=compute; стемы внутри формы разные (разные формулы/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q07",
+      "status": "accepted",
+      "solvedAnswer": "B — 49 см² (7²=49)",
+      "keyAnswer": "B — $49$ см$^2$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Слот q07 form=compute; стемы внутри формы разные (разные формулы/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q08",
+      "status": "accepted",
+      "solvedAnswer": "A — 150 км (50·3=150)",
+      "keyAnswer": "A — $150$ км",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Слот q08 form=compute; стемы внутри формы разные (разные формулы/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q09",
+      "status": "accepted",
+      "solvedAnswer": "A — 8 см (36=2(10+b) ⇒ b=8)",
+      "keyAnswer": "A — $8$ см",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Слот q09 form=restore; стемы внутри формы разные (разные формулы/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q10",
+      "status": "accepted",
+      "solvedAnswer": "D — P=2(6+4)=20",
+      "keyAnswer": "D — $P=2(6+4)=20$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Слот q10 form=verify; стемы внутри формы разные (разные формулы/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q11",
+      "status": "accepted",
+      "solvedAnswer": "B — ошибочный 32 > верный 22",
+      "keyAnswer": "B — Ошибочный расчёт больше: $32>22$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Слот q11 form=compare; стемы внутри формы разные (разные формулы/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q12",
+      "status": "accepted",
+      "solvedAnswer": "A — 220 км (55·4=220)",
+      "keyAnswer": "A — $220$ км",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Слот q12 form=word_problem; стемы внутри формы разные (разные формулы/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q13",
+      "status": "accepted",
+      "solvedAnswer": "B — 7 см (28:4=7)",
+      "keyAnswer": "B — $7$ см",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q14",
+      "status": "accepted",
+      "solvedAnswer": "B — ручки дороже 250>240",
+      "keyAnswer": "B — Ручки дороже: $250>240$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Слот q14 form=compare; стемы внутри формы разные (разные формулы/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q15",
+      "status": "accepted",
+      "solvedAnswer": "B — a=25 см, b=15 см, P=2(25+15)",
+      "keyAnswer": "B — $a=25$ см, $b=15$ см, затем $P=2(25+15)$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Слот q15 form=restore; стемы внутри формы разные (разные формулы/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q16",
+      "status": "fixed",
+      "solvedAnswer": "C — S_прям=72, S_△=36 (после внесения размеров 4+8 и h=6)",
+      "keyAnswer": "C — Площадь прямоугольника $72$ см$^2$, площадь треугольника $36$ см$^2$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Слот q16 form=verify; стемы внутри формы разные (разные формулы/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": "Внёс в stem RU/KK размеры с рис.1.31 (высота 6 см, отрезки основания 4 см и 8 см), чтобы ключ C решался из текста; needsIllustration оставлен для схемы; ключ без изменений."
+    },
+    {
+      "localId": "q17",
+      "status": "accepted",
+      "solvedAnswer": "C — V=a³",
+      "keyAnswer": "C — $V=a^{3}$",
+      "matchesKey": true,
+      "issues": [],
+      "fixApplied": null
+    },
+    {
+      "localId": "q18",
+      "status": "accepted",
+      "solvedAnswer": "A — 48 м ((18−14)·12=48)",
+      "keyAnswer": "A — $48$ м",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Слот q18 form=word_problem; стемы внутри формы разные (разные формулы/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q19",
+      "status": "accepted",
+      "solvedAnswer": "B,C",
+      "keyAnswer": "B — Любой квадрат — прямоугольник | C — Любой куб — прямоугольный параллелепипед",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Слот q19 form=verify; стемы внутри формы разные (разные формулы/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q20",
+      "status": "accepted",
+      "solvedAnswer": "A,C",
+      "keyAnswer": "A — $P=2(a+b)$ | C — $S=a\\cdot b$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Слот q20 form=verify; стемы внутри формы разные (разные формулы/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q21",
+      "status": "accepted",
+      "solvedAnswer": "A,B,D",
+      "keyAnswer": "A — Для квадрата со стороной $5$: $P=4\\cdot 5=20$ | B — Для квадрата со стороной $5$: $S=5^{2}=25$ | D — Для куба с ребром $4$: $V=4^{3}=64$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Слот q21 form=compare; стемы внутри формы разные (разные формулы/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q22",
+      "status": "accepted",
+      "solvedAnswer": "A,D",
+      "keyAnswer": "A — При $a=3$ дм $2$ см и $b=10$ см сначала пишут $a=32$ см, $b=10$ см, затем подставляют в $P=2(a+b)$ | D — Единицы в самой буквенной формуле не пишут",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Слот q22 form=verify; стемы внутри формы разные (разные формулы/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q23",
+      "status": "accepted",
+      "solvedAnswer": "A,C — внешние 49 и 42; P=182",
+      "keyAnswer": "A — К длине и ширине прибавляют по $4$ м (отступ с двух сторон) | C — Длина изгороди $P=2(49+42)=182$ м",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Слот q23 form=verify; стемы внутри формы разные (разные формулы/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q24",
+      "status": "accepted",
+      "solvedAnswer": "A,C — цена 120→90; C=360",
+      "keyAnswer": "A — Сначала найти цену одной порции: $240:2=120$ тг | C — Новая цена $90$ тг; за $4$ порции $C=90\\cdot 4=360$ тг",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Слот q24 form=word_problem; стемы внутри формы разные (разные формулы/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q25",
+      "status": "accepted",
+      "solvedAnswer": "A,B — v=60; t=3",
+      "keyAnswer": "A — При $s=240$ км и $t=4$ ч скорость $v=240:4=60$ км/ч | B — При $s=180$ км и $v=60$ км/ч время $t=180:60=3$ ч",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Слот q25 form=restore; стемы внутри формы разные (разные формулы/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q26",
+      "status": "accepted",
+      "solvedAnswer": "A,B верны: V=5·4·3=60 кубиков/см³; C (один слой 20) и D (V=a³) ложны",
+      "keyAnswer": "A — В коробку войдёт $60$ кубиков | B — Объём коробки равен $60$ см$^3$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Слот q26 form=verify; стемы внутри формы разные (разные формулы/навыки); слот не отклоняем. Rewrite: needsIllustration false задокументирован в matrixDeviations."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q27",
+      "status": "accepted",
+      "solvedAnswer": "A,C,D: a1=32:4=8; a2=24:4=6 (не 12); a3=√25=5; w5=19; h5=133:19=7; a4=12; S4=144",
+      "keyAnswer": "A — Сторона квадрата №1 равна $8$ см | C — Сторона квадрата №3 равна $5$ см | D — Площадь квадрата №4 равна $144$ см$^2$",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Слот q27 form=compare; стемы внутри формы разные (разные формулы/навыки); слот не отклоняем. Rewrite: needsIllustration false задокументирован в matrixDeviations."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q28",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 540 (12·9·5)",
+      "keyAnswer": "[[1]] = 540",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Слот q28 form=compute; стемы внутри формы разные (разные формулы/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q29",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 24 (72:3)",
+      "keyAnswer": "[[1]] = 24",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Слот q29 form=compute; стемы внутри формы разные (разные формулы/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    },
+    {
+      "localId": "q30",
+      "status": "accepted",
+      "solvedAnswer": "[[1]] = 27 (6³:2³=216:8)",
+      "keyAnswer": "[[1]] = 27",
+      "matchesKey": true,
+      "issues": [
+        {
+          "code": "question_form_repeated",
+          "severity": "major",
+          "message": "G017: при count=30 формы сверх лимита ≤2 — compute×7, restore×3, verify×7, compare×4, word_problem×4. Слот q30 form=word_problem; стемы внутри формы разные (разные формулы/навыки); слот не отклоняем."
+        }
+      ],
+      "fixApplied": null
+    }
+  ],
+  "duplicates": [],
+  "verdict": "ready_for_import"
+}

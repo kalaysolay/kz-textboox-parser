@@ -1,0 +1,1169 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-uravnenie-20260809-1515",
+  "meta": {
+    "schemaVersion": 1,
+    "runId": "math-5-uravnenie-20260809-1515",
+    "generatedAt": "2026-08-09T15:25:00+05:00",
+    "subjectTitleRu": "Математика",
+    "subjectTitleKk": "Математика",
+    "gradeNo": 5,
+    "topicCode": "1.10",
+    "topicTitleRu": "Уравнение",
+    "topicTitleKk": "Теңдеу",
+    "topicSlug": "uravnenie",
+    "atomicSkillTitleRu": null,
+    "textbookRef": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+    "illustrationPolicy": "visual-topics",
+    "sourceReliability": "verbatim"
+  },
+  "questions": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "bodyRu": "Какое утверждение верно определяет уравнение?",
+      "bodyKk": "Теңдеуді дұрыс анықтайтын қай тұжырым?",
+      "explanationRu": "Уравнение — равенство с буквой, значение которой нужно найти.",
+      "explanationKk": "Теңдеу — мәнін табу керек әріпі бар теңдік.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Числовое или буквенное выражение без знака равенства",
+          "textKk": "Теңдік белгісі жоқ сандық немесе әріпті өрнек",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Любое верное числовое равенство без неизвестного",
+          "textKk": "Белгісізі жоқ кез келген дұрыс сандық теңдік",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Равенство, содержащее букву, значение которой надо найти",
+          "textKk": "Мәнін табу керек әріпі бар теңдік",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Упрощённая запись выражения с меньшим числом действий",
+          "textKk": "Амалдар саны азырақ ықшамдалған өрнек жазбасы",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p48_1"]
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "bodyRu": "Что называют корнем уравнения?",
+      "bodyKk": "Теңдеудің түбірі деп нені атайды?",
+      "explanationRu": "Корень — значение неизвестного, при котором получается верное числовое равенство.",
+      "explanationKk": "Түбір — қойғанда дұрыс сандық теңдік шығатын белгісіздің мәні.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Саму букву-неизвестное в записи уравнения",
+          "textKk": "Теңдеу жазбасындағы белгісіз әріптің өзін",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Значение неизвестного, дающее верное равенство",
+          "textKk": "Дұрыс теңдік беретін белгісіздің мәнін",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Любое число из уравнения (коэффициент или свободный член)",
+          "textKk": "Теңдеудегі кез келген санды (коэффициент немесе еркін мүше)",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Левую или правую часть уравнения целиком",
+          "textKk": "Теңдеудің сол немесе оң жақ бөлігін толықтай",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p48_3"]
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Не решая: какая из записей является уравнением?",
+      "bodyKk": "Шешпей: қай жазба теңдеу болып табылады?",
+      "explanationRu": "Уравнение — равенство с неизвестным. $7x-3=18$ содержит букву и знак равенства.",
+      "explanationKk": "Теңдеу — белгісізі бар теңдік. $7x-3=18$ жазбасында әріп және теңдік белгісі бар.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$5a+12$",
+          "textKk": "$5a+12$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$16+9=25$",
+          "textKk": "$16+9=25$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$7x-3=18$",
+          "textKk": "$7x-3=18$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$4y+6y$",
+          "textKk": "$4y+6y$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p48_1"]
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Найди корень уравнения $x+29=47$.",
+      "bodyKk": "$x+29=47$ теңдеуінің түбірін тап.",
+      "explanationRu": "Неизвестное слагаемое: $x=47-29=18$.",
+      "explanationKk": "Белгісіз қосылғыш: $x=47-29=18$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$76$",
+          "textKk": "$76$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$18$",
+          "textKk": "$18$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$29$",
+          "textKk": "$29$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$1$",
+          "textKk": "$1$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p49_5"]
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Найди корень уравнения $15x=75$.",
+      "bodyKk": "$15x=75$ теңдеуінің түбірін тап.",
+      "explanationRu": "Неизвестный множитель: $x=75:15=5$.",
+      "explanationKk": "Белгісіз көбейткіш: $x=75:15=5$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$1125$",
+          "textKk": "$1125$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$5$",
+          "textKk": "$5$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$0{,}2$",
+          "textKk": "$0{,}2$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$60$",
+          "textKk": "$60$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p48_5"]
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "bodyRu": "Не решая уравнение целиком: какое из чисел при подстановке даёт верное равенство в $8x+5=37$?",
+      "bodyKk": "Теңдеуді толық шешпей: $8x+5=37$ теңдеуіне қойғанда дұрыс теңдік беретін қай сан?",
+      "explanationRu": "При $x=4$: $8\\cdot 4+5=37$. Числа $8$, $5$ и $37$ — не корни.",
+      "explanationKk": "$x=4$ болғанда: $8\\cdot 4+5=37$. $8$, $5$ және $37$ — түбір емес.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$8$",
+          "textKk": "$8$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$5$",
+          "textKk": "$5$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$4$",
+          "textKk": "$4$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$37$",
+          "textKk": "$37$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p48_3"]
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Найди корень уравнения $58-y=31$.",
+      "bodyKk": "$58-y=31$ теңдеуінің түбірін тап.",
+      "explanationRu": "Неизвестное вычитаемое: $y=58-31=27$.",
+      "explanationKk": "Белгісіз азайтқыш: $y=58-31=27$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$89$",
+          "textKk": "$89$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$27$",
+          "textKk": "$27$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$31$",
+          "textKk": "$31$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$1$",
+          "textKk": "$1$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p49_1"]
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Найди корень уравнения $4x-18=22$.",
+      "bodyKk": "$4x-18=22$ теңдеуінің түбірін тап.",
+      "explanationRu": "$4x=22+18=40$, затем $x=40:4=10$.",
+      "explanationKk": "$4x=22+18=40$, содан кейін $x=40:4=10$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$10$",
+          "textKk": "$10$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$5$",
+          "textKk": "$5$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$40$",
+          "textKk": "$40$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$1$",
+          "textKk": "$1$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p48_4", "PDF_p48_5"]
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "В решении уравнения $9x+5=41$ пропущено равенство: $9x+5=41$; $\\square$; $9x=36$; $x=4$. Какое равенство стоит вместо $\\square$?",
+      "bodyKk": "$9x+5=41$ теңдеуінің шешімінде теңдік өткізіліп кеткен: $9x+5=41$; $\\square$; $9x=36$; $x=4$. $\\square$ орнына қай теңдік тұрады?",
+      "explanationRu": "Сначала переносят слагаемое: $9x=41-5$, затем $9x=36$.",
+      "explanationKk": "Алдымен қосылғышты көшіреді: $9x=41-5$, содан кейін $9x=36$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$9x=41+5$",
+          "textKk": "$9x=41+5$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$9x=41:5$",
+          "textKk": "$9x=41:5$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$9x=41-5$",
+          "textKk": "$9x=41-5$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$x=41-5$",
+          "textKk": "$x=41-5$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p48_4"]
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Утверждение: число $5$ — корень уравнения $5x-8=22$. Верно ли это?",
+      "bodyKk": "Тұжырым: $5$ саны — $5x-8=22$ теңдеуінің түбірі. Бұл дұрыс па?",
+      "explanationRu": "Подстановка: $5\\cdot 5-8=17\\neq 22$. Утверждение неверно.",
+      "explanationKk": "Қою: $5\\cdot 5-8=17\\neq 22$. Тұжырым дұрыс емес.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Нет: при $x=5$ получается $17\\neq 22$",
+          "textKk": "Жоқ: $x=5$ болғанда $17\\neq 22$ шығады",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Да: $5$ — коэффициент при $x$",
+          "textKk": "Иә: $5$ — $x$-тің коэффициенті",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Да: $5\\cdot 5-8=22$",
+          "textKk": "Иә: $5\\cdot 5-8=22$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Нет: нужно упростить выражение $5x-8$ без равенства",
+          "textKk": "Жоқ: $5x-8$ өрнегін теңдіксіз ықшамдау керек",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p48_3"]
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Для уравнения $7y-4=24$ какое утверждение верно?",
+      "bodyKk": "$7y-4=24$ теңдеуі үшін қай тұжырым дұрыс?",
+      "explanationRu": "Левая часть — $7y-4$, правая — $24$, неизвестное — буква $y$.",
+      "explanationKk": "Сол жақ бөлік — $7y-4$, оң жақ — $24$, белгісіз — $y$ әрпі.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Левая часть — $24$, правая — $7y-4$",
+          "textKk": "Сол жақ бөлік — $24$, оң жақ — $7y-4$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "Левая часть — $7y-4$, правая — $24$, неизвестное — $y$",
+          "textKk": "Сол жақ бөлік — $7y-4$, оң жақ — $24$, белгісіз — $y$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Неизвестное — коэффициент $7$",
+          "textKk": "Белгісіз — $7$ коэффициенті",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Левая и правая части — всё равенство целиком",
+          "textKk": "Сол және оң жақ бөліктер — бүкіл теңдік толықтай",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p48_2"]
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Найди корень уравнения $(x-15):5=4$.",
+      "bodyKk": "$(x-15):5=4$ теңдеуінің түбірін тап.",
+      "explanationRu": "$x-15=5\\cdot 4=20$, затем $x=20+15=35$.",
+      "explanationKk": "$x-15=5\\cdot 4=20$, содан кейін $x=20+15=35$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$1$",
+          "textKk": "$1$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$5$",
+          "textKk": "$5$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$20$",
+          "textKk": "$20$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$35$",
+          "textKk": "$35$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p49_2", "PDF_p49_3"]
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "В решении уравнения $x-17=26$ пропущено равенство: $x-17=26$; $\\square$; $x=43$. Какое равенство вместо $\\square$?",
+      "bodyKk": "$x-17=26$ теңдеуінің шешімінде теңдік өткізіліп кеткен: $x-17=26$; $\\square$; $x=43$. $\\square$ орнына қай теңдік?",
+      "explanationRu": "Неизвестное уменьшаемое: $x=26+17$.",
+      "explanationKk": "Белгісіз кеміткіш: $x=26+17$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$x=26-17$",
+          "textKk": "$x=26-17$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$x=26+17$",
+          "textKk": "$x=26+17$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$x=26\\cdot 17$",
+          "textKk": "$x=26\\cdot 17$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$x=17-26$",
+          "textKk": "$x=17-26$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p49_3"]
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "По рисунку весов (пакеты муки и гири) выбери верное уравнение, если масса одного пакета — $x$ кг.",
+      "bodyKk": "Таразы суреті бойынша (ұн пакеттері мен гирлер) дұрыс теңдеуді таңда, егер бір пакеттің массасы — $x$ кг болса.",
+      "explanationRu": "На левой чаше два пакета и гиря $1$ кг, на правой — гиря $5$ кг: $2x+1=5$.",
+      "explanationKk": "Сол жақта екі пакет және $1$ кг гир, оң жақта — $5$ кг гир: $2x+1=5$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$2+x=5$",
+          "textKk": "$2+x=5$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$2x=5$",
+          "textKk": "$2x=5$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$2x+1=5$",
+          "textKk": "$2x+1=5$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$2x+5=1$",
+          "textKk": "$2x+5=1$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p48_1", "PDF_p49_7"]
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Какая цепочка решения уравнения $72:(x+12)=4$ верна?",
+      "bodyKk": "$72:(x+12)=4$ теңдеуін шешудің қай тізбегі дұрыс?",
+      "explanationRu": "Неизвестный делитель: $x+12=72:4=18$, затем $x=18-12=6$.",
+      "explanationKk": "Белгісіз бөлгіш: $x+12=72:4=18$, содан кейін $x=18-12=6$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$x+12=72\\cdot 4$; $x+12=288$; $x=276$",
+          "textKk": "$x+12=72\\cdot 4$; $x+12=288$; $x=276$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$x=72:4$; $x=18$",
+          "textKk": "$x=72:4$; $x=18$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$x+12=72:4$; $x+12=18$; $x=18-12$; $x=6$",
+          "textKk": "$x+12=72:4$; $x+12=18$; $x=18-12$; $x=6$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$x+12=72-4$; $x+12=68$; $x=56$",
+          "textKk": "$x+12=72-4$; $x+12=68$; $x=56$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p49_4", "PDF_p49_5"]
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Найди корень уравнения $96:(x+8)=8$.",
+      "bodyKk": "$96:(x+8)=8$ теңдеуінің түбірін тап.",
+      "explanationRu": "$x+8=96:8=12$, затем $x=12-8=4$.",
+      "explanationKk": "$x+8=96:8=12$, содан кейін $x=12-8=4$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$0$",
+          "textKk": "$0$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$4$",
+          "textKk": "$4$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$12$",
+          "textKk": "$12$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$20$",
+          "textKk": "$20$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p49_4"]
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 3,
+      "bodyRu": "Число $5$ — корень. Какое из уравнений имеет именно этот корень?",
+      "bodyKk": "$5$ саны — түбір. Қай теңдеудің түбірі дәл осы сан?",
+      "explanationRu": "Проверка: $3\\cdot 5+2=17$. В $5x=45$ число $5$ — коэффициент (корень $9$); $x+5=12$ даёт $7$; $5x=20$ даёт $4$.",
+      "explanationKk": "Тексеру: $3\\cdot 5+2=17$. $5x=45$ теңдеуінде $5$ — коэффициент (түбір $9$); $x+5=12$ бергені $7$; $5x=20$ бергені $4$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$5x=45$",
+          "textKk": "$5x=45$",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "textRu": "$3x+2=17$",
+          "textKk": "$3x+2=17$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$x+5=12$",
+          "textKk": "$x+5=12$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$5x=20$",
+          "textKk": "$5x=20$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p48_3", "PDF_p48_4"]
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 4,
+      "bodyRu": "По схеме отрезка $AB$ (точки $C$ и $D$ делят $AB$ на три части) выбери длину отрезка $AC$.",
+      "bodyKk": "$AB$ кесіндісінің сызбасы бойынша ($C$ және $D$ нүктелері $AB$-ны үш бөлікке бөледі) $AC$ кесіндісінің ұзындығын таңда.",
+      "explanationRu": "Если $AC=x$, то $CD=x+4$, $DB=2(x+4)$ и $x+(x+4)+2(x+4)=40$, откуда $x=7$.",
+      "explanationKk": "$AC=x$ болса, $CD=x+4$, $DB=2(x+4)$ және $x+(x+4)+2(x+4)=40$, бұдан $x=7$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": true,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$7$ см",
+          "textKk": "$7$ см",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$11$ см",
+          "textKk": "$11$ см",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$14$ см",
+          "textKk": "$14$ см",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$20$ см",
+          "textKk": "$20$ см",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p49_7"]
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Какие утверждения об уравнении, корне и решении уравнения верны?",
+      "bodyKk": "Теңдеу, түбір және теңдеуді шешу туралы қай тұжырымдар дұрыс?",
+      "explanationRu": "Верны определение уравнения и определение корня. Неверно: уравнение без знака равенства; «решить» как одно лишь упрощение выражения.",
+      "explanationKk": "Теңдеу мен түбір анықтамалары дұрыс. Қатесі: теңдік белгісі жоқ «теңдеу»; «шешу» дегенді тек өрнекті ықшамдау деп түсіну.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Уравнение — равенство с буквой, значение которой надо найти",
+          "textKk": "Теңдеу — мәнін табу керек әріпі бар теңдік",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Уравнение — это выражение без знака равенства",
+          "textKk": "Теңдеу — теңдік белгісі жоқ өрнек",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Корень — значение неизвестного, дающее верное равенство",
+          "textKk": "Түбір — дұрыс теңдік беретін белгісіздің мәні",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Решить уравнение — значит упростить выражение (без поиска корня)",
+          "textKk": "Теңдеуді шешу — өрнекті ықшамдау (түбірді іздемей)",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p48_1", "PDF_p48_3", "PDF_p48_4"]
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Какие пары «уравнение — число» верны (число — корень)?",
+      "bodyKk": "Қай «теңдеу — сан» жұптары дұрыс (сан — түбір)?",
+      "explanationRu": "Проверка: $18+23=41$; $12\\cdot 5=60$; $33\\cdot 4=132$. Пара с $y=70$ неверна: $46-70\\neq 24$.",
+      "explanationKk": "Тексеру: $18+23=41$; $12\\cdot 5=60$; $33\\cdot 4=132$. $y=70$ жұбы қате: $46-70\\neq 24$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$x+23=41$ и число $18$",
+          "textKk": "$x+23=41$ және $18$ саны",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$12x=60$ и число $5$",
+          "textKk": "$12x=60$ және $5$ саны",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$46-y=24$ и число $70$",
+          "textKk": "$46-y=24$ және $70$ саны",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$33y=132$ и число $4$",
+          "textKk": "$33y=132$ және $4$ саны",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p48_3"]
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "bodyRu": "Какие из готовых решений уравнений верны?",
+      "bodyKk": "Теңдеулердің қай дайын шешімдері дұрыс?",
+      "explanationRu": "Верны: $x=47-29=18$; $y=58-31=27$; $m=21\\cdot 10=210$. Неверно: $x-54=28\\Rightarrow x=28-54$.",
+      "explanationKk": "Дұрысы: $x=47-29=18$; $y=58-31=27$; $m=21\\cdot 10=210$. Қатесі: $x-54=28\\Rightarrow x=28-54$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$x+29=47$ $\\Rightarrow$ $x=18$",
+          "textKk": "$x+29=47$ $\\Rightarrow$ $x=18$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$58-y=31$ $\\Rightarrow$ $y=27$",
+          "textKk": "$58-y=31$ $\\Rightarrow$ $y=27$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$x-54=28$ $\\Rightarrow$ $x=28-54$",
+          "textKk": "$x-54=28$ $\\Rightarrow$ $x=28-54$",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$m:21=10$ $\\Rightarrow$ $m=210$",
+          "textKk": "$m:21=10$ $\\Rightarrow$ $m=210$",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p49_5", "PDF_p49_1", "PDF_p48_5"]
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Какие решения уравнений со скобками верны?",
+      "bodyKk": "Жақшалы теңдеулердің қай шешімдері дұрыс?",
+      "explanationRu": "Верны корни $30$ и $3$. Неверны: множитель через сложение и ответ, равный содержимому скобок.",
+      "explanationKk": "$30$ және $3$ түбірлері дұрыс. Көбейткішті қосу арқылы табу және жақша ішіндегіге тең жауап қате.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$(x-16)\\cdot 9=126$ $\\Rightarrow$ $x-16=14$ $\\Rightarrow$ $x=30$",
+          "textKk": "$(x-16)\\cdot 9=126$ $\\Rightarrow$ $x-16=14$ $\\Rightarrow$ $x=30$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$(x-16)\\cdot 9=126$ $\\Rightarrow$ $x-16=126+9$",
+          "textKk": "$(x-16)\\cdot 9=126$ $\\Rightarrow$ $x-16=126+9$",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$28\\cdot(x+5)=224$ $\\Rightarrow$ $x+5=8$ $\\Rightarrow$ $x=3$",
+          "textKk": "$28\\cdot(x+5)=224$ $\\Rightarrow$ $x+5=8$ $\\Rightarrow$ $x=3$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$28\\cdot(x+5)=224$ $\\Rightarrow$ $x=8$",
+          "textKk": "$28\\cdot(x+5)=224$ $\\Rightarrow$ $x=8$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p48_5", "PDF_p49_2"]
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Какие шаги входят в алгоритм решения задачи с помощью уравнений?",
+      "bodyKk": "Есепті теңдеу арқылы шешу алгоритміне қай қадамдар кіреді?",
+      "explanationRu": "Входят: обозначить неизвестное, составить уравнение, решить, ответить на вопросы, проверить. Не входят «только упростить» и пропуск ответа на вопросы.",
+      "explanationKk": "Кіреді: белгісізді белгілеу, теңдеу құру, шешу, сұрақтарға жауап беру, тексеру. «Тек ықшамдау» және сұрақтарға жауапты өткізіп жіберу кірмейді.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Обозначить неизвестное буквой и составить уравнение",
+          "textKk": "Белгісізді әріппен белгілеп, теңдеу құру",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Упростить выражение как отдельную цель без уравнения",
+          "textKk": "Теңдеусіз өрнекті ықшамдауды жеке мақсат ету",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "Решить уравнение и ответить на вопросы задачи",
+          "textKk": "Теңдеуді шешіп, есеп сұрақтарына жауап беру",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "Проверить правильность решения задачи",
+          "textKk": "Есеп шешімінің дұрыстығын тексеру",
+          "correct": true
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p49_7"]
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "После обеда Даурен поймал на $2$ рыбы меньше, чем до обеда. Оставив половину всей рыбы дедушке, у него осталось $5$ рыб. Если до обеда поймано $x$ рыб, какие уравнения верно моделируют условие?",
+      "bodyKk": "Түстен кейін Дәурен түске дейінгіден $2$ балыққа аз ұстады. Барлық балықтың жартысын атасына қалдырып, өзіне $5$ балық қалды. Түске дейін $x$ балық ұстаса, шартты дұрыс үлгілейтін қай теңдеулер?",
+      "explanationRu": "Всего $x+(x-2)$; половина равна $5$, значит $x+(x-2)=10$. Запись без «$=$» — не уравнение.",
+      "explanationKk": "Барлығы $x+(x-2)$; жартысы $5$, демек $x+(x-2)=10$. «$=$» жоқ жазба — теңдеу емес.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$\\dfrac{x+(x-2)}{2}=5$",
+          "textKk": "$\\dfrac{x+(x-2)}{2}=5$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$x+(x-2)=10$",
+          "textKk": "$x+(x-2)=10$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$x+(x-2)$ (без знака равенства)",
+          "textKk": "$x+(x-2)$ (теңдік белгісінсіз)",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$x+(x+2)=10$",
+          "textKk": "$x+(x+2)=10$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p49_7"]
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "bodyRu": "Для уравнения $(12m-5m)\\cdot 4=252$ какие следующие шаги или корни верны? (цель — найти корень)",
+      "bodyKk": "$(12m-5m)\\cdot 4=252$ теңдеуі үшін қай келесі қадамдар немесе түбірлер дұрыс? (мақсат — түбірді табу)",
+      "explanationRu": "Сначала $7m\\cdot 4=252$, затем $28m=252$, $m=9$. Одно только упрощение без корня — не цель темы.",
+      "explanationKk": "Алдымен $7m\\cdot 4=252$, содан кейін $28m=252$, $m=9$. Тек ықшамдау, түбірсіз — тақырыптың мақсаты емес.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$7m\\cdot 4=252$ $\\Rightarrow$ $28m=252$ $\\Rightarrow$ $m=9$",
+          "textKk": "$7m\\cdot 4=252$ $\\Rightarrow$ $28m=252$ $\\Rightarrow$ $m=9$",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Достаточно упростить до $7m$ и остановиться",
+          "textKk": "$7m$-ге дейін ықшамдап тоқтау жеткілікті",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "textRu": "$(7m)\\cdot 4=252$ и корень $m=9$",
+          "textKk": "$(7m)\\cdot 4=252$ және түбір $m=9$",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "textRu": "$17m\\cdot 4=252$ $\\Rightarrow$ $m=252:68$",
+          "textKk": "$17m\\cdot 4=252$ $\\Rightarrow$ $m=252:68$",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p48_4"]
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 5,
+      "bodyRu": "Какие значения являются корнями данных уравнений?",
+      "bodyKk": "Қай мәндер берілген теңдеулердің түбірлері болып табылады?",
+      "explanationRu": "$x\\cdot x+60=85$ $\\Rightarrow$ $x\\cdot x=25$ $\\Rightarrow$ $x=5$. $(x\\cdot x-23)\\cdot 9=117$ $\\Rightarrow$ $x\\cdot x=36$ $\\Rightarrow$ $x=6$. Путаница $x\\cdot x$ с $2x$ даёт ложные корни.",
+      "explanationKk": "$x\\cdot x+60=85$ $\\Rightarrow$ $x\\cdot x=25$ $\\Rightarrow$ $x=5$. $(x\\cdot x-23)\\cdot 9=117$ $\\Rightarrow$ $x\\cdot x=36$ $\\Rightarrow$ $x=6$. $x\\cdot x$-ті $2x$ деп шатастыру жалған түбір береді.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "$5$ — корень уравнения $x\\cdot x+60=85$",
+          "textKk": "$5$ — $x\\cdot x+60=85$ теңдеуінің түбірі",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "$6$ — корень уравнения $(x\\cdot x-23)\\cdot 9=117$",
+          "textKk": "$6$ — $(x\\cdot x-23)\\cdot 9=117$ теңдеуінің түбірі",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "$12{,}5$ — корень $x\\cdot x+60=85$ (если считать $x\\cdot x$ как $2x$)",
+          "textKk": "$12{,}5$ — $x\\cdot x+60=85$ түбірі ($x\\cdot x$-ті $2x$ деп есептесе)",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "$5$ — корень $(x\\cdot x-23)\\cdot 9=117$",
+          "textKk": "$5$ — $(x\\cdot x-23)\\cdot 9=117$ теңдеуінің түбірі",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p48_3", "PDF_p48_4"]
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 5,
+      "bodyRu": "В саду $29$ кустов: смородины — $x$, крыжовника на $3$ больше смородины, малины в $2$ раза больше крыжовника. Какие утверждения согласованы с моделью?",
+      "bodyKk": "Бақта $29$ бұта: қарақат — $x$, қарлыған қарақаттан $3$-ке артық, таңқурай қарлығаннан $2$ есе көп. Қай тұжырымдар үлгімен келіседі?",
+      "explanationRu": "Модель $x+(x+3)+2(x+3)=29$ $\\Rightarrow$ $4x+9=29$ $\\Rightarrow$ $x=5$; крыжовник $8$, малина $16$.",
+      "explanationKk": "Үлгі $x+(x+3)+2(x+3)=29$ $\\Rightarrow$ $4x+9=29$ $\\Rightarrow$ $x=5$; қарлыған $8$, таңқурай $16$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [
+        {
+          "label": "A",
+          "textRu": "Уравнение $x+(x+3)+2(x+3)=29$",
+          "textKk": "$x+(x+3)+2(x+3)=29$ теңдеуі",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "textRu": "Смородины $5$, крыжовника $8$, малины $16$",
+          "textKk": "Қарақат $5$, қарлыған $8$, таңқурай $16$",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "textRu": "Уравнение $x+(x+3)+2x=29$ (малина в $2$ раза больше смородины)",
+          "textKk": "$x+(x+3)+2x=29$ теңдеуі (таңқурай қарақаттан $2$ есе көп)",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "textRu": "Ответ «малины $5$» при верном $x=5$",
+          "textKk": "$x=5$ дұрыс болса да «таңқурай $5$» деген жауап",
+          "correct": false
+        }
+      ],
+      "fillAnswers": [],
+      "sourceRuleIds": ["PDF_p49_7"]
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "bodyRu": "Реши уравнение $x-54=28$. Корень: $[[1]]$.",
+      "bodyKk": "$x-54=28$ теңдеуін шеш. Түбір: $[[1]]$.",
+      "explanationRu": "Неизвестное уменьшаемое: $x=28+54=82$.",
+      "explanationKk": "Белгісіз кеміткіш: $x=28+54=82$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "82",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ],
+      "sourceRuleIds": ["PDF_p49_5", "PDF_p49_1"]
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "bodyRu": "Реши уравнение $(52-x)\\cdot 4=128$. Корень: $[[1]]$.",
+      "bodyKk": "$(52-x)\\cdot 4=128$ теңдеуін шеш. Түбір: $[[1]]$.",
+      "explanationRu": "$52-x=128:4=32$, затем $x=52-32=20$.",
+      "explanationKk": "$52-x=128:4=32$, содан кейін $x=52-32=20$.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "20",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ],
+      "sourceRuleIds": ["PDF_p48_5", "PDF_p49_1"]
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "bodyRu": "Сыну столько месяцев, сколько лет отцу. Сумма их возрастов $52$ года. Сколько лет сыну? Ответ: $[[1]]$.",
+      "bodyKk": "Ұлдың ай жасы әкенің жыл жасына тең. Жастарының қосындысы $52$ жыл. Ұлға қанша жыл? Жауап: $[[1]]$.",
+      "explanationRu": "Пусть отцу $x$ лет, сыну $x$ месяцев $=\\dfrac{x}{12}$ лет. Тогда $x+\\dfrac{x}{12}=52$ $\\Rightarrow$ $x=48$. Сыну $48:12=4$ года.",
+      "explanationKk": "Әкеге $x$ жыл, ұлға $x$ ай $=\\dfrac{x}{12}$ жыл десек. $x+\\dfrac{x}{12}=52$ $\\Rightarrow$ $x=48$. Ұлға $48:12=4$ жыл.",
+      "source": "Алдамуратова, 5 кл, ч.1, стр. 48-53",
+      "needsIllustration": false,
+      "illustration": null,
+      "options": [],
+      "fillAnswers": [
+        {
+          "placeholder": "[[1]]",
+          "answer": "4",
+          "matchMode": "NUMERIC_TOLERANCE",
+          "tolerance": 0
+        }
+      ],
+      "sourceRuleIds": ["PDF_p49_7", "PDF_p49_6"]
+    }
+  ],
+  "matrixDeviations": []
+}

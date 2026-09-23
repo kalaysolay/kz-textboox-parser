@@ -1,0 +1,426 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-formuly-vychislenie-20260809-1530",
+  "textbook": {
+    "path": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/parsed/math_aldamuratova_5grade_part1_parsed_v2.json",
+    "pdfPath": "C:/Users/admin/IdeaProjects/kz-textboox-parser/Математика/Математика Алдамуратова Т. учебник для 5 класса Часть 1.pdf",
+    "titleRu": "Математика. Учебник для учащихся 5 класса общеобразовательной школы",
+    "authorsShort": "Алдамуратова",
+    "grade": 5,
+    "part": 1,
+    "publisher": "Атамура",
+    "year": 2017
+  },
+  "unit": {
+    "lessonNo": 12,
+    "section": "I",
+    "sectionTitle": "Натуральные числа и нуль",
+    "topicCode": "1.11",
+    "topicTitle": "Формулы. Вычисление по формулам",
+    "pageStart": 54,
+    "pageEnd": 59,
+    "supplementary": false
+  },
+  "textbookRef": "Алдамуратова, 5 кл, ч.1, стр. 54-59",
+  "rules": [
+    {
+      "ruleId": "PDF_p54_1",
+      "name": "Определение формулы",
+      "statement": "В математике правила записываются с помощью равенств, содержащих буквы. В таком случае говорят, что правило записано с помощью формулы.",
+      "formula": null,
+      "sourcePages": [54, 59],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_054.png вводный абзац после заголовка «1.11. Формулы. Вычисление по формулам»; page_059.png «Ключевые факты»: «Формула — это правило, записанное в виде равенства, содержащего буквы»"
+    },
+    {
+      "ruleId": "PDF_p54_2",
+      "name": "Определение периметра",
+      "statement": "Периметр — это сумма длин всех сторон фигуры на плоскости.",
+      "formula": null,
+      "sourcePages": [54],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_054.png синяя рамка рядом с рис. 1.27"
+    },
+    {
+      "ruleId": "PDF_p54_3",
+      "name": "Формула периметра прямоугольника",
+      "statement": "Формула периметра прямоугольника: P = 2a + 2b, или P = 2(a + b), где P — периметр прямоугольника, a — длина, b — ширина прямоугольника. Периметр прямоугольника равен удвоенной сумме его длины и ширины.",
+      "formula": "P = 2a + 2b = 2(a + b)",
+      "sourcePages": [54, 59],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_054.png после «Проверьте себя» + синяя полоса; таблица формул page_059.png"
+    },
+    {
+      "ruleId": "PDF_p54_4",
+      "name": "Формула периметра квадрата",
+      "statement": "Квадрат — это прямоугольник с равными сторонами. Формула периметра квадрата: P = 4a, где a — длина стороны квадрата.",
+      "formula": "P = 4a",
+      "sourcePages": [54],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_054.png блок у рис. 1.28"
+    },
+    {
+      "ruleId": "PDF_p54_5",
+      "name": "Формула площади прямоугольника",
+      "statement": "Площадь прямоугольника равна произведению его длины на ширину. Формула площади прямоугольника: S = a·b, где S — площадь прямоугольника, a — длина, b — ширина.",
+      "formula": "S = a \\cdot b",
+      "sourcePages": [54, 55, 59],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_054.png синяя полоса §II; page_055.png рамка S=ab; таблица page_059.png"
+    },
+    {
+      "ruleId": "PDF_p55_1",
+      "name": "Формула площади квадрата",
+      "statement": "Площадь квадрата равна квадрату его стороны. Формула площади квадрата: S = a².",
+      "formula": "S = a^{2}",
+      "sourcePages": [55],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_055.png синяя полоса + рамка S=a²"
+    },
+    {
+      "ruleId": "PDF_p55_2",
+      "name": "Формула пройденного пути",
+      "statement": "Формула пройденного пути: s = v · t, где s — длина пройденного пути, v — скорость, t — время движения. Пройденный путь равен произведению скорости на время движения.",
+      "formula": "s = v \\cdot t",
+      "sourcePages": [55, 59],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_055.png §III после Задания 2; таблица page_059.png"
+    },
+    {
+      "ruleId": "PDF_p55_3",
+      "name": "Следствия из формулы пути",
+      "statement": "Из формулы пути по правилу нахождения неизвестного множителя следует, что v = s : t; t = s : v.",
+      "formula": "v = s : t;\\quad t = s : v",
+      "sourcePages": [55],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_055.png абзац после синей полосы о пути; опора на правило неизвестного множителя (не первичное «решение уравнений»)"
+    },
+    {
+      "ruleId": "PDF_p55_4",
+      "name": "Формула стоимости",
+      "statement": "Стоимость равна цене, умноженной на количество товара. C = a · n, где C — стоимость товара, a — цена товара, n — количество товара в выбранных единицах.",
+      "formula": "C = a \\cdot n",
+      "sourcePages": [55, 59],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_055.png §IV; таблица page_059.png"
+    },
+    {
+      "ruleId": "PDF_p55_5",
+      "name": "Формула объема прямоугольного параллелепипеда",
+      "statement": "Объем прямоугольного параллелепипеда равен произведению его длины на ширину и высоту. Формула объема прямоугольного параллелепипеда: V = a · b · c, где V — объем, a — длина, b — ширина, c — высота.",
+      "formula": "V = a \\cdot b \\cdot c",
+      "sourcePages": [55, 56, 59],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_055.png §V синяя полоса; page_056.png рамка V=abc + рис. 1.29; таблица page_059.png"
+    },
+    {
+      "ruleId": "PDF_p56_1",
+      "name": "Формула объема куба",
+      "statement": "Куб — это прямоугольный параллелепипед, у которого все измерения одинаковы. Объем куба равен кубу его ребра. Формула объема куба: V = a³, где a — длина ребра куба.",
+      "formula": "V = a^{3}",
+      "sourcePages": [56],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_056.png синяя полоса + рамка V=a³ + рис. 1.30"
+    },
+    {
+      "ruleId": "PDF_p56_2",
+      "name": "Подстановка в формулу: единицы измерения",
+      "statement": "1. Числовые значения величин подставляют в формулу после приведения их к одинаковой единице измерения. 2. В формуле не пишутся единицы измерения.",
+      "formula": null,
+      "sourcePages": [56],
+      "origin": "verbatim_from_pdf",
+      "binding": "page_in_range",
+      "role": "primary",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "png page_056.png блок «Примечание»"
+    },
+    {
+      "ruleId": "PDF_p48_prereq",
+      "name": "Неизвестный множитель (предпосылка)",
+      "statement": "Чтобы найти неизвестный множитель, нужно значение произведения разделить на известный множитель. На стр. 55 применяется к формуле пути: v = s : t; t = s : v.",
+      "formula": "v = s : t;\\quad t = s : v",
+      "sourcePages": [48, 55],
+      "origin": "verbatim_from_pdf",
+      "binding": "neighbour_page",
+      "role": "prerequisite",
+      "confidence": "high_verbatim",
+      "needsManualCheck": false,
+      "evidence": "тема 1.10 стр. 48; явная отсылка на page_055.png («по правилу нахождения неизвестного множителя») — не primary навыка «решить уравнение»"
+    }
+  ],
+  "verbatimExamples": [
+    {
+      "exactPage": 54,
+      "text": "Задание 1. Найдите периметр прямоугольника (рис. 1.27), если a — длина, b — ширина. 1) a = 6 см; b = 4 см; P = [?]; 2) a = 5 дм; b = 3 дм; P = [?]; 3) a = 3 дм 2 см; b = 10 см; P = [?]. Напишите формулу периметра прямоугольника.",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "Проверьте себя: P=2(6+4)=20 см; P=2(5+3)=16 дм; P=2(32+10)=84 см (единицы приведены к см)"
+    },
+    {
+      "exactPage": 55,
+      "text": "Задание 2. Автобус едет со скоростью 60 км/ч. Какой путь он пройдет: 1) за 2 часа; 2) за 3 часа; 3) за 4 часа? Напишите формулу пройденного пути.",
+      "taskType": "word_problem",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "Проверьте себя: s=60·2=120 км; 60·3=180 км; 60·4=240 км"
+    },
+    {
+      "exactPage": 56,
+      "text": "123. Ребро куба 6 см. На сколько кубов с ребром 2 см можно разделить этот куб? А. 27 кубов; В. 24 куба; С. 34 куба; D. 30 кубов.",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "Уровень A; объемы кубов V=a³"
+    },
+    {
+      "exactPage": 56,
+      "text": "124. 1) Длина прямоугольного параллелепипеда 12 см, ширина 9 см, высота 5 см. Найдите его объем. 2) Объем комнаты 72 м³, высота 3 м. Найдите площадь пола комнаты.",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "A; прямая подстановка V=abc и обратная S=V:c"
+    },
+    {
+      "exactPage": 57,
+      "text": "125. 2 порции мороженого стоят 240 тг. Цена одной порции уменьшилась на 30 тг. Сколько теперь надо заплатить за 4 порции мороженого? (таблица a, n, C — строки I и II)",
+      "taskType": "word_problem",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "A; формула стоимости C=a·n; контекст РК (тенге)"
+    },
+    {
+      "exactPage": 57,
+      "text": "126. На рис. 1.31 треугольник ABC. Дополните до прямоугольника. Найдите площадь прямоугольника. Найдите площадь треугольника ABC. (высота 6 см; отрезки основания 4 см и 8 см)",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "A; площадь прямоугольника → половина для треугольника"
+    },
+    {
+      "exactPage": 57,
+      "text": "127. Охотничья собака бежала за зайцем со скоростью 16 м/с, а заяц убегал со скоростью 12 м/с. Собака догнала зайца за 13 с. 1) Какое расстояние было между ними первоначально? 2) Что означает число 4 в получившемся выражении?",
+      "taskType": "word_problem",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "B; путь/скорость: (16−12)·13"
+    },
+    {
+      "exactPage": 57,
+      "text": "128. Длина водоема прямоугольной формы равна 45 м, а ширина 38 м. На расстоянии 2 м от водоема поставили изгородь. Найдите длину изгороди. А. 130 м; В. 140 м; С. 160 м; D. 182 м.",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "B; периметр внешней рамки P=2((45+4)+(38+4))"
+    },
+    {
+      "exactPage": 57,
+      "text": "129°. Когда от листа жести квадратной формы отрезали прямоугольник шириной 5 см, осталось 150 см² жести. Найдите первоначальную площадь жестяного листа.",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "B°; площадь квадрата / прямоугольника"
+    },
+    {
+      "exactPage": 57,
+      "text": "130. У Асхата было 500 тг. Он купил 7 тетрадей по цене 25 тг и 3 ручки по цене 80 тг. Что неизвестно? Задайте вопрос.",
+      "taskType": "word_problem",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "B; стоимость C=a·n; открытый вопрос"
+    },
+    {
+      "exactPage": 57,
+      "text": "131. Куб с ребром в 1 дм разрезан на кубики с ребром в 1 см. Если из этих кубиков построить башню, ставя их друг на друга, то на какую высоту она поднялась бы? А. 8 м; В. 10 м; С. 9 м; D. 5 м.",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "B; перевод дм→см, V=a³, высота башни"
+    },
+    {
+      "exactPage": 57,
+      "text": "132. Верно ли утверждение: 1) любой прямоугольный параллелепипед — куб; 2) любой квадрат — прямоугольник; 3) противоположные грани прямоугольного параллелепипеда равны; 4) любой куб — прямоугольный параллелепипед; 5) любой прямоугольник — квадрат?",
+      "taskType": "sets_logic",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "B; продолжение на стр. 58; определения квадрата/куба"
+    },
+    {
+      "exactPage": 58,
+      "text": "133. Коробку начали заполнять кубиками с ребрами, равными 1 см (рис. 1.32). Сколько кубиков войдет в коробку? Каков ее объем?",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "B; визуальный подсчёт V=abc по рис. 1.32"
+    },
+    {
+      "exactPage": 58,
+      "text": "134. Рабочие огородили участок прямоугольной формы длиной 75 м и шириной 30 м. Для этого они вбили столбики по углам участка, а также по его сторонам через каждые 3 м. Затем через столбики протянули 5 рядов проволоки. Сколько всего столбиков вбили рабочие? Сколько метров проволоки ушло на ограждение участка?",
+      "taskType": "word_problem",
+      "confidence": "medium_ocr",
+      "usable": true,
+      "note": "C; периметр + шаг столбиков. TXT OCR «8 м», на PNG шаг читается как 3 м — при генерации сверить с рисунком/книгой"
+    },
+    {
+      "exactPage": 58,
+      "text": "135*. Найдите площадь треугольника ABC на рис. 1.33 (описывающий прямоугольник 14 см × 6 см; основание AC = 9 см).",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "C*; площадь через дополнение до прямоугольника"
+    },
+    {
+      "exactPage": 58,
+      "text": "136*. На рис. 1.34 №1–№4 — квадраты, №5 — прямоугольник. Периметр квадрата №1 = 32 см; периметр №2 = 24 см; площадь №3 = 25 см²; площадь прямоугольника №5 = 133 см². Найдите площадь квадрата №4.",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "C*; OCR «832»→PNG «32»; формулы P=4a и S=a²"
+    },
+    {
+      "exactPage": 59,
+      "text": "138. Каждые 5 м² водохранилища дополнились 350 л дождевой воды. Насколько повысился уровень воды в водохранилище? Вычислите в сантиметрах.",
+      "taskType": "measurement",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "связь объёма/площади/высоты; перевод единиц"
+    },
+    {
+      "exactPage": 59,
+      "text": "139. Длина прямоугольного параллелепипеда в 3 раза больше, а высота в 2 раза меньше, чем его ширина. Сумма трёх измерений равна 54 см (рис. 1.35). Найдите объем его закрашенной части.",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "C; V=abc + доля закрашенной части на рис. 1.35"
+    },
+    {
+      "exactPage": 59,
+      "text": "140. Сколько коробок конфет вместится в ящик на рис. 1.36? (ящик 60×24×20 см; коробка конфет 15×8×10 см)",
+      "taskType": "geometry",
+      "confidence": "high_verbatim",
+      "usable": true,
+      "note": "C; отношение объёмов / укладка"
+    },
+    {
+      "exactPage": 59,
+      "text": "137. В 22 пакета разложили конфеты трех сортов. В каждом пакете конфеты одного сорта. Докажите, что в любом случае обязательно найдутся 8 пакетов, в которых окажутся конфеты одного сорта.",
+      "taskType": "sets_logic",
+      "confidence": "high_verbatim",
+      "usable": false,
+      "note": "Принцип Дирихле — вне навыка «вычисление по формулам»; не брать в генерацию"
+    },
+    {
+      "exactPage": 56,
+      "text": "122. Вычислите устно: цепочки 17+43…; 80−26…; 100−65…; 90−24… (четыре столбика действий до «?»).",
+      "taskType": "calculation",
+      "confidence": "medium_ocr",
+      "usable": false,
+      "note": "Устный счёт без формул темы; разминка"
+    }
+  ],
+  "structuralExamples": [
+    {
+      "taskType": "word_problem",
+      "template": "Периметр прямоугольника P = 2(a + b). Найди сторону, если P = 36 см и a = 10 см.",
+      "expectedSkill": "Формулы, подстановка"
+    },
+    {
+      "taskType": "geometry",
+      "template": "По формуле S = a·b найди площадь прямоугольника при a = 8 дм, b = 5 дм. Ответ вырази в см², предварительно приведя единицы.",
+      "expectedSkill": "Формулы площади; единицы измерения"
+    },
+    {
+      "taskType": "word_problem",
+      "template": "По формуле s = v·t найди путь при v = 70 км/ч, t = 3 ч; затем найди t при s = 210 км, v = 70 км/ч.",
+      "expectedSkill": "Формула пути и следствия v=s:t, t=s:v"
+    },
+    {
+      "taskType": "word_problem",
+      "template": "Цена товара a = 120 тг, количество n = 7. Найди стоимость C по формуле C = a·n.",
+      "expectedSkill": "Формула стоимости"
+    },
+    {
+      "taskType": "geometry",
+      "template": "Найди объем прямоугольного параллелепипеда V = a·b·c при a=10 см, b=4 см, c=3 см и объем куба с ребром 4 см.",
+      "expectedSkill": "Формулы объема"
+    }
+  ],
+  "generatorProfile": {
+    "audience": "Учащиеся 5 класса общеобразовательных школ Республики Казахстан",
+    "taskMixRecommended": {
+      "calculation": 0.4,
+      "word_problem": 0.25,
+      "measurement": 0.1,
+      "geometry": 0.1,
+      "sets_logic": 0.15
+    },
+    "formatRules": [
+      "Три уровня сложности: А (базовый), В (продвинутый), С (творческий)",
+      "Включать блок «Ключевые факты» после темы при генерации конспекта",
+      "Задания с контекстом Казахстана (расстояния, площади регионов) — по стилю учебника",
+      "Для дробей использовать обыкновенную запись m/n; для уравнений — поиск корня"
+    ],
+    "safetyAndScope": [
+      "Только программа 5 класса части 1: натуральные числа, делимость, обыкновенные дроби",
+      "Не включать десятичные дроби, проценты, множества — они в части 2",
+      "Для темы 1.11: фокус на подстановку в формулы (P, S, s=v·t, C=a·n, V), не на решение уравнений как primary skill; антидубль vs 1.10 и 1.8–1.9"
+    ]
+  },
+  "blockStructureNotes": "Стр. 54–56: теория и разобранные задания (периметр/площадь прямоугольника и квадрата; путь; стоимость; объем параллелепипеда и куба) + примечание про единицы. Стр. 56–59: упражнения A/B/C №122–140; рис. 1.27–1.36. Стр. 59: «Ключевые факты» + таблица формул (P, S, s, C, V). Уровни: A ≈ №122–126, B ≈ №127–133, C ≈ №134–140.",
+  "sliceStatus": "ready",
+  "recommendedMaxCount": null,
+  "gaps": [
+    "OCR TXT сильно портит формулы (S=ab, V=abc, s=v·t и т.п.) — формулировки восстановлены по PNG",
+    "№134: шаг столбиков — конфликт TXT «8 м» vs чтение PNG «3 м»; needsManualCheck при использовании",
+    "№136: OCR «832 см» → на PNG «32 см»",
+    "№137 (принцип Дирихле) — usable:false, вне навыка формул",
+    "В parsed нет dedicated rules[] / topic_rule_links для 1.11; structural topic_refs=[11] сдвинут относительно lesson_no=12",
+    "read-textbook-pages.cjs упал ACCESS_VIOLATION; страницы скопированы вручную из того же OCR-кэша"
+  ],
+  "ocrConfidence": "high"
+}

@@ -1,0 +1,277 @@
+[
+  {
+    "run": "math-5-protsenty-20260808-1200",
+    "presence": "YYYYYYN",
+    "q": 30,
+    "types": {
+      "SCQ": 18,
+      "MCQ": 9,
+      "FILL_IN": 3
+    },
+    "acc": 28,
+    "fix": 2,
+    "rej": 0,
+    "verdict": "ready_for_import",
+    "rel": "verbatim",
+    "needs": 0,
+    "illN": null,
+    "st": {},
+    "readyOk": 0,
+    "readyBad": [],
+    "blocked": [],
+    "skipped": [],
+    "missCrit": []
+  },
+  {
+    "run": "math-5-ugol-gradusnaya-mera-20260808-1230",
+    "presence": "YYYYYYY",
+    "q": 30,
+    "types": {
+      "SCQ": 18,
+      "MCQ": 9,
+      "FILL_IN": 3
+    },
+    "acc": 30,
+    "fix": 0,
+    "rej": 0,
+    "verdict": "ready_for_import",
+    "rel": "verbatim",
+    "needs": 12,
+    "illN": 12,
+    "st": {
+      "ready": 12
+    },
+    "readyOk": 12,
+    "readyBad": [],
+    "blocked": [],
+    "skipped": [],
+    "missCrit": []
+  },
+  {
+    "run": "math-5-transportir-izmerenie-postroenie-20260808-1300",
+    "presence": "YYYYYYY",
+    "q": 30,
+    "types": {
+      "SCQ": 18,
+      "MCQ": 9,
+      "FILL_IN": 3
+    },
+    "acc": 29,
+    "fix": 1,
+    "rej": 0,
+    "verdict": "ready_for_import",
+    "rel": "verbatim",
+    "needs": 11,
+    "illN": 11,
+    "st": {
+      "ready": 11
+    },
+    "readyOk": 11,
+    "readyBad": [],
+    "blocked": [],
+    "skipped": [],
+    "missCrit": []
+  },
+  {
+    "run": "math-5-sravnenie-vidy-uglov-20260808-1330",
+    "presence": "YYYYYYY",
+    "q": 30,
+    "types": {
+      "SCQ": 18,
+      "MCQ": 9,
+      "FILL_IN": 3
+    },
+    "acc": 29,
+    "fix": 1,
+    "rej": 0,
+    "verdict": "ready_for_import",
+    "rel": "verbatim",
+    "needs": 10,
+    "illN": 10,
+    "st": {
+      "ready": 10
+    },
+    "readyOk": 10,
+    "readyBad": [],
+    "blocked": [],
+    "skipped": [],
+    "missCrit": []
+  },
+  {
+    "run": "math-5-mnogougolniki-20260808-1400",
+    "presence": "YYYYYYY",
+    "q": 30,
+    "types": {
+      "SCQ": 18,
+      "MCQ": 9,
+      "FILL_IN": 3
+    },
+    "acc": 30,
+    "fix": 0,
+    "rej": 0,
+    "verdict": "ready_for_import",
+    "rel": "verbatim",
+    "needs": 10,
+    "illN": 10,
+    "st": {
+      "ready": 10
+    },
+    "readyOk": 10,
+    "readyBad": [],
+    "blocked": [],
+    "skipped": [],
+    "missCrit": []
+  },
+  {
+    "run": "math-5-povtorenie-glavy-vii-20260808-1430",
+    "presence": "YYYYYYY",
+    "q": 8,
+    "types": {
+      "SCQ": 5,
+      "MCQ": 2,
+      "FILL_IN": 1
+    },
+    "acc": 6,
+    "fix": 2,
+    "rej": 0,
+    "verdict": "ready_for_import",
+    "rel": "unverified_reconstruction",
+    "needs": 2,
+    "illN": 2,
+    "st": {
+      "ready": 2
+    },
+    "readyOk": 2,
+    "readyBad": [],
+    "blocked": [],
+    "skipped": [],
+    "missCrit": []
+  },
+  {
+    "run": "math-5-okruzhnost-krug-20260808-1500",
+    "presence": "YYYYYYY",
+    "q": 30,
+    "types": {
+      "SCQ": 18,
+      "MCQ": 9,
+      "FILL_IN": 3
+    },
+    "acc": 28,
+    "fix": 2,
+    "rej": 0,
+    "verdict": "ready_for_import",
+    "rel": "verbatim",
+    "needs": 4,
+    "illN": 4,
+    "st": {
+      "ready": 4
+    },
+    "readyOk": 4,
+    "readyBad": [],
+    "blocked": [],
+    "skipped": [],
+    "missCrit": []
+  },
+  {
+    "run": "math-5-krugovoy-sektor-20260808-1530",
+    "presence": "YYYYYYY",
+    "q": 30,
+    "types": {
+      "SCQ": 18,
+      "MCQ": 9,
+      "FILL_IN": 3
+    },
+    "acc": 27,
+    "fix": 3,
+    "rej": 0,
+    "verdict": "ready_for_import",
+    "rel": "verbatim",
+    "needs": 5,
+    "illN": 5,
+    "st": {
+      "ready": 5
+    },
+    "readyOk": 5,
+    "readyBad": [],
+    "blocked": [],
+    "skipped": [],
+    "missCrit": []
+  },
+  {
+    "run": "math-5-sposoby-predstavleniya-stat-dannyh-20260808-1600",
+    "presence": "YYYYYYY",
+    "q": 30,
+    "types": {
+      "SCQ": 18,
+      "MCQ": 9,
+      "FILL_IN": 3
+    },
+    "acc": 28,
+    "fix": 2,
+    "rej": 0,
+    "verdict": "ready_for_import",
+    "rel": "verbatim",
+    "needs": 15,
+    "illN": 15,
+    "st": {
+      "ready": 13,
+      "blocked": 2
+    },
+    "readyOk": 13,
+    "readyBad": [],
+    "blocked": [
+      "q13",
+      "q24"
+    ],
+    "skipped": [],
+    "missCrit": []
+  },
+  {
+    "run": "math-5-parallelepiped-razvertka-20260808-1630",
+    "presence": "YYYYYYY",
+    "q": 30,
+    "types": {
+      "SCQ": 18,
+      "MCQ": 9,
+      "FILL_IN": 3
+    },
+    "acc": 28,
+    "fix": 2,
+    "rej": 0,
+    "verdict": "ready_for_import",
+    "rel": "verbatim",
+    "needs": 10,
+    "illN": 10,
+    "st": {
+      "ready": 10
+    },
+    "readyOk": 10,
+    "readyBad": [],
+    "blocked": [],
+    "skipped": [],
+    "missCrit": []
+  },
+  {
+    "run": "math-5-naturalnye-chisla-i-nol-20260808-1700",
+    "presence": "YYYYYYN",
+    "q": 30,
+    "types": {
+      "SCQ": 18,
+      "MCQ": 9,
+      "FILL_IN": 3
+    },
+    "acc": 30,
+    "fix": 0,
+    "rej": 0,
+    "verdict": "ready_for_import",
+    "rel": "verbatim",
+    "needs": 0,
+    "illN": null,
+    "st": {},
+    "readyOk": 0,
+    "readyBad": [],
+    "blocked": [],
+    "skipped": [],
+    "missCrit": []
+  }
+]

@@ -1,0 +1,523 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-formuly-vychislenie-20260809-1530",
+  "typeMixPlanned": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMixPlanned": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "slots": [
+    {
+      "localId": "q01",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Определение формулы",
+      "stemIdea": "Какое утверждение верно определяет формулу (правило в виде равенства с буквами)",
+      "trapIdeas": [
+        "Ученик путает формулу с буквенным выражением без знака равенства (тема 1.8)",
+        "Ученик считает формулой любое числовое равенство без букв",
+        "Ученик думает, что формула — это уравнение, которое обязательно надо решить относительно неизвестного (тема 1.10)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p54_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q02",
+      "type": "SCQ",
+      "difficulty": 1,
+      "skillFocus": "Определение периметра",
+      "stemIdea": "Что называют периметром фигуры на плоскости",
+      "trapIdeas": [
+        "Ученик путает периметр с площадью",
+        "Ученик думает, что периметр — это произведение сторон",
+        "Ученик считает периметром только длину одной стороны"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p54_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "recall"
+    },
+    {
+      "localId": "q03",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Отличить формулу от выражения и уравнения",
+      "stemIdea": "Не вычисляя: какая запись является формулой темы (равенство с буквами-величинами)",
+      "trapIdeas": [
+        "Ученик выбирает буквенное выражение без равенства (1.8)",
+        "Ученик выбирает уравнение «найти x» как будто это формула пути/периметра (1.10)",
+        "Ученик выбирает упрощённое выражение без равенства (1.9)"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p54_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q04",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Периметр прямоугольника по формуле P=2(a+b)",
+      "stemIdea": "Подставить длину и ширину в формулу периметра прямоугольника (одинаковые единицы)",
+      "trapIdeas": [
+        "Ученик считает P=a+b без удвоения",
+        "Ученик считает P=a·b (путает с площадью)",
+        "Ученик считает P=4a, как для квадрата"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p54_3"],
+      "sourceExampleRefs": ["p54#1"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q05",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Периметр квадрата по формуле P=4a",
+      "stemIdea": "Найти периметр квадрата по стороне по формуле P=4a",
+      "trapIdeas": [
+        "Ученик считает P=a+a (складывает две стороны)",
+        "Ученик считает P=a² (путает с площадью квадрата)",
+        "Ученик считает P=2(a+a) и ошибается в арифметике удвоения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p54_4"],
+      "sourceExampleRefs": [],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q06",
+      "type": "SCQ",
+      "difficulty": 2,
+      "skillFocus": "Площадь прямоугольника по формуле S=a·b",
+      "stemIdea": "Найти площадь прямоугольника подстановкой в S=a·b (одинаковые единицы)",
+      "trapIdeas": [
+        "Ученик считает S=2(a+b) (путает с периметром)",
+        "Ученик считает S=a+b",
+        "Ученик считает S=a², как для квадрата"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p54_5"],
+      "sourceExampleRefs": [],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q07",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Площадь квадрата по формуле S=a²",
+      "stemIdea": "Найти площадь квадрата по стороне по формуле S=a²",
+      "trapIdeas": [
+        "Ученик считает S=4a (путает с периметром)",
+        "Ученик считает S=a·a·a (как объём куба)",
+        "Ученик считает S=2a"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p55_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q08",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Путь по формуле s=v·t",
+      "stemIdea": "Найти пройденный путь подстановкой скорости и времени в s=v·t",
+      "trapIdeas": [
+        "Ученик делит скорость на время вместо умножения",
+        "Ученик складывает скорость и время",
+        "Ученик путает единицы (км и ч) и «переставляет» действия как в уравнении"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p55_2"],
+      "sourceExampleRefs": ["p55#2"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q09",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Восстановить сторону из формулы периметра прямоугольника",
+      "stemIdea": "По P и одной стороне найти другую сторону через P=2(a+b) (не как «решить уравнение», а как подстановку в формулу)",
+      "trapIdeas": [
+        "Ученик делит P на 2 и вычитает сторону в обратном порядке",
+        "Ученик делит P на сторону, забывая удвоение суммы",
+        "Ученик применяет P=4a к прямоугольнику"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p54_3"],
+      "sourceExampleRefs": [],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q10",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Проверка вычисления периметра прямоугольника",
+      "stemIdea": "Какое из готовых равенств верно применяет формулу периметра прямоугольника",
+      "trapIdeas": [
+        "Ученик принимает P=a+b как верное",
+        "Ученик принимает P=a·b как верное",
+        "Ученик принимает удвоение только одной стороны"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p54_3"],
+      "sourceExampleRefs": ["p54#1"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q11",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сравнить периметр прямоугольника и ошибочный расчёт как у квадрата",
+      "stemIdea": "Для прямоугольника с разными сторонами сравнить верный P=2(a+b) и ошибочный P=4a",
+      "trapIdeas": [
+        "Ученик выбирает P=4a, думая что «периметр всегда 4 стороны одинаковы»",
+        "Ученик сравнивает с площадью вместо периметра",
+        "Ученик берёт P=2a+b без полного удвоения"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p54_3", "PDF_p54_4"],
+      "sourceExampleRefs": [],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q12",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Путь по сюжету через формулу s=v·t",
+      "stemIdea": "Короткий сюжет про движение с постоянной скоростью: найти путь за указанное время по s=v·t",
+      "trapIdeas": [
+        "Ученик делит вместо умножения",
+        "Ученик умножает скорость на другое время из дистрактора",
+        "Ученик ищет «неизвестное» как в уравнении темы 1.10 вместо прямой подстановки"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p55_2"],
+      "sourceExampleRefs": ["p55#2"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q13",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сторона квадрата из формулы периметра",
+      "stemIdea": "По данному периметру квадрата найти сторону через P=4a (обратная подстановка в формулу)",
+      "trapIdeas": [
+        "Ученик делит периметр на 2 вместо 4",
+        "Ученик извлекает «корень» как для площади S=a²",
+        "Ученик вычитает 4 из периметра"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p54_4"],
+      "sourceExampleRefs": [],
+      "questionForm": "inverse"
+    },
+    {
+      "localId": "q14",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Сравнить стоимости по формуле C=a·n",
+      "stemIdea": "Сравнить стоимость двух покупок по формуле C=a·n (разные цена и количество)",
+      "trapIdeas": [
+        "Ученик сравнивает только цены, игнорируя количество",
+        "Ученик складывает цену и количество вместо умножения",
+        "Ученик делит стоимость на цену и сравнивает частные вместо стоимостей"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p55_4"],
+      "sourceExampleRefs": [],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q15",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Приведение единиц перед подстановкой в формулу",
+      "stemIdea": "Длина и ширина даны в разных единицах; восстановить общий шаг: привести к одной единице, затем подставить в P=2(a+b)",
+      "trapIdeas": [
+        "Ученик складывает числа разных единиц без перевода",
+        "Ученик переводит только одну величину и забывает вторую",
+        "Ученик пишет единицы внутрь формулы вопреки примечанию"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p56_2", "PDF_p54_3"],
+      "sourceExampleRefs": ["p54#1"],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q16",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Площадь треугольника через дополнение до прямоугольника",
+      "stemIdea": "По рисунку: какие утверждения о площади прямоугольника и треугольника верны (S=a·b, затем половина)",
+      "trapIdeas": [
+        "Ученик берёт площадь треугольника равной площади всего прямоугольника",
+        "Ученик считает периметр вместо площади",
+        "Ученик умножает основание на высоту без учёта формы/половины"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Без рис. треугольника в прямоугольнике (как 1.31) условие площадей неполное",
+      "sourceRuleIds": ["PDF_p54_5"],
+      "sourceExampleRefs": ["p57#126"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q17",
+      "type": "SCQ",
+      "difficulty": 3,
+      "skillFocus": "Выбор формулы объёма куба без полного счёта",
+      "stemIdea": "Не вычисляя ответ: какая формула нужна для объёма куба с данным ребром",
+      "trapIdeas": [
+        "Ученик выбирает V=a·b·c с тремя разными измерениями",
+        "Ученик выбирает S=a² (площадь грани)",
+        "Ученик выбирает P=4a"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p56_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "predict"
+    },
+    {
+      "localId": "q18",
+      "type": "SCQ",
+      "difficulty": 4,
+      "skillFocus": "Путь по разности скоростей через s=v·t",
+      "stemIdea": "Сюжет «догонялки»: начальное расстояние как путь с относительной скоростью за данное время",
+      "trapIdeas": [
+        "Ученик складывает скорости вместо вычитания",
+        "Ученик умножает только одну скорость на время",
+        "Ученик делит разность скоростей на время"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p55_2"],
+      "sourceExampleRefs": ["p57#127"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q19",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные утверждения о квадрате, кубе и параллелепипеде",
+      "stemIdea": "Выбрать все верные утверждения из определений квадрата/куба и свойств параллелепипеда",
+      "trapIdeas": [
+        "Ученик считает, что любой прямоугольник — квадрат",
+        "Ученик считает, что любой прямоугольный параллелепипед — куб",
+        "Ученик отрицает, что куб — прямоугольный параллелепипед"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p54_4", "PDF_p56_1", "PDF_p55_5"],
+      "sourceExampleRefs": ["p57#132"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q20",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Верные записи ключевых формул темы",
+      "stemIdea": "Выбрать все верные формулы из набора P, S, s=v·t, C=a·n, V (как в ключевых фактах)",
+      "trapIdeas": [
+        "Ученик принимает s=v+t как формулу пути",
+        "Ученик принимает S=2(a+b) как площадь",
+        "Ученик принимает V=a² как объём куба"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p54_3", "PDF_p54_5", "PDF_p55_2", "PDF_p55_4", "PDF_p55_5"],
+      "sourceExampleRefs": [],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q21",
+      "type": "MCQ",
+      "difficulty": 3,
+      "skillFocus": "Какие равенства соответствуют формулам темы",
+      "stemIdea": "Выбрать все равенства, которые верно применяют P=4a, S=a² или V=a³ к конкретным числам",
+      "trapIdeas": [
+        "Ученик принимает численно верное равенство, но от другой формулы (P вместо S)",
+        "Ученик принимает a³ как площадь квадрата",
+        "Ученик принимает 2(a+b) для квадрата с одной стороной"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p54_4", "PDF_p55_1", "PDF_p56_1"],
+      "sourceExampleRefs": [],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q22",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Правило единиц при подстановке в формулу",
+      "stemIdea": "Выбрать все корректные подстановки: величины приведены к одной единице; единицы не пишутся в формуле",
+      "trapIdeas": [
+        "Ученик оставляет см и дм в одной сумме без перевода",
+        "Ученик пишет единицы внутрь буквенной формулы",
+        "Ученик переводит единицы после подстановки «как получится»"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p56_2"],
+      "sourceExampleRefs": ["p54#1"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q23",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Периметр внешней рамки (изгородь вокруг водоёма)",
+      "stemIdea": "Выбрать все верные шаги/результаты для длины изгороди на расстоянии от прямоугольного водоёма через P=2(a+b) с увеличенными сторонами",
+      "trapIdeas": [
+        "Ученик увеличивает только длину или только ширину на отступ",
+        "Ученик прибавляет отступ один раз вместо двух сторон",
+        "Ученик считает площадь рамки вместо периметра"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p54_3"],
+      "sourceExampleRefs": ["p57#128"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q24",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Стоимость после изменения цены по C=a·n",
+      "stemIdea": "Сюжет: известна стоимость нескольких порций; цена снизилась; выбрать все верные шаги/стоимость нового набора по C=a·n",
+      "trapIdeas": [
+        "Ученик уменьшает сразу всю стоимость на 30 тг, а не цену одной порции",
+        "Ученик считает новую цену, но умножает на старое количество",
+        "Ученик делит старую стоимость на новое количество без нахождения цены"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p55_4"],
+      "sourceExampleRefs": ["p57#125"],
+      "questionForm": "word_problem"
+    },
+    {
+      "localId": "q25",
+      "type": "MCQ",
+      "difficulty": 4,
+      "skillFocus": "Следствия формулы пути v=s:t и t=s:v",
+      "stemIdea": "По известным s и v (или s и t) восстановить пропущенные t или v по следствиям формулы пути — как нахождение неизвестного множителя, не как «решить уравнение»",
+      "trapIdeas": [
+        "Ученик умножает s на v вместо деления",
+        "Ученик меняет местами делимое и делитель",
+        "Ученик оформляет ответ как корень уравнения x, а не как скорость/время по формуле"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p55_3", "PDF_p55_2"],
+      "sourceExampleRefs": [],
+      "questionForm": "restore"
+    },
+    {
+      "localId": "q26",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Объём коробки по укладке единичных кубиков",
+      "stemIdea": "По рисунку коробки с начатой укладкой кубиков 1 см: выбрать все верные выводы о числе кубиков и объёме V=a·b·c",
+      "trapIdeas": [
+        "Ученик считает только видимые кубики на рисунке без восстановления полного слоя",
+        "Ученик путает число кубиков с суммой рёбер",
+        "Ученик применяет V=a³ к прямоугольной коробке"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Без рис. коробки с кубиками (как 1.32) подсчёт укладки и размеров неполный",
+      "sourceRuleIds": ["PDF_p55_5"],
+      "sourceExampleRefs": ["p58#133"],
+      "questionForm": "verify"
+    },
+    {
+      "localId": "q27",
+      "type": "MCQ",
+      "difficulty": 5,
+      "skillFocus": "Площадь составной фигуры из квадратов и прямоугольника",
+      "stemIdea": "По рисунку с квадратами и прямоугольником: сопоставить данные P и S, найти площадь указанного квадрата через P=4a и S=a²",
+      "trapIdeas": [
+        "Ученик из периметра квадрата находит сторону делением на 2",
+        "Ученик путает площадь квадрата с периметром",
+        "Ученик складывает все данные площади без поиска нужной стороны"
+      ],
+      "needsIllustration": true,
+      "illustrationReason": "Без рис. составных квадратов/прямоугольника (как 1.34) связь данных P/S с фигурами неоднозначна",
+      "sourceRuleIds": ["PDF_p54_4", "PDF_p55_1", "PDF_p54_5"],
+      "sourceExampleRefs": ["p58#136"],
+      "questionForm": "compare"
+    },
+    {
+      "localId": "q28",
+      "type": "FILL_IN",
+      "difficulty": 3,
+      "skillFocus": "Объём прямоугольного параллелепипеда V=a·b·c",
+      "stemIdea": "Подставить три измерения в V=a·b·c; однозначный числовой ответ",
+      "trapIdeas": [
+        "Ученик перемножает только два измерения",
+        "Ученик складывает измерения",
+        "Ученик считает V=a³ при разных a,b,c"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p55_5"],
+      "sourceExampleRefs": ["p56#124"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q29",
+      "type": "FILL_IN",
+      "difficulty": 4,
+      "skillFocus": "Площадь пола из объёма комнаты через V=a·b·c",
+      "stemIdea": "По объёму комнаты и высоте найти площадь пола (обратная подстановка в формулу объёма)",
+      "trapIdeas": [
+        "Ученик умножает объём на высоту",
+        "Ученик делит высоту на объём",
+        "Ученик ищет «корень уравнения» вместо S=V:c по формуле"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p55_5"],
+      "sourceExampleRefs": ["p56#124"],
+      "questionForm": "compute"
+    },
+    {
+      "localId": "q30",
+      "type": "FILL_IN",
+      "difficulty": 5,
+      "skillFocus": "Объём куба и сравнение с меньшими кубами",
+      "stemIdea": "Ребро большого куба и ребро малых: сколько малых кубов по объёму V=a³ (однозначный ответ)",
+      "trapIdeas": [
+        "Ученик делит рёбра линейно без кубов объёмов",
+        "Ученик считает отношение площадей граней",
+        "Ученик вычитает рёбра вместо отношения a³"
+      ],
+      "needsIllustration": false,
+      "illustrationReason": null,
+      "sourceRuleIds": ["PDF_p56_1"],
+      "sourceExampleRefs": ["p56#123"],
+      "questionForm": "word_problem"
+    }
+  ],
+  "sourceQuality": {
+    "sliceStatus": "ready",
+    "unverifiedRuleIds": []
+  },
+  "notes": "Опора: 12 primary PDF-правил 1.11 (определение формулы/периметра; P,S прямоугольника и квадрата; s=v·t и следствия; C=a·n; V параллелепипеда и куба; единицы). Prerequisite PDF_p48_prereq только в trapIdeas (q01/q03/q12/q25/q29). Anti-dup vs D1 (1.10): не primary «решить уравнение» — фокус подстановка/следствие формулы; vs pack C 1.8–1.9: не голое выражение/упрощение. recommendedMaxCount null → count 30. G017: лимит ≤2 на questionForm превышен (recall×2, predict×2, compute×7, restore×3, verify×7, compare×4, word_problem×4, inverse×1). illustrationPolicy visual-topics: needsIllustration true у q16 (треугольник в прямоугольнике), q26 (коробка с кубиками), q27 (составные квадраты). Не брать №137 Dirichlet; №134 OCR шаг столбиков — не в слотах; числа — по PNG-trusted примерам (№123–128, 132–133, 136, задания 1–2)."
+}

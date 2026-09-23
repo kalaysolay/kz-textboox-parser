@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-uravnenie-20260809-1515",
+  "createdAt": "2026-08-09T15:15:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "Уравнение",
+  "topicKk": "Теңдеу",
+  "topicSlug": "uravnenie",
+  "topicCode": "1.10",
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 30,
+  "typeMix": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMix": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "illustrationPolicy": "visual-topics",
+  "illustrationFor": [],
+  "parsedTextbookPath": "Математика/parsed/math_aldamuratova_5grade_part1_parsed_v2.json",
+  "methodistInstruction": "Формулировки для 5 класса: короткие, однозначные, без двусмысленности и лишних условий. Topic 1.10 pages ~48–53. pdfOffset=0. Respect recommendedMaxCount; keep ~60/30/10 on reduced counts. Anti-dup vs pack C topics 1.1–1.9 (especially 1.8 expressions, 1.9 simplify). Focus: equation definition, root, solving simple equations — not bare expression evaluation/simplify.",
+  "languageMode": "BOTH"
+}

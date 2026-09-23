@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-formuly-vychislenie-20260809-1530",
+  "createdAt": "2026-08-09T15:30:00+05:00",
+  "subjectRu": "Математика",
+  "subjectKk": "Математика",
+  "gradeNo": 5,
+  "topicRu": "Формулы. Вычисление по формулам",
+  "topicKk": "Формулалар. Формулалар бойынша есептеу",
+  "topicSlug": "formuly-vychislenie",
+  "topicCode": "1.11",
+  "atomicSkillRu": null,
+  "atomicSkillKk": null,
+  "count": 30,
+  "typeMix": { "SCQ": 18, "MCQ": 9, "FILL_IN": 3 },
+  "difficultyMix": { "1": 2, "2": 4, "3": 15, "4": 6, "5": 3 },
+  "illustrationPolicy": "visual-topics",
+  "illustrationFor": [],
+  "parsedTextbookPath": "Математика/parsed/math_aldamuratova_5grade_part1_parsed_v2.json",
+  "methodistInstruction": "Формулировки для 5 класса: короткие, однозначные, без двусмысленности и лишних условий. Topic 1.11 pages ~54–59. pdfOffset=0. Respect recommendedMaxCount; keep ~60/30/10 on reduced counts. Anti-dup vs D1 (equations) and pack C 1.8–1.9 (expressions/simplify). Focus: formulas and computing by formulas (e.g. s=v·t and similar), not solving equations for unknown as primary skill.",
+  "languageMode": "BOTH"
+}

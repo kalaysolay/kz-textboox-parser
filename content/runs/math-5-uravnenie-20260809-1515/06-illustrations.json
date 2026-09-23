@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "runId": "math-5-uravnenie-20260809-1515",
+  "sourceFinal": "05-questions.final.json",
+  "styleProfile": "aldamuratova-textbook-simple",
+  "items": [
+    {
+      "localId": "q14",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "polygon",
+      "purpose": "Схема весов: слева два пакета x и гиря 1, справа гиря 5; уравнение в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q14.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 360,
+        "raster": { "path": "illustrations/q14.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "polygon",
+        "width": 720,
+        "height": 360,
+        "figures": [
+          {
+            "fill": false,
+            "showVertices": false,
+            "vertices": [
+              { "id": "", "x": 80, "y": 120 },
+              { "id": "", "x": 640, "y": 120 }
+            ]
+          },
+          {
+            "fillSoft": "rgba(100, 149, 237, 0.35)",
+            "showVertices": false,
+            "vertices": [
+              { "id": "", "x": 360, "y": 120 },
+              { "id": "", "x": 320, "y": 200 },
+              { "id": "", "x": 400, "y": 200 }
+            ]
+          },
+          {
+            "fill": false,
+            "showVertices": false,
+            "vertices": [
+              { "id": "", "x": 180, "y": 120 },
+              { "id": "", "x": 180, "y": 170 }
+            ]
+          },
+          {
+            "fill": false,
+            "showVertices": false,
+            "vertices": [
+              { "id": "", "x": 540, "y": 120 },
+              { "id": "", "x": 540, "y": 170 }
+            ]
+          },
+          {
+            "fill": false,
+            "showVertices": false,
+            "strokeWidth": 2,
+            "vertices": [
+              { "id": "", "x": 110, "y": 170 },
+              { "id": "", "x": 250, "y": 170 },
+              { "id": "", "x": 250, "y": 220 },
+              { "id": "", "x": 110, "y": 220 }
+            ]
+          },
+          {
+            "fill": false,
+            "showVertices": false,
+            "strokeWidth": 2,
+            "vertices": [
+              { "id": "", "x": 470, "y": 170 },
+              { "id": "", "x": 610, "y": 170 },
+              { "id": "", "x": 610, "y": 220 },
+              { "id": "", "x": 470, "y": 220 }
+            ]
+          },
+          {
+            "fillSoft": "rgba(100, 149, 237, 0.28)",
+            "showVertices": false,
+            "vertices": [
+              { "id": "", "x": 120, "y": 185 },
+              { "id": "", "x": 155, "y": 185 },
+              { "id": "", "x": 155, "y": 215 },
+              { "id": "", "x": 120, "y": 215 }
+            ],
+            "caption": "x",
+            "captionX": 137,
+            "captionY": 200
+          },
+          {
+            "fillSoft": "rgba(100, 149, 237, 0.28)",
+            "showVertices": false,
+            "vertices": [
+              { "id": "", "x": 165, "y": 185 },
+              { "id": "", "x": 200, "y": 185 },
+              { "id": "", "x": 200, "y": 215 },
+              { "id": "", "x": 165, "y": 215 }
+            ],
+            "caption": "x",
+            "captionX": 182,
+            "captionY": 200
+          },
+          {
+            "fillSoft": "rgba(160, 160, 160, 0.35)",
+            "showVertices": false,
+            "vertices": [
+              { "id": "", "x": 210, "y": 190 },
+              { "id": "", "x": 240, "y": 190 },
+              { "id": "", "x": 240, "y": 215 },
+              { "id": "", "x": 210, "y": 215 }
+            ],
+            "caption": "1",
+            "captionX": 225,
+            "captionY": 203
+          },
+          {
+            "fillSoft": "rgba(160, 160, 160, 0.35)",
+            "showVertices": false,
+            "vertices": [
+              { "id": "", "x": 510, "y": 185 },
+              { "id": "", "x": 570, "y": 185 },
+              { "id": "", "x": 570, "y": 215 },
+              { "id": "", "x": 510, "y": 215 }
+            ],
+            "caption": "5",
+            "captionX": 540,
+            "captionY": 200
+          }
+        ]
+      },
+      "notes": "Preferred balance_scale unsupported → polygon composition (beam+pans+blocks). No equation string on SVG; distractors still needed."
+    },
+    {
+      "localId": "q18",
+      "status": "ready",
+      "role": "stem",
+      "sceneKind": "polygon",
+      "purpose": "Схема AB с точками C,D и подписями длин x, x+4, 2(x+4), AB=40; ответ 7 см в options",
+      "answerLeakCheck": "pass",
+      "asset": {
+        "path": "illustrations/q18.svg",
+        "format": "svg",
+        "width": 720,
+        "height": 220,
+        "raster": { "path": "illustrations/q18.png", "format": "png" }
+      },
+      "scene": {
+        "kind": "polygon",
+        "width": 720,
+        "height": 220,
+        "figures": [
+          {
+            "fill": false,
+            "showVertices": true,
+            "cx": 360,
+            "cy": 100,
+            "vertices": [
+              { "id": "A", "x": 60, "y": 100 },
+              { "id": "C", "x": 160, "y": 100 },
+              { "id": "D", "x": 317, "y": 100 },
+              { "id": "B", "x": 631, "y": 100 }
+            ],
+            "labelOffsets": {
+              "A": { "x": 0, "y": -28 },
+              "C": { "x": 0, "y": -28 },
+              "D": { "x": 0, "y": -28 },
+              "B": { "x": 0, "y": -28 }
+            }
+          },
+          {
+            "fill": false,
+            "showVertices": false,
+            "vertices": [
+              { "id": "", "x": 109, "y": 145 },
+              { "id": "", "x": 111, "y": 145 }
+            ],
+            "caption": "x",
+            "captionX": 110,
+            "captionY": 145
+          },
+          {
+            "fill": false,
+            "showVertices": false,
+            "vertices": [
+              { "id": "", "x": 237, "y": 145 },
+              { "id": "", "x": 239, "y": 145 }
+            ],
+            "caption": "x+4",
+            "captionX": 238,
+            "captionY": 145
+          },
+          {
+            "fill": false,
+            "showVertices": false,
+            "vertices": [
+              { "id": "", "x": 473, "y": 145 },
+              { "id": "", "x": 475, "y": 145 }
+            ],
+            "caption": "2(x+4)",
+            "captionX": 474,
+            "captionY": 145
+          },
+          {
+            "fill": false,
+            "showVertices": false,
+            "vertices": [
+              { "id": "", "x": 344, "y": 175 },
+              { "id": "", "x": 346, "y": 175 }
+            ],
+            "caption": "AB=40",
+            "captionX": 345,
+            "captionY": 175
+          }
+        ]
+      },
+      "notes": "Preferred segment_scheme unsupported → polygon collinear + caption labels. Stem omits AB/CD/DB relations (textbook puts them in text); labels on figure make SCQ solvable. No numeric AC=7 on SVG."
+    }
+  ]
+}

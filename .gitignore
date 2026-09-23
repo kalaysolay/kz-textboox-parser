@@ -1,5 +1,5 @@
 # Local OCR outputs (large / regenerated)
-/ocr/
+parsed_outputs/ocr/
 
 # Local PDF/OCR tooling (Node scripts + node_modules)
 /tools/
@@ -15,3 +15,7 @@ Thumbs.db
 .local/
 # Журналы ролей прогона (logs/analyst.md и т.п.) — рабочие записки, истина в JSON 00–05.
 content/runs/**/logs/
+content/runs-lectures/**/logs/
+
+# Trained data (large, downloaded)
+*.traineddata

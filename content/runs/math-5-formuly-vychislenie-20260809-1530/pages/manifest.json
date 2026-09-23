@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tool": "read-textbook-pages",
+  "parsedPath": "C:\\Users\\admin\\IdeaProjects\\kz-textboox-parser\\Математика\\parsed\\math_aldamuratova_5grade_part1_parsed_v2.json",
+  "parserRoot": "C:\\Users\\admin\\IdeaProjects\\kz-textboox-parser",
+  "fileName": "Математика Алдамуратова Т. учебник для 5 класса Часть 1.pdf",
+  "pdfPath": "C:\\Users\\admin\\IdeaProjects\\kz-textboox-parser\\Математика\\Математика Алдамуратова Т. учебник для 5 класса Часть 1.pdf",
+  "pdfOffset": 0,
+  "bookPageStart": 54,
+  "bookPageEnd": 59,
+  "cacheDir": "C:\\Users\\admin\\IdeaProjects\\kz-textboox-parser\\ocr\\ocr_pages_math_aldamuratova_5grade_part1",
+  "cacheKind": "ocr_pages",
+  "cacheMissing": null,
+  "pages": [
+    {
+      "bookPage": 54,
+      "pdfPage": 54,
+      "textPath": "page_054.txt",
+      "pngPath": "page_054.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": ["copied manually after read-textbook-pages.cjs ACCESS_VIOLATION; same cache path as tool"]
+    },
+    {
+      "bookPage": 55,
+      "pdfPage": 55,
+      "textPath": "page_055.txt",
+      "pngPath": "page_055.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": []
+    },
+    {
+      "bookPage": 56,
+      "pdfPage": 56,
+      "textPath": "page_056.txt",
+      "pngPath": "page_056.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": []
+    },
+    {
+      "bookPage": 57,
+      "pdfPage": 57,
+      "textPath": "page_057.txt",
+      "pngPath": "page_057.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": []
+    },
+    {
+      "bookPage": 58,
+      "pdfPage": 58,
+      "textPath": "page_058.txt",
+      "pngPath": "page_058.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": []
+    },
+    {
+      "bookPage": 59,
+      "pdfPage": 59,
+      "textPath": "page_059.txt",
+      "pngPath": "page_059.png",
+      "source": "parser_ocr_cache",
+      "readable": true,
+      "notes": []
+    }
+  ],
+  "summary": {
+    "requested": 6,
+    "readable": 6,
+    "unreadable": 0,
+    "allReadable": true
+  },
+  "howToRead": "Аналитик: сначала открой *.png (Read) и выпиши правила/примеры дословно; *.txt — черновик OCR/слоя, сверяй с PNG. parsed JSON — навигация и перекрёстная проверка."
+}
