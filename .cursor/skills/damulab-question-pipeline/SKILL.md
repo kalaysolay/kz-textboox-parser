@@ -145,6 +145,13 @@ content/runs/{subject}-{grade}-{topicSlug}-{YYYYMMDD-HHMM}/
 1. Убедиться, что ревьюер прошёл чеклист контракта (скиллы reviewer + seed) и `05` без id БД.
 2. Если нужна иллюстрация — проверить `06` и наличие SVG для всех `status: ready`.
 3. Дописать строку в [content/runs/_coverage.md](../../../content/runs/_coverage.md).
+4. Залогировать статистику прогона (идемпотентно — повтор не дублирует строку):
+
+```text
+python content/tools/log-stats.py questions "<runDir>"
+```
+
+Строка уходит на лист `Вопросы` файла `content/stats.xlsx` (локальный, в .gitignore).
 4. Записать `logs/orchestrator.md`: brief в двух строчках, какие роли отработали, где спотыкались.
 5. Если всплыл **системный** косяк (повторяется из прогона в прогон или упирается в архитектуру) —
    1–3 пункта в `content/pipeline-gaps.md`. Разовая опечатка туда не идёт.

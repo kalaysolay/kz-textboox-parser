@@ -93,7 +93,17 @@ content/runs-lectures/<предмет>/<класс>/{topicSlug}-{YYYYMMDD-HHMM}/
 `{topicSlug}-{метка}` без дублирования предмета (он уже в пути).
 Пример: `content/runs-lectures/математика/5 класс/koordinatnyy-luch-20260923-1030/`.
 Сразу создай `logs/`, `.local/pages/` и положи `00`. После приёмки `05` допиши
-строку в `<предмет>/<класс>/_coverage.md` и в корневой `_coverage.md`.
+строку в `<предмет>/<класс>/_coverage.md` и в корневой `_coverage.md`,
+а затем залогируй статистику (идемпотентно — повтор не дублирует строку):
+
+```text
+python content/tools/log-stats.py lecture "<runDir>" ^
+  --model-parser mimo-2.6 --model-planner nemotron-3-ultra ^
+  --model-generator gpt-5.6 --model-reviewer nemotron-3-ultra
+```
+
+Модели укажи фактически использованные. Строка уходит на лист `Лекции`
+файла `content/stats.xlsx` (локальный, в .gitignore).
 
 ## Шаг 3. Гонять роли по порядку
 
