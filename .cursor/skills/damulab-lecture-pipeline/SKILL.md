@@ -22,11 +22,12 @@ description: >-
 ## Роли и рекомендованные модели
 
 Разные этапы требуют разных сильных сторон. Модель задаётся **в вызове Task**,
-а не в скилле. При запуске каждой роли явно указывай модель:
+а не в скилле. Для parser сохраняй выбранную пользователем модель; рекомендации
+остальных ролей ниже не относятся к OCR, который выполняется локально.
 
 | # | Роль | Скилл | Рекомендованная модель | Почему |
 | - | ---- | ----- | ---------------------- | ------ |
-| 1 | parser (парсер) | [damulab-lecture-parser](../damulab-lecture-parser/SKILL.md) | **Mimo 2.6** | сильная сторона — парсинг, OCR, извлечение структуры, символы |
+| 1 | parser (парсер) | [damulab-lecture-parser](../damulab-lecture-parser/SKILL.md) | выбранная пользователем | структура и визуальная проверка; текст/OCR переиспользуются из общего кэша |
 | 2 | planner (методист) | [damulab-lecture-planner](../damulab-lecture-planner/SKILL.md) | **nemotron 3 Ultra** | структура, педагогика, баланс сложности для детей |
 | 3 | generator (автор) | [damulab-lecture-generator](../damulab-lecture-generator/SKILL.md) | **GPT-5.6 или nemotron 3 Ultra** | самый сильный текст, живое объяснение, двуязычие |
 | 4 | reviewer (редактор) | [damulab-lecture-reviewer](../damulab-lecture-reviewer/SKILL.md) | **nemotron 3 Ultra** | строгость, фактчекинг, поимка выдумок и кальки |
@@ -34,7 +35,7 @@ description: >-
 Пример вызова роли как отдельного Task:
 
 ```text
-Task(subagent_type="general", model="mimo-2.6",
+Task(subagent_type="general",
      prompt="Прочитай скилл damulab-lecture-parser. Вход: 00-brief.json + PDF.
              Запиши 01-lecture-source.json в папку прогона. Ничего больше не пиши.")
 ```
@@ -84,7 +85,7 @@ content/runs-lectures/<предмет>/<класс>/{topicSlug}-{YYYYMMDD-HHMM}/
   03-lecture.draft.md
   04-lecture-review.json
   05-lecture.final.md
-  .local/pages/   # тяжёлые PNG/TXT, в .gitignore
+  .local/pages/   # manifest/index со ссылками в общий ocr/cache/
   logs/           # журналы ролей, в .gitignore
 ```
 
@@ -98,7 +99,7 @@ content/runs-lectures/<предмет>/<класс>/{topicSlug}-{YYYYMMDD-HHMM}/
 
 ```text
 python content/tools/log-stats.py lecture "<runDir>" ^
-  --model-parser mimo-2.6 --model-planner nemotron-3-ultra ^
+  --model-parser <фактическая-модель> --model-planner nemotron-3-ultra ^
   --model-generator gpt-5.6 --model-reviewer nemotron-3-ultra
 ```
 
@@ -109,7 +110,7 @@ python content/tools/log-stats.py lecture "<runDir>" ^
 
 | # | Роль | Вход | Выход |
 | - | ---- | ---- | ----- |
-| 1 | [parser](../damulab-lecture-parser/SKILL.md) (`mimo-2.6`) | `00` + parsed v2 + **PDF страниц** | `01-lecture-source.json` |
+| 1 | [parser](../damulab-lecture-parser/SKILL.md) (модель пользователя) | `00` + parsed v2/v3 + PDF/подтверждённый кэш нужных страниц | `01-lecture-source.json` |
 | 2 | [planner](../damulab-lecture-planner/SKILL.md) (`nemotron 3 Ultra`) | `00` + `01` | `02-lecture-plan.json` |
 | 3 | [generator](../damulab-lecture-generator/SKILL.md) (`gpt-5.6`) | `01` + `02` | `03-lecture.draft.md` |
 | 4 | [reviewer](../damulab-lecture-reviewer/SKILL.md) (`nemotron 3 Ultra`) | `01` + `02` + `03` | `04-lecture-review.json` + `05-lecture.final.md` |

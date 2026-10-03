@@ -3,7 +3,11 @@
   "private": true,
   "type": "module",
   "description": "CLI tools for Damulab question pipeline (textbook pages, illustrations)",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": { "test": "node --test tests/*.test.js" },
   "dependencies": {
-    "@resvg/resvg-js": "^2.6.2"
+    "@resvg/resvg-js": "^2.6.2",
+    "pdfjs-dist": "5.6.205",
+    "tesseract.js": "7.0.0"
   }
 }

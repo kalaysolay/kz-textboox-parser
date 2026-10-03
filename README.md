@@ -4,13 +4,17 @@
 
 ## Парсинг учебников
 
+Запуск, схема работы и журнал версий: [PARSER_GUIDE.md](PARSER_GUIDE.md).
 Скилл Cursor: [`.cursor/skills/kz-textbook-parser/SKILL.md`](.cursor/skills/kz-textbook-parser/SKILL.md).
+Для Codex тот же скилл зеркалируется в `.agents/skills/kz-textbook-parser/`.
 
 Типичная раскладка:
 
-- `Математика/`, `Казахский язык N класс/` — PDF и/или `parsed/`
-- `ocr/` — кэш страниц (локально, в `.gitignore`)
-- `tools/` — tooling парсера (локально, в `.gitignore`)
+- `sources/<предмет>/<класс>/` — исходные PDF
+- `parsed_outputs/<предмет>/<класс>/` — итоговые JSON
+- `ocr/cache/<sha256>/` — общий кэш текста и PNG (локально, в `.gitignore`)
+- `ocr/jobs/` — планы структуры, прогресс, метрики (локально)
+- `content/tools/` — версионируемые инструменты парсера
 
 ## Пайплайн генерации вопросов (Damulab)
 
@@ -22,7 +26,7 @@
 Одна реплика оркестратору (скилл `damulab-question-pipeline`):
 
 > Сгенерируй 12 вопросов по теме «…» для 5 класса математики.
-> Учебник: `Математика/parsed/math_aldamuratova_5grade_part1_parsed_v2.json`
+> Учебник: `parsed_outputs/математика/5 класс/math_aldamuratova_5grade_part1_parsed_v2.json`
 
 Роли по порядку: analyst → matrix → generator → reviewer.
 Импорт в БД — отдельный шаг (`damulab-question-loader`), только по явной просьбе.
