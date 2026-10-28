@@ -15,3 +15,10 @@ test('word budgets are separate for RU and KK and count lists, tables and answer
  assert.equal(result.externalSources,1);assert.deepEqual(result.errors.map(e=>e.code),['lesson_length']);
  doc.sources.push({type:'web'});assert.equal(lessonBudget(doc,generationSettings()).errors.at(-1).code,'external_sources');
 });
+
+test('visible title, summary and objectives count toward the budget, bibliography does not',()=>{
+ const doc={title:{ru:'Название урока',kk:'Сабақ'},summary:{ru:'Краткое описание',kk:'Қысқа сипаттама'},objectives:{ru:['Первая цель','Вторая цель'],kk:['Бір мақсат']},blocks:[{content:{ru:'слово '.repeat(644),kk:'мәтін'}}],sources:[{type:'textbook',title:'Библиография '.repeat(100)}]};
+ const result=lessonBudget(doc,generationSettings());
+ assert.deepEqual(result.words,{ru:652,kk:6});
+ assert.deepEqual(result.errors.map(e=>e.code),['lesson_length']);
+});

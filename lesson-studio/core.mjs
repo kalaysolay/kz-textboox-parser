@@ -79,7 +79,8 @@ export function validateLesson(doc) {
     if (!source.id || sources.has(source.id)) add('source_id','Идентификаторы источников должны быть уникальны');
     sources.add(source.id);
     if (!['textbook','web','authored'].includes(source.type) || !source.title || !validPair(source.usage)) add('source','Источник должен содержать тип, название и usage RU/KK');
-    if (source.type === 'web' && (!safeUrl(source.url) || !source.accessedAt || !source.evidenceNote)) add('web_source','У веб-источника нужны URL, дата обращения и свидетельство проверки');
+    const evidenceValid=typeof source.evidenceNote==='string'?!!source.evidenceNote.trim():validPair(source.evidenceNote);
+    if (source.type === 'web' && (!safeUrl(source.url) || !source.accessedAt || !evidenceValid)) add('web_source','У веб-источника нужны URL, дата обращения и свидетельство проверки: текст или пара ru/kk');
     if (source.type === 'textbook' && (!source.path || !/^[a-f0-9]{64}$/.test(source.sha256 || '') || !Array.isArray(source.pages) || !source.pages.length)) add('textbook_source','У учебника нужны путь, SHA-256 и страницы');
   }
   for (const asset of Array.isArray(doc.assets) ? doc.assets : []) {

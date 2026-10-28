@@ -17,6 +17,13 @@ test('проверка обнаруживает неизвестные исто�
  const r=validateLesson(doc);
  for(const code of ['source_ref','bilingual','formula','arithmetic']) assert.ok(r.errors.some(e=>e.code===code),code);
 });
+
+test('свидетельство веб-источника принимает текст или оба языка, но не произвольный объект',()=>{
+ const doc=fixture();const source={id:'web',type:'web',title:'Source',usage:pair('Проверка'),url:'https://example.org/source',accessedAt:'2026-10-28',evidenceNote:{ru:'Проверенный материал',kk:'Тексерілген материал'}};doc.sources.push(source);
+ assert.equal(validateLesson(doc).ok,true);
+ source.evidenceNote='Проверенный материал';assert.equal(validateLesson(doc).ok,true);
+ for(const note of [{ru:'Только русский'}, {description:'unrenderable'},'   ']){source.evidenceNote=note;assert.ok(validateLesson(doc).errors.some(e=>e.code==='web_source'));}
+});
 test('рендер экранирует текст, а экспорт сохраняет исходник формулы без DOM KaTeX',()=>{
  const doc=fixture(); assert.equal(validateLesson(doc).ok,true);
  const html=renderLesson(doc,'ru'); assert.ok(html.includes('class="katex"')); assert.ok(!html.includes('<script>'));

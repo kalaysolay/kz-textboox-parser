@@ -46,7 +46,7 @@ test('topic selection excludes utility pages, keeps language and estimated page 
 test('selected textbook topic and pages reach the order without manual subject entry',async t=>{
  const f=await fixture(t);await f.write('sources/математика/4 класс/Акпаева.pdf','pdf');
  await f.write('parsed_outputs/математика/4 класс/math.json',book('Акпаева.pdf'));
- const pipeline=new LessonPipeline({repo:f.repo,lessonsRoot:f.root,runStage:async()=>{throw Error('fixture stage stopped');}});
+ const pipeline=new LessonPipeline({repo:f.repo,lessonsRoot:f.root,prepareSource:async()=>null,runStage:async()=>{throw Error('fixture stage stopped');}});
  await pipeline.initialize();
  pipeline.available=async()=>({available:true,version:'fixture'});
  const selected=(await pipeline.books())[0];
