@@ -17,12 +17,6 @@ export function ocrLanguages(metadata={}) {
  return kaz?(rus?['kaz','rus']:['kaz']):rus?['rus']:['kaz','rus'];
 }
 const ocrPages=input=>input.pages.filter(p=>p.method==='tesseract.js');
-const verificationMethod=input=>ocrPages(input).length?(ocrPages(input).length===input.pages.length?'ocr_with_visual_review':'mixed_with_visual_review'):'pdf_text_layer';
-function changedCharacters(from,to) {
- let row=Array.from({length:to.length+1},(_,i)=>i);
- for(let i=1;i<=from.length;i++){const next=[i];for(let j=1;j<=to.length;j++)next[j]=Math.min(row[j]+1,next[j-1]+1,row[j-1]+(from[i-1]===to[j-1]?0:1));row=next;}
- return row[to.length];
-}
 
 // Deterministic preparation, using the same shared PDF tools as the parser skill.
 // No lesson/source artifact or verification claim is generated on the model's behalf.
@@ -84,52 +78,43 @@ export async function prepareSourceInput({repo,dir,brief,runTool=execute,onSpawn
 }
 
 export function sourceArtifactErrors(data,input,brief) {
+ if(!data||typeof data!=='object'||Array.isArray(data))return [{code:'source_format',message:'Источник должен быть объектом JSON.'}];
  if(!input)return [];
- const errors=[],add=(code,message,ideaId)=>errors.push({code,message,...(typeof ideaId==='string'&&/^[\w-]{1,128}$/.test(ideaId)?{ideaId}:{})});
- if(!data||typeof data!=='object'||Array.isArray(data))return [{code:'source_format',message:'Источник должен быть объектом JSON по контракту парсера.'}];
- if(data.schemaVersion!==2||data.lessonId!==brief.id)add('source_identity','Укажите schemaVersion=2 и lessonId из заказа. Это источник, а не главный документ урока.');
- if(['title','revision','status','blocks'].some(k=>Object.hasOwn(data,k)))add('source_format','Уберите поля главного урока: title, revision, status, blocks. Парсер не создаёт и не переводит урок.');
- if(data.source?.pdfSha256!==input.pdfSha256)add('source_hash','pdfSha256 должен точно совпадать с подготовленным SHA-256 PDF; подставные значения запрещены.');
- if(data.source?.sourceTopicId!==input.topic.sourceId)add('source_topic','sourceTopicId должен совпадать с ID выбранного раздела учебника.');
- if(data.source?.bibliography&&Object.entries(data.source.bibliography).some(([key,value])=>JSON.stringify(input.bibliography?.[key])!==JSON.stringify(value)))add('source_bibliography','Библиографию можно копировать только из подготовленного входа; неизвестные автора, год и издательство не придумывайте.');
+ const errors=[],add=(code,message)=>errors.push({code,message});
+ if(data.schemaVersion!==2||data.lessonId!==brief.id)add('source_identity','Укажите schemaVersion=2 и lessonId из заказа.');
+ if(['title','revision','status','blocks'].some(k=>Object.hasOwn(data,k)))add('source_format','Парсер должен записать источник, а не главный документ урока.');
+ if(data.source?.pdfSha256!==input.pdfSha256)add('source_hash','Источник относится к другому PDF: SHA-256 не совпадает с подготовленным файлом.');
+ if(data.source?.sourceTopicId!==input.topic.sourceId)add('source_topic','Источник должен относиться к выбранному разделу учебника.');
  const pages=input.pages.map(p=>p.bookPage);
- if(JSON.stringify(data.source?.pages)!==JSON.stringify(pages))add('source_pages','В source.pages перечислите ровно подготовленные печатные страницы.');
- const method=verificationMethod(input),scanned=ocrPages(input);
- if(data.verification?.method!==method)add('source_method',`Укажите verification.method=${method} по реально подготовленным страницам.`);
- if(scanned.length){
-  const checks=data.verification?.pages;
-  for(const page of scanned){const check=Array.isArray(checks)?checks.find(c=>c?.bookPage===page.bookPage):null;
-   if(!check||check.pngSha256!==page.pngSha256||check.status!=='checked'||typeof check.notes!=='string'||check.notes.trim().length<15||/ЗАПОЛНИ|TODO/i.test(check.notes))add('source_visual_required',`Не подтверждена проверка скана страницы ${page.bookPage}: нужны сверка цитат, дат и таблиц по изображению и запись результата по контракту парсера. Если модель не видит изображения, выберите для нового заказа CLI/модель с поддержкой PNG; этот заказ сохраняет первоначальную модель.`);
-  }
-  const languages=[...new Set(scanned.flatMap(p=>p.ocrLanguages??[]))].sort();
-  if(!Array.isArray(data.ocrInfo?.languages)||JSON.stringify([...data.ocrInfo.languages].sort())!==JSON.stringify(languages))add('source_ocr_languages','ocrInfo.languages должен совпадать с реально использованными языковыми моделями OCR.');
- }
- const claims=JSON.stringify(data);
- if(/"visuallyVerified"\s*:\s*true|"(?:method|confidence)"\s*:\s*"(?:png_comparison|high_visual)"/.test(claims))add('source_visual_claim','Нельзя приписывать этому текстовому извлечению визуальную проверку PNG.');
- if(!Array.isArray(data.keyIdeas)||!data.keyIdeas.length)add('source_ideas','Нужна хотя бы одна дословная ключевая идея с ID и sourcePages.');
+ if(JSON.stringify(data.source?.pages)!==JSON.stringify(pages))add('source_pages','В источнике должны быть указаны подготовленные страницы учебника.');
+ if(!Array.isArray(data.keyIdeas)||!data.keyIdeas.length)add('source_ideas','В источнике нет ключевых идей.');
  else {const ids=new Set();for(const idea of data.keyIdeas){
-  if(ids.has(idea?.id))add('source_idea_id','У каждой ключевой идеи должен быть уникальный ID.');ids.add(idea?.id);
-  if(typeof idea?.id!=='string'||!/^[\w-]{1,128}$/.test(idea.id)||typeof idea.statement!=='string'||idea.statement.trim().length<15||!Array.isArray(idea.sourcePages)||!idea.sourcePages.length||idea.sourcePages.some(p=>!pages.includes(p))){add('source_idea','Каждой идее нужны ID, дословная statement и страницы внутри выбранного диапазона.');continue;}
-  const cited=input.pages.filter(p=>idea.sourcePages.includes(p.bookPage));
-  let corpus=normalize(cited.map(p=>p.text).join(' '));
-  let quote=idea.statement;
-  if(idea.ocrQuote!=null||idea.ocrCorrections!=null){
-   corpus=normalize(cited.filter(p=>p.method==='tesseract.js').map(p=>p.text).join(' '));
-   let corrected=idea.ocrQuote,valid=typeof corrected==='string'&&cited.some(p=>p.method==='tesseract.js')&&Array.isArray(idea.ocrCorrections)&&idea.ocrCorrections.length>0&&idea.ocrCorrections.length<=12,total=0;
-   if(valid)for(const c of idea.ocrCorrections){if(typeof c?.from!=='string'||!c.from.length||c.from.length>40||typeof c.to!=='string'||c.to.length>40||corrected.split(c.from).length!==2){valid=false;break;}total+=changedCharacters(c.from,c.to);corrected=corrected.replace(c.from,c.to);}
-   if(!valid)add('source_ocr_correction','Нужны точная исходная цитата OCR и однозначные локальные замены по контракту парсера.',idea.id);
-   else if(total>idea.ocrQuote.length*.4)add('source_ocr_correction','Исправлено более 40% символов цитаты OCR. Выберите более надёжный фрагмент; пересказ нельзя выдавать за цитату.',idea.id);
-   else if(normalize(corrected)!==normalize(idea.statement))add('source_ocr_correction','Цитата не получается из указанных исправлений OCR. Не переставляйте строки таблицы и не добавляйте слова в дословную цитату; реконструкцию отмечайте отдельно.',idea.id);
-   quote=typeof idea.ocrQuote==='string'?idea.ocrQuote:'';
-  }
-  if(!quote.trim()||!corpus.includes(normalize(quote)))add('source_quote','Цитата не совпадает с текстом указанных страниц. Скопируйте дословный непрерывный фрагмент; не переводите и не пересказывайте его.',idea.id);
+  if(typeof idea?.id!=='string'||!/^[\w-]{1,128}$/.test(idea.id)||ids.has(idea.id)||typeof idea.statement!=='string'||!idea.statement.trim()||!Array.isArray(idea.sourcePages)||!idea.sourcePages.length||idea.sourcePages.some(p=>!pages.includes(p)))add('source_idea','Каждой идее нужны уникальный ID, текст и страницы внутри выбранного диапазона.');
+  ids.add(idea?.id);
  }}
  return errors;
 }
 
+// Text comparison locates material for the editor; it cannot judge meaning.
+// OCR corrections, paraphrases and table reconstruction are never hard failures.
+export function sourceArtifactReview(data,input,brief) {
+ const errors=sourceArtifactErrors(data,input,brief),observations=[];
+ const add=(code,message,extra={})=>observations.push({code,message,...extra});
+ if(input&&!errors.length){
+  if(data.sourceStatus==='ready_unverified')add('source_unverified','Парсер оставил ограничения проверки. Оцените их влияние на правильность урока.');
+  const scanned=ocrPages(input);
+  if(scanned.length)add('source_ocr','Материал получен OCR. При проверке содержания сверьте важные даты, имена, формулы и связи в таблицах с подготовленными страницами.',{pages:scanned.map(p=>p.bookPage)});
+  for(const idea of data.keyIdeas){
+   const corpus=normalize(input.pages.filter(p=>idea.sourcePages.includes(p.bookPage)).map(p=>p.text).join(' '));
+   if(!corpus.includes(normalize(idea.statement)))add('source_reconstruction','Формулировка или порядок материала отличаются от линейного извлечения. Исправление OCR, пересказ и восстановление таблицы допустимы: проверьте смысл, числа и связи по источнику. Само отличие не является ошибкой.',{ideaId:idea.id,sourcePages:idea.sourcePages});
+  }
+  if(data.source?.bibliography&&Object.entries(data.source.bibliography).some(([k,v])=>JSON.stringify(input.bibliography?.[k])!==JSON.stringify(v)))add('source_bibliography','Библиографические сведения отличаются от метаданных: проверьте атрибуцию по учебнику.');
+ }
+ return {ok:!errors.length,errors,observations,reviewRequired:observations.length>0};
+}
+
 export function sourceStageContract(input,brief,dir) {
  if(!input)return '';
- const scanned=ocrPages(input),method=verificationMethod(input);
- const shape={schemaVersion:2,lessonId:brief.id,sourceStatus:'ready',source:{pdfSha256:input.pdfSha256,sourceTopicId:input.topic.sourceId,pages:input.pages.map(p=>p.bookPage)},verification:{method,...(scanned.length?{pages:scanned.map(p=>({bookPage:p.bookPage,pngSha256:p.pngSha256,status:'checked',notes:'ЗАПОЛНИ ПО ФАКТИЧЕСКОМУ ПРОСМОТРУ PNG'}))}:{limitations:['Визуальную проверку этот этап не подтверждает.']})},...(scanned.length?{ocrInfo:{languages:[...new Set(scanned.flatMap(p=>p.ocrLanguages))]}}:{}),keyIdeas:[{id:'idea-01',statement:'ДОСЛОВНАЯ ЦИТАТА ИЗ ПОДГОТОВЛЕННОЙ СТРАНИЦЫ',sourcePages:[input.pages[0].bookPage]}],terms:[],workedExamples:[],gaps:[]};
- return `Текущий контракт парсера имеет приоритет над старыми v1-примерами. Сервер уже подготовил выбранные страницы: прочитай ${path.join(dir,'.local/source-input.json')}. Не читай полный parsed JSON и чужие уроки ради примеров. Итог 01-Источник учебника.json — объект по образцу ${JSON.stringify(shape)}. В keyIdeas достаточно 3–5 главных ДОСЛОВНЫХ цитат: statement скопируй из pages[].text, укажи правильную bookPage в sourcePages. Не добавляй название/поля главного урока, не переводи источник. Казахские термины, отсутствующие в учебнике, оставь пустыми. Не выдумывай библиографию и хеши. verification.method=${method}. ${scanned.length?'Это OCR, а не проверенный текст: обязательно открой все PNG по pages[].pngPath инструментом чтения изображений. Сверь цитаты, даты, римские цифры, формулы и порядок ячеек таблиц по изображению. В verification.pages укажи хеш и конкретный результат просмотра каждой OCR-страницы. Для локальных исправлений ошибок распознавания запиши исходный ocrQuote (точный фрагмент pages[].text) и ocrCorrections [{from,to}], а statement — исправленную по PNG цитату. Каждое from должно встречаться один раз и быть не длиннее 40 символов; суммарно исправляй не более 40% исходной цитаты. Не реконструируй таблицы догадками; непроверенные фрагменты перечисли в gaps и не используй в уроке. Если изображения недоступны, sourceStatus=ready_unverified и конкретная причина в gaps; НЕ заявляй checked.':'Это извлечение текстового слоя; не заявляй визуальную проверку.'} Это не подтверждение истинности исторических сведений. Выход должен быть валидным JSON; после записи проверь его через node. Не выполняй повторно уже выполненную сервером PDF/OCR-подготовку.`;
+ const shape={schemaVersion:2,lessonId:brief.id,sourceStatus:'ready',source:{pdfSha256:input.pdfSha256,sourceTopicId:input.topic.sourceId,pages:input.pages.map(p=>p.bookPage)},keyIdeas:[{id:'idea-01',statement:'Основная мысль раздела',sourcePages:[input.pages[0].bookPage]}],terms:[],workedExamples:[],gaps:[]};
+ return 'Контракт этого задания имеет приоритет над примерами скилла. Сервер подготовил текст и изображения страниц: прочитай '+path.join(dir,'.local/source-input.json')+'. Запиши 01-Источник учебника.json по структуре '+JSON.stringify(shape)+'. Извлеки основные идеи, определения и нужные связи. Можно исправлять OCR, переформулировать и восстанавливать порядок строк/колонок таблицы при сохранении смысла. Буквальное совпадение с OCR и список посимвольных замен не требуются. Для восстановленного материала укажи в evidence или notes, что и по каким страницам восстановлено; дословной цитатой называй только дословный текст. Не выдумывай факты, страницы и хеш PDF. При наличии инструмента просмотра изображений используй PNG для спорных чисел и связей; если просмотра нет, честно запиши ограничения в gaps, не заявляй выполненную визуальную проверку. Смысловую правильность проверит независимый редактор; отличие от OCR само по себе не основание отклонять материал. Не создавай здесь главный урок. Сохрани корректный JSON, используй JSON.stringify для экранирования строк, не повторяй уже выполненную PDF/OCR-подготовку.';
 }

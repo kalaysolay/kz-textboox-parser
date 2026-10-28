@@ -4,75 +4,25 @@ import fs from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
-import {prepareSourceInput,sourceArtifactErrors,sourceStageContract,ocrLanguages} from '../source-input.mjs';
+import {prepareSourceInput,sourceArtifactErrors,sourceStageContract,ocrLanguages,sourceArtifactReview} from '../source-input.mjs';
 
 const text='Древние люди переходили от собирательства и охоты к земледелию и скотоводству.';
 const input={pdfSha256:'a'.repeat(64),topic:{sourceId:'s03'},pages:[{bookPage:16,pdfPage:16,text}]},brief={id:'lesson-test'};
 const valid=()=>({schemaVersion:2,lessonId:brief.id,sourceStatus:'ready',source:{pdfSha256:input.pdfSha256,sourceTopicId:'s03',pages:[16]},verification:{method:'pdf_text_layer'},keyIdeas:[{id:'idea-01',statement:text,sourcePages:[16]}]});
 
-test('source validation rejects invented evidence, page claims and altered quotations',()=>{
- assert.deepEqual(sourceArtifactErrors(valid(),input,brief),[]);
- assert.equal(sourceArtifactErrors(null,input,brief)[0].code,'source_format');
- for(const [change,code] of [
-  [d=>{d.source.pdfSha256='verified_against_png';},'source_hash'],
-  [d=>{d.title={kk:'invented translation'};},'source_format'],
-  [d=>{d.source.sourceTopicId='other';},'source_topic'],
-  [d=>{d.source.bibliography={year:2099};},'source_bibliography'],
-  [d=>{d.source.pages=[17];},'source_pages'],
-  [d=>{d.verification.method='png_comparison';},'source_method'],
-  [d=>{d.visuallyVerified=true;},'source_visual_claim'],
-  [d=>{d.keyIdeas[0].statement='Древние люди逐渐 переходили от собирательства и охоты.';},'source_quote'],
-  [d=>{d.keyIdeas[0].sourcePages=[17];},'source_idea'],
- ]){const d=valid();change(d);assert.ok(sourceArtifactErrors(d,input,brief).some(e=>e.code===code),code);}
+test('technical validation rejects wrong PDF, topic, pages and malformed ideas',()=>{
+ assert.deepEqual(sourceArtifactErrors(valid(),input,brief),[]);assert.equal(sourceArtifactErrors(null,input,brief)[0].code,'source_format');
+ for(const [change,code] of [[d=>{d.source.pdfSha256='invented';},'source_hash'],[d=>{d.source.sourceTopicId='other';},'source_topic'],[d=>{d.source.pages=[17];},'source_pages'],[d=>{d.keyIdeas[0].sourcePages=[17];},'source_idea']]){const d=valid();change(d);assert.ok(sourceArtifactErrors(d,input,brief).some(e=>e.code===code));}
 });
-
-test('OCR language follows the textbook rather than the bilingual output',()=>{
- assert.deepEqual(ocrLanguages({languages:['ru']}),['rus']);
- assert.deepEqual(ocrLanguages({language:'Қазақша'}),['kaz']);
- assert.deepEqual(ocrLanguages({languages:['kk','ru']}),['kaz','rus']);
- assert.deepEqual(ocrLanguages(),['kaz','rus']);
+test('OCR language follows the textbook',()=>{
+ assert.deepEqual(ocrLanguages({languages:['ru']}),['rus']);assert.deepEqual(ocrLanguages({language:'Қазақша'}),['kaz']);assert.deepEqual(ocrLanguages({languages:['kk','ru']}),['kaz','rus']);assert.deepEqual(ocrLanguages(),['kaz','rus']);
 });
-
-test('OCR evidence requires page image hashes and explicit review, corrections retain a verbatim anchor',()=>{
- const raw='Средние века охватывают период с конца V в. до середины ХУП в.';
- const context={...input,pages:[{bookPage:16,method:'tesseract.js',pngSha256:'b'.repeat(64),ocrLanguages:['rus'],text:raw}]};
- const doc=valid();doc.keyIdeas[0].statement=raw;doc.verification={method:'ocr_with_visual_review',pages:[{bookPage:16,pngSha256:'b'.repeat(64),status:'checked',notes:'В верхнем абзаце проверены даты и римские цифры.'}]};doc.ocrInfo={languages:['rus']};
- assert.deepEqual(sourceArtifactErrors(doc,context,brief),[]);
- doc.keyIdeas[0]={...doc.keyIdeas[0],ocrQuote:raw,ocrCorrections:[{from:'ХУП',to:'XVII'}],statement:raw.replace('ХУП','XVII')};
- assert.deepEqual(sourceArtifactErrors(doc,context,brief),[]);
- for(const [change,code] of [
-  [d=>{d.verification.pages=[];},'source_visual_required'],
-  [d=>{d.verification.pages[0].pngSha256='invented';},'source_visual_required'],
-  [d=>{d.verification.pages[0].notes='ЗАПОЛНИ ПО ПРОСМОТРУ PNG';},'source_visual_required'],
-  [d=>{d.verification.method='pdf_text_layer';},'source_method'],
-  [d=>{d.ocrInfo.languages=['kaz'];},'source_ocr_languages'],
-  [d=>{d.ocrInfo.languages={};},'source_ocr_languages'],
-  [d=>{d.keyIdeas[0].ocrCorrections=[{from:raw,to:'Новая выдуманная цитата'}];},'source_ocr_correction'],
-  [d=>{d.keyIdeas[0].ocrQuote='Выдуманный оригинал OCR, которого нет на странице.';},'source_quote'],
- ]){const copy=structuredClone(doc);change(copy);assert.ok(sourceArtifactErrors(copy,context,brief).some(e=>e.code===code),code);}
- assert.match(sourceStageContract(context,brief,'lesson'),/открой все PNG/);
- assert.match(sourceStageContract(context,brief,'lesson'),/ready_unverified/);
+test('table reconstruction and OCR edits continue to independent content review',()=>{
+ const context={...input,pages:[{bookPage:16,method:'tesseract.js',text:'Позднее Средневековье XVII век. Раннее Средневековье V век.'}]};
+ const d=valid();d.sourceStatus='ready_unverified';d.keyIdeas[0].statement='Раннее Средневековье — V век; позднее — XVII век.';
+ const report=sourceArtifactReview(d,context,brief);assert.equal(report.ok,true);assert.deepEqual(report.errors,[]);assert.ok(report.observations.some(e=>e.code==='source_reconstruction'));assert.ok(report.observations.some(e=>e.code==='source_unverified'));
+ assert.match(sourceStageContract(context,brief,'lesson'),/Буквальное совпадение с OCR.*не требуются/);
 });
-
-test('adding an OCR page cannot authorize changing numbers quoted from a native text page',()=>{
- const native='Период охватывает 5–3 тысячи лет до нашей эры.';
- const context={...input,pages:[{bookPage:16,method:'pdf_text_layer',text:native},{bookPage:17,method:'tesseract.js',text,pngSha256:'b'.repeat(64),ocrLanguages:['rus']}]};
- const doc=valid();doc.source.pages=[16,17];doc.verification={method:'mixed_with_visual_review',pages:[{bookPage:17,pngSha256:'b'.repeat(64),status:'checked',notes:'Проверена распознанная цитата по скану страницы.'}]};doc.ocrInfo={languages:['rus']};
- doc.keyIdeas=[{id:'idea-01',statement:native.replace('5–3','53'),ocrQuote:native,ocrCorrections:[{from:'5–3',to:'53'}],sourcePages:[16,17]}];
- assert.ok(sourceArtifactErrors(doc,context,brief).some(e=>e.code==='source_quote'));
-});
-
-test('OCR correction limits count edited characters, not unchanged context in replacement strings',()=>{
- const raw='Таким образом, падение Западной — Рим-\nской империи и разложение = рабовладель-\nческого строя явились началом периода Сред-\nневековья в истории человечества.';
- const corrections=[{from:'Западной — Рим-\nской',to:'Западной Римской'},{from:'разложение = рабовладель-\nческого',to:'разложение рабовладельческого'},{from:'Сред-\nневековья',to:'Средневековья'}];
- const context={...input,pages:[{bookPage:16,method:'tesseract.js',text:raw,pngSha256:'b'.repeat(64),ocrLanguages:['rus']}]};
- const doc=valid();doc.verification={method:'ocr_with_visual_review',pages:[{bookPage:16,pngSha256:'b'.repeat(64),status:'checked',notes:'Переносы и лишние символы сверены по PNG страницы.'}]};doc.ocrInfo={languages:['rus']};
- doc.keyIdeas=[{id:'idea-01',sourcePages:[16],ocrQuote:raw,ocrCorrections:corrections,statement:corrections.reduce((s,c)=>s.replace(c.from,c.to),raw)}];
- assert.deepEqual(sourceArtifactErrors(doc,context,brief),[]);
- const short='abcdefghijklmnopqrst';context.pages[0].text=short;doc.keyIdeas[0]={id:'idea-01',sourcePages:[16],ocrQuote:short,ocrCorrections:[{from:short,to:'uvwxyzuvwxyzuvwxyzuv'}],statement:'uvwxyzuvwxyzuvwxyzuv'};
- assert.ok(sourceArtifactErrors(doc,context,brief).some(e=>e.code==='source_ocr_correction'));
-});
-
 async function scannedFixture(t,{ocrUsable=true,models=true}={}){
  const repo=await fs.mkdtemp(path.join(os.tmpdir(),'studio-ocr-'));t.after(()=>fs.rm(repo,{recursive:true,force:true}));
  const dir=path.join(repo,'lesson'),pdf=path.join(repo,'source.pdf'),parsed=path.join(repo,'parsed.json');await fs.mkdir(dir);await fs.writeFile(pdf,'pdf');
@@ -94,7 +44,7 @@ test('mixed PDF automatically OCRs only bad pages, preserving offsets, provenanc
  assert.equal(f.calls[2][f.calls[2].indexOf('--lang')+1],'rus');
  assert.equal(result.pages[0].method,'pdf_text_layer');assert.equal(result.pages[0].requiresVisualReview,undefined);
  assert.equal(result.pages[1].method,'tesseract.js');assert.equal(result.pages[1].requiresVisualReview,true);assert.equal(result.pages[1].quality.ocrConfidence,72);
- assert.ok(f.messages.some(m=>m.includes('OCR rus')));assert.match(sourceStageContract(result,brief,f.dir),/mixed_with_visual_review/);
+ assert.ok(f.messages.some(m=>m.includes('OCR rus')));assert.match(sourceStageContract(result,brief,f.dir),/восстанавливать порядок/);
 });
 
 test('unusable OCR and missing models produce actionable errors and no prepared source',async t=>{
@@ -120,18 +70,18 @@ test('OCR tool failures are actionable and timeout terminates the owned process'
  assert.equal(killed,true);
 });
 
-test('quote checks tolerate typography and line wrapping without accepting paraphrases',()=>{
+test('text comparison identifies material for the editor without blocking paraphrases',()=>{
  const context={...input,pages:[{bookPage:16,text:'Человек использовал зерно-\nтёрку — каменное орудие.'}]};
  const d=valid();d.keyIdeas[0].statement='Человек использовал зернотёрку - каменное орудие.';
  assert.deepEqual(sourceArtifactErrors(d,context,brief),[]);
  d.keyIdeas[0].statement='Человек использовал металлическую зернотёрку.';
- assert.ok(sourceArtifactErrors(d,context,brief).some(e=>e.code==='source_quote'));
+ assert.deepEqual(sourceArtifactErrors(d,context,brief),[]);assert.ok(sourceArtifactReview(d,context,brief).observations.some(e=>e.code==='source_reconstruction'));
 });
 
-test('quote normalization preserves the meaning of date ranges, decimals and fractions',()=>{
+test('changed numeric meaning is highlighted for the editor',()=>{
  for(const [original,changed] of [['Период охватывает 5–3 тысячи лет до нашей эры.','Период охватывает 53 тысячи лет до нашей эры.'],['Расстояние составляет 1,5 километра.','Расстояние составляет 15 километра.'],['Доля урожая составляет 1/2 от общего.','Доля урожая составляет 12 от общего.']]){
   const context={...input,pages:[{bookPage:16,text:original}]},doc=valid();doc.keyIdeas[0].statement=changed;
-  assert.ok(sourceArtifactErrors(doc,context,brief).some(e=>e.code==='source_quote'));
+  assert.deepEqual(sourceArtifactErrors(doc,context,brief),[]);assert.ok(sourceArtifactReview(doc,context,brief).observations.some(e=>e.code==='source_reconstruction'));
  }
 });
 
