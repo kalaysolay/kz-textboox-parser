@@ -69,10 +69,25 @@ test('OpenCode finalized text can end a clean process without step_finish; error
  child.stdout.end(JSON.stringify({type:'text',part:{text:'unfinished'}})+'\n');child.exitCode=0;child.emit('close',0);await rejected;
 });
 
+test('a transport retry must finish successfully after the error; quotas are never cleared',async()=>{
+ for(const scenario of ['recovered','unfinished','late_error','quota','nonzero']){
+  const child=childProcess(),run=runAIStage({config:config('opencode'),repo,dir,key:'source',prompt:'test',spawnProcess:()=>child});
+  const result=scenario==='recovered'?run:assert.rejects(run,e=>e.code===(scenario==='quota'?'ai_limit':'ai_connection'));
+  const emit=e=>child.stdout.write(JSON.stringify(e)+'\n');
+  const finish={type:'step_finish'},error={type:'error',error:scenario==='quota'?{type:'provider.free-limit',status:429}:{type:'provider.transport',message:'ECONNRESET PRIVATE'}};
+  if(scenario==='late_error')emit(finish);
+  emit(error);
+  if(['recovered','quota','nonzero'].includes(scenario))emit(finish);
+  child.stdout.end();child.exitCode=scenario==='nonzero'?1:0;child.emit('close',child.exitCode);await result;
+ }
+});
+
 test('permission errors, quotas and labels do not reveal model messages',()=>{
  assert.equal(runtimeError('opencode',{type:'provider.free-limit',status:429,message:'SECRET'}).code,'ai_limit');
  assert.equal(runtimeError('codex',{status:401}).code,'ai_auth');
  assert.equal(runtimeError('codex',{message:'model unsupported'}).code,'ai_model');
+ const connection=runtimeError('opencode',{type:'provider.transport',message:'ECONNRESET SECRET'});
+ assert.equal(connection.code,'ai_connection');assert.doesNotMatch(connection.message,/SECRET|ECONNRESET/);
  assert.equal(opencodeActivity({type:'unknown'}),null);
  assert.match(aiSelectionLabel({runtime:'opencode',model:'opencode/deepseek-v4-pro'}),/^OpenCode/);
  assert.match(aiSelectionLabel({runtime:'codex',configSource:'legacy'}),/точная модель не зафиксирована/);

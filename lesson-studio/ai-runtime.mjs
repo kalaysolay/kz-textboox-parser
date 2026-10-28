@@ -72,6 +72,7 @@ export function runtimeError(runtime,error) {
  if(status===402||/provider\.quota|insufficient.*fund|insufficient_quota/i.test(type+' '+message))return fail('ai_quota',`${name}: недостаточно средств или исчерпана квота. Проверьте аккаунт поставщика.`);
  if(status===429||/free.limit|rate.limit|usage.limit|limit.reached/i.test(type+' '+message))return fail('ai_limit',`${name}: исчерпан лимит запросов. Восстановите доступ и продолжите этот заказ.`);
  if(status===401||status===403||/auth|credential|unauthorized|forbidden/i.test(type))return fail('ai_auth',`${name}: требуется вход или доступ к выбранной модели. Проверьте авторизацию CLI.`);
+ if(/provider\.transport|ECONNRESET|ECONNREFUSED|ETIMEDOUT|connection lost|socket.*closed/i.test(type+' '+message))return fail('ai_connection',`${name}: соединение с поставщиком модели прервано. Проверьте подключение и доступность поставщика, затем продолжите заказ; готовые этапы сохранены.`);
  if(/model.*(?:not.found|unavailable|unsupported|not.supported)|unknown.model|variant.*(?:not.found|unavailable|unsupported|unknown)/i.test(type+' '+message))return fail('ai_model',`${name}: выбранная модель или её вариант недоступны. Проверьте точный ID и доступ аккаунта.`);
  return fail('ai_failed',`${name} не завершил этап. Проверьте доступ к модели, лимит и артефакты; затем продолжите заказ.`);
 }
@@ -96,9 +97,12 @@ export function runAIStage({config,repo,key,prompt,dir,externalSources=1,onSpawn
   let command;try{command=stageCommand({config,repo,key,dir,externalSources,env});}catch(error){reject(error);return;}
   let child;try{child=spawnProcess(command.executable,command.args,{cwd:dir,env:command.env,windowsHide:true,shell:false,stdio:['pipe','pipe','pipe']});}catch{reject(fail('ai_missing',`${label(config)} CLI не найден или недоступен.`));return;}
   onSpawn(child);onActivity('Процесс агента запущен; ожидается первый ответ');
-  let terminalError=null,finished=false,stderr='';
+  let terminalError=null,connectionError=null,finished=false,stderr='';
   const reader=eventReader(({action})=>onActivity(action),1024*1024,event=>{
-   if(event.type==='error'||event.type==='turn.failed')terminalError=runtimeError(config.runtime,event.error??event);
+   if(event.type==='error'||event.type==='turn.failed'){
+    const error=runtimeError(config.runtime,event.error??event);
+    if(error.code==='ai_connection'){connectionError=error;finished=false;}else terminalError=error;
+   }
    if(config.runtime==='codex'&&event.type==='turn.completed')finished=true;
    if(config.runtime==='opencode'&&event.type==='step_finish')finished=true;
    // OpenCode 2.2 can exit successfully after finalized text without step_finish
@@ -112,6 +116,9 @@ export function runAIStage({config,repo,key,prompt,dir,externalSources=1,onSpawn
   child.once('close',code=>{
    reader.end();
    if(terminalError)return reject(terminalError);
+   // OpenCode may recover a transient transport error within the same run.
+   // Require a later successful completion and a clean exit, then validate files.
+   if(connectionError&&(!finished||code!==0))return reject(connectionError);
    if(code!==0)return reject(runtimeError(config.runtime,{message:stderr}));
    if(!finished)return reject(fail('ai_incomplete',`${label(config)} завершился без подтверждения окончания ответа. Проверьте доступ к модели и повторите этап.`));
    resolve();
