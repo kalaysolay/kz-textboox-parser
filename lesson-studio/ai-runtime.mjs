@@ -30,7 +30,9 @@ export function opencodePermissions({repo,dir,key,externalSources=1}) {
  const root=normalized(repo),workspace=normalized(dir);
  const rules=[
   {action:'*',resource:'*',effect:'deny'},
-  ...['read','glob','grep','execute'].map(action=>({action,resource:'*',effect:'allow'})),
+  // Native tools are sufficient for these stages. Disable CodeMode's execute
+  // sandbox to avoid free models looping on JavaScript instead of file tools.
+  ...['read','glob','grep'].map(action=>({action,resource:'*',effect:'allow'})),
   {action:'external_directory',resource:`${root}/*`,effect:'allow'},
   {action:'external_directory',resource:`${workspace}/*`,effect:'allow'},
   // Internal paths are location-relative; explicit external paths are absolute.
@@ -99,6 +101,9 @@ export function runAIStage({config,repo,key,prompt,dir,externalSources=1,onSpawn
    if(event.type==='error'||event.type==='turn.failed')terminalError=runtimeError(config.runtime,event.error??event);
    if(config.runtime==='codex'&&event.type==='turn.completed')finished=true;
    if(config.runtime==='opencode'&&event.type==='step_finish')finished=true;
+   // OpenCode 2.2 can exit successfully after finalized text without step_finish
+   // (observed with Nemotron free). Still require a clean exit and no error event.
+   if(config.runtime==='opencode'&&event.type==='text'&&typeof event.part?.text==='string'&&event.part.text.trim()&&Number.isFinite(event.part.time?.end))finished=true;
    return config.runtime==='opencode'?opencodeActivity(event):activityFromEvent(event);
   });
   child.stdout.on('data',chunk=>reader.write(chunk));child.stdout.once('end',()=>reader.end());

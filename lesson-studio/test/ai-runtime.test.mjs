@@ -24,6 +24,7 @@ test('OpenCode uses a private session with explicit model and a dedicated agent,
  const content=JSON.parse(cmd.env.OPENCODE_CONFIG_CONTENT);assert.equal(content.providers.custom.name,'Private');
  const rules=content.agents['lesson-studio'].permissions;
  assert.ok(rules.some(r=>r.action==='*'&&r.effect==='deny'));
+ assert.ok(!rules.some(r=>r.action==='execute'&&r.effect==='allow'));
  assert.ok(!rules.some(r=>r.action==='websearch'&&r.effect==='allow'));
  const research=JSON.parse(stageCommand({config:config('opencode'),repo,dir,key:'research',externalSources:1,env:{}}).env.OPENCODE_CONFIG_CONTENT);
  assert.ok(research.agents['lesson-studio'].permissions.some(r=>r.action==='websearch'&&r.effect==='allow'));
@@ -53,6 +54,19 @@ test('missing executable and version probes report safe metadata',async()=>{
  child.stdout.end('opencode v2.2.0\n');child.exitCode=0;child.emit('close',0);const result=await probe;
  assert.equal(result.available,true);assert.equal(result.version,'opencode v2.2.0');assert.equal(result.executable,undefined);
  const missing=childProcess(),p=probeAI(config('codex'),{spawnProcess:()=>missing});missing.emit('error',Error('SECRET'));assert.equal((await p).available,false);
+});
+
+test('OpenCode finalized text can end a clean process without step_finish; errors still win',async()=>{
+ for(const withError of [false,true]){
+  const child=childProcess(),run=runAIStage({config:config('opencode'),repo,dir,key:'author',prompt:'test',spawnProcess:()=>child});
+  const result=withError?assert.rejects(run,e=>e.code==='ai_limit'):run;
+  child.stdout.write(JSON.stringify({type:'text',part:{type:'text',text:'SECRET',time:{start:1,end:2}}})+'\n');
+  if(withError)child.stdout.write(JSON.stringify({type:'error',error:{type:'provider.free-limit',status:429}})+'\n');
+  child.stdout.end();child.exitCode=0;child.emit('close',0);await result;
+ }
+ const child=childProcess(),run=runAIStage({config:config('opencode'),repo,dir,key:'author',prompt:'test',spawnProcess:()=>child});
+ const rejected=assert.rejects(run,e=>e.code==='ai_incomplete');
+ child.stdout.end(JSON.stringify({type:'text',part:{text:'unfinished'}})+'\n');child.exitCode=0;child.emit('close',0);await rejected;
 });
 
 test('permission errors, quotas and labels do not reveal model messages',()=>{
