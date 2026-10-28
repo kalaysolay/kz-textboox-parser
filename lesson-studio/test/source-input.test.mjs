@@ -54,6 +54,14 @@ test('OCR evidence requires page image hashes and explicit review, corrections r
  assert.match(sourceStageContract(context,brief,'lesson'),/ready_unverified/);
 });
 
+test('adding an OCR page cannot authorize changing numbers quoted from a native text page',()=>{
+ const native='Период охватывает 5–3 тысячи лет до нашей эры.';
+ const context={...input,pages:[{bookPage:16,method:'pdf_text_layer',text:native},{bookPage:17,method:'tesseract.js',text,pngSha256:'b'.repeat(64),ocrLanguages:['rus']}]};
+ const doc=valid();doc.source.pages=[16,17];doc.verification={method:'mixed_with_visual_review',pages:[{bookPage:17,pngSha256:'b'.repeat(64),status:'checked',notes:'Проверена распознанная цитата по скану страницы.'}]};doc.ocrInfo={languages:['rus']};
+ doc.keyIdeas=[{id:'idea-01',statement:native.replace('5–3','53'),ocrQuote:native,ocrCorrections:[{from:'5–3',to:'53'}],sourcePages:[16,17]}];
+ assert.ok(sourceArtifactErrors(doc,context,brief).some(e=>e.code==='source_quote'));
+});
+
 async function scannedFixture(t,{ocrUsable=true,models=true}={}){
  const repo=await fs.mkdtemp(path.join(os.tmpdir(),'studio-ocr-'));t.after(()=>fs.rm(repo,{recursive:true,force:true}));
  const dir=path.join(repo,'lesson'),pdf=path.join(repo,'source.pdf'),parsed=path.join(repo,'parsed.json');await fs.mkdir(dir);await fs.writeFile(pdf,'pdf');

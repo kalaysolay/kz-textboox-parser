@@ -105,9 +105,11 @@ export function sourceArtifactErrors(data,input,brief) {
  else {const ids=new Set();for(const idea of data.keyIdeas){
   if(ids.has(idea?.id))add('source_idea_id','У каждой ключевой идеи должен быть уникальный ID.');ids.add(idea?.id);
   if(typeof idea?.id!=='string'||!/^[\w-]{1,128}$/.test(idea.id)||typeof idea.statement!=='string'||idea.statement.trim().length<15||!Array.isArray(idea.sourcePages)||!idea.sourcePages.length||idea.sourcePages.some(p=>!pages.includes(p))){add('source_idea','Каждой идее нужны ID, дословная statement и страницы внутри выбранного диапазона.');continue;}
-  const cited=input.pages.filter(p=>idea.sourcePages.includes(p.bookPage)),corpus=normalize(cited.map(p=>p.text).join(' '));
+  const cited=input.pages.filter(p=>idea.sourcePages.includes(p.bookPage));
+  let corpus=normalize(cited.map(p=>p.text).join(' '));
   let quote=idea.statement;
   if(idea.ocrQuote!=null||idea.ocrCorrections!=null){
+   corpus=normalize(cited.filter(p=>p.method==='tesseract.js').map(p=>p.text).join(' '));
    let corrected=idea.ocrQuote,valid=typeof corrected==='string'&&cited.some(p=>p.method==='tesseract.js')&&Array.isArray(idea.ocrCorrections)&&idea.ocrCorrections.length>0&&idea.ocrCorrections.length<=12,total=0;
    if(valid)for(const c of idea.ocrCorrections){if(typeof c?.from!=='string'||!c.from.length||c.from.length>40||typeof c.to!=='string'||c.to.length>40||corrected.split(c.from).length!==2){valid=false;break;}total+=c.from.length;corrected=corrected.replace(c.from,c.to);}
    if(!valid||total>idea.ocrQuote.length*.4||normalize(corrected)!==normalize(idea.statement))add('source_ocr_correction','Правка OCR должна быть локальной и явно описанной: ocrQuote из распознанного текста, ocrCorrections [{from,to}]. Не заменяйте цитату пересказом.',idea.id);
