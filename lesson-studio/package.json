@@ -1,0 +1,22 @@
+{
+  "name": "damulab-lesson-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test/*.test.mjs tests/*.test.mjs",
+    "test:cli": "node cli-smoke.mjs",
+    "test:opencode-contract": "node opencode-contract.mjs",
+    "check:lessons": "node check-lessons.mjs",
+    "sync:damulab": "node sync-damulab-renderer.mjs",
+    "check:damulab": "node sync-damulab-renderer.mjs --check"
+  },
+  "dependencies": {
+    "katex": "0.16.11",
+    "parse5": "8.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

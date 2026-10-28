@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Manrope";
+    src: url("/fonts/manrope/Manrope-wght.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Nunito";
+    src: url("/fonts/nunito/Nunito-wght.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}

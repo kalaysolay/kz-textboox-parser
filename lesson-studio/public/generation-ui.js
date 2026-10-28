@@ -1,0 +1,45 @@
+import {renderProgress} from './generation-progress-ui.js';
+import {aiSelectionLabel,aiRuntimeStatus} from './ai-runtime-ui.js';
+
+export async function openGeneration({api,escape:e,toast,onLesson}){
+ const dialog=document.createElement('dialog');dialog.className='generation-dialog';dialog.setAttribute('aria-label','Генерация урока');document.body.append(dialog);dialog.showModal();let timer,clockTimer,loading=false,jobs=[],receivedAt=0,jobsSignature='';
+ const names=['Учебник','Дополнения','План','Автор RU/KK','Независимое ревью'];
+ async function load(initial=false){
+  if(loading)return;loading=true;
+  try{
+   const [status,catalog]=await Promise.all([api('/api/generation'),initial?api('/api/generation/catalog'):null]);
+   const data={...status,...catalog};if(!dialog.isConnected)return;
+   jobs=data.jobs;receivedAt=Date.now();
+   if(initial){dialog.innerHTML=`<button class="secondary-button" id="generation-close">Закрыть</button><h2>Новый урок по учебнику</h2><p>Пять отдельных этапов. При сбое можно продолжить с последнего подтверждённого результата.</p><p>${e(aiRuntimeStatus(data.runtime))}</p><form id="generation-order"><label class="field">Учебник<select name="bookId" required>${data.books.map(b=>`<option value="${e(b.id)}">${e(b.grade)} класс · ${e(b.subjectRu)} · ${e(b.sourceFileName||b.title)}${b.status==='source_missing'?' — PDF не найден':''}</option>`).join('')}</select></label><p class="field-help" id="generation-book-info"></p><label class="field">Тема из учебника<select name="topicId"></select></label><p class="field-help" id="generation-topic-info"></p><label class="field">Название урока<input name="topicRu" required minlength="3" maxlength="130"><span class="field-help">Выберите тему выше или укажите свою. Название можно уточнить; обе языковые версии подготовит автор.</span></label><label class="field">Название на казахском, если известно<input name="topicKk" maxlength="200"></label><label class="field" id="generation-subject-field" hidden>Предмет на казахском<input name="subjectKk" maxlength="100"></label><fieldset><legend>Настройки агентов</legend><label class="field">Объём лекции<select name="length"><option value="compact">Короткая — около 450 слов, максимум 650</option><option value="standard">Обычная — около 700 слов, максимум 950</option><option value="detailed">Подробная — около 1000 слов, максимум 1300</option></select></label><p class="field-help">На каждом языке отдельно. Простая тема может быть короче. Без повторов, воды и необязательных отступлений.</p><label class="field">Источники<select name="externalSources"><option value="1">Учебник + максимум 1 дополнительный источник</option><option value="0">Только учебник</option></select></label><p class="field-help">Один полезный источник при необходимости. Настройки применяются ко всем этапам и сохраняются для следующих запусков в этом браузере.</p></fieldset><button class="primary-button" id="generation-start" ${!data.runtime.available||!data.books.length?'disabled':''}>Начать генерацию</button><p class="field-help">CLI и модель задаются в ai.config.json и фиксируются в заказе. Доступ и лимиты определяет аккаунт выбранного поставщика. Изображения не генерируются. Новые файлы появятся в lessons по классу и предмету.</p></form><p id="generation-connection" class="field-help" role="status"></p><div id="generation-jobs"></div>`;
+    const form=dialog.querySelector('#generation-order'),bookInfo=dialog.querySelector('#generation-book-info'),topicInfo=dialog.querySelector('#generation-topic-info');
+    try{const saved=JSON.parse(localStorage.getItem('generation-agent-settings')||'{}');if(['compact','standard','detailed'].includes(saved.length))form.elements.namedItem('length').value=saved.length;if(['0','1'].includes(String(saved.externalSources)))form.elements.externalSources.value=String(saved.externalSources);}catch{}
+    for(const name of ['length','externalSources'])form.elements.namedItem(name).addEventListener('change',()=>{try{localStorage.setItem('generation-agent-settings',JSON.stringify({length:form.elements.namedItem('length').value,externalSources:form.elements.externalSources.value}));}catch{}});
+    const book=()=>data.books.find(b=>b.id===form.elements.bookId.value);
+    function selectBook(){
+     const selected=book();form.elements.topicRu.value='';form.elements.topicKk.value='';topicInfo.textContent='';
+     form.elements.topicId.innerHTML='<option value="">Своя тема</option>'+(selected?.topics??[]).map(t=>`<option value="${e(t.id)}">${e(t.title)} · с. ${e(t.pageStart)}${t.pageEnd?`–${e(t.pageEnd)}`:''}</option>`).join('');
+     const subjectField=dialog.querySelector('#generation-subject-field');subjectField.hidden=!!selected?.subjectKk;form.elements.subjectKk.required=!selected?.subjectKk;form.elements.subjectKk.value=selected?.subjectKk??'';
+     bookInfo.textContent=selected?`${selected.grade} класс · ${selected.subjectRu} / ${selected.subjectKk||'название на казахском нужно указать'} · тем: ${selected.topics?.length??0}. ${selected.warnings?.join(' ')||'Страницы и качество исходника проверит отдельный агент.'}`:'Нет разобранных учебников.';
+     dialog.querySelector('#generation-start').disabled=!data.runtime.available||!selected||selected.status==='source_missing';
+    }
+    form.elements.bookId.addEventListener('change',selectBook);
+    form.elements.topicId.addEventListener('change',()=>{
+     const topic=book()?.topics?.find(t=>t.id===form.elements.topicId.value);
+     form.elements.topicRu.value=topic?.title??'';form.elements.topicKk.value=topic?.titleKk??'';
+     topicInfo.textContent=topic?`Страницы учебника: ${topic.pageStart}${topic.pageEnd?`–${topic.pageEnd}`:''}${topic.pageEndEstimated?' (конец диапазона оценён в разборе)':''}. Эта привязка сохранится в заказе.`:'Можно задать тему своими словами; агент найдёт соответствующий материал.';
+    });
+    selectBook();
+    dialog.querySelector('#generation-close').addEventListener('click',()=>dialog.close());
+    dialog.querySelector('#generation-order').addEventListener('submit',async event=>{event.preventDefault();const button=event.currentTarget.querySelector('button');button.disabled=true;try{const created=await api('/api/generation',{method:'POST',body:JSON.stringify(Object.fromEntries(new FormData(event.currentTarget)))});toast(`Заказ создан. ${aiSelectionLabel(created.ai)}.`);await load();}catch(error){toast(error.message,true);}finally{button.disabled=false;}});
+   }
+   dialog.querySelector('#generation-connection').textContent='Статус обновляется каждые 4 секунды. Время активности меняется только при событиях агента.';
+   const panel=dialog.querySelector('#generation-jobs');
+   const signature=JSON.stringify(data.jobs.map(({stageDurationMs,idleMs,quiet,...job})=>job));
+   if(signature!==jobsSignature){jobsSignature=signature;panel.innerHTML=data.jobs.map(j=>`<article class="generation-job"><h3>${e(j.title)}</h3><p>${e(aiSelectionLabel(j.ai??{runtime:'codex',configSource:'legacy'}))}</p><p>${e(j.message)}</p><div class="generation-job-progress" data-job-id="${e(j.id)}">${renderProgress(j,e)}</div><ol>${names.map((name,i)=>`<li>${i<j.stage?'✓ ':i===j.stage&&j.status==='running'?'… ':''}${name}</li>`).join('')}</ol>${j.status==='running'?`<button data-stop="${j.id}" class="secondary-button">Остановить</button>`:j.status==='completed'?`<button data-open="${e(j.lessonId)}" class="primary-button">Открыть урок</button>`:`<button data-resume="${j.id}" class="secondary-button">Продолжить</button>`}</article>`).join('');
+   panel.querySelectorAll('[data-resume],[data-stop]').forEach(button=>button.addEventListener('click',async()=>{try{await api(`/api/generation/${button.dataset.resume??button.dataset.stop}/${button.dataset.resume?'resume':'stop'}`,{method:'POST',body:'{}'});await load();}catch(error){toast(error.message,true);}}));
+   panel.querySelectorAll('[data-open]').forEach(button=>button.addEventListener('click',()=>{dialog.close();onLesson(button.dataset.open);}));}
+   for(const node of panel.querySelectorAll('.generation-job-progress')){const job=jobs.find(j=>j.id===node.dataset.jobId);if(job)node.innerHTML=renderProgress(job,e);}
+  }catch(error){const connection=dialog.querySelector('#generation-connection');if(connection)connection.textContent='Не удалось обновить статус. Показаны последние полученные данные; связь восстановится автоматически.';else{toast(error.message,true);dialog.close();}}finally{loading=false;}
+ }
+ dialog.addEventListener('close',()=>{clearInterval(timer);clearInterval(clockTimer);dialog.remove();},{once:true});await load(true);if(dialog.isConnected){timer=setInterval(()=>load(),4000);clockTimer=setInterval(()=>{for(const node of dialog.querySelectorAll('.generation-job-progress')){const job=jobs.find(j=>j.id===node.dataset.jobId);if(job?.status==='running')node.innerHTML=renderProgress(job,e,Math.max(0,Date.now()-receivedAt));}},1000);}
+}

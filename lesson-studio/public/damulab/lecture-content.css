@@ -1,0 +1,200 @@
+/* Read-only Quill: стандартная разметка редактора без копирования Snow theme. */
+.damulab-lecture {
+    --text: #0f172a;
+    --muted: #64748b;
+    --line: #e2e8f0;
+    --primary: #4f46e5;
+    --primary-dark: #4338ca;
+    font-family: "Manrope", "Nunito", "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+    font-weight: 500;
+    color: var(--text);
+    margin-top: 18px;
+    /* Два одинаковых масштаба в iframe и на странице: vw страницы-каталога
+       не должен менять шрифт того же урока внутри узкой панели Мастерской. */
+    font-size: 1.12rem;
+    line-height: 1.78;
+    overflow-wrap: break-word;
+}
+
+.damulab-lecture p,
+.damulab-lecture ul,
+.damulab-lecture ol,
+.damulab-lecture blockquote,
+.damulab-lecture pre,
+.damulab-lecture table {
+    margin: 0 0 1.25rem;
+}
+
+.damulab-lecture h2 {
+    font-family: "Manrope", "Nunito", "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+    font-weight: 700;
+    margin: 2.4rem 0 0.8rem;
+    font-size: 1.9rem;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+}
+
+.damulab-lecture h3 {
+    font-family: "Manrope", "Nunito", "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+    font-weight: 700;
+    margin: 1.8rem 0 0.65rem;
+    font-size: 1.42rem;
+    line-height: 1.35;
+}
+
+.damulab-lecture > div > :first-child {
+    margin-top: 0;
+}
+
+.damulab-lecture ul,
+.damulab-lecture ol {
+    display: grid;
+    gap: 0.45rem;
+    padding-left: 1.4rem;
+}
+
+.damulab-lecture blockquote {
+    border-left: 4px solid var(--primary);
+    border-radius: 0 12px 12px 0;
+    background: #f5f7ff;
+    padding: 16px 18px;
+    color: var(--muted);
+}
+
+.damulab-lecture pre,
+.damulab-lecture code {
+    font-family: "Cascadia Code", "SFMono-Regular", Consolas, monospace;
+}
+
+.damulab-lecture pre {
+    overflow-x: auto;
+    border-radius: 12px;
+    background: #101828;
+    color: #f8fafc;
+    padding: 16px;
+}
+
+.damulab-lecture table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    border-collapse: collapse;
+}
+
+.damulab-lecture th,
+.damulab-lecture td {
+    min-width: 120px;
+    border: 1px solid var(--line);
+    padding: 10px 12px;
+    text-align: left;
+}
+
+.damulab-lecture a {
+    color: var(--primary-dark);
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.18em;
+}
+
+.damulab-lecture .ql-formula {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: -0.18em;
+}
+.damulab-lecture .ql-formula .katex {font-size: 1.4em;}
+
+.damulab-lecture .lecture-formula-block {
+    max-width: 100%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    border: 1px solid #dbe2ff;
+    border-radius: 14px;
+    background: #f8f9ff;
+    padding: 18px 20px;
+    text-align: center;
+}
+
+.damulab-lecture .lecture-formula-block .ql-formula {
+    max-width: none;
+    min-width: max-content;
+}
+
+.damulab-lecture .lecture-formula-block .katex {
+    font-size: 1.72em;
+}
+
+.damulab-lecture img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0.9rem auto;
+    max-height: min(68vh, 680px);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0 10px 26px rgba(16, 24, 40, 0.08);
+    object-fit: contain;
+}
+
+.damulab-lecture iframe.ql-video {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    /* YouTube требует область не меньше 200px по высоте. На телефоне чистое
+       соотношение 16:9 давало 150–180px и сжимало элементы управления. */
+    min-height: 200px;
+    border: 0;
+    margin: 1rem 0;
+    border-radius: 14px;
+    background: #101828;
+    box-shadow: 0 10px 26px rgba(16, 24, 40, 0.12);
+}
+
+/* Составные блоки собирает тот же JS и в student reader, и в Мастерской. */
+.damulab-lecture *, .damulab-lecture *::before {box-sizing: border-box;}
+.damulab-lecture h2, .damulab-lecture h3 {scroll-margin-top: 20px;}
+.damulab-lecture strong, .damulab-lecture b {font-weight: 700;}
+.damulab-lecture .table-scroll {max-width: 100%; overflow-x: auto;}
+.damulab-lecture code, .damulab-lecture pre {white-space: pre-wrap;}
+.damulab-lecture .lecture-goals {border: 1px solid #dbe2ff; border-radius: 14px; padding: 20px; margin-bottom: 28px; background: #f8f9ff;}
+.damulab-lecture .lecture-goals h2 {font-size: 1.15rem; margin: 0 0 12px;}
+.damulab-lecture .lecture-goals ul {margin-bottom: 0;}
+.damulab-lecture .lecture-self-check {border: 1px solid #c7d2fe; border-radius: 14px; padding: 20px; margin: 24px 0;}
+.damulab-lecture .lecture-self-check [data-lecture-part="prompt"]:first-child::before {content: "Проверь себя"; display: block; color: #4338ca; font-weight: 700; margin-bottom: 8px;}
+.damulab-lecture:lang(kk) .lecture-self-check [data-lecture-part="prompt"]:first-child::before {content: "Өзіңді тексер";}
+.damulab-lecture .lecture-self-check details {border-top: 1px solid #e0e7ff; padding-top: 12px;}
+.damulab-lecture .lecture-self-check summary {cursor: pointer; font-weight: 700; color: #4338ca; min-height: 44px; padding: 8px 0;}
+.damulab-lecture .lecture-self-check summary:focus-visible {outline: 3px solid #a5b4fc; outline-offset: 4px;}
+.damulab-lecture .lecture-self-check details > :last-child {margin-bottom: 0;}
+.damulab-lecture blockquote[data-lecture-tone]::before {display: block; font-weight: 700; color: #4338ca; margin-bottom: 8px;}
+.damulab-lecture blockquote[data-lecture-tone="definition"]::before {content: "Определение";}
+.damulab-lecture blockquote[data-lecture-tone="example"]::before {content: "Пример";}
+.damulab-lecture blockquote[data-lecture-tone="warning"]::before {content: "Обрати внимание";}
+.damulab-lecture blockquote[data-lecture-tone="summary"]::before {content: "Главное";}
+.damulab-lecture:lang(kk) blockquote[data-lecture-tone="definition"]::before {content: "Анықтама";}
+.damulab-lecture:lang(kk) blockquote[data-lecture-tone="example"]::before {content: "Мысал";}
+.damulab-lecture:lang(kk) blockquote[data-lecture-tone="warning"]::before {content: "Назар аудар";}
+.damulab-lecture:lang(kk) blockquote[data-lecture-tone="summary"]::before {content: "Ең бастысы";}
+.damulab-lecture blockquote[data-lecture-tone="example"] {border-color: #147d64; background: #effaf5;}
+.damulab-lecture blockquote[data-lecture-tone="warning"] {border-color: #b66a11; background: #fff8e8;}
+.damulab-lecture blockquote[data-lecture-tone="summary"] {border-color: #64748b; background: #f3f5f8;}
+.damulab-lecture blockquote > :last-child {margin-bottom: 0;}
+
+@media (max-width: 580px) {
+    .damulab-lecture {font-size: 1rem;}
+    .damulab-lecture h2 {font-size: 1.45rem;}
+    .damulab-lecture h3 {font-size: 1.18rem;}
+    .damulab-lecture .lecture-goals h2 {font-size: 1.15rem;}
+    .damulab-lecture .lecture-formula-block {
+        margin-inline: -4px;
+        padding: 14px 12px;
+        text-align: left;
+    }
+
+    .damulab-lecture .lecture-formula-block .katex {
+        font-size: 1.45em;
+    }
+
+}
