@@ -62,6 +62,17 @@ test('adding an OCR page cannot authorize changing numbers quoted from a native 
  assert.ok(sourceArtifactErrors(doc,context,brief).some(e=>e.code==='source_quote'));
 });
 
+test('OCR correction limits count edited characters, not unchanged context in replacement strings',()=>{
+ const raw='Таким образом, падение Западной — Рим-\nской империи и разложение = рабовладель-\nческого строя явились началом периода Сред-\nневековья в истории человечества.';
+ const corrections=[{from:'Западной — Рим-\nской',to:'Западной Римской'},{from:'разложение = рабовладель-\nческого',to:'разложение рабовладельческого'},{from:'Сред-\nневековья',to:'Средневековья'}];
+ const context={...input,pages:[{bookPage:16,method:'tesseract.js',text:raw,pngSha256:'b'.repeat(64),ocrLanguages:['rus']}]};
+ const doc=valid();doc.verification={method:'ocr_with_visual_review',pages:[{bookPage:16,pngSha256:'b'.repeat(64),status:'checked',notes:'Переносы и лишние символы сверены по PNG страницы.'}]};doc.ocrInfo={languages:['rus']};
+ doc.keyIdeas=[{id:'idea-01',sourcePages:[16],ocrQuote:raw,ocrCorrections:corrections,statement:corrections.reduce((s,c)=>s.replace(c.from,c.to),raw)}];
+ assert.deepEqual(sourceArtifactErrors(doc,context,brief),[]);
+ const short='abcdefghijklmnopqrst';context.pages[0].text=short;doc.keyIdeas[0]={id:'idea-01',sourcePages:[16],ocrQuote:short,ocrCorrections:[{from:short,to:'uvwxyzuvwxyzuvwxyzuv'}],statement:'uvwxyzuvwxyzuvwxyzuv'};
+ assert.ok(sourceArtifactErrors(doc,context,brief).some(e=>e.code==='source_ocr_correction'));
+});
+
 async function scannedFixture(t,{ocrUsable=true,models=true}={}){
  const repo=await fs.mkdtemp(path.join(os.tmpdir(),'studio-ocr-'));t.after(()=>fs.rm(repo,{recursive:true,force:true}));
  const dir=path.join(repo,'lesson'),pdf=path.join(repo,'source.pdf'),parsed=path.join(repo,'parsed.json');await fs.mkdir(dir);await fs.writeFile(pdf,'pdf');

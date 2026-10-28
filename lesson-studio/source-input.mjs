@@ -18,6 +18,11 @@ export function ocrLanguages(metadata={}) {
 }
 const ocrPages=input=>input.pages.filter(p=>p.method==='tesseract.js');
 const verificationMethod=input=>ocrPages(input).length?(ocrPages(input).length===input.pages.length?'ocr_with_visual_review':'mixed_with_visual_review'):'pdf_text_layer';
+function changedCharacters(from,to) {
+ let row=Array.from({length:to.length+1},(_,i)=>i);
+ for(let i=1;i<=from.length;i++){const next=[i];for(let j=1;j<=to.length;j++)next[j]=Math.min(row[j]+1,next[j-1]+1,row[j-1]+(from[i-1]===to[j-1]?0:1));row=next;}
+ return row[to.length];
+}
 
 // Deterministic preparation, using the same shared PDF tools as the parser skill.
 // No lesson/source artifact or verification claim is generated on the model's behalf.
@@ -111,8 +116,10 @@ export function sourceArtifactErrors(data,input,brief) {
   if(idea.ocrQuote!=null||idea.ocrCorrections!=null){
    corpus=normalize(cited.filter(p=>p.method==='tesseract.js').map(p=>p.text).join(' '));
    let corrected=idea.ocrQuote,valid=typeof corrected==='string'&&cited.some(p=>p.method==='tesseract.js')&&Array.isArray(idea.ocrCorrections)&&idea.ocrCorrections.length>0&&idea.ocrCorrections.length<=12,total=0;
-   if(valid)for(const c of idea.ocrCorrections){if(typeof c?.from!=='string'||!c.from.length||c.from.length>40||typeof c.to!=='string'||c.to.length>40||corrected.split(c.from).length!==2){valid=false;break;}total+=c.from.length;corrected=corrected.replace(c.from,c.to);}
-   if(!valid||total>idea.ocrQuote.length*.4||normalize(corrected)!==normalize(idea.statement))add('source_ocr_correction','Правка OCR должна быть локальной и явно описанной: ocrQuote из распознанного текста, ocrCorrections [{from,to}]. Не заменяйте цитату пересказом.',idea.id);
+   if(valid)for(const c of idea.ocrCorrections){if(typeof c?.from!=='string'||!c.from.length||c.from.length>40||typeof c.to!=='string'||c.to.length>40||corrected.split(c.from).length!==2){valid=false;break;}total+=changedCharacters(c.from,c.to);corrected=corrected.replace(c.from,c.to);}
+   if(!valid)add('source_ocr_correction','Нужны точная исходная цитата OCR и однозначные локальные замены по контракту парсера.',idea.id);
+   else if(total>idea.ocrQuote.length*.4)add('source_ocr_correction','Исправлено более 40% символов цитаты OCR. Выберите более надёжный фрагмент; пересказ нельзя выдавать за цитату.',idea.id);
+   else if(normalize(corrected)!==normalize(idea.statement))add('source_ocr_correction','Цитата не получается из указанных исправлений OCR. Не переставляйте строки таблицы и не добавляйте слова в дословную цитату; реконструкцию отмечайте отдельно.',idea.id);
    quote=typeof idea.ocrQuote==='string'?idea.ocrQuote:'';
   }
   if(!quote.trim()||!corpus.includes(normalize(quote)))add('source_quote','Цитата не совпадает с текстом указанных страниц. Скопируйте дословный непрерывный фрагмент; не переводите и не пересказывайте его.',idea.id);
