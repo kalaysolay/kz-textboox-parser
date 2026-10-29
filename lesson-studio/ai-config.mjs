@@ -38,6 +38,33 @@ export async function loadAIConfig({configFile=path.join(HERE,'ai.config.json'),
  return parseAIConfig(value,{baseDir:path.dirname(configFile),env});
 }
 
+export async function runtimeExecutable(runtime,base,{env=process.env}={}) {
+ if(runtime===base.runtime)return base.executable;
+ if(runtime==='codex')return env.LESSON_STUDIO_CODEX_EXE||'codex';
+ if(runtime==='opencode'&&env.LOCALAPPDATA){
+  const installed=path.join(env.LOCALAPPDATA,'Programs','OpenCodeCLI','opencode.exe');
+  try{await fs.access(installed);return installed;}catch{}
+ }
+ return runtime;
+}
+
+// Browser overrides select a CLI/model, never executable paths or credentials.
+export async function orderAIConfig(base,override,{env=process.env}={}) {
+ if(override===undefined)return base;
+ const bad=message=>Object.assign(new Error('Настройки этого урока: '+message),{status:422,code:'ai_override_invalid'});
+ if(!override||typeof override!=='object'||Array.isArray(override)||Object.keys(override).some(k=>!['runtime','model','reasoningEffort'].includes(k)))throw bad('допустимы только runtime, model и reasoningEffort.');
+ if(!Object.keys(override).length)return base;
+ const runtime=override.runtime??base.runtime;
+ if(!['codex','opencode'].includes(runtime))throw bad('выберите Codex или OpenCode.');
+ const model=override.model??(runtime===base.runtime?base.model:null);
+ if(runtime!=='codex'&&override.reasoningEffort)throw bad('у OpenCode вариант задаётся в ID модели через #variant.');
+ const effort=Object.hasOwn(override,'reasoningEffort')?override.reasoningEffort:runtime===base.runtime?base.reasoningEffort:undefined;
+ try{
+  const parsed=parseAIConfig({runtime,model,...(runtime==='codex'&&effort?{reasoningEffort:effort}:{}),executable:await runtimeExecutable(runtime,base,{env})},{env});
+  return {...parsed,configSource:'order'};
+ }catch(error){if(error.code==='ai_config_invalid')throw bad(error.message.replace(/^ai.config.json:\s*/,''));throw error;}
+}
+
 // Only this allowlist may leave local job state; never expose executable or CLI config.
 export function publicAISelection(config) {
  return {runtime:config.runtime,model:config.model??null,...(config.reasoningEffort?{reasoningEffort:config.reasoningEffort}:{}),configSource:config.configSource??'legacy',...(config.cliVersion?{cliVersion:config.cliVersion}:{})};

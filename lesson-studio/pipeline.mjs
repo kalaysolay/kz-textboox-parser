@@ -7,7 +7,7 @@ import {hasOpenReviewIssues} from './review.mjs';
 import {textbookCatalog} from './book-catalog.mjs';
 import {generationSettings,settingsPrompt,lessonBudget} from './generation-settings.mjs';
 import {progressSnapshot} from './generation-progress.mjs';
-import {loadAIConfig,legacyAIConfig,publicAISelection} from './ai-config.mjs';
+import {loadAIConfig,legacyAIConfig,publicAISelection,orderAIConfig,runtimeExecutable} from './ai-config.mjs';
 import {probeAI,runAIStage,stopAIProcess} from './ai-runtime.mjs';
 import {prepareSourceInput,sourceArtifactErrors,sourceArtifactReview,sourceStageContract} from './source-input.mjs';
 import {fastStagePlan,runFastPipeline} from './fast-pipeline.mjs';
@@ -27,6 +27,10 @@ export class LessonPipeline {
  }
  async config(){return loadAIConfig({configFile:this.configFile});}
  async available(config){return probeAI(config??await this.config(),{spawnProcess:this.spawnRuntime});}
+ async runtimeOptions(){
+  const base=await this.config();
+  return Promise.all(['codex','opencode'].map(async runtime=>this.available({runtime,model:runtime===base.runtime?base.model:null,executable:await runtimeExecutable(runtime,base),configSource:'installation'})));
+ }
  async books(){
   return textbookCatalog({repo:this.repo,lessonsRoot:this.root});
  }
@@ -54,7 +58,7 @@ export class LessonPipeline {
   const title=safeName(input.topicRu||selectedTopic?.title),subjectKk=String(book?.subjectKk||input.subjectKk||'').trim();
   if(!book||title.length<3||title.length>130||!subjectKk)throw fail(422,'generation_order','Выберите учебник и тему. Для неизвестного предмета укажите название на казахском.');
   if(!book.pdfTextbookPath&&!selectedTopic?.textAvailable)throw fail(422,'source_missing','Нет готового текста раздела и исходного PDF. Выберите подготовленную тему или привяжите PDF.');
-  const config=await this.config(),runtime=await this.available(config);if(!runtime.available)throw fail(503,'ai_missing',`${config.runtime==='opencode'?'OpenCode':'Codex'} CLI не найден. Проверьте executable в ai.config.json и PATH.`);
+  const config=await orderAIConfig(await this.config(),input.aiOverride),runtime=await this.available(config);if(!runtime.available)throw fail(503,'ai_missing',`${config.runtime==='opencode'?'OpenCode':'Codex'} CLI не найден. Проверьте executable в ai.config.json и PATH.`);
   const aiConfig={...config,cliVersion:runtime.version};
   const dir=path.join(this.root,`${book.grade} класс`,safeName(book.subjectRu),title);
   try{await fs.mkdir(dir,{recursive:false});}catch(error){if(error.code==='ENOENT'){await fs.mkdir(path.dirname(dir),{recursive:true});await fs.mkdir(dir);}else if(error.code==='EEXIST')throw fail(409,'lesson_exists','Каталог этой темы уже существует. Откройте его или задайте другое название.');else throw error;}

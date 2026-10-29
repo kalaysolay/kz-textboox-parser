@@ -135,7 +135,7 @@ export async function createLessonServer({lessonsRoot=DEFAULT_ROOT,core:provided
       if(req.method==='GET'&&url.pathname==='/api/damulab')return send(res,200,damulab.status());
       if(req.method==='GET'&&url.pathname==='/api/generation')return send(res,200,{jobs:pipeline.list(),serverTime:new Date().toISOString()});
       if(req.method==='GET'&&url.pathname==='/api/generation/catalog'){
-        const [runtime,books]=await Promise.all([pipeline.available().catch(error=>{if(error.code==='ai_config_invalid')return {available:false,error:{code:error.code,message:error.message}};throw error;}),pipeline.books()]);return send(res,200,{runtime,books});
+        const [runtime,books,aiOptions]=await Promise.all([pipeline.available().catch(error=>{if(error.code==='ai_config_invalid')return {available:false,error:{code:error.code,message:error.message}};throw error;}),pipeline.books(),pipeline.runtimeOptions?.().catch(()=>[])??[]]);return send(res,200,{runtime,books,aiOptions});
       }
       if(req.method==='POST'&&url.pathname==='/api/generation')return send(res,202,await pipeline.start(await jsonBody(req)));
       const jobRoute=url.pathname.match(/^\/api\/generation\/([a-f0-9]{24})\/(resume|stop)$/);

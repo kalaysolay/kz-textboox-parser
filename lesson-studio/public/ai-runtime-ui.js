@@ -3,7 +3,8 @@ export function aiSelectionLabel(selection) {
  const model=selection?.model??'модель из настроек CLI';
  const effort=selection?.reasoningEffort?` · ${selection.reasoningEffort}`:'';
  const legacy=selection?.configSource==='legacy'?' · старый запуск, точная модель не зафиксирована':'';
- return `${name} · ${model}${effort}${legacy}`;
+ const order=selection?.configSource==='order'?' · выбор для этого урока':'';
+ return `${name} · ${model}${effort}${legacy}${order}`;
 }
 
 export function aiRuntimeStatus(runtime) {
