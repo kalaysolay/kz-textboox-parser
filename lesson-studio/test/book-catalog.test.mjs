@@ -37,6 +37,12 @@ test('missing PDF stays visible but cannot launch an unchecked generation',async
  await assert.rejects(pipeline.start({bookId:books[0].id,topicId:books[0].topics[0].id}),e=>e.code==='source_missing');
 });
 
+test('a complete parsed section remains available when PDF is absent',async t=>{
+ const f=await fixture(t),doc=book('Отсутствует.pdf');doc.topics_with_pages[0].full_text='Полный текст раздела учебника.';
+ await f.write('parsed_outputs/математика/4 класс/book.json',doc);
+ const [selected]=await f.catalog();assert.equal(selected.status,'parsed_available');assert.equal(selected.topics[0].textAvailable,true);
+});
+
 test('topic selection excludes utility pages, keeps language and estimated page provenance, and has stable identity',()=>{
  const doc={metadata:{languages:['kk']},topics_with_pages:[{id:'cover',level:'front_matter',topic_title:'Мұқаба',page_start:1},{id:'a',level:'topic',topic_title:'Алғашқы адамдар',page_start:10,page_end_estimated:15},{id:'section',level:'section',topic_title:'Бөлім',page_start:3}]};
  const topics=textbookTopics(doc);assert.equal(topics.length,1);assert.equal(topics[0].titleKk,'Алғашқы адамдар');assert.equal(topics[0].titleRu,'');assert.equal(topics[0].pageEndEstimated,true);

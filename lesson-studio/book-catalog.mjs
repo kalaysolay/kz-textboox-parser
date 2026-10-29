@@ -23,7 +23,7 @@ export function textbookTopics(doc){
   if(!title||!Number.isInteger(start)||start<1)return;
   const end=Number(t.page_end??t.page_end_estimated),level=t.level??(nested?'lesson':'topic');
   if(!nested&&!['topic','lesson','paragraph'].includes(level))return;
-  result.push({id:digest(JSON.stringify([t.id??null,title,start,Number.isInteger(end)?end:null,parentTitle])).slice(0,24),title,titleRu,titleKk,pageStart:start,pageEnd:Number.isInteger(end)&&end>=start?end:null,pageEndEstimated:t.page_end==null&&t.page_end_estimated!=null,sourceId:t.id??null,lessonNo:t.lesson_no??t.lesson_range??null,parentTitle,confidence:t.confidence??null});
+  result.push({id:digest(JSON.stringify([t.id??null,title,start,Number.isInteger(end)?end:null,parentTitle])).slice(0,24),title,titleRu,titleKk,pageStart:start,pageEnd:Number.isInteger(end)&&end>=start?end:null,pageEndEstimated:t.page_end==null&&t.page_end_estimated!=null,sourceId:t.id??null,lessonNo:t.lesson_no??t.lesson_range??null,parentTitle,confidence:t.confidence??null,textAvailable:typeof t.full_text==='string'&&!!t.full_text.trim()&&!t.full_text_status?.truncated&&t.full_text_status?.available!==false});
  }
  for(const t of (Array.isArray(doc.topics_with_pages)?doc.topics_with_pages:[])){
   add(t);
@@ -57,7 +57,8 @@ export async function textbookCatalog({repo,lessonsRoot}){
   const pdf=matches.length===1?matches[0]:registered&&pdfs.includes(registered)?registered:null;
   const topics=textbookTopics(doc),version=Number(String(doc.source.version??file.match(/_v(\d+)\.json$/i)?.[1]??0).replace(/^v/i,''))||0;
   const title=clean(doc.metadata.title)||clean(doc.source.file_name)||path.basename(file,'.json');
-  books.push({id:digest(file).slice(0,24),title,part:doc.metadata.part??null,authors:Array.isArray(doc.metadata.authors)?doc.metadata.authors:[],subjectRu,subjectKk:subjectNames[subjectRu]??'',grade,parsedTextbookPath:file,pdfTextbookPath:pdf,sourceFileName:pdf?path.basename(pdf):clean(doc.source.file_name),status:pdf?'available':'source_missing',topics,version,qualityNote:clean(doc.source.quality_report?.note),warnings:pdf?[]:['Исходный PDF не найден: темы доступны, запуск требует привязки PDF для проверки источника.']});
+  const parsedAvailable=topics.some(t=>t.textAvailable);
+  books.push({id:digest(file).slice(0,24),title,part:doc.metadata.part??null,authors:Array.isArray(doc.metadata.authors)?doc.metadata.authors:[],subjectRu,subjectKk:subjectNames[subjectRu]??'',grade,parsedTextbookPath:file,pdfTextbookPath:pdf,sourceFileName:pdf?path.basename(pdf):clean(doc.source.file_name),status:pdf?'available':parsedAvailable?'parsed_available':'source_missing',topics,version,qualityNote:clean(doc.source.quality_report?.note),warnings:pdf?[]:[parsedAvailable?'PDF не найден; доступны темы с готовым текстом JSON.':'Исходный PDF и готовый текст разделов не найдены.']});
  }
  // Выбираем актуальную версию одного PDF, но разные части/учебники не объединяем.
  const latest=new Map();

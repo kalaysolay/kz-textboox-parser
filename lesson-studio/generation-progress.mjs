@@ -54,6 +54,7 @@ export function progressSnapshot(job,child,now=Date.now()) {
  const lastActivityAt=job.lastActivityAt??job.completed?.at(-1)?.completedAt??null;
  const last=Date.parse(lastActivityAt??'');
  return {
+  totalDurationMs:Number.isFinite(job.activeDurationMs)?job.activeDurationMs+(running&&job.runStartedAt?Math.max(0,now-Date.parse(job.runStartedAt)):0):null,
   processAlive:running&&!!child&&child.exitCode===null&&!child.killed,
   stageDurationMs:Number.isFinite(started)?Math.max(0,(running?now:Number.isFinite(end)?end:started)-started):null,
   lastActivityAt,

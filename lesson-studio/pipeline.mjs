@@ -10,16 +10,17 @@ import {progressSnapshot} from './generation-progress.mjs';
 import {loadAIConfig,legacyAIConfig,publicAISelection} from './ai-config.mjs';
 import {probeAI,runAIStage,stopAIProcess} from './ai-runtime.mjs';
 import {prepareSourceInput,sourceArtifactErrors,sourceArtifactReview,sourceStageContract} from './source-input.mjs';
+import {fastStagePlan,runFastPipeline} from './fast-pipeline.mjs';
 
 const sha=v=>createHash('sha256').update(v).digest('hex');
 const fail=(status,code,message)=>Object.assign(new Error(message),{status,code});
 const safeName=s=>String(s).normalize('NFC').replace(/[<>:"/\\|?*\x00-\x1f]/g,' ').replace(/\s+/g,' ').trim().replace(/[. ]+$/,'').slice(0,130);
 const stages=[['source','parser','01-Источник учебника.json'],['research','researcher','Дополнительные источники.json'],['plan','planner','02-План.json'],['author','generator',null],['review','reviewer','04-Ревью.json']];
 
-// Каждый этап — новая сессия выбранного CLI. Настройки закрепляются за заказом,
+// Каждый AI-этап — новая сессия выбранного CLI. Настройки закрепляются за заказом,
 // авторизация остаётся в CLI. Без файла конфигурации сохраняется прежний Codex.
 export class LessonPipeline {
- constructor({repo,lessonsRoot,runStage,jobsDir,configFile,spawnRuntime=spawn,prepareSource=prepareSourceInput}){this.repo=repo;this.root=lessonsRoot;this.jobsDir=jobsDir??path.join(repo,'lesson-studio/.local/jobs');this.configFile=configFile??path.join(repo,'lesson-studio/ai.config.json');this.jobs=new Map();this.writes=new Map();this.running=null;this.spawnRuntime=spawnRuntime;this.prepareSource=prepareSource;this.execute=runStage??this.runStage.bind(this);}
+ constructor({repo,lessonsRoot,runStage,jobsDir,configFile,spawnRuntime=spawn,prepareSource=prepareSourceInput}){this.repo=repo;this.root=lessonsRoot;this.jobsDir=jobsDir??path.join(repo,'lesson-studio/.local/jobs');this.configFile=configFile??path.join(repo,'lesson-studio/ai.config.json');this.jobs=new Map();this.writes=new Map();this.events=new Map();this.running=null;this.spawnRuntime=spawnRuntime;this.prepareSource=prepareSource;this.execute=runStage??this.runStage.bind(this);}
  async initialize(){
   await fs.mkdir(this.jobsDir,{recursive:true});
   for(const file of await fs.readdir(this.jobsDir)){if(!/^[a-f0-9]+\.json$/.test(file))continue;try{const job=JSON.parse(await fs.readFile(path.join(this.jobsDir,file),'utf8'));if(job.status==='running'){job.stageFinishedAt??=job.lastActivityAt??job.stageStartedAt;job.status='interrupted';job.message='Мастерская была остановлена. Можно продолжить с последнего проверенного этапа.';}this.jobs.set(job.id,job);}catch{}}
@@ -39,18 +40,20 @@ export class LessonPipeline {
  activity(job,action){
   if(job.status!=='running'||job.cancelled)return;
   job.lastActivityAt=new Date().toISOString();job.activityCount=(job.activityCount??0)+1;
-  if(action)job.currentAction=action;
+  if(action){if(job.pipelineVersion===2&&action!==job.currentAction)void this.event(job,{event:'activity',stage:job.currentStage,action}).catch(()=>{});job.currentAction=action;}
   if(!this.progressTimer)this.progressTimer=setTimeout(()=>{this.progressTimer=null;void this.persist(job).catch(()=>{});},1000);
  }
  async start(input){
   if(this.running||this.starting)throw fail(409,'pipeline_busy','Уже выполняется генерация. Дождитесь завершения или остановите её.');
   this.starting=true;try{
   const agentSettings=generationSettings(input);
-  const book=(await this.books()).find(b=>b.id===input.bookId),selectedTopic=input.topicId?book?.topics?.find(t=>t.id===input.topicId):null;
+  const book=(await this.books()).find(b=>b.id===input.bookId),name=s=>String(s??'').normalize('NFC').trim().toLocaleLowerCase('ru');
+  const matches=(book?.topics??[]).filter(t=>[t.title,t.titleRu,t.titleKk].some(title=>title&&name(title)===name(input.topicRu)));
+  const selectedTopic=input.topicId?book?.topics?.find(t=>t.id===input.topicId):matches.length===1?matches[0]:null;
   if(input.topicId&&!selectedTopic)throw fail(422,'topic_missing','Тема больше не найдена в выбранном учебнике. Обновите список.');
   const title=safeName(input.topicRu||selectedTopic?.title),subjectKk=String(book?.subjectKk||input.subjectKk||'').trim();
   if(!book||title.length<3||title.length>130||!subjectKk)throw fail(422,'generation_order','Выберите учебник и тему. Для неизвестного предмета укажите название на казахском.');
-  if(!book.pdfTextbookPath)throw fail(422,'source_missing','Для этого разбора не найден PDF. Сначала нужна привязка исходника для проверки страниц.');
+  if(!book.pdfTextbookPath&&!selectedTopic?.textAvailable)throw fail(422,'source_missing','Нет готового текста раздела и исходного PDF. Выберите подготовленную тему или привяжите PDF.');
   const config=await this.config(),runtime=await this.available(config);if(!runtime.available)throw fail(503,'ai_missing',`${config.runtime==='opencode'?'OpenCode':'Codex'} CLI не найден. Проверьте executable в ai.config.json и PATH.`);
   const aiConfig={...config,cliVersion:runtime.version};
   const dir=path.join(this.root,`${book.grade} класс`,safeName(book.subjectRu),title);
@@ -62,7 +65,7 @@ export class LessonPipeline {
   brief.targetLength=`Ориентир ${agentSettings.targetWords}, максимум ${agentSettings.maxWords} слов на каждом языке`;
   brief.enrichmentPolicy=`Учебник и максимум ${agentSettings.externalSources} дополнительный источник. Без воды и повторов.`;
   await fs.writeFile(path.join(dir,'00-Заказ.json'),JSON.stringify(brief,null,2));
-  const job={id,lessonId,dir,title,createdAt,status:'queued',stage:0,completed:[],attempt:0,message:'Заказ создан',runtime:runtime.version,aiConfig};this.jobs.set(id,job);await this.persist(job);void this.run(job);return this.publicJob(job);
+  const job={id,lessonId,dir,title,createdAt,status:'queued',stage:0,completed:[],attempt:0,message:'Заказ создан',runtime:runtime.version,aiConfig,...(selectedTopic?{pipelineVersion:2,stagePlan:fastStagePlan(agentSettings.externalSources)}:{})};this.jobs.set(id,job);await this.persist(job);void this.run(job);return this.publicJob(job);
   }finally{this.starting=false;}
  }
  async resume(id){const job=this.jobs.get(id);if(!job)throw fail(404,'job_missing','Запуск не найден.');if(this.running||this.starting)throw fail(409,'pipeline_busy','Другой запуск ещё работает.');if(job.status==='completed')return this.publicJob(job);
@@ -87,6 +90,7 @@ export class LessonPipeline {
   await this.event(job,{event:'technical_repair_requested',stage:key,codes:errors.map(e=>e.code)});await this.persist(job);
  }
  async run(job){
+  if(job.pipelineVersion===2)return runFastPipeline(this,job);
   if(this.running)return;const previousError=job.errorCode;this.running={job,child:null};job.cancelled=false;job.status='running';delete job.errorCode;
   try{
    await this.persist(job);
@@ -144,7 +148,7 @@ export class LessonPipeline {
   }catch(error){job.status=job.cancelled?'interrupted':'needs_attention';job.message=job.cancelled?'Остановлено пользователем. Готовые этапы сохранены.':error.status?error.message:'Этап не завершён. Проверьте его артефакты и состояние CLI; можно продолжить.';job.errorCode=error.code??'runtime_failed';await this.event(job,{event:'stage_failed',stage:stages[job.stage]?.[0],code:job.errorCode});}
   finally{clearTimeout(this.progressTimer);this.progressTimer=null;job.stageFinishedAt??=new Date().toISOString();try{await this.persist(job);}finally{this.running=null;}}
  }
- async event(job,entry){await fs.appendFile(path.join(job.dir,'Журнал.jsonl'),JSON.stringify({timestamp:new Date().toISOString(),actor:'lesson-studio-pipeline',...entry})+'\n');}
+ async event(job,entry){const data=JSON.stringify({timestamp:new Date().toISOString(),actor:'lesson-studio-pipeline',...entry})+'\n';const queued=(this.events.get(job.id)??Promise.resolve()).catch(()=>{}).then(()=>fs.appendFile(path.join(job.dir,'Журнал.jsonl'),data));this.events.set(job.id,queued);try{await queued;}finally{if(this.events.get(job.id)===queued)this.events.delete(job.id);}}
  async close(){if(this.running)await this.stop(this.running.job.id);}
  runStage({job,key,prompt,dir,externalSources}){return runAIStage({config:job.aiConfig??legacyAIConfig(),repo:this.repo,key,prompt,dir,externalSources,spawnProcess:this.spawnRuntime,onSpawn:child=>{this.running.child=child;},onActivity:action=>this.activity(job,action)});}
 }
